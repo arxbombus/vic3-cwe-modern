@@ -1003,3 +1003,145 @@ pm_yes_corruption_services = {
 	}
 	
 }
+
+pm_technology_services_services = {
+	texture = "gfx/interface/icons/production_method_icons/financial_district.dds"
+	
+	unlocking_laws = {
+		law_strong_financial_regulations
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {											
+			goods_input_real_estate_add = 3
+			goods_input_corporate_services_add = 10
+			
+			goods_output_technology_services_add = 200
+			goods_output_intellectual_property_add = 1
+		}
+
+		level_scaled = {
+			#building_employment_engineers_add = 50000
+		}
+	}
+	
+}
+
+pm_technology_services_services_1 = {
+	texture = "gfx/interface/icons/production_method_icons/financial_district.dds"
+	
+	unlocking_laws = {
+		law_moderate_financial_regulations
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {											
+			goods_input_real_estate_add = 2
+			goods_input_corporate_services_add = 8
+			
+			goods_output_technology_services_add = 200
+			goods_output_intellectual_property_add = 1
+			goods_output_illegal_services_add = 2
+		}
+
+		level_scaled = {
+			#building_employment_engineers_add = 50000
+		}
+	}
+	
+}
+
+pm_technology_services_services_2 = {
+	texture = "gfx/interface/icons/production_method_icons/financial_district.dds"
+	
+	unlocking_laws = {
+		law_weak_financial_regulations
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {											
+			goods_input_real_estate_add = 1
+			goods_input_corporate_services_add = 6
+			
+			goods_output_technology_services_add = 200
+			goods_output_intellectual_property_add = 1
+			goods_output_illegal_services_add = 4
+		}
+
+		level_scaled = {
+			#building_employment_engineers_add = 50000
+		}
+	}
+	
+}
+
+pm_high_technology_services_services = {
+	texture = "gfx/interface/icons/production_method_icons/financial_district.dds"
+	
+	unlocking_laws = {
+		law_strong_financial_regulations
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {											
+			goods_input_real_estate_add = 4
+			goods_input_corporate_services_add = 12
+			
+			goods_output_high_technology_services_add = 200
+			goods_output_intellectual_property_add = 1
+		}
+
+		level_scaled = {
+			#building_employment_engineers_add = 50000
+		}
+	}
+	
+}
+
+pm_high_technology_services_services_1 = {
+	texture = "gfx/interface/icons/production_method_icons/financial_district.dds"
+	
+	unlocking_laws = {
+		law_moderate_financial_regulations
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {											
+			goods_input_real_estate_add = 3
+			goods_input_corporate_services_add = 10
+			
+			goods_output_high_technology_services_add = 200
+			goods_output_intellectual_property_add = 1
+			goods_output_illegal_services_add = 2
+		}
+
+		level_scaled = {
+			#building_employment_engineers_add = 50000
+		}
+	}
+	
+}
+
+pm_high_technology_services_services_2 = {
+	texture = "gfx/interface/icons/production_method_icons/financial_district.dds"
+	
+	unlocking_laws = {
+		law_weak_financial_regulations
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {											
+			goods_input_real_estate_add = 2
+			goods_input_corporate_services_add = 8
+			
+			goods_output_high_technology_services_add = 200
+			goods_output_intellectual_property_add = 1
+			goods_output_illegal_services_add = 4
+		}
+
+		level_scaled = {
+			#building_employment_engineers_add = 50000
+		}
+	}
+	
+}

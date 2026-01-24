@@ -403,3 +403,21 @@ pmg_worker_type_academia = {
 		pm_religious_academia
 	}
 }
+
+pmg_technology_services_services = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_technology_services_services
+		pm_technology_services_services_1
+		pm_technology_services_services_2
+	}
+}
+
+pmg_high_technology_services_services = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_high_technology_services_services
+		pm_high_technology_services_services_1
+		pm_high_technology_services_services_2
+	}
+}

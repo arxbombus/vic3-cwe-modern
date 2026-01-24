@@ -388,6 +388,13 @@ popneed_luxury_items = {
 		max_supply_share = 0.05
 		min_supply_share = 0.0
 	}
+	entry = {
+		goods = high_technology_services
+
+		weight = 3
+		max_supply_share = 0.50
+		min_supply_share = 0
+	}
 	
 }
 
@@ -488,7 +495,12 @@ popneed_leisure = {
 		max_supply_share = 0.25
 		min_supply_share = 0.0
 	}
-	
+	entry = {
+		goods = technology_services
+		weight = 3
+		max_supply_share = 0.5
+		min_supply_share = 0.0
+	}
 }
 
 popneed_stimulants = {
@@ -516,5 +528,24 @@ popneed_stimulants = {
 		weight = 0.8
 		max_supply_share = 0.75
 		min_supply_share = 0.0
+	}
+}
+
+popneed_technology_services = {
+	default = technology_services
+
+	entry = {
+		goods = technology_services
+
+		weight = 1
+		max_supply_share = 0.50
+		min_supply_share = 0
+	}
+	entry = {
+		goods = high_technology_services
+
+		weight = 3
+		max_supply_share = 0.50
+		min_supply_share = 0
 	}
 }

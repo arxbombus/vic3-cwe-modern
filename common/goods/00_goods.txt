@@ -689,3 +689,21 @@ rubber = {
 	prestige_factor = 4
 	traded_quantity = 100
 }
+
+technology_services = {
+	texture = "gfx/interface/icons/invention_icons/corporate_management.dds"
+	cost = 800
+	category = industrial
+	
+	prestige_factor = 10
+	traded_quantity = 60
+}
+
+high_technology_services = {
+	texture = "gfx/interface/icons/invention_icons/corporate_management.dds"
+	cost = 1400
+	category = industrial
+	
+	prestige_factor = 15
+	traded_quantity = 60
+}
