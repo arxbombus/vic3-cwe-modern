@@ -144,6 +144,8 @@ class EditContext:
     factor: float
     wealth_min: int | None = None
     wealth_max: int | None = None
+    curve_max: float | None = None
+    curve_power: float | None = None
 
 
 @dataclass(frozen=True)
@@ -370,26 +372,34 @@ def _scale_key_value_text(
     return pattern.subn(repl, text)
 
 
-def _build_pop_types_text_plan() -> TextEditPlan:
+def _build_pop_types_text_plan_with_factors(
+    wage_weight_factor: float, dependent_wage_factor: float
+) -> TextEditPlan:
     def apply_wage_weight(text: str) -> tuple[str, int]:
-        return _scale_key_value_text(text, "wage_weight", 1.5)
+        return _scale_key_value_text(text, "wage_weight", wage_weight_factor)
 
     def apply_dependent_wage(text: str) -> tuple[str, int]:
-        return _scale_key_value_text(text, "dependent_wage", 0.25)
+        return _scale_key_value_text(text, "dependent_wage", dependent_wage_factor)
 
     edits = [
         TextEditRule(
             name="scale_wage_weight",
-            description="Multiply wage_weight by 1.5",
+            description="Multiply wage_weight by factor",
             apply=apply_wage_weight,
         ),
         TextEditRule(
             name="scale_dependent_wage",
-            description="Multiply dependent_wage by 0.25",
+            description="Multiply dependent_wage by factor",
             apply=apply_dependent_wage,
         ),
     ]
     return TextEditPlan(name="pop_types", edits=edits)
+
+
+def _build_pop_types_text_plan() -> TextEditPlan:
+    return _build_pop_types_text_plan_with_factors(
+        POP_TYPES_WAGE_WEIGHT_FACTOR, POP_TYPES_DEPENDENT_WAGE_FACTOR
+    )
 
 
 def _parse_wealth_level(key: str) -> int | None:
@@ -426,15 +436,19 @@ def _build_buy_packages_plan() -> EditPlan:
             t = (wealth_level - context.wealth_min) / (
                 context.wealth_max - context.wealth_min
             )
-            multiplier = math.pow(2.0, t)
-            if multiplier > 2.0:
-                multiplier = 2.0
+            curve_max = context.curve_max if context.curve_max is not None else 2.0
+            curve_power = (
+                context.curve_power if context.curve_power is not None else 1.0
+            )
+            multiplier = math.pow(curve_max, t**curve_power)
+            if multiplier > curve_max:
+                multiplier = curve_max
 
         if not isinstance(entry.value, ClausewitzScalarValue):
             raise ValueError("Expected scalar value for popneed scaling")
         if not isinstance(entry.value.value, (int, float)):
             raise ValueError("Expected numeric value for popneed scaling")
-        scaled = entry.value.value * multiplier
+        scaled = int(entry.value.value * multiplier)
         entry.value.value = scaled
         entry.value.raw = str(entry.value.value)
 
@@ -449,14 +463,18 @@ def _build_buy_packages_plan() -> EditPlan:
     return EditPlan(name="buy_packages", edits=edits)
 
 
+PRODUCTION_METHODS_EMPLOYMENT_FACTOR = 2.0
+GOODS_COST_FACTOR = 1.5
+POP_TYPES_WAGE_WEIGHT_FACTOR = 1.5
+POP_TYPES_DEPENDENT_WAGE_FACTOR = 0.25
+BUY_PACKAGES_CURVE_MAX = 2.0
+BUY_PACKAGES_CURVE_POWER = 1.0
+
 PRODUCTION_METHODS_PLAN = _build_production_method_plan()
 GOODS_PLAN = _build_goods_plan()
 POP_TYPES_PLAN = _build_pop_types_plan()
 POP_TYPES_TEXT_PLAN = _build_pop_types_text_plan()
 BUY_PACKAGES_PLAN = _build_buy_packages_plan()
-
-PRODUCTION_METHODS_EMPLOYMENT_FACTOR = 2.0
-GOODS_COST_FACTOR = 1.5
 
 
 def _find_wealth_range(document: ClausewitzDocument) -> tuple[int | None, int | None]:
@@ -475,7 +493,50 @@ def _buy_packages_context_builder(
     document: ClausewitzDocument, factor: float
 ) -> EditContext:
     wealth_min, wealth_max = _find_wealth_range(document)
-    return EditContext(factor=factor, wealth_min=wealth_min, wealth_max=wealth_max)
+    return EditContext(
+        factor=factor,
+        wealth_min=wealth_min,
+        wealth_max=wealth_max,
+        curve_max=BUY_PACKAGES_CURVE_MAX,
+        curve_power=BUY_PACKAGES_CURVE_POWER,
+    )
+
+
+def _build_buy_packages_context_builder(
+    curve_max: float, curve_power: float
+) -> Callable[[ClausewitzDocument, float], EditContext]:
+    def builder(document: ClausewitzDocument, factor: float) -> EditContext:
+        wealth_min, wealth_max = _find_wealth_range(document)
+        return EditContext(
+            factor=factor,
+            wealth_min=wealth_min,
+            wealth_max=wealth_max,
+            curve_max=curve_max,
+            curve_power=curve_power,
+        )
+
+    return builder
+
+
+def _prompt_scale(message: str, default: float) -> float:
+    value = cast(float, typer.prompt(message, default=default))
+    if value == 0:
+        raise typer.BadParameter("factor cannot be 0")
+    return value
+
+
+def _prompt_curve_max(message: str, default: float) -> float:
+    value = cast(float, typer.prompt(message, default=default))
+    if value < 1 or value > 2:
+        raise typer.BadParameter("max multiplier must be between 1 and 2")
+    return value
+
+
+def _prompt_curve_power(message: str, default: float) -> float:
+    value = cast(float, typer.prompt(message, default=default))
+    if value <= 0:
+        raise typer.BadParameter("curve power must be greater than 0")
+    return value
 
 
 PLANS: dict[str, PlanConfig] = {
@@ -826,19 +887,38 @@ def apply(
 
         plan_to_apply = config.plan
         text_plan_to_apply = config.text_plan
+        curve_context_builder = config.context_builder
         if config.plan.name == "pop_types":
             selection = _q_checkbox(
                 "Select pop_types edits",
                 choices=["ALL", "only wage_weight", "only dependent_wage"],
             )
+            wage_weight_factor = POP_TYPES_WAGE_WEIGHT_FACTOR
+            dependent_wage_factor = POP_TYPES_DEPENDENT_WAGE_FACTOR
             if "ALL" in selection:
                 plan_to_apply = config.plan
+                wage_weight_factor = _prompt_scale(
+                    "wage_weight factor (multiply by)",
+                    POP_TYPES_WAGE_WEIGHT_FACTOR,
+                )
+                dependent_wage_factor = _prompt_scale(
+                    "dependent_wage factor (multiply by)",
+                    POP_TYPES_DEPENDENT_WAGE_FACTOR,
+                )
             else:
                 selected_names = set()
                 if "only wage_weight" in selection:
                     selected_names.add("scale_wage_weight")
+                    wage_weight_factor = _prompt_scale(
+                        "wage_weight factor (multiply by)",
+                        POP_TYPES_WAGE_WEIGHT_FACTOR,
+                    )
                 if "only dependent_wage" in selection:
                     selected_names.add("scale_dependent_wage")
+                    dependent_wage_factor = _prompt_scale(
+                        "dependent_wage factor (multiply by)",
+                        POP_TYPES_DEPENDENT_WAGE_FACTOR,
+                    )
                 plan_to_apply = EditPlan(
                     name=config.plan.name,
                     edits=[
@@ -856,6 +936,20 @@ def apply(
                             if edit.name in selected_names
                         ],
                     )
+            if text_plan_to_apply is not None:
+                text_plan_to_apply = _build_pop_types_text_plan_with_factors(
+                    wage_weight_factor, dependent_wage_factor
+                )
+        if config.plan.name == "buy_packages":
+            curve_max = _prompt_curve_max(
+                "Max multiplier (<= 2x)", BUY_PACKAGES_CURVE_MAX
+            )
+            curve_power = _prompt_curve_power(
+                "Curve power (higher = richer spend more)", BUY_PACKAGES_CURVE_POWER
+            )
+            curve_context_builder = _build_buy_packages_context_builder(
+                curve_max, curve_power
+            )
 
         files = _select_files(plan_directory)
 
@@ -866,7 +960,7 @@ def apply(
             default_factor=config.default_factor,
             title=config.title,
             uses_factor=config.uses_factor,
-            context_builder=config.context_builder,
+            context_builder=curve_context_builder,
         )
         if plan_config.text_plan is not None:
             backup_root = _apply_text_plan(

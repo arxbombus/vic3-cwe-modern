@@ -5,4 +5,4 @@
 
 *.pyc
 scripts/.backups
-scripts/.baseline-data
+scripts/.baseline_data
