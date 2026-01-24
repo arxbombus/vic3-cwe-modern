@@ -5,6 +5,7 @@ from pathlib import Path
 import typer
 
 from clausewitz import ClausewitzFormatter, ClausewitzParser, DocumentSchema, KeyRule
+from clausewitz.nodes import ClausewitzScalarValue
 from clausewitz.nodes import ClausewitzBlock
 
 
@@ -21,18 +22,18 @@ def _scale_targets(block: ClausewitzBlock, factor: float) -> int:
                 if sub.key == "level_scaled" and isinstance(sub.value, ClausewitzBlock):
                     for leaf in sub.value.entries:
                         if leaf.key.startswith("building_employment_") and leaf.key.endswith("_add"):
-                            if isinstance(leaf.value, (int, float)):
-                                leaf.value = leaf.value / factor
+                            if isinstance(leaf.value, ClausewitzScalarValue) and isinstance(
+                                leaf.value.value, (int, float)
+                            ):
+                                leaf.value.value = leaf.value.value / factor
+                                leaf.value.raw = str(leaf.value.value)
                                 count += 1
     return count
 
 
-def _format_document(document) -> str:
-    formatter = ClausewitzFormatter()
-    lines: list[str] = []
-    for entry in document.entries():
-        lines.extend(formatter.format_entry(entry.key, entry.value, 0))
-    return "\n".join(lines) + "\n"
+def _format_document(document, *, preserve: bool = True) -> str:
+    formatter = ClausewitzFormatter(mode="preserve" if preserve else "format")
+    return formatter.format_document(document)
 
 def apply(
     directory: Path = Path("../common/production_methods"),

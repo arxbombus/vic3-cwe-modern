@@ -21,6 +21,7 @@ class TokenType(Enum):
     BOOLEAN = auto()
     OPERATOR = auto()
     COMMENT = auto()
+    TRIVIA = auto()
     EOF = auto()
 
 
@@ -28,6 +29,7 @@ class TokenType(Enum):
 class Token:
     type: TokenType
     value: str | int | float | bool | None
+    raw: str
     line: int
     column: int
 
@@ -55,11 +57,14 @@ class ClausewitzLexer:
     def tokenize(self) -> list[Token]:
         while not self._is_eof:
             char = self._peek()
+            if char == "\ufeff":
+                self._emit_bom()
+                continue
             if char.isspace():
-                self._consume_whitespace()
+                self._emit_whitespace()
                 continue
             if char == "#":
-                self._consume_comment()
+                self._emit_comment()
                 continue
             if char in "{}":
                 self._emit_brace(char)
@@ -81,22 +86,35 @@ class ClausewitzLexer:
                 continue
             raise ValueError(f"Unexpected character '{char}' at {self._line}:{self._column}")
 
-        self.tokens.append(Token(TokenType.EOF, None, self._line, self._column))
+        self.tokens.append(Token(TokenType.EOF, None, "", self._line, self._column))
         return self.tokens
 
-    def _consume_whitespace(self) -> None:
+    def _emit_whitespace(self) -> None:
+        start_line, start_col = self._line, self._column
+        buffer: list[str] = []
         while not self._is_eof and self._peek().isspace():
-            self._advance()
+            buffer.append(self._advance())
+        raw = "".join(buffer)
+        self.tokens.append(Token(TokenType.TRIVIA, raw, raw, start_line, start_col))
 
-    def _consume_comment(self) -> None:
+    def _emit_bom(self) -> None:
+        start_line, start_col = self._line, self._column
+        raw = self._advance()
+        self.tokens.append(Token(TokenType.TRIVIA, raw, raw, start_line, start_col))
+
+    def _emit_comment(self) -> None:
+        start_line, start_col = self._line, self._column
+        buffer: list[str] = []
         while not self._is_eof and self._peek() != "\n":
-            self._advance()
-        if not self._is_eof:
-            self._advance()  # consume newline if present
+            buffer.append(self._advance())
+        if not self._is_eof and self._peek() == "\n":
+            buffer.append(self._advance())
+        raw = "".join(buffer)
+        self.tokens.append(Token(TokenType.TRIVIA, raw, raw, start_line, start_col))
 
     def _emit_brace(self, char: str) -> None:
         token_type = TokenType.OPEN_BRACE if char == "{" else TokenType.CLOSE_BRACE
-        self.tokens.append(Token(token_type, char, self._line, self._column))
+        self.tokens.append(Token(token_type, char, char, self._line, self._column))
         self._advance()
 
     def _emit_bracket_expression(self) -> None:
@@ -107,7 +125,7 @@ class ClausewitzLexer:
             buffer.append(char)
             if char == "]":
                 word = "".join(buffer)
-                self.tokens.append(Token(TokenType.IDENTIFIER, word, start_line, start_col))
+                self.tokens.append(Token(TokenType.IDENTIFIER, word, word, start_line, start_col))
                 return
         raise ValueError(f"Unterminated bracket expression starting at {start_line}:{start_col}")
 
@@ -115,21 +133,25 @@ class ClausewitzLexer:
         quote = self._peek()
         start_line, start_col = self._line, self._column
         self._advance()
-        buffer: list[str] = []
+        raw_buffer: list[str] = [quote]
+        value_buffer: list[str] = []
         while not self._is_eof:
             char = self._peek()
             if char == quote:
-                self._advance()
-                value = "".join(buffer)
-                self.tokens.append(Token(TokenType.STRING, value, start_line, start_col))
+                raw_buffer.append(self._advance())
+                value = "".join(value_buffer)
+                raw = "".join(raw_buffer)
+                self.tokens.append(Token(TokenType.STRING, value, raw, start_line, start_col))
                 return
             if char == "\\":
-                self._advance()
-                buffer.append(self._peek())
-                self._advance()
+                raw_buffer.append(self._advance())
+                if not self._is_eof:
+                    escaped = self._advance()
+                    raw_buffer.append(escaped)
+                    value_buffer.append(escaped)
             else:
-                buffer.append(char)
-                self._advance()
+                raw_buffer.append(self._advance())
+                value_buffer.append(char)
         raise ValueError(f"Unterminated string starting at {start_line}:{start_col}")
 
     def _emit_number(self) -> None:
@@ -142,23 +164,23 @@ class ClausewitzLexer:
                 buffer.append(self._advance())
             word = "".join(buffer)
             token_type = self._classify(word)
-            self.tokens.append(Token(token_type, word, start_line, start_col))
+            self.tokens.append(Token(token_type, word, word, start_line, start_col))
             return
         text = "".join(buffer)
         dot_count = text.count(".")
         if dot_count > 1:
-            self.tokens.append(Token(TokenType.STRING, text, start_line, start_col))
+            self.tokens.append(Token(TokenType.STRING, text, text, start_line, start_col))
             return
         value: int | float
         value = float(text) if dot_count == 1 else int(text)
-        self.tokens.append(Token(TokenType.NUMBER, value, start_line, start_col))
+        self.tokens.append(Token(TokenType.NUMBER, value, text, start_line, start_col))
 
     def _emit_operator(self) -> None:
         start_line, start_col = self._line, self._column
         char = self._advance()
         if not self._is_eof and self._peek() == "=" and char in "<>!=":
             char += self._advance()
-        self.tokens.append(Token(TokenType.OPERATOR, char, start_line, start_col))
+        self.tokens.append(Token(TokenType.OPERATOR, char, char, start_line, start_col))
 
     def _emit_identifier(self) -> None:
         start_line, start_col = self._line, self._column
@@ -168,10 +190,10 @@ class ClausewitzLexer:
         word = "".join(buffer)
         if word in {"yes", "no"}:
             value = word == "yes"
-            self.tokens.append(Token(TokenType.BOOLEAN, value, start_line, start_col))
+            self.tokens.append(Token(TokenType.BOOLEAN, value, word, start_line, start_col))
             return
         token_type = self._classify(word)
-        self.tokens.append(Token(token_type, word, start_line, start_col))
+        self.tokens.append(Token(token_type, word, word, start_line, start_col))
 
     # Helpers -----------------------------------------------------------------
     def _classify(self, word: str) -> TokenType:

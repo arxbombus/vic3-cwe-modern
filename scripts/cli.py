@@ -13,7 +13,7 @@ from rich.panel import Panel
 from rich.table import Table
 
 from clausewitz import ClausewitzFormatter, ClausewitzParser, DocumentSchema, KeyRule, ClausewitzDocument
-from clausewitz.nodes import ClausewitzBlock, ClausewitzEntry, ClausewitzList
+from clausewitz.nodes import ClausewitzBlock, ClausewitzEntry, ClausewitzList, ClausewitzScalarValue
 
 
 app = typer.Typer(no_args_is_help=True)
@@ -74,12 +74,9 @@ def _apply_edits(document:ClausewitzDocument, plan: EditPlan, context: EditConte
     return counts
 
 
-def _format_document(document:ClausewitzDocument) -> str:
-    formatter = ClausewitzFormatter()
-    lines: list[str] = []
-    for entry in document.entries():
-        lines.extend(formatter.format_entry(entry.key, entry.value, 0))
-    return "\n".join(lines) + "\n"
+def _format_document(document: ClausewitzDocument, *, preserve: bool = True) -> str:
+    formatter = ClausewitzFormatter(mode="preserve" if preserve else "format")
+    return formatter.format_document(document)
 
 
 def _build_production_method_plan() -> EditPlan:
@@ -90,15 +87,20 @@ def _build_production_method_plan() -> EditPlan:
         return (
             key.startswith("building_employment_")
             and key.endswith("_add")
-            and isinstance(entry.value, (int, float))
+            and isinstance(entry.value, ClausewitzScalarValue)
+            and isinstance(entry.value.value, (int, float))
         )
 
     def scale_entry(entry: ClausewitzEntry, context: EditContext) -> None:
-        if not isinstance(entry.value, (int, float)):
+        if not isinstance(entry.value, ClausewitzScalarValue):
+            raise ValueError("Expected scalar value for scaling")
+        if not isinstance(entry.value.value, (int, float)):
             raise ValueError("Expected numeric value for scaling")
         if context.factor == 0:
             raise ValueError("Scaling factor cannot be 0")
-        entry.value = int(entry.value * context.factor)
+        scaled = entry.value.value * context.factor
+        entry.value.value = int(scaled) if isinstance(entry.value.value, int) else scaled
+        entry.value.raw = str(entry.value.value)
 
     edits = [
         EditRule(
@@ -170,11 +172,12 @@ def apply(
     directory: Path = Path("../common/production_methods"),
     factor: float = PRODUCTION_METHODS_EMPLOYMENT_FACTOR,
     dry_run: bool = False,
+    preserve: bool = True,
 ) -> None:
     schema = generic_schema()
     context = EditContext(factor=factor)
     backup_root: Path | None = None
-    header = f"Directory: {directory}\nFactor: {factor}\nDry run: {dry_run}"
+    header = f"Directory: {directory}\nFactor: {factor}\nDry run: {dry_run}\nPreserve: {preserve}"
     _console.print(Panel.fit(header, title="Apply", style="cyan"))
     for path in sorted(directory.rglob("*.txt")):
         text = path.read_text(encoding="utf-8")
@@ -191,7 +194,7 @@ def apply(
             backup_root.mkdir(parents=True, exist_ok=True)
             _console.print(Panel.fit(str(backup_root), title="Backups", style="green"))
         _backup_file(path, directory, backup_root)
-        path.write_text(_format_document(document), encoding="utf-8")
+        path.write_text(_format_document(document, preserve=preserve), encoding="utf-8")
         _console.print(f"[green]Updated[/green] {path} ({total})")
 
 
@@ -225,6 +228,7 @@ def tweak(
     directory: Path = Path("../common/production_methods"),
     factor: float | None = None,
     dry_run: bool = False,
+    preserve: bool = True,
 ) -> None:
     if factor is None:
         factor = cast(float, typer.prompt("Employment scale factor (multiply by)", default=PRODUCTION_METHODS_EMPLOYMENT_FACTOR))
@@ -234,7 +238,7 @@ def tweak(
         if not typer.confirm(f"Apply edits with factor {factor}?", default=False):
             _echo_warn("Canceled.")
             return
-    apply(directory=directory, factor=factor, dry_run=dry_run)
+    apply(directory=directory, factor=factor, dry_run=dry_run, preserve=preserve)
 
 
 @app.command()

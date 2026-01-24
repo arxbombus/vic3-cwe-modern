@@ -4,14 +4,33 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 import re
+from typing import Literal
 
-from clausewitz.nodes import ClausewitzBlock, ClausewitzComparison, ClausewitzList, ClausewitzValue
+from clausewitz.document import ClausewitzDocument
+from clausewitz.nodes import (
+    ClausewitzBlock,
+    ClausewitzComparison,
+    ClausewitzEntry,
+    ClausewitzList,
+    ClausewitzListItem,
+    ClausewitzScalarValue,
+    ClausewitzValue,
+)
 
 
 @dataclass
 class ClausewitzFormatter:
     indent: str = "\t"
     inline_braces: bool = True
+    mode: Literal["format", "preserve"] = "format"
+
+    def format_document(self, document: ClausewitzDocument) -> str:
+        if self.mode == "preserve":
+            return self._format_block_contents_preserve(document.root)
+        lines: list[str] = []
+        for entry in document.entries():
+            lines.extend(self.format_entry(entry, 0))
+        return "\n".join(lines) + "\n"
 
     def format_block(self, name: str, block: ClausewitzBlock, level: int = 0) -> list[str]:
         if self.inline_braces and self._can_inline_block(block):
@@ -23,25 +42,33 @@ class ClausewitzFormatter:
         header = f"{self._indent(level)}{name} = {{"
         lines = [header]
         for entry in block.entries:
-            lines.extend(self.format_entry(entry.key, entry.value, level + 1))
+            lines.extend(self.format_entry(entry, level + 1))
         lines.append(f"{self._indent(level)}}}")
         return lines
 
-    def format_entry(self, key: str, value: ClausewitzValue, level: int) -> list[str]:
+    def format_entry(self, entry: ClausewitzEntry, level: int) -> list[str]:
+        if self.mode == "preserve":
+            return [self._format_entry_preserve(entry)]
+        value = entry.value
         if isinstance(value, ClausewitzBlock):
-            name = key or ""
+            name = entry.key if entry.key is not None else ""
             return self.format_block(name, value, level)
         if isinstance(value, ClausewitzList):
-            return self._format_list(key, value, level)
+            return self._format_list(entry.key, value, level)
         if isinstance(value, ClausewitzComparison):
             return [f"{self._indent(level)}{self._format_comparison(value)}"]
-        return [f"{self._indent(level)}{key} = {self._format_scalar(value)}"]
+        return [f"{self._indent(level)}{entry.key} = {self._format_scalar(value)}"]
 
     def _format_list(self, key: str, value: ClausewitzList, level: int) -> list[str]:
         if not value.values:
             return [f"{self._indent(level)}{key} = {{}}"]
         if self.inline_braces and self._can_inline_list(value):
-            inline = " ".join(self._format_scalar(item) if not isinstance(item, ClausewitzBlock) else self._format_inline_block(item) for item in value.values)
+            inline = " ".join(
+                self._format_scalar(item)
+                if not isinstance(item, ClausewitzBlock)
+                else self._format_inline_block(item)
+                for item in value.values
+            )
             return [f"{self._indent(level)}{key} = {{ {inline} }}"]
 
         lines: list[str] = [f"{self._indent(level)}{key} = {{"]
@@ -49,7 +76,7 @@ class ClausewitzFormatter:
             if isinstance(item, ClausewitzBlock):
                 lines.append(f"{self._indent(level + 1)}{{")
                 for entry in item.entries:
-                    lines.extend(self.format_entry(entry.key, entry.value, level + 2))
+                    lines.extend(self.format_entry(entry, level + 2))
                 lines.append(f"{self._indent(level + 1)}}}")
             elif isinstance(item, ClausewitzComparison):
                 lines.append(f"{self._indent(level + 1)}{self._format_comparison(item)}")
@@ -59,12 +86,13 @@ class ClausewitzFormatter:
         return lines
 
     def _format_scalar(self, value: ClausewitzValue) -> str:
+        if isinstance(value, ClausewitzScalarValue):
+            if self.mode == "preserve":
+                return value.raw
+            return self._format_scalar(value.value)
         if isinstance(value, bool):
             return "yes" if value else "no"
         if isinstance(value, str):
-            if value.startswith("string(") and value.endswith(")"):
-                inner = value[len("string(") : -1]
-                return f'"{inner.replace("\"", "\\\"")}"'
             if self._needs_quotes(value):
                 return f'"{value.replace("\"", "\\\"")}"'
             return value
@@ -114,7 +142,7 @@ class ClausewitzFormatter:
     def _can_inline_list(self, value: ClausewitzList) -> bool:
         if not value.values or len(value.values) > 8:
             return False
-        return all(isinstance(item, (str, int, float, bool)) for item in value.values)
+        return all(self._is_inline_scalar(item) for item in value.values)
 
     def _format_inline_block(self, block: ClausewitzBlock) -> str:
         if not self._can_inline_block(block):
@@ -125,9 +153,16 @@ class ClausewitzFormatter:
     def _is_scalar_value(self, value: ClausewitzValue) -> bool:
         return not isinstance(value, (ClausewitzBlock, ClausewitzList, ClausewitzComparison))
 
+    def _is_inline_scalar(self, value: ClausewitzValue) -> bool:
+        if isinstance(value, ClausewitzScalarValue):
+            return self._is_inline_scalar(value.value)
+        return isinstance(value, (str, int, float, bool))
+
     def _is_numeric_scalar(self, value: ClausewitzValue) -> bool:
         if not self._is_scalar_value(value):
             return False
+        if isinstance(value, ClausewitzScalarValue):
+            return self._is_numeric_scalar(value.value)
         if isinstance(value, bool):
             return False
         if isinstance(value, (int, float)):
@@ -137,3 +172,56 @@ class ClausewitzFormatter:
                 return True
             return bool(re.fullmatch(r"-?\d+(?:\.\d+)?", value))
         return False
+
+    def _format_entry_preserve(self, entry: ClausewitzEntry) -> str:
+        value = entry.value
+        if isinstance(value, ClausewitzBlock):
+            value_text = self._format_block_value_preserve(value)
+        elif isinstance(value, ClausewitzList):
+            value_text = self._format_list_value_preserve(value)
+        elif isinstance(value, ClausewitzComparison):
+            right_text = self._format_scalar(value.right)
+            return (
+                f"{entry.leading_trivia}{value.left}{entry.key_trivia}"
+                f"{entry.operator}{entry.operator_trivia}{right_text}{entry.trailing_trivia}"
+            )
+        else:
+            value_text = self._format_scalar(value)
+        return (
+            f"{entry.leading_trivia}{entry.key}{entry.key_trivia}"
+            f"{entry.operator}{entry.operator_trivia}{value_text}{entry.trailing_trivia}"
+        )
+
+    def _format_block_contents_preserve(self, block: ClausewitzBlock) -> str:
+        parts = [block.leading_trivia]
+        for entry in block.entries:
+            parts.append(self._format_entry_preserve(entry))
+        parts.append(block.trailing_trivia)
+        return "".join(parts)
+
+    def _format_block_value_preserve(self, block: ClausewitzBlock) -> str:
+        return "{" + self._format_block_contents_preserve(block) + "}"
+
+    def _format_list_value_preserve(self, value: ClausewitzList) -> str:
+        parts = ["{", value.open_trivia]
+        for item in value.items:
+            parts.append(self._format_list_item_preserve(item))
+        parts.append(value.close_trivia)
+        parts.append("}")
+        return "".join(parts)
+
+    def _format_list_item_preserve(self, item: ClausewitzListItem) -> str:
+        value = item.value
+        if isinstance(value, ClausewitzBlock):
+            value_text = self._format_block_value_preserve(value)
+        elif isinstance(value, ClausewitzList):
+            value_text = self._format_list_value_preserve(value)
+        elif isinstance(value, ClausewitzComparison):
+            right_text = self._format_scalar(value.right)
+            value_text = (
+                f"{value.left}{item.key_trivia}{value.operator}"
+                f"{item.operator_trivia}{right_text}"
+            )
+        else:
+            value_text = self._format_scalar(value)
+        return f"{item.leading_trivia}{value_text}{item.trailing_trivia}"

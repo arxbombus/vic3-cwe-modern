@@ -6,7 +6,14 @@ from dataclasses import dataclass, field
 from typing import cast
 
 from .document import ClausewitzDocument
-from .nodes import ClausewitzBlock, ClausewitzComparison, ClausewitzList, ClausewitzScalar, ClausewitzValue
+from .nodes import (
+    ClausewitzBlock,
+    ClausewitzComparison,
+    ClausewitzList,
+    ClausewitzListItem,
+    ClausewitzScalarValue,
+    ClausewitzValue,
+)
 from .schema import DocumentSchema
 from .lexer import ClausewitzLexer, LexerMetadata, Token, TokenType
 
@@ -25,30 +32,51 @@ class ClausewitzParser:
         self.index = 0
 
     def parse_document(self) -> ClausewitzDocument:
-        root_block = self._parse_block_contents()
+        leading_trivia = self._collect_trivia()
+        root_block = self._parse_block_contents(leading_trivia=leading_trivia)
         return ClausewitzDocument(schema=self.schema, root=root_block)
 
     # Parsing helpers ---------------------------------------------------------
-    def _parse_block_contents(self) -> ClausewitzBlock:
-        block = ClausewitzBlock()
-        while not self._current_is(TokenType.EOF) and not self._current_is(TokenType.CLOSE_BRACE):
-            if self._current_is(TokenType.CLOSE_BRACE):
+    def _parse_block_contents(self, *, leading_trivia: str = "") -> ClausewitzBlock:
+        block = ClausewitzBlock(leading_trivia=leading_trivia)
+        while True:
+            entry_leading_trivia = self._collect_trivia()
+            if self._current_is(TokenType.EOF) or self._current_is(TokenType.CLOSE_BRACE):
+                block.trailing_trivia = entry_leading_trivia
                 break
             key = self._consume_key()
+            key_trivia = self._collect_trivia()
             if self._current_is(TokenType.OPERATOR) and self._current().value != "=":
                 operator_token = self._advance()
                 operator_value = operator_token.value
                 if operator_value not in {">", "<", ">=", "<=", "!=", "="}:
                     raise TypeError("Operator tokens must contain string values")
+                operator_trivia = self._collect_trivia()
                 right = self._parse_scalar_value()
+                trailing_trivia = self._collect_trivia()
                 block.add_entry(
                     key,
                     ClausewitzComparison(left=key, operator=cast(str, operator_value), right=right),
+                    operator=cast(str, operator_value),
+                    leading_trivia=entry_leading_trivia,
+                    key_trivia=key_trivia,
+                    operator_trivia=operator_trivia,
+                    trailing_trivia=trailing_trivia,
                 )
                 continue
             self._expect(TokenType.OPERATOR, "=")
+            operator_trivia = self._collect_trivia()
             value = self._parse_value()
-            block.add_entry(key, value)
+            trailing_trivia = self._collect_trivia()
+            block.add_entry(
+                key,
+                value,
+                operator="=",
+                leading_trivia=entry_leading_trivia,
+                key_trivia=key_trivia,
+                operator_trivia=operator_trivia,
+                trailing_trivia=trailing_trivia,
+            )
         return block
 
     def _parse_value(self) -> ClausewitzValue:
@@ -63,35 +91,63 @@ class ClausewitzParser:
 
     def _parse_brace_value(self) -> ClausewitzValue:
         self._expect(TokenType.OPEN_BRACE)
+        open_trivia = self._collect_trivia()
         if self._brace_is_object():
-            block = self._parse_block_contents()
+            block = self._parse_block_contents(leading_trivia=open_trivia)
             self._expect(TokenType.CLOSE_BRACE)
             return block
-        values = self._parse_list_values()
+        items, close_trivia = self._parse_list_values()
         self._expect(TokenType.CLOSE_BRACE)
-        return ClausewitzList(values=values)
+        return ClausewitzList(items=items, open_trivia=open_trivia, close_trivia=close_trivia)
 
-    def _parse_list_values(self) -> list[ClausewitzValue]:
-        values: list[ClausewitzValue] = []
-        while not self._current_is(TokenType.CLOSE_BRACE):
+    def _parse_list_values(self) -> tuple[list[ClausewitzListItem], str]:
+        items: list[ClausewitzListItem] = []
+        while True:
+            leading_trivia = self._collect_trivia()
+            if self._current_is(TokenType.CLOSE_BRACE):
+                return items, leading_trivia
             if self._current_is(TokenType.OPEN_BRACE):
-                values.append(self._parse_brace_value())
+                value = self._parse_brace_value()
+                trailing_trivia = self._collect_trivia()
+                items.append(
+                    ClausewitzListItem(
+                        value=value,
+                        leading_trivia=leading_trivia,
+                        trailing_trivia=trailing_trivia,
+                    )
+                )
                 continue
             if self._is_comparison_start():
                 left = self._consume_key()
+                key_trivia = self._collect_trivia()
                 operator_token = self._advance()
                 operator_value = operator_token.value
                 if operator_value not in {">", "<", ">=", "<=", "!=", "="}:
                     raise TypeError("Invalid comparison operator in list context")
+                operator_trivia = self._collect_trivia()
                 right = self._parse_scalar_value()
-                values.append(
-                    ClausewitzComparison(left=left, operator=cast(str, operator_value), right=right)
+                trailing_trivia = self._collect_trivia()
+                items.append(
+                    ClausewitzListItem(
+                        value=ClausewitzComparison(left=left, operator=cast(str, operator_value), right=right),
+                        leading_trivia=leading_trivia,
+                        key_trivia=key_trivia,
+                        operator_trivia=operator_trivia,
+                        trailing_trivia=trailing_trivia,
+                    )
                 )
                 continue
-            values.append(self._parse_scalar_value())
-        return values
+            value = self._parse_scalar_value()
+            trailing_trivia = self._collect_trivia()
+            items.append(
+                ClausewitzListItem(
+                    value=value,
+                    leading_trivia=leading_trivia,
+                    trailing_trivia=trailing_trivia,
+                )
+            )
 
-    def _parse_scalar_value(self) -> ClausewitzScalar:
+    def _parse_scalar_value(self) -> ClausewitzScalarValue:
         token = self._current()
         if token.type not in (
             TokenType.STRING,
@@ -108,10 +164,10 @@ class ClausewitzParser:
         if token.type == TokenType.STRING:
             if not isinstance(value, str):
                 raise TypeError("String tokens must provide string values")
-            return f"string({value})"
+            return ClausewitzScalarValue(value=value, raw=token.raw)
         if not isinstance(value, (str, int, float, bool)):
             raise TypeError("Scalar tokens must resolve to primitive values")
-        return value
+        return ClausewitzScalarValue(value=value, raw=token.raw)
 
     def _brace_is_object(self) -> bool:
         depth = 1
@@ -138,9 +194,9 @@ class ClausewitzParser:
             TokenType.TRIGGER,
         }:
             return False
-        if self.index + 1 >= len(self.tokens):
+        next_token = self._peek_non_trivia(self.index + 1)
+        if next_token is None:
             return False
-        next_token = self.tokens[self.index + 1]
         return next_token.type == TokenType.OPERATOR and next_token.value != "="
 
     # Token utilities --------------------------------------------------------
@@ -175,7 +231,20 @@ class ClausewitzParser:
         }:
             raise ValueError(f"Expected identifier, got {token.type}")
         self.index += 1
-        value = token.value
-        if not isinstance(value, (str, int, float)):
-            raise TypeError("Identifier tokens must carry string or numeric values")
-        return value
+        return token.raw
+
+    def _collect_trivia(self) -> str:
+        chunks: list[str] = []
+        while self._current_is(TokenType.TRIVIA):
+            token = self._advance()
+            if isinstance(token.value, str):
+                chunks.append(token.value)
+        return "".join(chunks)
+
+    def _peek_non_trivia(self, start_index: int) -> Token | None:
+        idx = start_index
+        while idx < len(self.tokens) and self.tokens[idx].type == TokenType.TRIVIA:
+            idx += 1
+        if idx >= len(self.tokens):
+            return None
+        return self.tokens[idx]
