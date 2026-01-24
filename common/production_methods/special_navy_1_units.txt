@@ -1099,7 +1099,7 @@ pm_carriers_5 = {
 pm_carriers_6 = {
 	texture = "gfx/interface/icons/production_method_icons/carriers.dds"
 
-	state_modifiers = { workforce_scaled = { state_pollution_generation_add = 1 } }2
+	state_modifiers = { workforce_scaled = { state_pollution_generation_add = 1 } }
 
 	unlocking_technologies = {
 		tech_military_naval_forces_8
@@ -1144,7 +1144,7 @@ pm_carriers_6 = {
 pm_carriers_7 = {
 	texture = "gfx/interface/icons/production_method_icons/carriers.dds"
 
-	state_modifiers = { workforce_scaled = { state_pollution_generation_add = 1 } }4
+	state_modifiers = { workforce_scaled = { state_pollution_generation_add = 1 } }
 
 	unlocking_technologies = {
 		tech_military_naval_forces_9
@@ -1189,7 +1189,7 @@ pm_carriers_7 = {
 pm_carriers_8 = {
 	texture = "gfx/interface/icons/production_method_icons/carriers.dds"
 
-	state_modifiers = { workforce_scaled = { state_pollution_generation_add = 1 } }6
+	state_modifiers = { workforce_scaled = { state_pollution_generation_add = 1 } }
 
 	unlocking_technologies = {
 		tech_military_naval_forces_10

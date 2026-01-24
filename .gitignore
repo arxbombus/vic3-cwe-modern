@@ -2,3 +2,6 @@
 *.psd
 *.ai
 *.code-workspace
+
+*.pyc
+scripts/backups
