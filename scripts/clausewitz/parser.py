@@ -24,7 +24,9 @@ class ParserConfig:
 
 
 class ClausewitzParser:
-    def __init__(self, text: str, schema: DocumentSchema, config: ParserConfig | None = None):
+    def __init__(
+        self, text: str, schema: DocumentSchema, config: ParserConfig | None = None
+    ):
         self.schema = schema
         self.config = config or ParserConfig()
         lexer = ClausewitzLexer(text, metadata=self.config.metadata)
@@ -41,7 +43,9 @@ class ClausewitzParser:
         block = ClausewitzBlock(leading_trivia=leading_trivia)
         while True:
             entry_leading_trivia = self._collect_trivia()
-            if self._current_is(TokenType.EOF) or self._current_is(TokenType.CLOSE_BRACE):
+            if self._current_is(TokenType.EOF) or self._current_is(
+                TokenType.CLOSE_BRACE
+            ):
                 block.trailing_trivia = entry_leading_trivia
                 break
             key = self._consume_key()
@@ -56,7 +60,9 @@ class ClausewitzParser:
                 trailing_trivia = self._collect_trivia()
                 block.add_entry(
                     key,
-                    ClausewitzComparison(left=key, operator=cast(str, operator_value), right=right),
+                    ClausewitzComparison(
+                        left=key, operator=cast(str, operator_value), right=right
+                    ),
                     operator=cast(str, operator_value),
                     leading_trivia=entry_leading_trivia,
                     key_trivia=key_trivia,
@@ -85,7 +91,12 @@ class ClausewitzParser:
             return self._parse_brace_value()
         if token.type in {TokenType.STRING, TokenType.NUMBER, TokenType.BOOLEAN}:
             return self._parse_scalar_value()
-        if token.type in {TokenType.IDENTIFIER, TokenType.KEYWORD, TokenType.MODIFIER, TokenType.TRIGGER}:
+        if token.type in {
+            TokenType.IDENTIFIER,
+            TokenType.KEYWORD,
+            TokenType.MODIFIER,
+            TokenType.TRIGGER,
+        }:
             return self._parse_scalar_value()
         raise ValueError(f"Unexpected token {token.type} when parsing value")
 
@@ -98,7 +109,9 @@ class ClausewitzParser:
             return block
         items, close_trivia = self._parse_list_values()
         self._expect(TokenType.CLOSE_BRACE)
-        return ClausewitzList(items=items, open_trivia=open_trivia, close_trivia=close_trivia)
+        return ClausewitzList(
+            items=items, open_trivia=open_trivia, close_trivia=close_trivia
+        )
 
     def _parse_list_values(self) -> tuple[list[ClausewitzListItem], str]:
         items: list[ClausewitzListItem] = []
@@ -129,7 +142,9 @@ class ClausewitzParser:
                 trailing_trivia = self._collect_trivia()
                 items.append(
                     ClausewitzListItem(
-                        value=ClausewitzComparison(left=left, operator=cast(str, operator_value), right=right),
+                        value=ClausewitzComparison(
+                            left=left, operator=cast(str, operator_value), right=right
+                        ),
                         leading_trivia=leading_trivia,
                         key_trivia=key_trivia,
                         operator_trivia=operator_trivia,

@@ -6,5 +6,6 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "questionary>=2.1.1",
+    "ruff>=0.14.14",
     "typer>=0.21.1",
 ]

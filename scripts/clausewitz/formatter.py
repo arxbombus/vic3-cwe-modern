@@ -32,10 +32,13 @@ class ClausewitzFormatter:
             lines.extend(self.format_entry(entry, 0))
         return "\n".join(lines) + "\n"
 
-    def format_block(self, name: str, block: ClausewitzBlock, level: int = 0) -> list[str]:
+    def format_block(
+        self, name: str, block: ClausewitzBlock, level: int = 0
+    ) -> list[str]:
         if self.inline_braces and self._can_inline_block(block):
             inline_content = " ".join(
-                self._format_inline_entry(entry.key, entry.value) for entry in block.entries
+                self._format_inline_entry(entry.key, entry.value)
+                for entry in block.entries
             )
             return [f"{self._indent(level)}{name} = {{ {inline_content} }}"]
 
@@ -79,7 +82,9 @@ class ClausewitzFormatter:
                     lines.extend(self.format_entry(entry, level + 2))
                 lines.append(f"{self._indent(level + 1)}}}")
             elif isinstance(item, ClausewitzComparison):
-                lines.append(f"{self._indent(level + 1)}{self._format_comparison(item)}")
+                lines.append(
+                    f"{self._indent(level + 1)}{self._format_comparison(item)}"
+                )
             else:
                 lines.append(f"{self._indent(level + 1)}{self._format_scalar(item)}")
         lines.append(f"{self._indent(level)}}}")
@@ -94,7 +99,7 @@ class ClausewitzFormatter:
             return "yes" if value else "no"
         if isinstance(value, str):
             if self._needs_quotes(value):
-                return f'"{value.replace("\"", "\\\"")}"'
+                return f'"{value.replace('"', '\\"')}"'
             return value
         if isinstance(value, float):
             if value.is_integer():
@@ -107,7 +112,9 @@ class ClausewitzFormatter:
     def _needs_quotes(self, text: str) -> bool:
         if not text:
             return True
-        allowed = set("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_./@:[]^?|")
+        allowed = set(
+            "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_./@:[]^?|"
+        )
         return any(ch.isspace() or ch not in allowed for ch in text)
 
     def _format_comparison(self, comparison: ClausewitzComparison) -> str:
@@ -147,11 +154,16 @@ class ClausewitzFormatter:
     def _format_inline_block(self, block: ClausewitzBlock) -> str:
         if not self._can_inline_block(block):
             raise ValueError("Cannot inline complex block")
-        parts = [f"{entry.key} = {self._format_scalar(entry.value)}" for entry in block.entries]
+        parts = [
+            f"{entry.key} = {self._format_scalar(entry.value)}"
+            for entry in block.entries
+        ]
         return " ".join(parts)
 
     def _is_scalar_value(self, value: ClausewitzValue) -> bool:
-        return not isinstance(value, (ClausewitzBlock, ClausewitzList, ClausewitzComparison))
+        return not isinstance(
+            value, (ClausewitzBlock, ClausewitzList, ClausewitzComparison)
+        )
 
     def _is_inline_scalar(self, value: ClausewitzValue) -> bool:
         if isinstance(value, ClausewitzScalarValue):

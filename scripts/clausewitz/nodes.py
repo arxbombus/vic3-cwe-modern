@@ -10,6 +10,7 @@ ClausewitzScalar = str | int | float | bool
 
 ClausewitzOperator = Literal[">", "<", ">=", "<=", "!=", "="]
 
+
 @dataclass(slots=True)
 class ClausewitzScalarValue:
     value: ClausewitzScalar
@@ -34,7 +35,7 @@ class ClausewitzListItem:
 
 @dataclass(slots=True)
 class ClausewitzList:
-    items: list[ClausewitzListItem] = field(default_factory=list) # type: ignore
+    items: list[ClausewitzListItem] = field(default_factory=list)  # type: ignore
     open_trivia: str = ""
     close_trivia: str = ""
 
@@ -57,7 +58,7 @@ class ClausewitzEntry:
 
 @dataclass(slots=True)
 class ClausewitzBlock:
-    entries: list[ClausewitzEntry] = field(default_factory=list) # type: ignore
+    entries: list[ClausewitzEntry] = field(default_factory=list)  # type: ignore
     leading_trivia: str = ""
     trailing_trivia: str = ""
 
@@ -87,4 +88,6 @@ class ClausewitzBlock:
         )
 
 
-ClausewitzValue = ClausewitzScalarValue | ClausewitzComparison | ClausewitzList | ClausewitzBlock
+ClausewitzValue = (
+    ClausewitzScalarValue | ClausewitzComparison | ClausewitzList | ClausewitzBlock
+)

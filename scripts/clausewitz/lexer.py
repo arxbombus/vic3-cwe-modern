@@ -41,7 +41,13 @@ class LexerMetadata:
     triggers: set[str] = field(default_factory=set)
 
     @classmethod
-    def from_iterables(cls, *, keywords: Iterable[str] = (), modifiers: Iterable[str] = (), triggers: Iterable[str] = ()):
+    def from_iterables(
+        cls,
+        *,
+        keywords: Iterable[str] = (),
+        modifiers: Iterable[str] = (),
+        triggers: Iterable[str] = (),
+    ):
         return cls(set(keywords), set(modifiers), set(triggers))
 
 
@@ -84,7 +90,9 @@ class ClausewitzLexer:
             if char.isalpha() or char in IDENTIFIER_EXTRA_CHARS:
                 self._emit_identifier()
                 continue
-            raise ValueError(f"Unexpected character '{char}' at {self._line}:{self._column}")
+            raise ValueError(
+                f"Unexpected character '{char}' at {self._line}:{self._column}"
+            )
 
         self.tokens.append(Token(TokenType.EOF, None, "", self._line, self._column))
         return self.tokens
@@ -125,9 +133,13 @@ class ClausewitzLexer:
             buffer.append(char)
             if char == "]":
                 word = "".join(buffer)
-                self.tokens.append(Token(TokenType.IDENTIFIER, word, word, start_line, start_col))
+                self.tokens.append(
+                    Token(TokenType.IDENTIFIER, word, word, start_line, start_col)
+                )
                 return
-        raise ValueError(f"Unterminated bracket expression starting at {start_line}:{start_col}")
+        raise ValueError(
+            f"Unterminated bracket expression starting at {start_line}:{start_col}"
+        )
 
     def _emit_string(self) -> None:
         quote = self._peek()
@@ -141,7 +153,9 @@ class ClausewitzLexer:
                 raw_buffer.append(self._advance())
                 value = "".join(value_buffer)
                 raw = "".join(raw_buffer)
-                self.tokens.append(Token(TokenType.STRING, value, raw, start_line, start_col))
+                self.tokens.append(
+                    Token(TokenType.STRING, value, raw, start_line, start_col)
+                )
                 return
             if char == "\\":
                 raw_buffer.append(self._advance())
@@ -159,8 +173,12 @@ class ClausewitzLexer:
         buffer = [self._advance()]  # consume first char
         while not self._is_eof and (self._peek().isdigit() or self._peek() == "."):
             buffer.append(self._advance())
-        if not self._is_eof and (self._peek().isalnum() or self._peek() in IDENTIFIER_EXTRA_CHARS):
-            while not self._is_eof and (self._peek().isalnum() or self._peek() in IDENTIFIER_EXTRA_CHARS):
+        if not self._is_eof and (
+            self._peek().isalnum() or self._peek() in IDENTIFIER_EXTRA_CHARS
+        ):
+            while not self._is_eof and (
+                self._peek().isalnum() or self._peek() in IDENTIFIER_EXTRA_CHARS
+            ):
                 buffer.append(self._advance())
             word = "".join(buffer)
             token_type = self._classify(word)
@@ -169,7 +187,9 @@ class ClausewitzLexer:
         text = "".join(buffer)
         dot_count = text.count(".")
         if dot_count > 1:
-            self.tokens.append(Token(TokenType.STRING, text, text, start_line, start_col))
+            self.tokens.append(
+                Token(TokenType.STRING, text, text, start_line, start_col)
+            )
             return
         value: int | float
         value = float(text) if dot_count == 1 else int(text)
@@ -185,12 +205,16 @@ class ClausewitzLexer:
     def _emit_identifier(self) -> None:
         start_line, start_col = self._line, self._column
         buffer = [self._advance()]
-        while not self._is_eof and (self._peek().isalnum() or self._peek() in IDENTIFIER_EXTRA_CHARS):
+        while not self._is_eof and (
+            self._peek().isalnum() or self._peek() in IDENTIFIER_EXTRA_CHARS
+        ):
             buffer.append(self._advance())
         word = "".join(buffer)
         if word in {"yes", "no"}:
             value = word == "yes"
-            self.tokens.append(Token(TokenType.BOOLEAN, value, word, start_line, start_col))
+            self.tokens.append(
+                Token(TokenType.BOOLEAN, value, word, start_line, start_col)
+            )
             return
         token_type = self._classify(word)
         self.tokens.append(Token(token_type, word, word, start_line, start_col))

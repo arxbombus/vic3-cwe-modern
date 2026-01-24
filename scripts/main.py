@@ -14,17 +14,22 @@ def generic_schema() -> DocumentSchema:
     root.register_child(KeyRule(name="*", repeatable=True))
     return DocumentSchema(name="generic", root_key="root", root_rule=root)
 
+
 def _scale_targets(block: ClausewitzBlock, factor: float) -> int:
     count = 0
     for entry in block.entries:
-        if entry.key == "building_modifiers" and isinstance(entry.value, ClausewitzBlock):
+        if entry.key == "building_modifiers" and isinstance(
+            entry.value, ClausewitzBlock
+        ):
             for sub in entry.value.entries:
                 if sub.key == "level_scaled" and isinstance(sub.value, ClausewitzBlock):
                     for leaf in sub.value.entries:
-                        if leaf.key.startswith("building_employment_") and leaf.key.endswith("_add"):
-                            if isinstance(leaf.value, ClausewitzScalarValue) and isinstance(
-                                leaf.value.value, (int, float)
-                            ):
+                        if leaf.key.startswith(
+                            "building_employment_"
+                        ) and leaf.key.endswith("_add"):
+                            if isinstance(
+                                leaf.value, ClausewitzScalarValue
+                            ) and isinstance(leaf.value.value, (int, float)):
                                 leaf.value.value = leaf.value.value / factor
                                 leaf.value.raw = str(leaf.value.value)
                                 count += 1
@@ -34,6 +39,7 @@ def _scale_targets(block: ClausewitzBlock, factor: float) -> int:
 def _format_document(document, *, preserve: bool = True) -> str:
     formatter = ClausewitzFormatter(mode="preserve" if preserve else "format")
     return formatter.format_document(document)
+
 
 def apply(
     directory: Path = Path("../common/production_methods"),
@@ -56,6 +62,7 @@ def apply(
 
 def main():
     apply()
+
 
 if __name__ == "__main__":
     main()
