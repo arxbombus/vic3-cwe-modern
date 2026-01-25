@@ -1,6 +1,6 @@
 NGame = {
 	START_DATE = "1950.1.1" 
-	END_DATE = "2092.1.1" 
+	END_DATE = "2200.1.1" 
 }
 
 NPolitics = {
@@ -13,7 +13,7 @@ NPolitics = {
 }
 
 NEconomy = {
-	PRICE_RANGE = 0.99								# min price of a good is base * (1 - PRICE_RANGE), Max price is base * (1 + PRICE_RANGE), PRICE_RANGE is locked to [0-1]
+	PRICE_RANGE = 0.85								# min price of a good is base * (1 - PRICE_RANGE), Max price is base * (1 + PRICE_RANGE), PRICE_RANGE is locked to [0-1]
 	BUY_SELL_DIFF_AT_MAX_FACTOR = 4					# the difference between buy/consumption and sell/production at min/max pricing, e.g. if set to 4 then if buy orders are 4x sell orders price is maxed
 	COUNTRY_MIN_CREDIT_SCALED = 0.20 				# Added to the total Building Cash Reserves to determine credit limit (multiplied by GDP)
 	DEFAULT_MIN_HIRING_RATE = 0.01 				# Default weekly min hiring limit applied in a building per profession as a ratio of full employment
@@ -34,8 +34,8 @@ NEconomy = {
 	# This is so that it's always profitable to be the first country exporting something
 	WORLD_MARKET_GOODS_DEMAND_BUFFER = 0
 	
-	MINIMUM_WAGE_RATE = 100.0					# The wage rate can never drop below this, no matter what (weekly £ per POP_SIZE_PACKAGE employees)
-	MAXIMUM_WAGE_RATE = 1000000.0				# The absolute maximum that a building's wage rate can be increased to.
+	MINIMUM_WAGE_RATE = 150.0					# The wage rate can never drop below this, no matter what (weekly £ per POP_SIZE_PACKAGE employees)
+	MAXIMUM_WAGE_RATE = 10000000.0				# The absolute maximum that a building's wage rate can be increased to.
 	
 	RETOOLING_WEEKS = 4							# How long it takes for a building to get back up to full production after switching a production method
 	
@@ -70,8 +70,8 @@ NDiplomacy = {
 
 ### Pop Growth Constants
 ## Base Values per month
-#@min_birthrate = 0.00070 #was 0.00055			# Minimum base birthrate per month (at POP_GROWTH_STABLE_SOL)
-#@max_birthrate = 0.00400 #was 0.00450			# Maximum base birthrate per month (at SOL = 0 if not modified by malnourishment)
+#@min_birthrate = 0.00075 #was 0.00055			# Minimum base birthrate per month (at POP_GROWTH_STABLE_SOL)
+#@max_birthrate = 0.00500 #was 0.00450			# Maximum base birthrate per month (at SOL = 0 if not modified by malnourishment)
 #@min_mortality = 0.00060 #was 0.00045			# Minimum base mortality per month (at POP_GROWTH_STABLE_SOL)
 #@max_mortality = 0.00550 #was 0.00600			# Maximum base mortality per month (at SOL = 0 if not modified by malnourishment)
 

@@ -1,0 +1,63 @@
+goods_output_technology_services_add = {
+	decimals = 1
+	color = good	#percent=yes
+	decimals = no
+}
+
+goods_output_technology_services_mult = {
+	decimals = 1
+	color = good
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+goods_input_technology_services_mult = {
+	decimals = 1
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+goods_input_technology_services_add = {
+	decimals = 1
+	color = bad
+	game_data = {
+		ai_value = 0
+	}
+}
+
+goods_output_high_technology_services_add = {
+	decimals = 1
+	color = good	#percent=yes
+	decimals = no
+}
+
+goods_output_high_technology_services_mult = {
+	decimals = 1
+	color = good
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+goods_input_high_technology_services_mult = {
+	decimals = 1
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+goods_input_high_technology_services_add = {
+	decimals = 1
+	color = bad
+	game_data = {
+		ai_value = 0
+	}
+}
