@@ -1,8 +1,6 @@
 """Predefined document schemas for HOI4 data."""
 
-from __future__ import annotations
-
-from .schema import DocumentSchema, KeyRule
+from clausewitz.core.schema import DocumentSchema, KeyRule
 
 
 def technologies_schema() -> DocumentSchema:

@@ -1,4 +1,4 @@
-"""Modern Clausewitz lexer for v2 pipeline."""
+"""Modern Clausewitz lexer (lossless tokens + spans)."""
 
 from __future__ import annotations
 
@@ -20,7 +20,6 @@ class TokenType(Enum):
     NUMBER = auto()
     BOOLEAN = auto()
     OPERATOR = auto()
-    COMMENT = auto()
     TRIVIA = auto()
     EOF = auto()
 
@@ -32,13 +31,15 @@ class Token:
     raw: str
     line: int
     column: int
+    start: int
+    end: int
 
 
 @dataclass(slots=True)
 class LexerMetadata:
-    keywords: set[str] = field(default_factory=set)
-    modifiers: set[str] = field(default_factory=set)
-    triggers: set[str] = field(default_factory=set)
+    keywords: set[str] = field(default_factory=set[str])
+    modifiers: set[str] = field(default_factory=set[str])
+    triggers: set[str] = field(default_factory=set[str])
 
     @classmethod
     def from_iterables(
@@ -47,7 +48,7 @@ class LexerMetadata:
         keywords: Iterable[str] = (),
         modifiers: Iterable[str] = (),
         triggers: Iterable[str] = (),
-    ):
+    ) -> LexerMetadata:
         return cls(set(keywords), set(modifiers), set(triggers))
 
 
@@ -90,134 +91,129 @@ class ClausewitzLexer:
             if char.isalpha() or char in IDENTIFIER_EXTRA_CHARS:
                 self._emit_identifier()
                 continue
-            raise ValueError(
-                f"Unexpected character '{char}' at {self._line}:{self._column}"
-            )
 
-        self.tokens.append(Token(TokenType.EOF, None, "", self._line, self._column))
+            raise ValueError(f"Unexpected character '{char}' at {self._line}:{self._column}")
+
+        # EOF
+        self.tokens.append(Token(TokenType.EOF, None, "", self._line, self._column, self._pos, self._pos))
         return self.tokens
 
+    # Emitters ----------------------------------------------------------------
     def _emit_whitespace(self) -> None:
-        start_line, start_col = self._line, self._column
+        start_line, start_col, start = self._line, self._column, self._pos
         buffer: list[str] = []
         while not self._is_eof and self._peek().isspace():
             buffer.append(self._advance())
         raw = "".join(buffer)
-        self.tokens.append(Token(TokenType.TRIVIA, raw, raw, start_line, start_col))
+        self.tokens.append(Token(TokenType.TRIVIA, raw, raw, start_line, start_col, start, self._pos))
 
     def _emit_bom(self) -> None:
-        start_line, start_col = self._line, self._column
+        start_line, start_col, start = self._line, self._column, self._pos
         raw = self._advance()
-        self.tokens.append(Token(TokenType.TRIVIA, raw, raw, start_line, start_col))
+        self.tokens.append(Token(TokenType.TRIVIA, raw, raw, start_line, start_col, start, self._pos))
 
     def _emit_comment(self) -> None:
-        start_line, start_col = self._line, self._column
+        start_line, start_col, start = self._line, self._column, self._pos
         buffer: list[str] = []
         while not self._is_eof and self._peek() != "\n":
             buffer.append(self._advance())
         if not self._is_eof and self._peek() == "\n":
-            buffer.append(self._advance())
+            buffer.append(self._advance())  # keep newline with comment
         raw = "".join(buffer)
-        self.tokens.append(Token(TokenType.TRIVIA, raw, raw, start_line, start_col))
+        self.tokens.append(Token(TokenType.TRIVIA, raw, raw, start_line, start_col, start, self._pos))
 
     def _emit_brace(self, char: str) -> None:
+        start_line, start_col, start = self._line, self._column, self._pos
         token_type = TokenType.OPEN_BRACE if char == "{" else TokenType.CLOSE_BRACE
-        self.tokens.append(Token(token_type, char, char, self._line, self._column))
         self._advance()
+        self.tokens.append(Token(token_type, char, char, start_line, start_col, start, self._pos))
 
     def _emit_bracket_expression(self) -> None:
-        start_line, start_col = self._line, self._column
-        buffer = [self._advance()]  # consume '['
+        start_line, start_col, start = self._line, self._column, self._pos
+        buffer = [self._advance()]  # '['
         while not self._is_eof:
-            char = self._advance()
-            buffer.append(char)
-            if char == "]":
-                word = "".join(buffer)
-                self.tokens.append(
-                    Token(TokenType.IDENTIFIER, word, word, start_line, start_col)
-                )
+            ch = self._advance()
+            buffer.append(ch)
+            if ch == "]":
+                raw = "".join(buffer)
+                self.tokens.append(Token(TokenType.IDENTIFIER, raw, raw, start_line, start_col, start, self._pos))
                 return
-        raise ValueError(
-            f"Unterminated bracket expression starting at {start_line}:{start_col}"
-        )
+        raise ValueError(f"Unterminated bracket expression starting at {start_line}:{start_col}")
 
     def _emit_string(self) -> None:
         quote = self._peek()
-        start_line, start_col = self._line, self._column
-        self._advance()
+        start_line, start_col, start = self._line, self._column, self._pos
+        self._advance()  # consume quote
         raw_buffer: list[str] = [quote]
-        value_buffer: list[str] = []
+        val_buffer: list[str] = []
         while not self._is_eof:
-            char = self._peek()
-            if char == quote:
+            ch = self._peek()
+            if ch == quote:
                 raw_buffer.append(self._advance())
-                value = "".join(value_buffer)
+                value = "".join(val_buffer)
                 raw = "".join(raw_buffer)
-                self.tokens.append(
-                    Token(TokenType.STRING, value, raw, start_line, start_col)
-                )
+                self.tokens.append(Token(TokenType.STRING, value, raw, start_line, start_col, start, self._pos))
                 return
-            if char == "\\":
+            if ch == "\\":
                 raw_buffer.append(self._advance())
                 if not self._is_eof:
-                    escaped = self._advance()
-                    raw_buffer.append(escaped)
-                    value_buffer.append(escaped)
+                    esc = self._advance()
+                    raw_buffer.append(esc)
+                    val_buffer.append(esc)
             else:
                 raw_buffer.append(self._advance())
-                value_buffer.append(char)
+                val_buffer.append(ch)
         raise ValueError(f"Unterminated string starting at {start_line}:{start_col}")
 
     def _emit_number(self) -> None:
-        start_line, start_col = self._line, self._column
-        buffer = [self._advance()]  # consume first char
+        start_line, start_col, start = self._line, self._column, self._pos
+        buf = [self._advance()]  # first char (digit or '-')
+
         while not self._is_eof and (self._peek().isdigit() or self._peek() == "."):
-            buffer.append(self._advance())
-        if not self._is_eof and (
-            self._peek().isalnum() or self._peek() in IDENTIFIER_EXTRA_CHARS
-        ):
-            while not self._is_eof and (
-                self._peek().isalnum() or self._peek() in IDENTIFIER_EXTRA_CHARS
-            ):
-                buffer.append(self._advance())
-            word = "".join(buffer)
+            buf.append(self._advance())
+
+        # If numbers are glued to identifier chars (e.g. 10k), treat as identifier-ish
+        if not self._is_eof and (self._peek().isalnum() or self._peek() in IDENTIFIER_EXTRA_CHARS):
+            while not self._is_eof and (self._peek().isalnum() or self._peek() in IDENTIFIER_EXTRA_CHARS):
+                buf.append(self._advance())
+            word = "".join(buf)
             token_type = self._classify(word)
-            self.tokens.append(Token(token_type, word, word, start_line, start_col))
+            self.tokens.append(Token(token_type, word, word, start_line, start_col, start, self._pos))
             return
-        text = "".join(buffer)
+
+        text = "".join(buf)
         dot_count = text.count(".")
-        if dot_count > 1:
-            self.tokens.append(
-                Token(TokenType.STRING, text, text, start_line, start_col)
-            )
+
+        # Clausewitz "dates" / version-ish tokens: 1836.1.1, 1.2.3, etc.
+        # Treat as a STRING scalar token (no special date semantics).
+        if dot_count >= 2:
+            self.tokens.append(Token(TokenType.STRING, text, text, start_line, start_col, start, self._pos))
             return
-        value: int | float
-        value = float(text) if dot_count == 1 else int(text)
-        self.tokens.append(Token(TokenType.NUMBER, value, text, start_line, start_col))
+
+        # Normal number
+        value: int | float = float(text) if dot_count == 1 else int(text)
+        self.tokens.append(Token(TokenType.NUMBER, value, text, start_line, start_col, start, self._pos))
 
     def _emit_operator(self) -> None:
-        start_line, start_col = self._line, self._column
-        char = self._advance()
-        if not self._is_eof and self._peek() == "=" and char in "<>!=":
-            char += self._advance()
-        self.tokens.append(Token(TokenType.OPERATOR, char, char, start_line, start_col))
+        start_line, start_col, start = self._line, self._column, self._pos
+        ch = self._advance()
+        if not self._is_eof and self._peek() == "=" and ch in "<>!=":
+            ch += self._advance()
+        self.tokens.append(Token(TokenType.OPERATOR, ch, ch, start_line, start_col, start, self._pos))
 
     def _emit_identifier(self) -> None:
-        start_line, start_col = self._line, self._column
+        start_line, start_col, start = self._line, self._column, self._pos
         buffer = [self._advance()]
-        while not self._is_eof and (
-            self._peek().isalnum() or self._peek() in IDENTIFIER_EXTRA_CHARS
-        ):
+        while not self._is_eof and (self._peek().isalnum() or self._peek() in IDENTIFIER_EXTRA_CHARS):
             buffer.append(self._advance())
         word = "".join(buffer)
+
         if word in {"yes", "no"}:
-            value = word == "yes"
-            self.tokens.append(
-                Token(TokenType.BOOLEAN, value, word, start_line, start_col)
-            )
+            self.tokens.append(Token(TokenType.BOOLEAN, word == "yes", word, start_line, start_col, start, self._pos))
             return
+
         token_type = self._classify(word)
-        self.tokens.append(Token(token_type, word, word, start_line, start_col))
+        self.tokens.append(Token(token_type, word, word, start_line, start_col, start, self._pos))
 
     # Helpers -----------------------------------------------------------------
     def _classify(self, word: str) -> TokenType:
@@ -234,20 +230,20 @@ class ClausewitzLexer:
         return self._pos >= len(self.text)
 
     def _peek(self, ahead: int = 0) -> str:
-        index = self._pos + ahead
-        if index >= len(self.text):
+        idx = self._pos + ahead
+        if idx >= len(self.text):
             return "\0"
-        return self.text[index]
+        return self.text[idx]
 
     def _advance(self) -> str:
-        char = self.text[self._pos]
+        ch = self.text[self._pos]
         self._pos += 1
-        if char == "\n":
+        if ch == "\n":
             self._line += 1
             self._column = 1
         else:
             self._column += 1
-        return char
+        return ch
 
 
 __all__ = ["ClausewitzLexer", "LexerMetadata", "Token", "TokenType"]

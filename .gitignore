@@ -6,3 +6,5 @@
 *.pyc
 scripts/.backups
 scripts/.baseline_data
+
+*DS_Store

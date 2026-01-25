@@ -15,13 +15,13 @@ class KeyRule:
     name: str
     kind: ClausewitzValueKind = "any"
     repeatable: bool = False
-    children: dict[str, "KeyRule"] = field(default_factory=dict)
-    wildcard: "KeyRule | None" = None
+    children: dict[str, KeyRule] = field(default_factory=dict[str, "KeyRule"])
+    wildcard: KeyRule | None = None
 
-    def child(self, key: str) -> "KeyRule | None":
+    def child(self, key: str) -> KeyRule | None:
         return self.children.get(key) or self.wildcard
 
-    def register_child(self, rule: "KeyRule") -> None:
+    def register_child(self, rule: KeyRule) -> None:
         if rule.name == "*":
             self.wildcard = rule
         else:
@@ -36,7 +36,7 @@ class DocumentSchema:
     root_key: str
     root_rule: KeyRule
 
-    def rule_for_path(self, path: list[str]) -> "KeyRule | None":
+    def rule_for_path(self, path: list[str]) -> KeyRule | None:
         if not path or path[0] != self.root_key:
             return None
         rule = self.root_rule
