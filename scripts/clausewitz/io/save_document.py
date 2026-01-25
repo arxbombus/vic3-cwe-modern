@@ -12,7 +12,7 @@ from typing import Literal
 
 from clausewitz.core.cst import CstBlock
 from clausewitz.format.cst_formatter import ClausewitzCstFormatter
-from clausewitz.format.formatter import FormatPolicy
+from clausewitz.format.policy import FormatPolicy
 from clausewitz.format.lossless import print_cst
 
 SaveMode = Literal["preserve", "canonical"]
@@ -23,6 +23,8 @@ class SaveOptions:
     mode: SaveMode = "preserve"
     encoding: str = "utf-8"
     format_policy: FormatPolicy = FormatPolicy(max_width=100, indent=4)
+    preserve_comments: bool = True
+    preserve_trivia: bool = False
 
 
 def save_document(
@@ -47,7 +49,11 @@ def save_document(
         return new_text
 
     if options.mode == "canonical":
-        formatter = ClausewitzCstFormatter(options.format_policy)
+        formatter = ClausewitzCstFormatter(
+            options.format_policy,
+            preserve_comments=options.preserve_comments,
+            preserve_trivia=options.preserve_trivia,
+        )
         new_text = formatter.format(cst_root)
         p.write_text(new_text, encoding=options.encoding)
         return new_text

@@ -1,16 +1,16 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
 from fnmatch import fnmatchcase
 from functools import lru_cache
 import re
 from typing import Iterator, Sequence
 
-from clausewitz.edit import CstEditSession
-from clausewitz.model.ast import AstValue, Block, Entry, ListValue, Operator, ScalarValue, TaggedValue
+from clausewitz.edit.edits import AstEntryRef, CstEditSession
+from clausewitz.model.ast import AstValue, Block, ListValue, Operator, ScalarValue, TaggedValue
+
+_REGEX_PREFIX = "re:"
 
 type Path = tuple[str, ...]
-_REGEX_PREFIX = "re:"
 
 
 def parse_path(path: str | Sequence[str]) -> Path:
@@ -98,12 +98,6 @@ def endswith_path_pattern(actual: Path, pattern: str | Sequence[str]) -> bool:
         if match_path_pattern(pat, actual[start:]):
             return True
     return False
-
-
-@dataclass(frozen=True, slots=True)
-class AstEntryRef:
-    entry: Entry
-    ancestors: Path
 
 
 def _unwrap_block(v: AstValue) -> Block | None:

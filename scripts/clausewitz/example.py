@@ -2,8 +2,10 @@ from clausewitz import ClausewitzDocument, DocumentSchema, KeyRule
 from clausewitz.query import replace_values, scale_numeric_values
 
 example_text_1 = """
-building_company_headquarter = { # hello world
-	aliases = { } building_group = bg_company_headquarter
+# comment 1
+building_company_headquarter = { # comment 2
+# comment 3
+	aliases = { } building_group = bg_company_headquarter # another comment
 	city_type = city
 	levels_per_mesh = 50
 

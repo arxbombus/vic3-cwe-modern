@@ -1,8 +1,6 @@
 """AST query helpers."""
 
 from clausewitz.query.query_utils import (
-    AstEntryRef,
-    Path,
     endswith_path_pattern,
     find_blocks_by_path,
     find_entries,
@@ -17,8 +15,6 @@ from clausewitz.query.query_utils import (
 )
 
 __all__ = [
-    "AstEntryRef",
-    "Path",
     "endswith_path_pattern",
     "find_blocks_by_path",
     "find_entries",

@@ -5,8 +5,8 @@ from pathlib import Path
 
 from clausewitz.core import ClausewitzParser, CstBlock, DocumentSchema, ParserConfig
 from clausewitz.edit import CstEditSession
-from clausewitz.format import ClausewitzCstFormatter, print_cst
-from clausewitz.io import SaveMode, SaveOptions
+from clausewitz.format import print_cst
+from clausewitz.io import SaveMode, SaveOptions, save_document
 from clausewitz.model import Block, Entry, lower_root
 
 
@@ -78,16 +78,11 @@ class ClausewitzDocument:
         if mode == "preserve":
             if self.cst_root is None:
                 raise ValueError("Document has no CST root")
-            new_text = print_cst(self.cst_root)
-            Path(path).write_text(new_text, encoding=opts.encoding)
-            return new_text
+            return save_document(path, cst_root=self.cst_root, options=opts)
         if mode == "canonical":
             if self.cst_root is None:
                 raise ValueError("Document has no CST root")
-            formatter = ClausewitzCstFormatter(opts.format_policy)
-            new_text = formatter.format(self.cst_root)
-            Path(path).write_text(new_text, encoding=opts.encoding)
-            return new_text
+            return save_document(path, cst_root=self.cst_root, options=opts)
         raise ValueError(f"Unknown save mode: {mode}")
 
     def refresh_ast(self) -> None:

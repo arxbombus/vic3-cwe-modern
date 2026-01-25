@@ -1,68 +1,21 @@
-"""Text edit model + application (stable, minimal-diff patching)."""
+"""CST edit session for structural and value mutations."""
 
 from __future__ import annotations
 
 from dataclasses import dataclass
 from typing import Iterable
 
-from clausewitz.core import ClausewitzLexer, ClausewitzParser, ParserConfig
-from clausewitz.core.cst import CstBlock, CstEntry, CstList, CstListItem, CstTagged, CstValue
+from clausewitz.core import ClausewitzLexer, ClausewitzParser, CstBlock, CstEntry, CstList, CstListItem, ParserConfig
+from clausewitz.core.cst import CstTagged, CstValue
 from clausewitz.core.lexer import Token, TokenType
 from clausewitz.core.schema import DocumentSchema
 from clausewitz.model import AstValue, Block as AstBlock, Entry as AstEntry, ListValue, ScalarValue, TaggedValue
-from clausewitz.query.query_utils import AstEntryRef
 
 
 @dataclass(frozen=True, slots=True)
-class Replace:
-    start: int
-    end: int
-    text: str
-
-
-@dataclass(frozen=True, slots=True)
-class Insert:
-    pos: int
-    text: str
-
-
-@dataclass(frozen=True, slots=True)
-class Delete:
-    start: int
-    end: int
-
-
-type Edit = Replace | Insert | Delete
-type EditPlan = Iterable[Edit]
-
-
-def _to_replace(e: Edit) -> Replace:
-    if isinstance(e, Replace):
-        return e
-    if isinstance(e, Insert):
-        return Replace(e.pos, e.pos, e.text)
-    # Delete
-    return Replace(e.start, e.end, "")
-
-
-def apply_edits(source: str, edits: EditPlan) -> str:
-    rs = [_to_replace(e) for e in edits]
-    es = sorted(rs, key=lambda e: (e.start, e.end), reverse=True)
-
-    last_start: int | None = None
-    last_end: int | None = None
-    for e in es:
-        if e.start < 0 or e.end < e.start or e.end > len(source):
-            raise ValueError(f"Invalid edit range: {e}")
-        if last_start is not None:
-            if e.end > last_start:
-                raise ValueError(f"Overlapping edits: {e} overlaps [{last_start},{last_end})")
-        last_start, last_end = e.start, e.end
-
-    out = source
-    for e in es:
-        out = out[: e.start] + e.text + out[e.end :]
-    return out
+class AstEntryRef:
+    entry: AstEntry
+    ancestors: tuple[str, ...]
 
 
 @dataclass(slots=True)
@@ -135,7 +88,6 @@ class CstEditSession:
         prefix = _infer_prefix_from_trivia(_iter_list_trivia(lst), default_indent=self.default_indent)
         if prefix:
             return prefix
-        # Inline list fallback
         return " "
 
     def _cst_entry_for_ast_ref(self, ref: AstEntryRef) -> CstEntry:
@@ -149,7 +101,6 @@ class CstEditSession:
         return cst_block.entries[idx]
 
 
-# edit/edits.py (we move cst_edits.py here)
 def _descend_block_pair(
     ast_block: AstBlock, cst_block: CstBlock, key: str, target_entry: AstEntry
 ) -> tuple[AstBlock, CstBlock]:
@@ -288,4 +239,4 @@ def _parse_scalar_raw(raw: str) -> ScalarValue:
     return ScalarValue(value=tok.value, raw=tok.raw, origin=None)
 
 
-__all__ = ["CstEditSession", "Delete", "Edit", "Insert", "Replace", "apply_edits"]
+__all__ = ["CstEditSession"]
