@@ -1,20 +1,24 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Any
-
 import shutil
 import sys
-import typer
+from typing import Any
+
 from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
+import typer
 
 import engine
+from paths import (
+    BACKUP_BASE_DIR,
+    BASELINE_DATA_BASE_DIR,
+    MOD_ROOT,
+    SCRIPTS_ROOT,
+)
 import plan_loader
 import ui
-from paths import BACKUP_BASE_DIR, BASELINE_DATA_BASE_DIR, MOD_ROOT, SCRIPTS_ROOT
-
 
 app = typer.Typer(no_args_is_help=True, pretty_exceptions_short=True)
 _console = Console(stderr=True)

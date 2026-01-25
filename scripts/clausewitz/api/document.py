@@ -1,13 +1,24 @@
 """High-level Clausewitz document wrapper (parse -> CST/AST -> edits -> save)."""
 
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
 
-from clausewitz.core import ClausewitzParser, CstBlock, DocumentSchema, ParserConfig
+from clausewitz.core import (
+    ClausewitzParser,
+    CstBlock,
+    DocumentSchema,
+    ParserConfig,
+)
 from clausewitz.edit import CstEditSession
 from clausewitz.format import print_cst
 from clausewitz.io import SaveMode, SaveOptions, save_document
-from clausewitz.model import Block, Entry, lower_root
+from clausewitz.model import Block, Entry, Operator, lower_root
+from clausewitz.query import (
+    delete_entries,
+    insert_entries_end_of_blocks,
+    replace_values,
+    scale_numeric_values,
+)
 
 
 @dataclass(slots=True)
@@ -67,6 +78,76 @@ class ClausewitzDocument:
             raise ValueError("Document has no CST root")
         return print_cst(self.cst_root)
 
+    def delete_entries(
+        self,
+        *,
+        key_pattern: str,
+        ancestor_suffix_pattern: str = "",
+        exclude_key_patterns: tuple[str, ...] = (),
+    ) -> None:
+        delete_entries(
+            self.root,
+            key_pattern=key_pattern,
+            ancestor_suffix_pattern=ancestor_suffix_pattern,
+            exclude_key_patterns=exclude_key_patterns,
+            session=self.session,
+        )
+
+    def replace_values(
+        self,
+        *,
+        key_pattern: str,
+        new_raw: str,
+        ancestor_suffix_pattern: str = "",
+        exclude_key_patterns: tuple[str, ...] = (),
+        operator: Operator | None = None,
+    ) -> None:
+        replace_values(
+            self.root,
+            key_pattern=key_pattern,
+            new_raw=new_raw,
+            ancestor_suffix_pattern=ancestor_suffix_pattern,
+            exclude_key_patterns=exclude_key_patterns,
+            operator=operator,
+            session=self.session,
+        )
+
+    def scale_numeric_values(
+        self,
+        *,
+        key_pattern: str,
+        factor: float,
+        ancestor_suffix_pattern: str = "",
+        exclude_key_patterns: tuple[str, ...] = (),
+        operator: Operator = "=",
+    ) -> None:
+        scale_numeric_values(
+            self.root,
+            key_pattern=key_pattern,
+            factor=factor,
+            ancestor_suffix_pattern=ancestor_suffix_pattern,
+            exclude_key_patterns=exclude_key_patterns,
+            operator=operator,
+            session=self.session,
+        )
+
+    def insert_entries_end_of_blocks(
+        self,
+        *,
+        key_pattern: str,
+        entry_raw: str,
+        ancestor_suffix_pattern: str = "",
+        exclude_key_patterns: tuple[str, ...] = (),
+    ) -> None:
+        insert_entries_end_of_blocks(
+            self.root,
+            key_pattern=key_pattern,
+            entry_raw=entry_raw,
+            ancestor_suffix_pattern=ancestor_suffix_pattern,
+            exclude_key_patterns=exclude_key_patterns,
+            session=self.session,
+        )
+
     def save(
         self,
         path: str | Path,
@@ -74,7 +155,10 @@ class ClausewitzDocument:
         mode: SaveMode = "preserve",
         options: SaveOptions | None = None,
     ) -> str:
-        opts = options or SaveOptions(mode=mode)
+        if options is None:
+            opts = SaveOptions(mode=mode)
+        else:
+            opts = replace(options, mode=mode) if options.mode != mode else options
         if mode == "preserve":
             if self.cst_root is None:
                 raise ValueError("Document has no CST root")

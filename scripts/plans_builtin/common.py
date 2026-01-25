@@ -2,8 +2,15 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Callable, Iterable
 import re
+from typing import Callable, Iterable
+
+from clausewitz.nodes import (
+    ClausewitzBlock,
+    ClausewitzEntry,
+    ClausewitzList,
+    ClausewitzScalarValue,
+)
 
 from clausewitz import (
     ClausewitzDocument,
@@ -12,13 +19,6 @@ from clausewitz import (
     DocumentSchema,
     KeyRule,
 )
-from clausewitz.nodes import (
-    ClausewitzBlock,
-    ClausewitzEntry,
-    ClausewitzList,
-    ClausewitzScalarValue,
-)
-
 from plan_api import ApplyResult, EditInfo, ExecutionPlan
 
 
@@ -33,7 +33,7 @@ class EditRule:
     name: str
     description: str
     predicate: Callable[[tuple[str, ...], ClausewitzEntry, ClausewitzBlock | None], bool]
-    apply: Callable[[tuple[str, ...], ClausewitzEntry, ClausewitzBlock | None, "EditContext"], None]
+    apply: Callable[[tuple[str, ...], ClausewitzEntry, ClausewitzBlock | None, EditContext], None]
 
 
 @dataclass(frozen=True)

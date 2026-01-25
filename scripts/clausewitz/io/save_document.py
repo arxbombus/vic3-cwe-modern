@@ -12,8 +12,8 @@ from typing import Literal
 
 from clausewitz.core.cst import CstBlock
 from clausewitz.format.cst_formatter import ClausewitzCstFormatter
-from clausewitz.format.policy import FormatPolicy
 from clausewitz.format.lossless import print_cst
+from clausewitz.format.policy import FormatPolicy
 
 SaveMode = Literal["preserve", "canonical"]
 

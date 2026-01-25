@@ -3,7 +3,12 @@ from __future__ import annotations
 from pathlib import Path
 
 from plan_api import ExecutionPlan, ParamSpec, PlanSpec
-from plans_builtin.common import TextEditPlan, TextEditRule, make_text_execution_plan, scale_key_value_text
+from plans_builtin.common import (
+    TextEditPlan,
+    TextEditRule,
+    make_text_execution_plan,
+    scale_key_value_text,
+)
 
 POP_TYPES_WAGE_WEIGHT_FACTOR = 1.5
 POP_TYPES_DEPENDENT_WAGE_FACTOR = 0.25

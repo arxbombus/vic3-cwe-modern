@@ -13,8 +13,9 @@ from clausewitz.core.cst import (
     CstValue,
     TriviaToken,
 )
-from clausewitz.format.policy import FormatPolicy
+from clausewitz.core.lexer import TokenType
 from clausewitz.format.lossless import print_cst
+from clausewitz.format.policy import FormatPolicy
 
 
 class ClausewitzCstFormatter:
@@ -49,9 +50,13 @@ class ClausewitzCstFormatter:
             out.append(self._format_block_inline(b))
             return
 
-        out.append("{\n")
+        out.append("{")
         inner_indent = indent + self.policy.indent
-        self._emit_comments(out, inner_indent, b.open_trivia)
+        inline_comments, standalone_comments = self._split_comment_lines(b.open_trivia, inline_allowed=True)
+        if inline_comments:
+            out.append(" " + self._format_inline_comments(inline_comments))
+        out.append("\n")
+        self._emit_comment_lines(out, inner_indent, standalone_comments)
         for e in b.entries:
             self._emit_entry(out, e, indent=inner_indent)
         self._emit_comments(out, inner_indent, b.close_trivia)
@@ -64,16 +69,19 @@ class ClausewitzCstFormatter:
             return
         out.append((" " * indent) + e.key.raw + " " + e.operator.raw + " ")
         out.append(self._format_value(e.value, indent=indent))
+        inline_comments, standalone_comments = self._split_comment_lines(e.trailing_trivia, inline_allowed=True)
+        if inline_comments:
+            out.append(" " + self._format_inline_comments(inline_comments))
         out.append("\n")
-        self._emit_comments(out, indent, e.trailing_trivia)
+        self._emit_comment_lines(out, indent, standalone_comments)
 
     def _format_value(self, v: CstValue, *, indent: int) -> str:
         if isinstance(v, CstScalar):
-            return v.token.raw
+            return self._format_scalar(v)
         if isinstance(v, CstComparison):
             if v.operator is None or v.right is None:
                 raise ValueError("Comparison missing operator or right scalar")
-            return f"{v.left.raw} {v.operator.raw} {v.right.token.raw}"
+            return f"{v.left.raw} {v.operator.raw} {self._format_scalar(v.right)}"
         if isinstance(v, CstTagged):
             return self._format_tagged_value(v, indent=indent)
         if isinstance(v, CstList):
@@ -107,9 +115,13 @@ class ClausewitzCstFormatter:
             return "{ " + inner + " }"
 
         out: list[str] = []
-        out.append("{\n")
+        out.append("{")
         inner_indent = indent + self.policy.indent
-        self._emit_comments(out, inner_indent, lst.open_trivia)
+        inline_comments, standalone_comments = self._split_comment_lines(lst.open_trivia, inline_allowed=True)
+        if inline_comments:
+            out.append(" " + self._format_inline_comments(inline_comments))
+        out.append("\n")
+        self._emit_comment_lines(out, inner_indent, standalone_comments)
         for item in lst.items:
             self._emit_list_item(out, item, indent=inner_indent)
         self._emit_comments(out, inner_indent, lst.close_trivia)
@@ -122,8 +134,11 @@ class ClausewitzCstFormatter:
             return
         out.append(" " * indent)
         out.append(self._format_value(item.value, indent=indent))
+        inline_comments, standalone_comments = self._split_comment_lines(item.trailing_trivia, inline_allowed=True)
+        if inline_comments:
+            out.append(" " + self._format_inline_comments(inline_comments))
         out.append("\n")
-        self._emit_comments(out, indent, item.trailing_trivia)
+        self._emit_comment_lines(out, indent, standalone_comments)
 
     def _can_inline_block(self, b: CstBlock) -> bool:
         if self._block_has_comments(b):
@@ -202,20 +217,8 @@ class ClausewitzCstFormatter:
     def _emit_comments(self, out: list[str], indent: int, trivia: list[TriviaToken]) -> None:
         if not self.preserve_comments:
             return
-        for line in self._comment_lines(trivia):
-            out.append((" " * indent) + self._normalize_comment_line(line) + "\n")
-
-    def _comment_lines(self, trivia: list[TriviaToken]) -> list[str]:
-        lines: list[str] = []
-        for t in trivia:
-            if not self._is_comment(t.raw):
-                continue
-            raw = t.raw.rstrip("\r\n")
-            for line in raw.splitlines():
-                stripped = line.strip()
-                if stripped:
-                    lines.append(stripped)
-        return lines
+        _, standalone_comments = self._split_comment_lines(trivia, inline_allowed=False)
+        self._emit_comment_lines(out, indent, standalone_comments)
 
     def _is_comment(self, raw: str) -> bool:
         return raw.startswith("#")
@@ -234,14 +237,60 @@ class ClausewitzCstFormatter:
     def _format_tagged_value(self, v: CstTagged, *, indent: int) -> str:
         if v.value is None:
             raise ValueError("Tagged value missing braced value")
-        comments = self._comment_lines(v.between_tag_value_trivia)
-        if not self.preserve_comments or not comments:
+        inline_comments, standalone_comments = self._split_comment_lines(
+            v.between_tag_value_trivia, inline_allowed=True
+        )
+        if not self.preserve_comments or (not inline_comments and not standalone_comments):
             return f"{v.tag.raw} {self._format_brace_value(v.value, indent=indent)}"
         cont_indent = indent + self.policy.indent
-        comment_block = "\n".join((" " * cont_indent) + self._normalize_comment_line(c) for c in comments)
+        comment_block = "\n".join((" " * cont_indent) + self._normalize_comment_line(c) for c in standalone_comments)
         brace_val = self._format_brace_value(v.value, indent=0)
         brace_val = _indent_multiline(brace_val, cont_indent)
-        return f"{v.tag.raw}\n{comment_block}\n{brace_val}"
+        inline_line = v.tag.raw
+        if inline_comments:
+            inline_line = inline_line + " " + self._format_inline_comments(inline_comments)
+        if comment_block:
+            return f"{inline_line}\n{comment_block}\n{brace_val}"
+        return f"{inline_line}\n{brace_val}"
+
+    def _format_scalar(self, v: CstScalar) -> str:
+        tok = v.token
+        if self.policy.trim_float_trailing_zero and tok.type == TokenType.NUMBER:
+            if isinstance(tok.value, float) and tok.value.is_integer():
+                return str(int(tok.value))
+        return tok.raw
+
+    def _split_comment_lines(self, trivia: list[TriviaToken], *, inline_allowed: bool) -> tuple[list[str], list[str]]:
+        inline: list[str] = []
+        standalone: list[str] = []
+        saw_newline = False
+        for t in trivia:
+            raw = t.raw
+            if self._is_comment(raw):
+                raw = raw.rstrip("\r\n")
+                lines = [line.strip() for line in raw.splitlines() if line.strip()]
+                if lines:
+                    if inline_allowed and not saw_newline:
+                        inline.extend(lines)
+                    else:
+                        standalone.extend(lines)
+                saw_newline = True
+                continue
+            if "\n" in raw or "\r" in raw:
+                saw_newline = True
+        if not inline_allowed and inline:
+            standalone = inline + standalone
+            inline = []
+        return inline, standalone
+
+    def _emit_comment_lines(self, out: list[str], indent: int, lines: list[str]) -> None:
+        if not self.preserve_comments:
+            return
+        for line in lines:
+            out.append((" " * indent) + self._normalize_comment_line(line) + "\n")
+
+    def _format_inline_comments(self, lines: list[str]) -> str:
+        return " ".join(self._normalize_comment_line(line) for line in lines)
 
 
 def _indent_multiline(text: str, indent: int) -> str:

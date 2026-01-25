@@ -18,7 +18,12 @@ from clausewitz.core.cst import (
     CstValue,
     TriviaToken,
 )
-from clausewitz.core.lexer import ClausewitzLexer, LexerMetadata, Token, TokenType
+from clausewitz.core.lexer import (
+    ClausewitzLexer,
+    LexerMetadata,
+    Token,
+    TokenType,
+)
 from clausewitz.core.schema import DocumentSchema
 
 

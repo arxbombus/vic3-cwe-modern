@@ -6,7 +6,14 @@ import re
 from typing import Iterator, Sequence
 
 from clausewitz.edit.edits import AstEntryRef, CstEditSession
-from clausewitz.model.ast import AstValue, Block, ListValue, Operator, ScalarValue, TaggedValue
+from clausewitz.model.ast import (
+    AstValue,
+    Block,
+    ListValue,
+    Operator,
+    ScalarValue,
+    TaggedValue,
+)
 
 _REGEX_PREFIX = "re:"
 
@@ -192,6 +199,46 @@ def replace_values(
         if operator is not None and ref.entry.operator != operator:
             continue
         session.replace_entry_value_ast(ref, new_raw)
+
+
+def delete_entries(
+    root: Block,
+    *,
+    key_pattern: str,
+    ancestor_suffix_pattern: str = "",
+    exclude_key_patterns: Sequence[str] = (),
+    session: CstEditSession,
+) -> None:
+    refs = find_entries(
+        root,
+        key_pattern=key_pattern,
+        ancestor_suffix_pattern=ancestor_suffix_pattern,
+        exclude_key_patterns=exclude_key_patterns,
+    )
+    for ref in refs:
+        session.delete_entry_ast(ref)
+
+
+def insert_entries_end_of_blocks(
+    root: Block,
+    *,
+    key_pattern: str,
+    ancestor_suffix_pattern: str = "",
+    exclude_key_patterns: Sequence[str] = (),
+    entry_raw: str,
+    session: CstEditSession,
+) -> None:
+    refs = find_entries(
+        root,
+        key_pattern=key_pattern,
+        ancestor_suffix_pattern=ancestor_suffix_pattern,
+        exclude_key_patterns=exclude_key_patterns,
+    )
+    for ref in refs:
+        try:
+            session.insert_entry_end_of_block_ast(ref, entry_raw)
+        except ValueError:
+            continue
 
 
 def _parse_number_raw(raw: str) -> float | None:

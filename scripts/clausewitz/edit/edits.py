@@ -5,11 +5,27 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Iterable
 
-from clausewitz.core import ClausewitzLexer, ClausewitzParser, CstBlock, CstEntry, CstList, CstListItem, ParserConfig
+from clausewitz.core import (
+    ClausewitzLexer,
+    ClausewitzParser,
+    CstBlock,
+    CstEntry,
+    CstList,
+    CstListItem,
+    ParserConfig,
+)
 from clausewitz.core.cst import CstTagged, CstValue
 from clausewitz.core.lexer import Token, TokenType
 from clausewitz.core.schema import DocumentSchema
-from clausewitz.model import AstValue, Block as AstBlock, Entry as AstEntry, ListValue, ScalarValue, TaggedValue
+from clausewitz.model import (
+    AstValue,
+    Block as AstBlock,
+    Entry as AstEntry,
+    ListValue,
+    ScalarValue,
+    TaggedValue,
+    lower_root,
+)
 
 
 @dataclass(frozen=True, slots=True)
@@ -42,6 +58,24 @@ class CstEditSession:
         block.entries.append(entry)
         return entry
 
+    def insert_entry_end_of_block_ast(self, ref: AstEntryRef, entry_raw: str) -> CstEntry:
+        cst_entry = self._cst_entry_for_ast_ref(ref)
+        if cst_entry.value is None:
+            raise ValueError("CST entry has no value")
+        cst_block = _unwrap_block_cst(cst_entry.value)
+        if cst_block is None:
+            raise ValueError("CST entry value is not a block")
+        new_cst_entry = self.insert_entry_end_of_block(cst_block, entry_raw)
+
+        if self.ast_root is None:
+            return new_cst_entry
+        ast_block = _unwrap_block_ast(ref.entry.value)
+        if ast_block is None:
+            raise ValueError("AST entry value is not a block")
+        new_ast_entry = _lower_entry_from_cst(new_cst_entry)
+        ast_block.entries.append(new_ast_entry)
+        return new_cst_entry
+
     def insert_item_end_of_list(self, lst: CstList, item_raw: str) -> CstListItem:
         item = self._parse_list_item(item_raw)
         prefix = self._list_item_prefix(lst)
@@ -51,6 +85,23 @@ class CstEditSession:
 
     def delete_entry(self, block: CstBlock, entry: CstEntry) -> None:
         block.entries.remove(entry)
+
+    def delete_entry_ast(self, ref: AstEntryRef) -> None:
+        if self.ast_root is None:
+            raise ValueError("AST root is required for AST-based edits")
+        ast_block = self.ast_root
+        cst_block = self.cst_root
+        for seg in ref.ancestors:
+            ast_block, cst_block = _descend_block_pair(ast_block, cst_block, seg, ref.entry)
+        idx = ast_block.entries.index(ref.entry)
+        del ast_block.entries[idx]
+        del cst_block.entries[idx]
+
+    def cst_block_for_ast_ref(self, ref: AstEntryRef) -> CstBlock | None:
+        cst_entry = self._cst_entry_for_ast_ref(ref)
+        if cst_entry.value is None:
+            return None
+        return _unwrap_block_cst(cst_entry.value)
 
     # ------------------------------------------------------------------ #
     # Internal helpers
@@ -237,6 +288,14 @@ def _parse_scalar_raw(raw: str) -> ScalarValue:
     if tok.value is None:
         raise ValueError("Scalar token has no value")
     return ScalarValue(value=tok.value, raw=tok.raw, origin=None)
+
+
+def _lower_entry_from_cst(entry: CstEntry) -> AstEntry:
+    temp = CstBlock(entries=[entry])
+    block = lower_root(temp)
+    if not block.entries:
+        raise ValueError("Lowered entry is empty")
+    return block.entries[0]
 
 
 __all__ = ["CstEditSession"]

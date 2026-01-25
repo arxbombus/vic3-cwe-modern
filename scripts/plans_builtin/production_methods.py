@@ -2,9 +2,13 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from clausewitz import ClausewitzDocument
-from clausewitz.nodes import ClausewitzEntry, ClausewitzBlock, ClausewitzScalarValue
+from clausewitz.nodes import (
+    ClausewitzBlock,
+    ClausewitzEntry,
+    ClausewitzScalarValue,
+)
 
+from clausewitz import ClausewitzDocument
 from plan_api import ExecutionPlan, ParamSpec, PlanSpec
 from plans_builtin.common import (
     EditContext,
