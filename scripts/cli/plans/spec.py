@@ -1,10 +1,21 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+from enum import Enum
 from pathlib import Path
-from typing import Any, Callable, Literal
+from typing import Any, Callable
 
-ParamKind = Literal["bool", "int", "float", "select", "multiselect", "path", "string"]
+from clausewitz import ClausewitzDocument
+
+
+class ParamKind(str, Enum):
+    bool = "bool"
+    int = "int"
+    float = "float"
+    select = "select"
+    multiselect = "multiselect"
+    path = "path"
+    string = "string"
 
 
 @dataclass(frozen=True)
@@ -25,24 +36,26 @@ class EditInfo:
 
 
 @dataclass(frozen=True)
-class ApplyResult:
-    updated_text: str | None
-    counts: dict[str, int] = field(default_factory=dict[str, int])
-    warnings: list[str] = field(default_factory=list[str])
+class PlanResult:
+    counts: dict[str, int] = field(default_factory=dict)
+
+    @property
+    def total(self) -> int:
+        return sum(self.counts.values())
 
 
 @dataclass(frozen=True)
-class ExecutionPlan:
+class PlanExecution:
     name: str
     edits: list[EditInfo]
     describe: Callable[[dict[str, Any]], str]
-    apply_text: Callable[[str, Path, bool], ApplyResult]
+    apply: Callable[[ClausewitzDocument], PlanResult]
 
 
 @dataclass(frozen=True)
 class PlanSpec:
     id: str
     title: str
-    default_dir: Path
+    default_paths: list[Path]
     params: list[ParamSpec]
-    build: Callable[[dict[str, Any]], ExecutionPlan]
+    build: Callable[[dict[str, Any]], PlanExecution]
