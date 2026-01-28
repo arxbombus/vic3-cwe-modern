@@ -252,24 +252,10 @@ effect_journal_entry_cwe_on_action = {
 	if = {
 		limit = {
 		
-			NOT = { has_journal_entry = je_subvert_civil_service }
-		
-			has_law_or_variant = law_type:law_politicised_bureaucrats
+			NOT = { has_journal_entry = je_civil_service_system }
 			
-			ideologically_different_civil_service = yes
 		}
-		add_journal_entry = { type = je_subvert_civil_service }
-	}
-	if = {
-		limit = {
-		
-			NOT = { has_journal_entry = je_evolve_civil_service }
-		
-			has_law_or_variant = law_type:law_elitist_bureaucrats
-			
-			ideologically_different_civil_service_evolve = yes
-		}
-		add_journal_entry = { type = je_evolve_civil_service }
+		add_journal_entry = { type = je_civil_service_system }
 	}
 	if = {
 		limit = {
@@ -790,15 +776,6 @@ effect_journal_entry_cwe_on_action = {
 	if = {
 		limit = {
 		
-			is_country_type = recognized
-		
-			NOT = { has_journal_entry = je_UN_system }
-		}
-		add_journal_entry = { type = je_UN_system }
-	}
-	if = {
-		limit = {
-		
 			NOT = { has_journal_entry = je_climate_change_system }
 		}
 		add_journal_entry = { type = je_climate_change_system }
@@ -822,30 +799,6 @@ effect_journal_entry_cwe_on_action = {
 			NOT = { has_journal_entry = je_tekhpromfinplans }
 		}
 		add_journal_entry = { type = je_tekhpromfinplans }
-	}
-	if = {
-		limit = {
-		
-			OR = { 
-				has_modifier = nato_member
-				has_modifier = nato_leader
-			}
-		
-			NOT = { has_journal_entry = je_nato_system }
-		}
-		add_journal_entry = { type = je_nato_system }
-	}
-	if = {
-		limit = {
-		
-			OR = { 
-				has_modifier = warsaw_pact_member
-				has_modifier = warsaw_pact_leader
-			}
-		
-			NOT = { has_journal_entry = je_warsaw_pact_system }
-		}
-		add_journal_entry = { type = je_warsaw_pact_system }
 	}
 	if = {
 		limit = {
@@ -1027,20 +980,7 @@ effect_journal_entry_cwe_on_action = {
 	if = {
 		limit = {
 		
-			NOT = { has_journal_entry = je_OPEC_system }
-		
-			OR = { 
-				has_modifier = OPEC_member 
-				has_modifier = OPEC_leader
-			}
-			
-		}
-		add_journal_entry = { type = je_OPEC_system }
-	}
-	if = {
-		limit = {
-		
-			NOT = { is_involved_in_journal_entry = je_commonwealth_global }
+			NOT = { has_journal_entry = je_commonwealth_global }
 		
 			OR = { 
 				has_modifier = commonwealth_leader
@@ -1048,15 +988,12 @@ effect_journal_entry_cwe_on_action = {
 			}
 		
 		}
-		add_contextless_journal_entry = je_commonwealth_global
-		je:je_commonwealth_global ?= {
-			add_involved_country = ROOT
-		}
+		add_journal_entry = { type = je_commonwealth_global }
 	}
 	if = {
 		limit = {
 		
-			NOT = { is_involved_in_journal_entry = je_francophonie_global }
+			NOT = { has_journal_entry = je_francophonie_global }
 		
 			OR = { 
 				has_modifier = francophonie_leader
@@ -1064,15 +1001,12 @@ effect_journal_entry_cwe_on_action = {
 			}
 		
 		}
-		add_contextless_journal_entry = je_francophonie_global
-		je:je_francophonie_global ?= {
-			add_involved_country = ROOT
-		}
+		add_journal_entry = { type = je_francophonie_global }
 	}
 	if = {
 		limit = {
 		
-			NOT = { is_involved_in_journal_entry = je_ibero_american_organisation_global }
+			NOT = { has_journal_entry = je_ibero_american_organisation_global }
 		
 			OR = { 
 				has_modifier = ibero_american_organisation_leader
@@ -1080,15 +1014,12 @@ effect_journal_entry_cwe_on_action = {
 			}
 		
 		}
-		add_contextless_journal_entry = je_ibero_american_organisation_global
-		je:je_ibero_american_organisation_global ?= {
-			add_involved_country = ROOT
-		}
+		add_journal_entry = { type = je_ibero_american_organisation_global }
 	}
 	if = {
 		limit = {
 		
-			NOT = { is_involved_in_journal_entry = je_nordic_council_global }
+			NOT = { has_journal_entry = je_nordic_council_global }
 		
 			OR = { 
 				has_modifier = nordic_council_leader
@@ -1096,10 +1027,106 @@ effect_journal_entry_cwe_on_action = {
 			}
 		
 		}
-		add_contextless_journal_entry = je_nordic_council_global
-		je:je_nordic_council_global ?= {
-			add_involved_country = ROOT
+		add_journal_entry = { type = je_nordic_council_global }
+	}
+	if = {
+		limit = {
+		
+			NOT = { has_journal_entry = je_CIS_global }
+		
+			OR = { 
+				has_modifier = CIS_leader
+				has_modifier = CIS_member
+			}
+		
 		}
+		add_journal_entry = { type = je_CIS_global }
+	}
+	if = {
+		limit = {
+		
+			NOT = { has_journal_entry = je_arab_league_global }
+		
+			OR = { 
+				has_modifier = arab_league_leader
+				has_modifier = arab_league_member
+			}
+		
+		}
+		add_journal_entry = { type = je_arab_league_global }
+	}
+	if = {
+		limit = {
+		
+			NOT = { has_journal_entry = je_nato_system }
+		
+			OR = { 
+				has_modifier = nato_leader
+				has_modifier = nato_member
+			}
+		
+		}
+		add_journal_entry = { type = je_nato_system }
+	}
+	if = {
+		limit = {
+		
+			NOT = { has_journal_entry = je_warsaw_pact_system }
+		
+			OR = { 
+				has_modifier = warsaw_pact_leader
+				has_modifier = warsaw_pact_member
+			}
+		
+		}
+		add_journal_entry = { type = je_warsaw_pact_system }
+	}
+	if = {
+		limit = {
+		
+			NOT = { has_journal_entry = je_rio_pact_system }
+		
+			OR = { 
+				has_modifier = rio_pact_leader
+				has_modifier = rio_pact_member
+			}
+		
+		}
+		add_journal_entry = { type = je_rio_pact_system }
+	}
+	if = {
+		limit = {
+		
+			NOT = { has_journal_entry = je_csto_system }
+		
+			OR = { 
+				has_modifier = csto_leader
+				has_modifier = csto_member
+			}
+		
+		}
+		add_journal_entry = { type = je_csto_system }
+	}
+	if = {
+		limit = {
+		
+			NOT = { has_journal_entry = je_OPEC_system }
+		
+			OR = { 
+				has_modifier = OPEC_leader
+				has_modifier = OPEC_member
+			}
+		
+		}
+		add_journal_entry = { type = je_OPEC_system }
+	}
+	if = {
+		limit = {
+		
+			NOT = { has_journal_entry = je_UN_system }
+			
+		}
+		add_journal_entry = { type = je_UN_system }
 	}
 
 }

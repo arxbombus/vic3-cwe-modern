@@ -51,7 +51,7 @@
 		}
 		
 		#Set Secret Police IG
-		ig:ig_intelligentsia = { 
+		ig:ig_intelligentsia ?= { 
 			save_scope_as = secret_police_IG
 		}
 		
@@ -59,6 +59,19 @@
 		set_variable = { 
 			name = secret_police_action_points
 			value = 0
+		}
+		
+		#Create Head of Intelligence
+		create_character = {
+			is_agitator = yes
+			interest_group = ig_intelligentsia
+			on_created = { 
+				add_modifier = { name = head_of_intelligence }
+			}
+		}
+		random_scope_character = {
+			limit = { has_modifier = head_of_intelligence }
+			save_scope_as = head_of_intelligence
 		}
 		
 	}
@@ -71,6 +84,8 @@
 			
 			NOT = { exists = scope:secret_police_IG }
 			
+			NOT = { exists = scope:head_of_intelligence }
+			
 		}
 		
 	}
@@ -80,6 +95,11 @@
 		remove_variable = secret_police_loyalty
 		remove_variable = secret_police_loyalty_monthly
 		remove_variable = secret_police_action_points
+		
+		every_scope_character = {
+			limit = { has_modifier = head_of_intelligence }
+			retire_character = yes
+		}
 		
 	}
 	
@@ -450,6 +470,11 @@
 			
 		}
 		
+	}
+	
+	# zero or more static modifiers that will be applied to the Journal Entry when it activates, where they will propagate to the country
+	modifiers_while_active = {
+		secret_police_agitator_slot_additional
 	}
 
 	weight = 11

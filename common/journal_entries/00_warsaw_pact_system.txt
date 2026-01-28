@@ -10,45 +10,44 @@
 	
 	is_shown_when_inactive = {
 		
-		#warsaw_pact eligible
-		OR = { 
-			country_is_in_europe = yes
-			c:SOV ?= this
-			c:RUS ?= this
-		}
-		
 	}
 	
 	possible = {
-		
-		#THIS is a member of warsaw_pact
 		OR = { 
-			has_modifier = warsaw_pact_member
 			has_modifier = warsaw_pact_leader
+			has_modifier = warsaw_pact_member
 		}
-		
 	}
-
+	
 	immediate = {
 		
-		#Count Warsaw Pact members
-		set_variable = { 
-			name = warsaw_pact_member_count
-			value = 0 
-		}
-		every_country = {
+		#Count post_colonial_org members
+		random_country = {
 			limit = {
-				OR = { 
-					has_modifier = warsaw_pact_member
-					has_modifier = warsaw_pact_leader
-				}
+				has_modifier = warsaw_pact_leader
 			}
-			ROOT = {
-				change_variable = {
-					name = warsaw_pact_member_count
+			set_global_variable = { 
+				name = warsaw_pact_org_member_count
+				value = 0 
+			}
+			every_country = {
+				limit = {
+					OR = { 
+						has_modifier = warsaw_pact_leader
+						has_modifier = warsaw_pact_member
+					}
+				}
+				change_global_variable = {
+					name = warsaw_pact_org_member_count
 					add = 1
 				}
 			}
+		}
+		
+		#Mark leader
+		random_country = {
+			limit = { has_modifier = warsaw_pact_leader }
+			save_scope_as = warsaw_pact_leader
 		}
 		
 		#Default is leader funds Warsaw Pact
@@ -63,34 +62,29 @@
 		
 		effect = {
 		
-			#Count Warsaw Pact members
-			set_variable = { 
-				name = warsaw_pact_member_count
-				value = 0 
-			}
-			every_country = {
+			#Count post_colonial_org members
+			if = {
 				limit = {
-					OR = { 
-						has_modifier = warsaw_pact_member
-						has_modifier = warsaw_pact_leader
-					}
+					has_modifier = warsaw_pact_leader
 				}
-				ROOT = {
-					change_variable = {
-						name = warsaw_pact_member_count
+				set_global_variable = { 
+					name = warsaw_pact_org_member_count
+					value = 0 
+				}
+				every_country = {
+					limit = {
+						OR = { 
+							has_modifier = warsaw_pact_leader
+							has_modifier = warsaw_pact_member
+						}
+					}
+					change_global_variable = {
+						name = warsaw_pact_org_member_count
 						add = 1
 					}
 				}
 			}
 			
-		}
-		
-	}
-	
-	on_yearly_pulse = {
-		
-		effect = {
-		
 			#Impose foreign military bases
 			if = {
 				limit = { 
@@ -113,39 +107,40 @@
 					}
 				}
 			}
-			
-		}
 		
-	}
-
-	fail = {
-		
-		NOR = { 
-			has_modifier = warsaw_pact_member
-			has_modifier = warsaw_pact_leader
 		}
 		
 	}
 	
-	on_fail = {
+	modifiers_while_active = {
 		
-		#Display members
-		every_country = {
-			limit = { has_modifier = warsaw_pact_leader }
-			save_scope_as = alliance_leader_scope_label
-			custom_tooltip = {
-				text = alliance_leader_label.tt
+	}
+
+	invalid = {
+	
+		OR = {
+		
+			#No more members of org
+			any_country = {
+				count < 1
+				OR = { 
+					has_modifier = warsaw_pact_leader
+					has_modifier = warsaw_pact_member
+				}
 			}
+			
+			#Different leader
+			scope:warsaw_pact_leader ?= {
+				NOT = { has_modifier = warsaw_pact_leader }
+			}
+			
+			NOT = { exists = scope:warsaw_pact_leader }
+			
 		}
-		every_country = {
-			limit = { 
-				has_modifier = warsaw_pact_member
-			}
-			save_scope_as = superstate_member_label
-			custom_tooltip = {
-				text = superstate_member_label.tt
-			}
-		}
+		
+	}
+	
+	on_invalid = {
 		
 		#Clear modifier
 		if = {
@@ -153,17 +148,11 @@
 			hidden_effect = { remove_modifier = warsaw_pact_exercise }
 		}
 		
-		#Clear variables
-		remove_variable = warsaw_pact_member_count
-		
 	}
 
 	weight = 100
 
 	should_be_pinned_by_default = no
 
-	transferable = no
-
 	progressbar = no
-	
 }

@@ -316,7 +316,7 @@
     currency_system.option:0 "Okay."
     
     je_OPEC_system:0 "The Organisation of the Petroleum Exporting Countries"
-    je_OPEC_system_reason:0 "The Organisation of the Petroleum Exporting Countries (OPEC), established in 1960, is a coalition of leading oil-producing nations that coordinates energy policies to stabilise markets and influence global prices. By managing production levels, OPEC seeks to ensure fair returns for producers and reliable supply for consumers. \n\nIts decisions reverberate across international trade, industrial growth, and geopolitical relations, making it a central actor in modern resource diplomacy. \n\nMembership grants nations collective bargaining power, but also ties them to complex negotiations balancing national interests with global energy demands, shaping the trajectory of economies dependent on petroleum exports and imports worldwide."
+    je_OPEC_system_reason:0 "The Organisation of the Petroleum Exporting Countries (OPEC), established in 1960, is a coalition of leading oil-producing nations that coordinates energy policies to stabilise markets and influence global prices. By managing production levels, OPEC seeks to ensure fair returns for producers and reliable supply for consumers. \n\nIts decisions reverberate across international trade, industrial growth, and geopolitical relations, making it a central actor in modern resource diplomacy. \n\nMembership grants nations collective bargaining power, but also ties them to complex negotiations balancing national interests with global energy demands, shaping the trajectory of economies dependent on petroleum exports and imports worldwide. \n\nTotal Members: [GetGlobalVariable('OPEC_member_count').GetValue] \n\nLeader: [SCOPE.sCountry('OPEC_leader').GetName]"
     
     je_OPEC_increase_oil_quota_button:0 "Raise Oil Quotas"
     je_OPEC_increase_oil_quota_button_desc:0 "OPEC oil production quotas are agreed-upon limits set by the Organisation of the Petroleum Exporting Countries to manage global supply and stabilise prices. As the Leader of OPEC, we can decide on the oil production quotas for all OPEC members."
@@ -4500,8 +4500,8 @@
     un_headquarters:0 "United Nations Headquarters"
     
     je_UN_system:0 "The United Nations"
-    je_UN_system_reason:0 "The United Nations (UN) is an intergovernmental organisation whose stated purposes are to maintain international peace and security, develop friendly relations among nations, achieve international cooperation, and serve as a centre for harmonising the actions of nations. \n\nThe UN has six principal operational organisations: the General Assembly, the Security Council, the Economic and Social Council, the International Court of Justice, the UN Secretariat, and the Trusteeship Council, although the Trusteeship Council has been inactive since 1994. \n\nThe UN's chief administrative officer is the Secretary-General. \n\nTotal UNSC Members: [GetPlayer.MakeScope.Var('UN_unsc_members_counter').GetValue]"
-    je_UN_system_status:0 "Total Members: [GetPlayer.MakeScope.Var('UN_members_counter').GetValue]"
+    je_UN_system_reason:0 "The United Nations (UN) is an intergovernmental organisation whose stated purposes are to maintain international peace and security, develop friendly relations among nations, achieve international cooperation, and serve as a centre for harmonising the actions of nations. \n\nThe UN has six principal operational organisations: the General Assembly, the Security Council, the Economic and Social Council, the International Court of Justice, the UN Secretariat, and the Trusteeship Council, although the Trusteeship Council has been inactive since 1994. \n\nThe UN's chief administrative officer is the Secretary-General. \n\nTotal UNSC Members: [GetGlobalVariable('UN_unsc_members_counter').GetValue] \n\n$un_headquarters_country_label.tt$ \n\n$unsg_character_label.tt$"
+    je_UN_system_status:0 "Total Members: [GetGlobalVariable('UN_members_counter').GetValue]"
     
     change_UN_HQ.t:0 "UN Headquarters Evacuated"
     change_UN_HQ.d:0 "The United Nations has decided to abandon its Headquarters in [SCOPE.sState('un_headquarters_state').GetCityHubName] due to the ongoing instability in [ROOT.GetCountry.GetName]. They will now seek another country to host its Headquarters."
@@ -4689,7 +4689,10 @@
     
     je_secret_police_system:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('secret_police_custom_title')]"
     je_secret_police_system_status:0 "Loyalty: [GetPlayer.MakeScope.Var('secret_police_loyalty').GetValue]% (Monthly Change: [GetPlayer.MakeScope.Var('secret_police_loyalty_monthly').GetValue]%) \nCovert Operation Points Available: [GetPlayer.MakeScope.Var('secret_police_action_points').GetValue]"
-    je_secret_police_system_reason:0 "The [SCOPE.GetRootScope.GetCountry.GetCustom('secret_police_custom_title')] is the Secret Police of [ROOT.GetCountry.GetName]. \n\nSecret police (or political police) are police, intelligence, or security agencies that engage in covert operations against a government's political, religious, or social opponents and dissidents. They protect the political power of a dictator or regime and often operate outside the law to repress dissidents and weaken political opposition, frequently using violence. \n\nCovert Operation Points Available: [GetPlayer.MakeScope.Var('secret_police_action_points').GetValue] \n\nAgency Head: [SCOPE.gsInterestGroup('secret_police_IG').GetLeader.GetFullName] ([SCOPE.gsInterestGroup('secret_police_IG').GetName]) \n\nAgency Loyalty: [GetPlayer.MakeScope.Var('secret_police_loyalty').GetValue]% \n\nNote: The [SCOPE.GetRootScope.GetCountry.GetCustom('secret_police_custom_title')] will act against the [concept_government] if their Loyalty drops below 50%. \n\nTip: The Loyalty of the [SCOPE.GetRootScope.GetCountry.GetCustom('secret_police_custom_title')] will increase when the [concept_approval] of the [SCOPE.gsInterestGroup('secret_police_IG').GetName] [concept_interest_group] is positive and will decrease when the [concept_approval] is negative."
+    je_secret_police_system_reason:0 "The [SCOPE.GetRootScope.GetCountry.GetCustom('secret_police_custom_title')] is the Secret Police of [ROOT.GetCountry.GetName]. \n\nSecret police (or political police) are police, intelligence, or security agencies that engage in covert operations against a government's political, religious, or social opponents and dissidents. They protect the political power of a dictator or regime and often operate outside the law to repress dissidents and weaken political opposition, frequently using violence. \n\nCovert Operation Points Available: [GetPlayer.MakeScope.Var('secret_police_action_points').GetValue] \n\nDirector of Intelligence: [SCOPE.sCharacter('head_of_intelligence').GetFullName] ([SCOPE.gsInterestGroup('secret_police_IG').GetName]) \n\nAgency Loyalty: [GetPlayer.MakeScope.Var('secret_police_loyalty').GetValue]% \n\nNote: The [SCOPE.GetRootScope.GetCountry.GetCustom('secret_police_custom_title')] will act against the [concept_government] if their Loyalty drops below 50%. \n\nTip: The Loyalty of the [SCOPE.GetRootScope.GetCountry.GetCustom('secret_police_custom_title')] will increase when the [concept_approval] of the [SCOPE.gsInterestGroup('secret_police_IG').GetName] [concept_interest_group] is positive and will decrease when the [concept_approval] is negative."
+    
+    head_of_intelligence:0 "Head of Intelligence Services"
+    secret_police_agitator_slot_additional:0 "Intelligence Services"
     
     National_Intelligence_Agency_custom_title:0 "[ROOT.GetCountry.GetAdjectiveNoFlag] Intelligence Agency"
     Central_Intelligence_Agency_custom_title:0 "Central Intelligence Agency (CIA)"
@@ -5020,8 +5023,8 @@
     alliance_leader_label.tt:0 "Leader: [SCOPE.sCountry('alliance_leader_scope_label').GetName]"
     
     je_nato_system:0 "The North Atlantic Treaty Organisation"
-    je_nato_system_reason:0 "The North Atlantic Treaty Organisation is an intergovernmental military alliance of European and North American states. Established in the aftermath of World War II, the organisation implemented the North Atlantic Treaty, signed in Washington, D.C., on 4 April 1949. NATO is a collective security system: its independent member states agree to defend each other against attacks by third parties."
-    je_nato_system_status:0 "Total Members: [GetPlayer.MakeScope.Var('nato_member_count').GetValue]"
+    je_nato_system_reason:0 "The North Atlantic Treaty Organisation is an intergovernmental military alliance of European and North American states. Established in the aftermath of World War II, the organisation implemented the North Atlantic Treaty, signed in Washington, D.C., on 4 April 1949. NATO is a collective security system: its independent member states agree to defend each other against attacks by third parties. \n\nLeader: [SCOPE.sCountry('nato_leader').GetName] \n\nHeadquaters: #y [SCOPE.sCountry('nato_leader').GetCapital.GetCityHubName]#!"
+    je_nato_system_status:0 "Total Members: [GetGlobalVariable('nato_org_member_count').GetValue]"
     
     je_request_nato_intervention_button:0 "Invoke Article 5"
     je_request_nato_intervention_button_desc:0 "Article 5 provides that if a NATO Ally is the victim of an armed attack, each and every other member of the Alliance will consider this act of violence as an armed attack against all members and will take the actions it deems necessary to assist the Ally attacked."
@@ -5045,8 +5048,8 @@
     nato_join_war.1:0 "We shall protect the [SCOPE.sCountry('nato_victim').GetAdjectiveNoFlag] people!"
     
     je_warsaw_pact_system:0 "The Warsaw Pact"
-    je_warsaw_pact_system_reason:0 "The Warsaw Pact was a collective defence treaty signed in Warsaw, Poland, between the Soviet Union and seven other Eastern Bloc socialist republics of Central and Eastern Europe in May 1955, during the Cold War. The term 'Warsaw Pact' commonly refers to both the treaty itself and its resultant defensive alliance, the Warsaw Treaty Organisation. The Warsaw Pact was the military and economic complement to the Council for Mutual Economic Assistance (Comecon), the regional economic organisation for the Eastern Bloc states of Central and Eastern Europe."
-    je_warsaw_pact_system_status:0 "Total Members: [GetPlayer.MakeScope.Var('warsaw_pact_member_count').GetValue]"
+    je_warsaw_pact_system_reason:0 "The Warsaw Pact was a collective defence treaty signed in Warsaw, Poland, between the Soviet Union and seven other Eastern Bloc socialist republics of Central and Eastern Europe in May 1955, during the Cold War. The term 'Warsaw Pact' commonly refers to both the treaty itself and its resultant defensive alliance, the Warsaw Treaty Organisation. The Warsaw Pact was the military and economic complement to the Council for Mutual Economic Assistance (Comecon), the regional economic organisation for the Eastern Bloc states of Central and Eastern Europe. \n\nLeader: [SCOPE.sCountry('warsaw_pact').GetName] \n\nHeadquaters: #y [SCOPE.sCountry('warsaw_pact').GetCapital.GetCityHubName]#!"
+    je_warsaw_pact_system_status:0 "Total Members: [GetPlayer.MakeScope.Var('warsaw_pact_org_member_count').GetValue]"
     
     je_request_warsaw_pact_intervention_button:0 "Invoke Article 4"
     je_request_warsaw_pact_intervention_button_desc:0 "In the event of an armed attack in Europe on one or several states that are signatories of the treaty by any state or group of states, each state that is a party to this treaty shall, in the exercise of the right to individual or collective self-defence in accordance with Article 51 of the Charter of the United Nations Organisation, render the state or states so attacked immediate assistance, individually and in agreement with other states that are parties to this treaty, by all the means it may consider necessary, including the use of armed force."
@@ -5068,6 +5071,56 @@
     warsaw_pact_join_war.d:0 "[SCOPE.sCountry('warsaw_pact_victim').GetName] has invoked Article 4 of the Warsaw Pact Charter which mandates that member states defend each other against attacks by third parties."
     warsaw_pact_join_war.f:0 "This event fired because [SCOPE.sCountry('warsaw_pact_victim').GetName] was attacked by foreign country and has decided to call for Warsaw Pact assistance in its war."
     warsaw_pact_join_war.1:0 "We shall protect the [SCOPE.sCountry('warsaw_pact_victim').GetAdjectiveNoFlag] people!"
+    
+    je_rio_pact_system:0 "The Rio Pact"
+    je_rio_pact_system_reason:0 "$form_rio_pact_decision_desc$ \n\nLeader: [SCOPE.sCountry('rio_pact_leader').GetName] \n\nHeadquaters: #y [SCOPE.sCountry('rio_pact_leader').GetCapital.GetCityHubName]#!"
+    je_rio_pact_system_status:0 "Total Members: [GetGlobalVariable('rio_pact_org_member_count').GetValue]"
+    
+    je_request_rio_pact_intervention_button:0 "Invoke Article 3"
+    je_request_rio_pact_intervention_button_desc:0 "An armed attack by any State against an American State shall be considered an attack against all American States, requiring each signatory to assist in meeting the attack in exercise of the inherent right of individual or collective self-defense recognised by Article 51 of the UN Charter."
+    
+    je_fund_rio_pact_button:0 "Bankroll Rio Pact"
+    je_fund_rio_pact_button_desc:0 "[ROOT.GetCountry.GetName], in its capacity as the Leader of Rio Pact, will provide the military, political and economic backbone of the organisation."
+    je_defund_rio_pact_button:0 "Stop Bankrolling Rio Pact"
+    je_defund_rio_pact_button_desc:0 "[ROOT.GetCountry.GetName], in its capacity as the Leader of Rio Pact, will no longer provide the military, political and economic backbone of the organisation."
+    je_hold_rio_pact_exercise_button:0 "Hold Rio Pact Exercises"
+    je_hold_rio_pact_exercise_button_desc:0 "Rio Pact members will conduct military exercises to boost their combat readiness and expertise."
+    
+    join_rio_pact_war.tt:0 "Join [SCOPE.sCountry('rio_pact_victim').GetName]'s defensive war"
+    fund_rio_pact.tt:0 "Station troops in all Rio Pact member states"
+    defund_rio_pact.tt:0 "Remove stationed troops from all Rio Pact member states"
+    
+    rio_pact_exercise:0 "Rio Pact Military Exercises"
+    
+    rio_pact_join_war.t:0 "The Defence of [SCOPE.sCountry('rio_pact_victim').GetName]"
+    rio_pact_join_war.d:0 "[SCOPE.sCountry('rio_pact_victim').GetName] has invoked Article 3 of the Rio Pact Charter which mandates that member states defend each other against attacks by third parties."
+    rio_pact_join_war.f:0 "This event fired because [SCOPE.sCountry('rio_pact_victim').GetName] was attacked by foreign country and has decided to call for Rio Pact assistance in its war."
+    rio_pact_join_war.1:0 "We shall protect the [SCOPE.sCountry('rio_pact_victim').GetAdjectiveNoFlag] people!"
+    
+    je_csto_system:0 "The Collective Security Treaty Organisation"
+    je_csto_system_reason:0 "$form_csto_decision_desc$ \n\nLeader: [SCOPE.sCountry('csto_leader').GetName] \n\nHeadquaters: #y [SCOPE.sCountry('csto_leader').GetCapital.GetCityHubName]#!"
+    je_csto_system_status:0 "Total Members: [GetGlobalVariable('csto_org_member_count').GetValue]"
+    
+    je_request_csto_intervention_button:0 "Invoke Article 4"
+    je_request_csto_intervention_button_desc:0 "In case of aggression commission (armed attack menacing to safety, stability, territorial integrity and sovereignty) to any of the Member States, all the other Member States at request of this Member State shall immediately provide the latter with the necessary help, including military one, as well as provide support by the means at their disposal in accordance with the right to collective defence pursuant to article 51 of the UN Charter."
+    
+    je_fund_csto_button:0 "Bankroll CSTO"
+    je_fund_csto_button_desc:0 "[ROOT.GetCountry.GetName], in its capacity as the Leader of CSTO, will provide the military, political and economic backbone of the organisation."
+    je_defund_csto_button:0 "Stop Bankrolling CSTO"
+    je_defund_csto_button_desc:0 "[ROOT.GetCountry.GetName], in its capacity as the Leader of CSTO, will no longer provide the military, political and economic backbone of the organisation."
+    je_hold_csto_exercise_button:0 "Hold CSTO Exercises"
+    je_hold_csto_exercise_button_desc:0 "CSTO members will conduct military exercises to boost their combat readiness and expertise."
+    
+    join_csto_war.tt:0 "Join [SCOPE.sCountry('csto_victim').GetName]'s defensive war"
+    fund_csto.tt:0 "Station troops in all CSTO member states"
+    defund_csto.tt:0 "Remove stationed troops from all CSTO member states"
+    
+    csto_exercise:0 "CSTO Military Exercises"
+    
+    csto_join_war.t:0 "The Defence of [SCOPE.sCountry('csto_victim').GetName]"
+    csto_join_war.d:0 "[SCOPE.sCountry('csto_victim').GetName] has invoked Article 4 of the CSTO Charter which mandates that member states defend each other against attacks by third parties."
+    csto_join_war.f:0 "This event fired because [SCOPE.sCountry('csto_victim').GetName] was attacked by foreign country and has decided to call for CSTO assistance in its war."
+    csto_join_war.1:0 "We shall protect the [SCOPE.sCountry('csto_victim').GetAdjectiveNoFlag] people!"
     
     vaccine_expenses:0 "Vaccine Development Costs"
     
@@ -5509,6 +5562,7 @@
     workingmens_association:0 "Worker's Association"
     workingmens_international:0 "Worker's International"
     pact_of_pearl_harbor: "Pact of Pearl Harbour"
+    benelux_union:0 "$BNL$"
     
     North_American_Union:0 "$XNA$"
     Central_American_Union:0 "$XCA$"
@@ -6095,6 +6149,10 @@
     
     court_opposes_law:0 "Judicial Opposition to Law Enactment"
     
+    governor_general_veto.t:0 "Governor-General Opposes the Government's Bill"
+    governor_general_veto.d:0 "Governor-General [SCOPE.sCharacter('ceremonial_governor_general_country').GetFullName] of [ROOT.GetCountry.GetNameNoFormatting], as [SCOPE.GetRootScope.GetCountry.GetCustom('monarch_custom_title')] [SCOPE.sCharacter('ceremonial_head_of_state').GetFullName]'s representative, has come out in opposition of the [concept_government]'s bill to enact the [SCOPE.sLaw('current_law_scope').GetName] [concept_law] in the [SCOPE.GetRootScope.GetCountry.GetCustom('legislature_name')]. Although the Governor-General cannot withhold royal assent to any bills, the royal opposition has proven a setback to the law's enactment."
+    governor_general_veto.f:0 "This event fired because the #o Governor-General#! of [ROOT.GetCountry.GetName] either disapproves or strongly disapproves of the [concept_law] that is currently being enacted."
+    
     constitutional_monarch_veto.t:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('monarch_custom_title')] Opposes the Government's Bill"
     constitutional_monarch_veto.d:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('monarch_custom_title')] [SCOPE.sCharacter('ceremonial_head_of_state').GetFullName] of [ROOT.GetCountry.GetNameNoFormatting] has come out in opposition of the [concept_government]'s bill to enact the [SCOPE.sLaw('current_law_scope').GetName] [concept_law] in the [SCOPE.GetRootScope.GetCountry.GetCustom('legislature_name')]. Although the [SCOPE.GetRootScope.GetCountry.GetCustom('monarch_custom_title')] cannot withhold royal assent to any bills, the royal opposition has proven a setback to the law's enactment."
     constitutional_monarch_veto.f:0 "This event fired because the #o [SCOPE.GetRootScope.GetCountry.GetCustom('monarch_custom_title')]#! of [SCOPE.sCountry('ceremonial_head_of_state_country').GetName] either disapproves or strongly disapproves of the [concept_law] that is currently being enacted."
@@ -6177,6 +6235,14 @@
     je_nordic_council_global_status:0 "Total Members: [GetGlobalVariable('nordic_council_org_member_count').GetValue]"
     je_nordic_council_global_reason:0 "$form_nordic_council_decision_desc$ \n\nLeader: [SCOPE.sCountry('nordic_council_leader').GetName] \n\nHeadquaters: #y [SCOPE.sCountry('nordic_council_leader').GetCapital.GetCityHubName]#!"
     
+    je_CIS_global:0 "The Commonwealth of Independent States"
+    je_CIS_global_status:0 "Total Members: [GetGlobalVariable('CIS_org_member_count').GetValue]"
+    je_CIS_global_reason:0 "$join_CIS_decision_desc$ \n\nLeader: [SCOPE.sCountry('CIS_leader').GetName] \n\nHeadquaters: #y [SCOPE.sCountry('CIS_leader').GetCapital.GetCityHubName]#!"
+    
+    je_arab_league_global:0 "The Arab League"
+    je_arab_league_global_status:0 "Total Members: [GetGlobalVariable('arab_league_org_member_count').GetValue]"
+    je_arab_league_global_reason:0 "$join_arab_league_decision_desc$ \n\nLeader: [SCOPE.sCountry('arab_league_leader').GetName] \n\nHeadquaters: #y [SCOPE.sCountry('arab_league_leader').GetCapital.GetCityHubName]#!"
+    
     je_host_commonwealth_games_button:0 "Host the Commonwealth Games"
     je_host_commonwealth_games_button_desc:0 "[ROOT.GetCountry.GetName] will invite all members of $Commonwealth_of_Nations_custom_title$ to participate in the Commonwealth Games."
     
@@ -6222,3 +6288,27 @@
     coup_subject_war_with_overlord.f:0 "This event fired because a [concept_coup] occurred in a [concept_subject] of this [concept_country]."
     coup_subject_war_with_overlord.option.1:0 "Resist [SCOPE.sCountry('target_country').GetAdjectiveNoFormatting] nationalism!"
     coup_subject_war_with_overlord.option.2:0 "Abandon [SCOPE.sCountry('target_country').GetNameNoFormatting]."
+    
+    GI_Bill_modifier:0 "Servicemen's Readjustment Act of 1944"
+    
+    resignation_1.1.a:0 "The $ideology_autocratic$ [SCOPE.sCharacter('replacement_ruler_autocratic').GetFullName]."
+    resignation_1.2.a:0 "[SCOPE.sCharacter('replacement_ruler_power_hungry').GetFullName], the $ideology_power_hungry$."
+    resignation_1.3.a:0 "[SCOPE.sCharacter('replacement_ruler_elitist').GetFullName], who is an $ideology_elitist$."
+    resignation_1.4.a:0 "[SCOPE.sCharacter('replacement_ruler_democratic').GetFullName], who supports $ideology_democratic$ ideals."
+    resignation_1.5.a:0 "[SCOPE.sCharacter('replacement_ruler_liberal').GetFullName], the $ideology_liberal$."
+    resignation_1.6.a:0 "Leave it to the Party to decide."
+    
+    je_civil_service_system:0 "The [ROOT.GetCountry.GetAdjectiveNoFlag] Civil Service"
+    je_civil_service_system_reason:0 "The [ROOT.GetCountry.GetAdjective] Civil Service represents the professional bureaucracy that sustains the machinery of the state. Tasked with implementing laws, collecting taxes, and maintaining records, civil servants aim to preserve continuity and stability across shifting political landscapes. \n\nHead of the Civil Service: [SCOPE.sCharacter('head_of_civil_service').GetFullName] \n\nNote: Corruption in the Civil Service can be reduced by enacting less nepotistic #y $lawgroup_cabinet_composition$#! [Concept('concept_law','$concept_laws$')]."
+    
+    high_corruption_civil_service:0 "High Institutional Corruption"
+    medium_corruption_civil_service:0 "Medium Institutional Corruption"
+    low_corruption_civil_service:0 "Low Institutional Corruption"
+    
+    changed_civil_service_timer.tt:0 "Did not change the composition of the [ROOT.GetCountry.GetAdjective] Civil Service in the last 12 months"
+    
+    je_civil_service_system_subvert_civil_service_button:0 "Subvert Civil Service"
+    je_civil_service_system_subvert_civil_service_button_desc:0 "The [SCOPE.GetRootScope.GetCountry.GetCustom('government_ruler_custom_title')] will pressure disloyal members of the [ROOT.GetCountry.GetAdjectiveNoFormatting] Civil Service to resign and will replace them with ideologically loyal civil servants."
+    
+    je_civil_service_system_reform_civil_service_button:0 "Reform Civil Service"
+    je_civil_service_system_reform_civil_service_button_desc:0 "The [SCOPE.GetRootScope.GetCountry.GetCustom('government_ruler_custom_title')] will appoint civil servants who are representative of the nation to key positions to ensure that the ideological leanings of the civil service are reflective of the public."
