@@ -314,12 +314,9 @@ ai_incompetence_management_system.7 = {
 		#AI only event
 		is_player = no
 		
-		#Has world market access
-		capital.world_market_access > 0
-		
 		#No trade center in incorporated states
 		any_scope_state = { 
-			is_incorporated = yes 
+			world_market_access = 0
 			NOT = { has_building = building_trade_center }
 		}
 		
@@ -330,7 +327,7 @@ ai_incompetence_management_system.7 = {
 		#Add trade center for AI
 		every_scope_state = {
 			limit = {
-				is_incorporated = yes 
+				world_market_access = 0
 				NOT = { has_building = building_trade_center }
 			}
 			create_building = {
@@ -358,6 +355,7 @@ ai_incompetence_management_system.8 = {
 		
 		#No world market access
 		capital.world_market_access = 0
+		has_building = building_trade_center
 		
 		#At peace
 		is_at_war = no
@@ -378,6 +376,7 @@ ai_incompetence_management_system.8 = {
 						binds = ROOT
 						any_scope_article = {
 							has_type = transit_rights
+							target_country = ROOT
 						}
 					}
 				}
@@ -396,6 +395,7 @@ ai_incompetence_management_system.8 = {
 						binds = ROOT
 						any_scope_article = {
 							has_type = transit_rights
+							target_country = ROOT
 						}
 					}
 				}
@@ -423,6 +423,7 @@ ai_incompetence_management_system.8 = {
 							binds = ROOT
 							any_scope_article = {
 								has_type = transit_rights
+								target_country = ROOT
 							}
 						}
 					}
@@ -459,6 +460,7 @@ ai_incompetence_management_system.8 = {
 							binds = ROOT
 							any_scope_article = {
 								has_type = transit_rights
+								target_country = ROOT
 							}
 						}
 					}

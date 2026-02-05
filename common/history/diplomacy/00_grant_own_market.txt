@@ -222,12 +222,4 @@
 		}
 	}
 	
-	#Spain
-	c:SPA = {
-		create_diplomatic_pact = {
-			country = c:TGZ
-			type = grant_own_market
-		}
-	}
-	
 }

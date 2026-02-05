@@ -282,19 +282,19 @@ debug.10 = {
 		
 		#ruler ?= { kill_character = yes }
 		
-		#c:CHI = {
+		c:SOV = {
 		
 			#War
 			create_diplomatic_play = {
 				name = test_war
-				type = dp_regime_change
-				target_country = c:JOR
+				type = dp_annex_war
+				target_country = c:VAN
 			
-				war = yes
+				war = no
 			
 			}
 			
-		#}
+		}
 		
 	}
 }
