@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        ".txt": "vic3",
+        ".gui": "vic3",
+    },
+    "editor.formatOnSave": false
+}
