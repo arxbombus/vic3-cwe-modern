@@ -1,0 +1,206 @@
+pdxmesh = {
+	name = "tokyo_tower_skyscraper_mesh"
+	file = "tokyo_tower_skyscraper.mesh"
+
+	scale = 1
+	
+	lod_percentages = {
+		lod = { index = 1 percent = 8.0 }
+		lod = { index = 2 percent = 4.0 }
+		lod = { index = 3 percent = 2.0 }
+	}
+
+	meshsettings = {
+		name = "sky_mesh"
+		index = 0
+		texture_diffuse = "asian_city_centerpiece_skyscraper_01_diffuse.dds"
+		texture_normal = "asian_city_centerpiece_skyscraper_01_normal.dds"
+		texture_specular = "asian_city_centerpiece_skyscraper_01_properties.dds"
+
+		# texture = { file = "european_urban_residential_rich_01_tint.dds" index = 5 }
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "TINT_COLOR" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "decal0"
+		index = 0
+		# texture_diffuse = "decal_urban_residential_01_diffuse.dds"
+		# texture_normal = "decal_urban_residential_01_normal.dds"
+		# texture_specular = "decal_urban_residential_01_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "world0"
+		index = 0
+		texture_diffuse = "european_decal_city_diffuse.dds"
+		texture_normal = "european_decal_city_normal.dds"
+		texture_specular = "european_decal_city_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "tree0"
+		index = 0
+		texture_diffuse = "tree_oak_002_diffuse.dds"
+		texture_normal = "tree_oak_002_normal.dds"
+		texture_specular = "tree_oak_002_properties.dds"
+		shader = "tree_colormap"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_0_asian_skyscraper_asian_skyscraper"
+		index = 0
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "TINT_COLOR" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "tower1"
+		index = 0
+		# texture_diffuse = "european_urban_residential_rich_01_diffuse.dds"
+		# texture_normal = "european_urban_residential_rich_01_normal.dds"
+		# texture_specular = "european_urban_residential_rich_01_properties.dds"
+		# texture = { file = "european_urban_residential_rich_01_tint.dds" index = 5 }
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "TINT_COLOR" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "decal1"
+		index = 0
+		# texture_diffuse = "decal_urban_residential_01_diffuse.dds"
+		# texture_normal = "decal_urban_residential_01_normal.dds"
+		# texture_specular = "decal_urban_residential_01_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "world1"
+		index = 0
+		texture_diffuse = "european_decal_city_diffuse.dds"
+		texture_normal = "european_decal_city_normal.dds"
+		texture_specular = "european_decal_city_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "tree1"
+		index = 0
+		texture_diffuse = "tree_oak_002_diffuse.dds"
+		texture_normal = "tree_oak_002_normal.dds"
+		texture_specular = "tree_oak_002_properties.dds"
+		shader = "tree_colormap"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "tower2"
+		index = 0
+		# texture_diffuse = "european_urban_residential_rich_01_diffuse.dds"
+		# texture_normal = "european_urban_residential_rich_01_normal.dds"
+		# texture_specular = "european_urban_residential_rich_01_properties.dds"
+		# texture = { file = "european_urban_residential_rich_01_tint.dds" index = 5 }
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "TINT_COLOR" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "decal2"
+		index = 0
+		# texture_diffuse = "decal_urban_residential_01_diffuse.dds"
+		# texture_normal = "decal_urban_residential_01_normal.dds"
+		# texture_specular = "decal_urban_residential_01_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "world2"
+		index = 0
+		texture_diffuse = "european_decal_city_diffuse.dds"
+		texture_normal = "european_decal_city_normal.dds"
+		texture_specular = "european_decal_city_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "tree2"
+		index = 0
+		texture_diffuse = "tree_oak_002_diffuse.dds"
+		texture_normal = "tree_oak_002_normal.dds"
+		texture_specular = "tree_oak_002_properties.dds"
+		shader = "tree_colormap"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "tower3"
+		index = 0
+		# texture_diffuse = "european_urban_residential_rich_01_diffuse.dds"
+		# texture_normal = "european_urban_residential_rich_01_normal.dds"
+		# texture_specular = "european_urban_residential_rich_01_properties.dds"
+		# texture = { file = "european_urban_residential_rich_01_tint.dds" index = 5 }
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "TINT_COLOR" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "decal3"
+		index = 0
+		# texture_diffuse = "decal_urban_residential_01_diffuse.dds"
+		# texture_normal = "decal_urban_residential_01_normal.dds"
+		# texture_specular = "decal_urban_residential_01_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "world3"
+		index = 0
+		texture_diffuse = "european_decal_city_diffuse.dds"
+		texture_normal = "european_decal_city_normal.dds"
+		texture_specular = "european_decal_city_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "tree3"
+		index = 0
+		texture_diffuse = "tree_oak_002_diffuse.dds"
+		texture_normal = "tree_oak_002_normal.dds"
+		texture_specular = "tree_oak_002_properties.dds"
+		shader = "tree_colormap"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "tokyo_tower_skyscraper_entity"
+	pdxmesh = "tokyo_tower_skyscraper_mesh"
+}

@@ -7,24 +7,35 @@ arabic_city = {
 	max_residence_points = 200
 
 	rich_building_meshes = {
-		"arabic_urban_city_residential_rich_01_mesh"
-		"arabic_urban_city_residential_rich_02_mesh"
-		"arabic_urban_city_residential_rich_03_mesh"	
+		"modern_03_mesh"
+		"modern_04_mesh"
+		"modern_05_mesh"
+		"premodern_01_mesh"
+		"premodern_02_mesh"
+		"premodern_03_mesh"
+		"premodern_04_mesh"
+		"premodern_05_mesh"	
 	}
 	rich_building_offsets = {
 		position = 0.0	#in grid-space units. 1.0 means the mesh can be placed anywhere inside its allotted cell
 		rotation = 0.0	#in degrees
 	}
 	mid_building_meshes = {
-		"arabic_urban_city_residential_mid_01_mesh"
-		"arabic_urban_city_residential_mid_02_mesh"
-		"arabic_urban_city_residential_mid_03_mesh"
+		"modern_01_mesh"
+		"modern_02_mesh"
+		"premodern_01_mesh"
+		"premodern_02_mesh"
+		"premodern_03_mesh"
+		"premodern_04_mesh"
+		"premodern_05_mesh"
 	}
 	mid_building_offsets = {
 		position = 0.2
 		rotation = 6.25
 	}
 	poor_building_meshes = {
+		"modern_01_mesh"
+		"modern_02_mesh"
 		"arabic_urban_city_residential_poor_01_mesh"
 		"arabic_urban_city_residential_poor_02_mesh"
 		"arabic_urban_city_residential_poor_03_mesh"
@@ -70,39 +81,74 @@ arabic_city = {
 	
 	#bg_service
 	building_retail_services_sector = {
-		"arabic_urban_city_residential_mid_01_mesh"
-		"arabic_urban_city_residential_mid_03_mesh"
-		"arabic_urban_city_residential_mid_02_mesh"
+		"modern_03_mesh"
+		"modern_04_mesh"
+		"modern_05_mesh"
+		"premodern_01_mesh"
+		"premodern_02_mesh"
+		"premodern_03_mesh"
+		"premodern_04_mesh"
+		"premodern_05_mesh"
 	}
 	building_corporate_services_industry = {
-		"arabic_urban_city_residential_rich_01_mesh"
-		"arabic_urban_city_residential_rich_03_mesh"
-		"arabic_urban_city_residential_rich_02_mesh"
+		"modern_03_mesh"
+		"modern_04_mesh"
+		"modern_05_mesh"
+		"premodern_01_mesh"
+		"premodern_02_mesh"
+		"premodern_03_mesh"
+		"premodern_04_mesh"
+		"premodern_05_mesh"
 	}
 	building_professional_services_sector = {
-		"arabic_urban_city_residential_rich_01_mesh"
-		"arabic_urban_city_residential_rich_03_mesh"
-		"arabic_urban_city_residential_rich_02_mesh"
+		"modern_03_mesh"
+		"modern_04_mesh"
+		"modern_05_mesh"
+		"premodern_01_mesh"
+		"premodern_02_mesh"
+		"premodern_03_mesh"
+		"premodern_04_mesh"
+		"premodern_05_mesh"
 	}
 	building_recreational_services_sector = {
-		"arabic_urban_city_residential_mid_01_mesh"
-		"arabic_urban_city_residential_mid_03_mesh"
-		"arabic_urban_city_residential_mid_02_mesh"
+		"modern_03_mesh"
+		"modern_04_mesh"
+		"modern_05_mesh"
+		"premodern_01_mesh"
+		"premodern_02_mesh"
+		"premodern_03_mesh"
+		"premodern_04_mesh"
+		"premodern_05_mesh"
 	}
 	building_software_industry = {
-		"arabic_urban_city_residential_rich_01_mesh"
-		"arabic_urban_city_residential_rich_03_mesh"
-		"arabic_urban_city_residential_rich_02_mesh"
+		"modern_03_mesh"
+		"modern_04_mesh"
+		"modern_05_mesh"
+		"premodern_01_mesh"
+		"premodern_02_mesh"
+		"premodern_03_mesh"
+		"premodern_04_mesh"
+		"premodern_05_mesh"
 	}
 	building_real_estate_sector = {
-		"arabic_urban_city_residential_mid_01_mesh"
-		"arabic_urban_city_residential_mid_03_mesh"
-		"arabic_urban_city_residential_mid_02_mesh"
+		"modern_03_mesh"
+		"modern_04_mesh"
+		"modern_05_mesh"
+		"premodern_01_mesh"
+		"premodern_02_mesh"
+		"premodern_03_mesh"
+		"premodern_04_mesh"
+		"premodern_05_mesh"
 	}
 	building_financial_services_sector = {
-		"arabic_urban_city_residential_rich_01_mesh"
-		"arabic_urban_city_residential_rich_03_mesh"
-		"arabic_urban_city_residential_rich_02_mesh"
+		"modern_03_mesh"
+		"modern_04_mesh"
+		"modern_05_mesh"
+		"premodern_01_mesh"
+		"premodern_02_mesh"
+		"premodern_03_mesh"
+		"premodern_04_mesh"
+		"premodern_05_mesh"
 	}
 	
 	#bg_infrastructure

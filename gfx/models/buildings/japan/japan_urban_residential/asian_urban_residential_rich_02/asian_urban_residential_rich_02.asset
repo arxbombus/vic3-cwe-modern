@@ -1,0 +1,214 @@
+pdxmesh = {
+	name = "asian_urban_residential_rich_02_mesh"
+	file = "asian_urban_residential_rich_02.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 8.0 }
+		lod = { index = 2 percent = 4.0 }
+		lod = { index = 3 percent = 2.0 }
+		lod = { index = 4 percent = 1.0 }
+	}
+
+	meshsettings = {
+		name = "asian_urban_residential_rich_02|LOD_0|decal|decalShape"
+		index = 0
+		texture_diffuse = "asian_urban_residential_rich_decal_02_diffuse.dds"
+		texture_normal = "asian_urban_residential_rich_decal_02_normal.dds"
+		texture_specular = "asian_urban_residential_rich_decal_02_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "asian_urban_residential_rich_02|LOD_0|mesh|meshShape"
+		index = 0
+		texture_diffuse = "asian_urban_residential_rich_02_diffuse.dds"
+		texture_normal = "asian_urban_residential_rich_02_normal.dds"
+		texture_specular = "asian_urban_residential_rich_02_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "asian_urban_residential_rich_02|LOD_0|mesh|meshShape"
+		index = 1
+		texture_diffuse = "tree_oak_001_diffuse.dds"
+		texture_normal = "tree_oak_001_normal.dds"
+		texture_specular = "tree_oak_001_properties.dds"
+		shader = "tree_colormap"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "asian_urban_residential_rich_02|LOD_0|decal_5|decal_5Shape"
+		index = 0
+		texture_diffuse = "asian_city_decal_diffuse.dds"
+		texture_normal = "asian_city_decal_normal.dds"
+		texture_specular = "asian_city_decal_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "asian_urban_residential_rich_02|LOD_1|decal|decalShape"
+		index = 0
+		texture_diffuse = "asian_urban_residential_rich_decal_02_diffuse.dds"
+		texture_normal = "asian_urban_residential_rich_decal_02_normal.dds"
+		texture_specular = "asian_urban_residential_rich_decal_02_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "decal_10Shape"
+		index = 0
+		texture_diffuse = "asian_city_decal_diffuse.dds"
+		texture_normal = "asian_city_decal_normal.dds"
+		texture_specular = "asian_city_decal_properties.dds"
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "asian_urban_residential_rich_02|LOD_1|mesh|meshShape"
+		index = 0
+		texture_diffuse = "asian_urban_residential_rich_02_diffuse.dds"
+		texture_normal = "asian_urban_residential_rich_02_normal.dds"
+		texture_specular = "asian_urban_residential_rich_02_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "asian_urban_residential_rich_02|LOD_1|mesh|meshShape"
+		index = 1
+		texture_diffuse = "tree_oak_001_diffuse.dds"
+		texture_normal = "tree_oak_001_normal.dds"
+		texture_specular = "tree_oak_001_properties.dds"
+		shader = "tree_colormap"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "asian_urban_residential_rich_02|LOD_2|decal|decalShape"
+		index = 0
+		texture_diffuse = "asian_urban_residential_rich_decal_02_diffuse.dds"
+		texture_normal = "asian_urban_residential_rich_decal_02_normal.dds"
+		texture_specular = "asian_urban_residential_rich_decal_02_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "decal_11Shape"
+		index = 0
+		texture_diffuse = "asian_city_decal_diffuse.dds"
+		texture_normal = "asian_city_decal_normal.dds"
+		texture_specular = "asian_city_decal_properties.dds"
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "asian_urban_residential_rich_02|LOD_2|mesh|meshShape"
+		index = 0
+		texture_diffuse = "asian_urban_residential_rich_02_diffuse.dds"
+		texture_normal = "asian_urban_residential_rich_02_normal.dds"
+		texture_specular = "asian_urban_residential_rich_02_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "asian_urban_residential_rich_02|LOD_2|mesh|meshShape"
+		index = 1
+		texture_diffuse = "tree_oak_001_diffuse.dds"
+		texture_normal = "tree_oak_001_normal.dds"
+		texture_specular = "tree_oak_001_properties.dds"
+		shader = "tree_colormap"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "asian_urban_residential_rich_02|LOD_3|decal|decalShape"
+		index = 0
+		texture_diffuse = "asian_urban_residential_rich_decal_02_diffuse.dds"
+		texture_normal = "asian_urban_residential_rich_decal_02_normal.dds"
+		texture_specular = "asian_urban_residential_rich_decal_02_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "decal_12Shape"
+		index = 0
+		texture_diffuse = "asian_city_decal_diffuse.dds"
+		texture_normal = "asian_city_decal_normal.dds"
+		texture_specular = "asian_city_decal_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "asian_urban_residential_rich_02|LOD_3|mesh|meshShape"
+		index = 0
+		texture_diffuse = "asian_urban_residential_rich_02_diffuse.dds"
+		texture_normal = "asian_urban_residential_rich_02_normal.dds"
+		texture_specular = "asian_urban_residential_rich_02_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_4|decal|decalShape"
+		index = 0
+		texture_diffuse = "asian_urban_residential_rich_decal_02_diffuse.dds"
+		texture_normal = "asian_urban_residential_rich_decal_02_normal.dds"
+		texture_specular = "asian_urban_residential_rich_decal_02_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "decal_13Shape"
+		index = 0
+		texture_diffuse = "asian_city_decal_diffuse.dds"
+		texture_normal = "asian_city_decal_normal.dds"
+		texture_specular = "asian_city_decal_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "LOD_4|mesh|meshShape"
+		index = 0
+		texture_diffuse = "asian_urban_residential_rich_02_diffuse.dds"
+		texture_normal = "asian_urban_residential_rich_02_normal.dds"
+		texture_specular = "asian_urban_residential_rich_02_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "asian_urban_residential_rich_02_entity"
+	pdxmesh = "asian_urban_residential_rich_02_mesh"
+}

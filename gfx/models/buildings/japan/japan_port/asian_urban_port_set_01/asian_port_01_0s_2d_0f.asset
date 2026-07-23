@@ -1,0 +1,13 @@
+entity = {
+	name = "asian_port_01_0s_2d_0f_entity"
+	
+	locator = { name = "pos_origo" position = { 0 0 0 } rotation = { 0 0 0 } }
+	locator = { name = "pos_left" position = { -1.7 0 -0.56 } rotation = { 0 0 0 } }
+	locator = { name = "pos_center" position = { 0 0 -0.56 } rotation = { 0 0 0 } }
+	locator = { name = "pos_right" position = { 1.7 0 -0.50 } rotation = { 0 0 0 } }
+	
+	
+	attach = { pos_origo = "asian_port_centerpiece_01_entity" }
+	attach = { pos_left = "asian_urban_port_dockyard_01_entity" }
+	attach = { pos_right = "asian_urban_port_dockyard_01_entity" }	
+}

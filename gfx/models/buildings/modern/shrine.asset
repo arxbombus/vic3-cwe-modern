@@ -1,0 +1,117 @@
+
+	# meshsettings = {
+	# 	name = "LOD_0_shrine"
+	# 	index = 0
+	# 	texture_diffuse = "LOD_0_shrine_diffuse.jpg"
+	# 	texture_normal = "LOD_0_shrine_normal.jpg"
+	# 	texture_specular = "LOD_0_shrine_properties.jpg"
+	# 	shader = "standard"
+	# 	additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+	# 	shader_file = "gfx/FX/pdxmesh.shader"
+	# }
+
+pdxmesh = {
+	name = "shrine_mesh"
+	file = "shrine.mesh"
+
+	scale = 1.0
+
+	lod_percentages = {
+		lod = { index = 1 percent = 8.0 }
+		lod = { index = 2 percent = 6.0 }
+		lod = { index = 3 percent = 4.0 }
+	}
+
+	meshsettings = {
+		name = "LOD_0_shrine_mesh"
+		index = 0
+		# texture_diffuse = "LOD_0_shrine_diffuse.dds"
+		# texture_normal = "LOD_0_shrine_normal.dds"
+		# texture_specular = "LOD_0_shrine_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "EMISSIVE_NIGHT" "PDX_MESH_SNAP_VERTICES_TO_TERRAIN"  }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_0_decal_decalShape"
+		index = 0
+		# texture_diffuse = "wonder_eiffel_tower_decal_01_diffuse.dds"
+		# texture_normal = "wonder_eiffel_tower_decal_01_normal.dds"
+		# texture_specular = "wonder_eiffel_tower_decal_01_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "LOD_1_shrine_mesh"
+		index = 0
+		# texture_diffuse = "LOD_0_shrine_diffuse.dds"
+		# texture_normal = "LOD_0_shrine_normal.dds"
+		# texture_specular = "LOD_0_shrine_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_1_decal_decalShape"
+		index = 0
+		# texture_diffuse = "wonder_eiffel_tower_decal_01_diffuse.dds"
+		# texture_normal = "wonder_eiffel_tower_decal_01_normal.dds"
+		# texture_specular = "wonder_eiffel_tower_decal_01_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "LOD_2_shrine_mesh"
+		index = 0
+		# texture_diffuse = "LOD_0_shrine_diffuse.dds"
+		# texture_normal = "LOD_0_shrine_normal.dds"
+		# texture_specular = "LOD_0_shrine_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_2_decal_decalShape"
+		index = 0
+		# texture_diffuse = "wonder_eiffel_tower_decal_01_diffuse.dds"
+		# texture_normal = "wonder_eiffel_tower_decal_01_normal.dds"
+		# texture_specular = "wonder_eiffel_tower_decal_01_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "LOD_3_shrine_mesh"
+		index = 0
+		# texture_diffuse = "LOD_0_shrine_diffuse.dds"
+		# texture_normal = "LOD_0_shrine_normal.dds"
+		# texture_specular = "LOD_0_shrine_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_3_decal_decalShape"
+		index = 0
+		# texture_diffuse = "wonder_eiffel_tower_decal_01_diffuse.dds"
+		# texture_normal = "wonder_eiffel_tower_decal_01_normal.dds"
+		# texture_specular = "wonder_eiffel_tower_decal_01_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+}
+
+entity = {
+	name = "shrine_entity"
+	pdxmesh = "shrine_mesh"
+}

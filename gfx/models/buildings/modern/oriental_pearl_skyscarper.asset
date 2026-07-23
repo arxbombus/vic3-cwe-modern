@@ -1,0 +1,131 @@
+pdxmesh = {
+	name = "oriental_pearl_skyscraper_mesh"
+	file = "oriental_pearl_skyscraper.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 16.0 }
+		lod = { index = 2 percent = 8.0 }
+		lod = { index = 3 percent = 4.0 }
+	}
+
+	scale = 3
+
+	meshsettings = {
+		name = "trower_mesh0"
+		index = 0
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "decal0"
+		index = 0
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "sky_mesh0"
+		index = 0
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "world0"
+		index = 0
+		texture_diffuse = "european_decal_city_diffuse.dds"
+		texture_normal = "european_decal_city_normal.dds"
+		texture_specular = "european_decal_city_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+	
+	meshsettings = {
+		name = "tower_mesh1"
+		index = 0
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "decal1"
+		index = 0
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "sky_mesh1"
+		index = 0
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "world1"
+		index = 0
+		texture_diffuse = "european_decal_city_diffuse.dds"
+		texture_normal = "european_decal_city_normal.dds"
+		texture_specular = "european_decal_city_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "tower_mesh2"
+		index = 0
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "decel2"
+		index = 0
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "sky_mesh2"
+		index = 0
+		texture_diffuse = "asian_city_centerpiece_skyscraper_01_diffuse.dds"
+		texture_normal = "asian_city_centerpiece_skyscraper_01_normal.dds"
+		texture_specular = "asian_city_centerpiece_skyscraper_01_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "world2"
+		index = 0
+		texture_diffuse = "european_decal_city_diffuse.dds"
+		texture_normal = "european_decal_city_normal.dds"
+		texture_specular = "european_decal_city_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+}
+
+#locator
+
+
+entity = {
+	name = "oriental_pearl_skyscraper_entity"
+	pdxmesh = "oriental_pearl_skyscraper_mesh"
+}

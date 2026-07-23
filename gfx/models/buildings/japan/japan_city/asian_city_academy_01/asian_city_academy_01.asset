@@ -1,0 +1,171 @@
+pdxmesh = {
+	name = "japan_city_academy_01_mesh"
+	file = "asian_city_academy_01.mesh"
+
+	lod_percentages = {
+		lod = { index = 1 percent = 16.0 }
+		lod = { index = 2 percent = 8.0 }
+		lod = { index = 3 percent = 2.0 }
+	}
+
+	meshsettings = {
+		name = "LOD_0|asian_urban_city_academy_decal_01|asian_urban_city_academ"
+		index = 0
+		texture_diffuse = "asian_city_academy_decal_01_diffuse.dds"
+		texture_normal = "asian_city_academy_decal_01_normal.dds"
+		texture_specular = "asian_city_academy_decal_01_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "LOD_0|asian_urban_city_academy_01|asian_urban_city_academy_01Sh"
+		index = 0
+		texture_diffuse = "jap_city_academy_01_diffuse.dds"
+		texture_normal = "asian_city_academy_01_normal.dds"
+		texture_specular = "asian_city_academy_01_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_0|asian_urban_city_academy_01|asian_urban_city_academy_01Sh"
+		index = 1
+		texture_diffuse = "asian_farm_farmstead_tree_01_diffuse.dds"
+		texture_normal = "asian_farm_farmstead_tree_01_normal.dds"
+		texture_specular = "asian_farm_farmstead_tree_01_properties.dds"
+		shader = "tree_colormap"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_0|worlddecal|worlddecalShape"
+		index = 0
+		texture_diffuse = "asian_city_decal_diffuse.dds"
+		texture_normal = "asian_city_decal_normal.dds"
+		texture_specular = "asian_city_decal_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "LOD_1|asian_urban_city_academy_decal_01|asian_urban_city_academ"
+		index = 0
+		texture_diffuse = "asian_city_academy_decal_01_diffuse.dds"
+		texture_normal = "asian_city_academy_decal_01_normal.dds"
+		texture_specular = "asian_city_academy_decal_01_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "LOD_1|asian_urban_city_academy_01|asian_urban_city_academy_01Sh"
+		index = 0
+		texture_diffuse = "jap_city_academy_01_diffuse.dds"
+		texture_normal = "asian_city_academy_01_normal.dds"
+		texture_specular = "asian_city_academy_01_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_1|asian_urban_city_academy_01|asian_urban_city_academy_01Sh"
+		index = 1
+		texture_diffuse = "asian_farm_farmstead_tree_01_diffuse.dds"
+		texture_normal = "asian_farm_farmstead_tree_01_normal.dds"
+		texture_specular = "asian_farm_farmstead_tree_01_properties.dds"
+		shader = "tree_colormap"
+		shader_file = "gfx/FX/tree.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_1|worlddecal|worlddecalShape"
+		index = 0
+		texture_diffuse = "asian_city_decal_diffuse.dds"
+		texture_normal = "asian_city_decal_normal.dds"
+		texture_specular = "asian_city_decal_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "LOD_2|asian_urban_city_academy_decal_01|asian_urban_city_academ"
+		index = 0
+		texture_diffuse = "asian_city_academy_decal_01_diffuse.dds"
+		texture_normal = "asian_city_academy_decal_01_normal.dds"
+		texture_specular = "asian_city_academy_decal_01_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "LOD_2|asian_urban_city_academy_01|asian_urban_city_academy_01Sh"
+		index = 0
+		texture_diffuse = "jap_city_academy_01_diffuse.dds"
+		texture_normal = "asian_city_academy_01_normal.dds"
+		texture_specular = "asian_city_academy_01_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_2|worlddecal|worlddecalShape"
+		index = 0
+		texture_diffuse = "asian_city_decal_diffuse.dds"
+		texture_normal = "asian_city_decal_normal.dds"
+		texture_specular = "asian_city_decal_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+
+	meshsettings = {
+		name = "LOD_3|asian_urban_city_academy_01|asian_urban_city_academy_01Sh"
+		index = 0
+		texture_diffuse = "jap_city_academy_01_diffuse.dds"
+		texture_normal = "asian_city_academy_01_normal.dds"
+		texture_specular = "asian_city_academy_01_properties.dds"
+		shader = "standard"
+		additional_shader_defines = { "PDX_MESH_SNAP_VERTICES_TO_TERRAIN" "EMISSIVE_NIGHT" "EMISSIVE_NIGHT_RANDOM" "SOL_VISUALS" "HUB_BUILDING" }
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "LOD_3|asian_urban_city_academy_decal_01|asian_urban_city_academ"
+		index = 0
+		texture_diffuse = "asian_city_academy_decal_01_diffuse.dds"
+		texture_normal = "asian_city_academy_decal_01_normal.dds"
+		texture_specular = "asian_city_academy_decal_01_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+
+	meshsettings = {
+		name = "LOD_3|worlddecal|worlddecalShape"
+		index = 0
+		texture_diffuse = "asian_city_decal_diffuse.dds"
+		texture_normal = "asian_city_decal_normal.dds"
+		texture_specular = "asian_city_decal_properties.dds"
+		texture = { file = "decal_city_mask_01.dds" index = 3 }
+		shader = "decal_world"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "Decals"
+	}
+}
+
+entity = {
+	name = "japan_city_academy_01_entity"
+	pdxmesh = "japan_city_academy_01_mesh"
+}
