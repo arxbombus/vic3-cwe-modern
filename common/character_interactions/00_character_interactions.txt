@@ -110,21 +110,16 @@ grant_leadership_to_agitator = {
 	clicksound = "event:/SFX/DLC/1.3_ip1/UI/agitator_promote"
 
 	potential = {
-		is_a_special_agitator = no
-		has_role_of_type = agitator
-		exists = owner
+		
 		owner ?= scope:actor
+		
+		has_role_of_type = agitator
+		
+		is_a_special_agitator = no
+		
 	}
 
 	possible = {
-	
-		#Age restrictions
-		is_adult = yes
-	
-		#Government restrictions
-		interest_group ?= {
-			is_in_government = yes
-		}
 		
 		#Cultural restrictions
 		trigger_if = {
@@ -142,12 +137,6 @@ grant_leadership_to_agitator = {
 			character_acceptance = { target = scope:actor value >= acceptance_status_5 }
 		}
 		
-		#Religious restrictions
-		trigger_if = {
-			limit = { owner ?= { has_law_or_variant = law_type:law_state_atheism } }
-			religion = rel:atheist
-		}
-		
 		#Gender restrictions
 		trigger_if = {
 			limit = { is_female = yes }
@@ -160,29 +149,80 @@ grant_leadership_to_agitator = {
 			owner ?= { NOR = { has_law_or_variant = law_type:law_no_gender_issues has_law_or_variant = law_type:law_some_gender_issues } }
 		}
 		
-		#Political restrictions
-		custom_tooltip = {
-			text = grant_leadership_must_be_pressured_ig
-			political_movement ?= {
-				any_influenced_interest_group = {
-					this = root.interest_group
+		#Reason for co-opting agitator
+		OR = {
+		
+			#Government restrictions
+			interest_group ?= {
+				is_in_government = yes
+			}
+		
+			#Political movement restrictions
+			custom_tooltip = {
+				text = grant_leadership_must_be_pressured_ig
+				political_movement ?= {
+					any_influenced_interest_group = {
+						this = root.interest_group
+					}
 				}
 			}
+			
 		}
 		
 	}
 
 	effect = {
 		
+		#Fix agitator ideology
 		convert_agitator_ideology_to_IG_ideology = yes
 		
-		show_as_tooltip = {
-			remove_character_role = agitator
+		#Anger if co-opting a terrorist
+		if = {
+			limit = { has_role = character_role_terrorist }
+			interest_group ?= { save_scope_as = terrorist_IG_scope }
+			owner ?= {
+				every_interest_group = {
+					limit = { NOT = { is_same_interest_group_type = scope:terrorist_IG_scope } }
+					owner = {
+						add_radicals = { 
+							value = large_radicals
+							interest_group = prev
+						}
+					}
+				}
+			}
 		}
-		custom_tooltip = {
-			text = make_agitator_ig_leader_tt
-			set_as_interest_group_leader = yes
+		
+		#Terrorists do not immediately become interest group leader
+		if = {
+			limit = {
+				NOT = { has_role = character_role_terrorist }
+				save_temporary_scope_as = this_character_scope
+				owner ?= {
+					NOT = {
+						any_scope_character = {
+							has_role_of_type = politician
+							interest_group ?= { is_same_interest_group_type = scope:this_character_scope.interest_group }
+							popularity > scope:this_character_scope.popularity
+						}
+					}
+				}
+			}
+			custom_tooltip = {
+				text = make_agitator_ig_leader_tt
+				set_as_interest_group_leader = yes
+			}
 		}
+		else = {
+			custom_tooltip = {
+				text = make_agitator_politician_tt
+				
+				#Convert agitator into politician - default
+				replace_character_roles = { add = { character_role_politician } remove_all = yes }
+				
+			}
+		}
+		
 	}
 
 	cooldown = { days = normal_modifier_time }
@@ -230,6 +270,7 @@ grant_leadership_to_agitator = {
 			add = -1000
 		}
 	}
+	
 }
 
 grant_command_to_agitator = {
@@ -237,20 +278,23 @@ grant_command_to_agitator = {
 	clicksound = "event:/SFX/UI/Military/command_grant"
 
 	potential = {
-		is_a_special_agitator = no
-		has_role_of_type = agitator
-		NOT = { has_role_of_type = general }
-		NOT = { has_role_of_type = admiral }
+	
 		owner ?= scope:actor
+		
+		has_role_of_type = agitator
+		NOR = {
+			has_role_of_type = general
+			has_role_of_type = admiral
+			has_role = character_role_terrorist
+		}
+		is_a_special_agitator = no
+		
 	}
 
 	possible = {
 		
 		#HQ exists
 		exists = owner.capital.land_hq
-		
-		#Age restrictions
-		is_adult = yes
 		
 		#Government restrictions
 		interest_group ?= {
@@ -348,42 +392,108 @@ marry_ruler_or_heir = {
 	clicksound = "event:/SFX/UI/Military/command_grant"
 
 	potential = {
+		
+		#Owned by THIS
 		owner ?= scope:actor
-		OR = {
-			is_ruler_of_own_country = yes
-			is_heir_of_own_country = yes
-		}
+		
+		#Is a monarch
+		has_role = character_role_monarch
+		
+		#In a monarchy
 		scope:actor ?= {
-			is_a_regime_monarchy = yes
+			has_law_or_variant = law_type:law_HOS_monarch
 			has_gov_regency = no
-			religion = {
-				has_discrimination_trait = heritage_christian
-			}
 		}
-		age >= 18
+		
+		#Not interested in marrying
 		NOT = { has_variable = spouse_seeker }
 		NOT = { has_variable = is_married }
 		NOT = { has_trait = homosexual_character }
+		
+		#Is of a marryable age
+		is_adult = yes
+		OR = {
+			age < 50
+			AND = {
+				is_female = yes
+				age < 40
+			}
+		}
+		
 	}
 
 	possible = {
+		
+		save_temporary_scope_as = THIS_character_scope
+		
+		#There is an available spouse
 		owner ?= {
+		
+			#Independent country
+			is_sufficiently_independent = yes
+			is_at_war = no
+		
+			#Available country
 			any_diplomatically_relevant_country = {
+				
+				#Not THIS
 				NOT = { THIS = scope:actor }
-				NOT = { is_subject_type = subject_type_personal_union }
-				is_a_regime_monarchy = yes
+				
+				#Is a monarchy
+				has_law_or_variant = law_type:law_HOS_monarch
 				has_gov_regency = no
-				religion = scope:actor.religion
-				ruler = {
-					age > 36
-					hidden_trigger = {
-						NOT = {
-							has_variable = marriage_target
-						}
+				NOT = { is_subject_type = subject_type_personal_union }
+				
+				#Has a marryable character
+				any_scope_character = {
+					
+					#Is a royal (non-monarch) - monarchs use diplo action instead because a subject relation will be created
+					NOT = { has_role = character_role_monarch }
+					is_royal_character = yes
+					
+					#Is of a marryable age
+					is_adult = yes
+					trigger_if = {
+						limit = { scope:THIS_character_scope ?= { is_female = no } }
+						age < 50
 					}
+					trigger_else_if = {
+						limit = { scope:THIS_character_scope ?= { is_female = yes } }
+						age < 40
+					}
+					
+					#Is of correct gender or gender orientation
+					trigger_if = {
+						limit = { scope:THIS_character_scope ?= { is_female = no } }
+						is_female = yes
+						NOT = { has_trait = homosexual_character }
+					}
+					trigger_else_if = {
+						limit = { scope:THIS_character_scope ?= { is_female = yes } }
+						is_female = no
+						NOT = { has_trait = homosexual_character }
+					}
+					
+					#Shares same religion
+					religion ?= { is_state_religion = scope:actor }
+					
+					#Shares similar culture
+					culture ?= { shares_heritage_trait_group_with_any_primary_culture = scope:actor }
+					
+					#Not already a target
+					custom_tooltip = {
+						text = is_not_married.tt
+						NOT = { has_variable = spouse_seeker }
+						NOT = { has_variable = is_married }
+						NOT = { has_variable = marriage_target }
+					}
+					
 				}
+
 			}
+			
 		}
+		
 	}
 	effect = {
 		set_variable = spouse_seeker
@@ -396,6 +506,7 @@ marry_ruler_or_heir = {
 	ai_chance = {
 		value = 25
 	}
+	
 }
 
 abdicate_monarch = {
@@ -404,11 +515,13 @@ abdicate_monarch = {
 
 	potential = {
 		owner ?= scope:actor
+		
 		is_ruler_of_own_country = yes
 		owner ?= {
 			is_a_regime_monarchy = yes
 			has_gov_regency = no
 		}
+		
 		exists = owner.heir
 	}
 
@@ -559,6 +672,7 @@ abdicate_monarch = {
 			add = -1000
 		}
 	}
+	
 }
 
 exile_character = {
@@ -566,7 +680,7 @@ exile_character = {
 
 	should_ai_evaluate = {
 		OR = {
-			is_a_dictatorship = yes
+			has_law_or_variant = law_type:law_parties_not_allowed
 			has_law_or_variant = law_type:law_single_party_state
 			has_law_or_variant = law_type:law_secret_police
 			has_law_or_variant = law_type:law_outlawed_dissent
@@ -575,20 +689,22 @@ exile_character = {
 
 	potential = {
 	
+		# Cannot exile pure commanders, we have the retire interaction for that
+		OR = {
+			has_role_of_type = politician
+			AND = { 
+				has_role_of_type = agitator
+				NOT = { has_role = character_role_terrorist }
+			}
+			has_role_of_type = magnate
+			has_role_of_type = executive
+		}
+		is_ruler_of_own_country = no
+		is_heir_of_own_country = no
 		is_a_special_agitator = no
 	
 		is_in_exile_pool = no
 		is_in_void = no
-		is_ruler_of_own_country = no
-		is_heir_of_own_country = no
-		
-		# Cannot exile pure commanders, we have the retire interaction for that
-		OR = {
-			has_role_of_type = executive
-			has_role_of_type = magnate
-			has_role_of_type = politician
-			has_role_of_type = agitator
-		}
 		
 		interest_group ?= { is_in_government = no }
 		
@@ -598,14 +714,16 @@ exile_character = {
 
 	possible = {
 	
-		custom_tooltip = {
-			text = not_on_trial.tt
-			NOR = {
-				has_modifier = indicted_character
-				has_modifier = convicted_character
-				has_modifier = unjustly_convicted_character
-				has_modifier = acquitted_character
-			}
+		#Not subject to legal proceedings
+		NOR = {
+			has_modifier = indicted_character
+			has_modifier = convicted_character
+			has_modifier = acquitted_character
+		}
+		NOR = {
+			has_modifier = accused_of_crimes
+			has_modifier = impeached_politician
+			has_modifier = backbenchers_plot_politician
 		}
 	
 		owner ?= {
@@ -1184,6 +1302,7 @@ retire_commander = {
 		owner ?= scope:actor
 		is_commander = yes
 		is_ruler_of_own_country = no
+		is_heir_of_own_country = no
 	}
 
 	possible = {
@@ -1365,23 +1484,32 @@ retire_commander = {
 			add = -150
 		}
 	}
+	
 }
 
 return_to_home_country = {
 	
 	potential = {
 	
+		owner ?= scope:actor
+	
+		has_role_of_type = agitator
+		NOR = { 
+			has_role_of_type = general
+			has_role_of_type = admiral
+			has_role_of_type = politician
+			has_role = character_role_terrorist
+		}
+		is_ruler_of_own_country = no
+		is_heir_of_own_country = no
+		
 		is_a_special_agitator = no
 	
 		is_in_exile_pool = no
-		has_role_of_type = agitator
-		NOT = { has_role_of_type = general }
-		NOT = { has_role_of_type = admiral }
-		NOT = { has_role_of_type = politician }
-		is_ruler_of_own_country = no
-		is_heir_of_own_country = no
+		
 		exists = root.home_country
 		NOT = { root.home_country = this.owner }
+		
 	}
 
 	show_requirements = yes
@@ -1421,4 +1549,5 @@ return_to_home_country = {
 	ai_chance = {
 		value = -50
 	}
+	
 }

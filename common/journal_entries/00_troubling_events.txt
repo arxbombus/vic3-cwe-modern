@@ -4,301 +4,38 @@
 	group = je_group_historical_content
 
 	is_shown_when_inactive = {
-		always = yes
+		
+		#There are terrorists
+		any_scope_character = {
+			has_role = character_role_terrorist
+		}
+		
 	}
 
 	possible = {
-		
-		#Correct tag
-		OR = {
-		
-			trigger_if = {
-				limit = { c:GBR ?= this }
-				
-				#The Troubles
-				AND = { 
-					has_technology_researched = tech_politics_3
-					c:GBR ?= this
-					exists = c:SIR
-					any_scope_state = { state_region = { is_homeland = cu:irish } }
-					NOR = { 
-						has_law_or_variant = law_type:law_multicultural 
-						AND = {
-							exists = c:NIR
-							c:NIR ?= { is_subject_of = ROOT }
-						}
-					}
-				}
-			
-			}
-			
-			trigger_if = {
-				limit = { c:USA ?= this }
-				
-				#BLM
-				AND = { 
-					c:USA ?= this
-					NOT = { has_law_or_variant = law_type:law_multicultural }
-					any_scope_state = { state_region = { is_homeland = cu:afro_american } }
-				}
-				
-			}
-
-			trigger_if = {
-				limit = { c:ITA ?= this }
-			
-				#Years of Lead
-				AND = { 
-					has_technology_researched = tech_politics_3
-					c:ITA ?= this 
-					NOT = { is_a_communist_government = yes }
-					ig:ig_trade_unions ?= { ig_counts_as_marginal = no }
-					cold_war_ongoing = yes
-				}
-				
-			}
-			
-			trigger_if = {
-				limit = {  
-					NOT = { c:ITA ?= this }
-					is_a_nationalist_government = yes
-				}
-				
-				#Years of Lead
-				AND = { 
-					has_technology_researched = tech_politics_3
-					is_a_nationalist_government = yes
-					ig:ig_trade_unions ?= { ig_counts_as_marginal = no }
-					cold_war_ongoing = yes
-				}
-				
-			}
-			
-			trigger_if = {
-				limit = { c:HND ?= this }
-				
-				#Naxalite–Maoist Insurgency
-				AND = { 
-					has_technology_researched = tech_politics_3
-					c:HND ?= this 
-					NOT = { is_a_communist_government = yes }
-					ig:ig_trade_unions ?= { 
-						ig_counts_as_marginal = no
-						is_in_government = no
-					}
-				}
-				
-			}
-			
-			trigger_if = {
-				limit = { c:SRL ?= this }
-				
-				#Tamil Tigers Insurgency
-				AND = {
-					c:SRL ?= this 
-					has_state_in_state_region = STATE_CEYLON
-					NOT = { exists = c:TAE }
-					has_law_or_variant = law_type:law_ethnostate
-				}
-				
-			}
-			
-			trigger_if = {
-				limit = { 
-					cold_war_ongoing = yes
-				}
-				
-				#Communist Insurgency
-				AND = {
-					has_technology_researched = tech_politics_3
-					NOT = { is_a_communist_government = yes }
-					right_wing_ruling_coalition = yes
-					ig:ig_trade_unions ?= { 
-						ig_counts_as_marginal = no
-						leader ?= { has_ideology = ideology:ideology_autocratic }
-						ig_approval <= unhappy
-					}
-				}
-				
-			}
-			
-			trigger_if = {
-				limit = { 
-					NOT = { cold_war_ongoing = yes }
-				}
-				
-				#Theocratic Insurgency
-				AND = {
-					has_technology_researched = tech_politics_3
-					NOT = { is_a_theocratic_government = yes }
-					ig:ig_devout ?= { 
-						ig_counts_as_marginal = no
-						leader ?= { has_ideology = ideology:ideology_autocratic }
-						ig_approval <= unhappy
-					}
-				}
-				
-			}
-		
-		}
 		
 	}
 
 	immediate = {
 		
-		if = {
-			limit = { 
-				cold_war_ongoing = yes
-				right_wing_ruling_coalition = yes
-				ig:ig_trade_unions ?= { 
-					ig_counts_as_marginal = no
-					leader ?= { has_ideology = ideology:ideology_autocratic }
-					ig_approval <= unhappy
-				}
-			}
-			set_variable = communist_insurgency_troubling_event
-		}
-		if = {
-			limit = { 
-				NOT = { cold_war_ongoing = yes }
-				NOT = { is_a_theocratic_government = yes }
-				ig:ig_devout ?= { 
-					ig_counts_as_marginal = no
-					leader ?= { has_ideology = ideology:ideology_autocratic }
-					ig_approval <= unhappy
-				}
-			}
-			set_variable = theocratic_insurgency_troubling_event
+		#Set variable
+		set_variable = {
+			name = terror_attack_chance
+			value = 0
 		}
 		
 	}
 
 	complete = {
-		
-		#How to end the troubling event
-		
-		trigger_if = {
-			limit = { c:GBR ?= this }
-			
-			#The Troubles
-			AND = { 
-				c:GBR ?= this 
-				OR = { 
-					NOT = { any_scope_state = { state_region = { is_homeland = cu:irish } } }
-					has_law_or_variant = law_type:law_multicultural 
-					AND = {
-						exists = c:NIR
-						c:NIR ?= { is_subject_of = ROOT }
-					}
+	
+		#There are no terrorists
+		custom_tooltip = {
+			text = no_terrorists_in_country.tt
+			NOT = {
+				any_scope_character = {
+					has_role = character_role_terrorist
 				}
 			}
-			
-		}
-		
-		trigger_if = {
-			limit = { c:USA ?= this }
-			
-			#BLM
-			AND = { 
-				c:USA ?= this
-				OR = {
-					NOT = { any_scope_state = { state_region = { is_homeland = cu:afro_american } } }
-					has_law_or_variant = law_type:law_multicultural
-				}
-			}
-			
-		}
-		
-		trigger_if = {
-			limit = { c:ITA ?= this }
-			
-			#Years of Lead
-			OR = { 
-				is_a_communist_government = yes
-				ig:ig_trade_unions ?= { ig_counts_as_marginal = yes }
-				cold_war_not_ongoing = yes
-			}
-		
-		}
-		
-		trigger_if = {
-			limit = {  
-				NOT = { c:ITA ?= this }
-				is_a_nationalist_government = yes
-				ig:ig_trade_unions ?= { ig_counts_as_marginal = no }
-			}
-			
-			#Years of Lead
-			OR = { 
-				NOT = { is_a_nationalist_government = yes }
-				ig:ig_trade_unions ?= { ig_counts_as_marginal = yes }
-				cold_war_not_ongoing = yes
-			}
-		
-		}
-		
-		trigger_if = {
-			limit = { c:HND ?= this }
-			
-			#Naxalite–Maoist Insurgency
-			AND = { 
-				c:HND ?= this 
-				OR = { 
-					is_a_communist_government = yes
-					ig:ig_trade_unions ?= { 
-						OR = {
-							ig_counts_as_marginal = yes 
-							is_in_government = yes
-						}
-					}
-				}
-			}
-		
-		}
-		
-		trigger_if = {
-			limit = { c:SRL ?= this }
-			
-			#Tamil Tigers Insurgency
-			c:SRL ?= this 
-			has_state_in_state_region = STATE_CEYLON
-			OR = { 
-				has_law_or_variant = law_type:law_multicultural 
-				exists = c:TAE
-			}
-			
-		}
-		
-		trigger_if = {
-			limit = { 
-				has_variable = communist_insurgency_troubling_event
-			}
-			
-			#Communist Insurgency
-			OR = {
-				is_a_communist_government = yes
-				radical_left_wing_ruling_coalition = yes
-				ig:ig_trade_unions ?= { 
-					ig_counts_as_marginal = yes
-				}
-				cold_war_not_ongoing = yes
-			}
-			
-		}
-		
-		trigger_if = {
-			limit = { 
-				has_variable = theocratic_insurgency_troubling_event
-			}
-			
-			#Theocratic Insurgency
-			OR = {
-				is_a_theocratic_government = yes
-				ig:ig_devout ?= { 
-					ig_counts_as_marginal = yes
-				}
-			}
-			
 		}
 		
 	}
@@ -306,14 +43,56 @@
 	on_complete = {
 		
 		#Domestic Peace
+		hidden_effect = { has_modifier = national_reconciliation }
 		add_modifier = { 
 			name = national_reconciliation 
-			years = 5 
+			years = 5
+			is_decaying = yes
 		}
 		
-		#Clean up
-		remove_variable = communist_insurgency_troubling_event
-		remove_variable = theocratic_insurgency_troubling_event
+	}
+	
+	on_fail = {
+		
+		#Mark terrorists
+		every_scope_character = {
+			limit = {
+				has_role = character_role_terrorist
+			}
+			save_scope_as = terrorist_character
+			custom_tooltip = terrorist_character_label.tt
+		}
+		if = {
+			limit = { NOT = { has_law_or_variant = law_type:law_closed_borders } }
+			every_country = {
+				limit = {
+					has_journal_entry = je_troubling_events_system
+					NOT = { has_law_or_variant = law_type:law_closed_borders }
+					OR = {
+						AND = {
+							is_subject_of = ROOT
+							liberty_desire >= 80
+						}
+						AND = {
+							is_subject = no
+							relations:root <= relations_threshold:poor
+						}
+						has_diplomatic_pact = { who = ROOT type = support_separatism is_initiator = yes }
+					}
+					any_scope_character = {
+						has_role = character_role_terrorist
+						culture = { NOT = { is_primary_culture_of = ROOT } }
+					}
+				}
+				every_scope_character = {
+					limit = {
+						has_role = character_role_terrorist
+					}
+					save_scope_as = international_terrorist_character
+					custom_tooltip = international_terrorist_character.tt
+				}
+			}
+		}
 		
 	}
 	
@@ -321,77 +100,259 @@
 	
 		effect = {
 			
+			#Count
 			if = {
-				limit = { c:GBR ?= this }
-				add_radicals = {
-					value = 0.001
-					culture = cu:irish
-				}
-			}
-			else_if = {
-				limit = { c:USA ?= this }
-				add_radicals = {
-					value = 0.001
-					culture = cu:afro_american
-				}
-			}
-			else_if = {
 				limit = { 
-					OR = { 
-						c:ITA ?= this 
-						is_a_nationalist_government = yes 
-					} 
+					has_variable = terror_attack_chance
 				}
-				if = { 
-					limit = { right_wing_ruling_coalition = yes }
-					add_radicals = {
-						value = 0.001
-						interest_group = ig:ig_trade_unions
+				if = {
+					limit = { has_institution = institution_home_affairs institution:institution_home_affairs.investment >= 1 }
+					change_variable = {
+						name = terror_attack_chance
+						add = 10
 					}
 				}
-				if = { 
-					limit = { left_wing_ruling_coalition = yes }
-					add_radicals = {
-						value = 0.001
-						interest_group = ig:ig_rural_folk
-					}
-					add_radicals = {
-						value = 0.001
-						interest_group = ig:ig_devout
-					}
-					add_radicals = {
-						value = 0.001
-						interest_group = ig:ig_landowners
+				else_if = {
+					limit = { has_institution = institution_home_affairs institution:institution_home_affairs.investment >= 2 }
+					change_variable = {
+						name = terror_attack_chance
+						add = 8
 					}
 				}
-			}
-			else_if = {
-				limit = { c:SRL ?= this }
-				add_radicals = {
-					value = 0.001
-					culture = cu:tamil
+				else_if = {
+					limit = { has_institution = institution_home_affairs institution:institution_home_affairs.investment >= 3 }
+					change_variable = {
+						name = terror_attack_chance
+						add = 6
+					}
 				}
-			}
-			else_if = {
-				limit = { has_variable = communist_insurgency_troubling_event }
-				add_radicals = {
-					value = 0.001
-					interest_group = ig:ig_trade_unions
+				else_if = {
+					limit = { has_institution = institution_home_affairs institution:institution_home_affairs.investment >= 4 }
+					change_variable = {
+						name = terror_attack_chance
+						add = 4
+					}
 				}
-			}
-			else_if = {
-				limit = { has_variable = theocratic_insurgency_troubling_event }
-				add_radicals = {
-					value = 0.001
-					interest_group = ig:ig_devout
+				else_if = {
+					limit = { has_institution = institution_home_affairs institution:institution_home_affairs.investment >= 5 }
+					change_variable = {
+						name = terror_attack_chance
+						add = 2
+					}
+				}
+				else = {
+					change_variable = {
+						name = terror_attack_chance
+						add = 12
+					}
+				}
+				clamp_variable = {
+					name = terror_attack_chance
+					max = 100
+					min = 0
 				}
 			}
 			else = {
-				add_radicals = {
-					value = 0.001
+				set_variable = {
+					name = terror_attack_chance
+					value = 0
 				}
 			}
 			
+			#Clean up terrorists
+			every_scope_character = {
+				limit = {
+					has_role = character_role_terrorist
+					is_a_special_agitator = no
+					loyalty > define:NCharacters|LOYALTY_UNCERTAIN_THRESHOLD
+				}
+				remove_character_role = character_role_terrorist
+			}
+			
+			#Conduct terrorist attack
+			if = {
+				limit = {
+					has_variable = terror_attack_chance
+					var:terror_attack_chance >= 100
+				}
+				random_list = {
+					#Yes
+					1 = {
+						random_list = {
+							#Primary culture attack
+							1 = {
+								if = {
+									limit = {
+										any_scope_character = {
+											has_role = character_role_terrorist
+											culture = { is_primary_culture_of = ROOT }
+										}
+									}
+									random_scope_character = {
+										limit = {
+											has_role = character_role_terrorist
+											culture = { is_primary_culture_of = ROOT }
+										}
+										save_scope_as = terror_attack_leader
+									}
+									random_scope_state = {
+										limit = {
+											is_incorporated = yes
+										}
+										add_radicals = {
+											value = large_radicals
+										}
+										state_region = { add_devastation = 5 }
+										save_scope_as = terror_attack_state
+									}
+									post_notification = domestic_terror_attack
+								}
+							}
+							#Discriminated culture attack
+							1 = {
+								if = {
+									limit = {
+										any_scope_character = {
+											has_role = character_role_terrorist
+											culture = { NOT = { is_primary_culture_of = ROOT } }
+										}
+									}
+									random_scope_character = {
+										limit = {
+											has_role = character_role_terrorist
+											culture = { NOT = { is_primary_culture_of = ROOT } }
+										}
+										culture = { save_scope_as = terror_attack_leader_culture }
+										save_scope_as = terror_attack_leader
+									}
+									if = {
+										limit = { 
+											any_scope_state = {
+												state_region = {
+													is_homeland = scope:terror_attack_leader_culture
+												}
+											}
+										}
+										random_scope_state = {
+											limit = {
+												state_region = {
+													is_homeland = scope:terror_attack_leader_culture
+												}
+											}
+											add_radicals = {
+												value = large_radicals
+											}
+											state_region = { add_devastation = 5 }
+											save_scope_as = terror_attack_state
+										}
+										post_notification = domestic_terror_attack
+									}
+								}
+							}
+							#International Terror Attack
+							1 = {
+								if = {
+									limit = {
+										NOT = { has_law_or_variant = law_type:law_closed_borders }
+										any_country = {
+											has_journal_entry = je_troubling_events_system
+											NOT = { has_law_or_variant = law_type:law_closed_borders }
+											OR = {
+												AND = {
+													is_subject_of = ROOT
+													liberty_desire >= 80
+												}
+												AND = {
+													is_subject = no
+													relations:root <= relations_threshold:poor
+												}
+												has_diplomatic_pact = { who = ROOT type = support_separatism is_initiator = yes }
+											}
+											any_scope_character = {
+												has_role = character_role_terrorist
+												culture = { NOT = { is_primary_culture_of = ROOT } }
+											}
+										}
+									}
+									random_country = {
+										limit = {
+											has_journal_entry = je_troubling_events_system
+											NOT = { has_law_or_variant = law_type:law_closed_borders }
+											OR = {
+												AND = {
+													is_subject_of = ROOT
+													liberty_desire >= 80
+												}
+												AND = {
+													is_subject = no
+													relations:root <= relations_threshold:poor
+												}
+												has_diplomatic_pact = { who = ROOT type = support_separatism is_initiator = yes }
+											}
+											any_scope_character = {
+												has_role = character_role_terrorist
+												culture = { NOT = { is_primary_culture_of = ROOT } }
+											}
+										}
+										random_scope_character = {
+											limit = {
+												has_role = character_role_terrorist
+												culture = { NOT = { is_primary_culture_of = ROOT } }
+											}
+											culture = { save_scope_as = terror_attack_leader_culture }
+											save_scope_as = terror_attack_leader
+										}
+										ROOT = {
+											if = {
+												limit = {
+													any_scope_state = {
+														OR = {
+															state_region = {
+																is_homeland = scope:terror_attack_leader_culture
+															}
+															is_incorporated = yes
+														}
+													}
+												}
+												random_scope_state = {
+													limit = {
+														OR = {
+															state_region = {
+																is_homeland = scope:terror_attack_leader_culture
+															}
+															is_incorporated = yes
+														}
+													}
+													add_radicals = {
+														value = large_radicals
+													}
+													state_region = { add_devastation = 5 }
+													save_scope_as = terror_attack_state
+												}
+												post_notification = international_terror_attack
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					#No
+					4 = {
+						random_scope_state = {
+							limit = {
+								is_incorporated = yes
+							}
+							save_scope_as = terror_attack_state
+						}
+						post_notification = terror_attack_foiled
+					}
+				}
+				set_variable = {
+					name = terror_attack_chance
+					value = 0
+				}
+			}
 		}
 		
 	}

@@ -362,15 +362,13 @@ post_ww2_rationing_modifier = {
 
 nationalist_agitation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
-	state_radicals_from_discrimination_mult = 0.25
-	state_radicals_from_sol_change_mult = 0.25
+	political_movement_radicalism_add = 0.50
 	state_turmoil_effects_mult = 0.25
 }
 
 national_reconciliation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
-	state_radicals_from_discrimination_mult = -0.25
-	state_radicals_from_sol_change_mult = -0.25
+	political_movement_radicalism_add = -0.50
 	state_turmoil_effects_mult = -0.25
 }
 
@@ -406,6 +404,12 @@ head_of_intelligence = {
 secret_police_agitator_slot_additional = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_agitator_slots_add = 1
+}
+
+manchurian_candidate = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_prominence_add = 50
+	character_loyalty_add = -25
 }
 
 ### Generic Domestic Events ###

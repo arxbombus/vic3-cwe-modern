@@ -47,23 +47,27 @@ SVM_gov_changes.1 = {
 		#Enact new regime
 		effect_starting_politics_semi_presidential_republic = yes
 		effect_starting_politics_dictatorship = yes
+		activate_law = law_type:law_HOG_none
+		
+		#Anti-Buddhist policies
+		activate_law = law_type:law_state_religion
+		set_state_religion = rel:catholic
 		
 		#Install new ruler
-		random_interest_group = {
-			limit = { 
-				is_interest_group_type = ig_rural_folk
-				leader = { is_historical = yes }
-			}
-			leader = { set_character_as_ruler = yes }
-		}
 		if = {
-			limit = { ig:ig_rural_folk = { leader = { is_historical = no } } }
+			limit = { any_scope_character = { has_variable = Ngo_Dinh_Diem } }
+			random_scope_character = {
+				limit = { has_variable = Ngo_Dinh_Diem }
+				set_character_as_ruler = yes
+			}
+		}
+		else = {
 			create_character = {
 				first_name = "Ngo_Dinh_Diem_first_name"
 				last_name = "Ngo_Dinh_Diem_last_name"
 				ruler = yes ig_leader = yes historical = yes
 				birth_date = 1901.1.3
-				interest_group = ig_rural_folk
+				interest_group = ig_industrialists
 				ideology = ideology_autocratic
 				culture = cu:vietnamese
 				religion = rel:catholic
@@ -72,6 +76,7 @@ SVM_gov_changes.1 = {
 					erudite
 					grifter
 				}
+				on_created = { set_variable = Ngo_Dinh_Diem }
 			}
 		}
 		
@@ -130,7 +135,9 @@ SVM_gov_changes.2 = {
 		is_sufficiently_independent = yes						# is_vassal = no		
 		is_at_war = no											# war = no
 		
-		#right_wing_ruling_coalition = yes						# Correct Ruling Coalition
+		#Cause
+		ruler ?= { has_variable = Ngo_Dinh_Diem }
+		has_law_or_variant = law_type:law_state_religion
 		
 		# Event has not been fired before
 		NOT = { has_variable = SVM_1963_hgc }					# CHANGE ****
@@ -151,6 +158,7 @@ SVM_gov_changes.2 = {
 		#Enact new regime
 		effect_starting_politics_nationalist_republic = yes
 		effect_starting_politics_dictatorship = yes
+		activate_law = law_type:law_freedom_of_conscience
 		
 		#Install new ruler
 		create_character = {

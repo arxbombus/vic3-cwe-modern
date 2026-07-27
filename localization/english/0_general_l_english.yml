@@ -433,7 +433,7 @@
     subject_type_mandate_no_icon:0 "$mandate$"
     
     semi_autonomous_colony_effect_desc_first:0 "[TARGET_COUNTRY.GetName] becomes a [COUNTRY.GetAdjectiveNoFlag] [concept_semi_autonomous_colony]"
-    semi_autonomous_colony_region_effect_desc_global:0 "Becomes a [concept_semi_autonomous_colony]"
+    semi_autonomous_colony_effect_desc_global:0 "Becomes a [concept_semi_autonomous_colony]"
     semi_autonomous_colony_effect_desc_third:0 "[AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)] becomes a [concept_semi_autonomous_colony] of [COUNTRY.GetName]"
     
     mandate_effect_desc_first:0 "[TARGET_COUNTRY.GetName] becomes a [COUNTRY.GetAdjectiveNoFlag] [concept_mandate]"
@@ -1189,18 +1189,18 @@
     sponsor_coup_diplo_action.tt:0 "[SCOPE.sCountry('coup_initiator').GetAdjective] spies will instigate a #y Coup Attempt#! in [SCOPE.sCountry('coup_target').GetName]"
     
     conduct_hostile_espionage_11:0 "Manipulating Politics"
-    conduct_hostile_espionage_11_pact_desc:0 "Spies from [SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName] are manipulating the domestic politics of [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName] to promote the enactment of certain [Concept('concept_law', '$concept_laws$')]."
+    conduct_hostile_espionage_11_pact_desc:0 "Spies from the [SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName] have compromised the [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetAdjective] [concept_ruler], enabling the [SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetAdjective] [concept_government] to [Concept('concept_enactment_of_laws','$concept_enactment_of_laws_enact$')] [Concept('concept_law','$concept_laws$')] in [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]."
     conduct_hostile_espionage_11_action_name:0 "Manipulate Politics"
-    conduct_hostile_espionage_11_action_break_name:0 "Stop manipulating [TARGET_COUNTRY.GetAdjective] Politics"
+    conduct_hostile_espionage_11_action_break_name:0 "Stop Manipulating [TARGET_COUNTRY.GetAdjective] Politics"
     conduct_hostile_espionage_11_action_propose_name:0 "Manipulate Politics"
-    conduct_hostile_espionage_11_desc:3 "We can use our spies in the target country's legislature to encourage the enactment of [Concept('concept_law', '$concept_laws$')] that we want in the target."
+    conduct_hostile_espionage_11_desc:3 "A 'Manchurian Candidate' has become the [concept_ruler] of the target country. This enables the foreign country to [Concept('concept_enactment_of_laws','$concept_enactment_of_laws_enact$')] [Concept('concept_law','$concept_laws$')] in the target country."
     conduct_hostile_espionage_11_action_notification_name:0 "[INITIATOR_COUNTRY.GetAdjective] Meddling in [TARGET_COUNTRY.GetAdjective] Politics"
     conduct_hostile_espionage_11_action_notification_break_name:0 "[INITIATOR_COUNTRY.GetAdjective] Meddling in [TARGET_COUNTRY.GetAdjective] Politics Stopped"
-    conduct_hostile_espionage_11_action_notification_break_desc:0 "Spies from [INITIATOR_COUNTRY.GetName] no longer have enough influence over [TARGET_COUNTRY.GetAdjective] politics to enable [INITIATOR_COUNTRY.GetName] to encourage the enactment of certain [Concept('concept_law', '$concept_laws$')] in [TARGET_COUNTRY.GetName]."
-    conduct_hostile_espionage_11_action_notification_desc:2 "Spies from [INITIATOR_COUNTRY.GetName] have gained enough influence over [TARGET_COUNTRY.GetAdjective] politics to enable [INITIATOR_COUNTRY.GetName] to encourage the enactment of certain [Concept('concept_law', '$concept_laws$')] in [TARGET_COUNTRY.GetName]."
+    conduct_hostile_espionage_11_action_notification_break_desc:0 "Spies from [INITIATOR_COUNTRY.GetName] no longer have enough influence over [TARGET_COUNTRY.GetAdjective] politics to enable [INITIATOR_COUNTRY.GetName] to enact [Concept('concept_law', '$concept_laws$')] in [TARGET_COUNTRY.GetName]."
+    conduct_hostile_espionage_11_action_notification_desc:2 "Spies from [INITIATOR_COUNTRY.GetName] have gained enough influence over [TARGET_COUNTRY.GetAdjective] politics to enable [INITIATOR_COUNTRY.GetName] to [Concept('concept_enactment_of_laws','$concept_enactment_of_laws_enact$')] [Concept('concept_law','$concept_laws$')] in [TARGET_COUNTRY.GetName]."
     conduct_hostile_espionage_11_proposal_notification_name:0 "Manipulate [TARGET_COUNTRY.GetAdjective] Politics"
-    conduct_hostile_espionage_11_proposal_notification_desc:3 "Spies from [INITIATOR_COUNTRY.GetName] have gained enough influence over [TARGET_COUNTRY.GetAdjective] politics to enable [INITIATOR_COUNTRY.GetName] to encourage the enactment of certain [Concept('concept_law', '$concept_laws$')] in [TARGET_COUNTRY.GetName]." 
-    conduct_hostile_espionage_11_proposal_notification_effects_desc:0 "[INITIATOR_COUNTRY.GetName] will be able to encourage the enactment of certain [Concept('concept_law', '$concept_laws$')] in [TARGET_COUNTRY.GetName]."
+    conduct_hostile_espionage_11_proposal_notification_desc:3 "Spies from [INITIATOR_COUNTRY.GetName] have gained enough influence over [TARGET_COUNTRY.GetAdjective] politics to enable [INITIATOR_COUNTRY.GetName] to [Concept('concept_enactment_of_laws','$concept_enactment_of_laws_enact$')] [Concept('concept_law','$concept_laws$')] in [TARGET_COUNTRY.GetName]." 
+    conduct_hostile_espionage_11_proposal_notification_effects_desc:0 "[INITIATOR_COUNTRY.GetName] will be able to [Concept('concept_enactment_of_laws','$concept_enactment_of_laws_enact$')] [Concept('concept_law','$concept_laws$')] in [TARGET_COUNTRY.GetName]."
     
     conduct_hostile_espionage_11_effect_desc_global:0 "Start $conduct_hostile_espionage_11$"
     conduct_hostile_espionage_11_trigger_desc_third:0 "[COUNTRY.GetName] will manipulate the politics of [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]"
@@ -1219,6 +1219,14 @@
     conduct_hostile_espionage_10_desc:3 "Our spies will stir up diplomatic tensions between the target country and their neighbours and rivals."
     conduct_hostile_espionage_10_action_notification_name:0 "Hostile Espionage in [TARGET_COUNTRY.GetName]"
     conduct_hostile_espionage_10_action_notification_desc:2 "Foreign Spies have instigated a [concept_diplomatic_incident] between [TARGET_COUNTRY.GetName] and its neigbouring countries and rivals."
+    
+    conduct_hostile_espionage_12:0 "Recruit Traitor Politician"
+    conduct_hostile_espionage_12_action_name:0 "Recruit Traitor Politician"
+    conduct_hostile_espionage_12_desc:3 "We will convince a foreign [concept_opposition] [concept_politician] to work for our country."
+    conduct_hostile_espionage_12_action_notification_name:0 "Foreign Meddling in [TARGET_COUNTRY.GetName]"
+    conduct_hostile_espionage_12_action_notification_desc:2 "[INITIATOR_COUNTRY.GetName] has compromised a [concept_opposition] [concept_politician] in [TARGET_COUNTRY.GetName]."
+    
+    create_traitor_politician.tt:0 "[SCOPE.sCharacter('traitor_politician').GetPrimaryRoleTitle] [SCOPE.sCharacter('traitor_politician').GetFullName] will betray [SCOPE.sCountry('target_country').GetName] and become a [SCOPE.sCountry('actor').GetAdjective] agent"
     
     instigate_domestic_unrest_tt:0 "0.5%/per month chance of Instigating Domestic Unrest"
     instigate_domestic_unrest_2_tt:0 "1%/per month chance of Instigating Domestic Unrest"
@@ -1453,9 +1461,28 @@
     
     military_cooperation_agreement_trigger_desc_first:0 "[COUNTRY.GetName] has $military_cooperation_agreement$ in [TARGET_COUNTRY.GetName]"
     military_cooperation_agreement_trigger_desc_third:0 "[COUNTRY.GetName] has $military_cooperation_agreement$ in [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]"
+    military_cooperation_agreement_trigger_desc_global:0 "Has [GetPlayer.GetAdjective] $military_cooperation_agreement$"
     
     create_expeditionary_force.tt:0 "[SCOPE.sCountry('actor').GetName] sends an #y Expeditionary Force#! to [SCOPE.sCountry('target_country').GetName]"
     
+    conduct_limited_war:0 "Limited War"
+    conduct_limited_war_action_name:0 "Wage [concept_limited_war]"
+    conduct_limited_war_action_propose_name:0 "Wage [concept_limited_war]"
+    conduct_limited_war_action_break_name:0 "End [concept_limited_war]"
+    conduct_limited_war_pact_desc:0 "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName] is waging a [concept_limited_war] against [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]."
+    conduct_limited_war_desc: "Wage a [concept_limited_war] against another [concept_country]."
+    conduct_limited_war_action_notification_name:0 "[concept_limited_war]"
+    conduct_limited_war_action_notification_desc:0 "[INITIATOR_COUNTRY.GetName] has begun a [concept_limited_war] against [GetPlayer.GetName]."
+    conduct_limited_war_action_notification_third_party_name:0 "[concept_limited_war]"
+    conduct_limited_war_action_notification_third_party_desc:0 "[INITIATOR_COUNTRY.GetName] began a [concept_limited_war] against [TARGET_COUNTRY.GetName]."
+    conduct_limited_war_action_notification_break_name:0 "[concept_limited_war] Ended"
+    conduct_limited_war_action_notification_break_desc:0 "[INITIATOR_COUNTRY.GetName] ceased its [concept_limited_war] against [GetPlayer.GetName]."
+    conduct_limited_war_action_notification_third_party_break_name:0 "[concept_limited_war] Ended"
+    conduct_limited_war_action_notification_third_party_break_desc:0 "[INITIATOR_COUNTRY.GetName] ended their [concept_limited_war] with [TARGET_COUNTRY.GetName]."
+    
+    concept_limited_war:0 "Limited War"
+    concept_limited_war_desc:0 "A limited war is a state of temporary naval and air hostilities between two countries. If the target country capitulates, a $dominate_politics$ [concept_diplomatic_pact] will be enforced against it."
+
     support_revolution:0 "Fund Revolution"
     support_revolution_pact_desc:0 "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName] is providing financial and military support to [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName] to help them succeed in its revolutionary war against the government."
     support_revolution_action_name:0 "Fund Revolution"
@@ -2429,7 +2456,7 @@
     
     concept_dominion_desc:0 "[Concept('concept_recognized_power','$concept_recognized_powers$')] may turn a weaker [concept_country] into their $concept_dominion$ ([concept_subject]). A $concept_dominion$ is a more autonomous [concept_subject_type] that are able to start their own [Concept('concept_diplomatic_play','$concept_diplomatic_plays$')] and are forced to join their [Concept('concept_overlord','$concept_overlord_possessive$')] [Concept('concept_war','$concept_wars$')]. They must pay #v 10%#! of their [concept_treasury] income to their $concept_overlord$ each week."
     
-    concept_personal_union_desc:0 "Two [Concept('concept_country', '$concept_countries$')] with the [SelectLocalization(GetPlayer.IsValid,'concept_personal_union_desc_added','Monarchy')] [concept_law] may be joined together in a $concept_personal_union$ ([concept_subject]), a [concept_subject_type] where the [Concept('concept_overlord','$concept_overlord_possessive$')] [concept_ruler] is the [concept_head_of_state] in both $concept_countries$. The subject may start their own [Concept('concept_diplomatic_play','$concept_diplomatic_plays$')] and may be forced to join their $concept_overlord$'s [Concept('concept_war','$concept_wars$')]. The [concept_diplomatic_pact] will break if the $concept_overlord$ abolishes the $law_monarchy$. They must pay #v 1%#! of their [concept_treasury] income to their $concept_overlord$ each week. \n\nPersonal Unions always have control of their own [concept_market]."
+    concept_personal_union_desc:0 "Two [Concept('concept_country', '$concept_countries$')] with the [SelectLocalization(GetPlayer.IsValid,'concept_personal_union_desc_added','Monarchy')] [concept_law] may be joined together in a $concept_personal_union$. This is a [concept_subject_type] where the [Concept('concept_overlord','$concept_overlord_possessive$')] [concept_ruler] is the [concept_head_of_state] of both [Concept('concept_country', '$concept_countries$')]. \n\nThe [concept_subject] may start their own [Concept('concept_diplomatic_play','$concept_diplomatic_plays$')] and may be forced to join their $concept_overlord$'s [Concept('concept_war','$concept_wars$')]. The [concept_diplomatic_pact] will break if the $concept_overlord$ abolishes its $law_monarchy$. \n\nPersonal Unions always have control of their own [concept_market]."
     
     host_power_bloc_embassy_desc: "An offer for one [concept_country] to host an embassy for a [concept_power_bloc]."
     
@@ -2967,8 +2994,12 @@
     force_economic_privatisation_subject_trigger_desc_third: "[COUNTRY.GetName] has imposed economic subordination on subject [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]"
     force_economic_privatisation_subject_trigger_false_desc_third: "[COUNTRY.GetName] has #b not#! imposed economic subordination on subject [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]"
     
-    protectorate_action_break_name:0 "Terminate $protectorate$ Status"
-    personal_union_action_break_name:0 "Dissolve $personal_union$"
+    protectorate_action_break_name:0 "Terminate [concept_protectorate] Status"
+    personal_union_action_break_name:0 "Dissolve [concept_personal_union]"
+    
+    personal_union_action_propose_name:0 "Create [concept_personal_union]"
+    personal_union_proposal_notification_name:0 "Establish [concept_personal_union]"
+    personal_union_proposal_notification_desc:0 "[INITIATOR_COUNTRY.GetName] proposes to create a [concept_personal_union] with [TARGET_COUNTRY.GetName] by way of a royal marriage between the [INITIATOR_COUNTRY.GetAdjective] [concept_monarch_character] and the [TARGET_COUNTRY.GetAdjective] [concept_monarch_character]."
     
     ship_type_troop_ship_0:0 "Early $ship_type_troop_ship$"
     ship_type_troop_ship_1:0 "Modern $ship_type_troop_ship$"
@@ -3215,3 +3246,14 @@
     
     dismantle_character_political_party: "Dismantle Party"
     dismantle_character_political_party_desc: "#lore Dismantle the [concept_party] which [Character.GetFullName] belongs to.#!"
+    
+    capture_terrorist: "Attempt Elimination"
+    capture_terrorist_desc: "#lore Order our security services to capture or kill [Character.GetPrimaryRoleTitle] [Character.GetFullName].#!"
+    
+    grant_leadership_to_agitator: "Make Politician"
+    make_agitator_politician_tt: "Becomes a [concept_politician] for the [Character.GetInterestGroup.GetName]"
+    
+    notification_manchurian_candidate_successful_name:0 "#y [SCOPE.sCharacter('compromised_ruler_scope').GetPrimaryRoleTitle]#! is Compromised!"
+    notification_manchurian_candidate_successful_desc:0 "[SCOPE.sCharacter('compromised_ruler_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('compromised_ruler_scope').GetFullName] has revealed [SCOPE.sCharacter('compromised_ruler_scope').GetHerselfHimself] to be compromised by [SCOPE.sCountry('ruler_controller_country_scope').GetAdjective] agents and is willing to [Concept('concept_enactment_of_laws','$concept_enactment_of_laws_enact$')] whatever [Concept('concept_law','$concept_laws$')] [SCOPE.sCountry('ruler_controller_country_scope').GetName] wishes."
+    
+    create_personal_union.tt:0 "[ROOT.GetCountry.GetName] enters into a [concept_personal_union] with [SCOPE.sCountry('marriage_country').GetName]"

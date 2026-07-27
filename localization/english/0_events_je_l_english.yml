@@ -1504,6 +1504,8 @@
     HUN_1956_revolution.d:0 "The Hungarian Revolution of 1956 was an attempted countrywide revolution against the government of the Hungarian People's Republic (1949–1989) and the policies caused by the government's subordination to the Soviet Union (USSR). The uprising lasted 12 days before being crushed by Soviet tanks and troops on 4 November 1956."
     HUN_2010_revolution.t:0 "The Rise of Viktor Orbán?"
     HUN_2010_revolution.d:0 "Viktor Mihály Orbán is a Hungarian lawyer and politician who has been Prime Minister of Hungary since 2010. Since 2010, Orbán has undermined democracy, weakened judicial independence, and curtailed press freedom in Hungary. During Orbán's second premiership, several controversial constitutional and legislative reforms were made, including the 2013 amendments to the Constitution of Hungary."
+    HUN_2026_revolution.t:0 "The Fall of Viktor Orbán?"
+    HUN_2026_revolution.d:0 "Orbán lost the 2026 parliamentary election, which saw record turnout, to Péter Magyar's Tisza Party in a landslide. Orbán subsequently announced that he would both remain as leader of Fidesz and refused to take his seat in the new parliament, which subsequently adopted a constitutional amendment barring Orbán from returning to the prime ministry by imposing a two-term limit on the position."
     
     CZH_1968_revolution.t:0 "The Prague Spring?"
     CZH_1968_revolution.d:0 "The Prague Spring was a period of political liberalization and mass protest in the Czechoslovak Socialist Republic. It began on 5 January 1968, when reformist Alexander Dubček was elected First Secretary of the Communist Party of Czechoslovakia (KSČ), and continued until 21 August 1968, when the Soviet Union and most Warsaw Pact members invaded the country to suppress the reforms."
@@ -2953,6 +2955,26 @@
     
     notification_espionage_terror_attack_name: "$espionage_terror_attack_target.t$"
     notification_espionage_terror_attack_desc: "$espionage_terror_attack_target.d$"
+    
+    notification_domestic_terror_attack_name: "Terror Attack in [SCOPE.sState('terror_attack_state').GetName]"
+    notification_domestic_terror_attack_desc: "[concept_character_role_terrorist] [SCOPE.sCharacter('terror_attack_leader').GetFullName] orchestrated a terror attack in #y [SCOPE.sState('terror_attack_state').GetCityHubName]#! ([SCOPE.sState('terror_attack_state').GetName]) to further the cause of the [SCOPE.sCharacter('terror_attack_leader').GetPoliticalMovement.GetName]."
+    
+    notification_international_terror_attack_name: "Terror Attack in [SCOPE.sState('terror_attack_state').GetName]"
+    notification_international_terror_attack_desc: "International [concept_character_role_terrorist] [SCOPE.sCharacter('terror_attack_leader').GetFullName] orchestrated a terror attack in #y [SCOPE.sState('terror_attack_state').GetCityHubName]#! ([SCOPE.sState('terror_attack_state').GetName]) to further the cause of the [SCOPE.sCharacter('terror_attack_leader').GetPoliticalMovement.GetName] and to fight against [ROOT.GetCountry.GetAdjective] aggression."
+    
+    notification_terror_attack_foiled_name: "Terror Plot in [SCOPE.sState('terror_attack_state').GetName] Foiled"
+    notification_terror_attack_foiled_desc: "The [ROOT.GetCountry.GetAdjective] Security Services foiled a [concept_character_role_terrorist] plot to attack #y [SCOPE.sState('terror_attack_state').GetCityHubName]#! ([SCOPE.sState('terror_attack_state').GetName])."
+    
+    notification_capture_terrorist_failed_name: "Failed Attempt to Capture or Kill [SCOPE.sCharacter('assassinated_scope').GetFullName]"
+    notification_capture_terrorist_failed_desc: "Our Security Services' attempt to capture or kill [SCOPE.sCharacter('assassinated_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('assassinated_scope').GetFullName] has failed."
+    notification_capture_terrorist_failed_tooltip: "#header $notification_capture_terrorist_failed_name$#!\n$TOOLTIP_DELIMITER$\n$notification_capture_terrorist_failed_desc$"
+    capture_terrorist_failed_tt: "Our #bold Capture or Kill attempt#! will fail"
+    
+    notification_capture_terrorist_successful_name: "Captured [SCOPE.sCharacter('assassinated_scope').GetFullName]"
+    notification_capture_terrorist_successful_desc: "Our Security Services were successful in capturing [SCOPE.sCharacter('assassinated_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('assassinated_scope').GetFullName]. [SCOPE.sCharacter('assassinated_scope').GetSheHe] has been sentenced to #y 10 years#! in prison."
+    capture_terrorist_successful_tt: "[SCOPE.sCharacter('assassinated_scope').GetFullName] will be captured and imprisoned for #y 10 years#!"
+    
+    kill_terrorist_successful_tt: "[SCOPE.sCharacter('assassinated_scope').GetFullName] will killed in a battle with our Security Services"
     
     espionage_cyber_attack_target.t:0 "Cyber Attack by [SCOPE.sCountry('suspected_espionage_attacker').GetAdjective] Spies"
     espionage_cyber_attack_target.d:0 "The [SCOPE.GetRootScope.GetCountry.GetCustom('secret_police_custom_title')] reports that [SCOPE.sCountry('suspected_espionage_attacker').GetAdjective] hackers have conducted a cyber attack on the [SCOPE.sCountry('espionage_victim').GetAdjective] $building_communications_network$."
@@ -4942,8 +4964,9 @@
     
     arrange_accident:0 "Arrange Assassination"
     
-    je_troubling_events_system:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('troubling_event_name')]"
-    je_troubling_events_system_reason:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('troubling_event_desc')]"
+    je_troubling_events_system:0 "[ROOT.GetCountry.GetAdjectiveNoFormatting] Terrorist Groups"
+    je_troubling_events_system_reason:0 "$generic_insurgency_custom_desc$ \n\n[Concept('character_role_terrorist','$character_role_terrorists$')] will regularly conduct #y Terror Attacks#! in [ROOT.GetCountry.GetName]. \n\nForeign [Concept('concept_country', '$concept_countries$')] using the #y $conduct_hostile_espionage$#! [concept_diplomatic_pact] against [ROOT.GetCountry.GetName] may also use these [Concept('character_role_terrorist','$character_role_terrorists$')] to attack [ROOT.GetCountry.GetAdjectiveNoFormatting] cities, industries and infrastructure. \n\n@information! An [concept_agitator] will become a terrorist whenever his or her [concept_loyalty] is below #y 25%#!."
+    je_troubling_events_system_status:0 "Terror Attack Chance: [GetPlayer.MakeScope.Var('terror_attack_chance').GetValue]%"
     
     the_troubles_custom_name:0 "The Troubles"
     the_troubles_custom_desc:0 "The Troubles were an ethno-nationalist conflict in Northern Ireland that lasted for about 30 years from the late 1960s to 1998. A key issue was the status of Northern Ireland. Unionists and loyalists, who for historical reasons were mostly Ulster Protestants, wanted Northern Ireland to remain within the United Kingdom. Irish nationalists and republicans, who were mostly Irish Catholics, wanted Northern Ireland to leave the United Kingdom and join a united Ireland. Although the Troubles mostly took place in Northern Ireland, at times violence spilled over into parts of the Republic of Ireland, England, and mainland Europe."
@@ -4958,9 +4981,22 @@
     communist_insurgency_custom_name:0 "The [ROOT.GetCountry.GetAdjectiveNoFlag] Communist Insurgency"
     communist_insurgency_custom_desc:0 "The [ROOT.GetCountry.GetAdjectiveNoFlag] Communist Party has declared war on the [concept_government] with the objective of overthrowing it and establishing a Socialist Republic."
     generic_insurgency_custom_name:0 "The [ROOT.GetCountry.GetAdjectiveNoFlag] Insurgency"
-    generic_insurgency_custom_desc:0 "Radical elements in the [ROOT.GetCountry.GetAdjective] society have made it their mission overthrow the [concept_government] by force."
+    generic_insurgency_custom_desc:0 "Radical elements in [ROOT.GetCountry.GetAdjective] society have made it their mission overthrow the [concept_government] by force."
     theocratic_insurgency_custom_name:0 "The War on Terror"
     theocratic_insurgency_custom_desc:0 "The War on Terror is a military campaign to suppress religious extremists in [ROOT.GetCountry.GetName]. These extremists seek to overthrow the [concept_government] and establish a Theocratic State."
+    
+    character_role_terrorist:0 "[concept_character_role_terrorist]"
+    character_role_terrorist_title:0 "[concept_character_role_terrorist]"
+    
+    character_role_terrorists:0 "Terrorists"
+    
+    concept_character_role_terrorist:0 "Terrorist"
+    concept_character_role_terrorist_desc:0 "This [concept_character] who uses unlawful violence, fear, and intimidation to achieve political, religious, or ideological goals. \n\n@information! An [concept_agitator] will become a terrorist whenever his or her [concept_loyalty] is below #y 25%#!."
+    
+    terrorist_character_label.tt:0 "Terrorist: [SCOPE.sCharacter('terrorist_character').GetFullName] ([SCOPE.sCharacter('terrorist_character').GetPoliticalMovement.GetName])"
+    international_terrorist_character.tt:0 "International Terrorist: [SCOPE.sCharacter('international_terrorist_character').GetFullName] ([SCOPE.sCharacter('international_terrorist_character').GetCountry.GetName])"
+    
+    no_terrorists_in_country.tt:0 "There are no longer any [concept_character_role_terrorist] [Concept('concept_character', '$concept_characters$')] in [ROOT.GetCountry.GetName]"
     
     historical_domestic_unrest.option.1:0 "We shall follow history!"
     historical_domestic_unrest.option.2:0 "We will take a different path..."
@@ -7009,3 +7045,37 @@
     
     acquitted_of_investigation.tt:0 "No evidence of wrongdoing by [SCOPE.sCharacter('investigated_character_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('investigated_character_scope').GetFullName] is found"
     charged_of_investigation.tt:0 "Investigation finds that [SCOPE.sCharacter('investigated_character_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('investigated_character_scope').GetFullName] has committed a crime"
+    
+    je_limited_war:0 "Limited War"
+    je_limited_war_reason:0 "A foreign [concept_country] is waging a [concept_limited_war] against [ROOT.GetCountry.GetName] which allows the foreign country to conduct [Concept('concept_naval_hostilities','$concept_naval_air_hostilities$')] against [ROOT.GetCountry.GetName]. \n\nIf [ROOT.GetCountry.GetName] capitulates in the [concept_limited_war], a #y $dominate_politics$#! [concept_diplomatic_pact] will imposed on [ROOT.GetCountry.GetName]. \n\nAlternatively, [ROOT.GetCountry.GetName] can escalate the [concept_limited_war] into a full scale [concept_war]."
+    has_limited_war.tt:0 "No [concept_country] is waging a [concept_limited_war] against [ROOT.GetCountry.GetName]"
+    
+    concept_naval_air_hostilities:0 "Naval & Air Hostilities"
+    
+    je_limited_war_system_capitulate_button:0 "Capitulate"
+    je_limited_war_system_capitulate_button_desc:0 "[ROOT.GetCountry.GetName] will surrender to all countries which are currently waging a [concept_limited_war] against it. This wil enforce the #y Create $dominate_politics$#! [concept_diplomatic_pact] [concept_war_goal] against [ROOT.GetCountry.GetName]"
+    
+    je_limited_war_system_escalate_button:0 "Escalate Conflict"
+    je_limited_war_system_escalate_button_desc:0 "[ROOT.GetCountry.GetName] will declare a full scale [concept_war] against all countries which are currently waging a [concept_limited_war] against it."
+    
+    manchurian_candidate:0 "Foreign Connections"
+    manchurian_candidate_label.tt:0 "Foreign Asset: [SCOPE.sCharacter('manchurian_candidate_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('manchurian_candidate_scope').GetFullName] ([SCOPE.sCharacter('manchurian_candidate_scope').GetCountry.GetName])"
+    
+    wedding.1.t:0 "The Royal Wedding"
+    wedding.1.d:0 "The nation celebrates the marital union of [SCOPE.sCharacter('royal_marriage_character').GetHerHis] Most Gracious Majesty [SCOPE.sCharacter('royal_marriage_character').GetPrimaryRoleTitle] [SCOPE.sCharacter('royal_marriage_character').GetFirstName] and the charming [SCOPE.sCharacter('foreign_ruler').GetPrimaryRoleTitle] [SCOPE.sCharacter('foreign_ruler').GetFirstName] of [SCOPE.sCountry('marriage_country').GetName]."
+    wedding.1.f:1 ""Today the most august ceremony of the marriage of [SCOPE.sCharacter('royal_marriage_character').GetHerHis] Most Gracious Majesty [SCOPE.sCharacter('royal_marriage_character').GetPrimaryRoleTitle] [SCOPE.sCharacter('royal_marriage_character').GetFirstNameNoFormatting] was performed in [SCOPE.sState('capital_scope').GetCityHubName]. It is not to be wondered that these circumstances should make the people of this country, who are naturally and intrinsically a loyal people, suspend their ordinary avocations to join in keeping holiday, and publicly to demonstrate their attachment to the Throne.""
+    wedding.1.a:0 "Invite only those of the highest social standing."
+    wedding.1.b:0 "A grand public wedding will placate the masses."
+    
+    wedding.2.t: "The Royal Spouse"
+    wedding.2.d: "[SCOPE.sCharacter('royal_marriage_character').GetPrimaryRoleTitle] [SCOPE.sCharacter('royal_marriage_character').GetFullName] seeks a match with a partner of suitably distinguished birth."
+    wedding.2.f: ""Mother, why can't I marry the [SCOPE.sCharacter('royal_marriage_character').GetPrimaryRoleTitle]? Why does [SCOPE.sCharacter('royal_marriage_character').GetSheHe] have to marry some foreign toff?"\n\n"We're commoners, dear. It simply wouldn't do for the high and mighty to stoop to our level.""
+    wedding.2.a: "Marry [SCOPE.sCharacter('foreign_ruler_1').GetPrimaryRoleTitle] [SCOPE.sCharacter('foreign_ruler_1').GetFullName] of [SCOPE.sCountry('marriage_country_1').GetName]."
+    wedding.2.b: "Marry [SCOPE.sCharacter('foreign_ruler_2').GetPrimaryRoleTitle] [SCOPE.sCharacter('foreign_ruler_2').GetFullName] of [SCOPE.sCountry('marriage_country_2').GetName]."
+    wedding.2.c: "Marry [SCOPE.sCharacter('foreign_ruler_3').GetPrimaryRoleTitle] [SCOPE.sCharacter('foreign_ruler_3').GetFullName] of [SCOPE.sCountry('marriage_country_3').GetName]."
+    
+    is_not_married.tt: "[concept_character] is not already married"
+    character_shares_same_religion_PU.tt: "Has the [SCOPE.sCharacter('actor_monarch_scope').GetReligion.GetName] [concept_religion]"
+    arrange_royal_wedding.tt: "Marry the #y Monarchs#! of [SCOPE.sCountry('actor').GetName] and [SCOPE.sCountry('target_country').GetName]"
+   
+    is_a_royal_character.tt:0 "Is a #y Royal#! [concept_character]"

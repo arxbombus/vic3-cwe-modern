@@ -1,0 +1,60 @@
+namespace = terrorist_system
+
+#Won a War
+terrorist_system.1 = {
+    type = country_event
+
+	hidden = yes
+	
+	trigger = {											# What triggers the event, if using other events or journal entries leave empty
+		
+		#Faithless Agitator exists to become a terrorist
+		any_scope_character = {
+			has_role_of_type = agitator
+			NOR = {
+				has_role_of_type = general
+				has_role_of_type = admiral
+				has_role = character_role_terrorist
+			}
+			is_a_special_agitator = no
+			OR = { 
+				character_is_peaceful = no
+				culture = { NOT = { is_primary_culture_of = scope:target_country } }
+				AND = {
+					interest_group ?= { is_interest_group_type = ig_devout }
+					NOT = { religion = owner.religion }
+				}
+			}
+			loyalty < define:NCharacters|LOYALTY_UNCERTAIN_THRESHOLD
+		}
+		
+    }
+	
+	immediate = {
+		
+		#Generate terrorist
+		every_scope_character = {
+			limit = {
+				has_role_of_type = agitator
+				NOR = {
+					has_role_of_type = general
+					has_role_of_type = admiral
+					has_role = character_role_terrorist
+				}
+				is_a_special_agitator = no
+				OR = { 
+					character_is_peaceful = no
+					culture = { NOT = { is_primary_culture_of = scope:target_country } }
+					AND = {
+						interest_group ?= { is_interest_group_type = ig_devout }
+						NOT = { religion = owner.religion }
+					}
+				}
+				loyalty < define:NCharacters|LOYALTY_UNCERTAIN_THRESHOLD
+			}
+			add_character_role = character_role_terrorist
+		}
+		
+	}
+
+}
