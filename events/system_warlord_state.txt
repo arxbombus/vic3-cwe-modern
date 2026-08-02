@@ -1,0 +1,170 @@
+namespace = warlord_state_system
+
+# Initialise Warlord State
+warlord_state_system.1 = {
+    type = country_event
+
+    title = warlord_state_start.t 									# Title of the event; ADD LOCALISATION
+    desc = warlord_state_start.d 									# Description of the event; ADD LOCALISATION
+    flavor = warlord_state_start.f 								# Flavor for event; ADD LOCALISATION, IF REQUIRED
+
+    event_image = { texture = "europenorthamerica_before_the_battle" }
+
+    icon = "gfx/interface/icons/invention_icons/anarchy.dds" 		# Icon that shows on the map or the outliner
+    on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear" 	# Sound effect if needed
+
+    duration = 1 # Duration to fire if triggers are met
+	
+	trigger = {														# What triggers the event, if using other events or journal entries leave empty
+		
+		num_states >= 2
+		
+    }
+	
+	immediate = {
+	
+		#Mark target
+		every_scope_character = {
+			limit = {
+				character_has_legal_immunity = no
+				OR = {
+					character_is_key_state_officeholder = yes
+					is_a_guerrilla_character = yes
+					AND = { 
+						has_role_of_type = general
+						commander_rank >= 4
+					}
+				}
+				loyalty < define:NCharacters|LOYALTY_UNCERTAIN_THRESHOLD
+			}
+			save_scope_as = warlord_character
+			interest_group ?= { save_scope_as = warlord_character_IG }
+			owner ?= {
+				random_scope_state = {
+					limit = { 
+						is_capital = no
+						is_incorporated = yes
+						ig_state_pol_strength_share = {
+							target = scope:warlord_character_IG
+							value >= 0.10
+						}
+					}
+					save_scope_as = warlord_state
+					set_variable = { name = warlord_state days = 1 }
+					owner ?= {
+						create_dynamic_country = {
+							origin = ROOT
+							country_type = unrecognized
+							tier = city_state
+							capital = scope:warlord_state
+							cede_state_trigger = {
+								has_variable = warlord_state
+							}
+							on_created = {
+								every_scope_state = {
+									remove_variable = warlord_state
+								}
+								set_variable = dynamic_decolonisation_country
+								set_variable = { name = new_warlord_state days = 1 }
+								
+								#Set regime
+								activate_law = law_type:law_no_voting
+								activate_law = law_type:law_parties_not_allowed
+								activate_law = law_type:law_appointed_legislature
+								activate_law = law_type:law_kangaroo_law
+								activate_law = law_type:law_politicised_judiciary
+								activate_law = law_type:law_nepotistic_cabinet
+								activate_law = law_type:law_politicised_bureaucrats
+								activate_law = law_type:law_no_term_limit
+								activate_law = law_type:law_politicised_armed_forces
+							}
+						}
+						random_country = {
+							limit = { has_variable = new_warlord_state }
+							save_scope_as = new_warlord_state
+							remove_variable = new_warlord_state
+							ROOT = {
+								create_diplomatic_pact = {
+									country = scope:new_warlord_state
+									type = warlord_state
+								}
+							}
+							ROOT = { scope:warlord_character ?= { transfer_character = scope:new_warlord_state } }
+							scope:warlord_character ?= { set_character_as_ruler = yes }
+							ROOT = {
+								every_scope_state = {
+									limit = {
+										is_capital = no
+										is_incorporated = yes
+										ig_state_pol_strength_share = {
+											target = scope:warlord_character_IG
+											value >= 0.10
+										}
+										any_neighbouring_state = { owner = scope:new_warlord_state }
+									}
+									set_state_owner = scope:new_warlord_state
+								}
+								every_scope_state = {
+									limit = {
+										is_capital = no
+										is_incorporated = yes
+										ig_state_pol_strength_share = {
+											target = scope:warlord_character_IG
+											value >= 0.15
+										}
+										any_neighbouring_state = { owner = scope:new_warlord_state }
+									}
+									set_state_owner = scope:new_warlord_state
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+	}
+    
+    option = {
+        name = warlord_state_start.option.1						# Start war
+		
+		#Wage war
+		every_country = {
+			limit = {
+				is_direct_subject_of = ROOT
+				is_warlord_state = yes
+			}
+			save_scope_as = THIS_scope
+			create_diplomatic_play = {
+                type = dp_annex_war_historical
+                target_country = ROOT
+
+                add_war_goal = {
+                    holder = ROOT
+                    type = annex_country
+                    target_country = scope:THIS_scope
+                }
+            }
+		}
+		
+		ai_chance = { 
+			base = 90 
+		}
+    }
+	
+	option = {
+        name = warlord_state_start.option.2						# Leave it first
+		
+		#National humiliation
+		add_modifier = { 
+			name = national_humiliation 
+			years = 5
+			is_decaying = yes 
+		}
+		
+		ai_chance = { 
+			base = 10 
+		}
+    }
+
+}

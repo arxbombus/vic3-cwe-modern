@@ -9,8 +9,8 @@ conduct_limited_war = {
 		scope:target_country = { NOT = { is_country_type = decentralized } }
 		
 		#Not a civil war country
-		#is_revolutionary = no is_secessionist = no
-		#scope:target_country = { is_revolutionary = no is_secessionist = no }
+		#is_revolutionary = no is_secessionist = no is_warlord_state = no
+		#scope:target_country = { is_revolutionary = no is_secessionist = no is_warlord_state = no }
 		
 		#Not already in a limited war
 		scope:target_country = { NOT = { has_diplomatic_pact = { who = scope:actor type = conduct_limited_war } } }
@@ -52,7 +52,8 @@ conduct_limited_war = {
 		is_embargo = yes		
 		is_two_sided_pact = no
 		
-		relations_progress_per_day = -10 # At -100, -10 relations
+		relations_progress_per_day = -5 # At -100, -1 relations
+		relations_improvement_min = -100
 		
 		first_modifier = {
 			country_infamy_generation_mult = 0.10
@@ -76,10 +77,10 @@ conduct_limited_war = {
 				can_go_to_war = yes
 				
 				#THIS has bad relations with TARGET
-				custom_tooltip = {
-					text = DIPLO_ACTION_RELATIONS_POOR_OR_LESS
-					#scope:target_country.relations:root <= relations_threshold:poor
-				}
+				#custom_tooltip = {
+				#	text = DIPLO_ACTION_RELATIONS_POOR_OR_LESS
+				#	scope:target_country.relations:root <= relations_threshold:poor
+				#}
 				
 				#THIS is not at war with TARGET
 				NOT = { has_war_with = scope:target_country }
@@ -143,7 +144,7 @@ conduct_limited_war = {
 		}
 		
 		#TARGET loses relations with THIS
-		change_relations = { 
+		set_relations = {
 			country = scope:target_country 
 			value = -100 
 		}
@@ -180,11 +181,32 @@ conduct_limited_war = {
 		}
 		
 		will_propose = {
-			always = no
+			
+			#Bad relations and THIS has stronger navy than TARGET
+			scope:target_country.relations:root <= relations_threshold:hostile
+			scope:actor.naval_power_projection > scope:target_country.naval_power_projection
+			scope:actor.army_power_projection > scope:target_country.army_power_projection
+			any_scope_diplomatic_pact = {
+				OR = {
+					is_diplomatic_action_type = sanction_country
+					is_diplomatic_action_type = embargo
+					is_diplomatic_action_type = rivalry
+					is_diplomatic_action_type = support_separatism
+				}
+				first_country = scope:target_country 
+			}
+			
 		}
 		
 		will_break = {
-			always = no
+		
+			#Military of THIS is weaker than TARGET
+			NOR = {
+				scope:actor.naval_power_projection > scope:target_country.naval_power_projection
+				scope:actor.army_power_projection > scope:target_country.army_power_projection
+				scope:target_country.relations:root <= relations_threshold:cordial
+			}
+			
 		}
 		
 	}

@@ -1047,8 +1047,8 @@
     american_japan.indy.d:0 "The Treaty of San Francisco re-established peaceful relations between Japan and the Allied Powers on behalf of the United Nations by ending the legal state of war and providing for redress for hostile actions up to and including World War II. The 1951 treaty, along with the Security Treaty signed that same day, marks the beginning of the San Francisco System, which defines Japan's relationship with the United States and its role in the international arena."
     american_japan.indy_2.t:0 "The U.S.-Japan Security Treaty?"
     american_japan.indy_2.d:0 "The 1960 treaty significantly revised the U.S.-Japan security agreement in the direction of greater mutuality between the two nations. The original 1951 treaty had contained a provision permitting the United States to use forces based in Japan throughout East Asia without prior consultation with Japan, made no explicit promise to defend Japan if Japan were attacked, and even contained a clause allowing U.S. troops to intervene in Japanese domestic disputes. These portions were altered in the revised version of the treaty in 1960. The amended treaty included articles delineating mutual defense obligations and requiring the US, before mobilising its forces, to inform Japan in advance. It also removed the article permitting U.S. interference in Japanese domestic affairs."
-    american_germany_japan.indy.t:0 "The Plaza Accord?"
-    american_germany_japan.indy.d:0 "The Plaza Accord was a joint agreement signed on September 22, 1985, at the Plaza Hotel in New York City, between France, West Germany, Japan, the United Kingdom, and the United States, to depreciate the U.S. dollar in relation to the French franc, the German Deutsche Mark, the Japanese yen and the British pound sterling by intervening in currency markets."
+    plaza_accords_USA.t:0 "The Plaza Accord?"
+    plaza_accords_USA.d:0 "The Plaza Accord was a joint agreement signed on September 22, 1985, at the Plaza Hotel in New York City, between France, West Germany, Japan, the United Kingdom, and the United States, to depreciate the U.S. dollar in relation to the French franc, the German Deutsche Mark, the Japanese yen and the British pound sterling by intervening in currency markets."
     american_micronesia.indy.t:0 "Independence of Micronesia?"
     american_micronesia.indy.d:0 "$generic_independence_decolonisation_loc_desc$"
     american_iraq.indy.t:0 "Withdrawal from Iraq?"
@@ -1905,7 +1905,7 @@
     BOL_1985_revolution.d:0 "General elections were held in Bolivia on 14 July 1985. As no candidate for the presidency received over 50% of the vote, the National Congress was required to elect a President on 4 August. Although Hugo Banzer of Nationalist Democratic Action (ADN) received the most public votes, Congress elected Víctor Paz Estenssoro of the Revolutionary Nationalist Movement (MNR)."
     
     CLM_1953_revolution.t:0 "Colombian coup d'état?"
-    CLM_1953_revolution.d:0 "Rojas Pinilla gained prominence as a colonel during La Violencia, the period of civil strife in Colombia during the late 1940s and early 1950s that saw infighting between the ruling Conservatives and Liberal guerillas, and was named to the cabinet of Conservative President Mariano Ospina Pérez. In 1953, he mounted a successful coup d'état against Ospina's successor as president, the extreme right-wing Laureano Gómez Castro, imposing martial law. Seeking to reduce political violence, he ruled the country as a military dictatorship, allying himself with trade unionists, implementing infrastructure programs, and extending female suffrage."
+    CLM_1953_revolution.d:0 "Rojas Pinilla gained prominence as a colonel during La Violencia, the period of civil strife in Colombia during the late 1940s and early 1950s that saw infighting between the ruling Conservatives and Liberal guerrillas, and was named to the cabinet of Conservative President Mariano Ospina Pérez. In 1953, he mounted a successful coup d'état against Ospina's successor as president, the extreme right-wing Laureano Gómez Castro, imposing martial law. Seeking to reduce political violence, he ruled the country as a military dictatorship, allying himself with trade unionists, implementing infrastructure programs, and extending female suffrage."
     CLM_1958_revolution.t:0 "Restoration of democracy?"
     CLM_1958_revolution.d:0 "After Rojas' deposition, the Colombian Conservative Party and the Colombian Liberal Party agreed to create the National Front, a coalition that would jointly govern the country. Under the deal, the presidency would alternate between conservatives and liberals every 4 years for 16 years; the two parties would have parity in all other elective offices. The National Front ended the 'La Violencia', and National Front administrations attempted to institute far-reaching social and economic reforms in cooperation with the Alliance for Progress."
     
@@ -3857,8 +3857,15 @@
     withdraw_sovereign_fund_minimum.tt:0 "The minimum injection amount limit is at least @money!#yellow 10000#!"
     
     je_cabinet:0 "The [ROOT.GetCountry.GetRuler.GetLastName] [SCOPE.GetRootScope.GetCountry.GetCustom('cabinet_name_custom_title')]"
-    je_cabinet_reason:0 "$RULING_PARTY_IDEOLOGY_cabinet_JE$ \n\nThe [SCOPE.GetRootScope.GetCountry.GetCustom('cabinet_name_custom_title')] is a body of advisers to a head of state who also serve as the heads of government departments. Its members are appointed by the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]. \n\n[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName] may invite any [concept_government] [concept_interest_group] to join the [SCOPE.GetRootScope.GetCountry.GetCustom('cabinet_name_custom_title')] by giving its leader a Cabinet Position using Character Interactions. Every [concept_government] [concept_interest_group] which has a $cabinet_minister_ig$ will then form part of the [SCOPE.GetRootScope.GetCountry.GetCustom('cabinet_name_custom_title')]. \n\n#BOLD Cabinet Unity:#! #BOLD [SCOPE.GetRootScope.GetCountry.GetCustom('cabinet_unity_level_custom_title')] ([GetPlayer.MakeScope.Var('cabinet_unity_var').GetValue]%)#! \n\nCabinet Unity is calculated by dividing 100 by the number of [concept_government] [Concept('concept_interest_group', '$concept_interest_groups$')] ([GetPlayer.MakeScope.Var('cabinet_unity_divisor_var').GetValue]) who do not have at least #BOLD 0#! [concept_approval]. $HOG_cabinet$ \n\n#BOLD [Concept('concept_interest_group', '$concept_interest_groups$')] in the Cabinet:#! $ig_armed_forces_minister$ $ig_intelligentsia_minister$ $ig_rural_folk_minister$ $ig_landowners_minister$ $ig_trade_unions_minister$ $ig_petty_bourgeoisie_minister$ $ig_industrialists_minister$ \n\n#BOLD Head of the Civil Service:#! [SCOPE.gsInterestGroup('ig_intelligentsia_cabinet_scope').GetLeader.GetFullName] \n\n#BOLD Chief of the Armed Forces:#! [SCOPE.gsInterestGroup('ig_armed_forces_cabinet_scope').GetLeader.GetFullName]"
-    je_cabinet_status:0 "Cabinet Unity: [GetPlayer.MakeScope.Var('cabinet_unity_var').GetValue]%"
+    je_cabinet_reason:0 "$RULING_PARTY_IDEOLOGY_cabinet_JE$ \n\nThe [SCOPE.GetRootScope.GetCountry.GetCustom('cabinet_name_custom_title')] is a body of advisers to a head of state who also serve as the heads of government departments. Its members are appointed by the [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]. \n\n[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName] may invite any [concept_government] [concept_interest_group] to join the [SCOPE.GetRootScope.GetCountry.GetCustom('cabinet_name_custom_title')] by giving its leader a Cabinet Position using Character Interactions. Every [concept_government] [concept_interest_group] which has a $cabinet_minister_ig$ will then form part of the [SCOPE.GetRootScope.GetCountry.GetCustom('cabinet_name_custom_title')]. \n\n#BOLD Cabinet Unity:#! #BOLD [SCOPE.GetRootScope.GetCountry.GetCustom('cabinet_unity_level_custom_title')] ([GetPlayer.MakeScope.Var('cabinet_unity_var').GetValue]%)#! \n\n@information! Cabinet Unity is calculated by dividing the sum of the [concept_character] [concept_loyalty] of all [Concept('concept_character', '$concept_characters$')] who have an [concept_official_character] position by the total number of such [Concept('concept_character', '$concept_characters$')] in the country."
+    je_cabinet_status:0 "[concept_cabinet_unity]: [GetPlayer.MakeScope.Var('cabinet_unity_var').GetValue]% \n[concept_cabinet_incompetence]: [GetPlayer.MakeScope.Var('cabinet_incompetence_var').GetValue]%"
+    
+    concept_cabinet_unity:0 "Cabinet Unity"
+    concept_cabinet_unity_desc:0 "Cabinet Unity is the average level of [concept_loyalty] of all [Concept('concept_character', '$concept_characters$')] who hold either a cabinet position or key state official role."
+    
+    concept_cabinet_incompetence:0 "Cabinet Incompetence"
+    concept_cabinet_incompetence_desc:0 "Cabinet Incompetence is increased by any [concept_character] in the cabinet or in a key state official role who has either of the following [Concept('concept_character_trait','$concept_character_traits$')]: \n\n• $alcoholic$ \n• $opium_addiction$ \n• $cocaine_addiction$ \n• $grifter$ \n• $senile$ \n• $reckless$ \n• $bandit$ \n• $political_appointee$ \n• $inept$ \n• $inexperienced$ \n• $social_bandit$"
+    
     je_issue_executive_order_button:0 "Issue an Executive Order"
     je_issue_executive_order_button_desc:0 "An Executive Order will allow us to bypass the need to have a majority in the [SCOPE.GetRootScope.GetCountry.GetCustom('upper_house_name')] and increase [concept_legitimacy]."
     
@@ -3883,7 +3890,9 @@
     grant_ministership_to_politician:0 "Give Cabinet Position"
     remove_ministership_from_politician:0 "Remove Cabinet Position"
     
-    HOG_cabinet:0 "\n\n#BOLD Head of Government:#! [SCOPE.GetRootScope.GetCountry.GetCustom('government_ruler_custom_title')] [ROOT.GetCountry.GetRuler.GetFullName] ([ROOT.GetCountry.GetRuler.GetInterestGroup.GetName])"
+    HOG_cabinet:0 "\n\n#y Head of Government:#! [SCOPE.GetRootScope.GetCountry.GetCustom('government_ruler_custom_title')] [ROOT.GetCountry.GetRuler.GetFullName] ([ROOT.GetCountry.GetRuler.GetInterestGroup.GetName])"
+    
+    cabinet_character_label.tt:0 "#y [SCOPE.sCharacter('cabinet_character').GetPrimaryRoleTitle]:#! [SCOPE.sCharacter('cabinet_character').GetFullName] - [concept_loyalty]: [SCOPE.sCharacter('cabinet_character').GetLoyalty]%"
     
     ig_armed_forces_minister:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ig_armed_forces_minister_custom_title')]"
     ig_intelligentsia_minister:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('ig_intelligentsia_minister_custom_title')]"
@@ -3930,6 +3939,7 @@
     royal_decree_issued:0 "Royal Decree Issued"
     state_of_emergency_issued:0 "State of Emergency"
     power_vacuum_modifier:0 "Power Vacuum"
+    cabinet_incompetence_modifier:0 "Cabinet Incompetence"
     
     character_role_cabinet_minister:0 "[Concept('concept_official_character','$cabinet_minister$')]"
     character_role_cabinet_minister_title:0 "[Concept('concept_official_character','$cabinet_minister$')]"
@@ -4965,7 +4975,7 @@
     arrange_accident:0 "Arrange Assassination"
     
     je_troubling_events_system:0 "[ROOT.GetCountry.GetAdjectiveNoFormatting] Terrorist Groups"
-    je_troubling_events_system_reason:0 "$generic_insurgency_custom_desc$ \n\n[Concept('character_role_terrorist','$character_role_terrorists$')] will regularly conduct #y Terror Attacks#! in [ROOT.GetCountry.GetName]. \n\nForeign [Concept('concept_country', '$concept_countries$')] using the #y $conduct_hostile_espionage$#! [concept_diplomatic_pact] against [ROOT.GetCountry.GetName] may also use these [Concept('character_role_terrorist','$character_role_terrorists$')] to attack [ROOT.GetCountry.GetAdjectiveNoFormatting] cities, industries and infrastructure. \n\n@information! An [concept_agitator] will become a terrorist whenever his or her [concept_loyalty] is below #y 25%#!."
+    je_troubling_events_system_reason:0 "$generic_insurgency_custom_desc$ \n\n[Concept('character_role_terrorist','$character_role_terrorists$')] will regularly conduct #y Terror Attacks#! in [ROOT.GetCountry.GetName]. \n\nA [concept_character_role_terrorist] may become a #y Guerrilla#! if the [concept_character]'s [concept_interest_group]'s [concept_clout] is more than #y 10%#!. \n\n@information! An [concept_agitator] will become a terrorist whenever his or her [concept_loyalty] is below #y 25%#!."
     je_troubling_events_system_status:0 "Terror Attack Chance: [GetPlayer.MakeScope.Var('terror_attack_chance').GetValue]%"
     
     the_troubles_custom_name:0 "The Troubles"
@@ -5214,6 +5224,8 @@
     JAP_protest_1955.d:0 "The Sunagawa Struggle was a protest movement in Japan, starting in 1955 and continuing until 1957, against the expansion of the U.S. Air Force's Tachikawa Air Base into the nearby village of Sunagawa. Taking place at the peak of a growing anti-base movement, "Bloody Sunagawa" is remembered as the most intense and violent of many protests against U.S. military bases in Japan."
     PRC_ethnic_unity_law_2026.t:0 "The Law on Promoting Ethnic Unity and Progress?"
     PRC_ethnic_unity_law_2026.d:0 "The Law on Promoting Ethnic Unity and Progress is a legislation in China concerning ethnic minorities. The law was introduced by the National People's Congress's Ethnic Affairs Committee and submitted to the NPC on 8 September 2025. It was adopted by the NPC on 12 March 2026 and signed by President Xi Jinping on the same day. It came into effect on 1 July 2026.  The law codifies Xi Jinping's policy regarding ethnic affairs and promotes further ethnic integration under the leadership of the Chinese Communist Party. The law has been criticized by scholars and human rights activists outside of China and its promotion of extraterritorial enforcement has been likened to transnational repression."
+    SVM_buddhist_crisis_1963.t:0 "The Buddhist Crisis"
+    SVM_buddhist_crisis_1963.d:0 "The Buddhist crisis was a period of political and religious tension in South Vietnam between May and November 1963, characterised by a series of repressive acts by the South Vietnamese government and a campaign of civil resistance, led mainly by Buddhist activists. The crisis was precipitated by the shootings of nine unarmed civilians on May 8 in the central city of Huế who were protesting against a ban of the Buddhist flag."
     
     GER_post_war_deportations.t:0 "The Post War Expulsion of Germans?"
     GER_post_war_deportations.d:0 "The Second World War ended in Europe with Germany's defeat in May 1945. The Allies settled on the terms of occupation, the territorial truncation of Germany, and the expulsion of ethnic Germans from post-war Poland, Czechoslovakia and Hungary to the Allied Occupation Zones in the Potsdam Agreement. After Potsdam, a series of expulsions of ethnic Germans occurred throughout the Soviet-controlled Eastern European countries. Property and materiel in the affected territory that had belonged to Germany or to Germans was confiscated; it was either transferred to the Soviet Union, nationalised, or redistributed among the citizens."
@@ -5472,6 +5484,8 @@
     viceroy_monarchy_type_desc:0 "\n\nAs the [concept_monarch_character] resides in a different country, the [concept_monarch_character] is represented in [ROOT.GetCountry.GetName] by the [SCOPE.GetRootScope.GetCountry.GetCustom('viceroy_custom_title')] of [ROOT.GetCountry.GetNameNoFormatting]."
     
     regent_character:0 "Regent"
+    
+    monarch_elective_character_label.tt:0 "[SCOPE.sCharacter('monarch_elective_character_label').GetPrimaryRoleTitle]: [SCOPE.sCharacter('monarch_elective_character_label').GetFullName]"
     
     character_role_monarch_elective:0 "[concept_royal_character]"
     character_role_monarch_elective_title:0 "[concept_royal_character]"
@@ -6359,6 +6373,7 @@
     treaty_name_US_UK_chagos_island: "Diego Garcia Naval Base Agrement"
     treaty_name_US_FORMER_SUBJECT_security_agreement: "[FIRST_COUNTRY.GetAdjectiveNoFormatting]-[SECOND_COUNTRY.GetAdjectiveNoFormatting] Mutual Defense Treaty"
     treaty_name_US_JAP_security_agreement: "Security Treaty between the United States and Japan"
+    treaty_name_plaza_accord: "[FIRST_COUNTRY.GetAdjectiveNoFormatting]-[SECOND_COUNTRY.GetAdjectiveNoFormatting] Plaza Accord"
     
     economic_boom: "Economic Reconstruction"
     
@@ -7079,3 +7094,35 @@
     arrange_royal_wedding.tt: "Marry the #y Monarchs#! of [SCOPE.sCountry('actor').GetName] and [SCOPE.sCountry('target_country').GetName]"
    
     is_a_royal_character.tt:0 "Is a #y Royal#! [concept_character]"
+    
+    terrorist_assassination.t:0 "[SCOPE.sCharacter('assassination_target').GetPrimaryRoleTitle] [SCOPE.sCharacter('assassination_target').GetFullName] Assassinated"
+    terrorist_assassination.d:0 "In a stunning turn of events, [SCOPE.sCharacter('terror_attack_leader').GetPrimaryRoleTitle] [SCOPE.sCharacter('terror_attack_leader').GetFullName] orchestrated a daring attack on [SCOPE.sCharacter('assassination_target').GetPrimaryRoleTitle] [SCOPE.sCharacter('assassination_target').GetFullName] which brutally killed the [SCOPE.sCharacter('assassination_target').GetPrimaryRoleTitle] in broad daylight. The [ROOT.GetCountry.GetAdjective] security services were however able to eliminate the assassin in the process. A state funeral was arranged to honour the fallen [SCOPE.sCharacter('assassination_target').GetPrimaryRoleTitle]."
+    terrorist_assassination.option:0 "Rest in peace."
+    
+    je_guerrilla_war_system:0 "The [ROOT.GetCountry.GetAdjectiveNoFormatting] Insurgency"
+    je_guerrilla_war_system_reason:0 "Certain [Concept('character_role_terrorist','$character_role_terrorists$')] in [ROOT.GetCountry.GetName] have amassed a sufficiently large following to form a guerrilla group with the intention of inflicting widespread damage and devastation to the country's cities, towns and infrastructure. \n\n@information! [Concept('character_role_terrorist','$character_role_terrorists$')] with an [concept_interest_group] with more than #y 10%#! [concept_clout] will become a #y Guerrilla#!. \n\nGuerrillas will regularly conduct #y Guerrilla Attacks#! in [ROOT.GetCountry.GetName]. \n\nForeign [Concept('concept_country', '$concept_countries$')] using the #y $conduct_hostile_espionage$#! [concept_diplomatic_pact] against [ROOT.GetCountry.GetName] may also use these [Concept('character_role_terrorist','$character_role_terrorists$')] to attack [ROOT.GetCountry.GetAdjectiveNoFormatting] cities, industries and infrastructure."
+    
+    guerrilla_character_label.tt:0 "Guerrilla: [SCOPE.sCharacter('guerrilla_character').GetFullName] ([SCOPE.sCharacter('guerrilla_character').GetPoliticalMovement.GetName])"
+    international_guerrilla_character.tt:0 "International Guerrilla: [SCOPE.sCharacter('international_guerrilla_character').GetFullName] ([SCOPE.sCharacter('international_guerrilla_character').GetCountry.GetName])"
+    
+    no_guerrillas_in_country.tt:0 "There are no longer any #y Guerrilla#! [Concept('concept_character', '$concept_characters$')] in [ROOT.GetCountry.GetName]"
+    
+    notification_domestic_guerrilla_attack_name: "Guerrilla Attack in [SCOPE.sState('guerrilla_attack_state').GetName]"
+    notification_domestic_guerrilla_attack_desc: "[concept_character_role_terrorist] [SCOPE.sCharacter('guerrilla_attack_leader').GetFullName] has led a guerrilla attack in #y [SCOPE.sState('guerrilla_attack_state').GetCityHubName]#! ([SCOPE.sState('guerrilla_attack_state').GetName]) to further the cause of the [SCOPE.sCharacter('guerrilla_attack_leader').GetPoliticalMovement.GetName]. This has caused some [concept_devastation] in the [concept_state]."
+    
+    notification_international_guerrilla_attack_name: "Guerrilla Attack in [SCOPE.sState('guerrilla_attack_state').GetName]"
+    notification_international_guerrilla_attack_desc: "International [concept_character_role_terrorist] [SCOPE.sCharacter('guerrilla_attack_leader').GetFullName] orchestrated a guerrilla attack in #y [SCOPE.sState('guerrilla_attack_state').GetCityHubName]#! ([SCOPE.sState('guerrilla_attack_state').GetName]) to further the cause of the [SCOPE.sCharacter('guerrilla_attack_leader').GetPoliticalMovement.GetName] and to fight against [ROOT.GetCountry.GetAdjective] aggression. This has caused some [concept_devastation] in the [concept_state]."
+    
+    notification_guerrilla_attack_foiled_name: "Guerrilla Attack in [SCOPE.sState('guerrilla_attack_state').GetName] Repulsed"
+    notification_guerrilla_attack_foiled_desc: "The [ROOT.GetCountry.GetAdjective] Armed Forces repulsed a guerrilla attack in #y [SCOPE.sState('guerrilla_attack_state').GetCityHubName]#! ([SCOPE.sState('guerrilla_attack_state').GetName])."
+    
+    character_role_guerrilla:0 "Guerrilla"
+    
+    warlord_state_start.t:0 "Rise of [ROOT.GetCountry.GetAdjectiveNoFormatting] Warlordism"
+    warlord_state_start.d:0 "Taking advantage of the weakness of the central government in [ROOT.GetCountry.GetCapital.GetCityHubName], various regional military commanders have seized control of their respective zones of command. While their administrations still nominally express loyalty to [ROOT.GetCountry.GetName], it is clear that they only seek to overthrow the existing internationally recognised government in [ROOT.GetCountry.GetCapital.GetCityHubName]."
+    warlord_state_start.f:0 "This event fired because the central government is weak and there are #r Disloyal#! [concept_general] or [concept_official_character] [Concept('concept_character', '$concept_characters$')]."
+    warlord_state_start.option.1:0 "We must re-unify the country!"
+    warlord_state_start.option.2:0 "It is what it is."
+    
+    je_organised_crime_system:0 "Organised Crime"
+    je_organised_crime_system_reason:0 "Whispers of shadowy figures and clandestine dealings spread through the streets. What began as petty racketeering has evolved into a sprawling network of smuggling, extortion, and underground markets. The state must decide: suppress these criminal enterprises with iron resolve, or quietly profit from their influence. \n\n@information! Organised crime appears whenever [ROOT.GetCountry.GetName] has weak [GetLawType('law_very_low_anti_corruption').GetGroup.GetName] or [GetLawType('law_lenient_policing').GetGroup.GetName] [Concept('concept_law','$concept_laws$')]. \n\n@warning! Organised crime allows the [concept_investment_pool] to build the following [Concept('concept_building','$concept_buildings$')] even though the country's [Concept('concept_law','$concept_laws$')] may prohibit doing so: \n\n• [GetBuildingType('building_opium_plantation').GetName] \n\n• [GetBuildingType('building_liquor_factory').GetName] \n\n• [GetBuildingType('building_vineyard').GetName] \n\n• [GetBuildingType('building_tobacco_plantation').GetName]."

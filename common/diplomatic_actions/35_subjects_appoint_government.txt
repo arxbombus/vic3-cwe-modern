@@ -8,11 +8,12 @@
 	texture = "gfx/interface/icons/diplomatic_action_icons/da_appoint_subject_ruler.dds"
 	confirmation_sound = "event:/SFX/UI/MapInteraction/SubjectInteractions/diplomatic_action_subjects_04_appoint_governor_benign"
 	selectable = {
-		is_revolutionary = no is_secessionist = no
+		is_revolutionary = no is_secessionist = no is_warlord_state = no
 	}
 	
 	potential = {
 		scope:target_country = {
+			is_warlord_state = no
 			NOT = { has_variable = gubernatorial_candidate }
 			NOT = { is_diplomatic_play_enemy_of = root }
 			NOT = { ruler_is_governor_general = yes }

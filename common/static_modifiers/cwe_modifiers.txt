@@ -1263,6 +1263,13 @@ cabinet_opposes_law = {
 	country_law_enactment_stall_mult = 0.05
 }
 
+cabinet_incompetence_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	state_tax_waste_add = 1.0
+	country_influence_mult = -1.0
+	country_bureaucracy_mult = -1.0
+}
+
 ### Law Enactment System ###
 
 ruler_opposes_law = {
@@ -1554,6 +1561,11 @@ paramilitary_groups_system = {
 paramilitary_reform_cost_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
 	state_tax_waste_add = 0.02
+}
+
+intimidated_character_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	character_loyalty_add = 100
 }
 
 ### Non Aligned Movement ###
