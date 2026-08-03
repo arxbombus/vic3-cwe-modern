@@ -1,0 +1,126 @@
+NEconomy = {
+	PRICE_RANGE = 0.8								# min price of a good is base * (1 - PRICE_RANGE), Max price is base * (1 + PRICE_RANGE), PRICE_RANGE is locked to [0-1]
+	COUNTRY_GDP_MODIFIER_MAX_MULTIPLIER = 750000		# The country_gdp modifier multiplier cannot be higher than this
+}
+
+### ================================================================
+### CUSTOM POPULATION GROWTH — NORMAL VERSION
+### Unique helper prefix: hc_pg_normal
+### ================================================================
+
+### Base monthly values
+
+@hc_pg_normal_min_birthrate = 0.00080
+@hc_pg_normal_max_birthrate = 0.00500
+
+@hc_pg_normal_min_mortality = 0.00045
+@hc_pg_normal_max_mortality = 0.00550
+
+
+### SoL thresholds
+
+@hc_pg_normal_equilibrium_sol = 5
+@hc_pg_normal_transition_sol = 10
+@hc_pg_normal_growth_max_sol = 15
+@hc_pg_normal_stable_sol = 30
+
+
+### Curve shaping
+
+@hc_pg_normal_transition_birthrate_mult = 1.00
+@hc_pg_normal_max_growth_mortality_mult = 0.34
+
+
+### ================================================================
+### Derived birthrate values
+### ================================================================
+
+### Birthrate at the end of the pre-transition segment
+@hc_pg_normal_birthrate_at_transition = @[hc_pg_normal_max_birthrate*hc_pg_normal_transition_birthrate_mult]
+
+### Birthrate slope from SoL 0 to transition SoL
+@hc_pg_normal_birthrate_pretransition_slope = @[(hc_pg_normal_birthrate_at_transition-hc_pg_normal_max_birthrate)/hc_pg_normal_transition_sol]
+
+### Rate where birthrate and mortality meet
+@hc_pg_normal_rate_at_equilibrium = @[hc_pg_normal_equilibrium_sol*hc_pg_normal_birthrate_pretransition_slope+hc_pg_normal_max_birthrate]
+
+### Birthrate at the mortality growth-max turning point
+@hc_pg_normal_birthrate_at_growth_max = @[(hc_pg_normal_growth_max_sol-hc_pg_normal_transition_sol)*((hc_pg_normal_min_birthrate-hc_pg_normal_birthrate_at_transition)/(hc_pg_normal_stable_sol-hc_pg_normal_transition_sol))+hc_pg_normal_birthrate_at_transition]
+
+### Birthrate slope from transition SoL to stable SoL
+@hc_pg_normal_birthrate_transition_slope = @[(hc_pg_normal_min_birthrate-hc_pg_normal_birthrate_at_transition)/(hc_pg_normal_stable_sol-hc_pg_normal_transition_sol)]
+
+### Birthrate intercept from transition SoL to stable SoL
+@hc_pg_normal_birthrate_transition_intercept = @[-hc_pg_normal_birthrate_transition_slope*hc_pg_normal_stable_sol+hc_pg_normal_min_birthrate]
+
+
+### ================================================================
+### Derived mortality values
+### ================================================================
+
+### Mortality slope from SoL 0 to equilibrium SoL
+@hc_pg_normal_mortality_starving_slope = @[(hc_pg_normal_rate_at_equilibrium-hc_pg_normal_max_mortality)/hc_pg_normal_equilibrium_sol]
+
+### Mortality at the growth-max turning point
+@hc_pg_normal_mortality_at_growth_max = @[hc_pg_normal_birthrate_at_growth_max*hc_pg_normal_max_growth_mortality_mult]
+
+### Mortality slope from equilibrium SoL to growth-max SoL
+@hc_pg_normal_mortality_equilibrium_to_growth_max_slope = @[(hc_pg_normal_mortality_at_growth_max-hc_pg_normal_rate_at_equilibrium)/(hc_pg_normal_growth_max_sol-hc_pg_normal_equilibrium_sol)]
+
+### Mortality intercept from equilibrium SoL to growth-max SoL
+@hc_pg_normal_mortality_equilibrium_to_growth_max_intercept = @[-hc_pg_normal_mortality_equilibrium_to_growth_max_slope*hc_pg_normal_equilibrium_sol+hc_pg_normal_rate_at_equilibrium]
+
+### Mortality slope from growth-max SoL to stable SoL
+@hc_pg_normal_mortality_growth_max_to_stable_slope = @[(hc_pg_normal_min_mortality-hc_pg_normal_mortality_at_growth_max)/(hc_pg_normal_stable_sol-hc_pg_normal_growth_max_sol)]
+
+### Mortality intercept from growth-max SoL to stable SoL
+@hc_pg_normal_mortality_growth_max_to_stable_intercept = @[-hc_pg_normal_mortality_growth_max_to_stable_slope*hc_pg_normal_stable_sol+hc_pg_normal_min_mortality]
+
+
+### ================================================================
+### Engine-facing population defines
+### ================================================================
+
+NPops = {
+
+	### Birthrate curve
+
+	POP_GROWTH_BIRTHRATE_PRETRANSITION_SLOPE = @hc_pg_normal_birthrate_pretransition_slope
+	POP_GROWTH_BIRTHRATE_TRANSITION_SLOPE = @hc_pg_normal_birthrate_transition_slope
+	POP_GROWTH_BIRTHRATE_TRANSITION_INTERCEPT = @hc_pg_normal_birthrate_transition_intercept
+
+
+	### Mortality curve
+
+	POP_GROWTH_MORTALITY_STARVING_SLOPE = @hc_pg_normal_mortality_starving_slope
+
+	POP_GROWTH_MORTALITY_EQUILIBRIUM_TO_GROWTH_MAX_SLOPE = @hc_pg_normal_mortality_equilibrium_to_growth_max_slope
+	POP_GROWTH_MORTALITY_EQUILIBRIUM_TO_GROWTH_MAX_INTERCEPT = @hc_pg_normal_mortality_equilibrium_to_growth_max_intercept
+
+	POP_GROWTH_MORTALITY_GROWTH_MAX_TO_STABLE_SLOPE = @hc_pg_normal_mortality_growth_max_to_stable_slope
+	POP_GROWTH_MORTALITY_GROWTH_MAX_TO_STABLE_INTERCEPT = @hc_pg_normal_mortality_growth_max_to_stable_intercept
+
+
+	### Base monthly values
+
+	POP_GROWTH_MIN_BIRTHRATE = @hc_pg_normal_min_birthrate
+	POP_GROWTH_MAX_BIRTHRATE = @hc_pg_normal_max_birthrate
+
+	POP_GROWTH_MIN_MORTALITY = @hc_pg_normal_min_mortality
+	POP_GROWTH_MAX_MORTALITY = @hc_pg_normal_max_mortality
+
+
+	### SoL thresholds
+
+	POP_GROWTH_EQUILIBRIUM_SOL = @hc_pg_normal_equilibrium_sol
+	POP_GROWTH_TRANSITION_SOL = @hc_pg_normal_transition_sol
+	POP_GROWTH_MAX_SOL = @hc_pg_normal_growth_max_sol
+	POP_GROWTH_STABLE_SOL = @hc_pg_normal_stable_sol
+
+
+	HIGH_POP_THRESHOLD = 2000000					# If a state has more than this amount of pops per arable land, apply the high pop modifier
+}
+
+### ================================================================
+### END CUSTOM POPULATION GROWTH — NORMAL VERSION
+### ================================================================
