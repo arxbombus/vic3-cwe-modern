@@ -10,7 +10,7 @@ NEconomy = {
 
 ### Base monthly values
 
-@hc_pg_normal_min_birthrate = 0.00080
+@hc_pg_normal_min_birthrate = 0.00070
 @hc_pg_normal_max_birthrate = 0.00500
 
 @hc_pg_normal_min_mortality = 0.00045
@@ -28,7 +28,7 @@ NEconomy = {
 ### Curve shaping
 
 @hc_pg_normal_transition_birthrate_mult = 1.00
-@hc_pg_normal_max_growth_mortality_mult = 0.34
+@hc_pg_normal_max_growth_mortality_mult = 0.35
 
 
 ### ================================================================

@@ -261,15 +261,36 @@ popneed_free_movement = {
 	entry = {
 		goods = transportation
 		
-		weight = 1
+		weight = 3
 		max_supply_share = 0.75
 		min_supply_share = 0
 	}
 	entry = {
 		goods = automobiles
 		
-		weight = 1
+		weight = 2
 		max_supply_share = 1.0
+		min_supply_share = 0
+	}
+	entry = {
+		goods = locomotives
+		
+		weight = 0.5
+		max_supply_share = 0.25
+		min_supply_share = 0
+	}
+	entry = {
+		goods = steamers
+		
+		weight = 0.5
+		max_supply_share = 0.5
+		min_supply_share = 0
+	}
+	entry = {
+		goods = aeroplanes
+		
+		weight = 0.75
+		max_supply_share = 0.25
 		min_supply_share = 0
 	}
 	
@@ -360,7 +381,7 @@ popneed_luxury_items = {
 	entry = {
 		goods = professional_services
 		
-		weight = 2
+		weight = 2.5
 		max_supply_share = 0.25
 		min_supply_share = 0
 	}
@@ -406,7 +427,54 @@ popneed_luxury_items = {
 		max_supply_share = 0.05
 		min_supply_share = 0.0
 	}
-	
+	entry = {
+		goods = software
+		weight = 2
+		max_supply_share = 0.25
+		min_supply_share = 0.0
+	}
+	entry = {
+		goods = computers
+		weight = 2
+		max_supply_share = 0.25
+		min_supply_share = 0.0
+	}
+	entry = {
+		goods = ammunition
+		weight = 0.1
+		max_supply_share = 0.05
+		min_supply_share = 0.0
+	}
+	entry = {
+		goods = small_arms
+		weight = 0.1
+		max_supply_share = 0.05
+		min_supply_share = 0.0
+	}
+	entry = {
+		goods = artillery
+		weight = 0.1
+		max_supply_share = 0.05
+		min_supply_share = 0.0
+	}
+	entry = {
+		goods = tanks
+		weight = 0.1
+		max_supply_share = 0.05
+		min_supply_share = 0.0
+	}
+	entry = {
+		goods = warplanes
+		weight = 0.1
+		max_supply_share = 0.05
+		min_supply_share = 0.0
+	}
+	entry = {
+		goods = advanced_weaponry
+		weight = 0.1
+		max_supply_share = 0.05
+		min_supply_share = 0.0
+	}
 }
 
 popneed_leisure = {
@@ -475,7 +543,7 @@ popneed_leisure = {
 	entry = {
 		goods = computers
 		
-		weight = 2
+		weight = 2.5
 		max_supply_share = 0.25
 		min_supply_share = 0.0
 	}
