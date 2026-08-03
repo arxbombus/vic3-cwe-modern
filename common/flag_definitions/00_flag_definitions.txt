@@ -1598,9 +1598,9 @@ CHI = { # China
 		priority = 20
 		trigger = {
 			coa_def_dictatorship_flag_trigger = yes
-			scope:actor = {
-				NOT = { exists = c:ROC }
-			}
+			# scope:actor = {
+			# 	NOT = { exists = c:ROC }
+			# }
 		}
 	}	
 	flag_definition = {
@@ -1616,9 +1616,9 @@ CHI = { # China
 		priority = 1500
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
-			scope:actor = {
-				NOT = { exists = c:PRC }
-			}
+			# scope:actor = {
+			# 	NOT = { exists = c:PRC }
+			# }
 		}
 	}		
 }
@@ -1667,9 +1667,9 @@ PRC = { # China
 		priority = 20
 		trigger = {
 			coa_def_dictatorship_flag_trigger = yes
-			scope:actor = {
-				NOT = { exists = c:ROC }
-			}
+			# scope:actor = {
+			# 	NOT = { exists = c:ROC }
+			# }
 		}
 	}
 	flag_definition = {
@@ -1678,9 +1678,9 @@ PRC = { # China
 		priority = 20
 		trigger = {
 			coa_def_dictatorship_flag_trigger = yes
-			scope:actor = {
-				exists = c:ROC
-			}
+			# scope:actor = {
+			# 	exists = c:ROC
+			# }
 		}
 	}
 	flag_definition = {
@@ -1759,9 +1759,9 @@ ROC = { # China
 		priority = 1500
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
-			scope:actor = {
-				NOT = { exists = c:PRC }
-			}
+			# scope:actor = {
+			# 	NOT = { exists = c:PRC }
+			# }
 		}
 	}		
 }
