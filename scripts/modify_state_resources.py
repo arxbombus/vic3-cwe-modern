@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Multiply Victoria 3 state-region resource amounts while preserving all comments,
-commented-out content, whitespace, BOMs, line endings, and unrelated text.
+Multiply Victoria 3 state-region resource and arable-land amounts while preserving
+all comments, commented-out content, whitespace, BOMs, line endings, and unrelated
+text.
 
 The script supports both capped resources and discovery resources:
 
@@ -28,9 +29,12 @@ Examples:
         scripts/base_state_regions \
         -o map_data/state_regions \
         --resource all=1.5 \
-        --resource oil=3
+        --resource oil=3 \
+        --arable-land 2
 
-Specific resource rules override an ``all`` rule. By default, directory mode:
+Specific resource rules override an ``all`` rule. ``--arable-land`` independently
+multiplies every active ``arable_land = ...`` value and may be used by itself or
+alongside resource rules. By default, directory mode:
 
 1. Copies every input file to the output directory.
 2. Modifies every ``*_replace.txt`` file.
@@ -62,6 +66,10 @@ CAPPED_ENTRY_RE = re.compile(
 )
 AMOUNT_ENTRY_RE = re.compile(
     rf"^(?P<indent>\s*)(?P<kind>discovered_amount|undiscovered_amount)"
+    rf"(?P<separator>\s*=\s*)(?P<value>{NUMBER_PATTERN})(?P<suffix>.*)$"
+)
+ARABLE_LAND_RE = re.compile(
+    rf"^(?P<indent>\s*)(?P<kind>arable_land)"
     rf"(?P<separator>\s*=\s*)(?P<value>{NUMBER_PATTERN})(?P<suffix>.*)$"
 )
 TYPE_RE = re.compile(
@@ -184,9 +192,6 @@ def parse_resource_rule(raw: str) -> tuple[str, Decimal]:
 
 
 def build_rules(raw_rules: list[str]) -> ResourceRules:
-    if not raw_rules:
-        raise SystemExit("At least one --resource RESOURCE=FACTOR rule is required")
-
     all_factor: Decimal | None = None
     building_factors: dict[str, Decimal] = {}
     building_sources: dict[str, str] = {}
@@ -351,6 +356,7 @@ def process_text(
     text: str,
     *,
     rules: ResourceRules,
+    arable_land_factor: Decimal | None,
     include_capped: bool,
     include_discovered: bool,
     include_undiscovered: bool,
@@ -361,6 +367,25 @@ def process_text(
     blocks = find_blocks(lines)
     changes = 0
     stats: dict[str, ChangeStats] = defaultdict(ChangeStats)
+
+    if arable_land_factor is not None:
+        for index, line in enumerate(lines):
+            body, _ending = split_line_ending(line)
+            code, _comment = split_code_comment(body)
+            match = ARABLE_LAND_RE.match(code)
+            if match is None:
+                continue
+            old = Decimal(match.group("value"))
+            new = scaled_value(
+                old,
+                arable_land_factor,
+                rounding=rounding,
+                minimum_positive=minimum_positive,
+            )
+            stats["arable_land"].record(old, new)
+            if new != old:
+                lines[index] = replace_numeric_line(lines[index], match, new)
+                changes += 1
 
     for block_name, start, end in blocks:
         if block_name == "capped_resources":
@@ -477,6 +502,7 @@ def process_file(
     destination: Path,
     *,
     rules: ResourceRules,
+    arable_land_factor: Decimal | None,
     include_capped: bool,
     include_discovered: bool,
     include_undiscovered: bool,
@@ -487,6 +513,7 @@ def process_file(
     output, changes, stats = process_text(
         text,
         rules=rules,
+        arable_land_factor=arable_land_factor,
         include_capped=include_capped,
         include_discovered=include_discovered,
         include_undiscovered=include_undiscovered,
@@ -511,7 +538,8 @@ def merge_stats(
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
-            "Multiply capped, discovered, and undiscovered state-region resource amounts."
+            "Multiply capped, discovered, and undiscovered state-region resource "
+            "amounts and/or arable_land."
         )
     )
     parser.add_argument(
@@ -536,6 +564,15 @@ def parse_args() -> argparse.Namespace:
         help=(
             "Resource multiplier. Repeatable. Examples: iron=2, gold=3, "
             "building_oil_rig=4, all=1.5. Specific rules override all=..."
+        ),
+    )
+    parser.add_argument(
+        "--arable-land",
+        type=lambda raw: parse_decimal(raw, label="arable-land multiplier"),
+        metavar="FACTOR",
+        help=(
+            "Multiply every active arable_land value by FACTOR. May be used without "
+            "--resource. Example: --arable-land 2"
         ),
     )
     parser.add_argument(
@@ -599,8 +636,20 @@ def main() -> None:
     if args.minimum_positive < 0:
         raise SystemExit("--minimum-positive cannot be negative")
 
-    if args.exclude_capped and args.exclude_discovered and args.exclude_undiscovered:
+    if (
+        args.exclude_capped
+        and args.exclude_discovered
+        and args.exclude_undiscovered
+        and args.arable_land is None
+    ):
         raise SystemExit("All resource amount categories are excluded; nothing can be changed")
+
+    if args.arable_land is not None and args.arable_land < 0:
+        raise SystemExit("--arable-land multiplier cannot be negative")
+    if not args.resource and args.arable_land is None:
+        raise SystemExit(
+            "Provide at least one --resource RESOURCE=FACTOR rule or --arable-land FACTOR"
+        )
 
     rules = build_rules(args.resource)
     destination = (args.output or default_output(source)).resolve()
@@ -619,6 +668,7 @@ def main() -> None:
             _output, changes, stats = process_text(
                 text,
                 rules=rules,
+                arable_land_factor=args.arable_land,
                 include_capped=not args.exclude_capped,
                 include_discovered=not args.exclude_discovered,
                 include_undiscovered=not args.exclude_undiscovered,
@@ -635,6 +685,7 @@ def main() -> None:
                 source,
                 destination,
                 rules=rules,
+                arable_land_factor=args.arable_land,
                 include_capped=not args.exclude_capped,
                 include_discovered=not args.exclude_discovered,
                 include_undiscovered=not args.exclude_undiscovered,
@@ -669,6 +720,7 @@ def main() -> None:
                 _output, changes, stats = process_text(
                     text,
                     rules=rules,
+                    arable_land_factor=args.arable_land,
                     include_capped=not args.exclude_capped,
                     include_discovered=not args.exclude_discovered,
                     include_undiscovered=not args.exclude_undiscovered,
@@ -681,6 +733,7 @@ def main() -> None:
                     path,
                     out_path,
                     rules=rules,
+                    arable_land_factor=args.arable_land,
                     include_capped=not args.exclude_capped,
                     include_discovered=not args.exclude_discovered,
                     include_undiscovered=not args.exclude_undiscovered,
@@ -705,6 +758,8 @@ def main() -> None:
     print(f"Files with changes: {changed_files}")
     print(f"Numeric entries changed: {total_changes}")
     print("Resource rules:")
+    if args.arable_land is not None:
+        print(f"  arable_land: {args.arable_land}x")
     if rules.all_factor is not None:
         print(f"  all: {rules.all_factor}x")
     for building, factor in sorted(rules.building_factors.items()):
