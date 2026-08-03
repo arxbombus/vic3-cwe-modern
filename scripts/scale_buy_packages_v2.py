@@ -50,6 +50,11 @@ Examples:
         --no-global-scale \
         --need-multiplier popneed_luxury_items=1.50@20 \
         --need-curve popneed_leisure=1.30,30,20
+
+    uv run python scripts/scale_buy_packages_v2.py scripts/base_buy_packages.txt -o ../common/buy_packages/00_buy_packages.txt --start-wealth 15 --interval 20 --multiplier 1.5 --need-multiplier popneed_luxury_items=1.85@15
+
+    WINDOWS
+    uv run python 'scripts\scale_buy_packages_v2.py' 'scripts\base_buy_packages.txt' -o 'common\buy_packages\00_buy_packages.txt' --start-wealth 15 --interval 20 --multiplier 1.6 --need-multiplier popneed_luxury_items=2@15 --need-multiplier popneed_services=2@15
 """
 
 from __future__ import annotations
