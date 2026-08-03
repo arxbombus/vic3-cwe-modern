@@ -73,7 +73,7 @@ ROC = { #Exiled China
 	
 	tier = kingdom
 	
-	cultures = { chinese han yue min miao hakka zhuang yi manchu } 
+	cultures = { chinese han yue min miao hakka zhuang yi manchu taiwanese aurelian } 
 	capital = STATE_BEIJING
 }
 
@@ -84,7 +84,7 @@ TAI = { # Taiwan
 	
 	tier = principality
 	
-	cultures = { taiwanese }
+	cultures = { taiwanese aurelian }
 	capital = STATE_FORMOSA
 }
 

@@ -32,7 +32,9 @@ STATES = {
 		create_state = {
 			country = c:SKO
 			owned_provinces = { 
-				x34B782 x8ACAAA xA48A8B xAE0221 xB0D000 xB0D080 xBC0C5A xC81C12 xD42CA8 xF09080 xF91D98
+				x34B782 x8ACAAA xA48A8B xAE0221 xB0D000 
+				# xB0D080 
+				xBC0C5A xC81C12 xD42CA8 xF09080 xF91D98
 			}
 		}
 		
@@ -86,11 +88,11 @@ STATES = {
 			country = c:JAP
 			owned_provinces = { xEF9040 x478599 xF011C0 xB94331 x7010C0 x709040 xEAE893 x787CC4 x7090C0 xD350FB }
 		}
-		create_state = {
-			country = c:USA
-			state_type = unincorporated
-			owned_provinces = { x800111 }
-		}
+		# create_state = {
+		# 	country = c:USA
+		# 	state_type = unincorporated
+		# 	owned_provinces = { x800111 }
+		# }
 		
 		add_claim = c:JAP add_homeland = cu:japanese
 	}
@@ -138,7 +140,9 @@ STATES = {
 		create_state = {
 			country = c:USA
 			state_type = unincorporated
-			owned_provinces = { xf0f061 xBB27F6 xf0d080 }
+			owned_provinces = { xf0f061 
+			# xBB27F6 
+			xf0d080 }
 		}
 		
 		add_claim = c:JAP add_homeland = cu:japanese
@@ -385,7 +389,9 @@ STATES = {
 	s:STATE_GUANGDONG = {
 		create_state = {
 			country = c:PRC
-			owned_provinces = {  x7131E0 xA9B6D4 x19FD82 xB0B061 x2BDE7B x9A21B1 xC77200 x4E581C x477755 xF0B061 x85E0D4 xFEBFD5 x260389 x62BF42 xCB457A x30B0E0 x156AC0 xA92B88 xDC137A x3131E0 x475968 x489AB0 x2C4C48 xF98B04 x8C9358 }
+			owned_provinces = {  x7131E0 xA9B6D4 x19FD82 xB0B061 x2BDE7B x9A21B1 xC77200 x4E581C x477755 xF0B061 x85E0D4 xFEBFD5 x260389 
+			# x62BF42 xCB457A x30B0E0 x156AC0 xA92B88 xDC137A 
+			x3131E0 x475968 x489AB0 x2C4C48 xF98B04 x8C9358 }
 		}
 		create_state = {
 			country = c:POR
@@ -494,14 +500,13 @@ STATES = {
 		add_claim = c:CHI add_homeland = cu:chinese add_homeland = cu:han
 	}
 	
-	s:STATE_FORMOSA = {
-		create_state = {
-			country = c:ROC
-			owned_provinces = { x44797F x9A5066 xE73B31 x6645CF x6DAB21 xAEA2D8 x7070E0 }
-		}
+	# s:STATE_FORMOSA = {
+	# 	create_state = {
+	# 		country = c:ROC
+	# 		owned_provinces = { x44797F x9A5066 xE73B31 x6645CF x6DAB21 xAEA2D8 x7070E0 }
+	# 	}
 		
-		add_claim = c:TAI add_homeland = cu:taiwanese
-		add_claim = c:CHI add_homeland = cu:chinese add_homeland = cu:han add_homeland = cu:min
-	}
-	
+	# 	add_claim = c:TAI add_homeland = cu:taiwanese
+	# 	add_claim = c:CHI add_homeland = cu:chinese add_homeland = cu:han add_homeland = cu:min
+	# }
 }

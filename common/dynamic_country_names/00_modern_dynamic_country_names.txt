@@ -1,0 +1,36 @@
+FRE = { # Federal Republic of Aurelia
+	dynamic_country_name = {
+		name = dyn_c_fre_monarchy
+		adjective = FRE_ADJ
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			scope:actor = {
+				has_law_or_variant = law_type:law_HOS_monarch
+				has_law_or_variant = law_type:law_HOS_religious_leader
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_fre_communist
+		adjective = FRE_ADJ
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			scope:actor = { 
+				has_law_or_variant = law_type:law_HOS_communist_leader
+			}
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_fre_democratic
+		adjective = FRE_ADJ
+		is_main_tag_only = yes
+		priority = 0
+		trigger = {
+			scope:actor = { 
+				has_law_or_variant = law_type:law_HOS_president
+			}
+		}
+	}
+}

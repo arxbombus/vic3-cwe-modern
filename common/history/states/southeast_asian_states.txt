@@ -18,7 +18,9 @@ STATES = {
 		create_state = {	#Christmas Island
 			country = c:GBR
 			state_type = unincorporated
-			owned_provinces = { x5C2239 x5C2250 }
+			owned_provinces = { x5C2239 
+			# x5C2250 
+			}
 		}
 		
 		add_claim = c:JAV add_homeland = cu:javan
@@ -40,7 +42,9 @@ STATES = {
 	s:STATE_NORTH_SUMATRA = {
 		create_state = {
 			country = c:IDO
-			owned_provinces = { x8A3E15 xD2D88C x257D2C x79A66E x85B004 x4E9BC1 x9D4BD1 xDC4677 xEAF2DC xA0CEED x9377DF xE0A0F0 x91B001 x01C030 xA1341F x7C7431 x339E85 xD3A66E x983FEB x01317D x3F7EA0 x677AA6 x87F7B6 x8171EA x48428B x6021D0 x5BE3D2 x8B7A14 x35213F x5157D3 xDA82F4 x7AC280 xAE71B4 xEC5DEA xA2F773 x6ED39E xE4C2D6 }
+			owned_provinces = { x8A3E15 xD2D88C x257D2C x79A66E x85B004 x4E9BC1 x9D4BD1 xDC4677 xEAF2DC xA0CEED x9377DF xE0A0F0 
+			# x91B001 x01C030 
+			xA1341F x7C7431 x339E85 xD3A66E x983FEB x01317D x3F7EA0 x677AA6 x87F7B6 x8171EA x48428B x6021D0 x5BE3D2 x8B7A14 x35213F x5157D3 xDA82F4 x7AC280 xAE71B4 xEC5DEA xA2F773 x6ED39E xE4C2D6 }
 		}
 		
 		add_claim = c:IDO add_homeland = cu:indonesian add_homeland = cu:sumatran add_homeland = cu:batak

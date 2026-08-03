@@ -1,0 +1,142 @@
+STATES = {
+	s:STATE_FORMOSA = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { x6DAB21 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_EAST_FORMOSA = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { x44797F }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_NORTH_CENTRAL_FORMOSA = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { x7070E0 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_WEST_FORMOSA = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { xAEA2D8 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_SOUTH_CENTRAL_FORMOSA = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { x6645CF }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_SOUTH_WEST_FORMOSA = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { xE73B31 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_SOUTH_FORMOSA = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { x9A5066 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_NORTH_HAINAN = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { xA92B88 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_NORTH_EAST_HAINAN = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { xCB457A }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_EAST_HAINAN = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { xDC137A }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_SOUTH_EAST_HAINAN = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { x30B0E0 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_NORTH_WEST_HAINAN = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { x156AC0 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_SOUTH_WEST_HAINAN = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { x62BF42 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_JEJU = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { xB0D080 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_ISHIGAKI_ISLAND = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { xBB27F6 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_OUTER_RIAU_ISLANDS = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { x01C030 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_GREATER_RIAU_ISLANDS = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { x91B001 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_BONIN_ISLANDS = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { x800111 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_COCOS_ISLANDS = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { x5C2250 }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+	s:STATE_SOUTH_GEORGIA_SOUTH_SANDWICH_ISLANDS = {
+		create_state = {
+			country = c:ROC
+			owned_provinces = { xB0BDDF xB5100C }
+		}
+		add_claim = c:TAI add_claim = c:FRE add_homeland = cu:taiwanese add_homeland = cu:aurelian
+	}
+}

@@ -3457,10 +3457,10 @@ historical_territorial_transfers.29 = {
 				c:PRC = { has_state_in_state_region = STATE_GUANGDONG }
 			}
 			s:STATE_GUANGDONG ?= {
-				set_owner_of_provinces = {
-					country = c:ROC
-					provinces = { xA92B88 xCB457A x156AC0 x62BF42 x156AC0 xDC137A x30B0E0 }
-				}
+				# set_owner_of_provinces = {
+				# 	country = c:ROC
+				# 	provinces = { xA92B88 xCB457A x156AC0 x62BF42 x156AC0 xDC137A x30B0E0 }
+				# }
 			}
 			c:PRC = { trigger_event = { id = historical_civil_wars.24 } }
 		}

@@ -1,0 +1,321 @@
+﻿STATE_FORMOSA = {
+    id = 510
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x6DAB21" }
+    city = "x6DAB21"
+    port = "x6DAB21"
+    farm = "x6DAB21"
+    mine = "x6DAB21"
+    wood = "x6DAB21"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3058
+}
+STATE_EAST_FORMOSA = {
+    id = 1500
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x44797F" }
+    city = "x44797F"
+    port = "x44797F"
+    farm = "x44797F"
+    mine = "x44797F"
+    wood = "x44797F"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3157
+}
+STATE_NORTH_CENTRAL_FORMOSA = {
+    id = 1501
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x7070E0" }
+    city = "x7070E0"
+    farm = "x7070E0"
+    mine = "x7070E0"
+    wood = "x7070E0"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3056
+}
+STATE_WEST_FORMOSA = {
+    id = 1502
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "xAEA2D8" }
+    city = "xAEA2D8"
+    port = "xAEA2D8"
+    farm = "xAEA2D8"
+    mine = "xAEA2D8"
+    wood = "xAEA2D8"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3056
+}
+STATE_SOUTH_CENTRAL_FORMOSA = {
+    id = 1503
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x6645CF" }
+    city = "x6645CF"
+    port = "x6645CF"
+    farm = "x6645CF"
+    mine = "x6645CF"
+    wood = "x6645CF"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3056
+}
+STATE_SOUTH_WEST_FORMOSA = {
+    id = 1504
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "xE73B31" }
+    city = "xE73B31"
+    port = "xE73B31"
+    farm = "xE73B31"
+    mine = "xE73B31"
+    wood = "xE73B31"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3056
+}
+STATE_SOUTH_FORMOSA = {
+    id = 1505
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x9A5066" }
+    city = "x9A5066"
+    port = "x9A5066"
+    farm = "x9A5066"
+    mine = "x9A5066"
+    wood = "x9A5066"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3056
+}
+STATE_NORTH_HAINAN = {
+    id = 1506
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "xA92B88" }
+    city = "xA92B88"
+    port = "xA92B88"
+    farm = "xA92B88"
+    mine = "xA92B88"
+    wood = "xA92B88"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3056
+}
+STATE_NORTH_EAST_HAINAN = {
+    id = 1507
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "xCB457A" }
+    city = "xCB457A"
+    port = "xCB457A"
+    farm = "xCB457A"
+    mine = "xCB457A"
+    wood = "xCB457A"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3056
+}
+STATE_EAST_HAINAN = {
+    id = 1508
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "xDC137A" }
+    city = "xDC137A"
+    port = "xDC137A"
+    farm = "xDC137A"
+    mine = "xDC137A"
+    wood = "xDC137A"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3056
+}
+STATE_SOUTH_EAST_HAINAN = {
+    id = 1509
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x30B0E0" }
+    city = "x30B0E0"
+    port = "x30B0E0"
+    farm = "x30B0E0"
+    mine = "x30B0E0"
+    wood = "x30B0E0"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3056
+}
+STATE_NORTH_WEST_HAINAN = {
+    id = 1510
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x156AC0" }
+    city = "x156AC0"
+    port = "x156AC0"
+    farm = "x156AC0"
+    mine = "x156AC0"
+    wood = "x156AC0"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3056
+}
+STATE_SOUTH_WEST_HAINAN = {
+    id = 1511
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x62BF42" }
+    city = "x62BF42"
+    port = "x62BF42"
+    farm = "x62BF42"
+    mine = "x62BF42"
+    wood = "x62BF42"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3056
+}
+STATE_JEJU = {
+    id = 1512
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "xB0D080" }
+    city = "xB0D080"
+    port = "xB0D080"
+    farm = "xB0D080"
+    mine = "xB0D080"
+    wood = "xB0D080"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3058
+}
+STATE_ISHIGAKI_ISLAND = {
+    id = 1513
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "xBB27F6" }
+    city = "xBB27F6"
+    port = "xBB27F6"
+    farm = "xBB27F6"
+    mine = "xBB27F6"
+    wood = "xBB27F6"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3058
+}
+STATE_OUTER_RIAU_ISLANDS = {
+ # Natuna, Siantan, Telaga, Letong
+    id = 1514
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x01C030" }
+    city = "x01C030"
+    port = "x01C030"
+    farm = "x01C030"
+    mine = "x01C030"
+    wood = "x01C030"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3072
+}
+STATE_GREATER_RIAU_ISLANDS = {
+ # Lingga, Batam, Bintan
+    id = 1515
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x91B001" }
+    city = "x91B001"
+    port = "x91B001"
+    farm = "x91B001"
+    mine = "x91B001"
+    wood = "x91B001"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3072
+}
+STATE_BONIN_ISLANDS = {
+    id = 1516
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x800111" }
+    city = "x800111"
+    port = "x800111"
+    farm = "x800111"
+    mine = "x800111"
+    wood = "x800111"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3157
+}
+STATE_COCOS_ISLANDS = {
+    id = 1517
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x5C2250" }
+    city = "x5C2250"
+    port = "x5C2250"
+    farm = "x5C2250"
+    mine = "x5C2250"
+    wood = "x5C2250"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3158
+}
+STATE_SOUTH_GEORGIA_SOUTH_SANDWICH_ISLANDS = {
+    id = 1518
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "xB0BDDF" "xB5100C" }
+    city = "xB5100C"
+    port = "xB0BDDF"
+    farm = "xB5100C"
+    mine = "xB5100C"
+    wood = "xB5100C"
+    arable_land = 100
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_tobacco_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_gold_mine = 1
+    }
+    naval_exit_id = 3066
+}

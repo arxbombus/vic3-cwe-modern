@@ -1,0 +1,11 @@
+FRE = { # Federal Republic of Aurelia
+	states = {
+		STATE_FORMOSA STATE_EAST_FORMOSA STATE_WEST_FORMOSA STATE_SOUTH_FORMOSA STATE_SOUTH_WEST_FORMOSA STATE_NORTH_CENTRAL_FORMOSA STATE_SOUTH_CENTRAL_FORMOSA
+	}
+	ai_will_do = {
+		always = no
+	}
+	possible = {
+		always = yes
+	}
+}

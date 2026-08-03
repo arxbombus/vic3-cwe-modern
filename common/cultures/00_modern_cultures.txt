@@ -1,0 +1,248 @@
+aurelian = {
+	color = rgb{ 110 172 154 }
+	religion = atheist
+	heritage = heritage_han
+	language = language_mandarin
+	traditions = { tradition_sinosphere }
+	obsessions = {
+		gold
+		consumer_robots
+		services
+		corporate_services
+		professional_services
+		financial_services
+		communication_services
+		media_services
+		software
+		recreational_services
+		computers
+		fine_art
+		pharmaceuticals
+		telecommunications
+	}
+	name_format = last_first
+	male_common_first_names = {
+		# Chinese — 36 / 60
+		An
+		Bo
+		Chao
+		Cheng
+		Dawei
+		Decheng
+		Guowei
+		Hao
+		Haoran
+		Hongwei
+		Jian
+		Jianguo
+		Jianhua
+		Jie
+		Jing
+		Jun
+		Junjie
+		Kang
+		Lei
+		Liang
+		Ming
+		Mingde
+		Peng
+		Qiang
+		Rui
+		Sheng
+		Tao
+		Tianyou
+		Wei
+		Wen
+		Wenhao
+		Xiang
+		Xin
+		Yong
+		Yuan
+		Zhen
+
+		# Korean / Jejuan — 9 / 60
+		Minjun
+		Jihoon
+		Hyunwoo
+		Seojun
+		Donghyun
+		Junseo
+		Taeyang
+		Sanghoon
+		Jisung
+
+		# Japanese / Ryukyuan — 9 / 60
+		Hiroshi
+		Takumi
+		Daichi
+		Masato
+		Eikichi
+		Seiei
+		Chosei
+		Kansei
+		Shosei
+
+		# Riau / Malay — 6 / 60
+		Ahmad
+		Iskandar
+		Zulkifli
+		Firdaus
+		Rahman
+		Sulaiman
+	}
+
+	female_common_first_names = {
+		# Chinese — 36 / 60
+		Ai
+		An
+		Baozhen
+		Caihong
+		Chun
+		Fang
+		Fen
+		Guiying
+		Huifang
+		Huiying
+		Jia
+		Jiahui
+		Jing
+		Jingyi
+		Juan
+		Lan
+		Lifen
+		Lihua
+		Lijuan
+		Ling
+		Mei
+		Meihua
+		Meiling
+		Min
+		Ning
+		Qian
+		Qing
+		Rong
+		Rui
+		Shufen
+		Ting
+		Wan
+		Xiaomei
+		Xinyi
+		Yumei
+		Yuting
+
+		# Korean / Jejuan — 9 / 60
+		Minji
+		Seoyeon
+		Eunji
+		Jiwon
+		Soojin
+		Yuna
+		Hyejin
+		Nari
+		Jisoo
+
+		# Japanese / Ryukyuan — 9 / 60
+		Yui
+		Aiko
+		Haruka
+		Nanami
+		Sakura
+		Chiyo
+		Kanae
+		Misaki
+		Ayame
+
+		# Riau / Malay — 6 / 60
+		Aisyah
+		Nuraini
+		Siti
+		Farah
+		Zainab
+		Melati
+	}
+
+	noble_last_names = {
+		# Chinese — 12 / 20
+		Kong
+		Song
+		Sun
+		Jiang
+		Zheng
+		Li
+		Wang
+		Zhang
+		Chen
+		Huang
+		Fu
+		Gu
+
+		# Korean / Jejuan — 3 / 20
+		Yi
+		Kim
+		Park
+
+		# Japanese / Ryukyuan — 3 / 20
+		Sho
+		Minamoto
+		Fujiwara
+
+		# Riau / Malay — 2 / 20
+		Raja
+		Daeng
+	}
+
+	common_last_names = {
+		# Chinese — 24 / 40
+		Chen
+		Lin
+		Huang
+		Zhang
+		Li
+		Wang
+		Wu
+		Liu
+		Cai
+		Yang
+		Xu
+		Zheng
+		Xie
+		Guo
+		Hong
+		Zeng
+		Qiu
+		Liao
+		Lai
+		Gao
+		Luo
+		Su
+		Deng
+		Xiao
+
+		# Korean / Jejuan — 6 / 40
+		Kim
+		Lee
+		Park
+		Choi
+		Jung
+		Kang
+
+		# Japanese / Ryukyuan — 6 / 40
+		Arakaki
+		Higa
+		Shimabukuro
+		Miyagi
+		Tamaki
+		Chinen
+
+		# Riau / Malay — 4 / 40
+		Rahman
+		Iskandar
+		Mahmud
+		Hamid
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+	seal_and_signature_texture = "gfx/interface/diplomatic_treaties/seal_and_signature_cultures/diplomatic_treaties_seal_and_signature_chinese.dds"
+}

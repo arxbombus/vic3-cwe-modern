@@ -51,6 +51,7 @@ COUNTRIES = {
 		#Extra prestige for winning WW2
 		#add_modifier = { name = ww2_victor months = 60 is_decaying = yes }
 
+		set_capital = STATE_FORMOSA
 	}
 	
 }

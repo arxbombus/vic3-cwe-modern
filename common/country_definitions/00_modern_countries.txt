@@ -1,0 +1,7 @@
+FRE = {
+	color = { 110 172 154 }
+	country_type = recognized
+	tier = hegemony
+	cultures = { chinese han yue min miao hakka zhuang yi manchu taiwanese aurelian ryukyuan japanese korean indonesian malay singaporean }
+	capital = STATE_FORMOSA
+}

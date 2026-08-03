@@ -636,18 +636,18 @@
 			}
 		}
 	}
-	s:STATE_FORMOSA = {
-		region_state:ROC = {
-			create_pop = {
-				culture = min
-				size = 4550500
-			}
-			create_pop = {
-				culture = manchu
-				size = 1745528
-			}
-		}
-	}
+	# s:STATE_FORMOSA = {
+	# 	region_state:ROC = {
+	# 		create_pop = {
+	# 			culture = min
+	# 			size = 4550500
+	# 		}
+	# 		create_pop = {
+	# 			culture = manchu
+	# 			size = 1745528
+	# 		}
+	# 	}
+	# }
 	s:STATE_SHANDONG = {
 		region_state:PRC = {
 			create_pop = {
