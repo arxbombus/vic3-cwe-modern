@@ -1,0 +1,4383 @@
+# Generated AI state traits for boosted contemporary powers
+
+# 1. United States
+state_trait_ai_united_states_california = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.5
+        state_construction_mult = 1
+        state_standard_of_living_add = 10
+        state_birth_rate_mult = 0.75
+        state_education_access_add = 0.375
+        state_literacy_growth_add = 0.75
+        state_infrastructure_add = 200
+        state_infrastructure_mult = 0.75
+        state_tax_capacity_mult = 0.65
+        building_software_industry_throughput_add = 1
+        building_computers_factory_throughput_add = 1
+        building_telecommunications_factory_throughput_add = 1
+        building_professional_services_sector_throughput_add = 1
+        building_real_estate_sector_throughput_add = 0.5
+        building_media_services_sector_throughput_add = 0.5
+        state_building_university_max_level_add = 2
+        building_economy_of_scale_level_cap_add = 60
+    }
+}
+
+state_trait_ai_united_states_new_york = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.4
+        state_construction_mult = 0.8
+        state_standard_of_living_add = 9.25
+        state_birth_rate_mult = 0.6375
+        state_education_access_add = 0.3
+        state_literacy_growth_add = 0.675
+        state_infrastructure_add = 150
+        state_infrastructure_mult = 0.5
+        state_tax_capacity_mult = 0.6
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.9
+        building_real_estate_sector_throughput_add = 0.9
+        building_professional_services_sector_throughput_add = 0.9
+        building_media_services_sector_throughput_add = 0.45
+        building_port_throughput_add = 0.45
+        state_building_university_max_level_add = 2
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 50
+    }
+}
+
+state_trait_ai_united_states_texas = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.3
+        building_oil_rig_throughput_add = 0.75
+        building_power_plant_throughput_add = 0.75
+        building_coal_mine_throughput_add = 0.375
+        building_port_throughput_add = 0.375
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_united_states_illinois = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_steel_factory_throughput_add = 0.4
+        building_industrial_robots_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_united_states_massachusetts = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.2
+        building_software_industry_throughput_add = 0.3
+        building_real_estate_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_united_states_southern_columbia = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        state_trade_capacity_mult = 0.4
+        building_port_throughput_add = 0.3
+        building_financial_services_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_united_states_florida = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.1
+        state_trade_capacity_mult = 0.1
+        building_recreational_services_sector_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+state_trait_ai_united_states_virginia = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_warplanes_factory_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 2. China
+state_trait_ai_china_beijing = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.4
+        state_construction_mult = 0.8
+        state_standard_of_living_add = 9.25
+        state_birth_rate_mult = 0.6375
+        state_education_access_add = 0.3
+        state_literacy_growth_add = 0.675
+        state_infrastructure_add = 150
+        state_infrastructure_mult = 0.5
+        state_tax_capacity_mult = 0.6
+        building_government_administration_throughput_add = 0.9
+        building_professional_services_sector_throughput_add = 0.9
+        building_real_estate_sector_throughput_add = 0.9
+        building_financial_services_sector_throughput_add = 0.45
+        building_communications_network_throughput_add = 0.45
+        state_building_university_max_level_add = 2
+        state_tax_capacity_add = 50
+        building_economy_of_scale_level_cap_add = 50
+    }
+}
+
+state_trait_ai_china_jiangsu = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        building_steel_factory_throughput_add = 0.75
+        building_industrial_chemicals_factory_throughput_add = 0.75
+        building_industrial_robots_factory_throughput_add = 0.375
+        building_power_plant_throughput_add = 0.375
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_china_western_guangdong = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.45
+        building_port_throughput_add = 0.75
+        building_shipyard_throughput_add = 0.75
+        building_financial_services_sector_throughput_add = 0.375
+        building_aeroplanes_factory_throughput_add = 0.375
+        state_building_naval_fortification_max_level_add = 1
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_china_suzhou = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.35
+        building_software_industry_throughput_add = 0.6
+        building_computers_factory_throughput_add = 0.6
+        building_real_estate_sector_throughput_add = 0.3
+        state_building_university_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_china_nanjing = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.3
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.4
+        building_media_services_sector_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_china_shandong = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_steel_factory_throughput_add = 0.3
+        building_industrial_robots_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_china_sichuan = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        building_textile_mill_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_china_zhejiang = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        state_trade_capacity_mult = 0.25
+        building_port_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 3. India
+state_trait_ai_india_delhi = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.4
+        state_construction_mult = 0.8
+        state_standard_of_living_add = 9.25
+        state_birth_rate_mult = 0.6375
+        state_education_access_add = 0.3
+        state_literacy_growth_add = 0.675
+        state_infrastructure_add = 150
+        state_infrastructure_mult = 0.5
+        state_tax_capacity_mult = 0.6
+        building_government_administration_throughput_add = 0.9
+        building_professional_services_sector_throughput_add = 0.9
+        building_real_estate_sector_throughput_add = 0.9
+        building_financial_services_sector_throughput_add = 0.45
+        building_communications_network_throughput_add = 0.45
+        state_building_university_max_level_add = 2
+        state_tax_capacity_add = 50
+        building_economy_of_scale_level_cap_add = 50
+    }
+}
+
+state_trait_ai_india_bombay = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.5
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.75
+        building_real_estate_sector_throughput_add = 0.75
+        building_media_services_sector_throughput_add = 0.375
+        building_port_throughput_add = 0.375
+        state_building_university_max_level_add = 1
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_india_west_bengal = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        state_trade_capacity_mult = 0.45
+        building_port_throughput_add = 0.6
+        building_shipyard_throughput_add = 0.6
+        building_financial_services_sector_throughput_add = 0.3
+        state_building_naval_fortification_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_india_mysore = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.3
+        building_software_industry_throughput_add = 0.5
+        building_computers_factory_throughput_add = 0.5
+        building_real_estate_sector_throughput_add = 0.25
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_india_gujarat = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_steel_factory_throughput_add = 0.4
+        building_industrial_robots_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_india_carnatic = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_textile_mill_throughput_add = 0.3
+        building_plastics_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_india_hyderabad = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.2
+        building_software_industry_throughput_add = 0.3
+        building_real_estate_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_india_agra = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.18
+        building_government_administration_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+state_trait_ai_india_bihar = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_agriculture_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 4. Germany
+state_trait_ai_germany_ruhr = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.5
+        state_construction_mult = 1
+        state_standard_of_living_add = 10
+        state_birth_rate_mult = 0.75
+        state_education_access_add = 0.375
+        state_literacy_growth_add = 0.75
+        state_infrastructure_add = 200
+        state_infrastructure_mult = 0.75
+        state_tax_capacity_mult = 0.6
+        building_steel_factory_throughput_add = 1
+        building_industrial_chemicals_factory_throughput_add = 1
+        building_engines_factory_throughput_add = 1
+        building_automobiles_factory_throughput_add = 1
+        building_industrial_robots_factory_throughput_add = 0.5
+        building_power_plant_throughput_add = 0.5
+        building_economy_of_scale_level_cap_add = 60
+    }
+}
+
+state_trait_ai_germany_bavaria = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.35
+        building_software_industry_throughput_add = 0.6
+        building_computers_factory_throughput_add = 0.6
+        building_real_estate_sector_throughput_add = 0.3
+        state_building_university_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_germany_brandenburg = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.35
+        building_government_administration_throughput_add = 0.5
+        building_professional_services_sector_throughput_add = 0.5
+        building_financial_services_sector_throughput_add = 0.25
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_germany_baden = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_steel_factory_throughput_add = 0.4
+        building_industrial_robots_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_germany_saxony = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_steel_factory_throughput_add = 0.4
+        building_industrial_robots_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_germany_rhineland = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.25
+        state_trade_capacity_mult = 0.3
+        building_financial_services_sector_throughput_add = 0.3
+        building_media_services_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_germany_westphalia = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_steel_factory_throughput_add = 0.3
+        building_industrial_robots_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_germany_hanover = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        state_trade_capacity_mult = 0.35
+        building_port_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_germany_hesse = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.18
+        state_trade_capacity_mult = 0.2
+        building_financial_services_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+
+# 5. Japan
+state_trait_ai_japan_kanto = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.5
+        state_construction_mult = 1
+        state_standard_of_living_add = 10
+        state_birth_rate_mult = 0.75
+        state_education_access_add = 0.375
+        state_literacy_growth_add = 0.75
+        state_infrastructure_add = 200
+        state_infrastructure_mult = 0.75
+        state_tax_capacity_mult = 0.65
+        building_software_industry_throughput_add = 1
+        building_computers_factory_throughput_add = 1
+        building_telecommunications_factory_throughput_add = 1
+        building_professional_services_sector_throughput_add = 1
+        building_real_estate_sector_throughput_add = 0.5
+        building_media_services_sector_throughput_add = 0.5
+        state_building_university_max_level_add = 2
+        building_economy_of_scale_level_cap_add = 60
+    }
+}
+
+state_trait_ai_japan_osaka = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        building_steel_factory_throughput_add = 0.75
+        building_industrial_chemicals_factory_throughput_add = 0.75
+        building_industrial_robots_factory_throughput_add = 0.375
+        building_power_plant_throughput_add = 0.375
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_japan_tokai = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        building_steel_factory_throughput_add = 0.6
+        building_industrial_chemicals_factory_throughput_add = 0.6
+        building_industrial_robots_factory_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_japan_kyoto = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.3
+        building_government_administration_throughput_add = 0.4
+        building_financial_services_sector_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_japan_kyushu = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        state_trade_capacity_mult = 0.45
+        building_port_throughput_add = 0.4
+        building_financial_services_sector_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_japan_chugoku = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_steel_factory_throughput_add = 0.3
+        building_industrial_robots_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_japan_tohoku = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_agriculture_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+state_trait_ai_japan_yezo = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_extraction_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 6. United Kingdom
+state_trait_ai_united_kingdom_south_east_england = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.5
+        state_construction_mult = 1
+        state_standard_of_living_add = 10
+        state_birth_rate_mult = 0.75
+        state_education_access_add = 0.375
+        state_literacy_growth_add = 0.75
+        state_infrastructure_add = 200
+        state_infrastructure_mult = 0.75
+        state_tax_capacity_mult = 0.7
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 1
+        building_real_estate_sector_throughput_add = 1
+        building_professional_services_sector_throughput_add = 1
+        building_retail_services_sector_throughput_add = 1
+        building_media_services_sector_throughput_add = 0.5
+        building_port_throughput_add = 0.5
+        state_building_university_max_level_add = 2
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 60
+    }
+}
+
+state_trait_ai_united_kingdom_lancashire = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        building_steel_factory_throughput_add = 0.6
+        building_industrial_chemicals_factory_throughput_add = 0.6
+        building_industrial_robots_factory_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_united_kingdom_midlands = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        building_steel_factory_throughput_add = 0.6
+        building_industrial_chemicals_factory_throughput_add = 0.6
+        building_industrial_robots_factory_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_united_kingdom_east_anglia = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.2
+        building_software_industry_throughput_add = 0.3
+        building_real_estate_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_united_kingdom_lowlands = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_steel_factory_throughput_add = 0.3
+        building_industrial_robots_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_united_kingdom_yorkshire = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_steel_factory_throughput_add = 0.3
+        building_industrial_robots_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_united_kingdom_highlands = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        building_group_bg_extraction_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_united_kingdom_wales = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        building_group_bg_extraction_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_united_kingdom_ulster = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_warplanes_factory_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 7. France
+state_trait_ai_france_ile_de_france = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.5
+        state_construction_mult = 1
+        state_standard_of_living_add = 10
+        state_birth_rate_mult = 0.75
+        state_education_access_add = 0.375
+        state_literacy_growth_add = 0.75
+        state_infrastructure_add = 200
+        state_infrastructure_mult = 0.75
+        state_tax_capacity_mult = 0.7
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 1
+        building_real_estate_sector_throughput_add = 1
+        building_professional_services_sector_throughput_add = 1
+        building_retail_services_sector_throughput_add = 1
+        building_media_services_sector_throughput_add = 0.5
+        building_port_throughput_add = 0.5
+        state_building_university_max_level_add = 2
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 60
+    }
+}
+
+state_trait_ai_france_rhone = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        building_steel_factory_throughput_add = 0.6
+        building_industrial_chemicals_factory_throughput_add = 0.6
+        building_industrial_robots_factory_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_france_normandy = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.25
+        state_trade_capacity_mult = 0.45
+        building_port_throughput_add = 0.5
+        building_shipyard_throughput_add = 0.5
+        building_financial_services_sector_throughput_add = 0.25
+        state_building_naval_fortification_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_france_provence = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        state_trade_capacity_mult = 0.45
+        building_port_throughput_add = 0.4
+        building_financial_services_sector_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_france_aquitaine = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_textile_mill_throughput_add = 0.3
+        building_plastics_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_france_brittany = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        state_trade_capacity_mult = 0.4
+        building_port_throughput_add = 0.3
+        building_financial_services_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_france_languedoc = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        building_group_bg_agriculture_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_france_guyenne = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        building_textile_mill_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+state_trait_ai_france_corsica = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.1
+        state_trade_capacity_mult = 0.1
+        building_recreational_services_sector_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 8. Russia
+state_trait_ai_russia_moscow = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.5
+        state_construction_mult = 1
+        state_standard_of_living_add = 10
+        state_birth_rate_mult = 0.75
+        state_education_access_add = 0.375
+        state_literacy_growth_add = 0.75
+        state_infrastructure_add = 200
+        state_infrastructure_mult = 0.75
+        state_tax_capacity_mult = 0.7
+        building_government_administration_throughput_add = 1
+        building_professional_services_sector_throughput_add = 1
+        building_real_estate_sector_throughput_add = 1
+        building_retail_services_sector_throughput_add = 1
+        building_financial_services_sector_throughput_add = 0.5
+        building_communications_network_throughput_add = 0.5
+        state_building_university_max_level_add = 2
+        state_tax_capacity_add = 50
+        building_economy_of_scale_level_cap_add = 60
+    }
+}
+
+state_trait_ai_russia_ural = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        building_steel_factory_throughput_add = 0.6
+        building_industrial_chemicals_factory_throughput_add = 0.6
+        building_industrial_robots_factory_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_russia_perm = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.25
+        building_steel_factory_throughput_add = 0.5
+        building_industrial_chemicals_factory_throughput_add = 0.5
+        building_industrial_robots_factory_throughput_add = 0.25
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_russia_nizhny_novgorod = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_textile_mill_throughput_add = 0.4
+        building_plastics_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_russia_samara = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        state_trade_capacity_mult = 0.25
+        building_oil_rig_throughput_add = 0.3
+        building_coal_mine_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_russia_krasnoyarsk = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        building_group_bg_extraction_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_russia_chelyabinsk = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        building_warplanes_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+state_trait_ai_russia_ufa = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        state_trade_capacity_mult = 0.15
+        building_oil_rig_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+state_trait_ai_russia_yaroslavl = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        building_textile_mill_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+
+# 9. Brazil
+state_trait_ai_brazil_sao_paulo = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.5
+        state_construction_mult = 1
+        state_standard_of_living_add = 10
+        state_birth_rate_mult = 0.75
+        state_education_access_add = 0.375
+        state_literacy_growth_add = 0.75
+        state_infrastructure_add = 200
+        state_infrastructure_mult = 0.75
+        state_tax_capacity_mult = 0.6
+        building_steel_factory_throughput_add = 1
+        building_industrial_chemicals_factory_throughput_add = 1
+        building_engines_factory_throughput_add = 1
+        building_automobiles_factory_throughput_add = 1
+        building_industrial_robots_factory_throughput_add = 0.5
+        building_power_plant_throughput_add = 0.5
+        building_economy_of_scale_level_cap_add = 60
+    }
+}
+
+state_trait_ai_brazil_rio_de_janeiro = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.6
+        building_real_estate_sector_throughput_add = 0.6
+        building_media_services_sector_throughput_add = 0.3
+        state_building_university_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_brazil_minas_gerais = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.25
+        building_group_bg_extraction_throughput_add = 0.5
+        building_group_bg_logging_throughput_add = 0.5
+        building_port_throughput_add = 0.25
+        state_building_hydroelectric_power_plant_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_brazil_bahia = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_textile_mill_throughput_add = 0.4
+        building_plastics_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_brazil_parana = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_agriculture_throughput_add = 0.3
+        building_furniture_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_brazil_rio_grande_do_sul = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_agriculture_throughput_add = 0.3
+        building_furniture_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_brazil_pernambuco = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        state_trade_capacity_mult = 0.3
+        building_port_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+state_trait_ai_brazil_goias = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_agriculture_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 10. Indonesia
+state_trait_ai_indonesia_west_java = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.4
+        state_construction_mult = 0.8
+        state_standard_of_living_add = 9.25
+        state_birth_rate_mult = 0.6375
+        state_education_access_add = 0.3
+        state_literacy_growth_add = 0.675
+        state_infrastructure_add = 150
+        state_infrastructure_mult = 0.5
+        state_tax_capacity_mult = 0.5
+        building_textile_mill_throughput_add = 0.9
+        building_furniture_factory_throughput_add = 0.9
+        building_groceries_factory_throughput_add = 0.9
+        building_plastics_factory_throughput_add = 0.45
+        building_retail_services_sector_throughput_add = 0.45
+        building_economy_of_scale_level_cap_add = 50
+    }
+}
+
+state_trait_ai_indonesia_east_java = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        building_steel_factory_throughput_add = 0.75
+        building_industrial_chemicals_factory_throughput_add = 0.75
+        building_industrial_robots_factory_throughput_add = 0.375
+        building_power_plant_throughput_add = 0.375
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_indonesia_central_java = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        building_group_bg_agriculture_throughput_add = 0.6
+        building_group_bg_ranching_throughput_add = 0.6
+        building_furniture_factory_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_indonesia_north_sumatra = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_extraction_throughput_add = 0.4
+        building_port_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_indonesia_south_sumatra = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        state_trade_capacity_mult = 0.3
+        building_oil_rig_throughput_add = 0.4
+        building_coal_mine_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_indonesia_aceh = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        state_trade_capacity_mult = 0.4
+        building_port_throughput_add = 0.3
+        building_financial_services_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+
+# 11. Italy
+state_trait_ai_italy_lombardy = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        building_steel_factory_throughput_add = 0.75
+        building_industrial_chemicals_factory_throughput_add = 0.75
+        building_industrial_robots_factory_throughput_add = 0.375
+        building_power_plant_throughput_add = 0.375
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_italy_lazio = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.4
+        building_government_administration_throughput_add = 0.6
+        building_professional_services_sector_throughput_add = 0.6
+        building_financial_services_sector_throughput_add = 0.3
+        state_building_university_max_level_add = 1
+        state_tax_capacity_add = 25
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_italy_piedmont = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.25
+        building_steel_factory_throughput_add = 0.5
+        building_industrial_chemicals_factory_throughput_add = 0.5
+        building_industrial_robots_factory_throughput_add = 0.25
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_italy_campania = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        state_trade_capacity_mult = 0.45
+        building_port_throughput_add = 0.4
+        building_financial_services_sector_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_italy_emilia = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_agriculture_throughput_add = 0.3
+        building_furniture_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_italy_tuscany = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_textile_mill_throughput_add = 0.3
+        building_plastics_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_italy_venetia = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        state_trade_capacity_mult = 0.4
+        building_port_throughput_add = 0.3
+        building_financial_services_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_italy_sicily = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        state_trade_capacity_mult = 0.2
+        building_oil_rig_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_italy_romagna = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        building_textile_mill_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+
+# 12. Canada
+state_trait_ai_canada_ontario = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.4
+        state_construction_mult = 0.8
+        state_standard_of_living_add = 9.25
+        state_birth_rate_mult = 0.6375
+        state_education_access_add = 0.3
+        state_literacy_growth_add = 0.675
+        state_infrastructure_add = 150
+        state_infrastructure_mult = 0.5
+        state_tax_capacity_mult = 0.5
+        building_steel_factory_throughput_add = 0.9
+        building_industrial_chemicals_factory_throughput_add = 0.9
+        building_engines_factory_throughput_add = 0.9
+        building_industrial_robots_factory_throughput_add = 0.45
+        building_power_plant_throughput_add = 0.45
+        building_economy_of_scale_level_cap_add = 50
+    }
+}
+
+state_trait_ai_canada_alberta = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        state_trade_capacity_mult = 0.3
+        building_oil_rig_throughput_add = 0.6
+        building_power_plant_throughput_add = 0.6
+        building_coal_mine_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_canada_northern_columbia = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.25
+        building_group_bg_extraction_throughput_add = 0.5
+        building_group_bg_logging_throughput_add = 0.5
+        building_port_throughput_add = 0.25
+        state_building_hydroelectric_power_plant_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_canada_saskatchewan = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_agriculture_throughput_add = 0.4
+        building_furniture_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_canada_manitoba = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_agriculture_throughput_add = 0.3
+        building_furniture_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_canada_maritimes = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        state_trade_capacity_mult = 0.4
+        building_port_throughput_add = 0.3
+        building_financial_services_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_canada_newfoundland = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        building_group_bg_extraction_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+state_trait_ai_canada_yukon_territory = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_extraction_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 13. South Korea
+state_trait_ai_south_korea_gyeonggi = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.5
+        state_construction_mult = 1
+        state_standard_of_living_add = 10
+        state_birth_rate_mult = 0.75
+        state_education_access_add = 0.375
+        state_literacy_growth_add = 0.75
+        state_infrastructure_add = 200
+        state_infrastructure_mult = 0.75
+        state_tax_capacity_mult = 0.65
+        building_software_industry_throughput_add = 1
+        building_computers_factory_throughput_add = 1
+        building_telecommunications_factory_throughput_add = 1
+        building_professional_services_sector_throughput_add = 1
+        building_real_estate_sector_throughput_add = 0.5
+        building_media_services_sector_throughput_add = 0.5
+        state_building_university_max_level_add = 2
+        building_economy_of_scale_level_cap_add = 60
+    }
+}
+
+state_trait_ai_south_korea_yeongnam = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.4
+        state_construction_mult = 0.8
+        state_standard_of_living_add = 9.25
+        state_birth_rate_mult = 0.6375
+        state_education_access_add = 0.3
+        state_literacy_growth_add = 0.675
+        state_infrastructure_add = 150
+        state_infrastructure_mult = 0.5
+        state_tax_capacity_mult = 0.5
+        building_steel_factory_throughput_add = 0.9
+        building_industrial_chemicals_factory_throughput_add = 0.9
+        building_engines_factory_throughput_add = 0.9
+        building_industrial_robots_factory_throughput_add = 0.45
+        building_power_plant_throughput_add = 0.45
+        building_economy_of_scale_level_cap_add = 50
+    }
+}
+
+state_trait_ai_south_korea_yangho = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        building_textile_mill_throughput_add = 0.75
+        building_furniture_factory_throughput_add = 0.75
+        building_plastics_factory_throughput_add = 0.375
+        building_retail_services_sector_throughput_add = 0.375
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+
+# 14. Mexico
+state_trait_ai_mexico_mexico = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.5
+        building_government_administration_throughput_add = 0.75
+        building_professional_services_sector_throughput_add = 0.75
+        building_financial_services_sector_throughput_add = 0.375
+        building_communications_network_throughput_add = 0.375
+        state_building_university_max_level_add = 1
+        state_tax_capacity_add = 25
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_mexico_jalisco = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        building_steel_factory_throughput_add = 0.6
+        building_industrial_chemicals_factory_throughput_add = 0.6
+        building_industrial_robots_factory_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_mexico_veracruz = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.25
+        state_trade_capacity_mult = 0.3
+        building_oil_rig_throughput_add = 0.5
+        building_power_plant_throughput_add = 0.5
+        building_coal_mine_throughput_add = 0.25
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_mexico_baja_california = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        state_trade_capacity_mult = 0.45
+        building_port_throughput_add = 0.4
+        building_financial_services_sector_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_mexico_bajio = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_steel_factory_throughput_add = 0.3
+        building_industrial_robots_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_mexico_rio_grande = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        building_steel_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_mexico_sonora = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        building_group_bg_extraction_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_mexico_yucatan = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.13
+        state_trade_capacity_mult = 0.15
+        building_recreational_services_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+state_trait_ai_mexico_oaxaca = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_agriculture_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 15. Turkey
+state_trait_ai_turkey_istanbul = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.5
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.75
+        building_real_estate_sector_throughput_add = 0.75
+        building_media_services_sector_throughput_add = 0.375
+        building_port_throughput_add = 0.375
+        state_building_university_max_level_add = 1
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_turkey_ankara = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.4
+        building_government_administration_throughput_add = 0.6
+        building_professional_services_sector_throughput_add = 0.6
+        building_financial_services_sector_throughput_add = 0.3
+        state_building_university_max_level_add = 1
+        state_tax_capacity_add = 25
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_turkey_adana = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.25
+        building_textile_mill_throughput_add = 0.5
+        building_furniture_factory_throughput_add = 0.5
+        building_plastics_factory_throughput_add = 0.25
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_turkey_hudavendigar = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_steel_factory_throughput_add = 0.4
+        building_industrial_robots_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_turkey_aydin = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        state_trade_capacity_mult = 0.4
+        building_port_throughput_add = 0.3
+        building_financial_services_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_turkey_konya = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        building_group_bg_agriculture_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+
+# 16. Australia
+state_trait_ai_australia_new_south_wales = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.5
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.75
+        building_real_estate_sector_throughput_add = 0.75
+        building_media_services_sector_throughput_add = 0.375
+        building_port_throughput_add = 0.375
+        state_building_university_max_level_add = 1
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_australia_victoria = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        building_steel_factory_throughput_add = 0.6
+        building_industrial_chemicals_factory_throughput_add = 0.6
+        building_industrial_robots_factory_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_australia_queensland = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.25
+        building_group_bg_extraction_throughput_add = 0.5
+        building_group_bg_logging_throughput_add = 0.5
+        building_port_throughput_add = 0.25
+        state_building_hydroelectric_power_plant_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_australia_western_australia = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_extraction_throughput_add = 0.4
+        building_port_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_australia_northern_territory = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_extraction_throughput_add = 0.3
+        building_port_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_australia_south_australia = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_extraction_throughput_add = 0.3
+        building_port_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_australia_tasmania = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        building_group_bg_extraction_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+
+# 17. Saudi Arabia
+state_trait_ai_saudi_arabia_nejd = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.4
+        state_construction_mult = 0.8
+        state_standard_of_living_add = 9.25
+        state_birth_rate_mult = 0.6375
+        state_education_access_add = 0.3
+        state_literacy_growth_add = 0.675
+        state_infrastructure_add = 150
+        state_infrastructure_mult = 0.5
+        state_tax_capacity_mult = 0.5
+        state_trade_capacity_mult = 0.3
+        building_oil_rig_throughput_add = 0.9
+        building_power_plant_throughput_add = 0.9
+        building_industrial_chemicals_factory_throughput_add = 0.9
+        building_coal_mine_throughput_add = 0.45
+        building_port_throughput_add = 0.45
+        building_economy_of_scale_level_cap_add = 50
+    }
+}
+
+state_trait_ai_saudi_arabia_hedjaz = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.5
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.75
+        building_real_estate_sector_throughput_add = 0.75
+        building_media_services_sector_throughput_add = 0.375
+        building_port_throughput_add = 0.375
+        state_building_university_max_level_add = 1
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_saudi_arabia_hail = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        state_trade_capacity_mult = 0.3
+        building_oil_rig_throughput_add = 0.6
+        building_power_plant_throughput_add = 0.6
+        building_coal_mine_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+
+# 18. Spain
+state_trait_ai_spain_new_castile = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.5
+        building_government_administration_throughput_add = 0.75
+        building_professional_services_sector_throughput_add = 0.75
+        building_financial_services_sector_throughput_add = 0.375
+        building_communications_network_throughput_add = 0.375
+        state_building_university_max_level_add = 1
+        state_tax_capacity_add = 25
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_spain_catalonia = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        building_steel_factory_throughput_add = 0.6
+        building_industrial_chemicals_factory_throughput_add = 0.6
+        building_industrial_robots_factory_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_spain_basque_country = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.25
+        building_steel_factory_throughput_add = 0.5
+        building_industrial_chemicals_factory_throughput_add = 0.5
+        building_industrial_robots_factory_throughput_add = 0.25
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_spain_valencia = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        state_trade_capacity_mult = 0.45
+        building_port_throughput_add = 0.4
+        building_financial_services_sector_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_spain_lower_andalusia = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_agriculture_throughput_add = 0.3
+        building_furniture_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_spain_galicia = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        state_trade_capacity_mult = 0.3
+        building_port_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+state_trait_ai_spain_aragon = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_agriculture_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 19. Iran
+state_trait_ai_iran_irak_i_ajami = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.5
+        building_government_administration_throughput_add = 0.75
+        building_professional_services_sector_throughput_add = 0.75
+        building_financial_services_sector_throughput_add = 0.375
+        building_communications_network_throughput_add = 0.375
+        state_building_university_max_level_add = 1
+        state_tax_capacity_add = 25
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_iran_isfahan = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        building_steel_factory_throughput_add = 0.6
+        building_industrial_chemicals_factory_throughput_add = 0.6
+        building_industrial_robots_factory_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_iran_fars = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.25
+        building_textile_mill_throughput_add = 0.5
+        building_furniture_factory_throughput_add = 0.5
+        building_plastics_factory_throughput_add = 0.25
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_iran_khorasan = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_extraction_throughput_add = 0.4
+        building_port_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_iran_arabistan = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        state_trade_capacity_mult = 0.25
+        building_oil_rig_throughput_add = 0.3
+        building_coal_mine_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_iran_hormuz = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        state_trade_capacity_mult = 0.3
+        building_port_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+
+# 20. Poland
+state_trait_ai_poland_warszawa = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.5
+        building_government_administration_throughput_add = 0.75
+        building_professional_services_sector_throughput_add = 0.75
+        building_financial_services_sector_throughput_add = 0.375
+        building_communications_network_throughput_add = 0.375
+        state_building_university_max_level_add = 1
+        state_tax_capacity_add = 25
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_poland_plock = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.25
+        building_textile_mill_throughput_add = 0.5
+        building_furniture_factory_throughput_add = 0.5
+        building_plastics_factory_throughput_add = 0.25
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_poland_lublin = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_agriculture_throughput_add = 0.4
+        building_furniture_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_poland_posen = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_agriculture_throughput_add = 0.3
+        building_furniture_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_poland_west_galicia = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_steel_factory_throughput_add = 0.3
+        building_industrial_robots_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_poland_pomerania = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        state_trade_capacity_mult = 0.35
+        building_port_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_poland_upper_silesia = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        building_steel_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+state_trait_ai_poland_east_prussia = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        state_trade_capacity_mult = 0.25
+        building_port_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 21. Netherlands
+state_trait_ai_netherlands_holland = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.5
+        state_construction_mult = 1
+        state_standard_of_living_add = 10
+        state_birth_rate_mult = 0.75
+        state_education_access_add = 0.375
+        state_literacy_growth_add = 0.75
+        state_infrastructure_add = 200
+        state_infrastructure_mult = 0.75
+        state_tax_capacity_mult = 0.7
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 1
+        building_real_estate_sector_throughput_add = 1
+        building_professional_services_sector_throughput_add = 1
+        building_retail_services_sector_throughput_add = 1
+        building_media_services_sector_throughput_add = 0.5
+        building_port_throughput_add = 0.5
+        state_building_university_max_level_add = 2
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 60
+    }
+}
+
+state_trait_ai_netherlands_gelre = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        building_textile_mill_throughput_add = 0.75
+        building_furniture_factory_throughput_add = 0.75
+        building_plastics_factory_throughput_add = 0.375
+        building_retail_services_sector_throughput_add = 0.375
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_netherlands_friesland = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_agriculture_throughput_add = 0.4
+        building_furniture_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+
+# 22. Nigeria
+state_trait_ai_nigeria_nigeria = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.5
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.75
+        building_real_estate_sector_throughput_add = 0.75
+        building_media_services_sector_throughput_add = 0.375
+        building_port_throughput_add = 0.375
+        state_building_university_max_level_add = 1
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_nigeria_niger_delta = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        state_trade_capacity_mult = 0.3
+        building_oil_rig_throughput_add = 0.6
+        building_power_plant_throughput_add = 0.6
+        building_coal_mine_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_nigeria_yoruba_states = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_textile_mill_throughput_add = 0.4
+        building_plastics_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_nigeria_hausaland = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_agriculture_throughput_add = 0.3
+        building_furniture_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_nigeria_benin = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        building_group_bg_agriculture_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_nigeria_bornu = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_extraction_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+state_trait_ai_nigeria_east_hausaland = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_agriculture_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 23. Israel
+state_trait_ai_israel_palestine = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.5
+        state_construction_mult = 1
+        state_standard_of_living_add = 10
+        state_birth_rate_mult = 0.75
+        state_education_access_add = 0.375
+        state_literacy_growth_add = 0.75
+        state_infrastructure_add = 200
+        state_infrastructure_mult = 0.75
+        state_tax_capacity_mult = 0.65
+        building_software_industry_throughput_add = 1
+        building_computers_factory_throughput_add = 1
+        building_telecommunications_factory_throughput_add = 1
+        building_professional_services_sector_throughput_add = 1
+        building_real_estate_sector_throughput_add = 0.5
+        building_media_services_sector_throughput_add = 0.5
+        state_building_university_max_level_add = 2
+        building_economy_of_scale_level_cap_add = 60
+    }
+}
+
+
+# 24. Egypt
+state_trait_ai_egypt_lower_egypt = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.5
+        building_government_administration_throughput_add = 0.75
+        building_professional_services_sector_throughput_add = 0.75
+        building_financial_services_sector_throughput_add = 0.375
+        building_communications_network_throughput_add = 0.375
+        state_building_university_max_level_add = 1
+        state_tax_capacity_add = 25
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_egypt_middle_egypt = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.25
+        building_group_bg_agriculture_throughput_add = 0.5
+        building_group_bg_ranching_throughput_add = 0.5
+        building_furniture_factory_throughput_add = 0.25
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_egypt_sinai = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        state_trade_capacity_mult = 0.45
+        building_port_throughput_add = 0.4
+        building_financial_services_sector_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_egypt_upper_egypt = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_agriculture_throughput_add = 0.4
+        building_furniture_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_egypt_matruh = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.13
+        state_trade_capacity_mult = 0.15
+        building_recreational_services_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+state_trait_ai_egypt_egyptian_desert = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_extraction_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 25. Pakistan
+state_trait_ai_pakistan_punjab = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        building_group_bg_agriculture_throughput_add = 0.75
+        building_group_bg_ranching_throughput_add = 0.75
+        building_furniture_factory_throughput_add = 0.375
+        building_railway_throughput_add = 0.375
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_pakistan_sindh = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.6
+        building_real_estate_sector_throughput_add = 0.6
+        building_media_services_sector_throughput_add = 0.3
+        state_building_university_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_pakistan_pashtunistan = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_extraction_throughput_add = 0.4
+        building_port_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_pakistan_baluchistan = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        state_trade_capacity_mult = 0.25
+        building_oil_rig_throughput_add = 0.3
+        building_coal_mine_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_pakistan_quetta = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_warplanes_factory_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 26. Vietnam
+state_trait_ai_vietnam_tonkin = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.4
+        state_construction_mult = 0.8
+        state_standard_of_living_add = 9.25
+        state_birth_rate_mult = 0.6375
+        state_education_access_add = 0.3
+        state_literacy_growth_add = 0.675
+        state_infrastructure_add = 150
+        state_infrastructure_mult = 0.5
+        state_tax_capacity_mult = 0.5
+        building_steel_factory_throughput_add = 0.9
+        building_industrial_chemicals_factory_throughput_add = 0.9
+        building_engines_factory_throughput_add = 0.9
+        building_industrial_robots_factory_throughput_add = 0.45
+        building_power_plant_throughput_add = 0.45
+        building_economy_of_scale_level_cap_add = 50
+    }
+}
+
+state_trait_ai_vietnam_mekong = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        building_group_bg_agriculture_throughput_add = 0.6
+        building_group_bg_ranching_throughput_add = 0.6
+        building_furniture_factory_throughput_add = 0.3
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_vietnam_annam = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        state_trade_capacity_mult = 0.3
+        building_port_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+
+# 27. Philippines
+state_trait_ai_philippines_luzon = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.5
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.75
+        building_real_estate_sector_throughput_add = 0.75
+        building_media_services_sector_throughput_add = 0.375
+        building_port_throughput_add = 0.375
+        state_building_university_max_level_add = 1
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_philippines_visayas = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        state_trade_capacity_mult = 0.45
+        building_port_throughput_add = 0.6
+        building_shipyard_throughput_add = 0.6
+        building_financial_services_sector_throughput_add = 0.3
+        state_building_naval_fortification_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_philippines_mindanao = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.25
+        building_group_bg_extraction_throughput_add = 0.5
+        building_group_bg_logging_throughput_add = 0.5
+        building_port_throughput_add = 0.25
+        state_building_hydroelectric_power_plant_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+
+# 28. Bangladesh
+state_trait_ai_bangladesh_east_bengal = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.5
+        state_construction_mult = 1
+        state_standard_of_living_add = 10
+        state_birth_rate_mult = 0.75
+        state_education_access_add = 0.375
+        state_literacy_growth_add = 0.75
+        state_infrastructure_add = 200
+        state_infrastructure_mult = 0.75
+        state_tax_capacity_mult = 0.6
+        building_textile_mill_throughput_add = 1
+        building_furniture_factory_throughput_add = 1
+        building_groceries_factory_throughput_add = 1
+        building_pharmaceuticals_factory_throughput_add = 1
+        building_plastics_factory_throughput_add = 0.5
+        building_retail_services_sector_throughput_add = 0.5
+        building_economy_of_scale_level_cap_add = 60
+    }
+}
+
+
+# 29. South Africa
+state_trait_ai_south_africa_transvaal = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.3
+        building_group_bg_extraction_throughput_add = 0.6
+        building_group_bg_logging_throughput_add = 0.6
+        building_port_throughput_add = 0.3
+        state_building_hydroelectric_power_plant_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_south_africa_cape_colony = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.35
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.5
+        building_real_estate_sector_throughput_add = 0.5
+        building_media_services_sector_throughput_add = 0.25
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_south_africa_eastern_cape = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_textile_mill_throughput_add = 0.3
+        building_plastics_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_south_africa_zululand = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        state_trade_capacity_mult = 0.35
+        building_port_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_south_africa_northern_cape = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        building_group_bg_extraction_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+state_trait_ai_south_africa_transorangia = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_agriculture_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 30. Argentina
+state_trait_ai_argentina_buenos_aires = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.5
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.75
+        building_real_estate_sector_throughput_add = 0.75
+        building_media_services_sector_throughput_add = 0.375
+        building_port_throughput_add = 0.375
+        state_building_university_max_level_add = 1
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_argentina_cordoba = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_steel_factory_throughput_add = 0.4
+        building_industrial_robots_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_argentina_santa_fe = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_agriculture_throughput_add = 0.3
+        building_furniture_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_argentina_mendoza = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        building_textile_mill_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_argentina_patagonia = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        state_trade_capacity_mult = 0.1
+        building_oil_rig_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 31. Thailand
+state_trait_ai_thailand_bangkok = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.35
+        state_construction_mult = 0.7
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.525
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.5
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.75
+        building_real_estate_sector_throughput_add = 0.75
+        building_media_services_sector_throughput_add = 0.375
+        building_port_throughput_add = 0.375
+        state_building_university_max_level_add = 1
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+    }
+}
+
+state_trait_ai_thailand_nakhon_ratchasima = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_agriculture_throughput_add = 0.4
+        building_furniture_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_thailand_chiang_mai = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.2
+        state_trade_capacity_mult = 0.25
+        building_recreational_services_sector_throughput_add = 0.3
+        building_port_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_thailand_tenasserim = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        state_trade_capacity_mult = 0.35
+        building_port_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+
+# 32. Malaysia
+state_trait_ai_malaysia_malaya = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.5
+        state_construction_mult = 1
+        state_standard_of_living_add = 10
+        state_birth_rate_mult = 0.75
+        state_education_access_add = 0.375
+        state_literacy_growth_add = 0.75
+        state_infrastructure_add = 200
+        state_infrastructure_mult = 0.75
+        state_tax_capacity_mult = 0.7
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 1
+        building_real_estate_sector_throughput_add = 1
+        building_professional_services_sector_throughput_add = 1
+        building_retail_services_sector_throughput_add = 1
+        building_media_services_sector_throughput_add = 0.5
+        building_port_throughput_add = 0.5
+        state_building_university_max_level_add = 2
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 60
+    }
+}
+
+state_trait_ai_malaysia_north_borneo = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        building_group_bg_extraction_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+
+# 33. Colombia
+state_trait_ai_colombia_cundinamarca = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.4
+        building_government_administration_throughput_add = 0.6
+        building_professional_services_sector_throughput_add = 0.6
+        building_financial_services_sector_throughput_add = 0.3
+        state_building_university_max_level_add = 1
+        state_tax_capacity_add = 25
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_colombia_antioquia = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_extraction_throughput_add = 0.4
+        building_port_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_colombia_cauca = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_agriculture_throughput_add = 0.3
+        building_furniture_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_colombia_guaviare = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        building_group_bg_extraction_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+
+# 34. Algeria
+state_trait_ai_algeria_algiers = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.6
+        building_real_estate_sector_throughput_add = 0.6
+        building_media_services_sector_throughput_add = 0.3
+        state_building_university_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_algeria_oran = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        state_trade_capacity_mult = 0.3
+        building_oil_rig_throughput_add = 0.4
+        building_coal_mine_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_algeria_constantine = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_textile_mill_throughput_add = 0.3
+        building_plastics_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_algeria_sahara = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_extraction_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 35. Ethiopia
+state_trait_ai_ethiopia_amhara = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.35
+        building_government_administration_throughput_add = 0.5
+        building_professional_services_sector_throughput_add = 0.5
+        building_financial_services_sector_throughput_add = 0.25
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_ethiopia_gonder = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_extraction_throughput_add = 0.4
+        building_port_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_ethiopia_oromia = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_agriculture_throughput_add = 0.4
+        building_furniture_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+
+# 36. Ukraine
+state_trait_ai_ukraine_kyiv = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.25
+        state_construction_mult = 0.5
+        state_standard_of_living_add = 6
+        state_birth_rate_mult = 0.3375
+        state_education_access_add = 0.1875
+        state_literacy_growth_add = 0.375
+        state_infrastructure_add = 60
+        state_infrastructure_mult = 0.25
+        state_tax_capacity_mult = 0.35
+        building_government_administration_throughput_add = 0.5
+        building_professional_services_sector_throughput_add = 0.5
+        building_financial_services_sector_throughput_add = 0.25
+        building_economy_of_scale_level_cap_add = 25
+    }
+}
+
+state_trait_ai_ukraine_east_galicia = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_agriculture_throughput_add = 0.3
+        building_furniture_factory_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_ukraine_volhynia = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        building_group_bg_agriculture_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_ukraine_bessarabia = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        state_trade_capacity_mult = 0.3
+        building_port_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+state_trait_ai_ukraine_bukovina = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_agriculture_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 37. Democratic Republic of the Congo
+state_trait_ai_democratic_republic_of_the_congo_katanga = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_extraction_throughput_add = 0.4
+        building_port_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_democratic_republic_of_the_congo_kasai = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_extraction_throughput_add = 0.3
+        building_port_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_democratic_republic_of_the_congo_lower_congo = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        state_trade_capacity_mult = 0.4
+        building_port_throughput_add = 0.3
+        building_financial_services_sector_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_democratic_republic_of_the_congo_congo_orientale = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_extraction_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+state_trait_ai_democratic_republic_of_the_congo_equateur = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_extraction_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+
+# 38. Kenya
+state_trait_ai_kenya_kenya = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 0.6
+        state_standard_of_living_add = 7.25
+        state_birth_rate_mult = 0.4125
+        state_education_access_add = 0.225
+        state_literacy_growth_add = 0.45
+        state_infrastructure_add = 80
+        state_infrastructure_mult = 0.3
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.6
+        building_real_estate_sector_throughput_add = 0.6
+        building_media_services_sector_throughput_add = 0.3
+        state_building_university_max_level_add = 1
+        building_economy_of_scale_level_cap_add = 30
+    }
+}
+
+state_trait_ai_kenya_rift_valley = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.2
+        building_group_bg_agriculture_throughput_add = 0.4
+        building_furniture_factory_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+
+# 39. Kazakhstan
+state_trait_ai_kazakhstan_akmolinsk = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_extraction_throughput_add = 0.3
+        building_port_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_kazakhstan_semipalatinsk = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_extraction_throughput_add = 0.3
+        building_port_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_kazakhstan_uralsk = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.1
+        state_construction_mult = 0.2
+        state_standard_of_living_add = 2.25
+        state_birth_rate_mult = 0.1125
+        state_education_access_add = 0.075
+        state_literacy_growth_add = 0.15
+        state_infrastructure_add = 20
+        state_infrastructure_mult = 0.1
+        state_tax_capacity_mult = 0.1
+        state_trade_capacity_mult = 0.2
+        building_oil_rig_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 10
+    }
+}
+
+state_trait_ai_kazakhstan_aktobe = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.075
+        state_construction_mult = 0.15
+        state_standard_of_living_add = 1.5
+        state_birth_rate_mult = 0.075
+        state_education_access_add = 0.06
+        state_literacy_growth_add = 0.1125
+        state_infrastructure_add = 15
+        state_infrastructure_mult = 0.08
+        state_tax_capacity_mult = 0.08
+        building_group_bg_extraction_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 8
+    }
+}
+
+
+# 40. Peru
+state_trait_ai_peru_lima = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.2
+        state_construction_mult = 0.4
+        state_standard_of_living_add = 4.75
+        state_birth_rate_mult = 0.2625
+        state_education_access_add = 0.15
+        state_literacy_growth_add = 0.3
+        state_infrastructure_add = 40
+        state_infrastructure_mult = 0.2
+        state_tax_capacity_mult = 0.3
+        state_trade_capacity_mult = 0.35
+        building_financial_services_sector_throughput_add = 0.4
+        building_media_services_sector_throughput_add = 0.2
+        building_economy_of_scale_level_cap_add = 20
+    }
+}
+
+state_trait_ai_peru_arequipa = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.15
+        state_construction_mult = 0.3
+        state_standard_of_living_add = 3.5
+        state_birth_rate_mult = 0.1875
+        state_education_access_add = 0.1125
+        state_literacy_growth_add = 0.225
+        state_infrastructure_add = 30
+        state_infrastructure_mult = 0.15
+        state_tax_capacity_mult = 0.15
+        building_group_bg_extraction_throughput_add = 0.3
+        building_port_throughput_add = 0.15
+        building_economy_of_scale_level_cap_add = 15
+    }
+}
+
+state_trait_ai_peru_cajamarca = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_extraction_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
+
+state_trait_ai_peru_ica = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.05
+        state_construction_mult = 0.1
+        state_standard_of_living_add = 0.75
+        state_birth_rate_mult = 0.0375
+        state_education_access_add = 0.0375
+        state_literacy_growth_add = 0.075
+        state_infrastructure_add = 10
+        state_infrastructure_mult = 0.05
+        state_tax_capacity_mult = 0.05
+        building_group_bg_agriculture_throughput_add = 0.1
+        building_economy_of_scale_level_cap_add = 5
+    }
+}
