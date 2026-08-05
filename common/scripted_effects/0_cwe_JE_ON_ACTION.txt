@@ -934,7 +934,6 @@ effect_journal_entry_cwe_on_action = {
 			
 			NOT = { has_variable = block_constitutional_monarchy_generation }
 			
-			#NOT = { has_modifier = modifier_regency }
 			trigger_if = {
 				limit = { 
 					OR = { 
@@ -948,6 +947,12 @@ effect_journal_entry_cwe_on_action = {
 						has_role = character_role_monarch
 					}
 				}
+			}
+			
+			#Not has regency
+			NOR = {
+				has_journal_entry = je_regency_system
+				any_scope_character = { has_role = character_role_regent }
 			}
 		
 		}
@@ -1964,7 +1969,10 @@ evaluate_warlordism_eligibility = {
 						has_law_or_variant = law_type:law_politicised_armed_forces
 						any_scope_character = {
 							character_has_legal_immunity = no
-							character_is_key_state_officeholder = yes
+							OR = { 
+								character_is_key_state_officeholder = yes
+								is_a_prince_character = yes
+							}
 							loyalty < define:NCharacters|LOYALTY_UNCERTAIN_THRESHOLD
 						}
 					}
@@ -1979,11 +1987,12 @@ evaluate_warlordism_eligibility = {
 					character_has_legal_immunity = no
 					OR = {
 						character_is_key_state_officeholder = yes
-						is_a_guerrilla_character = yes
 						AND = {
 							has_role_of_type = general
 							commander_rank >= 4
 						}
+						is_a_guerrilla_character = yes
+						is_a_prince_character = yes
 					}
 					loyalty < define:NCharacters|LOYALTY_UNCERTAIN_THRESHOLD
 				}

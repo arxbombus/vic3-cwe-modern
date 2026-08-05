@@ -5,7 +5,7 @@ je_constitutional_monarchy = {
 
 	scripted_button = je_enact_symbolic_monarchy_button
 	scripted_button = je_enact_elective_monarchy_button
-	scripted_button = je_force_abdication_button
+	scripted_button = je_issue_royal_decree_button
 	scripted_button = je_enact_no_nobility_button
 
 	is_shown_when_inactive = {
@@ -16,6 +16,12 @@ je_constitutional_monarchy = {
 		ruler_is_governor_general = no
 		
 		NOT = { has_variable = block_constitutional_monarchy_generation }
+		
+		#Not has regency
+		NOR = {
+			has_journal_entry = je_regency_system
+			any_scope_character = { has_role = character_role_regent }
+		}
 		
 	}
 
@@ -221,64 +227,20 @@ je_constitutional_monarchy = {
 		
 		#Generate elected monarchs
 		if = {
-			limit = { 
+			limit = {
 				active_law:lawgroup_governance_principles ?= { has_amendment = amendment_type:amendment_elective_monarchy }
 			}
-			set_variable = { 
+			set_variable = {
 				name = elective_monarchy_system_timer
 				years = 5
 			}
 			scope:constitutional_monarch_scope ?= {
-				set_variable = { 
+				set_variable = {
 					name = elected_monarch_term
 					years = 5
 				}
 			}
-			if = {
-				limit = {
-					any_scope_character = {
-						has_role = character_role_monarch_elective
-						count < 3
-					}
-				}
-				create_character = {
-					save_scope_as = ruler_to_be
-					role = character_role_monarch_elective noble = yes
-					on_created = {
-						
-					}
-				}
-			}
-			if = {
-				limit = {
-					any_scope_character = {
-						has_role = character_role_monarch_elective
-						count < 3
-					}
-				}
-				create_character = {
-					save_scope_as = ruler_to_be
-					role = character_role_monarch_elective noble = yes
-					on_created = {
-						
-					}
-				}
-			}
-			if = {
-				limit = {
-					any_scope_character = {
-						has_role = character_role_monarch_elective
-						count < 3
-					}
-				}
-				create_character = {
-					save_scope_as = ruler_to_be
-					role = character_role_monarch_elective noble = yes
-					on_created = {
-						
-					}
-				}
-			}
+			generate_elective_monarchs_for_country = yes
 		}
 		
 		if = {
@@ -325,6 +287,11 @@ je_constitutional_monarchy = {
 					is_subject = yes
 					shares_same_monarch = yes
 				}
+			}
+			
+			#Regency
+			scope:constitutional_monarch_scope ?= {
+				is_adult = no
 			}
 			
 		}
@@ -375,6 +342,62 @@ je_constitutional_monarchy = {
 				set_character_as_royal = yes
 				set_variable = former_elective_monarch
 				remove_character_role = character_role_monarch_elective
+			}
+		}
+		
+		#Clear monarch
+		if = {
+			limit = {
+				NOT = { has_law_or_variant = law_type:law_HOS_monarch }
+				scope:constitutional_monarch_scope ?= {
+					has_role = character_role_monarch
+				}
+			}
+			scope:constitutional_monarch_scope ?= {
+				remove_character_role = character_role_monarch
+			}
+		}
+		
+		#Create Regency if applicable
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_HOS_monarch
+				scope:constitutional_monarch_scope ?= {
+					owner ?= ROOT
+					has_role = character_role_monarch
+					is_adult = no
+				}
+			}
+			if = {
+				limit = {
+					any_scope_character = {
+						is_a_prince_character = yes
+					}
+				}
+				random_scope_character = {
+					limit = {
+						is_a_prince_character = yes
+					}
+					add_character_role = character_role_regent
+				}
+			}
+			else_if = {
+				limit = {
+					any_scope_character = {
+						has_role_of_type = magnate
+					}
+				}
+				random_scope_character = {
+					limit = {
+						has_role_of_type = magnate
+					}
+					add_character_role = character_role_regent
+				}
+			}
+			else = {
+				create_character = {
+					role = character_role_regent noble = yes
+				}
 			}
 		}
 		
@@ -501,51 +524,7 @@ je_constitutional_monarchy = {
 				limit = { 
 					active_law:lawgroup_governance_principles ?= { has_amendment = amendment_type:amendment_elective_monarchy }
 				}
-				if = {
-					limit = {
-						any_scope_character = {
-							has_role = character_role_monarch_elective
-							count < 3
-						}
-					}
-					create_character = {
-						save_scope_as = ruler_to_be
-						role = character_role_monarch_elective noble = yes
-						on_created = {
-							
-						}
-					}
-				}
-				if = {
-					limit = {
-						any_scope_character = {
-							has_role = character_role_monarch_elective
-							count < 3
-						}
-					}
-					create_character = {
-						save_scope_as = ruler_to_be
-						role = character_role_monarch_elective noble = yes
-						on_created = {
-							
-						}
-					}
-				}
-				if = {
-					limit = {
-						any_scope_character = {
-							has_role = character_role_monarch_elective
-							count < 3
-						}
-					}
-					create_character = {
-						save_scope_as = ruler_to_be
-						role = character_role_monarch_elective noble = yes
-						on_created = {
-							
-						}
-					}
-				}
+				generate_elective_monarchs_for_country = yes
 				if = {
 					limit = {
 						scope:constitutional_monarch_scope ?= { NOT = { has_variable = elected_monarch_term } }
