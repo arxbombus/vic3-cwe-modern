@@ -1,0 +1,943 @@
+### Idempotent country-power initialization
+### No-scope/global scripted effect. Safe to run at game start and every month.
+### Alternate/successor tags use the same modifier key, preventing tag-change stacking.
+
+modern_apply_country_power_modifiers = {
+	### United States
+	if = {
+		limit = { exists = c:USA }
+		c:USA = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_usa } }
+				add_modifier = {
+					name = modern_country_power_usa
+					duration = -1
+				}
+			}
+		}
+	}
+	### China
+	if = {
+		limit = { exists = c:CHI }
+		c:CHI = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_china } }
+				add_modifier = {
+					name = modern_country_power_china
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = { exists = c:PRC }
+		c:PRC = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_china } }
+				add_modifier = {
+					name = modern_country_power_china
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = { exists = c:ROC }
+		c:ROC = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_china } }
+				add_modifier = {
+					name = modern_country_power_china
+					duration = -1
+				}
+			}
+		}
+	}
+	### India
+	if = {
+		limit = { exists = c:HND }
+		c:HND = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_india } }
+				add_modifier = {
+					name = modern_country_power_india
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = { exists = c:BHT }
+		c:BHT = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_india } }
+				add_modifier = {
+					name = modern_country_power_india
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = { exists = c:BIC }
+		c:BIC = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_india } }
+				add_modifier = {
+					name = modern_country_power_india
+					duration = -1
+				}
+			}
+		}
+	}
+	### Germany
+	if = {
+		limit = { exists = c:GER }
+		c:GER = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_germany } }
+				add_modifier = {
+					name = modern_country_power_germany
+					duration = -1
+				}
+			}
+		}
+	}
+	### Japan
+	if = {
+		limit = { exists = c:JAP }
+		c:JAP = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_japan } }
+				add_modifier = {
+					name = modern_country_power_japan
+					duration = -1
+				}
+			}
+		}
+	}
+	### United Kingdom
+	if = {
+		limit = { exists = c:GBR }
+		c:GBR = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_united_kingdom } }
+				add_modifier = {
+					name = modern_country_power_united_kingdom
+					duration = -1
+				}
+			}
+		}
+	}
+	### France
+	if = {
+		limit = { exists = c:FRA }
+		c:FRA = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_france } }
+				add_modifier = {
+					name = modern_country_power_france
+					duration = -1
+				}
+			}
+		}
+	}
+	### Russia
+	if = {
+		limit = { exists = c:RUS }
+		c:RUS = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_russia } }
+				add_modifier = {
+					name = modern_country_power_russia
+					duration = -1
+				}
+			}
+		}
+	}
+	### Brazil
+	if = {
+		limit = { exists = c:BRZ }
+		c:BRZ = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_brazil } }
+				add_modifier = {
+					name = modern_country_power_brazil
+					duration = -1
+				}
+			}
+		}
+	}
+	### Indonesia
+	if = {
+		limit = { exists = c:IDO }
+		c:IDO = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_indonesia } }
+				add_modifier = {
+					name = modern_country_power_indonesia
+					duration = -1
+				}
+			}
+		}
+	}
+	### Italy
+	if = {
+		limit = { exists = c:ITA }
+		c:ITA = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_italy } }
+				add_modifier = {
+					name = modern_country_power_italy
+					duration = -1
+				}
+			}
+		}
+	}
+	### Canada
+	if = {
+		limit = { exists = c:CAN }
+		c:CAN = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_canada } }
+				add_modifier = {
+					name = modern_country_power_canada
+					duration = -1
+				}
+			}
+		}
+	}
+	### South Korea
+	if = {
+		limit = { exists = c:SKO }
+		c:SKO = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_south_korea } }
+				add_modifier = {
+					name = modern_country_power_south_korea
+					duration = -1
+				}
+			}
+		}
+	}
+	### Mexico
+	if = {
+		limit = { exists = c:MEX }
+		c:MEX = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_mexico } }
+				add_modifier = {
+					name = modern_country_power_mexico
+					duration = -1
+				}
+			}
+		}
+	}
+	### Turkey
+	if = {
+		limit = { exists = c:TUR }
+		c:TUR = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_turkey } }
+				add_modifier = {
+					name = modern_country_power_turkey
+					duration = -1
+				}
+			}
+		}
+	}
+	### Australia
+	if = {
+		limit = { exists = c:AST }
+		c:AST = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_australia } }
+				add_modifier = {
+					name = modern_country_power_australia
+					duration = -1
+				}
+			}
+		}
+	}
+	### Saudi Arabia
+	if = {
+		limit = { exists = c:NEJ }
+		c:NEJ = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_saudi_arabia } }
+				add_modifier = {
+					name = modern_country_power_saudi_arabia
+					duration = -1
+				}
+			}
+		}
+	}
+	### Spain
+	if = {
+		limit = { exists = c:SPA }
+		c:SPA = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_spain } }
+				add_modifier = {
+					name = modern_country_power_spain
+					duration = -1
+				}
+			}
+		}
+	}
+	### Iran
+	if = {
+		limit = { exists = c:PER }
+		c:PER = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_iran } }
+				add_modifier = {
+					name = modern_country_power_iran
+					duration = -1
+				}
+			}
+		}
+	}
+	### Poland
+	if = {
+		limit = { exists = c:POL }
+		c:POL = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_poland } }
+				add_modifier = {
+					name = modern_country_power_poland
+					duration = -1
+				}
+			}
+		}
+	}
+	### Netherlands
+	if = {
+		limit = { exists = c:NET }
+		c:NET = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_netherlands } }
+				add_modifier = {
+					name = modern_country_power_netherlands
+					duration = -1
+				}
+			}
+		}
+	}
+	### Nigeria
+	if = {
+		limit = { exists = c:NGE }
+		c:NGE = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_nigeria } }
+				add_modifier = {
+					name = modern_country_power_nigeria
+					duration = -1
+				}
+			}
+		}
+	}
+	### Israel
+	if = {
+		limit = { exists = c:ISR }
+		c:ISR = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_israel } }
+				add_modifier = {
+					name = modern_country_power_israel
+					duration = -1
+				}
+			}
+		}
+	}
+	### Egypt
+	if = {
+		limit = { exists = c:EGY }
+		c:EGY = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_egypt } }
+				add_modifier = {
+					name = modern_country_power_egypt
+					duration = -1
+				}
+			}
+		}
+	}
+	### Pakistan
+	if = {
+		limit = { exists = c:PAK }
+		c:PAK = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_pakistan } }
+				add_modifier = {
+					name = modern_country_power_pakistan
+					duration = -1
+				}
+			}
+		}
+	}
+	### Vietnam
+	if = {
+		limit = { exists = c:DAI }
+		c:DAI = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_vietnam } }
+				add_modifier = {
+					name = modern_country_power_vietnam
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = { exists = c:NVM }
+		c:NVM = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_vietnam } }
+				add_modifier = {
+					name = modern_country_power_vietnam
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = { exists = c:SVM }
+		c:SVM = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_vietnam } }
+				add_modifier = {
+					name = modern_country_power_vietnam
+					duration = -1
+				}
+			}
+		}
+	}
+	### Philippines
+	if = {
+		limit = { exists = c:PHI }
+		c:PHI = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_philippines } }
+				add_modifier = {
+					name = modern_country_power_philippines
+					duration = -1
+				}
+			}
+		}
+	}
+	### Bangladesh
+	if = {
+		limit = { exists = c:BNG }
+		c:BNG = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_bangladesh } }
+				add_modifier = {
+					name = modern_country_power_bangladesh
+					duration = -1
+				}
+			}
+		}
+	}
+	### South Africa
+	if = {
+		limit = { exists = c:RSA }
+		c:RSA = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_south_africa } }
+				add_modifier = {
+					name = modern_country_power_south_africa
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = { exists = c:SAF }
+		c:SAF = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_south_africa } }
+				add_modifier = {
+					name = modern_country_power_south_africa
+					duration = -1
+				}
+			}
+		}
+	}
+	### Argentina
+	if = {
+		limit = { exists = c:ARG }
+		c:ARG = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_argentina } }
+				add_modifier = {
+					name = modern_country_power_argentina
+					duration = -1
+				}
+			}
+		}
+	}
+	### Thailand
+	if = {
+		limit = { exists = c:THI }
+		c:THI = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_thailand } }
+				add_modifier = {
+					name = modern_country_power_thailand
+					duration = -1
+				}
+			}
+		}
+	}
+	### Malaysia
+	if = {
+		limit = { exists = c:MSY }
+		c:MSY = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_malaysia } }
+				add_modifier = {
+					name = modern_country_power_malaysia
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = { exists = c:MLY }
+		c:MLY = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_malaysia } }
+				add_modifier = {
+					name = modern_country_power_malaysia
+					duration = -1
+				}
+			}
+		}
+	}
+	### Colombia
+	if = {
+		limit = { exists = c:CLM }
+		c:CLM = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_colombia } }
+				add_modifier = {
+					name = modern_country_power_colombia
+					duration = -1
+				}
+			}
+		}
+	}
+	### Algeria
+	if = {
+		limit = { exists = c:ALG }
+		c:ALG = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_algeria } }
+				add_modifier = {
+					name = modern_country_power_algeria
+					duration = -1
+				}
+			}
+		}
+	}
+	### Ethiopia
+	if = {
+		limit = { exists = c:ETH }
+		c:ETH = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_ethiopia } }
+				add_modifier = {
+					name = modern_country_power_ethiopia
+					duration = -1
+				}
+			}
+		}
+	}
+	### Ukraine
+	if = {
+		limit = { exists = c:UKR }
+		c:UKR = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_ukraine } }
+				add_modifier = {
+					name = modern_country_power_ukraine
+					duration = -1
+				}
+			}
+		}
+	}
+	### Democratic Republic of the Congo
+	if = {
+		limit = { exists = c:CNG }
+		c:CNG = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_dr_congo } }
+				add_modifier = {
+					name = modern_country_power_dr_congo
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = { exists = c:FCG }
+		c:FCG = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_dr_congo } }
+				add_modifier = {
+					name = modern_country_power_dr_congo
+					duration = -1
+				}
+			}
+		}
+	}
+	### Kenya
+	if = {
+		limit = { exists = c:KEN }
+		c:KEN = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_kenya } }
+				add_modifier = {
+					name = modern_country_power_kenya
+					duration = -1
+				}
+			}
+		}
+	}
+	### Kazakhstan
+	if = {
+		limit = { exists = c:KAZ }
+		c:KAZ = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_kazakhstan } }
+				add_modifier = {
+					name = modern_country_power_kazakhstan
+					duration = -1
+				}
+			}
+		}
+	}
+	### Peru
+	if = {
+		limit = { exists = c:PEU }
+		c:PEU = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_peru } }
+				add_modifier = {
+					name = modern_country_power_peru
+					duration = -1
+				}
+			}
+		}
+	}
+	### Singapore
+	if = {
+		limit = { exists = c:SGP }
+		c:SGP = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_singapore } }
+				add_modifier = {
+					name = modern_country_power_singapore
+					duration = -1
+				}
+			}
+		}
+	}
+	### United Arab Emirates
+	if = {
+		limit = { exists = c:UAE }
+		c:UAE = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_united_arab_emirates } }
+				add_modifier = {
+					name = modern_country_power_united_arab_emirates
+					duration = -1
+				}
+			}
+		}
+	}
+	### Panama
+	if = {
+		limit = { exists = c:PNM }
+		c:PNM = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_panama } }
+				add_modifier = {
+					name = modern_country_power_panama
+					duration = -1
+				}
+			}
+		}
+	}
+	### Luxembourg
+	if = {
+		limit = { exists = c:LUX }
+		c:LUX = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_luxembourg } }
+				add_modifier = {
+					name = modern_country_power_luxembourg
+					duration = -1
+				}
+			}
+		}
+	}
+	### Bahrain
+	if = {
+		limit = { exists = c:BHR }
+		c:BHR = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_bahrain } }
+				add_modifier = {
+					name = modern_country_power_bahrain
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = { exists = c:BHN }
+		c:BHN = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_bahrain } }
+				add_modifier = {
+					name = modern_country_power_bahrain
+					duration = -1
+				}
+			}
+		}
+	}
+	### Qatar
+	if = {
+		limit = { exists = c:QAT }
+		c:QAT = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_qatar } }
+				add_modifier = {
+					name = modern_country_power_qatar
+					duration = -1
+				}
+			}
+		}
+	}
+	### Kuwait
+	if = {
+		limit = { exists = c:KUW }
+		c:KUW = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_kuwait } }
+				add_modifier = {
+					name = modern_country_power_kuwait
+					duration = -1
+				}
+			}
+		}
+	}
+	### Norway
+	if = {
+		limit = { exists = c:NOR }
+		c:NOR = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_norway } }
+				add_modifier = {
+					name = modern_country_power_norway
+					duration = -1
+				}
+			}
+		}
+	}
+	### Brunei
+	if = {
+		limit = { exists = c:BRU }
+		c:BRU = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_brunei } }
+				add_modifier = {
+					name = modern_country_power_brunei
+					duration = -1
+				}
+			}
+		}
+	}
+	### Oman
+	if = {
+		limit = { exists = c:OMA }
+		c:OMA = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_oman } }
+				add_modifier = {
+					name = modern_country_power_oman
+					duration = -1
+				}
+			}
+		}
+	}
+	### Switzerland
+	if = {
+		limit = { exists = c:SWI }
+		c:SWI = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_switzerland } }
+				add_modifier = {
+					name = modern_country_power_switzerland
+					duration = -1
+				}
+			}
+		}
+	}
+	### Sweden
+	if = {
+		limit = { exists = c:SWE }
+		c:SWE = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_sweden } }
+				add_modifier = {
+					name = modern_country_power_sweden
+					duration = -1
+				}
+			}
+		}
+	}
+	### Belgium
+	if = {
+		limit = { exists = c:BEL }
+		c:BEL = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_belgium } }
+				add_modifier = {
+					name = modern_country_power_belgium
+					duration = -1
+				}
+			}
+		}
+	}
+	### Denmark
+	if = {
+		limit = { exists = c:DEN }
+		c:DEN = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_denmark } }
+				add_modifier = {
+					name = modern_country_power_denmark
+					duration = -1
+				}
+			}
+		}
+	}
+	### Ireland
+	if = {
+		limit = { exists = c:IRE }
+		c:IRE = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_ireland } }
+				add_modifier = {
+					name = modern_country_power_ireland
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = { exists = c:SIR }
+		c:SIR = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_ireland } }
+				add_modifier = {
+					name = modern_country_power_ireland
+					duration = -1
+				}
+			}
+		}
+	}
+	### Czechia
+	if = {
+		limit = { exists = c:BOH }
+		c:BOH = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_czechia } }
+				add_modifier = {
+					name = modern_country_power_czechia
+					duration = -1
+				}
+			}
+		}
+	}
+	if = {
+		limit = { exists = c:CZH }
+		c:CZH = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_czechia } }
+				add_modifier = {
+					name = modern_country_power_czechia
+					duration = -1
+				}
+			}
+		}
+	}
+	### New Zealand
+	if = {
+		limit = { exists = c:NZL }
+		c:NZL = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_new_zealand } }
+				add_modifier = {
+					name = modern_country_power_new_zealand
+					duration = -1
+				}
+			}
+		}
+	}
+	### Chile
+	if = {
+		limit = { exists = c:CHL }
+		c:CHL = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_chile } }
+				add_modifier = {
+					name = modern_country_power_chile
+					duration = -1
+				}
+			}
+		}
+	}
+	### Morocco
+	if = {
+		limit = { exists = c:MOR }
+		c:MOR = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_morocco } }
+				add_modifier = {
+					name = modern_country_power_morocco
+					duration = -1
+				}
+			}
+		}
+	}
+	### Iraq
+	if = {
+		limit = { exists = c:IRQ }
+		c:IRQ = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_iraq } }
+				add_modifier = {
+					name = modern_country_power_iraq
+					duration = -1
+				}
+			}
+		}
+	}
+	### Romania
+	if = {
+		limit = { exists = c:ROM }
+		c:ROM = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_romania } }
+				add_modifier = {
+					name = modern_country_power_romania
+					duration = -1
+				}
+			}
+		}
+	}
+}

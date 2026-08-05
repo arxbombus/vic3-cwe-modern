@@ -36,7 +36,7 @@ STATE_SICHUAN = {
     id = 480
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x0502BE" "x05195F" "x092323" "x09C8CB" "x0BAD6F" "x0D68E8" "x102905" "x11062E" "x11B3F7" "x12B742" "x143D50" "x154288" "x157E2E" "x162AC1" "x1C5B2A" "x1C8A07" "x2332C5" "x24A95A" "x25C936" "x28C7CA" "x2B4D74" "x2CC651" "x2F07EE" "x39A321" "x3E073E" "x411CFE" "x41F76A" "x42DB73" "x49C4AB" "x4BBCD9" "x4BEFB9" "x4C02B1" "x5056A4" "x509862" "x5304E5" "x59CA77" "x5B7400" "x5C8BAE" "x5D7F15" "x5F792D" "x60B060" "x60E0D5" "x654894" "x66015E" "x6E1C89" "x6FFCF0" "x710D15" "x735688" "x745C03" "x7511D0" "x787852" "x793905" "x7D9239" "x7F3356" "x7F900E" "x82755F" "x83A248" "x85F99B" "x87C535" "x891A77" "x8A6C0F" "x8B74E5" "x8C298E" "x8D0615" "x8F60D5" "x8FC46D" "x93091D" "x98345A" "x9F1EF5" "x9F88D3" "xA1C52B" "xA5D674" "xAD69D9" "xAE99AF" "xAF900C" "xB391A8" "xBAD952" "xBB4B6C" "xBC9630" "xBE3227" "xBE3ADF" "xBF0445" "xBFC5D3" "xC38352" "xC3C67F" "xC5FA12" "xC943C3" "xC97B8A" "xCAEF49" "xCCB937" "xD3C3F5" "xD57DC5" "xD7D182" "xD91B4A" "xDDCBB6" "xE0B060" "xE9438D" "xEA3DB0" "xF0F6C5" "xF47E4A" "xF64FC1" "xF6FED1" "xF72ADD" "xFF933F" }
-    traits = { "state_trait_yangtze_river" "state_trait_the_red_basin" "state_trait_ai_china_sichuan" }
+    traits = { "state_trait_yangtze_river" "state_trait_the_red_basin" "state_trait_modern_china_sichuan" }
     city = "x60E0D5"
     farm = "x28C7CA"
     mine = "xF0F6C5"
@@ -164,7 +164,7 @@ STATE_BEIJING = {
     id = 487
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x038690" "x0DC804" "x0E8D56" "x0F5604" "x0F88C8" "x132B15" "x15C9C0" "x166F01" "x1DE6DF" "x1E1B11" "x20642C" "x2167D8" "x231686" "x248784" "x2AD313" "x2BA1CE" "x2C0AC4" "x2F7E73" "x3A340B" "x3C6EFC" "x3CFF20" "x3E9C33" "x3F46FB" "x49C04A" "x4BECCA" "x4ED08B" "x58AFAC" "x5D4C2D" "x5F795B" "x61E0DD" "x6376AC" "x6583A6" "x6A5736" "x6AB0FB" "x74A475" "x74DF28" "x762B45" "x777A4F" "x84B446" "x88FF71" "x89DBF2" "x8D47D0" "x9BB46B" "xA0662C" "xA8C9D2" "xAA031A" "xAF5387" "xB00D9D" "xB17E6B" "xB6039C" "xB9FF8C" "xBCF72D" "xBDC299" "xC7BB4D" "xC905ED" "xCC917E" "xCDCDEE" "xD13996" "xD1BFAF" "xD4E0E8" "xE60560" "xED840A" "xF151F1" "xF1EF03" "xF4B72A" "xFBDEDF" }
-    traits = { "state_trait_kaiping_coalfield" "state_trait_ai_china_beijing" }
+    traits = { "state_trait_kaiping_coalfield" "state_trait_modern_china_beijing" }
     city = "x9BB46B"
     port = "xB00D9D"
     farm = "xB00D9D"
@@ -399,7 +399,7 @@ STATE_GUANGDONG = {
 "x7131E0" "x85E0D4" "x8C9358" "x9A21B1"         # "xA92B88"
 "xA9B6D4" "xB031E0" "xB0B061" "xC77200"         #  "xCB457A" "xDC137A" 
 "xF0B061" "xF98B04" "xFEBFD5" }
-    traits = { "state_trait_pearl_river" "state_trait_natural_harbors" "state_trait_ai_china_western_guangdong" }
+    traits = { "state_trait_pearl_river" "state_trait_natural_harbors" "state_trait_modern_china_western_guangdong" }
     city = "x2BDE7B"
     port = "xB031E0"
     farm = "xFEBFD5"
@@ -450,7 +450,7 @@ STATE_ZHEJIANG = {
         building_fishing_wharf = 11
     }
     naval_exit_id = 3058
-    traits = { "state_trait_ai_china_zhejiang" }
+    traits = { "state_trait_modern_china_zhejiang" }
 }
 
 STATE_JIANGSU = {
@@ -469,14 +469,14 @@ STATE_JIANGSU = {
         building_fishing_wharf = 8
     }
     naval_exit_id = 3138
-    traits = { "state_trait_ai_china_jiangsu" }
+    traits = { "state_trait_modern_china_jiangsu" }
 }
 
 STATE_NANJING = {
     id = 501
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x0A91BF" "x11A5D0" "x515790" "x8111D0" "xADEC31" "xE07161" "xF14A5E" }
-    traits = { "state_trait_yangtze_river" "state_trait_ai_china_nanjing" }
+    traits = { "state_trait_yangtze_river" "state_trait_modern_china_nanjing" }
     city = "x8111D0"
     farm = "x8111D0"
     mine = "x0A91BF"
@@ -654,7 +654,7 @@ STATE_SHANDONG = {
     id = 511
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x115180" "x16E6F3" "x175EC6" "x1ABD79" "x1D4C25" "x2EF696" "x32CFB2" "x33490F" "x38A73B" "x39F708" "x41FB70" "x4724A9" "x483CDB" "x498F0D" "x50D040" "x55944E" "x599BC4" "x6B8F67" "x6BFF52" "x6DA6F9" "x71C085" "x798677" "x8064F0" "x83EC09" "x90D001" "x9D1474" "xA0CF65" "xAB53A3" "xAC24A6" "xAEDF9B" "xB33A36" "xBAA1D3" "xC13552" "xC14ECA" "xC55E74" "xCF50BF" "xE01180" "xE19708" "xF07810" "xF2D180" }
-    traits = { "state_trait_yellow_river" "state_trait_ai_china_shandong" }
+    traits = { "state_trait_yellow_river" "state_trait_modern_china_shandong" }
     city = "x9D1474"
     port = "xAC24A6"
     farm = "x599BC4"
@@ -678,7 +678,7 @@ STATE_SUZHOU = {
     id = 512
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x301000" "x61F061" "x6E575B" "x86FF7E" "xB01101" "xD0D0C0" "xE9E92E" }
-    traits = { "state_trait_yangtze_river" "state_trait_natural_harbors" "state_trait_ai_china_suzhou" }
+    traits = { "state_trait_yangtze_river" "state_trait_natural_harbors" "state_trait_modern_china_suzhou" }
     city = "xB01101"
     port = "x301000"
     farm = "x86FF7E"
@@ -758,7 +758,7 @@ STATE_BANGKOK = {
     id = 516
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x060F5C" "x09DC04" "x10AFE0" "x154B0D" "x194621" "x20DFD0" "x2C4B2F" "x30EF20" "x541AFB" "x552E9A" "x5B0F13" "x98384C" "x99A1C0" "xA0084E" "xAA42AD" "xAD234F" "xADC4DA" "xCE49D1" "xDF3CAD" "xEEFF94" "xF36077" }
-    traits = { "state_trait_chao_phraya_delta" "state_trait_natural_harbors" "state_trait_ai_thailand_bangkok" }
+    traits = { "state_trait_chao_phraya_delta" "state_trait_natural_harbors" "state_trait_modern_thailand_bangkok" }
     city = "x10AFE0"
     port = "x10AFE0"
     farm = "x5B0F13"
@@ -781,7 +781,7 @@ STATE_TONKIN = {
     id = 517
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x32BFFB" "x36F847" "x4BB178" "x5083AB" "x5AB75C" "x60458E" "x61145A" "x64BE62" "x65FE48" "x70B09F" "x738D72" "x799EA4" "x7B8217" "x88BB78" "x98FD84" "xC37AF1" "xCD0D1D" "xCF906A" "xD27C1B" "xD49EE0" "xF031A0" "xF0B0A0" "xF0E531" }
-    traits = { "state_trait_indochinese_forest" "state_trait_quang_yen_coalfield" "state_trait_ai_vietnam_tonkin" }
+    traits = { "state_trait_indochinese_forest" "state_trait_quang_yen_coalfield" "state_trait_modern_vietnam_tonkin" }
     city = "xF0E531"
     port = "x4BB178"
     farm = "xF0B0A0"
@@ -805,7 +805,7 @@ STATE_ANNAM = {
     id = 518
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x0BE805" "x2A870A" "x307020" "x3070A0" "x5109BC" "x7A5ACC" "x9E5CF8" "xA01EF1" "xB070A0" "xC08B17" "xC46194" "xE63DDE" "xEDBFB1" "xEEB5DD" "xEF3060" "xF22C8B" "xFAB663" }
-    traits = { "state_trait_indochinese_forest" "state_trait_ai_vietnam_annam" }
+    traits = { "state_trait_indochinese_forest" "state_trait_modern_vietnam_annam" }
     city = "xB070A0"
     port = "xA01EF1"
     farm = "x2A870A"
@@ -831,7 +831,7 @@ STATE_MEKONG = {
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x00C0B0" "x0C662E" "x1C5BE6" "x1D9718" "x217F68" "x223DD3" "x246E58" "x248BCA" "x3C8C22" "x4080B0" "x474B0B" "x47ADCE" "x4923A3" "x58B174" "x5E16EB" "x5F0DAB" "x70B060" "x72E436" "x7D46C6" "x841E31" "xA4DBB7" "xB366DB" "xC080B0" "xD8BFF1" "xDF070D" "xE5A4DA" "xFD66E6" }
     prime_land = { "x246E58" "x4923A3" "x223DD3" "xDF070D" "x1D9718" "x4080B0" "x474B0B" "xE5A4DA" "x00C0B0" "x7D46C6" }
-    traits = { "state_trait_mekong_delta" "state_trait_indochinese_forest" "state_trait_ai_vietnam_mekong" }
+    traits = { "state_trait_mekong_delta" "state_trait_indochinese_forest" "state_trait_modern_vietnam_mekong" }
     city = "xE5A4DA"
     port = "xE5A4DA"
     farm = "x3C8C22"
@@ -887,14 +887,14 @@ STATE_CHIANG_MAI = {
         type = "building_rubber_plantation"
         undiscovered_amount = 4
     }
-    traits = { "state_trait_ai_thailand_chiang_mai" }
+    traits = { "state_trait_modern_thailand_chiang_mai" }
 }
 
 STATE_NAKHON_RATCHASIMA = {
     id = 522
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x01D94F" "x0A49C7" "x108DB4" "x1417E7" "x18C6F5" "x1CFFD0" "x23B4B7" "x29EB28" "x311E4F" "x37DC38" "x449632" "x45FABD" "x4B58FD" "x4E9753" "x50CE4E" "x56E44C" "x57E793" "x5C3070" "x62B39D" "x6BB1AD" "x6FC6A1" "x707020" "x732208" "x742F1F" "x8795AE" "x9030DF" "x934893" "x9E031E" "xA3D6B8" "xA4A851" "xB30E09" "xB48097" "xB9C742" "xBF6988" "xC90993" "xCD871B" "xEAD71D" "xF22DE6" "xFB1F7E" }
-    traits = { "state_trait_indochinese_forest" "state_trait_ai_thailand_nakhon_ratchasima" }
+    traits = { "state_trait_indochinese_forest" "state_trait_modern_thailand_nakhon_ratchasima" }
     city = "x37DC38"
     port = "x9030DF"
     farm = "x56E44C"
@@ -945,7 +945,7 @@ STATE_HOKKAIDO = {
     subsistence_building = "building_subsistence_pasture"
     provinces = { "x03E00D" "x103C2B" "x17C8CA" "x1E9A93" "x2090C0" "x210B6E" "x3974DA" "x3EA37A" "x40BDB8" "x413F60" "x420E86" "x493B76" "x5F2A24" "x6275D4" "x65D8B2" "x70C55B" "x85C158" "x86757A" "x9E56C2" "xA011C0" "xA090C0" "xC85C0C" "xEEB7F4" "xF17C01" }
     prime_land = { "xA090C0" "x40BDB8" "xF17C01" }
-    traits = { "state_trait_ishikari_coalfield" "state_trait_ishikari_wetlands_1" "state_trait_ai_japan_yezo" }
+    traits = { "state_trait_ishikari_coalfield" "state_trait_ishikari_wetlands_1" "state_trait_modern_japan_yezo" }
     city = "xA011C0"
     port = "xA090C0"
     farm = "x5F2A24"
@@ -997,7 +997,7 @@ STATE_TOHOKU = {
         undiscovered_amount = 4
     }
     naval_exit_id = 3059
-    traits = { "state_trait_ai_japan_tohoku" }
+    traits = { "state_trait_modern_japan_tohoku" }
 }
 
 STATE_KANTO = {
@@ -1005,7 +1005,7 @@ STATE_KANTO = {
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x478599" "x7010C0" "x709040" "x7090C0" "x787CC4"         # "x800111" 
 "xB94331" "xD350FB" "xEAE893" "xEF9040" "xF011C0" }
-    traits = { "state_trait_edo_bay" "state_trait_kanto_plain" "state_trait_ai_japan_kanto" }
+    traits = { "state_trait_edo_bay" "state_trait_kanto_plain" "state_trait_modern_japan_kanto" }
     center_province = "xEF9040"
     city = "xEF9040"
     port = "x7010C0"
@@ -1048,7 +1048,7 @@ STATE_TOKAI = {
         undiscovered_amount = 1
     }
     naval_exit_id = 3086
-    traits = { "state_trait_ai_japan_tokai" }
+    traits = { "state_trait_modern_japan_tokai" }
 }
 
 STATE_HOKUSHINETSU = {
@@ -1082,7 +1082,7 @@ STATE_KANSAI = {
     id = 532
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x305040" "x614287" "x70D040" "x9E58B2" "xB03EF0" "xB0D0C0" }
-    traits = { "state_trait_nara_basin" "state_trait_seto_inland_sea" "state_trait_ai_japan_osaka" }
+    traits = { "state_trait_nara_basin" "state_trait_seto_inland_sea" "state_trait_modern_japan_osaka" }
     city = "xB03EF0"
     port = "x70D040"
     farm = "x305040"
@@ -1105,7 +1105,7 @@ STATE_KYOTO = {
     id = 930
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x705040" "x879C25" "x8EC4C9" "x9BD7C1" }
-    traits = { "state_trait_ai_japan_kyoto" }
+    traits = { "state_trait_modern_japan_kyoto" }
     city = "x705040"
     port = "x879C25"
     farm = "x8EC4C9"
@@ -1127,7 +1127,7 @@ STATE_KYUSHU = {
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x1F0D2C" "x5C7980" "x705080" "x70CF00" "x70D080" "x73414A" "x906F1E" "xAE5874" "xCEA020" "xE16F98" "xEF5080" "xF0D000" }
     center_province = "x705080"
-    traits = { "state_trait_chikuho_coalfield" "state_trait_nagasaki_bay" "state_trait_ai_japan_kyushu" }
+    traits = { "state_trait_chikuho_coalfield" "state_trait_nagasaki_bay" "state_trait_modern_japan_kyushu" }
     city = "x70CF00"
     port = "xAE5874"
     farm = "xCEA020"
@@ -1172,7 +1172,7 @@ STATE_CHUGOKU = {
     id = 534
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x1151C0" "x715101" "x77D64C" "x89FD28" "xA287B0" "xB49AFB" "xC8AE5C" "xF05001" }
-    traits = { "state_trait_seto_inland_sea" "state_trait_ai_japan_chugoku" }
+    traits = { "state_trait_seto_inland_sea" "state_trait_modern_japan_chugoku" }
     city = "x715101"
     port = "x715101"
     farm = "x1151C0"
@@ -1234,7 +1234,7 @@ STATE_SEOUL = {
         building_gold_mine = 2
     }
     naval_exit_id = 3138
-    traits = { "state_trait_ai_south_korea_gyeonggi" }
+    traits = { "state_trait_modern_south_korea_gyeonggi" }
 }
 
 STATE_BUSAN = {
@@ -1258,7 +1258,7 @@ STATE_BUSAN = {
         building_fishing_wharf = 11
     }
     naval_exit_id = 3058
-    traits = { "state_trait_ai_south_korea_yeongnam" }
+    traits = { "state_trait_modern_south_korea_yeongnam" }
 }
 
 STATE_YANGHO = {
@@ -1266,7 +1266,7 @@ STATE_YANGHO = {
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x34B782" "x8ACAAA" "xA48A8B" "xAE0221" "xB0D000"         # "xB0D080" 
 "xBC0C5A" "xC81C12" "xD42CA8" "xF09080" "xF91D98" }
-    traits = { "state_trait_honam_plain" "state_trait_ai_south_korea_yangho" }
+    traits = { "state_trait_honam_plain" "state_trait_modern_south_korea_yangho" }
     city = "xF91D98"
     port = "x8ACAAA"
     farm = "x8ACAAA"

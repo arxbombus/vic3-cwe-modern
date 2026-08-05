@@ -12,7 +12,7 @@
         building_coal_mine = 24
         building_logging_camp = 8
     }
-    traits = { "state_trait_ai_poland_plock" }
+    traits = { "state_trait_modern_poland_plock" }
 }
 
 STATE_LOWER_SILESIA = {
@@ -39,7 +39,7 @@ STATE_UPPER_SILESIA = {
     id = 924
     subsistence_building = "building_subsistence_farm"
     provinces = { "x5E9091" "x7B2F62" "x821F52" "x88194B" "x90B12B" "xAF9F20" }
-    traits = { "state_trait_oder_river" "state_trait_upper_silesia_coalfield" "state_trait_ai_poland_upper_silesia" }
+    traits = { "state_trait_oder_river" "state_trait_upper_silesia_coalfield" "state_trait_modern_poland_upper_silesia" }
     city = "x90B12B"
     farm = "xAF9F20"
     mine = "x821F52"
@@ -71,7 +71,7 @@ STATE_GREATER_POLAND = {
         building_lead_mine = 24
         building_logging_camp = 9
     }
-    traits = { "state_trait_ai_poland_warszawa" }
+    traits = { "state_trait_modern_poland_warszawa" }
 }
 
 STATE_LESSER_POLAND = {
@@ -90,7 +90,7 @@ STATE_LESSER_POLAND = {
         building_sulfur_mine = 32
         building_logging_camp = 13
     }
-    traits = { "state_trait_ai_poland_lublin" }
+    traits = { "state_trait_modern_poland_lublin" }
 }
 
 STATE_WEST_PRUSSIA = {
@@ -129,7 +129,7 @@ STATE_EAST_PRUSSIA = {
         building_fishing_wharf = 10
     }
     naval_exit_id = 3074
-    traits = { "state_trait_ai_poland_east_prussia" }
+    traits = { "state_trait_modern_poland_east_prussia" }
 }
 
 STATE_POSEN = {
@@ -146,7 +146,7 @@ STATE_POSEN = {
         building_iron_mine = 24
         building_logging_camp = 9
     }
-    traits = { "state_trait_ai_poland_posen" }
+    traits = { "state_trait_modern_poland_posen" }
 }
 
 STATE_WEST_GALICIA = {
@@ -169,7 +169,7 @@ STATE_WEST_GALICIA = {
         type = "building_oil_rig"
         undiscovered_amount = 60
     }
-    traits = { "state_trait_ai_poland_west_galicia" }
+    traits = { "state_trait_modern_poland_west_galicia" }
 }
 
 STATE_EAST_GALICIA = {
@@ -190,7 +190,7 @@ STATE_EAST_GALICIA = {
         type = "building_oil_rig"
         undiscovered_amount = 100
     }
-    traits = { "state_trait_ai_ukraine_east_galicia" }
+    traits = { "state_trait_modern_ukraine_east_galicia" }
 }
 
 STATE_CENTRAL_HUNGARY = {
@@ -384,7 +384,7 @@ STATE_BUKOVINA = {
         building_coal_mine = 3
         building_logging_camp = 7
     }
-    traits = { "state_trait_ai_ukraine_bukovina" }
+    traits = { "state_trait_modern_ukraine_bukovina" }
 }
 
 STATE_WALLACHIA = {
@@ -426,5 +426,5 @@ STATE_BESSARABIA = {
         building_fishing_wharf = 9
     }
     naval_exit_id = 3036
-    traits = { "state_trait_ai_ukraine_bessarabia" }
+    traits = { "state_trait_modern_ukraine_bessarabia" }
 }

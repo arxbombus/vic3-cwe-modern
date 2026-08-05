@@ -1,0 +1,14 @@
+### Monthly fallback for countries released or formed after game start.
+### This appends a custom child on_action rather than replacing vanilla monthly logic.
+
+on_monthly_pulse = {
+	on_actions = {
+		modern_country_power_monthly
+	}
+}
+
+modern_country_power_monthly = {
+	effect = {
+		modern_apply_country_power_modifiers = yes
+	}
+}

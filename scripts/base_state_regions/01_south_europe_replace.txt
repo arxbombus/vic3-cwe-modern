@@ -2,7 +2,7 @@
     id = 76
     subsistence_building = "building_subsistence_farm"
     provinces = { "x3F1E38" "x4713EE" "x50C060" "x70B8A9" "x867A90" "x9AC196" "xA40CE9" "xD04060" }
-    traits = { "state_trait_po_river" "state_trait_ai_italy_lombardy" }
+    traits = { "state_trait_po_river" "state_trait_modern_italy_lombardy" }
     city = "xD04060"
     farm = "x867A90"
     mine = "x3F1E38"
@@ -24,7 +24,7 @@ STATE_PIEDMONT = {
     id = 77
     subsistence_building = "building_subsistence_rice_farm"
     provinces = { "x1140E0" "x11C061" "x54728A" "x5F6BAA" "x904061" "x90C060" "xA9397D" "xAA6958" "xACB500" "xD080E0" "xDA86EA" "xF00544" }
-    traits = { "state_trait_po_river" "state_trait_ai_italy_piedmont" }
+    traits = { "state_trait_po_river" "state_trait_modern_italy_piedmont" }
     city = "xA9397D"
     port = "x904061"
     farm = "x11C061"
@@ -117,7 +117,7 @@ STATE_CORSICA = {
         building_fishing_wharf = 7
     }
     naval_exit_id = 3098
-    traits = { "state_trait_ai_france_corsica" }
+    traits = { "state_trait_modern_france_corsica" }
 }
 
 STATE_CAMPANIA = {
@@ -136,7 +136,7 @@ STATE_CAMPANIA = {
         building_fishing_wharf = 10
     }
     naval_exit_id = 3102
-    traits = { "state_trait_ai_italy_campania" }
+    traits = { "state_trait_modern_italy_campania" }
 }
 
 STATE_CALABRIA = {
@@ -232,13 +232,13 @@ STATE_EMILIA = {
         building_fishing_wharf = 3
     }
     naval_exit_id = 3098
-    traits = { "state_trait_ai_italy_emilia" }
+    traits = { "state_trait_modern_italy_emilia" }
 }
 
 STATE_TUSCANY = {
     id = 88
     subsistence_building = "building_subsistence_farm"
-    traits = { "state_trait_great_terroir" "state_trait_ai_italy_tuscany" }
+    traits = { "state_trait_great_terroir" "state_trait_modern_italy_tuscany" }
     provinces = { "x32BA1A" "x6A7662" "x7080A0" "xB04020" "xF12431" "xFAFCD4" }
     city = "xFAFCD4"
     port = "x6A7662"
@@ -273,7 +273,7 @@ STATE_ROMAGNA = {
         building_fishing_wharf = 6
     }
     naval_exit_id = 3093
-    traits = { "state_trait_ai_italy_romagna" }
+    traits = { "state_trait_modern_italy_romagna" }
 }
 
 STATE_LAZIO = {
@@ -292,14 +292,14 @@ STATE_LAZIO = {
         building_fishing_wharf = 7
     }
     naval_exit_id = 3102
-    traits = { "state_trait_ai_italy_lazio" }
+    traits = { "state_trait_modern_italy_lazio" }
 }
 
 STATE_VENETIA = {
     id = 91
     subsistence_building = "building_subsistence_farm"
     provinces = { "x3080A0" "x3083C8" "x5141E0" "x554866" "x605424" "x6984B4" "x8EEB7A" "xB001A0" "xB080A0" "xC02A3F" }
-    traits = { "state_trait_po_river" "state_trait_venetian_lagoon" "state_trait_ai_italy_venetia" }
+    traits = { "state_trait_po_river" "state_trait_venetian_lagoon" "state_trait_modern_italy_venetia" }
     city = "x3083C8"
     port = "xB001A0"
     farm = "x5141E0"
@@ -320,7 +320,7 @@ STATE_SICILY = {
     id = 92
     subsistence_building = "building_subsistence_farm"
     provinces = { "x00D020" "x702CA8" "x805120" "x8A0548" "xB7B8F1" "xC090A0" "xF0AF66" }
-    traits = { "state_trait_sicilian_sulfur_mines" "state_trait_ai_italy_sicily" }
+    traits = { "state_trait_sicilian_sulfur_mines" "state_trait_modern_italy_sicily" }
     city = "xF0AF66"
     port = "x805120"
     farm = "x00D020"
@@ -340,7 +340,7 @@ STATE_NEW_CASTILE = {
     id = 93
     subsistence_building = "building_subsistence_farm"
     provinces = { "x093A56" "x2B550F" "x302080" "x41C3FC" "x73D6A9" "x8010A0" "x88CEE5" "x89CA9E" "x92DDDA" "xA1BEC2" "xB0A000" "xB0A080" "xB5194A" "xCAA3E1" "xDCD24C" "xF44640" "xF693FD" "xF841E6" }
-    traits = { "state_trait_tagus_river" "state_trait_ai_spain_new_castile" }
+    traits = { "state_trait_tagus_river" "state_trait_modern_spain_new_castile" }
     city = "xDCD24C"
     farm = "xB0A000"
     mine = "x8010A0"
@@ -359,7 +359,7 @@ STATE_GALICIA = {
     id = 94
     subsistence_building = "building_subsistence_farm"
     provinces = { "x0EA604" "x167F12" "x33F984" "x50E040" "x583E92" "xB85939" "xD03554" "xD0E040" }
-    traits = { "state_trait_ria_of_ferrol" "state_trait_ai_spain_galicia" }
+    traits = { "state_trait_ria_of_ferrol" "state_trait_modern_spain_galicia" }
     city = "xD0E040"
     port = "xB85939"
     farm = "x50E040"
@@ -425,7 +425,7 @@ STATE_BASQUE_COUNTRY = {
     id = 96
     subsistence_building = "building_subsistence_farm"
     provinces = { "x10E0C0" "x48868C" "x702080" "x9EC9B8" "xABE0B3" }
-    traits = { "state_trait_somorrostro_valley" "state_trait_great_terroir" "state_trait_ai_spain_basque_country" }
+    traits = { "state_trait_somorrostro_valley" "state_trait_great_terroir" "state_trait_modern_spain_basque_country" }
     city = "xABE0B3"
     port = "x48868C"
     farm = "x10E0C0"
@@ -459,7 +459,7 @@ STATE_ARAGON = {
         building_iron_mine = 5
         building_logging_camp = 8
     }
-    traits = { "state_trait_ai_spain_aragon" }
+    traits = { "state_trait_modern_spain_aragon" }
 }
 
 STATE_CATALONIA = {
@@ -481,7 +481,7 @@ STATE_CATALONIA = {
         building_fishing_wharf = 12
     }
     naval_exit_id = 3098
-    traits = { "state_trait_ai_spain_catalonia" }
+    traits = { "state_trait_modern_spain_catalonia" }
 }
 
 STATE_BALEARIC_ISLANDS = {
@@ -507,7 +507,7 @@ STATE_LOWER_ANDALUSIA = {
     id = 100
     subsistence_building = "building_subsistence_farm"
     provinces = { "x2B6ABC" "x3C4E5B" "x4A1438" "x4E5464" "x53634F" "x58E3EB" "x59202C" "x801020" "x809020" "x911497" "xB1108A" "xD06000" }
-    traits = { "state_trait_guadalquivir" "state_trait_bay_of_cadiz" "state_trait_riotinto_basin" "state_trait_ai_spain_lower_andalusia" }
+    traits = { "state_trait_guadalquivir" "state_trait_bay_of_cadiz" "state_trait_riotinto_basin" "state_trait_modern_spain_lower_andalusia" }
     city = "x4A1438"
     port = "xB1108A"
     farm = "x3C4E5B"
@@ -582,7 +582,7 @@ STATE_VALENCIA = {
         building_fishing_wharf = 10
     }
     naval_exit_id = 3032
-    traits = { "state_trait_ai_spain_valencia" }
+    traits = { "state_trait_modern_spain_valencia" }
 }
 
 STATE_BEIRA = {
@@ -729,7 +729,7 @@ STATE_MADEIRA = {
 STATE_EASTERN_THRACE = {
     id = 108
     subsistence_building = "building_subsistence_farm"
-    traits = { "state_trait_bosporus" "state_trait_ai_turkey_istanbul" }
+    traits = { "state_trait_bosporus" "state_trait_modern_turkey_istanbul" }
     provinces = { "x115006" "x194E90" "x2073F0" "x608BB0" "xF02082" "xF0A020" "xFCF160" }
     city = "xF0A020"
     port = "x2073F0"

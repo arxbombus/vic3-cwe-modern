@@ -32,6 +32,9 @@ Examples:
         --resource oil=3 \
         --arable-land 2
 
+    WINDOWS
+    uv run python .\scripts\modify_state_resources.py .\scripts\base_state_regions -o .\map_data\state_regions\ --resource iron=2.5 --resource coal=2.5 --resource lead=2.5 --resource sulfur=2 --resource oil=2.5 --resource gold=2 --arable-land 1.25
+
 Specific resource rules override an ``all`` rule. ``--arable-land`` independently
 multiplies every active ``arable_land = ...`` value and may be used by itself or
 alongside resource rules. By default, directory mode:
@@ -85,7 +88,6 @@ RESOURCE_ALIASES: dict[str, frozenset[str]] = {
     "coal": frozenset({"building_coal_mine"}),
     "lead": frozenset({"building_lead_mine"}),
     "sulfur": frozenset({"building_sulfur_mine"}),
-    "sulphur": frozenset({"building_sulfur_mine"}),
     "gold": frozenset({"building_gold_field", "building_gold_mine"}),
     "oil": frozenset({"building_oil_rig"}),
     "rubber": frozenset({"building_rubber_plantation"}),
@@ -95,17 +97,6 @@ RESOURCE_ALIASES: dict[str, frozenset[str]] = {
     "fish": frozenset({"building_fishing_wharf"}),
     "whaling": frozenset({"building_whaling_station"}),
     "whales": frozenset({"building_whaling_station"}),
-    "copper": frozenset({"building_copper_mine"}),
-    "bauxite": frozenset({"building_bauxite_mine"}),
-    "silicon": frozenset({"building_silicon_mine"}),
-    "rare_earth": frozenset({"building_rare_earth_elements_mine"}),
-    "rare_earths": frozenset({"building_rare_earth_elements_mine"}),
-    "uranium": frozenset({"building_uranium_mine"}),
-    "phosphorus": frozenset({"building_phosphorus_mine"}),
-    "phosphate": frozenset({"building_phosphorus_mine"}),
-    "precious_minerals": frozenset({"building_precious_minerals_mine"}),
-    "natural_gas": frozenset({"building_natural_gas_rig"}),
-    "gas": frozenset({"building_natural_gas_rig"}),
 }
 
 

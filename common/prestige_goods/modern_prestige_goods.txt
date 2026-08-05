@@ -1,0 +1,85 @@
+# Unique Tier-I prestige goods for selected flagship companies
+
+prestige_good_modern_apple_devices = {
+	base_good = computers
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/mobile_devices.dds"
+}
+
+prestige_good_modern_huawei_networks = {
+	base_good = telecommunications
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/ericsson_apparatus_prestige.dds"
+}
+
+prestige_good_modern_tata_vehicles = {
+	base_good = automobiles
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/tata_automobiles_prestige.dds"
+}
+
+prestige_good_modern_german_precision_vehicles = {
+	base_good = automobiles
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/prestige_good_german_automobiles.dds"
+}
+
+prestige_good_modern_toyota_hybrids = {
+	base_good = automobiles
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/japanese_automobiles_prestige.dds"
+}
+
+prestige_good_modern_rolls_royce_engines = {
+	base_good = engines
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/schichau_engines_prestige.dds"
+}
+
+prestige_good_modern_airbus_airliners = {
+	base_good = aeroplanes
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/airliner.dds"
+}
+
+prestige_good_modern_russian_missile_systems = {
+	base_good = advanced_weaponry
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/advanced_weaponry.dds"
+}
+
+prestige_good_modern_embraer_jets = {
+	base_good = aeroplanes
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/airliner.dds"
+}
+
+prestige_good_modern_pertamina_fuels = {
+	base_good = oil
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/baku_oil_prestige.dds"
+}
+
+prestige_good_modern_italian_luxury_goods = {
+	base_good = clothes
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_clothes_prestige.dds"
+}
+
+prestige_good_modern_canadian_energy = {
+	base_good = oil
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/baku_oil_prestige.dds"
+}
+
+prestige_good_modern_samsung_semiconductors = {
+	base_good = circuit_boards
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/computer_chip.dds"
+}
+
+prestige_good_modern_aramco_crude = {
+	base_good = oil
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/baku_oil_prestige.dds"
+}

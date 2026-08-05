@@ -1,11 +1,11 @@
 # Generated AI state traits for boosted contemporary powers
 
 # 1. United States
-state_trait_ai_united_states_california = {
+state_trait_modern_united_states_california = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.5
-        state_construction_mult = 1
+        state_construction_mult = 1.5
         state_standard_of_living_add = 10
         state_birth_rate_mult = 0.6
         state_education_access_add = 0.375
@@ -24,11 +24,11 @@ state_trait_ai_united_states_california = {
     }
 }
 
-state_trait_ai_united_states_new_york = {
+state_trait_modern_united_states_new_york = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.4
-        state_construction_mult = 0.8
+        state_construction_mult = 1.2
         state_standard_of_living_add = 9.25
         state_birth_rate_mult = 0.41
         state_education_access_add = 0.3
@@ -48,11 +48,11 @@ state_trait_ai_united_states_new_york = {
     }
 }
 
-state_trait_ai_united_states_texas = {
+state_trait_modern_united_states_texas = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -69,11 +69,11 @@ state_trait_ai_united_states_texas = {
     }
 }
 
-state_trait_ai_united_states_illinois = {
+state_trait_modern_united_states_illinois = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -87,11 +87,11 @@ state_trait_ai_united_states_illinois = {
     }
 }
 
-state_trait_ai_united_states_massachusetts = {
+state_trait_modern_united_states_massachusetts = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -105,11 +105,11 @@ state_trait_ai_united_states_massachusetts = {
     }
 }
 
-state_trait_ai_united_states_southern_columbia = {
+state_trait_modern_united_states_southern_columbia = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -124,11 +124,11 @@ state_trait_ai_united_states_southern_columbia = {
     }
 }
 
-state_trait_ai_united_states_florida = {
+state_trait_modern_united_states_florida = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -142,11 +142,11 @@ state_trait_ai_united_states_florida = {
     }
 }
 
-state_trait_ai_united_states_virginia = {
+state_trait_modern_united_states_virginia = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -161,11 +161,11 @@ state_trait_ai_united_states_virginia = {
 
 
 # 2. China
-state_trait_ai_china_beijing = {
+state_trait_modern_china_beijing = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.4
-        state_construction_mult = 0.8
+        state_construction_mult = 1.2
         state_standard_of_living_add = 9.25
         state_birth_rate_mult = 0.41
         state_education_access_add = 0.3
@@ -184,11 +184,11 @@ state_trait_ai_china_beijing = {
     }
 }
 
-state_trait_ai_china_jiangsu = {
+state_trait_modern_china_jiangsu = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -204,11 +204,11 @@ state_trait_ai_china_jiangsu = {
     }
 }
 
-state_trait_ai_china_western_guangdong = {
+state_trait_modern_china_western_guangdong = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -227,11 +227,11 @@ state_trait_ai_china_western_guangdong = {
     }
 }
 
-state_trait_ai_china_suzhou = {
+state_trait_modern_china_suzhou = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -247,11 +247,11 @@ state_trait_ai_china_suzhou = {
     }
 }
 
-state_trait_ai_china_nanjing = {
+state_trait_modern_china_nanjing = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -266,11 +266,11 @@ state_trait_ai_china_nanjing = {
     }
 }
 
-state_trait_ai_china_shandong = {
+state_trait_modern_china_shandong = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -284,11 +284,11 @@ state_trait_ai_china_shandong = {
     }
 }
 
-state_trait_ai_china_sichuan = {
+state_trait_modern_china_sichuan = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -301,11 +301,11 @@ state_trait_ai_china_sichuan = {
     }
 }
 
-state_trait_ai_china_zhejiang = {
+state_trait_modern_china_zhejiang = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -321,11 +321,11 @@ state_trait_ai_china_zhejiang = {
 
 
 # 3. India
-state_trait_ai_india_delhi = {
+state_trait_modern_india_delhi = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.4
-        state_construction_mult = 0.8
+        state_construction_mult = 1.2
         state_standard_of_living_add = 9.25
         state_birth_rate_mult = 0.41
         state_education_access_add = 0.3
@@ -344,11 +344,11 @@ state_trait_ai_india_delhi = {
     }
 }
 
-state_trait_ai_india_bombay = {
+state_trait_modern_india_bombay = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -367,11 +367,11 @@ state_trait_ai_india_bombay = {
     }
 }
 
-state_trait_ai_india_west_bengal = {
+state_trait_modern_india_west_bengal = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -388,11 +388,11 @@ state_trait_ai_india_west_bengal = {
     }
 }
 
-state_trait_ai_india_mysore = {
+state_trait_modern_india_mysore = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -407,11 +407,11 @@ state_trait_ai_india_mysore = {
     }
 }
 
-state_trait_ai_india_gujarat = {
+state_trait_modern_india_gujarat = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -425,11 +425,11 @@ state_trait_ai_india_gujarat = {
     }
 }
 
-state_trait_ai_india_carnatic = {
+state_trait_modern_india_carnatic = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -443,11 +443,11 @@ state_trait_ai_india_carnatic = {
     }
 }
 
-state_trait_ai_india_hyderabad = {
+state_trait_modern_india_hyderabad = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -461,11 +461,11 @@ state_trait_ai_india_hyderabad = {
     }
 }
 
-state_trait_ai_india_agra = {
+state_trait_modern_india_agra = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -478,11 +478,11 @@ state_trait_ai_india_agra = {
     }
 }
 
-state_trait_ai_india_bihar = {
+state_trait_modern_india_bihar = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -497,11 +497,11 @@ state_trait_ai_india_bihar = {
 
 
 # 4. Germany
-state_trait_ai_germany_ruhr = {
+state_trait_modern_germany_ruhr = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.5
-        state_construction_mult = 1
+        state_construction_mult = 1.5
         state_standard_of_living_add = 10
         state_birth_rate_mult = 0.49
         state_education_access_add = 0.375
@@ -519,11 +519,11 @@ state_trait_ai_germany_ruhr = {
     }
 }
 
-state_trait_ai_germany_bavaria = {
+state_trait_modern_germany_bavaria = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -539,11 +539,11 @@ state_trait_ai_germany_bavaria = {
     }
 }
 
-state_trait_ai_germany_brandenburg = {
+state_trait_modern_germany_brandenburg = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -558,11 +558,11 @@ state_trait_ai_germany_brandenburg = {
     }
 }
 
-state_trait_ai_germany_baden = {
+state_trait_modern_germany_baden = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -576,11 +576,11 @@ state_trait_ai_germany_baden = {
     }
 }
 
-state_trait_ai_germany_saxony = {
+state_trait_modern_germany_saxony = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -594,11 +594,11 @@ state_trait_ai_germany_saxony = {
     }
 }
 
-state_trait_ai_germany_rhineland = {
+state_trait_modern_germany_rhineland = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -613,11 +613,11 @@ state_trait_ai_germany_rhineland = {
     }
 }
 
-state_trait_ai_germany_westphalia = {
+state_trait_modern_germany_westphalia = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -631,11 +631,11 @@ state_trait_ai_germany_westphalia = {
     }
 }
 
-state_trait_ai_germany_hanover = {
+state_trait_modern_germany_hanover = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -649,11 +649,11 @@ state_trait_ai_germany_hanover = {
     }
 }
 
-state_trait_ai_germany_hesse = {
+state_trait_modern_germany_hesse = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -669,11 +669,11 @@ state_trait_ai_germany_hesse = {
 
 
 # 5. Japan
-state_trait_ai_japan_kanto = {
+state_trait_modern_japan_kanto = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.5
-        state_construction_mult = 1
+        state_construction_mult = 1.5
         state_standard_of_living_add = 10
         state_birth_rate_mult = 0.49
         state_education_access_add = 0.375
@@ -692,11 +692,11 @@ state_trait_ai_japan_kanto = {
     }
 }
 
-state_trait_ai_japan_osaka = {
+state_trait_modern_japan_osaka = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -712,11 +712,11 @@ state_trait_ai_japan_osaka = {
     }
 }
 
-state_trait_ai_japan_tokai = {
+state_trait_modern_japan_tokai = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -731,11 +731,11 @@ state_trait_ai_japan_tokai = {
     }
 }
 
-state_trait_ai_japan_kyoto = {
+state_trait_modern_japan_kyoto = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -749,11 +749,11 @@ state_trait_ai_japan_kyoto = {
     }
 }
 
-state_trait_ai_japan_kyushu = {
+state_trait_modern_japan_kyushu = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -768,11 +768,11 @@ state_trait_ai_japan_kyushu = {
     }
 }
 
-state_trait_ai_japan_chugoku = {
+state_trait_modern_japan_chugoku = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -786,11 +786,11 @@ state_trait_ai_japan_chugoku = {
     }
 }
 
-state_trait_ai_japan_tohoku = {
+state_trait_modern_japan_tohoku = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -803,11 +803,11 @@ state_trait_ai_japan_tohoku = {
     }
 }
 
-state_trait_ai_japan_yezo = {
+state_trait_modern_japan_yezo = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -822,11 +822,11 @@ state_trait_ai_japan_yezo = {
 
 
 # 6. United Kingdom
-state_trait_ai_united_kingdom_south_east_england = {
+state_trait_modern_united_kingdom_south_east_england = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.5
-        state_construction_mult = 1
+        state_construction_mult = 1.5
         state_standard_of_living_add = 10
         state_birth_rate_mult = 0.49
         state_education_access_add = 0.375
@@ -847,11 +847,11 @@ state_trait_ai_united_kingdom_south_east_england = {
     }
 }
 
-state_trait_ai_united_kingdom_lancashire = {
+state_trait_modern_united_kingdom_lancashire = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -866,11 +866,11 @@ state_trait_ai_united_kingdom_lancashire = {
     }
 }
 
-state_trait_ai_united_kingdom_midlands = {
+state_trait_modern_united_kingdom_midlands = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -885,11 +885,11 @@ state_trait_ai_united_kingdom_midlands = {
     }
 }
 
-state_trait_ai_united_kingdom_east_anglia = {
+state_trait_modern_united_kingdom_east_anglia = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -903,11 +903,11 @@ state_trait_ai_united_kingdom_east_anglia = {
     }
 }
 
-state_trait_ai_united_kingdom_lowlands = {
+state_trait_modern_united_kingdom_lowlands = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -921,11 +921,11 @@ state_trait_ai_united_kingdom_lowlands = {
     }
 }
 
-state_trait_ai_united_kingdom_yorkshire = {
+state_trait_modern_united_kingdom_yorkshire = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -939,11 +939,11 @@ state_trait_ai_united_kingdom_yorkshire = {
     }
 }
 
-state_trait_ai_united_kingdom_highlands = {
+state_trait_modern_united_kingdom_highlands = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -956,11 +956,11 @@ state_trait_ai_united_kingdom_highlands = {
     }
 }
 
-state_trait_ai_united_kingdom_wales = {
+state_trait_modern_united_kingdom_wales = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -973,11 +973,11 @@ state_trait_ai_united_kingdom_wales = {
     }
 }
 
-state_trait_ai_united_kingdom_ulster = {
+state_trait_modern_united_kingdom_ulster = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -992,11 +992,11 @@ state_trait_ai_united_kingdom_ulster = {
 
 
 # 7. France
-state_trait_ai_france_ile_de_france = {
+state_trait_modern_france_ile_de_france = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.5
-        state_construction_mult = 1
+        state_construction_mult = 1.5
         state_standard_of_living_add = 10
         state_birth_rate_mult = 0.49
         state_education_access_add = 0.375
@@ -1017,11 +1017,11 @@ state_trait_ai_france_ile_de_france = {
     }
 }
 
-state_trait_ai_france_rhone = {
+state_trait_modern_france_rhone = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -1036,11 +1036,11 @@ state_trait_ai_france_rhone = {
     }
 }
 
-state_trait_ai_france_normandy = {
+state_trait_modern_france_normandy = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -1057,11 +1057,11 @@ state_trait_ai_france_normandy = {
     }
 }
 
-state_trait_ai_france_provence = {
+state_trait_modern_france_provence = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -1076,11 +1076,11 @@ state_trait_ai_france_provence = {
     }
 }
 
-state_trait_ai_france_aquitaine = {
+state_trait_modern_france_aquitaine = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -1094,11 +1094,11 @@ state_trait_ai_france_aquitaine = {
     }
 }
 
-state_trait_ai_france_brittany = {
+state_trait_modern_france_brittany = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -1113,11 +1113,11 @@ state_trait_ai_france_brittany = {
     }
 }
 
-state_trait_ai_france_languedoc = {
+state_trait_modern_france_languedoc = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -1130,11 +1130,11 @@ state_trait_ai_france_languedoc = {
     }
 }
 
-state_trait_ai_france_guyenne = {
+state_trait_modern_france_guyenne = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -1147,11 +1147,11 @@ state_trait_ai_france_guyenne = {
     }
 }
 
-state_trait_ai_france_corsica = {
+state_trait_modern_france_corsica = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -1167,11 +1167,11 @@ state_trait_ai_france_corsica = {
 
 
 # 8. Russia
-state_trait_ai_russia_moscow = {
+state_trait_modern_russia_moscow = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.5
-        state_construction_mult = 1
+        state_construction_mult = 1.5
         state_standard_of_living_add = 10
         state_birth_rate_mult = 0.49
         state_education_access_add = 0.375
@@ -1191,11 +1191,11 @@ state_trait_ai_russia_moscow = {
     }
 }
 
-state_trait_ai_russia_ural = {
+state_trait_modern_russia_ural = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -1210,11 +1210,11 @@ state_trait_ai_russia_ural = {
     }
 }
 
-state_trait_ai_russia_perm = {
+state_trait_modern_russia_perm = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -1229,11 +1229,11 @@ state_trait_ai_russia_perm = {
     }
 }
 
-state_trait_ai_russia_nizhny_novgorod = {
+state_trait_modern_russia_nizhny_novgorod = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -1247,11 +1247,11 @@ state_trait_ai_russia_nizhny_novgorod = {
     }
 }
 
-state_trait_ai_russia_samara = {
+state_trait_modern_russia_samara = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -1266,11 +1266,11 @@ state_trait_ai_russia_samara = {
     }
 }
 
-state_trait_ai_russia_krasnoyarsk = {
+state_trait_modern_russia_krasnoyarsk = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -1283,11 +1283,11 @@ state_trait_ai_russia_krasnoyarsk = {
     }
 }
 
-state_trait_ai_russia_chelyabinsk = {
+state_trait_modern_russia_chelyabinsk = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -1300,11 +1300,11 @@ state_trait_ai_russia_chelyabinsk = {
     }
 }
 
-state_trait_ai_russia_ufa = {
+state_trait_modern_russia_ufa = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -1318,11 +1318,11 @@ state_trait_ai_russia_ufa = {
     }
 }
 
-state_trait_ai_russia_yaroslavl = {
+state_trait_modern_russia_yaroslavl = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -1337,11 +1337,11 @@ state_trait_ai_russia_yaroslavl = {
 
 
 # 9. Brazil
-state_trait_ai_brazil_sao_paulo = {
+state_trait_modern_brazil_sao_paulo = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.5
-        state_construction_mult = 1
+        state_construction_mult = 1.5
         state_standard_of_living_add = 10
         state_birth_rate_mult = 0.49
         state_education_access_add = 0.375
@@ -1359,11 +1359,11 @@ state_trait_ai_brazil_sao_paulo = {
     }
 }
 
-state_trait_ai_brazil_rio_de_janeiro = {
+state_trait_modern_brazil_rio_de_janeiro = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -1380,11 +1380,11 @@ state_trait_ai_brazil_rio_de_janeiro = {
     }
 }
 
-state_trait_ai_brazil_minas_gerais = {
+state_trait_modern_brazil_minas_gerais = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -1400,11 +1400,11 @@ state_trait_ai_brazil_minas_gerais = {
     }
 }
 
-state_trait_ai_brazil_bahia = {
+state_trait_modern_brazil_bahia = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -1418,11 +1418,11 @@ state_trait_ai_brazil_bahia = {
     }
 }
 
-state_trait_ai_brazil_parana = {
+state_trait_modern_brazil_parana = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -1436,11 +1436,11 @@ state_trait_ai_brazil_parana = {
     }
 }
 
-state_trait_ai_brazil_rio_grande_do_sul = {
+state_trait_modern_brazil_rio_grande_do_sul = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -1454,11 +1454,11 @@ state_trait_ai_brazil_rio_grande_do_sul = {
     }
 }
 
-state_trait_ai_brazil_pernambuco = {
+state_trait_modern_brazil_pernambuco = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -1472,11 +1472,11 @@ state_trait_ai_brazil_pernambuco = {
     }
 }
 
-state_trait_ai_brazil_goias = {
+state_trait_modern_brazil_goias = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -1491,11 +1491,11 @@ state_trait_ai_brazil_goias = {
 
 
 # 10. Indonesia
-state_trait_ai_indonesia_west_java = {
+state_trait_modern_indonesia_west_java = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.4
-        state_construction_mult = 0.8
+        state_construction_mult = 1.2
         state_standard_of_living_add = 9.25
         state_birth_rate_mult = 0.41
         state_education_access_add = 0.3
@@ -1512,11 +1512,11 @@ state_trait_ai_indonesia_west_java = {
     }
 }
 
-state_trait_ai_indonesia_east_java = {
+state_trait_modern_indonesia_east_java = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -1532,11 +1532,11 @@ state_trait_ai_indonesia_east_java = {
     }
 }
 
-state_trait_ai_indonesia_central_java = {
+state_trait_modern_indonesia_central_java = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -1551,11 +1551,11 @@ state_trait_ai_indonesia_central_java = {
     }
 }
 
-state_trait_ai_indonesia_north_sumatra = {
+state_trait_modern_indonesia_north_sumatra = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -1569,11 +1569,11 @@ state_trait_ai_indonesia_north_sumatra = {
     }
 }
 
-state_trait_ai_indonesia_south_sumatra = {
+state_trait_modern_indonesia_south_sumatra = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -1588,11 +1588,11 @@ state_trait_ai_indonesia_south_sumatra = {
     }
 }
 
-state_trait_ai_indonesia_aceh = {
+state_trait_modern_indonesia_aceh = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -1609,11 +1609,11 @@ state_trait_ai_indonesia_aceh = {
 
 
 # 11. Italy
-state_trait_ai_italy_lombardy = {
+state_trait_modern_italy_lombardy = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -1629,11 +1629,11 @@ state_trait_ai_italy_lombardy = {
     }
 }
 
-state_trait_ai_italy_lazio = {
+state_trait_modern_italy_lazio = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -1650,11 +1650,11 @@ state_trait_ai_italy_lazio = {
     }
 }
 
-state_trait_ai_italy_piedmont = {
+state_trait_modern_italy_piedmont = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -1669,11 +1669,11 @@ state_trait_ai_italy_piedmont = {
     }
 }
 
-state_trait_ai_italy_campania = {
+state_trait_modern_italy_campania = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -1688,11 +1688,11 @@ state_trait_ai_italy_campania = {
     }
 }
 
-state_trait_ai_italy_emilia = {
+state_trait_modern_italy_emilia = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -1706,11 +1706,11 @@ state_trait_ai_italy_emilia = {
     }
 }
 
-state_trait_ai_italy_tuscany = {
+state_trait_modern_italy_tuscany = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -1724,11 +1724,11 @@ state_trait_ai_italy_tuscany = {
     }
 }
 
-state_trait_ai_italy_venetia = {
+state_trait_modern_italy_venetia = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -1743,11 +1743,11 @@ state_trait_ai_italy_venetia = {
     }
 }
 
-state_trait_ai_italy_sicily = {
+state_trait_modern_italy_sicily = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -1761,11 +1761,11 @@ state_trait_ai_italy_sicily = {
     }
 }
 
-state_trait_ai_italy_romagna = {
+state_trait_modern_italy_romagna = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -1780,11 +1780,11 @@ state_trait_ai_italy_romagna = {
 
 
 # 12. Canada
-state_trait_ai_canada_ontario = {
+state_trait_modern_canada_ontario = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.4
-        state_construction_mult = 0.8
+        state_construction_mult = 1.2
         state_standard_of_living_add = 9.25
         state_birth_rate_mult = 0.41
         state_education_access_add = 0.3
@@ -1801,11 +1801,11 @@ state_trait_ai_canada_ontario = {
     }
 }
 
-state_trait_ai_canada_alberta = {
+state_trait_modern_canada_alberta = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -1821,11 +1821,11 @@ state_trait_ai_canada_alberta = {
     }
 }
 
-state_trait_ai_canada_northern_columbia = {
+state_trait_modern_canada_northern_columbia = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -1841,11 +1841,11 @@ state_trait_ai_canada_northern_columbia = {
     }
 }
 
-state_trait_ai_canada_saskatchewan = {
+state_trait_modern_canada_saskatchewan = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -1859,11 +1859,11 @@ state_trait_ai_canada_saskatchewan = {
     }
 }
 
-state_trait_ai_canada_manitoba = {
+state_trait_modern_canada_manitoba = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -1877,11 +1877,11 @@ state_trait_ai_canada_manitoba = {
     }
 }
 
-state_trait_ai_canada_maritimes = {
+state_trait_modern_canada_maritimes = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -1896,11 +1896,11 @@ state_trait_ai_canada_maritimes = {
     }
 }
 
-state_trait_ai_canada_newfoundland = {
+state_trait_modern_canada_newfoundland = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -1913,11 +1913,11 @@ state_trait_ai_canada_newfoundland = {
     }
 }
 
-state_trait_ai_canada_yukon_territory = {
+state_trait_modern_canada_yukon_territory = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -1932,11 +1932,11 @@ state_trait_ai_canada_yukon_territory = {
 
 
 # 13. South Korea
-state_trait_ai_south_korea_gyeonggi = {
+state_trait_modern_south_korea_gyeonggi = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.5
-        state_construction_mult = 1
+        state_construction_mult = 1.5
         state_standard_of_living_add = 10
         state_birth_rate_mult = 0.49
         state_education_access_add = 0.375
@@ -1955,11 +1955,11 @@ state_trait_ai_south_korea_gyeonggi = {
     }
 }
 
-state_trait_ai_south_korea_yeongnam = {
+state_trait_modern_south_korea_yeongnam = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.4
-        state_construction_mult = 0.8
+        state_construction_mult = 1.2
         state_standard_of_living_add = 9.25
         state_birth_rate_mult = 0.41
         state_education_access_add = 0.3
@@ -1976,11 +1976,11 @@ state_trait_ai_south_korea_yeongnam = {
     }
 }
 
-state_trait_ai_south_korea_yangho = {
+state_trait_modern_south_korea_yangho = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -1998,11 +1998,11 @@ state_trait_ai_south_korea_yangho = {
 
 
 # 14. Mexico
-state_trait_ai_mexico_mexico = {
+state_trait_modern_mexico_mexico = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -2020,11 +2020,11 @@ state_trait_ai_mexico_mexico = {
     }
 }
 
-state_trait_ai_mexico_jalisco = {
+state_trait_modern_mexico_jalisco = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -2039,11 +2039,11 @@ state_trait_ai_mexico_jalisco = {
     }
 }
 
-state_trait_ai_mexico_veracruz = {
+state_trait_modern_mexico_veracruz = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -2059,11 +2059,11 @@ state_trait_ai_mexico_veracruz = {
     }
 }
 
-state_trait_ai_mexico_baja_california = {
+state_trait_modern_mexico_baja_california = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -2078,11 +2078,11 @@ state_trait_ai_mexico_baja_california = {
     }
 }
 
-state_trait_ai_mexico_bajio = {
+state_trait_modern_mexico_bajio = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -2096,11 +2096,11 @@ state_trait_ai_mexico_bajio = {
     }
 }
 
-state_trait_ai_mexico_rio_grande = {
+state_trait_modern_mexico_rio_grande = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -2113,11 +2113,11 @@ state_trait_ai_mexico_rio_grande = {
     }
 }
 
-state_trait_ai_mexico_sonora = {
+state_trait_modern_mexico_sonora = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -2130,11 +2130,11 @@ state_trait_ai_mexico_sonora = {
     }
 }
 
-state_trait_ai_mexico_yucatan = {
+state_trait_modern_mexico_yucatan = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -2148,11 +2148,11 @@ state_trait_ai_mexico_yucatan = {
     }
 }
 
-state_trait_ai_mexico_oaxaca = {
+state_trait_modern_mexico_oaxaca = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -2167,11 +2167,11 @@ state_trait_ai_mexico_oaxaca = {
 
 
 # 15. Turkey
-state_trait_ai_turkey_istanbul = {
+state_trait_modern_turkey_istanbul = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -2190,11 +2190,11 @@ state_trait_ai_turkey_istanbul = {
     }
 }
 
-state_trait_ai_turkey_ankara = {
+state_trait_modern_turkey_ankara = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -2211,11 +2211,11 @@ state_trait_ai_turkey_ankara = {
     }
 }
 
-state_trait_ai_turkey_adana = {
+state_trait_modern_turkey_adana = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -2230,11 +2230,11 @@ state_trait_ai_turkey_adana = {
     }
 }
 
-state_trait_ai_turkey_hudavendigar = {
+state_trait_modern_turkey_hudavendigar = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -2248,11 +2248,11 @@ state_trait_ai_turkey_hudavendigar = {
     }
 }
 
-state_trait_ai_turkey_aydin = {
+state_trait_modern_turkey_aydin = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -2267,11 +2267,11 @@ state_trait_ai_turkey_aydin = {
     }
 }
 
-state_trait_ai_turkey_konya = {
+state_trait_modern_turkey_konya = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -2286,11 +2286,11 @@ state_trait_ai_turkey_konya = {
 
 
 # 16. Australia
-state_trait_ai_australia_new_south_wales = {
+state_trait_modern_australia_new_south_wales = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -2309,11 +2309,11 @@ state_trait_ai_australia_new_south_wales = {
     }
 }
 
-state_trait_ai_australia_victoria = {
+state_trait_modern_australia_victoria = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -2328,11 +2328,11 @@ state_trait_ai_australia_victoria = {
     }
 }
 
-state_trait_ai_australia_queensland = {
+state_trait_modern_australia_queensland = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -2348,11 +2348,11 @@ state_trait_ai_australia_queensland = {
     }
 }
 
-state_trait_ai_australia_western_australia = {
+state_trait_modern_australia_western_australia = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -2366,11 +2366,11 @@ state_trait_ai_australia_western_australia = {
     }
 }
 
-state_trait_ai_australia_northern_territory = {
+state_trait_modern_australia_northern_territory = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -2384,11 +2384,11 @@ state_trait_ai_australia_northern_territory = {
     }
 }
 
-state_trait_ai_australia_south_australia = {
+state_trait_modern_australia_south_australia = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -2402,11 +2402,11 @@ state_trait_ai_australia_south_australia = {
     }
 }
 
-state_trait_ai_australia_tasmania = {
+state_trait_modern_australia_tasmania = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -2421,11 +2421,11 @@ state_trait_ai_australia_tasmania = {
 
 
 # 17. Saudi Arabia
-state_trait_ai_saudi_arabia_nejd = {
+state_trait_modern_saudi_arabia_nejd = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.4
-        state_construction_mult = 0.8
+        state_construction_mult = 1.2
         state_standard_of_living_add = 9.25
         state_birth_rate_mult = 0.41
         state_education_access_add = 0.3
@@ -2443,11 +2443,11 @@ state_trait_ai_saudi_arabia_nejd = {
     }
 }
 
-state_trait_ai_saudi_arabia_hedjaz = {
+state_trait_modern_saudi_arabia_hedjaz = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -2466,11 +2466,11 @@ state_trait_ai_saudi_arabia_hedjaz = {
     }
 }
 
-state_trait_ai_saudi_arabia_hail = {
+state_trait_modern_saudi_arabia_hail = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -2488,11 +2488,11 @@ state_trait_ai_saudi_arabia_hail = {
 
 
 # 18. Spain
-state_trait_ai_spain_new_castile = {
+state_trait_modern_spain_new_castile = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -2510,11 +2510,11 @@ state_trait_ai_spain_new_castile = {
     }
 }
 
-state_trait_ai_spain_catalonia = {
+state_trait_modern_spain_catalonia = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -2529,11 +2529,11 @@ state_trait_ai_spain_catalonia = {
     }
 }
 
-state_trait_ai_spain_basque_country = {
+state_trait_modern_spain_basque_country = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -2548,11 +2548,11 @@ state_trait_ai_spain_basque_country = {
     }
 }
 
-state_trait_ai_spain_valencia = {
+state_trait_modern_spain_valencia = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -2567,11 +2567,11 @@ state_trait_ai_spain_valencia = {
     }
 }
 
-state_trait_ai_spain_lower_andalusia = {
+state_trait_modern_spain_lower_andalusia = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -2585,11 +2585,11 @@ state_trait_ai_spain_lower_andalusia = {
     }
 }
 
-state_trait_ai_spain_galicia = {
+state_trait_modern_spain_galicia = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -2603,11 +2603,11 @@ state_trait_ai_spain_galicia = {
     }
 }
 
-state_trait_ai_spain_aragon = {
+state_trait_modern_spain_aragon = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -2622,11 +2622,11 @@ state_trait_ai_spain_aragon = {
 
 
 # 19. Iran
-state_trait_ai_iran_irak_i_ajami = {
+state_trait_modern_iran_irak_i_ajami = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -2644,11 +2644,11 @@ state_trait_ai_iran_irak_i_ajami = {
     }
 }
 
-state_trait_ai_iran_isfahan = {
+state_trait_modern_iran_isfahan = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -2663,11 +2663,11 @@ state_trait_ai_iran_isfahan = {
     }
 }
 
-state_trait_ai_iran_fars = {
+state_trait_modern_iran_fars = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -2682,11 +2682,11 @@ state_trait_ai_iran_fars = {
     }
 }
 
-state_trait_ai_iran_khorasan = {
+state_trait_modern_iran_khorasan = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -2700,11 +2700,11 @@ state_trait_ai_iran_khorasan = {
     }
 }
 
-state_trait_ai_iran_arabistan = {
+state_trait_modern_iran_arabistan = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -2719,11 +2719,11 @@ state_trait_ai_iran_arabistan = {
     }
 }
 
-state_trait_ai_iran_hormuz = {
+state_trait_modern_iran_hormuz = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -2739,11 +2739,11 @@ state_trait_ai_iran_hormuz = {
 
 
 # 20. Poland
-state_trait_ai_poland_warszawa = {
+state_trait_modern_poland_warszawa = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -2761,11 +2761,11 @@ state_trait_ai_poland_warszawa = {
     }
 }
 
-state_trait_ai_poland_plock = {
+state_trait_modern_poland_plock = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -2780,11 +2780,11 @@ state_trait_ai_poland_plock = {
     }
 }
 
-state_trait_ai_poland_lublin = {
+state_trait_modern_poland_lublin = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -2798,11 +2798,11 @@ state_trait_ai_poland_lublin = {
     }
 }
 
-state_trait_ai_poland_posen = {
+state_trait_modern_poland_posen = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -2816,11 +2816,11 @@ state_trait_ai_poland_posen = {
     }
 }
 
-state_trait_ai_poland_west_galicia = {
+state_trait_modern_poland_west_galicia = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -2834,11 +2834,11 @@ state_trait_ai_poland_west_galicia = {
     }
 }
 
-state_trait_ai_poland_pomerania = {
+state_trait_modern_poland_pomerania = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -2852,11 +2852,11 @@ state_trait_ai_poland_pomerania = {
     }
 }
 
-state_trait_ai_poland_upper_silesia = {
+state_trait_modern_poland_upper_silesia = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -2869,11 +2869,11 @@ state_trait_ai_poland_upper_silesia = {
     }
 }
 
-state_trait_ai_poland_east_prussia = {
+state_trait_modern_poland_east_prussia = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -2889,11 +2889,11 @@ state_trait_ai_poland_east_prussia = {
 
 
 # 21. Netherlands
-state_trait_ai_netherlands_holland = {
+state_trait_modern_netherlands_holland = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.5
-        state_construction_mult = 1
+        state_construction_mult = 1.5
         state_standard_of_living_add = 10
         state_birth_rate_mult = 0.49
         state_education_access_add = 0.375
@@ -2914,11 +2914,11 @@ state_trait_ai_netherlands_holland = {
     }
 }
 
-state_trait_ai_netherlands_gelre = {
+state_trait_modern_netherlands_gelre = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -2934,11 +2934,11 @@ state_trait_ai_netherlands_gelre = {
     }
 }
 
-state_trait_ai_netherlands_friesland = {
+state_trait_modern_netherlands_friesland = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -2954,11 +2954,11 @@ state_trait_ai_netherlands_friesland = {
 
 
 # 22. Nigeria
-state_trait_ai_nigeria_nigeria = {
+state_trait_modern_nigeria_nigeria = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -2977,11 +2977,11 @@ state_trait_ai_nigeria_nigeria = {
     }
 }
 
-state_trait_ai_nigeria_niger_delta = {
+state_trait_modern_nigeria_niger_delta = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -2997,11 +2997,11 @@ state_trait_ai_nigeria_niger_delta = {
     }
 }
 
-state_trait_ai_nigeria_yoruba_states = {
+state_trait_modern_nigeria_yoruba_states = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -3015,11 +3015,11 @@ state_trait_ai_nigeria_yoruba_states = {
     }
 }
 
-state_trait_ai_nigeria_hausaland = {
+state_trait_modern_nigeria_hausaland = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -3033,11 +3033,11 @@ state_trait_ai_nigeria_hausaland = {
     }
 }
 
-state_trait_ai_nigeria_benin = {
+state_trait_modern_nigeria_benin = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -3050,11 +3050,11 @@ state_trait_ai_nigeria_benin = {
     }
 }
 
-state_trait_ai_nigeria_bornu = {
+state_trait_modern_nigeria_bornu = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -3067,11 +3067,11 @@ state_trait_ai_nigeria_bornu = {
     }
 }
 
-state_trait_ai_nigeria_east_hausaland = {
+state_trait_modern_nigeria_east_hausaland = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -3086,11 +3086,11 @@ state_trait_ai_nigeria_east_hausaland = {
 
 
 # 23. Israel
-state_trait_ai_israel_palestine = {
+state_trait_modern_israel_palestine = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.5
-        state_construction_mult = 1
+        state_construction_mult = 1.5
         state_standard_of_living_add = 10
         state_birth_rate_mult = 0.49
         state_education_access_add = 0.375
@@ -3111,11 +3111,11 @@ state_trait_ai_israel_palestine = {
 
 
 # 24. Egypt
-state_trait_ai_egypt_lower_egypt = {
+state_trait_modern_egypt_lower_egypt = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -3133,11 +3133,11 @@ state_trait_ai_egypt_lower_egypt = {
     }
 }
 
-state_trait_ai_egypt_middle_egypt = {
+state_trait_modern_egypt_middle_egypt = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -3152,11 +3152,11 @@ state_trait_ai_egypt_middle_egypt = {
     }
 }
 
-state_trait_ai_egypt_sinai = {
+state_trait_modern_egypt_sinai = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -3171,11 +3171,11 @@ state_trait_ai_egypt_sinai = {
     }
 }
 
-state_trait_ai_egypt_upper_egypt = {
+state_trait_modern_egypt_upper_egypt = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -3189,11 +3189,11 @@ state_trait_ai_egypt_upper_egypt = {
     }
 }
 
-state_trait_ai_egypt_matruh = {
+state_trait_modern_egypt_matruh = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -3207,11 +3207,11 @@ state_trait_ai_egypt_matruh = {
     }
 }
 
-state_trait_ai_egypt_egyptian_desert = {
+state_trait_modern_egypt_egyptian_desert = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -3226,11 +3226,11 @@ state_trait_ai_egypt_egyptian_desert = {
 
 
 # 25. Pakistan
-state_trait_ai_pakistan_punjab = {
+state_trait_modern_pakistan_punjab = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -3246,11 +3246,11 @@ state_trait_ai_pakistan_punjab = {
     }
 }
 
-state_trait_ai_pakistan_sindh = {
+state_trait_modern_pakistan_sindh = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -3267,11 +3267,11 @@ state_trait_ai_pakistan_sindh = {
     }
 }
 
-state_trait_ai_pakistan_pashtunistan = {
+state_trait_modern_pakistan_pashtunistan = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -3285,11 +3285,11 @@ state_trait_ai_pakistan_pashtunistan = {
     }
 }
 
-state_trait_ai_pakistan_baluchistan = {
+state_trait_modern_pakistan_baluchistan = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -3304,11 +3304,11 @@ state_trait_ai_pakistan_baluchistan = {
     }
 }
 
-state_trait_ai_pakistan_quetta = {
+state_trait_modern_pakistan_quetta = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -3323,11 +3323,11 @@ state_trait_ai_pakistan_quetta = {
 
 
 # 26. Vietnam
-state_trait_ai_vietnam_tonkin = {
+state_trait_modern_vietnam_tonkin = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.4
-        state_construction_mult = 0.8
+        state_construction_mult = 1.2
         state_standard_of_living_add = 9.25
         state_birth_rate_mult = 0.41
         state_education_access_add = 0.3
@@ -3344,11 +3344,11 @@ state_trait_ai_vietnam_tonkin = {
     }
 }
 
-state_trait_ai_vietnam_mekong = {
+state_trait_modern_vietnam_mekong = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -3363,11 +3363,11 @@ state_trait_ai_vietnam_mekong = {
     }
 }
 
-state_trait_ai_vietnam_annam = {
+state_trait_modern_vietnam_annam = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -3383,11 +3383,11 @@ state_trait_ai_vietnam_annam = {
 
 
 # 27. Philippines
-state_trait_ai_philippines_luzon = {
+state_trait_modern_philippines_luzon = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -3406,11 +3406,11 @@ state_trait_ai_philippines_luzon = {
     }
 }
 
-state_trait_ai_philippines_visayas = {
+state_trait_modern_philippines_visayas = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -3427,11 +3427,11 @@ state_trait_ai_philippines_visayas = {
     }
 }
 
-state_trait_ai_philippines_mindanao = {
+state_trait_modern_philippines_mindanao = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -3449,11 +3449,11 @@ state_trait_ai_philippines_mindanao = {
 
 
 # 28. Bangladesh
-state_trait_ai_bangladesh_east_bengal = {
+state_trait_modern_bangladesh_east_bengal = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.5
-        state_construction_mult = 1
+        state_construction_mult = 1.5
         state_standard_of_living_add = 10
         state_birth_rate_mult = 0.49
         state_education_access_add = 0.375
@@ -3473,11 +3473,11 @@ state_trait_ai_bangladesh_east_bengal = {
 
 
 # 29. South Africa
-state_trait_ai_south_africa_transvaal = {
+state_trait_modern_south_africa_transvaal = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -3493,11 +3493,11 @@ state_trait_ai_south_africa_transvaal = {
     }
 }
 
-state_trait_ai_south_africa_cape_colony = {
+state_trait_modern_south_africa_cape_colony = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -3513,11 +3513,11 @@ state_trait_ai_south_africa_cape_colony = {
     }
 }
 
-state_trait_ai_south_africa_eastern_cape = {
+state_trait_modern_south_africa_eastern_cape = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -3531,11 +3531,11 @@ state_trait_ai_south_africa_eastern_cape = {
     }
 }
 
-state_trait_ai_south_africa_zululand = {
+state_trait_modern_south_africa_zululand = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -3549,11 +3549,11 @@ state_trait_ai_south_africa_zululand = {
     }
 }
 
-state_trait_ai_south_africa_northern_cape = {
+state_trait_modern_south_africa_northern_cape = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -3566,11 +3566,11 @@ state_trait_ai_south_africa_northern_cape = {
     }
 }
 
-state_trait_ai_south_africa_transorangia = {
+state_trait_modern_south_africa_transorangia = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -3585,11 +3585,11 @@ state_trait_ai_south_africa_transorangia = {
 
 
 # 30. Argentina
-state_trait_ai_argentina_buenos_aires = {
+state_trait_modern_argentina_buenos_aires = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -3608,11 +3608,11 @@ state_trait_ai_argentina_buenos_aires = {
     }
 }
 
-state_trait_ai_argentina_cordoba = {
+state_trait_modern_argentina_cordoba = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -3626,11 +3626,11 @@ state_trait_ai_argentina_cordoba = {
     }
 }
 
-state_trait_ai_argentina_santa_fe = {
+state_trait_modern_argentina_santa_fe = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -3644,11 +3644,11 @@ state_trait_ai_argentina_santa_fe = {
     }
 }
 
-state_trait_ai_argentina_mendoza = {
+state_trait_modern_argentina_mendoza = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -3661,11 +3661,11 @@ state_trait_ai_argentina_mendoza = {
     }
 }
 
-state_trait_ai_argentina_patagonia = {
+state_trait_modern_argentina_patagonia = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -3681,11 +3681,11 @@ state_trait_ai_argentina_patagonia = {
 
 
 # 31. Thailand
-state_trait_ai_thailand_bangkok = {
+state_trait_modern_thailand_bangkok = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.35
-        state_construction_mult = 0.7
+        state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
         state_education_access_add = 0.2625
@@ -3704,11 +3704,11 @@ state_trait_ai_thailand_bangkok = {
     }
 }
 
-state_trait_ai_thailand_nakhon_ratchasima = {
+state_trait_modern_thailand_nakhon_ratchasima = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -3722,11 +3722,11 @@ state_trait_ai_thailand_nakhon_ratchasima = {
     }
 }
 
-state_trait_ai_thailand_chiang_mai = {
+state_trait_modern_thailand_chiang_mai = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -3741,11 +3741,11 @@ state_trait_ai_thailand_chiang_mai = {
     }
 }
 
-state_trait_ai_thailand_tenasserim = {
+state_trait_modern_thailand_tenasserim = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -3761,11 +3761,11 @@ state_trait_ai_thailand_tenasserim = {
 
 
 # 32. Malaysia
-state_trait_ai_malaysia_malaya = {
+state_trait_modern_malaysia_malaya = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.5
-        state_construction_mult = 1
+        state_construction_mult = 1.5
         state_standard_of_living_add = 10
         state_birth_rate_mult = 0.49
         state_education_access_add = 0.375
@@ -3786,11 +3786,11 @@ state_trait_ai_malaysia_malaya = {
     }
 }
 
-state_trait_ai_malaysia_north_borneo = {
+state_trait_modern_malaysia_north_borneo = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -3805,11 +3805,11 @@ state_trait_ai_malaysia_north_borneo = {
 
 
 # 33. Colombia
-state_trait_ai_colombia_cundinamarca = {
+state_trait_modern_colombia_cundinamarca = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -3826,11 +3826,11 @@ state_trait_ai_colombia_cundinamarca = {
     }
 }
 
-state_trait_ai_colombia_antioquia = {
+state_trait_modern_colombia_antioquia = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -3844,11 +3844,11 @@ state_trait_ai_colombia_antioquia = {
     }
 }
 
-state_trait_ai_colombia_cauca = {
+state_trait_modern_colombia_cauca = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -3862,11 +3862,11 @@ state_trait_ai_colombia_cauca = {
     }
 }
 
-state_trait_ai_colombia_guaviare = {
+state_trait_modern_colombia_guaviare = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -3881,11 +3881,11 @@ state_trait_ai_colombia_guaviare = {
 
 
 # 34. Algeria
-state_trait_ai_algeria_algiers = {
+state_trait_modern_algeria_algiers = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -3902,11 +3902,11 @@ state_trait_ai_algeria_algiers = {
     }
 }
 
-state_trait_ai_algeria_oran = {
+state_trait_modern_algeria_oran = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -3921,11 +3921,11 @@ state_trait_ai_algeria_oran = {
     }
 }
 
-state_trait_ai_algeria_constantine = {
+state_trait_modern_algeria_constantine = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -3939,11 +3939,11 @@ state_trait_ai_algeria_constantine = {
     }
 }
 
-state_trait_ai_algeria_sahara = {
+state_trait_modern_algeria_sahara = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -3958,11 +3958,11 @@ state_trait_ai_algeria_sahara = {
 
 
 # 35. Ethiopia
-state_trait_ai_ethiopia_amhara = {
+state_trait_modern_ethiopia_amhara = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -3977,11 +3977,11 @@ state_trait_ai_ethiopia_amhara = {
     }
 }
 
-state_trait_ai_ethiopia_gonder = {
+state_trait_modern_ethiopia_gonder = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -3995,11 +3995,11 @@ state_trait_ai_ethiopia_gonder = {
     }
 }
 
-state_trait_ai_ethiopia_oromia = {
+state_trait_modern_ethiopia_oromia = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -4015,11 +4015,11 @@ state_trait_ai_ethiopia_oromia = {
 
 
 # 36. Ukraine
-state_trait_ai_ukraine_kyiv = {
+state_trait_modern_ukraine_kyiv = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
         building_throughput_add = 0.25
-        state_construction_mult = 0.5
+        state_construction_mult = 0.75
         state_standard_of_living_add = 6
         state_birth_rate_mult = 0.22
         state_education_access_add = 0.1875
@@ -4034,11 +4034,11 @@ state_trait_ai_ukraine_kyiv = {
     }
 }
 
-state_trait_ai_ukraine_east_galicia = {
+state_trait_modern_ukraine_east_galicia = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -4052,11 +4052,11 @@ state_trait_ai_ukraine_east_galicia = {
     }
 }
 
-state_trait_ai_ukraine_volhynia = {
+state_trait_modern_ukraine_volhynia = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -4069,11 +4069,11 @@ state_trait_ai_ukraine_volhynia = {
     }
 }
 
-state_trait_ai_ukraine_bessarabia = {
+state_trait_modern_ukraine_bessarabia = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -4087,11 +4087,11 @@ state_trait_ai_ukraine_bessarabia = {
     }
 }
 
-state_trait_ai_ukraine_bukovina = {
+state_trait_modern_ukraine_bukovina = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -4106,11 +4106,11 @@ state_trait_ai_ukraine_bukovina = {
 
 
 # 37. Democratic Republic of the Congo
-state_trait_ai_democratic_republic_of_the_congo_katanga = {
+state_trait_modern_democratic_republic_of_the_congo_katanga = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -4124,11 +4124,11 @@ state_trait_ai_democratic_republic_of_the_congo_katanga = {
     }
 }
 
-state_trait_ai_democratic_republic_of_the_congo_kasai = {
+state_trait_modern_democratic_republic_of_the_congo_kasai = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -4142,11 +4142,11 @@ state_trait_ai_democratic_republic_of_the_congo_kasai = {
     }
 }
 
-state_trait_ai_democratic_republic_of_the_congo_lower_congo = {
+state_trait_modern_democratic_republic_of_the_congo_lower_congo = {
     icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -4161,11 +4161,11 @@ state_trait_ai_democratic_republic_of_the_congo_lower_congo = {
     }
 }
 
-state_trait_ai_democratic_republic_of_the_congo_congo_orientale = {
+state_trait_modern_democratic_republic_of_the_congo_congo_orientale = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -4178,11 +4178,11 @@ state_trait_ai_democratic_republic_of_the_congo_congo_orientale = {
     }
 }
 
-state_trait_ai_democratic_republic_of_the_congo_equateur = {
+state_trait_modern_democratic_republic_of_the_congo_equateur = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -4197,11 +4197,11 @@ state_trait_ai_democratic_republic_of_the_congo_equateur = {
 
 
 # 38. Kenya
-state_trait_ai_kenya_kenya = {
+state_trait_modern_kenya_kenya = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.3
-        state_construction_mult = 0.6
+        state_construction_mult = 0.9
         state_standard_of_living_add = 7.25
         state_birth_rate_mult = 0.27
         state_education_access_add = 0.225
@@ -4218,11 +4218,11 @@ state_trait_ai_kenya_kenya = {
     }
 }
 
-state_trait_ai_kenya_rift_valley = {
+state_trait_modern_kenya_rift_valley = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -4238,11 +4238,11 @@ state_trait_ai_kenya_rift_valley = {
 
 
 # 39. Kazakhstan
-state_trait_ai_kazakhstan_akmolinsk = {
+state_trait_modern_kazakhstan_akmolinsk = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -4256,11 +4256,11 @@ state_trait_ai_kazakhstan_akmolinsk = {
     }
 }
 
-state_trait_ai_kazakhstan_semipalatinsk = {
+state_trait_modern_kazakhstan_semipalatinsk = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -4274,11 +4274,11 @@ state_trait_ai_kazakhstan_semipalatinsk = {
     }
 }
 
-state_trait_ai_kazakhstan_uralsk = {
+state_trait_modern_kazakhstan_uralsk = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.1
-        state_construction_mult = 0.2
+        state_construction_mult = 0.3
         state_standard_of_living_add = 2.25
         state_birth_rate_mult = 0.07
         state_education_access_add = 0.075
@@ -4292,11 +4292,11 @@ state_trait_ai_kazakhstan_uralsk = {
     }
 }
 
-state_trait_ai_kazakhstan_aktobe = {
+state_trait_modern_kazakhstan_aktobe = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.075
-        state_construction_mult = 0.15
+        state_construction_mult = 0.23
         state_standard_of_living_add = 1.5
         state_birth_rate_mult = 0.05
         state_education_access_add = 0.06
@@ -4311,11 +4311,11 @@ state_trait_ai_kazakhstan_aktobe = {
 
 
 # 40. Peru
-state_trait_ai_peru_lima = {
+state_trait_modern_peru_lima = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 0.2
-        state_construction_mult = 0.4
+        state_construction_mult = 0.6
         state_standard_of_living_add = 4.75
         state_birth_rate_mult = 0.17
         state_education_access_add = 0.15
@@ -4330,11 +4330,11 @@ state_trait_ai_peru_lima = {
     }
 }
 
-state_trait_ai_peru_arequipa = {
+state_trait_modern_peru_arequipa = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.15
-        state_construction_mult = 0.3
+        state_construction_mult = 0.45
         state_standard_of_living_add = 3.5
         state_birth_rate_mult = 0.12
         state_education_access_add = 0.1125
@@ -4348,11 +4348,11 @@ state_trait_ai_peru_arequipa = {
     }
 }
 
-state_trait_ai_peru_cajamarca = {
+state_trait_modern_peru_cajamarca = {
     icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375
@@ -4365,11 +4365,11 @@ state_trait_ai_peru_cajamarca = {
     }
 }
 
-state_trait_ai_peru_ica = {
+state_trait_modern_peru_ica = {
     icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
     modifier = {
         building_throughput_add = 0.05
-        state_construction_mult = 0.1
+        state_construction_mult = 0.15
         state_standard_of_living_add = 0.75
         state_birth_rate_mult = 0.02
         state_education_access_add = 0.0375

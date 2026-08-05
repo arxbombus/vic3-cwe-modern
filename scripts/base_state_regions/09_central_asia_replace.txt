@@ -108,7 +108,7 @@ STATE_SAMARA = {
     id = 438
     subsistence_building = "building_subsistence_farm"
     provinces = { "x024868" "x0DFFD3" "x115723" "x11EA2C" "x16B7FE" "x1C1FB7" "x1CF34F" "x1E5008" "x20D17F" "x21DFA0" "x2505DB" "x250FCA" "x28AD29" "x2FE543" "x32A08B" "x340E79" "x37CD87" "x3F987B" "x3F9C38" "x42401C" "x434D42" "x51CA06" "x53AFD2" "x59D2D4" "x5B392A" "x610EC7" "x6364BE" "x658056" "x71BA78" "x795854" "x7C8665" "x7EA5A3" "x7F204D" "x8840E2" "x8F80BA" "x90C19D" "x915A42" "x93546F" "x942629" "x96058F" "x9F49D5" "xA06020" "xA0DFA0" "xA0E021" "xA121CB" "xA46A6B" "xA4990C" "xA7620E" "xA7B747" "xAC95C4" "xB52DF6" "xB53431" "xB70239" "xB7AA35" "xB921A7" "xBF7060" "xC45745" "xCEF631" "xCF5257" "xCF6246" "xD49810" "xD4F3FD" "xD914CA" "xD9B952" "xDADB41" "xE0856C" "xE41C9D" "xE44235" "xE6ED05" "xE9B9FB" "xE9FFBB" "xEE1033" "xEF1983" "xFA8D56" "xFBE9D0" "xFE5E9D" }
-    traits = { "state_trait_volga_river" "state_trait_western_steppe" "state_trait_ai_russia_samara" }
+    traits = { "state_trait_volga_river" "state_trait_western_steppe" "state_trait_modern_russia_samara" }
     city = "xBF7060"
     farm = "xE9B9FB"
     mine = "x51CA06"
@@ -242,7 +242,7 @@ STATE_PASHTUNISTAN = {
     id = 449
     subsistence_building = "building_subsistence_farm"
     provinces = { "x076502" "x15A4E6" "x20B0A0" "x4C120A" "x54228F" "x54D767" "x69B8C7" "x7436D6" "x76933F" "x783680" "x8C9774" "x9DA767" "xA96256" "xAAE0FA" "xAFD189" "xB8051E" "xB843AB" "xB943AF" "xC0234F" "xE19C79" "xE9EA78" "xEC3398" "xF8FE8B" }
-    traits = { "state_trait_indus_river" "state_trait_ai_pakistan_pashtunistan" }
+    traits = { "state_trait_indus_river" "state_trait_modern_pakistan_pashtunistan" }
     city = "x69B8C7"
     farm = "x7436D6"
     mine = "xAFD189"
@@ -336,7 +336,7 @@ STATE_QUETTA = {
         building_lead_mine = 8
         building_logging_camp = 2
     }
-    traits = { "state_trait_ai_pakistan_quetta" }
+    traits = { "state_trait_modern_pakistan_quetta" }
 }
 
 STATE_KANDAHAR = {
@@ -394,7 +394,7 @@ STATE_BALUCHISTAN = {
         building_fishing_wharf = 5
     }
     naval_exit_id = 3048
-    traits = { "state_trait_ai_pakistan_baluchistan" }
+    traits = { "state_trait_modern_pakistan_baluchistan" }
 }
 
 STATE_LHASA = {

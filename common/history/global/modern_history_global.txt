@@ -1,0 +1,8 @@
+GLOBAL = {
+	every_country = {
+		add_treasury = 1000000
+		add_investment_pool = 10000000
+	}
+
+	modern_apply_country_power_modifiers = yes
+}
