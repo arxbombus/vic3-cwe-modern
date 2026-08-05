@@ -10,11 +10,11 @@ NEconomy = {
 
 ### Base monthly values
 
-@hc_pg_normal_min_birthrate = 0.00070
+@hc_pg_normal_min_birthrate = 0.00068
 @hc_pg_normal_max_birthrate = 0.00550
 
 @hc_pg_normal_min_mortality = 0.00045
-@hc_pg_normal_max_mortality = 0.00510
+@hc_pg_normal_max_mortality = 0.00550
 
 
 ### SoL thresholds
