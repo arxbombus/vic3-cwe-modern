@@ -3,6 +3,32 @@
 ### Alternate/successor tags use the same modifier key, preventing tag-change stacking.
 
 modern_apply_country_power_modifiers = {
+	### Aurelia
+	if = {
+		limit = { exists = c:FRE }
+		c:FRE = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_aurelia } }
+				add_modifier = {
+					name = modern_country_power_aurelia
+					duration = -1
+				}
+			}
+		}
+	}
+	### Aurelia
+	if = {
+		limit = { exists = c:ROC }
+		c:ROC = {
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_aurelia } }
+				add_modifier = {
+					name = modern_country_power_aurelia
+					duration = -1
+				}
+			}
+		}
+	}
 	### United States
 	if = {
 		limit = { exists = c:USA }

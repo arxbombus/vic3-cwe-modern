@@ -6,7 +6,6 @@
 REPLACE:company_boeing = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/boeing.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -75,7 +74,6 @@ REPLACE:company_boeing = {
 REPLACE:company_cargill = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/cargill.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -154,7 +152,6 @@ REPLACE:company_cargill = {
 company_modern_procter_and_gamble = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/procter_and_gamble.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -230,7 +227,6 @@ company_modern_procter_and_gamble = {
 REPLACE:company_lockheed_martin = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/lockheed_martin.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -311,7 +307,6 @@ REPLACE:company_lockheed_martin = {
 company_modern_jpmorgan_chase = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/jpmorgan_chase.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -548,7 +543,6 @@ company_modern_dow = {
 REPLACE:company_standard_oil = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/exxonmobil.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -632,7 +626,6 @@ REPLACE:company_standard_oil = {
 company_modern_weyerhaeuser = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/weyerhaeuser.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -702,7 +695,6 @@ company_modern_weyerhaeuser = {
 company_modern_philip_morris_international = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/philip_morris_international.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -784,7 +776,6 @@ company_modern_philip_morris_international = {
 REPLACE:company_apple = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/apple.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -855,7 +846,7 @@ REPLACE:company_apple = {
 		building_professional_services_sector_throughput_add = 0.4
 		building_university_throughput_add = 0.4
 		state_building_university_max_level_add = 10
-		country_weekly_innovation_mult = 0.2
+		country_weekly_innovation_mult = 0.1
 		country_tech_spread_mult = 0.5
 	}
 
@@ -869,7 +860,6 @@ REPLACE:company_apple = {
 company_modern_union_pacific = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/union_pacific.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -949,7 +939,6 @@ company_modern_union_pacific = {
 company_modern_comac = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/comac.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -1018,7 +1007,6 @@ company_modern_comac = {
 company_modern_cofco = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/cofco.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -1097,7 +1085,6 @@ company_modern_cofco = {
 company_modern_haier = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/haier.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -1173,7 +1160,6 @@ company_modern_haier = {
 company_modern_norinco = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/norinco.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -1254,7 +1240,6 @@ company_modern_norinco = {
 REPLACE:company_Alibaba = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/alibaba.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -1489,7 +1474,6 @@ company_modern_china_baowu_steel_group = {
 REPLACE:company_Sinopec = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/sinopec.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -1573,7 +1557,6 @@ REPLACE:company_Sinopec = {
 company_modern_china_forestry_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/china_forestry_group.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -1643,7 +1626,6 @@ company_modern_china_forestry_group = {
 company_modern_china_national_tobacco = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/china_national_tobacco.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -1725,7 +1707,6 @@ company_modern_china_national_tobacco = {
 REPLACE:company_Huawei = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/huawei.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -1796,7 +1777,7 @@ REPLACE:company_Huawei = {
 		building_professional_services_sector_throughput_add = 0.4
 		building_university_throughput_add = 0.4
 		state_building_university_max_level_add = 10
-		country_weekly_innovation_mult = 0.2
+		country_weekly_innovation_mult = 0.1
 		country_tech_spread_mult = 0.5
 	}
 
@@ -1810,7 +1791,6 @@ REPLACE:company_Huawei = {
 company_modern_state_grid_corporation_of_china = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/state_grid_corporation_of_china.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -1892,7 +1872,6 @@ company_modern_state_grid_corporation_of_china = {
 company_modern_larsen_and_toubro = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/larsen_and_toubro.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -1961,7 +1940,6 @@ company_modern_larsen_and_toubro = {
 company_modern_amul = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/amul.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -2040,7 +2018,6 @@ company_modern_amul = {
 company_modern_hindustan_unilever = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/hindustan_unilever.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -2116,7 +2093,6 @@ company_modern_hindustan_unilever = {
 company_modern_bharat_electronics = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bharat_electronics.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -2195,7 +2171,6 @@ company_modern_bharat_electronics = {
 company_modern_hdfc_bank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/hdfc_bank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -2434,7 +2409,6 @@ company_modern_tata_steel = {
 company_modern_reliance_industries = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/reliance_industries.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -2518,7 +2492,6 @@ company_modern_reliance_industries = {
 company_modern_adani_enterprises = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/adani_enterprises.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -2588,7 +2561,6 @@ company_modern_adani_enterprises = {
 company_modern_itc = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/itc.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -2670,7 +2642,6 @@ company_modern_itc = {
 company_modern_infosys = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/infosys.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -2741,7 +2712,7 @@ company_modern_infosys = {
 		building_professional_services_sector_throughput_add = 0.4
 		building_university_throughput_add = 0.4
 		state_building_university_max_level_add = 10
-		country_weekly_innovation_mult = 0.2
+		country_weekly_innovation_mult = 0.1
 		country_tech_spread_mult = 0.5
 	}
 
@@ -2755,7 +2726,6 @@ company_modern_infosys = {
 REPLACE:company_great_indian_railway = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/indian_railways.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -2835,7 +2805,6 @@ REPLACE:company_great_indian_railway = {
 company_modern_airbus_germany = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/airbus_germany.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -2904,7 +2873,6 @@ company_modern_airbus_germany = {
 company_modern_baywa = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/baywa.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -2983,7 +2951,6 @@ company_modern_baywa = {
 company_modern_henkel = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/henkel.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -3059,7 +3026,6 @@ company_modern_henkel = {
 REPLACE:company_rheinmetall = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/rheinmetall.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -3140,7 +3106,6 @@ REPLACE:company_rheinmetall = {
 company_modern_deutsche_bank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/deutsche_bank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -3379,7 +3344,6 @@ REPLACE:company_basf = {
 company_modern_rwe = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/rwe.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -3461,7 +3425,6 @@ company_modern_rwe = {
 company_modern_continental = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/continental.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -3531,7 +3494,6 @@ company_modern_continental = {
 company_modern_bayer = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bayer.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -3613,7 +3575,6 @@ company_modern_bayer = {
 REPLACE:company_siemens_and_halske = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/siemens.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -3684,7 +3645,7 @@ REPLACE:company_siemens_and_halske = {
 		building_professional_services_sector_throughput_add = 0.4
 		building_university_throughput_add = 0.4
 		state_building_university_max_level_add = 10
-		country_weekly_innovation_mult = 0.2
+		country_weekly_innovation_mult = 0.1
 		country_tech_spread_mult = 0.5
 	}
 
@@ -3698,7 +3659,6 @@ REPLACE:company_siemens_and_halske = {
 REPLACE:company_prussian_state_railways = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/deutsche_bahn.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -3778,7 +3738,6 @@ REPLACE:company_prussian_state_railways = {
 company_modern_kawasaki_heavy_industries = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/kawasaki_heavy_industries.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -3847,7 +3806,6 @@ company_modern_kawasaki_heavy_industries = {
 company_modern_zen_noh = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/zen_noh.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -3926,7 +3884,6 @@ company_modern_zen_noh = {
 company_modern_seven_and_i_holdings = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/seven_and_i_holdings.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -4002,7 +3959,6 @@ company_modern_seven_and_i_holdings = {
 REPLACE:company_mitsubishi = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/mitsubishi_heavy_industries.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -4083,7 +4039,6 @@ REPLACE:company_mitsubishi = {
 company_modern_mitsubishi_ufj_financial_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/mitsubishi_ufj_financial_group.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -4320,7 +4275,6 @@ REPLACE:company_nippon_steel = {
 company_modern_inpex = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/inpex.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -4402,7 +4356,6 @@ company_modern_inpex = {
 company_modern_oji_holdings = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/oji_holdings.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -4472,7 +4425,6 @@ company_modern_oji_holdings = {
 company_modern_japan_tobacco = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/japan_tobacco.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -4554,7 +4506,6 @@ company_modern_japan_tobacco = {
 company_modern_sony = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/sony.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -4625,7 +4576,7 @@ company_modern_sony = {
 		building_professional_services_sector_throughput_add = 0.4
 		building_university_throughput_add = 0.4
 		state_building_university_max_level_add = 10
-		country_weekly_innovation_mult = 0.2
+		country_weekly_innovation_mult = 0.1
 		country_tech_spread_mult = 0.5
 	}
 
@@ -4639,7 +4590,6 @@ company_modern_sony = {
 company_modern_jr_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/jr_group.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -4719,7 +4669,6 @@ company_modern_jr_group = {
 company_modern_babcock_international = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/babcock_international.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -4786,7 +4735,6 @@ company_modern_babcock_international = {
 company_modern_associated_british_foods = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/associated_british_foods.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -4865,7 +4813,6 @@ company_modern_associated_british_foods = {
 company_modern_unilever = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/unilever.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -4941,7 +4888,6 @@ company_modern_unilever = {
 REPLACE:company_bae_system = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bae_systems.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -5022,7 +4968,6 @@ REPLACE:company_bae_system = {
 company_modern_hsbc = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/hsbc.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -5259,7 +5204,6 @@ company_modern_ineos = {
 REPLACE:company_anglo_persian_oil = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bp.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -5343,7 +5287,6 @@ REPLACE:company_anglo_persian_oil = {
 company_modern_mondi = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/mondi.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -5413,7 +5356,6 @@ company_modern_mondi = {
 REPLACE:company_imperial_tobacco = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/british_american_tobacco.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -5495,7 +5437,6 @@ REPLACE:company_imperial_tobacco = {
 company_modern_arm_holdings = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/arm_holdings.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -5566,7 +5507,7 @@ company_modern_arm_holdings = {
 		building_professional_services_sector_throughput_add = 0.4
 		building_university_throughput_add = 0.4
 		state_building_university_max_level_add = 10
-		country_weekly_innovation_mult = 0.2
+		country_weekly_innovation_mult = 0.1
 		country_tech_spread_mult = 0.5
 	}
 
@@ -5580,7 +5521,6 @@ company_modern_arm_holdings = {
 company_modern_national_grid = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/national_grid.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -5660,7 +5600,6 @@ company_modern_national_grid = {
 company_modern_airbus_france = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/airbus_france.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -5729,7 +5668,6 @@ company_modern_airbus_france = {
 company_modern_danone = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/danone.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -5808,7 +5746,6 @@ company_modern_danone = {
 company_modern_lvmh = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/lvmh.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -5886,7 +5823,6 @@ company_modern_lvmh = {
 company_modern_thales = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/thales.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -5965,7 +5901,6 @@ company_modern_thales = {
 company_modern_bnp_paribas = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bnp_paribas.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -6200,7 +6135,6 @@ company_modern_air_liquide = {
 company_modern_totalenergies = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/totalenergies.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -6284,7 +6218,6 @@ company_modern_totalenergies = {
 company_modern_michelin = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/michelin.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -6354,7 +6287,6 @@ company_modern_michelin = {
 company_modern_pernod_ricard = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pernod_ricard.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -6436,7 +6368,6 @@ company_modern_pernod_ricard = {
 company_modern_dassault_systmes = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/dassault_systmes.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -6507,7 +6438,7 @@ company_modern_dassault_systmes = {
 		building_professional_services_sector_throughput_add = 0.4
 		building_university_throughput_add = 0.4
 		state_building_university_max_level_add = 10
-		country_weekly_innovation_mult = 0.2
+		country_weekly_innovation_mult = 0.1
 		country_tech_spread_mult = 0.5
 	}
 
@@ -6521,7 +6452,6 @@ company_modern_dassault_systmes = {
 company_modern_edf = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/edf.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -6601,7 +6531,6 @@ company_modern_edf = {
 company_modern_united_aircraft_corporation = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/united_aircraft_corporation.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -6670,7 +6599,6 @@ company_modern_united_aircraft_corporation = {
 company_modern_rusagro = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/rusagro.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -6749,7 +6677,6 @@ company_modern_rusagro = {
 company_modern_magnit = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/magnit.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -6825,7 +6752,6 @@ company_modern_magnit = {
 company_modern_almaz_antey = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/almaz_antey.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -6906,7 +6832,6 @@ company_modern_almaz_antey = {
 company_modern_sberbank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/sberbank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -7141,7 +7066,6 @@ company_modern_severstal = {
 REPLACE:company_gazprom = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/gazprom.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -7225,7 +7149,6 @@ REPLACE:company_gazprom = {
 company_modern_ilim_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ilim_group.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -7295,7 +7218,6 @@ company_modern_ilim_group = {
 company_modern_united_tobacco_company = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/united_tobacco_company.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -7377,7 +7299,6 @@ company_modern_united_tobacco_company = {
 company_modern_yandex = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/yandex.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -7446,7 +7367,7 @@ company_modern_yandex = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -7460,7 +7381,6 @@ company_modern_yandex = {
 company_modern_russian_railways = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/russian_railways.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -7542,7 +7462,6 @@ company_modern_russian_railways = {
 company_modern_embraer = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/embraer.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -7611,7 +7530,6 @@ company_modern_embraer = {
 company_modern_jbs = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/jbs.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -7692,7 +7610,6 @@ company_modern_jbs = {
 company_modern_natura_and_co = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/natura_and_co.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -7768,7 +7685,6 @@ company_modern_natura_and_co = {
 company_modern_avibras = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/avibras.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -7847,7 +7763,6 @@ company_modern_avibras = {
 company_modern_ita_unibanco = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ita_unibanco.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -8082,7 +7997,6 @@ company_modern_gerdau = {
 company_modern_petrobras = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/petrobras.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -8166,7 +8080,6 @@ company_modern_petrobras = {
 company_modern_suzano = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/suzano.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -8236,7 +8149,6 @@ company_modern_suzano = {
 company_modern_ambev = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ambev.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -8318,7 +8230,6 @@ company_modern_ambev = {
 company_modern_totvs = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/totvs.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -8387,7 +8298,7 @@ company_modern_totvs = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -8401,7 +8312,6 @@ company_modern_totvs = {
 company_modern_eletrobras = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/eletrobras.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -8481,7 +8391,6 @@ company_modern_eletrobras = {
 company_modern_pt_dirgantara_indonesia = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pt_dirgantara_indonesia.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -8548,7 +8457,6 @@ company_modern_pt_dirgantara_indonesia = {
 company_modern_indofood = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/indofood.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -8627,7 +8535,6 @@ company_modern_indofood = {
 company_modern_wings_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/wings_group.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -8705,7 +8612,6 @@ company_modern_wings_group = {
 company_modern_pindad = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pindad.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -8784,7 +8690,6 @@ company_modern_pindad = {
 company_modern_bank_mandiri = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bank_mandiri.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -9019,7 +8924,6 @@ company_modern_krakatau_steel = {
 company_modern_pertamina = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pertamina.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -9103,7 +9007,6 @@ company_modern_pertamina = {
 company_modern_sinar_mas = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/sinar_mas.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -9173,7 +9076,6 @@ company_modern_sinar_mas = {
 company_modern_gudang_garam = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/gudang_garam.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -9255,7 +9157,6 @@ company_modern_gudang_garam = {
 company_modern_telkom_indonesia = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/telkom_indonesia.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -9324,7 +9225,7 @@ company_modern_telkom_indonesia = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -9338,7 +9239,6 @@ company_modern_telkom_indonesia = {
 company_modern_pln = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pln.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -9420,7 +9320,6 @@ company_modern_pln = {
 company_modern_fincantieri = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/fincantieri.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -9489,7 +9388,6 @@ company_modern_fincantieri = {
 company_modern_barilla = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/barilla.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -9568,7 +9466,6 @@ company_modern_barilla = {
 company_modern_luxottica = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/luxottica.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -9646,7 +9543,6 @@ company_modern_luxottica = {
 company_modern_leonardo = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/leonardo.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -9725,7 +9621,6 @@ company_modern_leonardo = {
 company_modern_intesa_sanpaolo = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/intesa_sanpaolo.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -9962,7 +9857,6 @@ company_modern_danieli = {
 company_modern_eni = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/eni.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -10044,7 +9938,6 @@ company_modern_eni = {
 company_modern_pirelli = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pirelli.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -10114,7 +10007,6 @@ company_modern_pirelli = {
 company_modern_campari_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/campari_group.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -10196,7 +10088,6 @@ company_modern_campari_group = {
 company_modern_stmicroelectronics = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/stmicroelectronics.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -10265,7 +10156,7 @@ company_modern_stmicroelectronics = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -10279,7 +10170,6 @@ company_modern_stmicroelectronics = {
 company_modern_enel = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/enel.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -10359,7 +10249,6 @@ company_modern_enel = {
 company_modern_bombardier = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bombardier.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -10428,7 +10317,6 @@ company_modern_bombardier = {
 company_modern_nutrien = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/nutrien.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -10507,7 +10395,6 @@ company_modern_nutrien = {
 company_modern_loblaw_companies = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/loblaw_companies.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -10583,7 +10470,6 @@ company_modern_loblaw_companies = {
 company_modern_general_dynamics_land_systems_canada = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/general_dynamics_land_systems_canada.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -10662,7 +10548,6 @@ company_modern_general_dynamics_land_systems_canada = {
 company_modern_royal_bank_of_canada = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/royal_bank_of_canada.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -10899,7 +10784,6 @@ company_modern_nova_chemicals = {
 company_modern_suncor_energy = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/suncor_energy.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -10983,7 +10867,6 @@ company_modern_suncor_energy = {
 company_modern_canfor = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/canfor.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -11053,7 +10936,6 @@ company_modern_canfor = {
 company_modern_constellation_brands_canada = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/constellation_brands_canada.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -11135,7 +11017,6 @@ company_modern_constellation_brands_canada = {
 company_modern_shopify = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/shopify.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -11204,7 +11085,7 @@ company_modern_shopify = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -11218,7 +11099,6 @@ company_modern_shopify = {
 company_modern_canadian_national_railway = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/canadian_national_railway.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -11298,7 +11178,6 @@ company_modern_canadian_national_railway = {
 company_modern_hd_hyundai_heavy_industries = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/hd_hyundai_heavy_industries.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -11367,7 +11246,6 @@ company_modern_hd_hyundai_heavy_industries = {
 company_modern_nonghyup = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/nonghyup.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -11446,7 +11324,6 @@ company_modern_nonghyup = {
 company_modern_cj_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/cj_group.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -11522,7 +11399,6 @@ company_modern_cj_group = {
 company_modern_hanwha_aerospace = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/hanwha_aerospace.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -11601,7 +11477,6 @@ company_modern_hanwha_aerospace = {
 company_modern_kb_financial_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/kb_financial_group.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -11838,7 +11713,6 @@ company_modern_posco = {
 company_modern_sk_innovation = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/sk_innovation.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -11920,7 +11794,6 @@ company_modern_sk_innovation = {
 company_modern_hankook_tire = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/hankook_tire.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -11990,7 +11863,6 @@ company_modern_hankook_tire = {
 REPLACE:company_sunhwaguk = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/kt_and_g.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -12072,7 +11944,6 @@ REPLACE:company_sunhwaguk = {
 company_modern_samsung_electronics = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/samsung_electronics.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -12143,7 +12014,7 @@ company_modern_samsung_electronics = {
 		building_professional_services_sector_throughput_add = 0.4
 		building_university_throughput_add = 0.4
 		state_building_university_max_level_add = 10
-		country_weekly_innovation_mult = 0.2
+		country_weekly_innovation_mult = 0.1
 		country_tech_spread_mult = 0.5
 	}
 
@@ -12157,7 +12028,6 @@ company_modern_samsung_electronics = {
 company_modern_korea_electric_power_corporation = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/korea_electric_power_corporation.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -12237,7 +12107,6 @@ company_modern_korea_electric_power_corporation = {
 company_modern_safran_mexico = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/safran_mexico.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -12304,7 +12173,6 @@ company_modern_safran_mexico = {
 company_modern_grupo_bimbo = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/grupo_bimbo.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -12383,7 +12251,6 @@ company_modern_grupo_bimbo = {
 company_modern_grupo_lala = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/grupo_lala.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -12459,7 +12326,6 @@ company_modern_grupo_lala = {
 company_modern_dina = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/dina.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -12538,7 +12404,6 @@ company_modern_dina = {
 company_modern_grupo_financiero_banorte = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/grupo_financiero_banorte.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -12775,7 +12640,6 @@ company_modern_cemex = {
 company_modern_pemex = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pemex.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -12859,7 +12723,6 @@ company_modern_pemex = {
 company_modern_grupo_kuo = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/grupo_kuo.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -12929,7 +12792,6 @@ company_modern_grupo_kuo = {
 company_modern_femsa = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/femsa.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -13011,7 +12873,6 @@ company_modern_femsa = {
 company_modern_amrica_mvil = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/amrica_mvil.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -13080,7 +12941,7 @@ company_modern_amrica_mvil = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -13094,7 +12955,6 @@ company_modern_amrica_mvil = {
 company_modern_grupo_mxico_transportes = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/grupo_mxico_transportes.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -13174,7 +13034,6 @@ company_modern_grupo_mxico_transportes = {
 company_modern_turkish_aerospace_industries = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/turkish_aerospace_industries.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -13243,7 +13102,6 @@ company_modern_turkish_aerospace_industries = {
 company_modern_tmo_agricultural_holdings = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/tmo_agricultural_holdings.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -13322,7 +13180,6 @@ company_modern_tmo_agricultural_holdings = {
 company_modern_arelik = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/arelik.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -13398,7 +13255,6 @@ company_modern_arelik = {
 company_modern_aselsan = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/aselsan.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -13479,7 +13335,6 @@ company_modern_aselsan = {
 company_modern_bank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -13714,7 +13569,6 @@ company_modern_erdemir = {
 company_modern_tpra = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/tpra.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -13796,7 +13650,6 @@ company_modern_tpra = {
 company_modern_anadolu_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/anadolu_group.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -13866,7 +13719,6 @@ company_modern_anadolu_group = {
 REPLACE:company_ottoman_tobacco_regie = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/tekel.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -13948,7 +13800,6 @@ REPLACE:company_ottoman_tobacco_regie = {
 company_modern_vestel = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/vestel.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -14017,7 +13868,7 @@ company_modern_vestel = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -14031,7 +13882,6 @@ company_modern_vestel = {
 company_modern_turkish_airlines = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/turkish_airlines.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -14111,7 +13961,6 @@ company_modern_turkish_airlines = {
 company_modern_austal = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/austal.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -14178,7 +14027,6 @@ company_modern_austal = {
 company_modern_graincorp = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/graincorp.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -14257,7 +14105,6 @@ company_modern_graincorp = {
 company_modern_wesfarmers = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/wesfarmers.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -14333,7 +14180,6 @@ company_modern_wesfarmers = {
 company_modern_bae_systems_australia = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bae_systems_australia.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -14412,7 +14258,6 @@ company_modern_bae_systems_australia = {
 company_modern_commonwealth_bank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/commonwealth_bank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -14649,7 +14494,6 @@ company_modern_orica = {
 REPLACE:company_broken_hill_proprietary_company = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bhp.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -14733,7 +14577,6 @@ REPLACE:company_broken_hill_proprietary_company = {
 company_modern_tassal_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/tassal_group.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -14803,7 +14646,6 @@ company_modern_tassal_group = {
 company_modern_treasury_wine_estates = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/treasury_wine_estates.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -14885,7 +14727,6 @@ company_modern_treasury_wine_estates = {
 company_modern_atlassian = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/atlassian.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -14954,7 +14795,7 @@ company_modern_atlassian = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -14968,7 +14809,6 @@ company_modern_atlassian = {
 company_modern_qantas_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/qantas_group.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -15048,7 +14888,6 @@ company_modern_qantas_group = {
 company_modern_saudia_aerospace_engineering_industries = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/saudia_aerospace_engineering_industries.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -15115,7 +14954,6 @@ company_modern_saudia_aerospace_engineering_industries = {
 company_modern_salic = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/salic.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -15194,7 +15032,6 @@ company_modern_salic = {
 company_modern_savola_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/savola_group.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -15270,7 +15107,6 @@ company_modern_savola_group = {
 company_modern_sami = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/sami.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -15349,7 +15185,6 @@ company_modern_sami = {
 company_modern_al_rajhi_bank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/al_rajhi_bank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -15586,7 +15421,6 @@ company_modern_sabic = {
 company_modern_saudi_aramco = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/saudi_aramco.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -15670,7 +15504,6 @@ company_modern_saudi_aramco = {
 company_modern_saudi_fisheries_company = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/saudi_fisheries_company.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -15740,7 +15573,6 @@ company_modern_saudi_fisheries_company = {
 company_modern_almarai = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/almarai.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -15822,7 +15654,6 @@ company_modern_almarai = {
 company_modern_stc = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/stc.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -15891,7 +15722,7 @@ company_modern_stc = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -15905,7 +15736,6 @@ company_modern_stc = {
 company_modern_saudi_electricity_company = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/saudi_electricity_company.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -15985,7 +15815,6 @@ company_modern_saudi_electricity_company = {
 company_modern_navantia = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/navantia.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -16052,7 +15881,6 @@ company_modern_navantia = {
 company_modern_ebro_foods = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ebro_foods.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -16131,7 +15959,6 @@ company_modern_ebro_foods = {
 company_modern_inditex = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/inditex.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -16207,7 +16034,6 @@ company_modern_inditex = {
 company_modern_indra_sistemas = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/indra_sistemas.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -16286,7 +16112,6 @@ company_modern_indra_sistemas = {
 company_modern_banco_santander = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/banco_santander.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -16521,7 +16346,6 @@ company_modern_acerinox = {
 company_modern_repsol = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/repsol.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -16603,7 +16427,6 @@ company_modern_repsol = {
 company_modern_ence = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ence.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -16673,7 +16496,6 @@ company_modern_ence = {
 company_modern_osborne_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/osborne_group.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -16755,7 +16577,6 @@ company_modern_osborne_group = {
 company_modern_telefnica = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/telefnica.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -16824,7 +16645,7 @@ company_modern_telefnica = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -16838,7 +16659,6 @@ company_modern_telefnica = {
 company_modern_iberdrola = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/iberdrola.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -16920,7 +16740,6 @@ company_modern_iberdrola = {
 company_modern_iran_aircraft_manufacturing_industrial_company = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/iran_aircraft_manufacturing_industrial_company.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -16987,7 +16806,6 @@ company_modern_iran_aircraft_manufacturing_industrial_company = {
 company_modern_iranian_agricultural_services = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/iranian_agricultural_services.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -17066,7 +16884,6 @@ company_modern_iranian_agricultural_services = {
 company_modern_shirin_asal_food_industrial_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/shirin_asal_food_industrial_group.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -17142,7 +16959,6 @@ company_modern_shirin_asal_food_industrial_group = {
 company_modern_iran_electronics_industries = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/iran_electronics_industries.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -17221,7 +17037,6 @@ company_modern_iran_electronics_industries = {
 company_modern_bank_melli_iran = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bank_melli_iran.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -17456,7 +17271,6 @@ company_modern_mobarakeh_steel = {
 REPLACE:company_national_iranian_oil = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/national_iranian_oil_company.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -17540,7 +17354,6 @@ REPLACE:company_national_iranian_oil = {
 company_modern_iran_fisheries_organization = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/iran_fisheries_organization.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -17610,7 +17423,6 @@ company_modern_iran_fisheries_organization = {
 company_modern_golrang_industrial_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/golrang_industrial_group.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -17692,7 +17504,6 @@ company_modern_golrang_industrial_group = {
 company_modern_mapna_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/mapna_group.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -17761,7 +17572,7 @@ company_modern_mapna_group = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -17775,7 +17586,6 @@ company_modern_mapna_group = {
 company_modern_islamic_republic_of_iran_railways = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/islamic_republic_of_iran_railways.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -17855,7 +17665,6 @@ company_modern_islamic_republic_of_iran_railways = {
 company_modern_remontowa_shipbuilding = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/remontowa_shipbuilding.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -17922,7 +17731,6 @@ company_modern_remontowa_shipbuilding = {
 company_modern_krajowa_grupa_spoywcza = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/krajowa_grupa_spoywcza.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -18001,7 +17809,6 @@ company_modern_krajowa_grupa_spoywcza = {
 company_modern_lpp = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/lpp.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -18077,7 +17884,6 @@ company_modern_lpp = {
 company_modern_polska_grupa_zbrojeniowa = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/polska_grupa_zbrojeniowa.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -18158,7 +17964,6 @@ company_modern_polska_grupa_zbrojeniowa = {
 company_modern_pko_bank_polski = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pko_bank_polski.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -18393,7 +18198,6 @@ company_modern_grupa_azoty = {
 company_modern_orlen = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/orlen.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -18475,7 +18279,6 @@ company_modern_orlen = {
 company_modern_state_forests_poland = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/state_forests_poland.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -18545,7 +18348,6 @@ company_modern_state_forests_poland = {
 company_modern_polski_tyto = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/polski_tyto.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -18627,7 +18429,6 @@ company_modern_polski_tyto = {
 company_modern_asseco_poland = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/asseco_poland.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -18696,7 +18497,7 @@ company_modern_asseco_poland = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -18710,7 +18511,6 @@ company_modern_asseco_poland = {
 company_modern_pge = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pge.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -18790,7 +18590,6 @@ company_modern_pge = {
 company_modern_damen_shipyards = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/damen_shipyards.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -18857,7 +18656,6 @@ company_modern_damen_shipyards = {
 company_modern_royal_frieslandcampina = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/royal_frieslandcampina.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -18938,7 +18736,6 @@ company_modern_royal_frieslandcampina = {
 company_modern_ing_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ing_group.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -19098,7 +18895,6 @@ company_modern_tata_steel_netherlands = {
 REPLACE:company_nederlandse_petroleum = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/shell_netherlands.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -19180,7 +18976,6 @@ REPLACE:company_nederlandse_petroleum = {
 company_modern_heineken = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/heineken.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -19262,7 +19057,6 @@ company_modern_heineken = {
 company_modern_asml = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/asml.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -19331,7 +19125,7 @@ company_modern_asml = {
 		building_professional_services_sector_throughput_add = 0.2
 		building_university_throughput_add = 0.2
 		state_building_university_max_level_add = 5
-		country_weekly_innovation_mult = 0.1
+		country_weekly_innovation_mult = 0.05
 		country_tech_spread_mult = 0.25
 	}
 
@@ -19345,7 +19139,6 @@ company_modern_asml = {
 company_modern_royal_vopak = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/royal_vopak.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -19425,7 +19218,6 @@ company_modern_royal_vopak = {
 company_modern_bua_foods = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bua_foods.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -19506,7 +19298,6 @@ company_modern_bua_foods = {
 company_modern_dangote_consumer_industries = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/dangote_consumer_industries.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -19582,7 +19373,6 @@ company_modern_dangote_consumer_industries = {
 company_modern_access_bank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/access_bank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -19817,7 +19607,6 @@ company_modern_dangote_industries = {
 company_modern_nnpc_limited = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/nnpc_limited.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -19899,7 +19688,6 @@ company_modern_nnpc_limited = {
 company_modern_nigerian_breweries = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/nigerian_breweries.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -19981,7 +19769,6 @@ company_modern_nigerian_breweries = {
 company_modern_globacom = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/globacom.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -20050,7 +19837,7 @@ company_modern_globacom = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -20064,7 +19851,6 @@ company_modern_globacom = {
 company_modern_tnuva = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/tnuva.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -20145,7 +19931,6 @@ company_modern_tnuva = {
 company_modern_strauss_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/strauss_group.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -20221,7 +20006,6 @@ company_modern_strauss_group = {
 company_modern_elbit_systems = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/elbit_systems.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -20300,7 +20084,6 @@ company_modern_elbit_systems = {
 company_modern_bank_leumi = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bank_leumi.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -20463,7 +20246,6 @@ company_modern_mobileye = {
 company_modern_israel_chemicals = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/israel_chemicals.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -20545,7 +20327,6 @@ company_modern_israel_chemicals = {
 company_modern_teva_pharmaceutical_industries = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/teva_pharmaceutical_industries.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -20614,7 +20395,7 @@ company_modern_teva_pharmaceutical_industries = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -20628,7 +20409,6 @@ company_modern_teva_pharmaceutical_industries = {
 company_modern_israel_electric_corporation = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/israel_electric_corporation.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -20708,7 +20488,6 @@ company_modern_israel_electric_corporation = {
 company_modern_agricultural_bank_of_egypt = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/agricultural_bank_of_egypt.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -20789,7 +20568,6 @@ company_modern_agricultural_bank_of_egypt = {
 company_modern_edita_food_industries = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/edita_food_industries.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -20865,7 +20643,6 @@ company_modern_edita_food_industries = {
 company_modern_national_bank_of_egypt = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/national_bank_of_egypt.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -21025,7 +20802,6 @@ company_modern_ezz_steel = {
 company_modern_egyptian_general_petroleum_corporation = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/egyptian_general_petroleum_corporation.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -21107,7 +20883,6 @@ company_modern_egyptian_general_petroleum_corporation = {
 company_modern_eastern_company = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/eastern_company.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -21189,7 +20964,6 @@ company_modern_eastern_company = {
 company_modern_telecom_egypt = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/telecom_egypt.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -21258,7 +21032,7 @@ company_modern_telecom_egypt = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -21272,7 +21046,6 @@ company_modern_telecom_egypt = {
 REPLACE:company_egyptian_rail = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/egyptian_national_railways.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -21352,7 +21125,6 @@ REPLACE:company_egyptian_rail = {
 company_modern_pakistan_aeronautical_complex = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pakistan_aeronautical_complex.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -21419,7 +21191,6 @@ company_modern_pakistan_aeronautical_complex = {
 company_modern_fauji_fertilizer_company = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/fauji_fertilizer_company.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -21500,7 +21271,6 @@ company_modern_fauji_fertilizer_company = {
 company_modern_engro_corporation = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/engro_corporation.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -21576,7 +21346,6 @@ company_modern_engro_corporation = {
 company_modern_habib_bank_limited = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/habib_bank_limited.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -21736,7 +21505,6 @@ company_modern_lucky_cement = {
 company_modern_pakistan_petroleum_limited = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pakistan_petroleum_limited.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -21818,7 +21586,6 @@ company_modern_pakistan_petroleum_limited = {
 company_modern_pakistan_tobacco_company = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pakistan_tobacco_company.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -21900,7 +21667,6 @@ company_modern_pakistan_tobacco_company = {
 company_modern_systems_limited = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/systems_limited.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -21969,7 +21735,7 @@ company_modern_systems_limited = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -21983,7 +21749,6 @@ company_modern_systems_limited = {
 company_modern_vinamilk = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/vinamilk.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -22064,7 +21829,6 @@ company_modern_vinamilk = {
 company_modern_vietcombank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/vietcombank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -22299,7 +22063,6 @@ company_modern_hoa_phat_group = {
 company_modern_petrovietnam = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/petrovietnam.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -22381,7 +22144,6 @@ company_modern_petrovietnam = {
 company_modern_vietnam_rubber_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/vietnam_rubber_group.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -22463,7 +22225,6 @@ company_modern_vietnam_rubber_group = {
 company_modern_viettel = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/viettel.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -22532,7 +22293,7 @@ company_modern_viettel = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -22546,7 +22307,6 @@ company_modern_viettel = {
 REPLACE:company_san_miguel = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/san_miguel_corporation.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -22627,7 +22387,6 @@ REPLACE:company_san_miguel = {
 company_modern_jg_summit_holdings = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/jg_summit_holdings.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -22703,7 +22462,6 @@ company_modern_jg_summit_holdings = {
 company_modern_bdo_unibank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bdo_unibank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -22791,7 +22549,6 @@ company_modern_bdo_unibank = {
 company_modern_semirara_mining_and_power = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/semirara_mining_and_power.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -22873,7 +22630,6 @@ company_modern_semirara_mining_and_power = {
 company_modern_universal_robina_corporation = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/universal_robina_corporation.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -22955,7 +22711,6 @@ company_modern_universal_robina_corporation = {
 company_modern_pldt = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pldt.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -23024,7 +22779,7 @@ company_modern_pldt = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -23038,7 +22793,6 @@ company_modern_pldt = {
 company_modern_meralco = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/meralco.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -23118,7 +22872,6 @@ company_modern_meralco = {
 company_modern_pran_rfl_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/pran_rfl_group.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -23199,7 +22952,6 @@ company_modern_pran_rfl_group = {
 company_modern_beximco = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/beximco.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -23275,7 +23027,6 @@ company_modern_beximco = {
 company_modern_brac_bank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/brac_bank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -23438,7 +23189,6 @@ company_modern_walton_hi_tech_industries = {
 company_modern_bashundhara_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bashundhara_group.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -23520,7 +23270,6 @@ company_modern_bashundhara_group = {
 company_modern_british_american_tobacco_bangladesh = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/british_american_tobacco_bangladesh.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -23602,7 +23351,6 @@ company_modern_british_american_tobacco_bangladesh = {
 company_modern_grameenphone = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/grameenphone.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -23671,7 +23419,7 @@ company_modern_grameenphone = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -23685,7 +23433,6 @@ company_modern_grameenphone = {
 company_modern_shoprite_holdings = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/shoprite_holdings.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -23766,7 +23513,6 @@ company_modern_shoprite_holdings = {
 company_modern_standard_bank_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/standard_bank_group.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -23926,7 +23672,6 @@ company_modern_sasol = {
 company_modern_anglo_american_south_africa = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/anglo_american_south_africa.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -24008,7 +23753,6 @@ company_modern_anglo_american_south_africa = {
 company_modern_british_american_tobacco_south_africa = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/british_american_tobacco_south_africa.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -24090,7 +23834,6 @@ company_modern_british_american_tobacco_south_africa = {
 company_modern_naspers = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/naspers.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -24159,7 +23902,7 @@ company_modern_naspers = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -24173,7 +23916,6 @@ company_modern_naspers = {
 company_modern_transnet = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/transnet.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -24253,7 +23995,6 @@ company_modern_transnet = {
 company_modern_invap = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/invap.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -24320,7 +24061,6 @@ company_modern_invap = {
 company_modern_arcor = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/arcor.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -24401,7 +24141,6 @@ company_modern_arcor = {
 company_modern_banco_galicia = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/banco_galicia.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -24561,7 +24300,6 @@ company_modern_techint = {
 company_modern_ypf = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ypf.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -24643,7 +24381,6 @@ company_modern_ypf = {
 company_modern_bodega_catena_zapata = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bodega_catena_zapata.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -24725,7 +24462,6 @@ company_modern_bodega_catena_zapata = {
 company_modern_mercado_libre = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/mercado_libre.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -24794,7 +24530,7 @@ company_modern_mercado_libre = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -24808,7 +24544,6 @@ company_modern_mercado_libre = {
 company_modern_charoen_pokphand_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/charoen_pokphand_group.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -24889,7 +24624,6 @@ company_modern_charoen_pokphand_group = {
 company_modern_kasikornbank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/kasikornbank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -25049,7 +24783,6 @@ company_modern_siam_cement_group = {
 company_modern_ptt = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ptt.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -25131,7 +24864,6 @@ company_modern_ptt = {
 company_modern_thai_beverage = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/thai_beverage.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -25213,7 +24945,6 @@ company_modern_thai_beverage = {
 company_modern_advanced_info_service = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/advanced_info_service.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -25282,7 +25013,7 @@ company_modern_advanced_info_service = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -25296,7 +25027,6 @@ company_modern_advanced_info_service = {
 company_modern_sime_darby = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/sime_darby.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -25377,7 +25107,6 @@ company_modern_sime_darby = {
 company_modern_maybank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/maybank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -25540,7 +25269,6 @@ company_modern_proton_holdings = {
 company_modern_petronas = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/petronas.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -25622,7 +25350,6 @@ company_modern_petronas = {
 company_modern_ioi_corporation = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ioi_corporation.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -25704,7 +25431,6 @@ company_modern_ioi_corporation = {
 company_modern_axiata_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/axiata_group.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -25773,7 +25499,7 @@ company_modern_axiata_group = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -25787,7 +25513,6 @@ company_modern_axiata_group = {
 company_modern_grupo_nutresa = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/grupo_nutresa.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -25868,7 +25593,6 @@ company_modern_grupo_nutresa = {
 company_modern_indumil = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/indumil.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -25947,7 +25671,6 @@ company_modern_indumil = {
 company_modern_bancolombia = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bancolombia.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -26107,7 +25830,6 @@ company_modern_grupo_argos = {
 company_modern_ecopetrol = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ecopetrol.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -26189,7 +25911,6 @@ company_modern_ecopetrol = {
 company_modern_isa = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/isa.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -26269,7 +25990,6 @@ company_modern_isa = {
 company_modern_cevital = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/cevital.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -26348,7 +26068,6 @@ company_modern_cevital = {
 company_modern_condor_electronics = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/condor_electronics.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -26424,7 +26143,6 @@ company_modern_condor_electronics = {
 company_modern_banque_extrieure_d_algrie = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/banque_extrieure_d_algrie.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -26587,7 +26305,6 @@ company_modern_enmtp = {
 company_modern_sonatrach = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/sonatrach.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -26669,7 +26386,6 @@ company_modern_sonatrach = {
 company_modern_sonelgaz = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/sonelgaz.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -26749,7 +26465,6 @@ company_modern_sonelgaz = {
 company_modern_ethiopian_airlines = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ethiopian_airlines.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -26816,7 +26531,6 @@ company_modern_ethiopian_airlines = {
 company_modern_ethiopian_coffee_and_tea_authority = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ethiopian_coffee_and_tea_authority.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -26895,7 +26609,6 @@ company_modern_ethiopian_coffee_and_tea_authority = {
 company_modern_midroc_ethiopia = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/midroc_ethiopia.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -26971,7 +26684,6 @@ company_modern_midroc_ethiopia = {
 company_modern_commercial_bank_of_ethiopia = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/commercial_bank_of_ethiopia.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -27059,7 +26771,6 @@ company_modern_commercial_bank_of_ethiopia = {
 company_modern_ethio_telecom = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ethio_telecom.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -27128,7 +26839,7 @@ company_modern_ethio_telecom = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -27142,7 +26853,6 @@ company_modern_ethio_telecom = {
 company_modern_ethiopian_electric_power = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ethiopian_electric_power.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -27222,7 +26932,6 @@ company_modern_ethiopian_electric_power = {
 company_modern_kernel = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/kernel.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -27301,7 +27010,6 @@ company_modern_kernel = {
 company_modern_ukrainian_defense_industry = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ukrainian_defense_industry.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -27452,7 +27160,6 @@ company_modern_metinvest = {
 company_modern_naftogaz = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/naftogaz.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -27534,7 +27241,6 @@ company_modern_naftogaz = {
 company_modern_softserve = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/softserve.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -27603,7 +27309,7 @@ company_modern_softserve = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -27617,7 +27323,6 @@ company_modern_softserve = {
 company_modern_bralima = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bralima.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -27693,7 +27398,6 @@ company_modern_bralima = {
 company_modern_rawbank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/rawbank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -27853,7 +27557,6 @@ company_modern_tenke_fungurume_mining = {
 company_modern_gcamines = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/gcamines.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -27935,7 +27638,6 @@ company_modern_gcamines = {
 company_modern_snel = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/snel.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -28015,7 +27717,6 @@ company_modern_snel = {
 company_modern_kenya_tea_development_agency = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/kenya_tea_development_agency.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -28094,7 +27795,6 @@ company_modern_kenya_tea_development_agency = {
 company_modern_equity_group_holdings = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/equity_group_holdings.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -28254,7 +27954,6 @@ company_modern_bamburi_cement = {
 company_modern_safaricom = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/safaricom.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -28323,7 +28022,7 @@ company_modern_safaricom = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -28337,7 +28036,6 @@ company_modern_safaricom = {
 company_modern_kenya_electricity_generating_company = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/kenya_electricity_generating_company.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -28417,7 +28115,6 @@ company_modern_kenya_electricity_generating_company = {
 company_modern_air_astana = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/air_astana.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -28484,7 +28181,6 @@ company_modern_air_astana = {
 company_modern_halyk_bank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/halyk_bank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -28644,7 +28340,6 @@ company_modern_eurasian_resources_group = {
 company_modern_kazmunaygas = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/kazmunaygas.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -28726,7 +28421,6 @@ company_modern_kazmunaygas = {
 company_modern_kazakhstan_temir_zholy = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/kazakhstan_temir_zholy.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -28806,7 +28500,6 @@ company_modern_kazakhstan_temir_zholy = {
 company_modern_sima_per = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/sima_per.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -28873,7 +28566,6 @@ company_modern_sima_per = {
 company_modern_alicorp = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/alicorp.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -28952,7 +28644,6 @@ company_modern_alicorp = {
 company_modern_credicorp = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/credicorp.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -29112,7 +28803,6 @@ company_modern_ferreycorp = {
 company_modern_southern_copper_peru = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/southern_copper_peru.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -29194,7 +28884,6 @@ company_modern_southern_copper_peru = {
 company_modern_asry = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/asry.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -29261,7 +28950,6 @@ company_modern_asry = {
 company_modern_bank_abc = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bank_abc.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -29421,7 +29109,6 @@ company_modern_aluminium_bahrain = {
 company_modern_bapco_energies = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bapco_energies.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -29503,7 +29190,6 @@ company_modern_bapco_energies = {
 company_modern_deme = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/deme.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -29570,7 +29256,6 @@ company_modern_deme = {
 company_modern_kbc_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/kbc_group.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -29732,7 +29417,6 @@ company_modern_solvay = {
 company_modern_ab_inbev = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ab_inbev.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -29816,7 +29500,6 @@ company_modern_ab_inbev = {
 company_modern_ucb = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ucb.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -29885,7 +29568,7 @@ company_modern_ucb = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -29899,7 +29582,6 @@ company_modern_ucb = {
 company_modern_proximus = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/proximus.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -29979,7 +29661,6 @@ company_modern_proximus = {
 company_modern_royal_brunei_airlines = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/royal_brunei_airlines.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -30046,7 +29727,6 @@ company_modern_royal_brunei_airlines = {
 company_modern_bank_islam_brunei_darussalam = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bank_islam_brunei_darussalam.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -30134,7 +29814,6 @@ company_modern_bank_islam_brunei_darussalam = {
 company_modern_brunei_shell_petroleum = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/brunei_shell_petroleum.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -30216,7 +29895,6 @@ company_modern_brunei_shell_petroleum = {
 company_modern_latam_airlines = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/latam_airlines.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -30283,7 +29961,6 @@ company_modern_latam_airlines = {
 company_modern_banco_de_chile = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/banco_de_chile.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -30443,7 +30120,6 @@ company_modern_sqm = {
 company_modern_codelco = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/codelco.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -30525,7 +30201,6 @@ company_modern_codelco = {
 company_modern_cmpc = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/cmpc.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -30597,7 +30272,6 @@ company_modern_cmpc = {
 company_modern_empresas_copec = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/empresas_copec.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -30677,7 +30351,6 @@ company_modern_empresas_copec = {
 company_modern_agrofert = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/agrofert.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -30758,7 +30431,6 @@ company_modern_agrofert = {
 company_modern_colt_cz_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/colt_cz_group.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -30837,7 +30509,6 @@ company_modern_colt_cz_group = {
 company_modern_ppf_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ppf_group.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -31000,7 +30671,6 @@ REPLACE:company_skoda = {
 company_modern_avast = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/avast.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -31069,7 +30739,7 @@ company_modern_avast = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -31083,7 +30753,6 @@ company_modern_avast = {
 company_modern_ez_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ez_group.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -31163,7 +30832,6 @@ company_modern_ez_group = {
 REPLACE:company_ap_moller = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/a_p_moller_maersk.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -31230,7 +30898,6 @@ REPLACE:company_ap_moller = {
 company_modern_danske_bank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/danske_bank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -31393,7 +31060,6 @@ company_modern_vestas = {
 company_modern_carlsberg_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/carlsberg_group.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -31477,7 +31143,6 @@ company_modern_carlsberg_group = {
 company_modern_novo_nordisk = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/novo_nordisk.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -31546,7 +31211,7 @@ company_modern_novo_nordisk = {
 		building_professional_services_sector_throughput_add = 0.2
 		building_university_throughput_add = 0.2
 		state_building_university_max_level_add = 5
-		country_weekly_innovation_mult = 0.1
+		country_weekly_innovation_mult = 0.05
 		country_tech_spread_mult = 0.25
 	}
 
@@ -31560,7 +31225,6 @@ company_modern_novo_nordisk = {
 company_modern_dsv = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/dsv.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -31640,7 +31304,6 @@ company_modern_dsv = {
 company_modern_military_industries_commission = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/military_industries_commission.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -31719,7 +31382,6 @@ company_modern_military_industries_commission = {
 company_modern_trade_bank_of_iraq = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/trade_bank_of_iraq.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -31807,7 +31469,6 @@ company_modern_trade_bank_of_iraq = {
 company_modern_iraq_national_oil_company = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/iraq_national_oil_company.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -31889,7 +31550,6 @@ company_modern_iraq_national_oil_company = {
 company_modern_iraqi_republic_railways = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/iraqi_republic_railways.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -31969,7 +31629,6 @@ company_modern_iraqi_republic_railways = {
 company_modern_aercap = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/aercap.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -32036,7 +31695,6 @@ company_modern_aercap = {
 company_modern_kerry_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/kerry_group.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -32117,7 +31775,6 @@ company_modern_kerry_group = {
 company_modern_allied_irish_banks = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/allied_irish_banks.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -32277,7 +31934,6 @@ company_modern_crh = {
 company_modern_accenture_ireland = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/accenture_ireland.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -32346,7 +32002,7 @@ company_modern_accenture_ireland = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -32360,7 +32016,6 @@ company_modern_accenture_ireland = {
 company_modern_ryanair = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ryanair.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -32440,7 +32095,6 @@ company_modern_ryanair = {
 company_modern_national_bank_of_kuwait = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/national_bank_of_kuwait.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -32528,7 +32182,6 @@ company_modern_national_bank_of_kuwait = {
 company_modern_kuwait_petroleum_corporation = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/kuwait_petroleum_corporation.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -32612,7 +32265,6 @@ company_modern_kuwait_petroleum_corporation = {
 company_modern_zain_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/zain_group.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -32681,7 +32333,7 @@ company_modern_zain_group = {
 		building_professional_services_sector_throughput_add = 0.2
 		building_university_throughput_add = 0.2
 		state_building_university_max_level_add = 5
-		country_weekly_innovation_mult = 0.1
+		country_weekly_innovation_mult = 0.05
 		country_tech_spread_mult = 0.25
 	}
 
@@ -32695,7 +32347,6 @@ company_modern_zain_group = {
 company_modern_agility_logistics = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/agility_logistics.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -32775,7 +32426,6 @@ company_modern_agility_logistics = {
 company_modern_cargolux = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/cargolux.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -32842,7 +32492,6 @@ company_modern_cargolux = {
 company_modern_bgl_bnp_paribas = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bgl_bnp_paribas.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -33004,7 +32653,6 @@ company_modern_arcelormittal = {
 company_modern_ses = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ses.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -33073,7 +32721,7 @@ company_modern_ses = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -33087,7 +32735,6 @@ company_modern_ses = {
 company_modern_royal_air_maroc = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/royal_air_maroc.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -33154,7 +32801,6 @@ company_modern_royal_air_maroc = {
 company_modern_attijariwafa_bank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/attijariwafa_bank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -33317,7 +32963,6 @@ company_modern_renault_morocco = {
 REPLACE:company_office_cherifien_des_phosphates = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ocp_group.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -33401,7 +33046,6 @@ REPLACE:company_office_cherifien_des_phosphates = {
 company_modern_maroc_telecom = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/maroc_telecom.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -33470,7 +33114,7 @@ company_modern_maroc_telecom = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -33484,7 +33128,6 @@ company_modern_maroc_telecom = {
 company_modern_air_new_zealand = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/air_new_zealand.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -33551,7 +33194,6 @@ company_modern_air_new_zealand = {
 company_modern_fonterra = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/fonterra.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -33632,7 +33274,6 @@ company_modern_fonterra = {
 company_modern_zespri = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/zespri.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -33714,7 +33355,6 @@ company_modern_zespri = {
 company_modern_fisher_and_paykel_healthcare = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/fisher_and_paykel_healthcare.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -33783,7 +33423,7 @@ company_modern_fisher_and_paykel_healthcare = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -33797,7 +33437,6 @@ company_modern_fisher_and_paykel_healthcare = {
 company_modern_meridian_energy = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/meridian_energy.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -33877,7 +33516,6 @@ company_modern_meridian_energy = {
 REPLACE:company_aker_mek = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/aker_solutions.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -33944,7 +33582,6 @@ REPLACE:company_aker_mek = {
 company_modern_mowi = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/mowi.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -34025,7 +33662,6 @@ company_modern_mowi = {
 company_modern_kongsberg_gruppen = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/kongsberg_gruppen.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -34104,7 +33740,6 @@ company_modern_kongsberg_gruppen = {
 company_modern_dnb = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/dnb.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -34264,7 +33899,6 @@ REPLACE:company_norsk_hydro = {
 company_modern_equinor = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/equinor.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -34348,7 +33982,6 @@ company_modern_equinor = {
 company_modern_telenor = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/telenor.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -34417,7 +34050,7 @@ company_modern_telenor = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -34431,7 +34064,6 @@ company_modern_telenor = {
 company_modern_bank_muscat = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bank_muscat.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -34519,7 +34151,6 @@ company_modern_bank_muscat = {
 company_modern_oq = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/oq.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -34601,7 +34232,6 @@ company_modern_oq = {
 company_modern_omantel = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/omantel.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -34670,7 +34300,7 @@ company_modern_omantel = {
 		building_professional_services_sector_throughput_add = 0.2
 		building_university_throughput_add = 0.2
 		state_building_university_max_level_add = 5
-		country_weekly_innovation_mult = 0.1
+		country_weekly_innovation_mult = 0.05
 		country_tech_spread_mult = 0.25
 	}
 
@@ -34684,7 +34314,6 @@ company_modern_omantel = {
 company_modern_asyad_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/asyad_group.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -34764,7 +34393,6 @@ company_modern_asyad_group = {
 company_modern_copa_holdings = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/copa_holdings.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -34831,7 +34459,6 @@ company_modern_copa_holdings = {
 company_modern_grupo_melo = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/grupo_melo.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -34912,7 +34539,6 @@ company_modern_grupo_melo = {
 company_modern_banco_general = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/banco_general.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -35000,7 +34626,6 @@ company_modern_banco_general = {
 company_modern_panama_canal_authority = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/panama_canal_authority.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -35080,7 +34705,6 @@ company_modern_panama_canal_authority = {
 company_modern_qatar_airways = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/qatar_airways.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -35147,7 +34771,6 @@ company_modern_qatar_airways = {
 company_modern_qnb_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/qnb_group.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -35307,7 +34930,6 @@ company_modern_industries_qatar = {
 company_modern_qatarenergy = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/qatarenergy.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -35391,7 +35013,6 @@ company_modern_qatarenergy = {
 company_modern_ooredoo = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ooredoo.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -35460,7 +35081,7 @@ company_modern_ooredoo = {
 		building_professional_services_sector_throughput_add = 0.2
 		building_university_throughput_add = 0.2
 		state_building_university_max_level_add = 5
-		country_weekly_innovation_mult = 0.1
+		country_weekly_innovation_mult = 0.05
 		country_tech_spread_mult = 0.25
 	}
 
@@ -35474,7 +35095,6 @@ company_modern_ooredoo = {
 company_modern_banca_transilvania = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/banca_transilvania.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -35637,7 +35257,6 @@ company_modern_dacia = {
 company_modern_omv_petrom = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/omv_petrom.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -35719,7 +35338,6 @@ company_modern_omv_petrom = {
 company_modern_bitdefender = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/bitdefender.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -35788,7 +35406,7 @@ company_modern_bitdefender = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -35802,7 +35420,6 @@ company_modern_bitdefender = {
 company_modern_hidroelectrica = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/hidroelectrica.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -35882,7 +35499,6 @@ company_modern_hidroelectrica = {
 company_modern_singapore_airlines_engineering = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/singapore_airlines_engineering.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -35949,7 +35565,6 @@ company_modern_singapore_airlines_engineering = {
 company_modern_wilmar_international = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/wilmar_international.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -36030,7 +35645,6 @@ company_modern_wilmar_international = {
 company_modern_olam_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/olam_group.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -36108,7 +35722,6 @@ company_modern_olam_group = {
 company_modern_st_engineering = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/st_engineering.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -36187,7 +35800,6 @@ company_modern_st_engineering = {
 company_modern_dbs_bank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/dbs_bank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -36275,7 +35887,6 @@ company_modern_dbs_bank = {
 company_modern_sea_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/sea_group.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -36344,7 +35955,7 @@ company_modern_sea_group = {
 		building_professional_services_sector_throughput_add = 0.2
 		building_university_throughput_add = 0.2
 		state_building_university_max_level_add = 5
-		country_weekly_innovation_mult = 0.1
+		country_weekly_innovation_mult = 0.05
 		country_tech_spread_mult = 0.25
 	}
 
@@ -36358,7 +35969,6 @@ company_modern_sea_group = {
 company_modern_psa_international = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/psa_international.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -36438,7 +36048,6 @@ company_modern_psa_international = {
 company_modern_ikea = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ikea.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -36516,7 +36125,6 @@ company_modern_ikea = {
 company_modern_saab = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/saab.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -36595,7 +36203,6 @@ company_modern_saab = {
 company_modern_seb = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/seb.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -36830,7 +36437,6 @@ company_modern_sandvik = {
 REPLACE:company_ericsson = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ericsson.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -36899,7 +36505,7 @@ REPLACE:company_ericsson = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -36913,7 +36519,6 @@ REPLACE:company_ericsson = {
 company_modern_vattenfall = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/vattenfall.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -36993,7 +36598,6 @@ company_modern_vattenfall = {
 company_modern_nestl = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/nestl.png"
-	category = aristocrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -37074,7 +36678,6 @@ company_modern_nestl = {
 company_modern_ruag = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ruag.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -37153,7 +36756,6 @@ company_modern_ruag = {
 company_modern_ubs = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/ubs.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -37390,7 +36992,6 @@ company_modern_holcim = {
 company_modern_roche = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/roche.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -37459,7 +37060,7 @@ company_modern_roche = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -37473,7 +37074,6 @@ company_modern_roche = {
 company_modern_swiss_federal_railways = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/swiss_federal_railways.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -37553,7 +37153,6 @@ company_modern_swiss_federal_railways = {
 company_modern_emirates_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/emirates_group.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -37620,7 +37219,6 @@ company_modern_emirates_group = {
 company_modern_edge_group = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/edge_group.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -37699,7 +37297,6 @@ company_modern_edge_group = {
 company_modern_first_abu_dhabi_bank = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/first_abu_dhabi_bank.png"
-	category = shopkeeper_owned
 	flavored_company = yes
 
 	building_types = {
@@ -37861,7 +37458,6 @@ company_modern_emirates_global_aluminium = {
 company_modern_adnoc = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/adnoc.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {
@@ -37945,7 +37541,6 @@ company_modern_adnoc = {
 company_modern_e_and = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/e_and.png"
-	category = academic_owned
 	flavored_company = yes
 
 	building_types = {
@@ -38014,7 +37609,7 @@ company_modern_e_and = {
 		building_professional_services_sector_throughput_add = 0.1
 		building_university_throughput_add = 0.1
 		state_building_university_max_level_add = 2
-		country_weekly_innovation_mult = 0.05
+		country_weekly_innovation_mult = 0.025
 		country_tech_spread_mult = 0.1
 	}
 
@@ -38028,7 +37623,6 @@ company_modern_e_and = {
 company_modern_dp_world = {
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
 	icon = "gfx/interface/icons/company_icons/modern_company_icons/dp_world.png"
-	category = bureaucrat_owned
 	flavored_company = yes
 
 	building_types = {

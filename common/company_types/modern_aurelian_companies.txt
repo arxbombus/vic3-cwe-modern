@@ -1,0 +1,1285 @@
+# Aurelian companies
+# Country tag: FRE
+# Budget: 384 points (4x the United States' 96-point budget)
+# Tier throughput: 10% / 20% / 40% / 60% / 90% / 120%
+# All 67 primary company-compatible building types are covered exactly once.
+
+# Aurelia — Tianjing Microelectronics — Tier 6
+company_fre_tianjing_microelectronics = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_tianjing_microelectronics.png"
+	flavored_company = yes
+
+	building_types = {
+		building_telecommunications_factory
+		building_computers_factory
+		building_circuit_boards_factory
+	}
+
+	extension_building_types = {
+		building_communications_network
+		building_software_industry
+		building_financial_services_sector
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_tianjing_consumer_electronics
+		prestige_good_fre_tianjing_computers
+		prestige_good_fre_tianjing_circuit_boards
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_telecommunications_factory
+					is_building_type = building_computers_factory
+					is_building_type = building_circuit_boards_factory
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_FORMOSA
+	}
+
+	prosperity_modifier = {
+		building_telecommunications_factory_throughput_add = 1.2
+		building_computers_factory_throughput_add = 1.2
+		building_circuit_boards_factory_throughput_add = 1.2
+		country_weekly_innovation_mult = 0.25
+		country_tech_spread_mult = 1.5
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 30
+	}
+}
+
+# Aurelia — Zhihai Technologies — Tier 6
+company_fre_zhihai_technologies = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_zhihai_technologies.png"
+	flavored_company = yes
+
+	building_types = {
+		building_software_industry
+		building_professional_services_sector
+		building_university
+	}
+
+	extension_building_types = {
+		building_communications_network
+		building_financial_services_sector
+		building_art_academy
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_zhihai_enterprise_software
+		prestige_good_fre_zhihai_consulting_services
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_software_industry
+					is_building_type = building_professional_services_sector
+					is_building_type = building_university
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_FORMOSA
+	}
+
+	prosperity_modifier = {
+		building_software_industry_throughput_add = 1.2
+		building_professional_services_sector_throughput_add = 1.2
+		building_university_throughput_add = 1.2
+		country_weekly_innovation_mult = 0.25
+		country_tech_spread_mult = 1.5
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 30
+	}
+}
+
+# Aurelia — Jingwei Holdings — Tier 6
+company_fre_jingwei_holdings = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_jingwei_holdings.png"
+	flavored_company = yes
+
+	building_types = {
+		building_financial_services_sector
+		building_corporate_services_industry
+		building_retail_services_sector
+		building_real_estate_sector
+		building_skyscraper
+	}
+
+	extension_building_types = {
+		building_software_industry
+		building_communications_network
+		building_trade_center
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_jingwei_financial_services
+		prestige_good_fre_jingwei_business_services
+		prestige_good_fre_jingwei_retail_services
+		prestige_good_fre_jingwei_commercial_property
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_financial_services_sector
+					is_building_type = building_corporate_services_industry
+					is_building_type = building_retail_services_sector
+					is_building_type = building_real_estate_sector
+					is_building_type = building_skyscraper
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_FORMOSA
+	}
+
+	prosperity_modifier = {
+		building_financial_services_sector_throughput_add = 1.2
+		building_corporate_services_industry_throughput_add = 1.2
+		building_retail_services_sector_throughput_add = 1.2
+		building_real_estate_sector_throughput_add = 1.2
+		building_skyscraper_throughput_add = 1.2
+		state_trade_capacity_mult = 1.5
+		country_prestige_mult = 0.6
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 30
+	}
+}
+
+# Aurelia — Qingji Engineering Group — Tier 6
+company_fre_qingji_engineering_group = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_qingji_engineering_group.png"
+	flavored_company = yes
+
+	building_types = {
+		building_railway
+		building_port
+		building_power_plant
+		building_hydroelectric_power_plant
+		building_communications_network
+		building_construction_sector
+	}
+
+	extension_building_types = {
+		building_locomotives_factory
+		building_trade_center
+		building_corporate_services_industry
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_qingji_rail_transport
+		prestige_good_fre_qingji_grid_power
+		prestige_good_fre_qingji_merchant_shipping
+		prestige_good_fre_qingji_network_services
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_railway
+					is_building_type = building_port
+					is_building_type = building_power_plant
+					is_building_type = building_hydroelectric_power_plant
+					is_building_type = building_communications_network
+					is_building_type = building_construction_sector
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_FORMOSA
+	}
+
+	prosperity_modifier = {
+		building_railway_throughput_add = 1.2
+		building_port_throughput_add = 1.2
+		building_power_plant_throughput_add = 1.2
+		building_hydroelectric_power_plant_throughput_add = 1.2
+		building_communications_network_throughput_add = 1.2
+		building_construction_sector_throughput_add = 1.2
+		state_infrastructure_mult = 1.5
+		state_infrastructure_from_population_max_add = 120
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 30
+	}
+}
+
+# Aurelia — Haidong Automata — Tier 6
+company_fre_haidong_automata = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_haidong_automata.png"
+	flavored_company = yes
+
+	building_types = {
+		building_industrial_robots_factory
+		building_consumer_robots_factory
+	}
+
+	extension_building_types = {
+		building_steel_factory
+		building_circuit_boards_factory
+		building_railway
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_haidong_industrial_robots
+		prestige_good_fre_haidong_home_robots
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_industrial_robots_factory
+					is_building_type = building_consumer_robots_factory
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_JEJU
+	}
+
+	prosperity_modifier = {
+		building_industrial_robots_factory_throughput_add = 1.2
+		building_consumer_robots_factory_throughput_add = 1.2
+		country_production_tech_spread_mult = 1.5
+		country_prestige_mult = 0.6
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 30
+	}
+}
+
+# Aurelia — Danqi Strategic Industries — Tier 6
+company_fre_danqi_strategic_industries = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_danqi_strategic_industries.png"
+	flavored_company = yes
+
+	building_types = {
+		building_small_arms_factory
+		building_ammunition_factory
+		building_artillery_factory
+		building_tanks_factory
+		building_warplanes_factory
+		building_advanced_weaponry_factory
+	}
+
+	extension_building_types = {
+		building_steel_factory
+		building_engines_factory
+		building_shipyard
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_danqi_service_weapons
+		prestige_good_fre_danqi_ammunition
+		prestige_good_fre_danqi_field_artillery
+		prestige_good_fre_danqi_armoured_vehicles
+		prestige_good_fre_danqi_combat_aircraft
+		prestige_good_fre_danqi_missile_systems
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_small_arms_factory
+					is_building_type = building_ammunition_factory
+					is_building_type = building_artillery_factory
+					is_building_type = building_tanks_factory
+					is_building_type = building_warplanes_factory
+					is_building_type = building_advanced_weaponry_factory
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_SOUTH_WEST_FORMOSA
+	}
+
+	prosperity_modifier = {
+		building_small_arms_factory_throughput_add = 1.2
+		building_ammunition_factory_throughput_add = 1.2
+		building_artillery_factory_throughput_add = 1.2
+		building_tanks_factory_throughput_add = 1.2
+		building_warplanes_factory_throughput_add = 1.2
+		building_advanced_weaponry_factory_throughput_add = 1.2
+		unit_army_offense_mult = 0.45
+		country_military_goods_cost_mult = -0.6
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 30
+	}
+}
+
+# Aurelia — Canghai Resources — Tier 6
+company_fre_canghai_resources = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_canghai_resources.png"
+	flavored_company = yes
+
+	building_types = {
+		building_iron_mine
+		building_coal_mine
+		building_lead_mine
+		building_sulfur_mine
+		building_gold_mine
+		building_gold_field
+		building_oil_rig
+	}
+
+	extension_building_types = {
+		building_railway
+		building_port
+		building_power_plant
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_canghai_iron_ore
+		prestige_good_fre_canghai_coal
+		prestige_good_fre_canghai_refined_lead
+		prestige_good_fre_canghai_industrial_sulfur
+		prestige_good_fre_canghai_gold_bullion
+		prestige_good_fre_canghai_crude_oil
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_iron_mine
+					is_building_type = building_coal_mine
+					is_building_type = building_lead_mine
+					is_building_type = building_sulfur_mine
+					is_building_type = building_gold_mine
+					is_building_type = building_gold_field
+					is_building_type = building_oil_rig
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_NORTH_HAINAN
+	}
+
+	prosperity_modifier = {
+		building_iron_mine_throughput_add = 1.2
+		building_coal_mine_throughput_add = 1.2
+		building_lead_mine_throughput_add = 1.2
+		building_sulfur_mine_throughput_add = 1.2
+		building_gold_mine_throughput_add = 1.2
+		building_gold_field_throughput_add = 1.2
+		building_oil_rig_throughput_add = 1.2
+		country_minting_mult = 0.6
+		state_infrastructure_mult = 1.5
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 30
+	}
+}
+
+# Aurelia — Liuxing Aerospace & Marine — Tier 5
+company_fre_liuxing_aerospace_marine = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_liuxing_aerospace_marine.png"
+	flavored_company = yes
+
+	building_types = {
+		building_aeroplanes_factory
+		building_shipyard
+	}
+
+	extension_building_types = {
+		building_engines_factory
+		building_port
+		building_steel_factory
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_liuxing_airliners
+		prestige_good_fre_liuxing_cargo_ships
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_aeroplanes_factory
+					is_building_type = building_shipyard
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_ISHIGAKI_ISLAND
+	}
+
+	prosperity_modifier = {
+		building_aeroplanes_factory_throughput_add = 0.9
+		building_shipyard_throughput_add = 0.9
+		country_ship_group_supply_ships_construction_efficiency_add = 1.125
+		country_prestige_mult = 0.45
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 23
+	}
+}
+
+# Aurelia — Xuanyu Advanced Materials — Tier 4
+company_fre_xuanyu_advanced_materials = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_xuanyu_advanced_materials.png"
+	flavored_company = yes
+
+	building_types = {
+		building_steel_factory
+		building_industrial_chemicals_factory
+		building_plastics_factory
+		building_synthetic_rubber_factory
+	}
+
+	extension_building_types = {
+		building_engines_factory
+		building_construction_sector
+		building_railway
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_xuanyu_structural_steel
+		prestige_good_fre_xuanyu_industrial_chemicals
+		prestige_good_fre_xuanyu_engineering_plastics
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_steel_factory
+					is_building_type = building_industrial_chemicals_factory
+					is_building_type = building_plastics_factory
+					is_building_type = building_synthetic_rubber_factory
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_WEST_FORMOSA
+	}
+
+	prosperity_modifier = {
+		building_steel_factory_throughput_add = 0.6
+		building_industrial_chemicals_factory_throughput_add = 0.6
+		building_plastics_factory_throughput_add = 0.6
+		building_synthetic_rubber_factory_throughput_add = 0.6
+		state_construction_mult = 0.3
+		state_infrastructure_mult = 0.3
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 15
+	}
+}
+
+# Aurelia — Jinlun Mobility — Tier 3
+company_fre_jinlun_mobility = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_railways.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_jinlun_mobility.png"
+	flavored_company = yes
+
+	building_types = {
+		building_engines_factory
+		building_locomotives_factory
+		building_automobiles_factory
+	}
+
+	extension_building_types = {
+		building_steel_factory
+		building_circuit_boards_factory
+		building_railway
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_jinlun_engines
+		prestige_good_fre_jinlun_locomotives
+		prestige_good_fre_jinlun_automobiles
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_engines_factory
+					is_building_type = building_locomotives_factory
+					is_building_type = building_automobiles_factory
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_WEST_FORMOSA
+	}
+
+	prosperity_modifier = {
+		building_engines_factory_throughput_add = 0.4
+		building_locomotives_factory_throughput_add = 0.4
+		building_automobiles_factory_throughput_add = 0.4
+		country_production_tech_spread_mult = 0.5
+		country_prestige_mult = 0.2
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 10
+	}
+}
+
+# Aurelia — Shennong Biotechnologies — Tier 3
+company_fre_shennong_biotechnologies = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_shennong_biotechnologies.png"
+	flavored_company = yes
+
+	building_types = {
+		building_pharmaceuticals_factory
+	}
+
+	extension_building_types = {
+		building_university
+		building_professional_services_sector
+		building_software_industry
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_shennong_pharmaceuticals
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_pharmaceuticals_factory
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_SOUTH_EAST_HAINAN
+	}
+
+	prosperity_modifier = {
+		building_pharmaceuticals_factory_throughput_add = 0.4
+		country_weekly_innovation_mult = 0.05
+		country_tech_spread_mult = 0.5
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 10
+	}
+}
+
+# Aurelia — Minsheng Group — Tier 3
+company_fre_minsheng_group = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_minsheng_group.png"
+	flavored_company = yes
+
+	building_types = {
+		building_recreational_services_sector
+		building_media_services_sector
+		building_government_administration
+		building_urban_center
+	}
+
+	extension_building_types = {
+		building_software_industry
+		building_communications_network
+		building_art_academy
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_minsheng_broadcasting
+		prestige_good_fre_minsheng_entertainment
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_recreational_services_sector
+					is_building_type = building_media_services_sector
+					is_building_type = building_government_administration
+					is_building_type = building_urban_center
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_FORMOSA
+	}
+
+	prosperity_modifier = {
+		building_recreational_services_sector_throughput_add = 0.4
+		building_media_services_sector_throughput_add = 0.4
+		building_government_administration_throughput_add = 0.4
+		building_urban_center_throughput_add = 0.4
+		state_trade_capacity_mult = 0.5
+		country_prestige_mult = 0.2
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 10
+	}
+}
+
+# Aurelia — Jintian Agrifoods — Tier 2
+company_fre_jintian_agrifoods = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_rice.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_jintian_agrifoods.png"
+	flavored_company = yes
+
+	building_types = {
+		building_wheat_farm
+		building_rye_farm
+		building_rice_farm
+		building_millet_farm
+		building_maize_farm
+		building_livestock_ranch
+	}
+
+	extension_building_types = {
+		building_groceries_factory
+		building_railway
+		building_trade_center
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_jintian_grain
+		prestige_good_fre_jintian_meat
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_wheat_farm
+					is_building_type = building_rye_farm
+					is_building_type = building_rice_farm
+					is_building_type = building_millet_farm
+					is_building_type = building_maize_farm
+					is_building_type = building_livestock_ranch
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_SOUTH_CENTRAL_FORMOSA
+	}
+
+	prosperity_modifier = {
+		building_wheat_farm_throughput_add = 0.2
+		building_rye_farm_throughput_add = 0.2
+		building_rice_farm_throughput_add = 0.2
+		building_millet_farm_throughput_add = 0.2
+		building_maize_farm_throughput_add = 0.2
+		building_livestock_ranch_throughput_add = 0.2
+		state_birth_rate_mult = 0.1
+		state_infrastructure_mult = 0.1
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 6
+	}
+}
+
+# Aurelia — Wanjia Consumer Holdings — Tier 2
+company_fre_wanjia_consumer_holdings = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_wanjia_consumer_holdings.png"
+	flavored_company = yes
+
+	building_types = {
+		building_groceries_factory
+		building_textile_mill
+		building_furniture_factory
+		building_liquor_factory
+		building_art_academy
+	}
+
+	extension_building_types = {
+		building_retail_services_sector
+		building_media_services_sector
+		building_trade_center
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_wanjia_packaged_foods
+		prestige_good_fre_wanjia_apparel
+		prestige_good_fre_wanjia_furniture
+		prestige_good_fre_wanjia_spirits
+		prestige_good_fre_wanjia_fine_art
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_groceries_factory
+					is_building_type = building_textile_mill
+					is_building_type = building_furniture_factory
+					is_building_type = building_liquor_factory
+					is_building_type = building_art_academy
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_FORMOSA
+	}
+
+	prosperity_modifier = {
+		building_groceries_factory_throughput_add = 0.2
+		building_textile_mill_throughput_add = 0.2
+		building_furniture_factory_throughput_add = 0.2
+		building_liquor_factory_throughput_add = 0.2
+		building_art_academy_throughput_add = 0.2
+		state_standard_of_living_add = 2
+		country_prestige_mult = 0.1
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 6
+	}
+}
+
+# Aurelia — Chiguan Agrotrade — Tier 1
+company_fre_chiguan_agrotrade = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_chiguan_agrotrade.png"
+	flavored_company = yes
+
+	building_types = {
+		building_coffee_plantation
+		building_tea_plantation
+		building_tobacco_plantation
+		building_opium_plantation
+		building_banana_plantation
+		building_cotton_plantation
+		building_vineyard
+	}
+
+	extension_building_types = {
+		building_liquor_factory
+		building_textile_mill
+		building_trade_center
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_chiguan_coffee
+		prestige_good_fre_chiguan_tea
+		prestige_good_fre_chiguan_tobacco
+		prestige_good_fre_chiguan_medicinal_opium
+		prestige_good_fre_chiguan_tropical_fruit
+		prestige_good_fre_chiguan_cotton_fabric
+		prestige_good_fre_chiguan_wine
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_coffee_plantation
+					is_building_type = building_tea_plantation
+					is_building_type = building_tobacco_plantation
+					is_building_type = building_opium_plantation
+					is_building_type = building_banana_plantation
+					is_building_type = building_cotton_plantation
+					is_building_type = building_vineyard
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_GREATER_RIAU_ISLANDS
+	}
+
+	prosperity_modifier = {
+		building_coffee_plantation_throughput_add = 0.1
+		building_tea_plantation_throughput_add = 0.1
+		building_tobacco_plantation_throughput_add = 0.1
+		building_opium_plantation_throughput_add = 0.1
+		building_banana_plantation_throughput_add = 0.1
+		building_cotton_plantation_throughput_add = 0.1
+		building_vineyard_throughput_add = 0.1
+		state_trade_capacity_mult = 0.1
+		state_migration_pull_mult = 0.05
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 3
+	}
+}
+
+# Aurelia — Qundao Bio-Resources — Tier 1
+company_fre_qundao_bio_resources = {
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_harbor_shipbuilding.dds"
+	icon = "gfx/interface/icons/company_icons/modern_company_icons/company_fre_qundao_bio_resources.png"
+	flavored_company = yes
+
+	building_types = {
+		building_logging_camp
+		building_fishing_wharf
+		building_rubber_plantation
+	}
+
+	extension_building_types = {
+		building_furniture_factory
+		building_synthetic_rubber_factory
+		building_port
+	}
+
+	prestige_goods_trigger = { }
+	possible_prestige_goods = {
+		prestige_good_fre_qundao_timber
+		prestige_good_fre_qundao_seafood
+		prestige_good_fre_qundao_natural_rubber
+	}
+
+	potential = {
+		OR = {
+			country_has_primary_culture = cu:aurelian
+			country_has_primary_culture = cu:taiwanese
+		}
+	}
+
+	attainable = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_FORMOSA
+			}
+		}
+	}
+
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_building = {
+				OR = {
+					is_building_type = building_logging_camp
+					is_building_type = building_fishing_wharf
+					is_building_type = building_rubber_plantation
+				}
+				level >= 3
+			}
+		}
+	}
+
+	can_establish_in = {
+		is_incorporated = yes
+	}
+
+	preferred_headquarters = {
+		STATE_SOUTH_GEORGIA_SOUTH_SANDWICH_ISLANDS
+	}
+
+	prosperity_modifier = {
+		building_logging_camp_throughput_add = 0.1
+		building_fishing_wharf_throughput_add = 0.1
+		building_rubber_plantation_throughput_add = 0.1
+		state_infrastructure_mult = 0.1
+		state_trade_advantage_mult = 0.05
+	}
+
+	ai_will_do = { always = yes }
+	ai_weight = {
+		value = 3
+	}
+}
