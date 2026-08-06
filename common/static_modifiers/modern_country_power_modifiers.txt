@@ -391,7 +391,7 @@ modern_country_power_south_korea = {
 	# Weak universal national chassis
 	building_throughput_add = 0.049
 	building_economy_of_scale_level_cap_add = 6
-	country_construction_add = 12
+	country_construction_add = 36
 	country_max_companies_add = 3
 	country_company_throughput_bonus_add = 0.04
 	country_company_construction_efficiency_bonus_add = 0.04
