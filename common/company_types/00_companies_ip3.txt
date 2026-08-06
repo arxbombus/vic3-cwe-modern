@@ -15,9 +15,9 @@ company_united_tobacco_factories = {
 		building_opium_plantation
 	}
 
-	possible_prestige_goods = {
-		prestige_good_basma_tobacco
-	}
+	# possible_prestige_goods = {
+		# prestige_good_basma_tobacco
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_balkans
@@ -69,9 +69,9 @@ company_mate_gavrilovic = {
 		building_livestock_ranch
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_groceries
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_groceries
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_balkans
@@ -177,9 +177,9 @@ company_klanicko_drustvo = {
 		building_logging_camp
 	}
 
-	possible_prestige_goods = {
-		prestige_good_acorn_fed_pork
-	}
+	# possible_prestige_goods = {
+		# prestige_good_acorn_fed_pork
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_balkans
@@ -285,9 +285,9 @@ company_elso_budapesti_gozmalom = {
 		building_logging_camp
 	}
 
-	possible_prestige_goods = {
-		prestige_good_pannonian_patent_flour
-	}
+	# possible_prestige_goods = {
+		# prestige_good_pannonian_patent_flour
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_balkans
@@ -461,9 +461,9 @@ company_getzner_mutter = {
 		building_synthetic_rubber_factory
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_clothes
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_clothes
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_central_europe
@@ -521,9 +521,9 @@ company_erste_brunner = {
 		building_power_plant
 	}
 
-	possible_prestige_goods = {
-		prestige_good_brunn_type_engines
-	}
+	# possible_prestige_goods = {
+		# prestige_good_brunn_type_engines
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_central_europe

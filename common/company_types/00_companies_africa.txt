@@ -15,9 +15,9 @@ company_egyptian_rail = {
 		building_recreational_services_sector
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
 		#prestige_good_generic_transportation
-	}
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:misri
@@ -58,9 +58,9 @@ company_misr = {
 		building_cotton_plantation
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_mit_afifi
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_mit_afifi
+	# }
 	
 	potential = {
 		has_interest_marker_in_region = sr:region_nile_basin

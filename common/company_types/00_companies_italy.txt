@@ -15,9 +15,9 @@ company_ilva = {
 		building_coal_mine
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -72,12 +72,12 @@ company_ansaldo = {
 		building_artillery_factory
 	}
 
-	prestige_goods_trigger = { } 
+	# prestige_goods_trigger = { } 
 	
-	possible_prestige_goods = {
-		prestige_good_generic_steel
-		prestige_good_generic_tools
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_steel
+		# prestige_good_generic_tools
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -185,9 +185,9 @@ company_fiat = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_turin_automobiles
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_turin_automobiles
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -244,10 +244,10 @@ company_stt = {
 		building_steel_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steamers
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steamers
 		#prestige_good_generic_ironclads
-	}
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible

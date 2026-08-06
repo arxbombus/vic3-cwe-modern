@@ -15,13 +15,13 @@ company_da_afghan_nassaji_sherkat = {
 		building_cotton_plantation
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_clothes
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_clothes
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		#has_dlc_feature = ep1_content
@@ -91,10 +91,10 @@ company_iranian_state_railway = {
 		building_locomotives_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_locomotives
-		prestige_good_generic_recreational_services
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_locomotives
+		# prestige_good_generic_recreational_services
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_greater_persia
@@ -171,10 +171,10 @@ company_tashkent_railroad = {
 		building_locomotives_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_locomotives
-		prestige_good_generic_recreational_services
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_locomotives
+		# prestige_good_generic_recreational_services
+	# }
 
 	potential = {
 		#has_dlc_feature = ep1_content
@@ -400,13 +400,13 @@ company_opium_export_monopoly = {
 		building_tobacco_plantation
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_opium
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_opium
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_greater_persia
@@ -478,13 +478,13 @@ company_sherkate_eslamiya = {
 		building_cotton_plantation
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_clothes
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_clothes
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		#has_dlc_feature = ep1_content
@@ -932,13 +932,13 @@ company_moscow_irrigation_company = {
 		building_opium_plantation
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		#has_dlc_feature = ep1_content
@@ -1039,13 +1039,13 @@ company_guinness = {
 		building_rye_farm
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_groceries
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_groceries
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_western_europe
@@ -1120,13 +1120,13 @@ company_oriental_development_company = {
 		building_groceries_factory
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_northeast_asia

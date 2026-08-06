@@ -14,10 +14,10 @@ company_Huawei = {
 		building_software_industry
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_software
-		prestige_good_generic_computers
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_software
+		# prestige_good_generic_computers
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -68,9 +68,9 @@ company_Sinopec = {
 		building_port
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -119,10 +119,10 @@ company_Alibaba = {
 		building_furniture_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_groceries
-		prestige_good_generic_furniture
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_groceries
+		# prestige_good_generic_furniture
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -239,11 +239,11 @@ company_hanyang_arsenal = {
 		building_advanced_weaponry_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_small_arms
-		prestige_good_generic_artillery
-		prestige_good_generic_explosives
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_small_arms
+		# prestige_good_generic_artillery
+		# prestige_good_generic_explosives
+	# }
 	
 	potential = {
 		has_interest_marker_in_region = sr:region_south_china
@@ -299,10 +299,10 @@ company_foochow_arsenal = {
 		building_logging_camp
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steamers
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steamers
 		#prestige_good_generic_ironclads
-	}
+	# }
 	
 	potential = {
 		has_interest_marker_in_region = sr:region_south_china
@@ -354,9 +354,9 @@ company_jingdezhen = {
 		building_lead_mine
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_canton_porcelain
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_canton_porcelain
+	# }
 	
 	potential = {
 		has_interest_marker_in_region = sr:region_south_china

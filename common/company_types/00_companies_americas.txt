@@ -15,9 +15,9 @@ company_fundidora_monterrey = {
 		building_iron_mine
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 	
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america
@@ -67,9 +67,9 @@ company_el_aguila = {
 		building_power_plant
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -173,9 +173,9 @@ company_caribbean_petroleum = {
 		building_power_plant
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -233,10 +233,10 @@ company_bunge_born = {
 		building_industrial_chemicals_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_groceries
-		prestige_good_generic_industrial_chemicals
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_groceries
+		# prestige_good_generic_industrial_chemicals
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -294,11 +294,11 @@ company_la_rosada = {
 		building_iron_mine
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steel
-		prestige_good_generic_small_arms
-		prestige_good_generic_artillery
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steel
+		# prestige_good_generic_small_arms
+		# prestige_good_generic_artillery
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -352,11 +352,11 @@ company_famae = {
 		building_advanced_weaponry_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_small_arms
-		prestige_good_generic_artillery
-		prestige_good_generic_explosives
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_small_arms
+		# prestige_good_generic_artillery
+		# prestige_good_generic_explosives
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -409,9 +409,9 @@ company_peruvian_amazon = {
 		building_logging_camp
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_wood
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_wood
+	# }
 	
 	potential = {
 		has_interest_marker_in_region = sr:region_andes
@@ -459,9 +459,9 @@ company_kablin = {
 		building_sulfur_mine
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_rosewood
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_rosewood
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -514,9 +514,9 @@ company_hbc = {
 		building_groceries_factory
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_groceries
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_groceries
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible

@@ -16,10 +16,10 @@ company_skoda = {
 		building_engines_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steel
-		prestige_good_generic_automobiles
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steel
+		# prestige_good_generic_automobiles
+	# }
 	
 	potential = {
 		has_interest_marker_in_region = sr:region_central_europe
@@ -77,9 +77,9 @@ company_mav = {
 		building_engines_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_tools
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_tools
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -131,9 +131,9 @@ company_manfred_weiss = {
 		building_iron_mine
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -188,10 +188,10 @@ company_oevg = {
 		building_telecommunications_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_small_arms
-		prestige_good_generic_artillery
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_small_arms
+		# prestige_good_generic_artillery
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible

@@ -28,9 +28,9 @@
 		building_groceries_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 	
 	potential = {
 		has_law_or_variant = law_type:law_full_private_land_ownership
@@ -95,9 +95,9 @@ company_basic_agriculture_2 = {
 		building_groceries_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_meat
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_meat
+	# }
 
 	potential = {
 		has_law_or_variant = law_type:law_full_private_land_ownership
@@ -155,13 +155,13 @@ company_basic_fabrics = {
 		building_textile_mill
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_meat
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_meat
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	possible = {
 		any_scope_state = {
@@ -220,11 +220,11 @@ company_basic_colonial_plantations_1 = {
 		building_opium_plantation
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_coffee
-		prestige_good_generic_tea
-		prestige_good_generic_tobacco
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_coffee
+		# prestige_good_generic_tea
+		# prestige_good_generic_tobacco
+	# }
 
 	potential = {
 		has_law_or_variant = law_type:law_full_private_land_ownership
@@ -289,10 +289,10 @@ company_basic_wine_and_fruit = {
 		
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_wine
-		prestige_good_gros_michel_banana
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_wine
+		# prestige_good_gros_michel_banana
+	# }
 	
 	potential = {
 		has_law_or_variant = law_type:law_full_private_land_ownership
@@ -352,9 +352,9 @@ company_basic_fishing = {
 		building_shipyard
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_fish
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_fish
+	# }
 	
 	potential = {
 		
@@ -411,10 +411,10 @@ company_basic_forestry = {
 		building_furniture_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_wood
-		prestige_good_generic_rubber
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_wood
+		# prestige_good_generic_rubber
+	# }
 	
 	potential = {
 		
@@ -474,9 +474,9 @@ company_basic_oil = {
 		building_plastics_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 	
 	potential = {
 		
@@ -531,9 +531,9 @@ company_basic_gold_mining = {
 		building_art_academy
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_gold
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_gold
+	# }
 	
 	potential = {
 		
@@ -591,10 +591,10 @@ company_basic_metal_mining = {
 		building_coal_mine
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_iron
-		prestige_good_generic_lead
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_iron
+		# prestige_good_generic_lead
+	# }
 	
 	potential = {
 		
@@ -655,10 +655,10 @@ company_basic_mineral_mining = {
 		building_industrial_chemicals_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_sulfur
-		prestige_good_generic_coal
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_sulfur
+		# prestige_good_generic_coal
+	# }
 
 	possible = { 
 		any_scope_state = {
@@ -715,9 +715,9 @@ company_basic_food = {
 		building_wheat_farm
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_groceries
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_groceries
+	# }
 	
 	potential = {
 		
@@ -773,9 +773,9 @@ company_basic_home_goods = {
 		building_iron_mine
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_furniture
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_furniture
+	# }
 	
 	potential = {
 		
@@ -831,10 +831,10 @@ company_basic_textiles = {
 		building_cotton_plantation
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_clothes
-		prestige_good_generic_fabric
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_clothes
+		# prestige_good_generic_fabric
+	# }
 
 	possible = { 
 		any_scope_state = {
@@ -881,9 +881,9 @@ company_basic_steel = {
 		building_steel_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 	
 	extension_building_types = {
 		building_iron_mine
@@ -944,10 +944,10 @@ company_basic_metalworks = {
 		building_steel_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_tools
-		prestige_good_generic_engines
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_tools
+		# prestige_good_generic_engines
+	# }
 	
 	potential = {
 		
@@ -1008,9 +1008,9 @@ company_basic_shipyards = {
 		building_steel_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steamers
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steamers
+	# }
 	
 	potential = {
 		
@@ -1069,10 +1069,10 @@ company_basic_chemicals = {
 		building_pharmaceuticals_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_industrial_chemicals
-		prestige_good_generic_pharmaceuticals
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_industrial_chemicals
+		# prestige_good_generic_pharmaceuticals
+	# }
 	
 	potential = {
 		
@@ -1136,10 +1136,10 @@ company_basic_motors = {
 		building_steel_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_automobiles
-		prestige_good_generic_engines
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_automobiles
+		# prestige_good_generic_engines
+	# }
 	
 	potential = {
 		#is_a_capitalistic_economy = yes
@@ -1198,9 +1198,9 @@ company_basic_aircraft = {
 		building_railway
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_aeroplanes
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_aeroplanes
+	# }
 	
 	potential = {
 		
@@ -1264,14 +1264,14 @@ company_basic_munitions = {
 		building_steel_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_small_arms
-		prestige_good_generic_artillery
-		prestige_good_generic_tanks
-		prestige_good_generic_warplanes
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_small_arms
+		# prestige_good_generic_artillery
+		# prestige_good_generic_tanks
+		# prestige_good_generic_warplanes
 		#prestige_good_generic_ironclads
-		prestige_good_generic_explosives
-	}
+		# prestige_good_generic_explosives
+	# }
 
 	potential = {
 		#is_a_capitalistic_economy = yes
@@ -1412,9 +1412,9 @@ company_basic_electrics = {
 		building_rubber_plantation
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_telecommunications
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_telecommunications
+	# }
 
 	potential = {
 		
@@ -1476,11 +1476,11 @@ company_advanced_electrics = {
 		building_circuit_boards_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_computers
-		prestige_good_generic_software
-		prestige_good_generic_circuit_boards
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_computers
+		# prestige_good_generic_software
+		# prestige_good_generic_circuit_boards
+	# }
 
 	potential = {
 		
@@ -1545,9 +1545,9 @@ company_basic_telecommunications = {
 		building_software_industry
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_communication_services
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_communication_services
+	# }
 
 	potential = {
 		
@@ -1601,11 +1601,11 @@ company_basic_media_company = {
 		building_communications_network
 	}
 	
-	prestige_goods_trigger = {  } 
+	# prestige_goods_trigger = {  } 
 	
-	possible_prestige_goods = {
-		prestige_good_generic_media_services
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_media_services
+	# }
 
 	potential = {
 		
@@ -1716,10 +1716,10 @@ company_basic_railways = {
 		building_locomotives_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_locomotives
-		prestige_good_generic_recreational_services
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_locomotives
+		# prestige_good_generic_recreational_services
+	# }
 	
 	potential = {
 		
@@ -1828,10 +1828,10 @@ company_basic_corporate_services = {
 		building_skyscraper
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_corporate_services
-		prestige_good_generic_professional_services
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_corporate_services
+		# prestige_good_generic_professional_services
+	# }
 
 	potential = {
 		
@@ -1888,10 +1888,10 @@ company_basic_professional_services = {
 		building_skyscraper
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_professional_services
-		prestige_good_generic_financial_services
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_professional_services
+		# prestige_good_generic_financial_services
+	# }
 
 	potential = {
 		

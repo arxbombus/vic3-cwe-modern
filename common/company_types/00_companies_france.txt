@@ -67,9 +67,9 @@ company_schneider_creusot = {
 		#building_military_shipyard
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_schneider_guns
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_schneider_guns
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -124,9 +124,9 @@ company_dmc = {
 		building_cotton_plantation
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_clothes
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_clothes
+	# }
 	
 	potential = {
 		has_interest_marker_in_region = sr:region_western_europe
@@ -179,9 +179,9 @@ company_cgv = {
 		building_groceries_factory
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_champagne
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_champagne
+	# }
 
 	potential = {
 		OR = {
@@ -245,9 +245,9 @@ company_saint_etienne = {
 		building_advanced_weaponry_factory
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_saint_etienne_rifles
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_saint_etienne_rifles
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -300,10 +300,10 @@ company_fcm = {
 		building_steel_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steamers
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steamers
 		#prestige_good_generic_ironclads
-	}
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible

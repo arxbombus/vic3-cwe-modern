@@ -20,9 +20,9 @@ company_suez_company = {
 		building_railway
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_merchant_marine
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_merchant_marine
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_nile_basin
@@ -109,9 +109,9 @@ company_panama_company = {
 		building_railway
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_merchant_marine
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_merchant_marine
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america

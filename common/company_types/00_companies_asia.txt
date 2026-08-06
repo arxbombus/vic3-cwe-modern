@@ -8,9 +8,9 @@ company_ottoman_tobacco_regie = {
 		building_tobacco_plantation
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_turkish_tobacco
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_turkish_tobacco
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:turkish
@@ -54,9 +54,9 @@ company_allatini_mills = {
 		building_groceries_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -116,9 +116,9 @@ company_orient_express = {
 		building_recreational_services_sector
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
 		#prestige_good_generic_transportation
-	}
+	# }
 	
 	attainable = {
 		owns_entire_state_region = STATE_EASTERN_THRACE
@@ -168,9 +168,9 @@ company_great_indian_railway = {
 		building_iron_mine
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
 		#prestige_good_generic_transportation
-	}
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -230,9 +230,9 @@ company_tata = {
 		building_furniture_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -287,10 +287,10 @@ company_sunhwaguk = {
 		building_industrial_chemicals_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_grain
-		prestige_good_generic_groceries
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_grain
+		# prestige_good_generic_groceries
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -344,9 +344,9 @@ company_nam_dinh = {
 		building_cotton_plantation
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_clothes
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_clothes
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_indochina
@@ -406,9 +406,9 @@ company_imperial_tobacco = {
 		building_tobacco_plantation
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_tobacco
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_tobacco
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -461,9 +461,9 @@ company_san_miguel = {
 		building_rye_farm
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_groceries
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_groceries
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -514,9 +514,9 @@ company_b_grimm = {
 		building_industrial_chemicals_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 	
 	potential = {
 		has_interest_marker_in_region = sr:region_indochina

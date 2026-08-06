@@ -1,0 +1,18 @@
+INJECT:bg_manufacturing = {
+    construction_efficiency_modifier = yes
+}
+INJECT:bg_whaling = {
+    construction_efficiency_modifier = yes
+}
+INJECT:bg_fishing = {
+    construction_efficiency_modifier = yes
+}
+INJECT:bg_urban_center = {
+    construction_efficiency_modifier = yes
+}
+INJECT:bg_infrastructure = {
+    construction_efficiency_modifier = yes
+}
+INJECT:bg_urban_facilities = {
+    construction_efficiency_modifier = yes
+}

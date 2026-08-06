@@ -1,0 +1,160 @@
+INJECT:tech_construction_infrastructure_1 = {
+    modifier = {
+        state_building_construction_sector_max_level_add = 1
+        building_group_bg_manufacturing_construction_efficiency_add = 0.25
+        building_group_bg_agriculture_construction_efficiency_add = 0.25
+        building_group_bg_ranching_construction_efficiency_add = 0.25
+        building_group_bg_whaling_construction_efficiency_add = 0.25
+        building_group_bg_fishing_construction_efficiency_add = 0.25
+        building_group_bg_extraction_construction_efficiency_add = 0.25
+        building_group_bg_urban_center_construction_efficiency_add = 0.25
+        building_group_bg_service_construction_efficiency_add = 0.25
+        building_group_bg_military_construction_efficiency_add = 0.25
+        building_group_bg_infrastructure_construction_efficiency_add = 0.25
+        building_group_bg_urban_facilities_construction_efficiency_add = 0.25
+    }
+}
+INJECT:tech_construction_infrastructure_2 = {
+    modifier = {
+        state_building_construction_sector_max_level_add = 1
+        building_group_bg_manufacturing_construction_efficiency_add = 0.25
+        building_group_bg_agriculture_construction_efficiency_add = 0.25
+        building_group_bg_ranching_construction_efficiency_add = 0.25
+        building_group_bg_whaling_construction_efficiency_add = 0.25
+        building_group_bg_fishing_construction_efficiency_add = 0.25
+        building_group_bg_extraction_construction_efficiency_add = 0.25
+        building_group_bg_urban_center_construction_efficiency_add = 0.25
+        building_group_bg_service_construction_efficiency_add = 0.25
+        building_group_bg_military_construction_efficiency_add = 0.25
+        building_group_bg_infrastructure_construction_efficiency_add = 0.25
+        building_group_bg_urban_facilities_construction_efficiency_add = 0.25
+    }
+}
+INJECT:tech_construction_infrastructure_3 = {
+    modifier = {
+        state_building_construction_sector_max_level_add = 1
+        building_group_bg_manufacturing_construction_efficiency_add = 0.25
+        building_group_bg_agriculture_construction_efficiency_add = 0.25
+        building_group_bg_ranching_construction_efficiency_add = 0.25
+        building_group_bg_whaling_construction_efficiency_add = 0.25
+        building_group_bg_fishing_construction_efficiency_add = 0.25
+        building_group_bg_extraction_construction_efficiency_add = 0.25
+        building_group_bg_urban_center_construction_efficiency_add = 0.25
+        building_group_bg_service_construction_efficiency_add = 0.25
+        building_group_bg_military_construction_efficiency_add = 0.25
+        building_group_bg_infrastructure_construction_efficiency_add = 0.25
+        building_group_bg_urban_facilities_construction_efficiency_add = 0.25
+    }
+}
+INJECT:tech_construction_infrastructure_4 = {
+    modifier = {
+        state_building_construction_sector_max_level_add = 1
+        building_group_bg_manufacturing_construction_efficiency_add = 0.25
+        building_group_bg_agriculture_construction_efficiency_add = 0.25
+        building_group_bg_ranching_construction_efficiency_add = 0.25
+        building_group_bg_whaling_construction_efficiency_add = 0.25
+        building_group_bg_fishing_construction_efficiency_add = 0.25
+        building_group_bg_extraction_construction_efficiency_add = 0.25
+        building_group_bg_urban_center_construction_efficiency_add = 0.25
+        building_group_bg_service_construction_efficiency_add = 0.25
+        building_group_bg_military_construction_efficiency_add = 0.25
+        building_group_bg_infrastructure_construction_efficiency_add = 0.25
+        building_group_bg_urban_facilities_construction_efficiency_add = 0.25
+    }
+}
+INJECT:tech_construction_infrastructure_5 = {
+    modifier = {
+        state_building_construction_sector_max_level_add = 1
+        building_group_bg_manufacturing_construction_efficiency_add = 0.25
+        building_group_bg_agriculture_construction_efficiency_add = 0.25
+        building_group_bg_ranching_construction_efficiency_add = 0.25
+        building_group_bg_whaling_construction_efficiency_add = 0.25
+        building_group_bg_fishing_construction_efficiency_add = 0.25
+        building_group_bg_extraction_construction_efficiency_add = 0.25
+        building_group_bg_urban_center_construction_efficiency_add = 0.25
+        building_group_bg_service_construction_efficiency_add = 0.25
+        building_group_bg_military_construction_efficiency_add = 0.25
+        building_group_bg_infrastructure_construction_efficiency_add = 0.25
+        building_group_bg_urban_facilities_construction_efficiency_add = 0.25
+    }
+}
+INJECT:tech_construction_infrastructure_6 = {
+    modifier = {
+        state_building_construction_sector_max_level_add = 1
+        building_group_bg_manufacturing_construction_efficiency_add = 0.25
+        building_group_bg_agriculture_construction_efficiency_add = 0.25
+        building_group_bg_ranching_construction_efficiency_add = 0.25
+        building_group_bg_whaling_construction_efficiency_add = 0.25
+        building_group_bg_fishing_construction_efficiency_add = 0.25
+        building_group_bg_extraction_construction_efficiency_add = 0.25
+        building_group_bg_urban_center_construction_efficiency_add = 0.25
+        building_group_bg_service_construction_efficiency_add = 0.25
+        building_group_bg_military_construction_efficiency_add = 0.25
+        building_group_bg_infrastructure_construction_efficiency_add = 0.25
+        building_group_bg_urban_facilities_construction_efficiency_add = 0.25
+    }
+}
+INJECT:tech_construction_infrastructure_7 = {
+    modifier = {
+        state_building_construction_sector_max_level_add = 1
+        building_group_bg_manufacturing_construction_efficiency_add = 0.25
+        building_group_bg_agriculture_construction_efficiency_add = 0.25
+        building_group_bg_ranching_construction_efficiency_add = 0.25
+        building_group_bg_whaling_construction_efficiency_add = 0.25
+        building_group_bg_fishing_construction_efficiency_add = 0.25
+        building_group_bg_extraction_construction_efficiency_add = 0.25
+        building_group_bg_urban_center_construction_efficiency_add = 0.25
+        building_group_bg_service_construction_efficiency_add = 0.25
+        building_group_bg_military_construction_efficiency_add = 0.25
+        building_group_bg_infrastructure_construction_efficiency_add = 0.25
+        building_group_bg_urban_facilities_construction_efficiency_add = 0.25
+    }
+}
+INJECT:tech_construction_infrastructure_8 = {
+    modifier = {
+        state_building_construction_sector_max_level_add = 1
+        building_group_bg_manufacturing_construction_efficiency_add = 0.25
+        building_group_bg_agriculture_construction_efficiency_add = 0.25
+        building_group_bg_ranching_construction_efficiency_add = 0.25
+        building_group_bg_whaling_construction_efficiency_add = 0.25
+        building_group_bg_fishing_construction_efficiency_add = 0.25
+        building_group_bg_extraction_construction_efficiency_add = 0.25
+        building_group_bg_urban_center_construction_efficiency_add = 0.25
+        building_group_bg_service_construction_efficiency_add = 0.25
+        building_group_bg_military_construction_efficiency_add = 0.25
+        building_group_bg_infrastructure_construction_efficiency_add = 0.25
+        building_group_bg_urban_facilities_construction_efficiency_add = 0.25
+    }
+}
+INJECT:tech_construction_infrastructure_9 = {
+    modifier = {
+        state_building_construction_sector_max_level_add = 1
+        building_group_bg_manufacturing_construction_efficiency_add = 0.25
+        building_group_bg_agriculture_construction_efficiency_add = 0.25
+        building_group_bg_ranching_construction_efficiency_add = 0.25
+        building_group_bg_whaling_construction_efficiency_add = 0.25
+        building_group_bg_fishing_construction_efficiency_add = 0.25
+        building_group_bg_extraction_construction_efficiency_add = 0.25
+        building_group_bg_urban_center_construction_efficiency_add = 0.25
+        building_group_bg_service_construction_efficiency_add = 0.25
+        building_group_bg_military_construction_efficiency_add = 0.25
+        building_group_bg_infrastructure_construction_efficiency_add = 0.25
+        building_group_bg_urban_facilities_construction_efficiency_add = 0.25
+    }
+}
+INJECT:tech_construction_infrastructure_10 = {
+    modifier = {
+        state_building_construction_sector_max_level_add = 1
+        building_group_bg_manufacturing_construction_efficiency_add = 0.25
+        building_group_bg_agriculture_construction_efficiency_add = 0.25
+        building_group_bg_ranching_construction_efficiency_add = 0.25
+        building_group_bg_whaling_construction_efficiency_add = 0.25
+        building_group_bg_fishing_construction_efficiency_add = 0.25
+        building_group_bg_extraction_construction_efficiency_add = 0.25
+        building_group_bg_urban_center_construction_efficiency_add = 0.25
+        building_group_bg_service_construction_efficiency_add = 0.25
+        building_group_bg_military_construction_efficiency_add = 0.25
+        building_group_bg_infrastructure_construction_efficiency_add = 0.25
+        building_group_bg_urban_facilities_construction_efficiency_add = 0.25
+    }
+}

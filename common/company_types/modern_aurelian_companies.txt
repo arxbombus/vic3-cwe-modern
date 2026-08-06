@@ -22,12 +22,12 @@ company_fre_tianjing_microelectronics = {
 		building_financial_services_sector
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_tianjing_consumer_electronics
-		prestige_good_fre_tianjing_computers
-		prestige_good_fre_tianjing_circuit_boards
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_tianjing_consumer_electronics
+		# prestige_good_fre_tianjing_computers
+		# prestige_good_fre_tianjing_circuit_boards
+	# }
 
 	potential = {
 		OR = {
@@ -67,9 +67,9 @@ company_fre_tianjing_microelectronics = {
 	}
 
 	prosperity_modifier = {
-		building_telecommunications_factory_throughput_add = 1.2
-		building_computers_factory_throughput_add = 1.2
-		building_circuit_boards_factory_throughput_add = 1.2
+		building_telecommunications_factory_throughput_add = 2
+		building_computers_factory_throughput_add = 2
+		building_circuit_boards_factory_throughput_add = 2
 		country_weekly_innovation_mult = 0.25
 		country_tech_spread_mult = 1.5
 	}
@@ -98,11 +98,11 @@ company_fre_zhihai_technologies = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_zhihai_enterprise_software
-		prestige_good_fre_zhihai_consulting_services
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_zhihai_enterprise_software
+		# prestige_good_fre_zhihai_consulting_services
+	# }
 
 	potential = {
 		OR = {
@@ -142,9 +142,9 @@ company_fre_zhihai_technologies = {
 	}
 
 	prosperity_modifier = {
-		building_software_industry_throughput_add = 1.2
-		building_professional_services_sector_throughput_add = 1.2
-		building_university_throughput_add = 1.2
+		building_software_industry_throughput_add = 2
+		building_professional_services_sector_throughput_add = 2.5
+		building_university_throughput_add = 2
 		country_weekly_innovation_mult = 0.25
 		country_tech_spread_mult = 1.5
 	}
@@ -175,13 +175,13 @@ company_fre_jingwei_holdings = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_jingwei_financial_services
-		prestige_good_fre_jingwei_business_services
-		prestige_good_fre_jingwei_retail_services
-		prestige_good_fre_jingwei_commercial_property
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_jingwei_financial_services
+		# prestige_good_fre_jingwei_business_services
+		# prestige_good_fre_jingwei_retail_services
+		# prestige_good_fre_jingwei_commercial_property
+	# }
 
 	potential = {
 		OR = {
@@ -223,11 +223,11 @@ company_fre_jingwei_holdings = {
 	}
 
 	prosperity_modifier = {
-		building_financial_services_sector_throughput_add = 1.2
-		building_corporate_services_industry_throughput_add = 1.2
-		building_retail_services_sector_throughput_add = 1.2
-		building_real_estate_sector_throughput_add = 1.2
-		building_skyscraper_throughput_add = 1.2
+		building_financial_services_sector_throughput_add = 2
+		building_corporate_services_industry_throughput_add = 2
+		building_retail_services_sector_throughput_add = 2
+		building_real_estate_sector_throughput_add = 2
+		building_skyscraper_throughput_add = 2
 		state_trade_capacity_mult = 1.5
 		country_prestige_mult = 0.6
 	}
@@ -259,13 +259,13 @@ company_fre_qingji_engineering_group = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_qingji_rail_transport
-		prestige_good_fre_qingji_grid_power
-		prestige_good_fre_qingji_merchant_shipping
-		prestige_good_fre_qingji_network_services
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_qingji_rail_transport
+		# prestige_good_fre_qingji_grid_power
+		# prestige_good_fre_qingji_merchant_shipping
+		# prestige_good_fre_qingji_network_services
+	# }
 
 	potential = {
 		OR = {
@@ -310,10 +310,10 @@ company_fre_qingji_engineering_group = {
 	prosperity_modifier = {
 		building_railway_throughput_add = 1.2
 		building_port_throughput_add = 1.2
-		building_power_plant_throughput_add = 1.2
-		building_hydroelectric_power_plant_throughput_add = 1.2
-		building_communications_network_throughput_add = 1.2
-		building_construction_sector_throughput_add = 1.2
+		building_power_plant_throughput_add = 2
+		building_hydroelectric_power_plant_throughput_add = 2
+		building_communications_network_throughput_add = 2
+		building_construction_sector_throughput_add = 2.5
 		state_infrastructure_mult = 1.5
 		state_infrastructure_from_population_max_add = 120
 	}
@@ -341,11 +341,11 @@ company_fre_haidong_automata = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_haidong_industrial_robots
-		prestige_good_fre_haidong_home_robots
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_haidong_industrial_robots
+		# prestige_good_fre_haidong_home_robots
+	# }
 
 	potential = {
 		OR = {
@@ -417,15 +417,15 @@ company_fre_danqi_strategic_industries = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_danqi_service_weapons
-		prestige_good_fre_danqi_ammunition
-		prestige_good_fre_danqi_field_artillery
-		prestige_good_fre_danqi_armoured_vehicles
-		prestige_good_fre_danqi_combat_aircraft
-		prestige_good_fre_danqi_missile_systems
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_danqi_service_weapons
+		# prestige_good_fre_danqi_ammunition
+		# prestige_good_fre_danqi_field_artillery
+		# prestige_good_fre_danqi_armoured_vehicles
+		# prestige_good_fre_danqi_combat_aircraft
+		# prestige_good_fre_danqi_missile_systems
+	# }
 
 	potential = {
 		OR = {
@@ -506,15 +506,15 @@ company_fre_canghai_resources = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_canghai_iron_ore
-		prestige_good_fre_canghai_coal
-		prestige_good_fre_canghai_refined_lead
-		prestige_good_fre_canghai_industrial_sulfur
-		prestige_good_fre_canghai_gold_bullion
-		prestige_good_fre_canghai_crude_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_canghai_iron_ore
+		# prestige_good_fre_canghai_coal
+		# prestige_good_fre_canghai_refined_lead
+		# prestige_good_fre_canghai_industrial_sulfur
+		# prestige_good_fre_canghai_gold_bullion
+		# prestige_good_fre_canghai_crude_oil
+	# }
 
 	potential = {
 		OR = {
@@ -592,11 +592,11 @@ company_fre_liuxing_aerospace_marine = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_liuxing_airliners
-		prestige_good_fre_liuxing_cargo_ships
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_liuxing_airliners
+		# prestige_good_fre_liuxing_cargo_ships
+	# }
 
 	potential = {
 		OR = {
@@ -666,12 +666,12 @@ company_fre_xuanyu_advanced_materials = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_xuanyu_structural_steel
-		prestige_good_fre_xuanyu_industrial_chemicals
-		prestige_good_fre_xuanyu_engineering_plastics
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_xuanyu_structural_steel
+		# prestige_good_fre_xuanyu_industrial_chemicals
+		# prestige_good_fre_xuanyu_engineering_plastics
+	# }
 
 	potential = {
 		OR = {
@@ -744,12 +744,12 @@ company_fre_jinlun_mobility = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_jinlun_engines
-		prestige_good_fre_jinlun_locomotives
-		prestige_good_fre_jinlun_automobiles
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_jinlun_engines
+		# prestige_good_fre_jinlun_locomotives
+		# prestige_good_fre_jinlun_automobiles
+	# }
 
 	potential = {
 		OR = {
@@ -818,10 +818,10 @@ company_fre_shennong_biotechnologies = {
 		building_software_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_shennong_pharmaceuticals
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_shennong_pharmaceuticals
+	# }
 
 	potential = {
 		OR = {
@@ -889,11 +889,11 @@ company_fre_minsheng_group = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_minsheng_broadcasting
-		prestige_good_fre_minsheng_entertainment
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_minsheng_broadcasting
+		# prestige_good_fre_minsheng_entertainment
+	# }
 
 	potential = {
 		OR = {
@@ -969,11 +969,11 @@ company_fre_jintian_agrifoods = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_jintian_grain
-		prestige_good_fre_jintian_meat
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_jintian_grain
+		# prestige_good_fre_jintian_meat
+	# }
 
 	potential = {
 		OR = {
@@ -1052,14 +1052,14 @@ company_fre_wanjia_consumer_holdings = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_wanjia_packaged_foods
-		prestige_good_fre_wanjia_apparel
-		prestige_good_fre_wanjia_furniture
-		prestige_good_fre_wanjia_spirits
-		prestige_good_fre_wanjia_fine_art
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_wanjia_packaged_foods
+		# prestige_good_fre_wanjia_apparel
+		# prestige_good_fre_wanjia_furniture
+		# prestige_good_fre_wanjia_spirits
+		# prestige_good_fre_wanjia_fine_art
+	# }
 
 	potential = {
 		OR = {
@@ -1138,16 +1138,16 @@ company_fre_chiguan_agrotrade = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_chiguan_coffee
-		prestige_good_fre_chiguan_tea
-		prestige_good_fre_chiguan_tobacco
-		prestige_good_fre_chiguan_medicinal_opium
-		prestige_good_fre_chiguan_tropical_fruit
-		prestige_good_fre_chiguan_cotton_fabric
-		prestige_good_fre_chiguan_wine
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_chiguan_coffee
+		# prestige_good_fre_chiguan_tea
+		# prestige_good_fre_chiguan_tobacco
+		# prestige_good_fre_chiguan_medicinal_opium
+		# prestige_good_fre_chiguan_tropical_fruit
+		# prestige_good_fre_chiguan_cotton_fabric
+		# prestige_good_fre_chiguan_wine
+	# }
 
 	potential = {
 		OR = {
@@ -1226,12 +1226,12 @@ company_fre_qundao_bio_resources = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_fre_qundao_timber
-		prestige_good_fre_qundao_seafood
-		prestige_good_fre_qundao_natural_rubber
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_fre_qundao_timber
+		# prestige_good_fre_qundao_seafood
+		# prestige_good_fre_qundao_natural_rubber
+	# }
 
 	potential = {
 		OR = {

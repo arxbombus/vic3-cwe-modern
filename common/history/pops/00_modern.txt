@@ -3,7 +3,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 7387319
+				size = 14387319
 			}
 		}
 	}
@@ -27,7 +27,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 4978931
+				size = 8978931
 			}
 		}
 	}
@@ -43,7 +43,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 3864927
+				size = 9864927
 			}
 		}
 	}
@@ -59,7 +59,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 4235987
+				size = 8235987
 			}
 		}
 	}
@@ -155,7 +155,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 531879
+				size = 1531879
 			}
 		}
 	}

@@ -21,9 +21,9 @@ company_mitsui = {
 		building_hydroelectric_power_plant
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_tomioka_silk
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_tomioka_silk
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:japanese
@@ -81,9 +81,9 @@ company_mantetsu = {
 		building_locomotives_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
 		#prestige_good_generic_transportation
-	}
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -144,9 +144,9 @@ company_mitsubishi = {
 		building_professional_services_sector
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_tools
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_tools
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -203,9 +203,9 @@ company_toyota = {
 		building_professional_services_sector
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_japanese_automobiles
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_japanese_automobiles
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -255,9 +255,9 @@ company_NTT = {
 		building_software_industry
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_software
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_software
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -310,9 +310,9 @@ company_Hitachi = {
 		building_consumer_robots_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_computers
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_computers
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -362,9 +362,9 @@ company_National = {
 		building_computers_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_telecommunications
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_telecommunications
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -414,10 +414,10 @@ company_Itochu = {
 		building_furniture_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_groceries
-		prestige_good_generic_furniture
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_groceries
+		# prestige_good_generic_furniture
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -468,9 +468,9 @@ company_nippon_steel = {
 		building_coal_mine
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible

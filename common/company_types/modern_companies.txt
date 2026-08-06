@@ -19,10 +19,10 @@ REPLACE:company_boeing = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_aeroplanes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_aeroplanes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -91,8 +91,8 @@ REPLACE:company_cargill = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -168,8 +168,8 @@ company_modern_procter_and_gamble = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -244,10 +244,10 @@ REPLACE:company_lockheed_martin = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_artillery
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_artillery
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -327,10 +327,10 @@ company_modern_jpmorgan_chase = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_financial_services
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_financial_services
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -412,8 +412,8 @@ REPLACE:company_general_motors = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -486,8 +486,8 @@ company_modern_dow = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -561,10 +561,10 @@ REPLACE:company_standard_oil = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -640,8 +640,8 @@ company_modern_weyerhaeuser = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -713,8 +713,8 @@ company_modern_philip_morris_international = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -794,10 +794,10 @@ REPLACE:company_apple = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_apple_devices
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_apple_devices
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -877,8 +877,8 @@ company_modern_union_pacific = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -952,10 +952,10 @@ company_modern_comac = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_aeroplanes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_aeroplanes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:chinese
@@ -1024,8 +1024,8 @@ company_modern_cofco = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:chinese
@@ -1101,8 +1101,8 @@ company_modern_haier = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:chinese
@@ -1177,10 +1177,10 @@ company_modern_norinco = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_artillery
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_artillery
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:chinese
@@ -1260,8 +1260,8 @@ REPLACE:company_Alibaba = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:chinese
@@ -1343,8 +1343,8 @@ company_modern_crrc = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:chinese
@@ -1417,8 +1417,8 @@ company_modern_china_baowu_steel_group = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:chinese
@@ -1492,10 +1492,10 @@ REPLACE:company_Sinopec = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:chinese
@@ -1571,8 +1571,8 @@ company_modern_china_forestry_group = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:chinese
@@ -1644,8 +1644,8 @@ company_modern_china_national_tobacco = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:chinese
@@ -1725,10 +1725,10 @@ REPLACE:company_Huawei = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_huawei_networks
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_huawei_networks
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:chinese
@@ -1808,10 +1808,10 @@ company_modern_state_grid_corporation_of_china = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_transportation
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_transportation
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:chinese
@@ -1885,10 +1885,10 @@ company_modern_larsen_and_toubro = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_aeroplanes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_aeroplanes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:indian
@@ -1957,8 +1957,8 @@ company_modern_amul = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indian
@@ -2034,8 +2034,8 @@ company_modern_hindustan_unilever = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indian
@@ -2110,8 +2110,8 @@ company_modern_bharat_electronics = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indian
@@ -2191,8 +2191,8 @@ company_modern_hdfc_bank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indian
@@ -2274,10 +2274,10 @@ REPLACE:company_tata = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_tata_vehicles
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_tata_vehicles
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:indian
@@ -2350,10 +2350,10 @@ company_modern_tata_steel = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:indian
@@ -2427,10 +2427,10 @@ company_modern_reliance_industries = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:indian
@@ -2506,8 +2506,8 @@ company_modern_adani_enterprises = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indian
@@ -2579,8 +2579,8 @@ company_modern_itc = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indian
@@ -2660,10 +2660,10 @@ company_modern_infosys = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_computers
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_computers
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:indian
@@ -2743,8 +2743,8 @@ REPLACE:company_great_indian_railway = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indian
@@ -2818,10 +2818,10 @@ company_modern_airbus_germany = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_aeroplanes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_aeroplanes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:german
@@ -2890,8 +2890,8 @@ company_modern_baywa = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:german
@@ -2967,8 +2967,8 @@ company_modern_henkel = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:german
@@ -3043,10 +3043,10 @@ REPLACE:company_rheinmetall = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_artillery
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_artillery
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:german
@@ -3126,8 +3126,8 @@ company_modern_deutsche_bank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:german
@@ -3209,10 +3209,10 @@ REPLACE:company_volkswagen = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_german_precision_vehicles
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_german_precision_vehicles
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:german
@@ -3285,10 +3285,10 @@ REPLACE:company_basf = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:german
@@ -3362,8 +3362,8 @@ company_modern_rwe = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:german
@@ -3439,8 +3439,8 @@ company_modern_continental = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:german
@@ -3512,8 +3512,8 @@ company_modern_bayer = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:german
@@ -3593,10 +3593,10 @@ REPLACE:company_siemens_and_halske = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_computers
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_computers
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:german
@@ -3676,8 +3676,8 @@ REPLACE:company_prussian_state_railways = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:german
@@ -3751,10 +3751,10 @@ company_modern_kawasaki_heavy_industries = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_aeroplanes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_aeroplanes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:japanese
@@ -3823,8 +3823,8 @@ company_modern_zen_noh = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:japanese
@@ -3900,8 +3900,8 @@ company_modern_seven_and_i_holdings = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:japanese
@@ -3976,10 +3976,10 @@ REPLACE:company_mitsubishi = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_artillery
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_artillery
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:japanese
@@ -4059,8 +4059,8 @@ company_modern_mitsubishi_ufj_financial_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:japanese
@@ -4142,10 +4142,10 @@ REPLACE:company_toyota = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_toyota_hybrids
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_toyota_hybrids
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:japanese
@@ -4218,8 +4218,8 @@ REPLACE:company_nippon_steel = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:japanese
@@ -4293,8 +4293,8 @@ company_modern_inpex = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:japanese
@@ -4370,8 +4370,8 @@ company_modern_oji_holdings = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:japanese
@@ -4443,8 +4443,8 @@ company_modern_japan_tobacco = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:japanese
@@ -4524,10 +4524,10 @@ company_modern_sony = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_computers
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_computers
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:japanese
@@ -4607,8 +4607,8 @@ company_modern_jr_group = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:japanese
@@ -4682,8 +4682,8 @@ company_modern_babcock_international = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:british
@@ -4752,8 +4752,8 @@ company_modern_associated_british_foods = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:british
@@ -4829,8 +4829,8 @@ company_modern_unilever = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:british
@@ -4905,10 +4905,10 @@ REPLACE:company_bae_system = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_artillery
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_artillery
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:british
@@ -4988,8 +4988,8 @@ company_modern_hsbc = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:british
@@ -5071,10 +5071,10 @@ company_modern_rolls_royce_holdings = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_rolls_royce_engines
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_rolls_royce_engines
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:british
@@ -5147,8 +5147,8 @@ company_modern_ineos = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:british
@@ -5222,10 +5222,10 @@ REPLACE:company_anglo_persian_oil = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:british
@@ -5301,8 +5301,8 @@ company_modern_mondi = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:british
@@ -5374,8 +5374,8 @@ REPLACE:company_imperial_tobacco = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:british
@@ -5455,10 +5455,10 @@ company_modern_arm_holdings = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_computers
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_computers
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:british
@@ -5538,8 +5538,8 @@ company_modern_national_grid = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:british
@@ -5613,10 +5613,10 @@ company_modern_airbus_france = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_airbus_airliners
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_airbus_airliners
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:french
@@ -5685,8 +5685,8 @@ company_modern_danone = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:french
@@ -5762,10 +5762,10 @@ company_modern_lvmh = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_clothes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_clothes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:french
@@ -5840,8 +5840,8 @@ company_modern_thales = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:french
@@ -5921,8 +5921,8 @@ company_modern_bnp_paribas = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:french
@@ -6004,8 +6004,8 @@ company_modern_renault_group = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:french
@@ -6078,8 +6078,8 @@ company_modern_air_liquide = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:french
@@ -6153,10 +6153,10 @@ company_modern_totalenergies = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:french
@@ -6232,8 +6232,8 @@ company_modern_michelin = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:french
@@ -6305,8 +6305,8 @@ company_modern_pernod_ricard = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:french
@@ -6386,10 +6386,10 @@ company_modern_dassault_systmes = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_computers
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_computers
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:french
@@ -6469,8 +6469,8 @@ company_modern_edf = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:french
@@ -6544,10 +6544,10 @@ company_modern_united_aircraft_corporation = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_aeroplanes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_aeroplanes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:russian
@@ -6616,8 +6616,8 @@ company_modern_rusagro = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:russian
@@ -6693,8 +6693,8 @@ company_modern_magnit = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:russian
@@ -6769,10 +6769,10 @@ company_modern_almaz_antey = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_russian_missile_systems
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_russian_missile_systems
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:russian
@@ -6852,8 +6852,8 @@ company_modern_sberbank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:russian
@@ -6935,8 +6935,8 @@ company_modern_rostec = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:russian
@@ -7009,8 +7009,8 @@ company_modern_severstal = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:russian
@@ -7084,10 +7084,10 @@ REPLACE:company_gazprom = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:russian
@@ -7163,8 +7163,8 @@ company_modern_ilim_group = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:russian
@@ -7236,8 +7236,8 @@ company_modern_united_tobacco_company = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:russian
@@ -7317,8 +7317,8 @@ company_modern_yandex = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:russian
@@ -7398,10 +7398,10 @@ company_modern_russian_railways = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_transportation
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_transportation
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:russian
@@ -7475,10 +7475,10 @@ company_modern_embraer = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_embraer_jets
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_embraer_jets
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:brazilian
@@ -7547,10 +7547,10 @@ company_modern_jbs = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:brazilian
@@ -7626,8 +7626,8 @@ company_modern_natura_and_co = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:brazilian
@@ -7702,8 +7702,8 @@ company_modern_avibras = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:brazilian
@@ -7783,8 +7783,8 @@ company_modern_ita_unibanco = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:brazilian
@@ -7866,8 +7866,8 @@ company_modern_weg = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:brazilian
@@ -7940,8 +7940,8 @@ company_modern_gerdau = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:brazilian
@@ -8015,10 +8015,10 @@ company_modern_petrobras = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:brazilian
@@ -8094,8 +8094,8 @@ company_modern_suzano = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:brazilian
@@ -8167,8 +8167,8 @@ company_modern_ambev = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:brazilian
@@ -8248,8 +8248,8 @@ company_modern_totvs = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:brazilian
@@ -8329,8 +8329,8 @@ company_modern_eletrobras = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:brazilian
@@ -8404,8 +8404,8 @@ company_modern_pt_dirgantara_indonesia = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indonesian
@@ -8474,8 +8474,8 @@ company_modern_indofood = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indonesian
@@ -8551,10 +8551,10 @@ company_modern_wings_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_clothes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_clothes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:indonesian
@@ -8629,8 +8629,8 @@ company_modern_pindad = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indonesian
@@ -8710,8 +8710,8 @@ company_modern_bank_mandiri = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indonesian
@@ -8793,8 +8793,8 @@ company_modern_astra_international = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indonesian
@@ -8867,8 +8867,8 @@ company_modern_krakatau_steel = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indonesian
@@ -8942,10 +8942,10 @@ company_modern_pertamina = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_pertamina_fuels
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_pertamina_fuels
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:indonesian
@@ -9021,8 +9021,8 @@ company_modern_sinar_mas = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indonesian
@@ -9094,8 +9094,8 @@ company_modern_gudang_garam = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indonesian
@@ -9175,8 +9175,8 @@ company_modern_telkom_indonesia = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:indonesian
@@ -9256,10 +9256,10 @@ company_modern_pln = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_transportation
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_transportation
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:indonesian
@@ -9333,10 +9333,10 @@ company_modern_fincantieri = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_aeroplanes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_aeroplanes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:italian
@@ -9405,8 +9405,8 @@ company_modern_barilla = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:italian
@@ -9482,10 +9482,10 @@ company_modern_luxottica = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_italian_luxury_goods
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_italian_luxury_goods
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:italian
@@ -9560,8 +9560,8 @@ company_modern_leonardo = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:italian
@@ -9641,8 +9641,8 @@ company_modern_intesa_sanpaolo = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:italian
@@ -9724,10 +9724,10 @@ REPLACE:company_fiat = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_automobiles
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_automobiles
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:italian
@@ -9800,8 +9800,8 @@ company_modern_danieli = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:italian
@@ -9875,8 +9875,8 @@ company_modern_eni = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:italian
@@ -9952,8 +9952,8 @@ company_modern_pirelli = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:italian
@@ -10025,8 +10025,8 @@ company_modern_campari_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:italian
@@ -10106,8 +10106,8 @@ company_modern_stmicroelectronics = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:italian
@@ -10187,8 +10187,8 @@ company_modern_enel = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:italian
@@ -10262,10 +10262,10 @@ company_modern_bombardier = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_aeroplanes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_aeroplanes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_canadian
@@ -10334,8 +10334,8 @@ company_modern_nutrien = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_canadian
@@ -10411,8 +10411,8 @@ company_modern_loblaw_companies = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_canadian
@@ -10487,8 +10487,8 @@ company_modern_general_dynamics_land_systems_canada = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_canadian
@@ -10568,10 +10568,10 @@ company_modern_royal_bank_of_canada = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_financial_services
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_financial_services
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_canadian
@@ -10653,8 +10653,8 @@ company_modern_magna_international = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_canadian
@@ -10727,8 +10727,8 @@ company_modern_nova_chemicals = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_canadian
@@ -10802,10 +10802,10 @@ company_modern_suncor_energy = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_canadian_energy
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_canadian_energy
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_canadian
@@ -10881,8 +10881,8 @@ company_modern_canfor = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_canadian
@@ -10954,8 +10954,8 @@ company_modern_constellation_brands_canada = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_canadian
@@ -11035,8 +11035,8 @@ company_modern_shopify = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_canadian
@@ -11116,8 +11116,8 @@ company_modern_canadian_national_railway = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:anglo_canadian
@@ -11191,10 +11191,10 @@ company_modern_hd_hyundai_heavy_industries = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_aeroplanes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_aeroplanes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:korean
@@ -11263,8 +11263,8 @@ company_modern_nonghyup = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:korean
@@ -11340,8 +11340,8 @@ company_modern_cj_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:korean
@@ -11416,8 +11416,8 @@ company_modern_hanwha_aerospace = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:korean
@@ -11497,8 +11497,8 @@ company_modern_kb_financial_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:korean
@@ -11580,10 +11580,10 @@ company_modern_hyundai_motor_group = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_automobiles
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_automobiles
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:korean
@@ -11656,8 +11656,8 @@ company_modern_posco = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:korean
@@ -11731,8 +11731,8 @@ company_modern_sk_innovation = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:korean
@@ -11808,8 +11808,8 @@ company_modern_hankook_tire = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:korean
@@ -11881,8 +11881,8 @@ REPLACE:company_sunhwaguk = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:korean
@@ -11962,10 +11962,10 @@ company_modern_samsung_electronics = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_samsung_semiconductors
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_samsung_semiconductors
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:korean
@@ -12045,8 +12045,8 @@ company_modern_korea_electric_power_corporation = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:korean
@@ -12120,8 +12120,8 @@ company_modern_safran_mexico = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:mexican
@@ -12190,8 +12190,8 @@ company_modern_grupo_bimbo = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:mexican
@@ -12267,8 +12267,8 @@ company_modern_grupo_lala = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:mexican
@@ -12343,8 +12343,8 @@ company_modern_dina = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:mexican
@@ -12424,8 +12424,8 @@ company_modern_grupo_financiero_banorte = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:mexican
@@ -12507,8 +12507,8 @@ company_modern_nemak = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:mexican
@@ -12581,10 +12581,10 @@ company_modern_cemex = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:mexican
@@ -12658,10 +12658,10 @@ company_modern_pemex = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:mexican
@@ -12737,8 +12737,8 @@ company_modern_grupo_kuo = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:mexican
@@ -12810,8 +12810,8 @@ company_modern_femsa = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:mexican
@@ -12891,8 +12891,8 @@ company_modern_amrica_mvil = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:mexican
@@ -12972,8 +12972,8 @@ company_modern_grupo_mxico_transportes = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:mexican
@@ -13047,10 +13047,10 @@ company_modern_turkish_aerospace_industries = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_aeroplanes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_aeroplanes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:turkish
@@ -13119,8 +13119,8 @@ company_modern_tmo_agricultural_holdings = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:turkish
@@ -13196,8 +13196,8 @@ company_modern_arelik = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:turkish
@@ -13272,10 +13272,10 @@ company_modern_aselsan = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_artillery
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_artillery
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:turkish
@@ -13355,8 +13355,8 @@ company_modern_bank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:turkish
@@ -13438,8 +13438,8 @@ company_modern_ko_holding = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:turkish
@@ -13512,8 +13512,8 @@ company_modern_erdemir = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:turkish
@@ -13587,8 +13587,8 @@ company_modern_tpra = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:turkish
@@ -13664,8 +13664,8 @@ company_modern_anadolu_group = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:turkish
@@ -13737,8 +13737,8 @@ REPLACE:company_ottoman_tobacco_regie = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:turkish
@@ -13818,8 +13818,8 @@ company_modern_vestel = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:turkish
@@ -13899,8 +13899,8 @@ company_modern_turkish_airlines = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:turkish
@@ -13974,8 +13974,8 @@ company_modern_austal = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:australian
@@ -14044,8 +14044,8 @@ company_modern_graincorp = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:australian
@@ -14121,8 +14121,8 @@ company_modern_wesfarmers = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:australian
@@ -14197,8 +14197,8 @@ company_modern_bae_systems_australia = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:australian
@@ -14278,10 +14278,10 @@ company_modern_commonwealth_bank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_financial_services
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_financial_services
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:australian
@@ -14363,8 +14363,8 @@ company_modern_bradken = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:australian
@@ -14437,8 +14437,8 @@ company_modern_orica = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:australian
@@ -14512,10 +14512,10 @@ REPLACE:company_broken_hill_proprietary_company = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:australian
@@ -14591,8 +14591,8 @@ company_modern_tassal_group = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:australian
@@ -14664,8 +14664,8 @@ company_modern_treasury_wine_estates = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:australian
@@ -14745,8 +14745,8 @@ company_modern_atlassian = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:australian
@@ -14826,8 +14826,8 @@ company_modern_qantas_group = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:australian
@@ -14901,8 +14901,8 @@ company_modern_saudia_aerospace_engineering_industries = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bedouin
@@ -14971,8 +14971,8 @@ company_modern_salic = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bedouin
@@ -15048,8 +15048,8 @@ company_modern_savola_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bedouin
@@ -15124,8 +15124,8 @@ company_modern_sami = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bedouin
@@ -15205,8 +15205,8 @@ company_modern_al_rajhi_bank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bedouin
@@ -15288,8 +15288,8 @@ company_modern_lucid_motors_saudi_arabia = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bedouin
@@ -15362,10 +15362,10 @@ company_modern_sabic = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:bedouin
@@ -15439,10 +15439,10 @@ company_modern_saudi_aramco = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_modern_aramco_crude
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_modern_aramco_crude
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:bedouin
@@ -15518,8 +15518,8 @@ company_modern_saudi_fisheries_company = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bedouin
@@ -15591,8 +15591,8 @@ company_modern_almarai = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bedouin
@@ -15672,8 +15672,8 @@ company_modern_stc = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bedouin
@@ -15753,8 +15753,8 @@ company_modern_saudi_electricity_company = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bedouin
@@ -15828,8 +15828,8 @@ company_modern_navantia = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:spanish
@@ -15898,8 +15898,8 @@ company_modern_ebro_foods = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:spanish
@@ -15975,8 +15975,8 @@ company_modern_inditex = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:spanish
@@ -16051,8 +16051,8 @@ company_modern_indra_sistemas = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:spanish
@@ -16132,8 +16132,8 @@ company_modern_banco_santander = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:spanish
@@ -16215,8 +16215,8 @@ company_modern_seat = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:spanish
@@ -16289,8 +16289,8 @@ company_modern_acerinox = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:spanish
@@ -16364,8 +16364,8 @@ company_modern_repsol = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:spanish
@@ -16441,8 +16441,8 @@ company_modern_ence = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:spanish
@@ -16514,8 +16514,8 @@ company_modern_osborne_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:spanish
@@ -16595,8 +16595,8 @@ company_modern_telefnica = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:spanish
@@ -16676,10 +16676,10 @@ company_modern_iberdrola = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_transportation
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_transportation
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:spanish
@@ -16753,8 +16753,8 @@ company_modern_iran_aircraft_manufacturing_industrial_company = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:persian
@@ -16823,8 +16823,8 @@ company_modern_iranian_agricultural_services = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:persian
@@ -16900,8 +16900,8 @@ company_modern_shirin_asal_food_industrial_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:persian
@@ -16976,8 +16976,8 @@ company_modern_iran_electronics_industries = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:persian
@@ -17057,8 +17057,8 @@ company_modern_bank_melli_iran = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:persian
@@ -17140,8 +17140,8 @@ company_modern_iran_khodro = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:persian
@@ -17214,8 +17214,8 @@ company_modern_mobarakeh_steel = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:persian
@@ -17289,10 +17289,10 @@ REPLACE:company_national_iranian_oil = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:persian
@@ -17368,8 +17368,8 @@ company_modern_iran_fisheries_organization = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:persian
@@ -17441,8 +17441,8 @@ company_modern_golrang_industrial_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:persian
@@ -17522,8 +17522,8 @@ company_modern_mapna_group = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:persian
@@ -17603,8 +17603,8 @@ company_modern_islamic_republic_of_iran_railways = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:persian
@@ -17678,8 +17678,8 @@ company_modern_remontowa_shipbuilding = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:polish
@@ -17748,8 +17748,8 @@ company_modern_krajowa_grupa_spoywcza = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:polish
@@ -17825,8 +17825,8 @@ company_modern_lpp = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:polish
@@ -17901,10 +17901,10 @@ company_modern_polska_grupa_zbrojeniowa = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_artillery
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_artillery
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:polish
@@ -17984,8 +17984,8 @@ company_modern_pko_bank_polski = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:polish
@@ -18067,8 +18067,8 @@ company_modern_solaris_bus_and_coach = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:polish
@@ -18141,8 +18141,8 @@ company_modern_grupa_azoty = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:polish
@@ -18216,8 +18216,8 @@ company_modern_orlen = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:polish
@@ -18293,8 +18293,8 @@ company_modern_state_forests_poland = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:polish
@@ -18366,8 +18366,8 @@ company_modern_polski_tyto = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:polish
@@ -18447,8 +18447,8 @@ company_modern_asseco_poland = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:polish
@@ -18528,8 +18528,8 @@ company_modern_pge = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:polish
@@ -18603,8 +18603,8 @@ company_modern_damen_shipyards = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:dutch
@@ -18673,10 +18673,10 @@ company_modern_royal_frieslandcampina = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:dutch
@@ -18756,8 +18756,8 @@ company_modern_ing_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:dutch
@@ -18838,8 +18838,8 @@ company_modern_tata_steel_netherlands = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:dutch
@@ -18913,8 +18913,8 @@ REPLACE:company_nederlandse_petroleum = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:dutch
@@ -18994,8 +18994,8 @@ company_modern_heineken = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:dutch
@@ -19075,8 +19075,8 @@ company_modern_asml = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:dutch
@@ -19156,8 +19156,8 @@ company_modern_royal_vopak = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:dutch
@@ -19235,10 +19235,10 @@ company_modern_bua_foods = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:nigerian
@@ -19314,8 +19314,8 @@ company_modern_dangote_consumer_industries = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:nigerian
@@ -19393,8 +19393,8 @@ company_modern_access_bank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:nigerian
@@ -19476,8 +19476,8 @@ company_modern_innoson_vehicle_manufacturing = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:nigerian
@@ -19550,8 +19550,8 @@ company_modern_dangote_industries = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:nigerian
@@ -19625,8 +19625,8 @@ company_modern_nnpc_limited = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:nigerian
@@ -19706,8 +19706,8 @@ company_modern_nigerian_breweries = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:nigerian
@@ -19787,8 +19787,8 @@ company_modern_globacom = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:nigerian
@@ -19868,10 +19868,10 @@ company_modern_tnuva = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:israeli
@@ -19947,8 +19947,8 @@ company_modern_strauss_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:israeli
@@ -20023,8 +20023,8 @@ company_modern_elbit_systems = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:israeli
@@ -20104,8 +20104,8 @@ company_modern_bank_leumi = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:israeli
@@ -20187,8 +20187,8 @@ company_modern_mobileye = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:israeli
@@ -20264,8 +20264,8 @@ company_modern_israel_chemicals = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:israeli
@@ -20345,8 +20345,8 @@ company_modern_teva_pharmaceutical_industries = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:israeli
@@ -20426,8 +20426,8 @@ company_modern_israel_electric_corporation = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:israeli
@@ -20505,10 +20505,10 @@ company_modern_agricultural_bank_of_egypt = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:egyptian
@@ -20584,8 +20584,8 @@ company_modern_edita_food_industries = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:egyptian
@@ -20663,8 +20663,8 @@ company_modern_national_bank_of_egypt = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:egyptian
@@ -20745,8 +20745,8 @@ company_modern_ezz_steel = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:egyptian
@@ -20820,8 +20820,8 @@ company_modern_egyptian_general_petroleum_corporation = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:egyptian
@@ -20901,8 +20901,8 @@ company_modern_eastern_company = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:egyptian
@@ -20982,8 +20982,8 @@ company_modern_telecom_egypt = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:egyptian
@@ -21063,8 +21063,8 @@ REPLACE:company_egyptian_rail = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:egyptian
@@ -21138,8 +21138,8 @@ company_modern_pakistan_aeronautical_complex = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:pakistani
@@ -21208,10 +21208,10 @@ company_modern_fauji_fertilizer_company = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:pakistani
@@ -21287,8 +21287,8 @@ company_modern_engro_corporation = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:pakistani
@@ -21366,8 +21366,8 @@ company_modern_habib_bank_limited = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:pakistani
@@ -21448,8 +21448,8 @@ company_modern_lucky_cement = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:pakistani
@@ -21523,8 +21523,8 @@ company_modern_pakistan_petroleum_limited = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:pakistani
@@ -21604,8 +21604,8 @@ company_modern_pakistan_tobacco_company = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:pakistani
@@ -21685,8 +21685,8 @@ company_modern_systems_limited = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:pakistani
@@ -21766,10 +21766,10 @@ company_modern_vinamilk = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:vietnamese
@@ -21849,8 +21849,8 @@ company_modern_vietcombank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:vietnamese
@@ -21932,8 +21932,8 @@ company_modern_vingroup = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:vietnamese
@@ -22006,8 +22006,8 @@ company_modern_hoa_phat_group = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:vietnamese
@@ -22081,8 +22081,8 @@ company_modern_petrovietnam = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:vietnamese
@@ -22162,8 +22162,8 @@ company_modern_vietnam_rubber_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:vietnamese
@@ -22243,8 +22243,8 @@ company_modern_viettel = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:vietnamese
@@ -22324,10 +22324,10 @@ REPLACE:company_san_miguel = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:filipino
@@ -22403,8 +22403,8 @@ company_modern_jg_summit_holdings = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:filipino
@@ -22482,8 +22482,8 @@ company_modern_bdo_unibank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:filipino
@@ -22567,8 +22567,8 @@ company_modern_semirara_mining_and_power = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:filipino
@@ -22648,8 +22648,8 @@ company_modern_universal_robina_corporation = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:filipino
@@ -22729,8 +22729,8 @@ company_modern_pldt = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:filipino
@@ -22810,8 +22810,8 @@ company_modern_meralco = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:filipino
@@ -22889,10 +22889,10 @@ company_modern_pran_rfl_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:bengali
@@ -22968,8 +22968,8 @@ company_modern_beximco = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bengali
@@ -23047,8 +23047,8 @@ company_modern_brac_bank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bengali
@@ -23130,8 +23130,8 @@ company_modern_walton_hi_tech_industries = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bengali
@@ -23207,8 +23207,8 @@ company_modern_bashundhara_group = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bengali
@@ -23288,8 +23288,8 @@ company_modern_british_american_tobacco_bangladesh = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bengali
@@ -23369,8 +23369,8 @@ company_modern_grameenphone = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bengali
@@ -23450,10 +23450,10 @@ company_modern_shoprite_holdings = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:south_african
@@ -23533,8 +23533,8 @@ company_modern_standard_bank_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:south_african
@@ -23615,8 +23615,8 @@ company_modern_sasol = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:south_african
@@ -23690,8 +23690,8 @@ company_modern_anglo_american_south_africa = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:south_african
@@ -23771,8 +23771,8 @@ company_modern_british_american_tobacco_south_africa = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:south_african
@@ -23852,8 +23852,8 @@ company_modern_naspers = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:south_african
@@ -23933,8 +23933,8 @@ company_modern_transnet = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:south_african
@@ -24008,8 +24008,8 @@ company_modern_invap = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:argentinian
@@ -24078,10 +24078,10 @@ company_modern_arcor = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:argentinian
@@ -24161,8 +24161,8 @@ company_modern_banco_galicia = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:argentinian
@@ -24243,8 +24243,8 @@ company_modern_techint = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:argentinian
@@ -24318,8 +24318,8 @@ company_modern_ypf = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:argentinian
@@ -24399,8 +24399,8 @@ company_modern_bodega_catena_zapata = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:argentinian
@@ -24480,8 +24480,8 @@ company_modern_mercado_libre = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:argentinian
@@ -24561,10 +24561,10 @@ company_modern_charoen_pokphand_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:thai
@@ -24644,8 +24644,8 @@ company_modern_kasikornbank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:thai
@@ -24726,8 +24726,8 @@ company_modern_siam_cement_group = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:thai
@@ -24801,8 +24801,8 @@ company_modern_ptt = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:thai
@@ -24882,8 +24882,8 @@ company_modern_thai_beverage = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:thai
@@ -24963,8 +24963,8 @@ company_modern_advanced_info_service = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:thai
@@ -25044,10 +25044,10 @@ company_modern_sime_darby = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:malaysian
@@ -25127,8 +25127,8 @@ company_modern_maybank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:malaysian
@@ -25210,8 +25210,8 @@ company_modern_proton_holdings = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:malaysian
@@ -25287,8 +25287,8 @@ company_modern_petronas = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:malaysian
@@ -25368,8 +25368,8 @@ company_modern_ioi_corporation = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:malaysian
@@ -25449,8 +25449,8 @@ company_modern_axiata_group = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:malaysian
@@ -25530,10 +25530,10 @@ company_modern_grupo_nutresa = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:colombian
@@ -25610,8 +25610,8 @@ company_modern_indumil = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:colombian
@@ -25691,8 +25691,8 @@ company_modern_bancolombia = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:colombian
@@ -25773,8 +25773,8 @@ company_modern_grupo_argos = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:colombian
@@ -25848,8 +25848,8 @@ company_modern_ecopetrol = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:colombian
@@ -25928,8 +25928,8 @@ company_modern_isa = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:colombian
@@ -26007,8 +26007,8 @@ company_modern_cevital = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:algerian
@@ -26084,8 +26084,8 @@ company_modern_condor_electronics = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:algerian
@@ -26163,8 +26163,8 @@ company_modern_banque_extrieure_d_algrie = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:algerian
@@ -26246,8 +26246,8 @@ company_modern_enmtp = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:algerian
@@ -26323,8 +26323,8 @@ company_modern_sonatrach = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:algerian
@@ -26403,8 +26403,8 @@ company_modern_sonelgaz = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:algerian
@@ -26478,8 +26478,8 @@ company_modern_ethiopian_airlines = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:amhara
@@ -26548,8 +26548,8 @@ company_modern_ethiopian_coffee_and_tea_authority = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:amhara
@@ -26625,8 +26625,8 @@ company_modern_midroc_ethiopia = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:amhara
@@ -26704,8 +26704,8 @@ company_modern_commercial_bank_of_ethiopia = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:amhara
@@ -26789,8 +26789,8 @@ company_modern_ethio_telecom = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:amhara
@@ -26870,8 +26870,8 @@ company_modern_ethiopian_electric_power = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:amhara
@@ -26949,8 +26949,8 @@ company_modern_kernel = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:ukrainian
@@ -27027,8 +27027,8 @@ company_modern_ukrainian_defense_industry = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:ukrainian
@@ -27103,8 +27103,8 @@ company_modern_metinvest = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:ukrainian
@@ -27178,8 +27178,8 @@ company_modern_naftogaz = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:ukrainian
@@ -27259,8 +27259,8 @@ company_modern_softserve = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:ukrainian
@@ -27339,8 +27339,8 @@ company_modern_bralima = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:congolese
@@ -27418,8 +27418,8 @@ company_modern_rawbank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:congolese
@@ -27500,8 +27500,8 @@ company_modern_tenke_fungurume_mining = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:congolese
@@ -27575,8 +27575,8 @@ company_modern_gcamines = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:congolese
@@ -27655,8 +27655,8 @@ company_modern_snel = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:congolese
@@ -27734,8 +27734,8 @@ company_modern_kenya_tea_development_agency = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:kenyan
@@ -27815,8 +27815,8 @@ company_modern_equity_group_holdings = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:kenyan
@@ -27897,8 +27897,8 @@ company_modern_bamburi_cement = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:kenyan
@@ -27972,8 +27972,8 @@ company_modern_safaricom = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:kenyan
@@ -28053,8 +28053,8 @@ company_modern_kenya_electricity_generating_company = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:kenyan
@@ -28128,8 +28128,8 @@ company_modern_air_astana = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:kazak
@@ -28201,8 +28201,8 @@ company_modern_halyk_bank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:kazak
@@ -28283,8 +28283,8 @@ company_modern_eurasian_resources_group = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:kazak
@@ -28358,8 +28358,8 @@ company_modern_kazmunaygas = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:kazak
@@ -28438,8 +28438,8 @@ company_modern_kazakhstan_temir_zholy = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:kazak
@@ -28513,8 +28513,8 @@ company_modern_sima_per = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:peruvian
@@ -28583,8 +28583,8 @@ company_modern_alicorp = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:peruvian
@@ -28664,8 +28664,8 @@ company_modern_credicorp = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:peruvian
@@ -28746,8 +28746,8 @@ company_modern_ferreycorp = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:peruvian
@@ -28821,8 +28821,8 @@ company_modern_southern_copper_peru = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:peruvian
@@ -28897,8 +28897,8 @@ company_modern_asry = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bahraini
@@ -28970,8 +28970,8 @@ company_modern_bank_abc = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bahraini
@@ -29052,8 +29052,8 @@ company_modern_aluminium_bahrain = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bahraini
@@ -29127,8 +29127,8 @@ company_modern_bapco_energies = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bahraini
@@ -29203,8 +29203,8 @@ company_modern_deme = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:belgian
@@ -29276,8 +29276,8 @@ company_modern_kbc_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:belgian
@@ -29358,10 +29358,10 @@ company_modern_solvay = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:belgian
@@ -29435,10 +29435,10 @@ company_modern_ab_inbev = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_coffee
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_coffee
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:belgian
@@ -29518,8 +29518,8 @@ company_modern_ucb = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:belgian
@@ -29599,8 +29599,8 @@ company_modern_proximus = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:belgian
@@ -29674,8 +29674,8 @@ company_modern_royal_brunei_airlines = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bruneian
@@ -29747,8 +29747,8 @@ company_modern_bank_islam_brunei_darussalam = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bruneian
@@ -29832,8 +29832,8 @@ company_modern_brunei_shell_petroleum = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:bruneian
@@ -29908,8 +29908,8 @@ company_modern_latam_airlines = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:chilean
@@ -29981,8 +29981,8 @@ company_modern_banco_de_chile = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:chilean
@@ -30063,8 +30063,8 @@ company_modern_sqm = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:chilean
@@ -30138,8 +30138,8 @@ company_modern_codelco = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:chilean
@@ -30215,10 +30215,10 @@ company_modern_cmpc = {
 		building_port
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_wood
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_wood
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:chilean
@@ -30289,8 +30289,8 @@ company_modern_empresas_copec = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:chilean
@@ -30368,10 +30368,10 @@ company_modern_agrofert = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:czech
@@ -30448,8 +30448,8 @@ company_modern_colt_cz_group = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:czech
@@ -30529,8 +30529,8 @@ company_modern_ppf_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:czech
@@ -30612,8 +30612,8 @@ REPLACE:company_skoda = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:czech
@@ -30689,8 +30689,8 @@ company_modern_avast = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:czech
@@ -30770,8 +30770,8 @@ company_modern_ez_group = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:czech
@@ -30845,8 +30845,8 @@ REPLACE:company_ap_moller = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:danish
@@ -30918,8 +30918,8 @@ company_modern_danske_bank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:danish
@@ -31001,8 +31001,8 @@ company_modern_vestas = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:danish
@@ -31078,10 +31078,10 @@ company_modern_carlsberg_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_coffee
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_coffee
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:danish
@@ -31161,8 +31161,8 @@ company_modern_novo_nordisk = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:danish
@@ -31242,8 +31242,8 @@ company_modern_dsv = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:danish
@@ -31321,8 +31321,8 @@ company_modern_military_industries_commission = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:iraqi
@@ -31402,8 +31402,8 @@ company_modern_trade_bank_of_iraq = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:iraqi
@@ -31487,8 +31487,8 @@ company_modern_iraq_national_oil_company = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:iraqi
@@ -31567,8 +31567,8 @@ company_modern_iraqi_republic_railways = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:iraqi
@@ -31642,8 +31642,8 @@ company_modern_aercap = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:irish
@@ -31712,10 +31712,10 @@ company_modern_kerry_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:irish
@@ -31795,8 +31795,8 @@ company_modern_allied_irish_banks = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:irish
@@ -31877,8 +31877,8 @@ company_modern_crh = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:irish
@@ -31952,8 +31952,8 @@ company_modern_accenture_ireland = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:irish
@@ -32033,8 +32033,8 @@ company_modern_ryanair = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:irish
@@ -32115,8 +32115,8 @@ company_modern_national_bank_of_kuwait = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:kuwaiti
@@ -32200,10 +32200,10 @@ company_modern_kuwait_petroleum_corporation = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:kuwaiti
@@ -32283,8 +32283,8 @@ company_modern_zain_group = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:kuwaiti
@@ -32364,8 +32364,8 @@ company_modern_agility_logistics = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:kuwaiti
@@ -32439,8 +32439,8 @@ company_modern_cargolux = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:luxembourger
@@ -32512,8 +32512,8 @@ company_modern_bgl_bnp_paribas = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:luxembourger
@@ -32594,10 +32594,10 @@ company_modern_arcelormittal = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:luxembourger
@@ -32671,8 +32671,8 @@ company_modern_ses = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:luxembourger
@@ -32748,8 +32748,8 @@ company_modern_royal_air_maroc = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:moroccan
@@ -32821,8 +32821,8 @@ company_modern_attijariwafa_bank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:moroccan
@@ -32904,8 +32904,8 @@ company_modern_renault_morocco = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:moroccan
@@ -32981,10 +32981,10 @@ REPLACE:company_office_cherifien_des_phosphates = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:moroccan
@@ -33064,8 +33064,8 @@ company_modern_maroc_telecom = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:moroccan
@@ -33141,8 +33141,8 @@ company_modern_air_new_zealand = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:new_zealander
@@ -33211,10 +33211,10 @@ company_modern_fonterra = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:new_zealander
@@ -33292,8 +33292,8 @@ company_modern_zespri = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:new_zealander
@@ -33373,8 +33373,8 @@ company_modern_fisher_and_paykel_healthcare = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:new_zealander
@@ -33454,8 +33454,8 @@ company_modern_meridian_energy = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:new_zealander
@@ -33529,8 +33529,8 @@ REPLACE:company_aker_mek = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:norwegian
@@ -33599,10 +33599,10 @@ company_modern_mowi = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:norwegian
@@ -33679,8 +33679,8 @@ company_modern_kongsberg_gruppen = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:norwegian
@@ -33760,8 +33760,8 @@ company_modern_dnb = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:norwegian
@@ -33842,8 +33842,8 @@ REPLACE:company_norsk_hydro = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:norwegian
@@ -33917,10 +33917,10 @@ company_modern_equinor = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:norwegian
@@ -34000,8 +34000,8 @@ company_modern_telenor = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:norwegian
@@ -34084,8 +34084,8 @@ company_modern_bank_muscat = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:omani
@@ -34169,8 +34169,8 @@ company_modern_oq = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:omani
@@ -34250,8 +34250,8 @@ company_modern_omantel = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:omani
@@ -34331,8 +34331,8 @@ company_modern_asyad_group = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:omani
@@ -34406,8 +34406,8 @@ company_modern_copa_holdings = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:panamanian
@@ -34476,10 +34476,10 @@ company_modern_grupo_melo = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:panamanian
@@ -34559,8 +34559,8 @@ company_modern_banco_general = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:panamanian
@@ -34643,8 +34643,8 @@ company_modern_panama_canal_authority = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:panamanian
@@ -34718,8 +34718,8 @@ company_modern_qatar_airways = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:qatari
@@ -34791,8 +34791,8 @@ company_modern_qnb_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:qatari
@@ -34873,8 +34873,8 @@ company_modern_industries_qatar = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:qatari
@@ -34948,10 +34948,10 @@ company_modern_qatarenergy = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:qatari
@@ -35031,8 +35031,8 @@ company_modern_ooredoo = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:qatari
@@ -35115,8 +35115,8 @@ company_modern_banca_transilvania = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:romanian
@@ -35198,8 +35198,8 @@ company_modern_dacia = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:romanian
@@ -35275,8 +35275,8 @@ company_modern_omv_petrom = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:romanian
@@ -35356,8 +35356,8 @@ company_modern_bitdefender = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:romanian
@@ -35437,8 +35437,8 @@ company_modern_hidroelectrica = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:romanian
@@ -35512,8 +35512,8 @@ company_modern_singapore_airlines_engineering = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:singaporean
@@ -35582,10 +35582,10 @@ company_modern_wilmar_international = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:singaporean
@@ -35661,10 +35661,10 @@ company_modern_olam_group = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_clothes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_clothes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:singaporean
@@ -35739,8 +35739,8 @@ company_modern_st_engineering = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:singaporean
@@ -35820,8 +35820,8 @@ company_modern_dbs_bank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:singaporean
@@ -35905,8 +35905,8 @@ company_modern_sea_group = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:singaporean
@@ -35986,8 +35986,8 @@ company_modern_psa_international = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:singaporean
@@ -36064,10 +36064,10 @@ company_modern_ikea = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_clothes
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_clothes
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:swedish
@@ -36142,8 +36142,8 @@ company_modern_saab = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:swedish
@@ -36223,8 +36223,8 @@ company_modern_seb = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:swedish
@@ -36306,8 +36306,8 @@ company_modern_volvo_group = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:swedish
@@ -36380,8 +36380,8 @@ company_modern_sandvik = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:swedish
@@ -36455,8 +36455,8 @@ REPLACE:company_ericsson = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:swedish
@@ -36536,8 +36536,8 @@ company_modern_vattenfall = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:swedish
@@ -36615,10 +36615,10 @@ company_modern_nestl = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:swiss
@@ -36695,8 +36695,8 @@ company_modern_ruag = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:swiss
@@ -36776,8 +36776,8 @@ company_modern_ubs = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:swiss
@@ -36859,8 +36859,8 @@ company_modern_abb = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:swiss
@@ -36933,10 +36933,10 @@ company_modern_holcim = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:swiss
@@ -37010,8 +37010,8 @@ company_modern_roche = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:swiss
@@ -37091,8 +37091,8 @@ company_modern_swiss_federal_railways = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:swiss
@@ -37166,8 +37166,8 @@ company_modern_emirates_group = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:emirati
@@ -37236,8 +37236,8 @@ company_modern_edge_group = {
 		building_shipyard
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:emirati
@@ -37317,8 +37317,8 @@ company_modern_first_abu_dhabi_bank = {
 		building_trade_center
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:emirati
@@ -37399,10 +37399,10 @@ company_modern_emirates_global_aluminium = {
 		building_railway
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:emirati
@@ -37476,10 +37476,10 @@ company_modern_adnoc = {
 		building_power_plant
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 
 	potential = {
 		country_has_primary_culture = cu:emirati
@@ -37559,8 +37559,8 @@ company_modern_e_and = {
 		building_art_academy
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:emirati
@@ -37640,8 +37640,8 @@ company_modern_dp_world = {
 		building_corporate_services_industry
 	}
 
-	prestige_goods_trigger = { }
-	possible_prestige_goods = { }
+	# prestige_goods_trigger = { }
+	# possible_prestige_goods = { }
 
 	potential = {
 		country_has_primary_culture = cu:emirati

@@ -16,9 +16,9 @@ company_douro_wine_company = {
 		building_art_academy
 	}
 
-	possible_prestige_goods = {
-		prestige_good_port_wine
-	}
+	# possible_prestige_goods = {
+		# prestige_good_port_wine
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_southern_europe
@@ -142,9 +142,9 @@ company_gran_azucarera = {
 		building_railway
 	}
 
-	possible_prestige_goods = {
-		prestige_good_havana_sugar
-	}
+	# possible_prestige_goods = {
+		# prestige_good_havana_sugar
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america
@@ -206,9 +206,9 @@ company_rodriguez_arguelles_y_cia = {
 		building_rice_farm
 	}
 
-	possible_prestige_goods = {
-		prestige_good_cigars
-	}
+	# possible_prestige_goods = {
+		# prestige_good_cigars
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america
@@ -271,13 +271,13 @@ company_ynchausti_y_compania = {
 		building_rice_farm
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_merchant_marine
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_merchant_marine
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		has_interest_marker_in_is_in_geographic_region = geographic_region_indonesia
@@ -341,16 +341,16 @@ company_office_cherifien_des_phosphates = {
 		building_iron_mine
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_fertilizer
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_fertilizer
+	# }
 
-	prestige_goods_trigger = {
-		custom_tooltip = {
-			text = je_prestige_goods_fertilizer_complete_tt
-			has_variable = prestige_good_generic_fertilizer_var
-		}
-	}
+	# prestige_goods_trigger = {
+		# custom_tooltip = {
+			# text = je_prestige_goods_fertilizer_complete_tt
+			# has_variable = prestige_good_generic_fertilizer_var
+		# }
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_north_africa
@@ -404,13 +404,13 @@ company_uniao_fabril = {
 		building_groceries_factory
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_fertilizer
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_fertilizer
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_southern_europe
@@ -474,9 +474,9 @@ company_pedro_domecq = {
 		building_livestock_ranch
 	}
 
-	possible_prestige_goods = {
-		prestige_good_sherry
-	}
+	# possible_prestige_goods = {
+		# prestige_good_sherry
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_southern_europe
@@ -527,9 +527,9 @@ company_bacardi = {
 		building_vineyard
 	}
 
-	possible_prestige_goods = {
-		prestige_good_bacardi_rum
-	}
+	# possible_prestige_goods = {
+		# prestige_good_bacardi_rum
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_central_america

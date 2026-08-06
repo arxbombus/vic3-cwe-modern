@@ -20,9 +20,9 @@ company_ludwig_moser_and_sons = {
 		has_interest_marker_in_region = sr:region_north_germany
 	}
 
-	possible_prestige_goods = {
-		prestige_good_bohemian_crystal
-	}
+	# possible_prestige_goods = {
+		# prestige_good_bohemian_crystal
+	# }
 
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -90,9 +90,9 @@ company_compania_sansinena_de_carnes_congeladas = {
 		building_port
 	}
 
-	possible_prestige_goods = {
-		prestige_good_river_plate_beef
-	}
+	# possible_prestige_goods = {
+		# prestige_good_river_plate_beef
+	# }
 
 	potential = {
 		#has_dlc_feature = mp1_content
@@ -179,9 +179,9 @@ company_konigliche_porzellan_manufaktur_meissen = {
 		
 	}
 
-	possible_prestige_goods = {
-		prestige_good_meissen_porcelain
-	}
+	# possible_prestige_goods = {
+		# prestige_good_meissen_porcelain
+	# }
 
 	potential = {
 		#has_dlc_feature = mp1_content
@@ -256,9 +256,9 @@ company_jiangnan_weaving_bureaus= {
 		building_art_academy
 	}
 
-	possible_prestige_goods = {
-		prestige_good_suzhou_silk
-	}
+	# possible_prestige_goods = {
+		# prestige_good_suzhou_silk
+	# }
 
 	potential = {
 		#has_dlc_feature = mp1_content
@@ -362,13 +362,13 @@ company_russian_american_company = {
 		building_fishing_wharf
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_meat
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_meat
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_pacific_coast
@@ -479,9 +479,9 @@ company_maison_worth = {
 		building_art_academy
 	}
 
-	possible_prestige_goods = {
-		prestige_good_haute_couture
-	}
+	# possible_prestige_goods = {
+		# prestige_good_haute_couture
+	# }
 
 	potential = {
 		#has_dlc_feature = mp1_content
@@ -556,9 +556,9 @@ company_lee_wilson = {
 		building_railway
 	}
 
-	possible_prestige_goods = {
-		prestige_good_sea_island_cotton
-	}
+	# possible_prestige_goods = {
+		# prestige_good_sea_island_cotton
+	# }
 
 	potential = {
 		#has_dlc_feature = mp1_content
@@ -638,9 +638,9 @@ company_colt_firearms = {
 		building_ammunition_factory
 	}
 
-	possible_prestige_goods = {
-		prestige_good_colt_revolvers
-	}
+	# possible_prestige_goods = {
+		# prestige_good_colt_revolvers
+	# }
 
 	potential = {
 		#has_dlc_feature = mp1_content
@@ -711,9 +711,9 @@ company_gebruder_thonet = {
 		building_logging_camp
 	}
 
-	possible_prestige_goods = {
-		prestige_good_bentwood_furniture
-	}
+	# possible_prestige_goods = {
+		# prestige_good_bentwood_furniture
+	# }
 
 	potential = {
 		#has_dlc_feature = mp1_content
@@ -785,9 +785,9 @@ company_kinkozan_sobei = {
 		building_logging_camp
 	}
 
-	possible_prestige_goods = {
-		prestige_good_satsuma_ware
-	}
+	# possible_prestige_goods = {
+		# prestige_good_satsuma_ware
+	# }
 
 	potential = {
 		#has_dlc_feature = mp1_content
@@ -859,9 +859,9 @@ company_maple_and_co = {
 		building_logging_camp
 	}
 
-	possible_prestige_goods = {
-		prestige_good_english_upholstery
-	}
+	# possible_prestige_goods = {
+		# prestige_good_english_upholstery
+	# }
 
 	potential = {
 		#has_dlc_feature = mp1_content
@@ -932,9 +932,9 @@ company_ong_lung_sheng_tea_company = {
 		building_groceries_factory
 	}
 
-	possible_prestige_goods = {
-		prestige_good_china_tea
-	}
+	# possible_prestige_goods = {
+		# prestige_good_china_tea
+	# }
 
 	potential = {
 		#has_dlc_feature = mp1_content
@@ -1007,9 +1007,9 @@ company_anglo_sicilian_sulphur_company = {
 		building_port
 	}
 
-	possible_prestige_goods = {
-		prestige_good_sicilian_sulfur
-	}
+	# possible_prestige_goods = {
+		# prestige_good_sicilian_sulfur
+	# }
 
 	potential = {
 		#has_dlc_feature = mp1_content
@@ -1087,9 +1087,9 @@ company_mantero_seta = {
 		building_cotton_plantation
 	}
 
-	possible_prestige_goods = {
-		prestige_good_como_silk
-	}
+	# possible_prestige_goods = {
+		# prestige_good_como_silk
+	# }
 
 	potential = {
 		#has_dlc_feature = mp1_content
@@ -1250,13 +1250,13 @@ company_massey_harris = {
 		building_iron_mine
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_tools
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_tools
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_canada
@@ -1619,9 +1619,9 @@ company_paradox = {
 		building_software_industry
 	}
 
-	possible_prestige_goods = {
-		prestige_good_grand_strategy_games
-	}
+	# possible_prestige_goods = {
+		# prestige_good_grand_strategy_games
+	# }
 
 	potential = {
 		has_technology_researched = tech_electronics_5

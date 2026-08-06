@@ -1,419 +1,419 @@
 # Unique Tier-I prestige goods for selected flagship companies
 
-prestige_good_modern_apple_devices = {
-	base_good = computers
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/mobile_devices.dds"
-}
+# prestige_good_modern_apple_devices = {
+#	base_good = computers
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/mobile_devices.dds"
+# }
 
-prestige_good_modern_huawei_networks = {
-	base_good = telecommunications
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/ericsson_apparatus_prestige.dds"
-}
+# prestige_good_modern_huawei_networks = {
+#	base_good = telecommunications
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/prestige_goods/ericsson_apparatus_prestige.dds"
+# }
 
-prestige_good_modern_tata_vehicles = {
-	base_good = automobiles
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/tata_automobiles_prestige.dds"
-}
+# prestige_good_modern_tata_vehicles = {
+#	base_good = automobiles
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/prestige_goods/tata_automobiles_prestige.dds"
+# }
 
-prestige_good_modern_german_precision_vehicles = {
-	base_good = automobiles
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/prestige_good_german_automobiles.dds"
-}
+# prestige_good_modern_german_precision_vehicles = {
+#	base_good = automobiles
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/prestige_goods/# prestige_good_german_automobiles.dds"#
+# }#
+#
+# # prestige_good_modern_toyota_hybrids = {
+#	base_good = automobiles
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/prestige_goods/japanese_automobiles_prestige.dds"
+# }
 
-prestige_good_modern_toyota_hybrids = {
-	base_good = automobiles
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/japanese_automobiles_prestige.dds"
-}
+# prestige_good_modern_rolls_royce_engines = {
+#	base_good = engines
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/prestige_goods/schichau_engines_prestige.dds"
+# }
 
-prestige_good_modern_rolls_royce_engines = {
-	base_good = engines
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/schichau_engines_prestige.dds"
-}
+# prestige_good_modern_airbus_airliners = {
+#	base_good = aeroplanes
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/airliner.dds"
+# }
 
-prestige_good_modern_airbus_airliners = {
-	base_good = aeroplanes
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/airliner.dds"
-}
+# prestige_good_modern_russian_missile_systems = {
+#	base_good = advanced_weaponry
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/advanced_weaponry.dds"
+# }
 
-prestige_good_modern_russian_missile_systems = {
-	base_good = advanced_weaponry
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/advanced_weaponry.dds"
-}
+# prestige_good_modern_embraer_jets = {
+#	base_good = aeroplanes
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/airliner.dds"
+# }
 
-prestige_good_modern_embraer_jets = {
-	base_good = aeroplanes
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/airliner.dds"
-}
+# prestige_good_modern_pertamina_fuels = {
+#	base_good = oil
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/prestige_goods/baku_oil_prestige.dds"
+# }
 
-prestige_good_modern_pertamina_fuels = {
-	base_good = oil
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/baku_oil_prestige.dds"
-}
+# prestige_good_modern_italian_luxury_goods = {
+#	base_good = clothes
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_clothes_prestige.dds"
+# }
 
-prestige_good_modern_italian_luxury_goods = {
-	base_good = clothes
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_clothes_prestige.dds"
-}
+# prestige_good_modern_canadian_energy = {
+#	base_good = oil
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/prestige_goods/baku_oil_prestige.dds"
+# }
 
-prestige_good_modern_canadian_energy = {
-	base_good = oil
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/baku_oil_prestige.dds"
-}
+# prestige_good_modern_samsung_semiconductors = {
+#	base_good = circuit_boards
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/computer_chip.dds"
+# }
 
-prestige_good_modern_samsung_semiconductors = {
-	base_good = circuit_boards
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/computer_chip.dds"
-}
-
-prestige_good_modern_aramco_crude = {
-	base_good = oil
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/prestige_goods/baku_oil_prestige.dds"
-}
+# prestige_good_modern_aramco_crude = {
+#	base_good = oil
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/prestige_goods/baku_oil_prestige.dds"
+# }
 
 # Aurelian prestige goods
 # One prestige variant for every active good in 00_goods except illegal_services.
 # Existing base-good icons are used as self-contained texture fallbacks.
 
-prestige_good_fre_tianjing_consumer_electronics = {
-	base_good = telecommunications
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/televisions.dds"
-}
+# prestige_good_fre_tianjing_consumer_electronics = {
+#	base_good = telecommunications
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/televisions.dds"
+# }
 
-prestige_good_fre_tianjing_computers = {
-	base_good = computers
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/computers.dds"
-}
+# prestige_good_fre_tianjing_computers = {
+#	base_good = computers
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/computers.dds"
+# }
 
-prestige_good_fre_tianjing_circuit_boards = {
-	base_good = circuit_boards
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/electronics.dds"
-}
+# prestige_good_fre_tianjing_circuit_boards = {
+#	base_good = circuit_boards
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/electronics.dds"
+# }
 
-prestige_good_fre_zhihai_enterprise_software = {
-	base_good = software
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/software.dds"
-}
+# prestige_good_fre_zhihai_enterprise_software = {
+#	base_good = software
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/software.dds"
+# }
 
-prestige_good_fre_zhihai_consulting_services = {
-	base_good = professional_services
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/corporate_management.dds"
-}
+# prestige_good_fre_zhihai_consulting_services = {
+#	base_good = professional_services
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/invention_icons/corporate_management.dds"
+# }
 
-prestige_good_fre_jingwei_financial_services = {
-	base_good = financial_services
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/stock_exchanges.dds"
-}
+# prestige_good_fre_jingwei_financial_services = {
+#	base_good = financial_services
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/invention_icons/stock_exchanges.dds"
+# }
 
-prestige_good_fre_jingwei_business_services = {
-	base_good = corporate_services
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/invention_icons/enlistment_offices.dds"
-}
+# prestige_good_fre_jingwei_business_services = {
+#	base_good = corporate_services
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/invention_icons/enlistment_offices.dds"
+# }
 
-prestige_good_fre_jingwei_retail_services = {
-	base_good = services
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/services.dds"
-}
+# prestige_good_fre_jingwei_retail_services = {
+#	base_good = services
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/services.dds"
+# }
 
-prestige_good_fre_jingwei_commercial_property = {
-	base_good = real_estate
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/real_estate.dds"
-}
+# prestige_good_fre_jingwei_commercial_property = {
+#	base_good = real_estate
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/real_estate.dds"
+# }
 
-prestige_good_fre_qingji_rail_transport = {
-	base_good = transportation
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/transportation.dds"
-}
+# prestige_good_fre_qingji_rail_transport = {
+#	base_good = transportation
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/transportation.dds"
+# }
 
-prestige_good_fre_qingji_grid_power = {
-	base_good = electricity
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/electricity.dds"
-}
+# prestige_good_fre_qingji_grid_power = {
+#	base_good = electricity
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/electricity.dds"
+# }
 
-prestige_good_fre_qingji_merchant_shipping = {
-	base_good = merchant_marine
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/merchant_marine.dds"
-}
+# prestige_good_fre_qingji_merchant_shipping = {
+#	base_good = merchant_marine
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/merchant_marine.dds"
+# }
 
-prestige_good_fre_qingji_network_services = {
-	base_good = communication_services
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/communication_services.dds"
-}
+# prestige_good_fre_qingji_network_services = {
+#	base_good = communication_services
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/communication_services.dds"
+# }
 
-prestige_good_fre_haidong_industrial_robots = {
-	base_good = industrial_robots
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/industrial_robots.dds"
-}
+# prestige_good_fre_haidong_industrial_robots = {
+#	base_good = industrial_robots
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/industrial_robots.dds"
+# }
 
-prestige_good_fre_haidong_home_robots = {
-	base_good = consumer_robots
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/consumer_robots.dds"
-}
+# prestige_good_fre_haidong_home_robots = {
+#	base_good = consumer_robots
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/consumer_robots.dds"
+# }
 
-prestige_good_fre_danqi_service_weapons = {
-	base_good = small_arms
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
-}
+# prestige_good_fre_danqi_service_weapons = {
+#	base_good = small_arms
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+# }
 
-prestige_good_fre_danqi_ammunition = {
-	base_good = ammunition
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/ammunition.dds"
-}
+# prestige_good_fre_danqi_ammunition = {
+#	base_good = ammunition
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/ammunition.dds"
+# }
 
-prestige_good_fre_danqi_field_artillery = {
-	base_good = artillery
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/artillery.dds"
-}
+# prestige_good_fre_danqi_field_artillery = {
+#	base_good = artillery
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/artillery.dds"
+# }
 
-prestige_good_fre_danqi_armoured_vehicles = {
-	base_good = tanks
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/advanced_tanks.dds"
-}
+# prestige_good_fre_danqi_armoured_vehicles = {
+#	base_good = tanks
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/advanced_tanks.dds"
+# }
 
-prestige_good_fre_danqi_combat_aircraft = {
-	base_good = warplanes
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/advanced_warplanes.dds"
-}
+# prestige_good_fre_danqi_combat_aircraft = {
+#	base_good = warplanes
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/advanced_warplanes.dds"
+# }
 
-prestige_good_fre_danqi_missile_systems = {
-	base_good = advanced_weaponry
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/advanced_ammunition.dds"
-}
+# prestige_good_fre_danqi_missile_systems = {
+#	base_good = advanced_weaponry
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/advanced_ammunition.dds"
+# }
 
-prestige_good_fre_canghai_iron_ore = {
-	base_good = iron
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/iron.dds"
-}
+# prestige_good_fre_canghai_iron_ore = {
+#	base_good = iron
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/iron.dds"
+# }
 
-prestige_good_fre_canghai_coal = {
-	base_good = coal
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/coal.dds"
-}
+# prestige_good_fre_canghai_coal = {
+#	base_good = coal
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/coal.dds"
+# }
 
-prestige_good_fre_canghai_refined_lead = {
-	base_good = lead
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/lead.dds"
-}
+# prestige_good_fre_canghai_refined_lead = {
+#	base_good = lead
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/lead.dds"
+# }
 
-prestige_good_fre_canghai_industrial_sulfur = {
-	base_good = sulfur
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/sulfur.dds"
-}
+# prestige_good_fre_canghai_industrial_sulfur = {
+#	base_good = sulfur
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/sulfur.dds"
+# }
 
-prestige_good_fre_canghai_gold_bullion = {
-	base_good = gold
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/gold.dds"
-}
+# prestige_good_fre_canghai_gold_bullion = {
+#	base_good = gold
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/gold.dds"
+# }
 
-prestige_good_fre_canghai_crude_oil = {
-	base_good = oil
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/oil.dds"
-}
+# prestige_good_fre_canghai_crude_oil = {
+#	base_good = oil
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/oil.dds"
+# }
 
-prestige_good_fre_liuxing_airliners = {
-	base_good = aeroplanes
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/commercial_aircraft.dds"
-}
+# prestige_good_fre_liuxing_airliners = {
+#	base_good = aeroplanes
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/commercial_aircraft.dds"
+# }
 
-prestige_good_fre_liuxing_cargo_ships = {
-	base_good = steamers
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/cargo_ship.dds"
-}
+# prestige_good_fre_liuxing_cargo_ships = {
+#	base_good = steamers
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/cargo_ship.dds"
+# }
 
-prestige_good_fre_xuanyu_structural_steel = {
-	base_good = steel
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/steel.dds"
-}
+# prestige_good_fre_xuanyu_structural_steel = {
+#	base_good = steel
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/steel.dds"
+# }
 
-prestige_good_fre_xuanyu_industrial_chemicals = {
-	base_good = industrial_chemicals
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/dye.dds"
-}
+# prestige_good_fre_xuanyu_industrial_chemicals = {
+#	base_good = industrial_chemicals
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/dye.dds"
+# }
 
-prestige_good_fre_xuanyu_engineering_plastics = {
-	base_good = plastics
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/plastic.dds"
-}
+# prestige_good_fre_xuanyu_engineering_plastics = {
+#	base_good = plastics
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/plastic.dds"
+# }
 
-prestige_good_fre_jinlun_engines = {
-	base_good = engines
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/engines.dds"
-}
+# prestige_good_fre_jinlun_engines = {
+#	base_good = engines
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/engines.dds"
+# }
 
-prestige_good_fre_jinlun_locomotives = {
-	base_good = locomotives
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/locomotive.dds"
-}
+# prestige_good_fre_jinlun_locomotives = {
+#	base_good = locomotives
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/locomotive.dds"
+# }
 
-prestige_good_fre_jinlun_automobiles = {
-	base_good = automobiles
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/automobiles.dds"
-}
+# prestige_good_fre_jinlun_automobiles = {
+#	base_good = automobiles
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/automobiles.dds"
+# }
 
-prestige_good_fre_shennong_pharmaceuticals = {
-	base_good = pharmaceuticals
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/pharmaceuticals.dds"
-}
+# prestige_good_fre_shennong_pharmaceuticals = {
+#	base_good = pharmaceuticals
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/pharmaceuticals.dds"
+# }
 
-prestige_good_fre_minsheng_broadcasting = {
-	base_good = media_services
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/media_services.dds"
-}
+# prestige_good_fre_minsheng_broadcasting = {
+#	base_good = media_services
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/media_services.dds"
+# }
 
-prestige_good_fre_minsheng_entertainment = {
-	base_good = recreational_services
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/tourism.dds"
-}
+# prestige_good_fre_minsheng_entertainment = {
+#	base_good = recreational_services
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/tourism.dds"
+# }
 
-prestige_good_fre_jintian_grain = {
-	base_good = grain
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/grain.dds"
-}
+# prestige_good_fre_jintian_grain = {
+#	base_good = grain
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/grain.dds"
+# }
 
-prestige_good_fre_jintian_meat = {
-	base_good = meat
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/meat.dds"
-}
+# prestige_good_fre_jintian_meat = {
+#	base_good = meat
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/meat.dds"
+# }
 
-prestige_good_fre_wanjia_packaged_foods = {
-	base_good = groceries
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/groceries.dds"
-}
+# prestige_good_fre_wanjia_packaged_foods = {
+#	base_good = groceries
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/groceries.dds"
+# }
 
-prestige_good_fre_wanjia_apparel = {
-	base_good = clothes
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/clothes.dds"
-}
+# prestige_good_fre_wanjia_apparel = {
+#	base_good = clothes
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/clothes.dds"
+# }
 
-prestige_good_fre_wanjia_furniture = {
-	base_good = furniture
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/furniture.dds"
-}
+# prestige_good_fre_wanjia_furniture = {
+#	base_good = furniture
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/furniture.dds"
+# }
 
-prestige_good_fre_wanjia_spirits = {
-	base_good = liquor
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/liquor.dds"
-}
+# prestige_good_fre_wanjia_spirits = {
+#	base_good = liquor
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/liquor.dds"
+# }
 
-prestige_good_fre_wanjia_fine_art = {
-	base_good = fine_art
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/fine_art.dds"
-}
+# prestige_good_fre_wanjia_fine_art = {
+#	base_good = fine_art
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/fine_art.dds"
+# }
 
-prestige_good_fre_chiguan_coffee = {
-	base_good = coffee
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/coffee.dds"
-}
+# prestige_good_fre_chiguan_coffee = {
+#	base_good = coffee
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/coffee.dds"
+# }
 
-prestige_good_fre_chiguan_tea = {
-	base_good = tea
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/tea.dds"
-}
+# prestige_good_fre_chiguan_tea = {
+#	base_good = tea
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/tea.dds"
+# }
 
-prestige_good_fre_chiguan_tobacco = {
-	base_good = tobacco
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/tobacco.dds"
-}
+# prestige_good_fre_chiguan_tobacco = {
+#	base_good = tobacco
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/tobacco.dds"
+# }
 
-prestige_good_fre_chiguan_medicinal_opium = {
-	base_good = opium
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/opium.dds"
-}
+# prestige_good_fre_chiguan_medicinal_opium = {
+#	base_good = opium
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/opium.dds"
+# }
 
-prestige_good_fre_chiguan_tropical_fruit = {
-	base_good = fruit
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/fruit.dds"
-}
+# prestige_good_fre_chiguan_tropical_fruit = {
+#	base_good = fruit
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/fruit.dds"
+# }
 
-prestige_good_fre_chiguan_cotton_fabric = {
-	base_good = fabric
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/fabric.dds"
-}
+# prestige_good_fre_chiguan_cotton_fabric = {
+#	base_good = fabric
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/fabric.dds"
+# }
 
-prestige_good_fre_chiguan_wine = {
-	base_good = wine
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/wine.dds"
-}
+# prestige_good_fre_chiguan_wine = {
+#	base_good = wine
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/wine.dds"
+# }
 
-prestige_good_fre_qundao_timber = {
-	base_good = wood
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/wood.dds"
-}
+# prestige_good_fre_qundao_timber = {
+#	base_good = wood
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/wood.dds"
+# }
 
-prestige_good_fre_qundao_seafood = {
-	base_good = fish
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/fish.dds"
-}
+# prestige_good_fre_qundao_seafood = {
+#	base_good = fish
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/fish.dds"
+# }
 
-prestige_good_fre_qundao_natural_rubber = {
-	base_good = rubber
-	prestige_bonus = 0.1
-	texture = "gfx/interface/icons/goods_icons/rubber.dds"
-}
+# prestige_good_fre_qundao_natural_rubber = {
+#	base_good = rubber
+#	prestige_bonus = 0.1
+#	texture = "gfx/interface/icons/goods_icons/rubber.dds"
+# }

@@ -20,11 +20,11 @@ company_vodka_monopoly = {
 		building_rye_farm
 	}
 
-	prestige_goods_trigger = {  } 
+	# prestige_goods_trigger = {  } 
 	
-	possible_prestige_goods = {
-		prestige_good_smirnoff_vodka
-	}
+	# possible_prestige_goods = {
+		# prestige_good_smirnoff_vodka
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:russian
@@ -92,13 +92,13 @@ company_putilov_company = {
 		building_locomotives_factory
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_tools
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_tools
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_russia
@@ -166,9 +166,9 @@ company_gazprom = {
 		building_railway
 	}
 	
-	possible_prestige_goods = {
-		prestige_good_baku_oil
-	}
+	# possible_prestige_goods = {
+		# prestige_good_baku_oil
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -223,9 +223,9 @@ company_lada = {
 		building_rubber_plantation
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_tata_automobiles
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_tata_automobiles
+	# }
 	
 	attainable = {
 		
@@ -273,11 +273,11 @@ company_savva_morozov = {
 		building_cotton_plantation
 	}
 
-	prestige_goods_trigger = {  } 
+	# prestige_goods_trigger = {  } 
 	
-	possible_prestige_goods = {
-		prestige_good_generic_clothes
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_clothes
+	# }
 	
 	potential = {
 		has_interest_marker_in_region = sr:region_russia
@@ -354,13 +354,13 @@ company_izhevsk_arms_plant = {
 		building_steel_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_small_arms
-		prestige_good_generic_artillery
-		prestige_good_generic_tanks
-		prestige_good_generic_warplanes
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_small_arms
+		# prestige_good_generic_artillery
+		# prestige_good_generic_tanks
+		# prestige_good_generic_warplanes
 		#prestige_good_generic_ironclads
-	}
+	# }
 	
 	potential = {
 		has_interest_marker_in_region = sr:region_siberia
@@ -442,9 +442,9 @@ company_john_hughes = {
 		building_railway
 	}
 
-	possible_prestige_goods = {
-		prestige_good_russia_iron
-	}
+	# possible_prestige_goods = {
+		# prestige_good_russia_iron
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_dnieper

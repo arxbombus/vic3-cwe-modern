@@ -19,13 +19,13 @@ company_sumitomo = {
 		building_industrial_robots_factory
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_northeast_asia
@@ -117,13 +117,13 @@ company_yasuda = {
 		building_textile_mill
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_merchant_marine
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_merchant_marine
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		#has_dlc_feature = ep2_content
@@ -218,11 +218,11 @@ company_tokyo_electric_light_company = {
 		building_railway
 	}
 
-	possible_prestige_goods = {
-	}
+	# possible_prestige_goods = {
+	# }
 
-	prestige_goods_trigger = {
-	}
+	# prestige_goods_trigger = {
+	# }
 
 	potential = {
 		#has_dlc_feature = ep2_content
@@ -300,11 +300,11 @@ company_guthrie = {
 		building_industrial_robots_factory
 	}
 
-	possible_prestige_goods = {
-	}
+	# possible_prestige_goods = {
+	# }
 
-	prestige_goods_trigger = {
-	}
+	# prestige_goods_trigger = {
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_indochina
@@ -388,11 +388,11 @@ company_societe_francaise_charbonnages_du_tonkin = {
 		building_power_plant
 	}
 
-	possible_prestige_goods = {
-	}
+	# possible_prestige_goods = {
+	# }
 
-	prestige_goods_trigger = {
-	}
+	# prestige_goods_trigger = {
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_indochina
@@ -466,11 +466,11 @@ company_broken_hill_proprietary_company = {
 		building_iron_mine
 	}
 
-	possible_prestige_goods = {
-	}
+	# possible_prestige_goods = {
+	# }
 
-	prestige_goods_trigger = {
-	}
+	# prestige_goods_trigger = {
+	# }
 
 	potential = {
 		#has_dlc_feature = ep2_content
@@ -552,13 +552,13 @@ company_ramirez = {
 		building_port
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_groceries
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_groceries
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		#has_dlc_feature = ep2_content
@@ -641,12 +641,12 @@ company_oriental_consolidated_mining = {
 		building_lead_mine
 	}
 
-	possible_prestige_goods = {
-	}
+	# possible_prestige_goods = {
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		#has_dlc_feature = ep2_content
@@ -717,12 +717,12 @@ company_siam_electrical_company_limited = {
 		building_railway
 	}
 
-	possible_prestige_goods = {
-	}
+	# possible_prestige_goods = {
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		#has_dlc_feature = ep2_content
@@ -795,9 +795,9 @@ company_ferranti_ltd = {
 		building_engines_factory
 	}
 
-	possible_prestige_goods = {
-		prestige_good_ferranti_radios
-	}
+	# possible_prestige_goods = {
+		# prestige_good_ferranti_radios
+	# }
 
 	potential = {
 		#has_dlc_feature = ep2_content
@@ -872,12 +872,12 @@ company_van_vlissingen_en_dudok_van_heel = {
 		building_automobiles_factory
 	}
 
-	possible_prestige_goods = {
-	}
+	# possible_prestige_goods = {
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		#has_dlc_feature = ep2_content
@@ -952,9 +952,9 @@ company_maschinenfabrik_oerlikon = {
 		building_automobiles_factory
 	}
 
-	possible_prestige_goods = {
-		prestige_good_oerlikon_engines
-	}
+	# possible_prestige_goods = {
+		# prestige_good_oerlikon_engines
+	# }
 
 	potential = {
 		#has_dlc_feature = ep2_content
@@ -1027,13 +1027,13 @@ company_a_markwald_and_company = {
 		building_logging_camp
 	}
 
-	possible_prestige_goods = {
-		prestige_good_generic_grain
-	}
+	# possible_prestige_goods = {
+		# prestige_good_generic_grain
+	# }
 
-	prestige_goods_trigger = {
+	# prestige_goods_trigger = {
 		
-	}
+	# }
 
 	potential = {
 		has_interest_marker_in_region = sr:region_indochina
@@ -1105,9 +1105,9 @@ company_nhm = {
 		building_tea_plantation
 	}
 
-	possible_prestige_goods = {
-		prestige_good_java_coffee
-	}
+	# possible_prestige_goods = {
+		# prestige_good_java_coffee
+	# }
 
 	potential = {
 		#has_dlc_feature = ep2_content
@@ -1204,9 +1204,9 @@ company_white_star_line = {
 		building_shipyard
 	}
 
-	possible_prestige_goods = {
-		prestige_good_white_star_liners
-	}
+	# possible_prestige_goods = {
+		# prestige_good_white_star_liners
+	# }
 
 	potential = {
 		#has_dlc_feature = ep2_content
@@ -1279,9 +1279,9 @@ company_noda_shoyu = {
 		building_vineyard
 	}
 
-	possible_prestige_goods = {
-		prestige_good_kikkoman_soy_sauce
-	}
+	# possible_prestige_goods = {
+		# prestige_good_kikkoman_soy_sauce
+	# }
 
 	potential = {
 		#has_dlc_feature = ep2_content

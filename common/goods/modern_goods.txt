@@ -1,0 +1,61 @@
+### RAW Resources ###
+
+REPLACE:iron = { #Common Ores
+	texture = "gfx/interface/icons/goods_icons/iron.dds"
+	cost = 23
+	category = industrial
+	
+	prestige_factor = 1
+	traded_quantity = 100
+}
+
+REPLACE:lead = { #Rare Ores
+	texture = "gfx/interface/icons/goods_icons/lead.dds"
+	cost = 30
+	category = industrial
+	
+	prestige_factor = 1
+	traded_quantity = 100
+}
+
+REPLACE:sulfur = {
+	texture = "gfx/interface/icons/goods_icons/sulfur.dds"
+	cost = 23
+	category = industrial
+	
+	prestige_factor = 1
+	traded_quantity = 80
+}
+
+REPLACE:coal = {
+	texture = "gfx/interface/icons/goods_icons/coal.dds"
+	cost = 23
+	category = industrial
+	
+	prestige_factor = 1
+	
+	traded_quantity = 140
+	convoy_cost_multiplier = 0.75
+	
+	#consumption_tax_cost = 200
+}
+
+REPLACE:oil = {
+	texture = "gfx/interface/icons/goods_icons/oil.dds"
+	cost = 30
+	category = industrial
+	
+	prestige_factor = 1
+	traded_quantity = 200
+	
+	#consumption_tax_cost = 150
+}
+
+REPLACE:rubber = {
+	texture = "gfx/interface/icons/goods_icons/rubber.dds"
+	cost = 8
+	category = industrial
+	
+	prestige_factor = 1
+	traded_quantity = 100
+}

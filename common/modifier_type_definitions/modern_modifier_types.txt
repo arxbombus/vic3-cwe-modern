@@ -1,0 +1,48 @@
+building_group_bg_manufacturing_construction_efficiency_add={
+    decimals=0
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+building_group_bg_whaling_construction_efficiency_add={
+    decimals=0
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+building_group_bg_fishing_construction_efficiency_add={
+    decimals=0
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+building_group_bg_urban_center_construction_efficiency_add={
+    decimals=0
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+building_group_bg_service_construction_efficiency_add={
+    decimals=0
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+building_group_bg_urban_facilities_construction_efficiency_add={
+    decimals=0
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}

@@ -14,10 +14,10 @@ company_walmart = {
 		building_furniture_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_groceries
-		prestige_good_generic_furniture
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_groceries
+		# prestige_good_generic_furniture
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -60,9 +60,9 @@ company_standard_oil = {
 		building_port
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_oil
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_oil
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -117,10 +117,10 @@ company_united_fruit = {
 		building_communications_network
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_gros_michel_banana
-		prestige_good_generic_groceries
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_gros_michel_banana
+		# prestige_good_generic_groceries
+	# }
 	
 	possible = {
 		any_scope_state = {
@@ -173,9 +173,9 @@ company_us_steel = {
 		building_coal_mine
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steel
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steel
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -230,9 +230,9 @@ company_general_electric = {
 		building_automobiles_factory
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_telecommunications
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_telecommunications
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -291,11 +291,11 @@ company_william_cramp = {
 		building_artillery_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_steamers
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_steamers
 		#prestige_good_generic_ironclads
-		prestige_good_generic_artillery
-	}
+		# prestige_good_generic_artillery
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -359,9 +359,9 @@ company_general_motors = {
 		building_engines_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_automobiles
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_automobiles
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -404,9 +404,9 @@ company_ford_motor = {
 		building_rubber_plantation
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_ford_automobiles
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_ford_automobiles
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -502,9 +502,9 @@ company_ibm = {
 		building_software_industry
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_computers
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_computers
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -546,10 +546,10 @@ company_apple = {
 		building_communications_network
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_software
-		prestige_good_generic_computers
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_software
+		# prestige_good_generic_computers
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -596,10 +596,10 @@ company_microsoft = {
 		building_communications_network
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_software
-		prestige_good_generic_computers
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_software
+		# prestige_good_generic_computers
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -673,9 +673,9 @@ company_boeing = {
 		building_aeroplanes_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_aeroplanes
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_aeroplanes
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -720,14 +720,14 @@ company_lockheed_martin = {
 		building_advanced_weaponry_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_small_arms
-		prestige_good_generic_artillery
-		prestige_good_generic_tanks
-		prestige_good_generic_warplanes
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_small_arms
+		# prestige_good_generic_artillery
+		# prestige_good_generic_tanks
+		# prestige_good_generic_warplanes
 		#prestige_good_generic_ironclads
-		prestige_good_generic_explosives
-	}
+		# prestige_good_generic_explosives
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -772,9 +772,9 @@ company_caterpillar = {
 		building_industrial_robots_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_tools
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_tools
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:anglo_american
@@ -817,10 +817,10 @@ company_cargill = {
 		building_livestock_ranch
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_grain
-		prestige_good_generic_meat
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_grain
+		# prestige_good_generic_meat
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:anglo_american

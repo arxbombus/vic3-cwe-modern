@@ -16,9 +16,9 @@ company_krupp = {
 		building_iron_mine
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_krupp_guns
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_krupp_guns
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -78,11 +78,11 @@ company_rheinmetall = {
 		building_steel_factory
 	}
 
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_artillery
-		prestige_good_generic_small_arms
-		prestige_good_generic_explosives
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_artillery
+		# prestige_good_generic_small_arms
+		# prestige_good_generic_explosives
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -145,10 +145,10 @@ company_siemens_and_halske = {
 		building_circuit_boards_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_telecommunications
-		prestige_good_generic_tools
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_telecommunications
+		# prestige_good_generic_tools
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -201,9 +201,9 @@ company_prussian_state_railways = {
 		building_locomotives_factory
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
 		#prestige_good_generic_transportation
-	}
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:german
@@ -247,9 +247,9 @@ company_basf = {
 		building_sulfur_mine
 	}
 	
-	prestige_goods_trigger = {  } possible_prestige_goods = {
-		prestige_good_generic_industrial_chemicals
-	}
+	# prestige_goods_trigger = {  } possible_prestige_goods = {
+		# prestige_good_generic_industrial_chemicals
+	# }
 	
 	attainable = {
 		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
@@ -300,11 +300,11 @@ company_volkswagen = {
 		building_steel_factory
 	}
 	
-	prestige_goods_trigger = {  } 
+	# prestige_goods_trigger = {  } 
 	
-	possible_prestige_goods = {
-		prestige_good_german_automobiles
-	}
+	# possible_prestige_goods = {
+		# prestige_good_german_automobiles
+	# }
 	
 	potential = {
 		country_has_primary_culture = cu:german
