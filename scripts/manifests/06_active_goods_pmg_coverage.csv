@@ -1,0 +1,76 @@
+family,pmg,active_buildings,current_pm_refs,future_owner_chain,future_new_pm_count,future_unlock_eras,coverage_status
+agriculture,pmg_coffee_agriculture,building_coffee_plantation,11,tech_agriculture,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+agriculture,pmg_fabric_agriculture,building_cotton_plantation,11,tech_agriculture,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+agriculture,pmg_fish_agriculture,building_fishing_wharf,11,tech_agriculture,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+agriculture,pmg_fruit_agriculture,building_banana_plantation,11,tech_agriculture,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+agriculture,pmg_grain_agriculture,building_wheat_farm building_rice_farm building_rye_farm building_maize_farm building_millet_farm,11,tech_agriculture,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+agriculture,pmg_meat_agriculture,building_livestock_ranch,11,tech_agriculture,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+agriculture,pmg_opium_agriculture,building_opium_plantation,11,tech_agriculture,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+agriculture,pmg_rubber_agriculture,building_rubber_plantation,11,tech_agriculture,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+agriculture,pmg_tea_agriculture,building_tea_plantation,11,tech_agriculture,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+agriculture,pmg_tobacco_agriculture,building_tobacco_plantation,11,tech_agriculture,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+agriculture,pmg_wine_agriculture,building_vineyard,11,tech_agriculture,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+mining,pmg_coal_mining,building_coal_mine,11,tech_mining,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+mining,pmg_gold_mining,building_gold_mine building_gold_field,11,tech_mining,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+mining,pmg_iron_mining,building_iron_mine,11,tech_mining,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+mining,pmg_lead_mining,building_lead_mine,11,tech_mining,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+mining,pmg_oil_mining,building_oil_rig,11,tech_mining,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+mining,pmg_sulfur_mining,building_sulfur_mine,11,tech_mining,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+logging,pmg_wood_logging,building_logging_camp,11,tech_manufacturing,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+manufacturing,pmg_advanced_weaponry_manufacturing,building_advanced_weaponry_factory,1,tech_military_support,4,"12, 15, 18, 20",direct future PMs
+manufacturing,pmg_aeroplanes_manufacturing,building_aeroplanes_factory,1,tech_air_infrastructure,4,"12, 15, 18, 20",direct future PMs
+manufacturing,pmg_ammunition_manufacturing,building_ammunition_factory,1,tech_military_support,4,"11, 14, 17, 20",direct future PMs
+manufacturing,pmg_artillery_manufacturing,building_artillery_factory,2,tech_military_support,4,"12, 15, 18, 20",direct future PMs
+manufacturing,pmg_automobiles_manufacturing,building_automobiles_factory,3,tech_land_infrastructure,4,"12, 15, 18, 20",direct future PMs
+manufacturing,pmg_circuit_boards_manufacturing,building_circuit_boards_factory,4,tech_chemicals,3,"14, 19, 20",direct future PMs
+manufacturing,pmg_clothes_manufacturing,building_textile_mill,2,tech_chemicals,3,"12, 17, 20",direct future PMs
+manufacturing,pmg_computers_manufacturing,building_computers_factory,4,tech_chemicals,3,"14, 19, 20",direct future PMs
+manufacturing,pmg_consumer_robots_manufacturing,building_consumer_robots_factory,1,tech_electronics,4,"12, 15, 18, 20",direct future PMs
+manufacturing,pmg_engines_manufacturing,building_engines_factory,1,tech_manufacturing,4,"12, 15, 18, 20",direct future PMs
+manufacturing,pmg_fine_art_manufacturing,building_art_academy,3,tech_electronics,4,"12, 15, 18, 20",direct future PMs
+manufacturing,pmg_furniture_manufacturing,building_furniture_factory,2,tech_chemicals,3,"11, 16, 20",direct future PMs
+manufacturing,pmg_groceries_manufacturing,building_groceries_factory,2,tech_chemicals,3,"11, 16, 20",direct future PMs
+manufacturing,pmg_industrial_chemicals_manufacturing,building_industrial_chemicals_factory,4,tech_chemicals,3,"13, 18, 20",direct future PMs
+manufacturing,pmg_industrial_robots_manufacturing,building_industrial_robots_factory,1,tech_manufacturing,4,"12, 15, 18, 20",direct future PMs
+manufacturing,pmg_liquor_manufacturing,building_liquor_factory,1,tech_chemicals,3,"11, 16, 20",direct future PMs
+manufacturing,pmg_locomotives_manufacturing,building_locomotives_factory,1,tech_land_infrastructure,4,"12, 15, 18, 20",direct future PMs
+manufacturing,pmg_pharmaceuticals_manufacturing,building_pharmaceuticals_factory,2,tech_chemicals,3,"12, 17, 20",direct future PMs
+manufacturing,pmg_plastics_manufacturing,building_plastics_factory,2,tech_chemicals,3,"13, 18, 20",direct future PMs
+manufacturing,pmg_rubber_manufacturing,building_synthetic_rubber_factory,1,tech_chemicals,3,"13, 18, 20",direct future PMs
+manufacturing,pmg_small_arms_manufacturing,building_small_arms_factory,1,tech_military_ground_forces,4,"12, 15, 18, 20",direct future PMs
+manufacturing,pmg_steamers_manufacturing,building_shipyard,4,tech_sea_infrastructure,2,"14, 19",direct future PMs
+manufacturing,pmg_steel_manufacturing,building_steel_factory,3,tech_chemicals,3,"12, 17, 20",direct future PMs
+manufacturing,pmg_tanks_manufacturing,building_tanks_factory,2,tech_military_ground_forces,4,"13, 16, 19, 20",direct future PMs
+manufacturing,pmg_telecommunications_manufacturing,building_telecommunications_factory,1,tech_electronics,4,"12, 15, 18, 20",direct future PMs
+manufacturing,pmg_warplanes_manufacturing,building_warplanes_factory,2,tech_military_airforce,4,"12, 15, 18, 20",direct future PMs
+infrastructure,pmg_air_design_infrastructure,building_railway,5,tech_air_infrastructure,4,"12, 15, 18, 20",direct future PMs
+infrastructure,pmg_base_building_construction_sector,building_construction_sector,6,tech_construction_infrastructure,5,"11, 13, 15, 17, 19",direct future PMs
+infrastructure,pmg_base_building_construction_sector_size,building_construction_sector,6,tech_construction_infrastructure,5,"12, 14, 16, 18, 20",direct future PMs
+infrastructure,pmg_base_building_skyscraper,building_world_trade_center building_skyscraper,5,tech_urbanization,5,"12, 14, 16, 18, 20",direct future PMs
+infrastructure,pmg_car_design_infrastructure,building_railway,4,tech_land_infrastructure,4,"12, 15, 18, 20",direct future PMs
+infrastructure,pmg_communication_infrastructure,building_communications_network,7,tech_communication_infrastructure,0,11–20 via pmg_internet_infrastructure on same building,intentional sibling progression; no new legacy PMs
+infrastructure,pmg_geothermal_power_infrastructure,building_hydroelectric_power_plant,3,tech_energy_infrastructure,4,"12, 15, 18, 20",direct future PMs
+infrastructure,pmg_hydroelectric_power_infrastructure,building_hydroelectric_power_plant,2,tech_energy_infrastructure,4,"13, 16, 19, 20",direct future PMs
+infrastructure,pmg_internet_infrastructure,building_communications_network,6,tech_communication_infrastructure,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+infrastructure,pmg_nuclear_power_infrastructure,building_hydroelectric_power_plant,5,tech_energy_infrastructure,4,"11, 14, 17, 20",direct future PMs
+infrastructure,pmg_oil_power_infrastructure,building_power_plant,6,tech_energy_infrastructure,4,"11, 14, 17, 20",direct future PMs
+infrastructure,pmg_rail_design_infrastructure,building_railway,5,tech_land_infrastructure,4,"12, 15, 18, 20",direct future PMs
+infrastructure,pmg_sea_design_infrastructure,building_port,3,tech_sea_infrastructure,2,"12, 17",direct future PMs
+infrastructure,pmg_sea_infrastructure,building_port,4,tech_sea_infrastructure,2,"11, 16",direct future PMs
+infrastructure,pmg_skyscraper_energy_source,building_real_estate_sector building_world_trade_center building_skyscraper,3,tech_energy_infrastructure,4,"12, 15, 18, 20",direct future PMs
+service,pmg_corporate_services_services,building_corporate_services_industry,1,tech_services,4,"12, 15, 18, 20",direct future PMs
+service,pmg_financial_services_regulation_services,building_financial_services_sector,3,tech_economy,4,"12, 15, 18, 20",direct future PMs
+service,pmg_financial_services_services,building_financial_services_sector,4,tech_economy,4,"12, 15, 18, 20",direct future PMs
+service,pmg_housing_services,building_real_estate_sector,5,tech_urbanization,5,"12, 14, 16, 18, 20",direct future PMs
+service,pmg_media_services_services,building_media_services_sector,3,tech_electronics,4,"12, 15, 18, 20",direct future PMs
+service,pmg_professional_services_services,building_professional_services_sector,1,tech_services,4,"12, 15, 18, 20",direct future PMs
+service,pmg_recreational_services_intoxicants,building_recreational_services_sector,2,tech_urbanization,5,"12, 14, 16, 18, 20",direct future PMs
+service,pmg_recreational_services_services,building_recreational_services_sector,6,tech_urbanization,5,"12, 14, 16, 18, 20",direct future PMs
+service,pmg_recreational_services_tourism_services,building_recreational_services_sector,6,tech_urbanization,5,"12, 14, 16, 18, 20",direct future PMs
+service,pmg_retail_services_services,building_retail_services_sector,5,tech_urbanization,5,"12, 14, 16, 18, 20",direct future PMs
+service,pmg_software_services,building_software_industry,6,tech_electronics,10,"11, 12, 13, 14, 15, 16, 17, 18, 19, 20",direct future PMs
+government,pmg_base_building_university,building_university,3,tech_philosophy,4,"12, 15, 18, 20",direct future PMs
+government,pmg_bureaucracy_government,building_government_administration,5,tech_services,6,"11, 13, 15, 17, 19, 20",direct future PMs
+government,pmg_essential_services_government,building_government_administration,4,tech_politics,4,"12, 15, 18, 20",direct future PMs
+government,pmg_forex_government,building_gold_mine building_gold_field,3,tech_economy,4,"12, 15, 18, 20",direct future PMs
+government,pmg_security_services_government,building_government_administration,5,tech_politics,4,"12, 15, 18, 20",direct future PMs

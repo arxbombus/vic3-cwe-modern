@@ -1,0 +1,543 @@
+# Generated Era 11-20 submarine ships. Graphics inherited from live final ship.
+
+INJECT:ship_type_submarine_10 = {
+	is_obsolete = { has_technology_researched = tech_military_naval_forces_11 }
+}
+
+ship_type_submarine_11 = {
+	ship_group = ship_group_torpedo_craft
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 13
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 6800
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 10
+		ship_supply_capacity_add = 70
+		ship_hull_damage_add = 140
+		ship_crew_damage_add = 60
+		ship_armor_add = 90
+		ship_critical_hit_chance_add = 0.42
+		ship_critical_hit_multiplier_add = 3.7
+		ship_vulnerability_add = 0
+		ship_screening_add = 55
+		ship_readiness_gain_add = 17
+		ship_accuracy_add = 31
+		ship_visibility_add = 20
+		ship_detection_add = 80
+		ship_blockade_strength_add = 220
+	}
+	construction_goods = {
+		goods_input_steel_add = 2900
+		goods_input_engines_add = 1450
+		goods_input_computers_add = 800
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_steel_add = 1.4
+		goods_input_ammunition_add = 1.4
+		goods_input_lead_add = 1.6
+		goods_input_computers_add = 1.2
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_torpedo_craft.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_submarine.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_submarine_armor_light ship_mod_submarine_armor_medium ship_mod_submarine_armor_high }
+		ship_mod_slot_guns = { ship_mod_submarine_guns_light ship_mod_submarine_guns_medium ship_mod_submarine_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_submarine_propulsion_light ship_mod_submarine_propulsion_medium ship_mod_submarine_propulsion_high }
+		ship_mod_slot_range = { ship_mod_submarine_range_light ship_mod_submarine_range_medium ship_mod_submarine_range_high }
+	}
+	modification_construction_cost = 280
+	unlocking_technologies = { tech_military_naval_forces_11 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_12
+	}
+}
+
+ship_type_submarine_12 = {
+	ship_group = ship_group_torpedo_craft
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 14
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 7600
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 11
+		ship_supply_capacity_add = 80
+		ship_hull_damage_add = 155
+		ship_crew_damage_add = 65
+		ship_armor_add = 100
+		ship_critical_hit_chance_add = 0.44
+		ship_critical_hit_multiplier_add = 3.9
+		ship_vulnerability_add = 0
+		ship_screening_add = 60
+		ship_readiness_gain_add = 18
+		ship_accuracy_add = 32
+		ship_visibility_add = 22
+		ship_detection_add = 90
+		ship_blockade_strength_add = 240
+	}
+	construction_goods = {
+		goods_input_steel_add = 3100
+		goods_input_engines_add = 1550
+		goods_input_computers_add = 900
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_steel_add = 1.6
+		goods_input_ammunition_add = 1.6
+		goods_input_lead_add = 1.8
+		goods_input_computers_add = 1.4
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_torpedo_craft.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_submarine.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_submarine_armor_light ship_mod_submarine_armor_medium ship_mod_submarine_armor_high }
+		ship_mod_slot_guns = { ship_mod_submarine_guns_light ship_mod_submarine_guns_medium ship_mod_submarine_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_submarine_propulsion_light ship_mod_submarine_propulsion_medium ship_mod_submarine_propulsion_high }
+		ship_mod_slot_range = { ship_mod_submarine_range_light ship_mod_submarine_range_medium ship_mod_submarine_range_high }
+	}
+	modification_construction_cost = 300
+	unlocking_technologies = { tech_military_naval_forces_12 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_13
+	}
+}
+
+ship_type_submarine_13 = {
+	ship_group = ship_group_torpedo_craft
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 15
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 8400
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 12
+		ship_supply_capacity_add = 90
+		ship_hull_damage_add = 170
+		ship_crew_damage_add = 70
+		ship_armor_add = 110
+		ship_critical_hit_chance_add = 0.46
+		ship_critical_hit_multiplier_add = 4.1
+		ship_vulnerability_add = 0
+		ship_screening_add = 65
+		ship_readiness_gain_add = 19
+		ship_accuracy_add = 33
+		ship_visibility_add = 24
+		ship_detection_add = 100
+		ship_blockade_strength_add = 260
+	}
+	construction_goods = {
+		goods_input_steel_add = 3300
+		goods_input_engines_add = 1650
+		goods_input_computers_add = 1000
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_steel_add = 1.8
+		goods_input_ammunition_add = 1.8
+		goods_input_lead_add = 2
+		goods_input_computers_add = 1.6
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_torpedo_craft.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_submarine.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_submarine_armor_light ship_mod_submarine_armor_medium ship_mod_submarine_armor_high }
+		ship_mod_slot_guns = { ship_mod_submarine_guns_light ship_mod_submarine_guns_medium ship_mod_submarine_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_submarine_propulsion_light ship_mod_submarine_propulsion_medium ship_mod_submarine_propulsion_high }
+		ship_mod_slot_range = { ship_mod_submarine_range_light ship_mod_submarine_range_medium ship_mod_submarine_range_high }
+	}
+	modification_construction_cost = 320
+	unlocking_technologies = { tech_military_naval_forces_13 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_14
+	}
+}
+
+ship_type_submarine_14 = {
+	ship_group = ship_group_torpedo_craft
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 16
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 9200
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 13
+		ship_supply_capacity_add = 100
+		ship_hull_damage_add = 185
+		ship_crew_damage_add = 75
+		ship_armor_add = 120
+		ship_critical_hit_chance_add = 0.48
+		ship_critical_hit_multiplier_add = 4.3
+		ship_vulnerability_add = 0
+		ship_screening_add = 70
+		ship_readiness_gain_add = 20
+		ship_accuracy_add = 34
+		ship_visibility_add = 26
+		ship_detection_add = 110
+		ship_blockade_strength_add = 280
+	}
+	construction_goods = {
+		goods_input_steel_add = 3500
+		goods_input_engines_add = 1750
+		goods_input_computers_add = 1100
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_steel_add = 2
+		goods_input_ammunition_add = 2
+		goods_input_lead_add = 2.2
+		goods_input_computers_add = 1.8
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_torpedo_craft.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_submarine.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_submarine_armor_light ship_mod_submarine_armor_medium ship_mod_submarine_armor_high }
+		ship_mod_slot_guns = { ship_mod_submarine_guns_light ship_mod_submarine_guns_medium ship_mod_submarine_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_submarine_propulsion_light ship_mod_submarine_propulsion_medium ship_mod_submarine_propulsion_high }
+		ship_mod_slot_range = { ship_mod_submarine_range_light ship_mod_submarine_range_medium ship_mod_submarine_range_high }
+	}
+	modification_construction_cost = 340
+	unlocking_technologies = { tech_military_naval_forces_14 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_15
+	}
+}
+
+ship_type_submarine_15 = {
+	ship_group = ship_group_torpedo_craft
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 17
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 10000
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 14
+		ship_supply_capacity_add = 110
+		ship_hull_damage_add = 200
+		ship_crew_damage_add = 80
+		ship_armor_add = 130
+		ship_critical_hit_chance_add = 0.5
+		ship_critical_hit_multiplier_add = 4.5
+		ship_vulnerability_add = 0
+		ship_screening_add = 75
+		ship_readiness_gain_add = 21
+		ship_accuracy_add = 35
+		ship_visibility_add = 28
+		ship_detection_add = 120
+		ship_blockade_strength_add = 300
+	}
+	construction_goods = {
+		goods_input_steel_add = 3700
+		goods_input_engines_add = 1850
+		goods_input_computers_add = 1200
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_steel_add = 2.2
+		goods_input_ammunition_add = 2.2
+		goods_input_lead_add = 2.4
+		goods_input_computers_add = 2
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_torpedo_craft.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_submarine.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_submarine_armor_light ship_mod_submarine_armor_medium ship_mod_submarine_armor_high }
+		ship_mod_slot_guns = { ship_mod_submarine_guns_light ship_mod_submarine_guns_medium ship_mod_submarine_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_submarine_propulsion_light ship_mod_submarine_propulsion_medium ship_mod_submarine_propulsion_high }
+		ship_mod_slot_range = { ship_mod_submarine_range_light ship_mod_submarine_range_medium ship_mod_submarine_range_high }
+	}
+	modification_construction_cost = 360
+	unlocking_technologies = { tech_military_naval_forces_15 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_16
+	}
+}
+
+ship_type_submarine_16 = {
+	ship_group = ship_group_torpedo_craft
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 18
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 10800
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 15
+		ship_supply_capacity_add = 120
+		ship_hull_damage_add = 215
+		ship_crew_damage_add = 85
+		ship_armor_add = 140
+		ship_critical_hit_chance_add = 0.52
+		ship_critical_hit_multiplier_add = 4.7
+		ship_vulnerability_add = 0
+		ship_screening_add = 80
+		ship_readiness_gain_add = 22
+		ship_accuracy_add = 36
+		ship_visibility_add = 30
+		ship_detection_add = 130
+		ship_blockade_strength_add = 320
+	}
+	construction_goods = {
+		goods_input_steel_add = 3900
+		goods_input_engines_add = 1950
+		goods_input_computers_add = 1300
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_steel_add = 2.4
+		goods_input_ammunition_add = 2.4
+		goods_input_lead_add = 2.6
+		goods_input_computers_add = 2.2
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_torpedo_craft.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_submarine.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_submarine_armor_light ship_mod_submarine_armor_medium ship_mod_submarine_armor_high }
+		ship_mod_slot_guns = { ship_mod_submarine_guns_light ship_mod_submarine_guns_medium ship_mod_submarine_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_submarine_propulsion_light ship_mod_submarine_propulsion_medium ship_mod_submarine_propulsion_high }
+		ship_mod_slot_range = { ship_mod_submarine_range_light ship_mod_submarine_range_medium ship_mod_submarine_range_high }
+	}
+	modification_construction_cost = 380
+	unlocking_technologies = { tech_military_naval_forces_16 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_17
+	}
+}
+
+ship_type_submarine_17 = {
+	ship_group = ship_group_torpedo_craft
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 19
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 11600
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 16
+		ship_supply_capacity_add = 130
+		ship_hull_damage_add = 230
+		ship_crew_damage_add = 90
+		ship_armor_add = 150
+		ship_critical_hit_chance_add = 0.54
+		ship_critical_hit_multiplier_add = 4.9
+		ship_vulnerability_add = 0
+		ship_screening_add = 85
+		ship_readiness_gain_add = 23
+		ship_accuracy_add = 37
+		ship_visibility_add = 32
+		ship_detection_add = 140
+		ship_blockade_strength_add = 340
+	}
+	construction_goods = {
+		goods_input_steel_add = 4100
+		goods_input_engines_add = 2050
+		goods_input_computers_add = 1400
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_steel_add = 2.6
+		goods_input_ammunition_add = 2.6
+		goods_input_lead_add = 2.8
+		goods_input_computers_add = 2.4
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_torpedo_craft.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_submarine.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_submarine_armor_light ship_mod_submarine_armor_medium ship_mod_submarine_armor_high }
+		ship_mod_slot_guns = { ship_mod_submarine_guns_light ship_mod_submarine_guns_medium ship_mod_submarine_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_submarine_propulsion_light ship_mod_submarine_propulsion_medium ship_mod_submarine_propulsion_high }
+		ship_mod_slot_range = { ship_mod_submarine_range_light ship_mod_submarine_range_medium ship_mod_submarine_range_high }
+	}
+	modification_construction_cost = 400
+	unlocking_technologies = { tech_military_naval_forces_17 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_18
+	}
+}
+
+ship_type_submarine_18 = {
+	ship_group = ship_group_torpedo_craft
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 20
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 12400
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 17
+		ship_supply_capacity_add = 140
+		ship_hull_damage_add = 245
+		ship_crew_damage_add = 95
+		ship_armor_add = 160
+		ship_critical_hit_chance_add = 0.56
+		ship_critical_hit_multiplier_add = 5.1
+		ship_vulnerability_add = 0
+		ship_screening_add = 90
+		ship_readiness_gain_add = 24
+		ship_accuracy_add = 38
+		ship_visibility_add = 34
+		ship_detection_add = 150
+		ship_blockade_strength_add = 360
+	}
+	construction_goods = {
+		goods_input_steel_add = 4300
+		goods_input_engines_add = 2150
+		goods_input_computers_add = 1500
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_steel_add = 2.8
+		goods_input_ammunition_add = 2.8
+		goods_input_lead_add = 3
+		goods_input_computers_add = 2.6
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_torpedo_craft.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_submarine.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_submarine_armor_light ship_mod_submarine_armor_medium ship_mod_submarine_armor_high }
+		ship_mod_slot_guns = { ship_mod_submarine_guns_light ship_mod_submarine_guns_medium ship_mod_submarine_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_submarine_propulsion_light ship_mod_submarine_propulsion_medium ship_mod_submarine_propulsion_high }
+		ship_mod_slot_range = { ship_mod_submarine_range_light ship_mod_submarine_range_medium ship_mod_submarine_range_high }
+	}
+	modification_construction_cost = 420
+	unlocking_technologies = { tech_military_naval_forces_18 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_19
+	}
+}
+
+ship_type_submarine_19 = {
+	ship_group = ship_group_torpedo_craft
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 21
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 13200
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 18
+		ship_supply_capacity_add = 150
+		ship_hull_damage_add = 260
+		ship_crew_damage_add = 100
+		ship_armor_add = 170
+		ship_critical_hit_chance_add = 0.58
+		ship_critical_hit_multiplier_add = 5.3
+		ship_vulnerability_add = 0
+		ship_screening_add = 95
+		ship_readiness_gain_add = 25
+		ship_accuracy_add = 39
+		ship_visibility_add = 36
+		ship_detection_add = 160
+		ship_blockade_strength_add = 380
+	}
+	construction_goods = {
+		goods_input_steel_add = 4500
+		goods_input_engines_add = 2250
+		goods_input_computers_add = 1600
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_steel_add = 3
+		goods_input_ammunition_add = 3
+		goods_input_lead_add = 3.2
+		goods_input_computers_add = 2.8
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_torpedo_craft.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_submarine.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_submarine_armor_light ship_mod_submarine_armor_medium ship_mod_submarine_armor_high }
+		ship_mod_slot_guns = { ship_mod_submarine_guns_light ship_mod_submarine_guns_medium ship_mod_submarine_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_submarine_propulsion_light ship_mod_submarine_propulsion_medium ship_mod_submarine_propulsion_high }
+		ship_mod_slot_range = { ship_mod_submarine_range_light ship_mod_submarine_range_medium ship_mod_submarine_range_high }
+	}
+	modification_construction_cost = 440
+	unlocking_technologies = { tech_military_naval_forces_19 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_20
+	}
+}
+
+ship_type_submarine_20 = {
+	ship_group = ship_group_torpedo_craft
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 22
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 14000
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 19
+		ship_supply_capacity_add = 160
+		ship_hull_damage_add = 275
+		ship_crew_damage_add = 105
+		ship_armor_add = 180
+		ship_critical_hit_chance_add = 0.6
+		ship_critical_hit_multiplier_add = 5.5
+		ship_vulnerability_add = 0
+		ship_screening_add = 100
+		ship_readiness_gain_add = 26
+		ship_accuracy_add = 40
+		ship_visibility_add = 38
+		ship_detection_add = 170
+		ship_blockade_strength_add = 400
+	}
+	construction_goods = {
+		goods_input_steel_add = 4700
+		goods_input_engines_add = 2350
+		goods_input_computers_add = 1700
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_steel_add = 3.2
+		goods_input_ammunition_add = 3.2
+		goods_input_lead_add = 3.4
+		goods_input_computers_add = 3
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_torpedo_craft.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_submarine.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_submarine_armor_light ship_mod_submarine_armor_medium ship_mod_submarine_armor_high }
+		ship_mod_slot_guns = { ship_mod_submarine_guns_light ship_mod_submarine_guns_medium ship_mod_submarine_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_submarine_propulsion_light ship_mod_submarine_propulsion_medium ship_mod_submarine_propulsion_high }
+		ship_mod_slot_range = { ship_mod_submarine_range_light ship_mod_submarine_range_medium ship_mod_submarine_range_high }
+	}
+	modification_construction_cost = 460
+	unlocking_technologies = { tech_military_naval_forces_20 }
+}
+

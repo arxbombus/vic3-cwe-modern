@@ -1,0 +1,1299 @@
+# Generated CWE Era 11-20 military technologies
+# Era 11: Adaptive Air Superiority
+tech_military_airforce_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = military
+	unlocking_technologies = { tech_military_airforce_10 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Hypersonic Air Warfare
+tech_military_airforce_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = military
+	unlocking_technologies = { tech_military_airforce_11 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Autonomous Combat Aviation
+tech_military_airforce_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = military
+	unlocking_technologies = { tech_military_airforce_12 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Loyal-Wingman Swarms
+tech_military_airforce_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = military
+	unlocking_technologies = { tech_military_airforce_13 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Directed-Energy Air Combat
+tech_military_airforce_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = military
+	unlocking_technologies = { tech_military_airforce_14 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Stratospheric Air Dominance
+tech_military_airforce_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = military
+	unlocking_technologies = { tech_military_airforce_15 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Near-Space Interception
+tech_military_airforce_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = military
+	unlocking_technologies = { tech_military_airforce_16 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Fusion-Powered Combat Aviation
+tech_military_airforce_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = military
+	unlocking_technologies = { tech_military_airforce_17 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Orbital-Atmospheric Warfare
+tech_military_airforce_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = military
+	unlocking_technologies = { tech_military_airforce_18 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Autonomous Aerospace Supremacy
+tech_military_airforce_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = military
+	unlocking_technologies = { tech_military_airforce_19 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Integrated Battlefield Networks
+tech_military_ground_forces_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = { tech_military_ground_forces_10 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Powered Infantry
+tech_military_ground_forces_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = { tech_military_ground_forces_11 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Autonomous Ground Combat
+tech_military_ground_forces_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = { tech_military_ground_forces_12 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Drone-Saturated Warfare
+tech_military_ground_forces_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = { tech_military_ground_forces_13 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Directed-Energy Ground Weapons
+tech_military_ground_forces_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = { tech_military_ground_forces_14 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Adaptive Combat Armor
+tech_military_ground_forces_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = { tech_military_ground_forces_15 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Cognitive Battlefield Systems
+tech_military_ground_forces_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = { tech_military_ground_forces_16 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Self-Sustaining Expeditionary Warfare
+tech_military_ground_forces_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = { tech_military_ground_forces_17 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Synthetic Combined Arms
+tech_military_ground_forces_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = { tech_military_ground_forces_18 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Post-Human Ground Warfare
+tech_military_ground_forces_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/standing_army.dds"
+	category = military
+	unlocking_technologies = { tech_military_ground_forces_19 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Autonomous Blue-Water Fleets
+tech_military_naval_forces_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/carrier_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_naval_forces_10 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 5
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 12: Hypersonic Naval Warfare
+tech_military_naval_forces_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/carrier_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_naval_forces_11 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 5
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 13: Uncrewed Surface Combatants
+tech_military_naval_forces_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/carrier_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_naval_forces_12 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 5
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 14: Drone Carrier Fleets
+tech_military_naval_forces_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/carrier_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_naval_forces_13 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 5
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 15: Directed-Energy Warships
+tech_military_naval_forces_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/carrier_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_naval_forces_14 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 5
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 16: Fusion Naval Propulsion
+tech_military_naval_forces_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/carrier_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_naval_forces_15 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 5
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 17: Deep-Ocean Stealth Warfare
+tech_military_naval_forces_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/carrier_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_naval_forces_16 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 5
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 18: Near-Space Naval Integration
+tech_military_naval_forces_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/carrier_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_naval_forces_17 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 5
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 19: Self-Sustaining Oceanic Fleets
+tech_military_naval_forces_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/carrier_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_naval_forces_18 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 5
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 20: Planetary Maritime Dominance
+tech_military_naval_forces_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/carrier_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_naval_forces_19 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 5
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 11: Distributed Maritime Operations
+tech_military_navy_doctrine_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/battlefleet_tactics.dds"
+	category = military
+	unlocking_technologies = { tech_military_navy_doctrine_10 }
+	modifier = {
+		country_admiral_rank_impact_mult = 0.1
+		ship_ship_type_supply_ship_supply_capacity_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 20
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 12: Autonomous Fleet Command
+tech_military_navy_doctrine_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/battlefleet_tactics.dds"
+	category = military
+	unlocking_technologies = { tech_military_navy_doctrine_11 }
+	modifier = {
+		country_admiral_rank_impact_mult = 0.1
+		ship_ship_type_supply_ship_supply_capacity_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 20
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 13: Machine-Speed Sea Control
+tech_military_navy_doctrine_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/battlefleet_tactics.dds"
+	category = military
+	unlocking_technologies = { tech_military_navy_doctrine_12 }
+	modifier = {
+		country_admiral_rank_impact_mult = 0.1
+		ship_ship_type_supply_ship_supply_capacity_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 20
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 14: Deep-Ocean Denial Doctrine
+tech_military_navy_doctrine_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/battlefleet_tactics.dds"
+	category = military
+	unlocking_technologies = { tech_military_navy_doctrine_13 }
+	modifier = {
+		country_admiral_rank_impact_mult = 0.1
+		ship_ship_type_supply_ship_supply_capacity_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 20
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 15: Persistent Global Presence
+tech_military_navy_doctrine_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/battlefleet_tactics.dds"
+	category = military
+	unlocking_technologies = { tech_military_navy_doctrine_14 }
+	modifier = {
+		country_admiral_rank_impact_mult = 0.1
+		ship_ship_type_supply_ship_supply_capacity_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 20
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 16: Integrated Orbital-Maritime Awareness
+tech_military_navy_doctrine_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/battlefleet_tactics.dds"
+	category = military
+	unlocking_technologies = { tech_military_navy_doctrine_15 }
+	modifier = {
+		country_admiral_rank_impact_mult = 0.1
+		ship_ship_type_supply_ship_supply_capacity_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 20
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 17: Cognitive Fleet Warfare
+tech_military_navy_doctrine_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/battlefleet_tactics.dds"
+	category = military
+	unlocking_technologies = { tech_military_navy_doctrine_16 }
+	modifier = {
+		country_admiral_rank_impact_mult = 0.1
+		ship_ship_type_supply_ship_supply_capacity_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 20
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 18: Planetary Sea Control
+tech_military_navy_doctrine_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/battlefleet_tactics.dds"
+	category = military
+	unlocking_technologies = { tech_military_navy_doctrine_17 }
+	modifier = {
+		country_admiral_rank_impact_mult = 0.1
+		ship_ship_type_supply_ship_supply_capacity_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 20
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 19: Interplanetary Naval Logistics
+tech_military_navy_doctrine_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/battlefleet_tactics.dds"
+	category = military
+	unlocking_technologies = { tech_military_navy_doctrine_18 }
+	modifier = {
+		country_admiral_rank_impact_mult = 0.1
+		ship_ship_type_supply_ship_supply_capacity_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 20
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 20: Autonomous Grand Fleet Doctrine
+tech_military_navy_doctrine_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/battlefleet_tactics.dds"
+	category = military
+	unlocking_technologies = { tech_military_navy_doctrine_19 }
+	modifier = {
+		country_admiral_rank_impact_mult = 0.1
+		ship_ship_type_supply_ship_supply_capacity_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				navy_size
+				> = 20
+			}
+			add = 0.5
+		}
+	}
+}
+
+# Era 11: Precision Strategic Yield
+tech_military_nuclear_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/submarine.dds"
+	category = military
+	unlocking_technologies = { tech_military_nuclear_10 }
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				country_rank
+				> = rank_value:great_power
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 12: Adaptive Nuclear Deterrence
+tech_military_nuclear_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/submarine.dds"
+	category = military
+	unlocking_technologies = { tech_military_nuclear_11 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				country_rank
+				> = rank_value:great_power
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 13: Hypersonic Nuclear Delivery
+tech_military_nuclear_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/submarine.dds"
+	category = military
+	unlocking_technologies = { tech_military_nuclear_12 }
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				country_rank
+				> = rank_value:great_power
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 14: Low-Fallout Strategic Weapons
+tech_military_nuclear_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/submarine.dds"
+	category = military
+	unlocking_technologies = { tech_military_nuclear_13 }
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				country_rank
+				> = rank_value:great_power
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 15: Autonomous Strategic Command
+tech_military_nuclear_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/submarine.dds"
+	category = military
+	unlocking_technologies = { tech_military_nuclear_14 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				country_rank
+				> = rank_value:great_power
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 16: Deep-Penetration Nuclear Systems
+tech_military_nuclear_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/submarine.dds"
+	category = military
+	unlocking_technologies = { tech_military_nuclear_15 }
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				country_rank
+				> = rank_value:great_power
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 17: Orbital Deterrence Architecture
+tech_military_nuclear_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/submarine.dds"
+	category = military
+	unlocking_technologies = { tech_military_nuclear_16 }
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				country_rank
+				> = rank_value:great_power
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 18: Exotic-Isotope Warheads
+tech_military_nuclear_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/submarine.dds"
+	category = military
+	unlocking_technologies = { tech_military_nuclear_17 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				country_rank
+				> = rank_value:great_power
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 19: Planetary Strategic Weapons
+tech_military_nuclear_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/submarine.dds"
+	category = military
+	unlocking_technologies = { tech_military_nuclear_18 }
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				country_rank
+				> = rank_value:great_power
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 20: Ultimate Deterrence Systems
+tech_military_nuclear_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/submarine.dds"
+	category = military
+	unlocking_technologies = { tech_military_nuclear_19 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				country_rank
+				> = rank_value:great_power
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 11: Permanent Lunar Industry
+tech_military_space_program_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
+	category = military
+	unlocking_technologies = { tech_military_space_program_10 }
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Orbital Shipyards
+tech_military_space_program_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
+	category = military
+	unlocking_technologies = { tech_military_space_program_11 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Cislunar Logistics
+tech_military_space_program_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
+	category = military
+	unlocking_technologies = { tech_military_space_program_12 }
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Mars Expedition Architecture
+tech_military_space_program_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
+	category = military
+	unlocking_technologies = { tech_military_space_program_13 }
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Planetary Colonisation Systems
+tech_military_space_program_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
+	category = military
+	unlocking_technologies = { tech_military_space_program_14 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Asteroid Resource Networks
+tech_military_space_program_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
+	category = military
+	unlocking_technologies = { tech_military_space_program_15 }
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Outer-Planet Infrastructure
+tech_military_space_program_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
+	category = military
+	unlocking_technologies = { tech_military_space_program_16 }
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Fusion Deep-Space Propulsion
+tech_military_space_program_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
+	category = military
+	unlocking_technologies = { tech_military_space_program_17 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Interplanetary Strategic Logistics
+tech_military_space_program_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
+	category = military
+	unlocking_technologies = { tech_military_space_program_18 }
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Solar-System Civilisation
+tech_military_space_program_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/analytical_philosophy.dds"
+	category = military
+	unlocking_technologies = { tech_military_space_program_19 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Networked Fire Control
+tech_military_support_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_support_10 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Electromagnetic Artillery
+tech_military_support_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_support_11 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Precision Fires Networks
+tech_military_support_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_support_12 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Autonomous Artillery
+tech_military_support_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_support_13 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Hypersonic Fires
+tech_military_support_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_support_14 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Swarm Munitions
+tech_military_support_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_support_15 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Directed-Energy Support Weapons
+tech_military_support_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_support_16 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Orbital Reconnaissance Fires
+tech_military_support_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_support_17 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Cognitive Fire Support
+tech_military_support_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_support_18 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Planetary Precision Fires
+tech_military_support_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/logistics_tech.dds"
+	category = military
+	unlocking_technologies = { tech_military_support_19 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Multi-Domain Operations
+tech_military_theory_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/nco_training.dds"
+	category = military
+	unlocking_technologies = { tech_military_theory_10 }
+	modifier = {
+		state_conscription_rate_mult = 0.05
+		unit_army_defense_mult = 0.05
+		country_war_exhaustion_casualties_mult = -0.05
+		military_formation_organization_gain_mult = 0.05
+		state_building_barrack_max_level_add = 10
+		state_building_conscription_center_max_level_add = 10
+		unit_morale_recovery_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Machine-Speed Command
+tech_military_theory_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/nco_training.dds"
+	category = military
+	unlocking_technologies = { tech_military_theory_11 }
+	modifier = {
+		state_conscription_rate_mult = 0.05
+		unit_army_defense_mult = 0.05
+		country_war_exhaustion_casualties_mult = -0.05
+		military_formation_organization_gain_mult = 0.05
+		state_building_barrack_max_level_add = 10
+		state_building_conscription_center_max_level_add = 10
+		unit_morale_recovery_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Distributed Mission Command
+tech_military_theory_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/nco_training.dds"
+	category = military
+	unlocking_technologies = { tech_military_theory_12 }
+	modifier = {
+		state_conscription_rate_mult = 0.05
+		unit_army_defense_mult = 0.05
+		country_war_exhaustion_casualties_mult = -0.05
+		military_formation_organization_gain_mult = 0.05
+		state_building_barrack_max_level_add = 10
+		state_building_conscription_center_max_level_add = 10
+		unit_morale_recovery_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Autonomous Operational Art
+tech_military_theory_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/nco_training.dds"
+	category = military
+	unlocking_technologies = { tech_military_theory_13 }
+	modifier = {
+		state_conscription_rate_mult = 0.05
+		unit_army_defense_mult = 0.05
+		country_war_exhaustion_casualties_mult = -0.05
+		military_formation_organization_gain_mult = 0.05
+		state_building_barrack_max_level_add = 10
+		state_building_conscription_center_max_level_add = 10
+		unit_morale_recovery_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Cognitive Warfare
+tech_military_theory_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/nco_training.dds"
+	category = military
+	unlocking_technologies = { tech_military_theory_14 }
+	modifier = {
+		state_conscription_rate_mult = 0.05
+		unit_army_defense_mult = 0.05
+		country_war_exhaustion_casualties_mult = -0.05
+		military_formation_organization_gain_mult = 0.05
+		state_building_barrack_max_level_add = 10
+		state_building_conscription_center_max_level_add = 10
+		unit_morale_recovery_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Resilient Battlespace Theory
+tech_military_theory_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/nco_training.dds"
+	category = military
+	unlocking_technologies = { tech_military_theory_15 }
+	modifier = {
+		state_conscription_rate_mult = 0.05
+		unit_army_defense_mult = 0.05
+		country_war_exhaustion_casualties_mult = -0.05
+		military_formation_organization_gain_mult = 0.05
+		state_building_barrack_max_level_add = 10
+		state_building_conscription_center_max_level_add = 10
+		unit_morale_recovery_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Human-Machine Command
+tech_military_theory_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/nco_training.dds"
+	category = military
+	unlocking_technologies = { tech_military_theory_16 }
+	modifier = {
+		state_conscription_rate_mult = 0.05
+		unit_army_defense_mult = 0.05
+		country_war_exhaustion_casualties_mult = -0.05
+		military_formation_organization_gain_mult = 0.05
+		state_building_barrack_max_level_add = 10
+		state_building_conscription_center_max_level_add = 10
+		unit_morale_recovery_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Planetary Campaigning
+tech_military_theory_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/nco_training.dds"
+	category = military
+	unlocking_technologies = { tech_military_theory_17 }
+	modifier = {
+		state_conscription_rate_mult = 0.05
+		unit_army_defense_mult = 0.05
+		country_war_exhaustion_casualties_mult = -0.05
+		military_formation_organization_gain_mult = 0.05
+		state_building_barrack_max_level_add = 10
+		state_building_conscription_center_max_level_add = 10
+		unit_morale_recovery_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Interplanetary Strategy
+tech_military_theory_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/nco_training.dds"
+	category = military
+	unlocking_technologies = { tech_military_theory_18 }
+	modifier = {
+		state_conscription_rate_mult = 0.05
+		unit_army_defense_mult = 0.05
+		country_war_exhaustion_casualties_mult = -0.05
+		military_formation_organization_gain_mult = 0.05
+		state_building_barrack_max_level_add = 10
+		state_building_conscription_center_max_level_add = 10
+		unit_morale_recovery_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Post-Human Military Science
+tech_military_theory_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/nco_training.dds"
+	category = military
+	unlocking_technologies = { tech_military_theory_19 }
+	modifier = {
+		state_conscription_rate_mult = 0.05
+		unit_army_defense_mult = 0.05
+		country_war_exhaustion_casualties_mult = -0.05
+		military_formation_organization_gain_mult = 0.05
+		state_building_barrack_max_level_add = 10
+		state_building_conscription_center_max_level_add = 10
+		unit_morale_recovery_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+

@@ -1,0 +1,603 @@
+# Generated Era 11-20 aircraft_carrier ships. Graphics inherited from live final ship.
+
+INJECT:ship_type_aircraft_carrier_8 = {
+	is_obsolete = { has_technology_researched = tech_military_naval_forces_11 }
+}
+
+ship_type_aircraft_carrier_9 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	combat_power_multiplier = 2.0
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 13
+		ship_construction_progress_max_add = 70
+		ship_hit_points_max_add = 4800
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 13
+		ship_supply_capacity_add = 170
+		ship_hull_damage_add = 100
+		ship_crew_damage_add = 55
+		ship_armor_add = 320
+		ship_critical_hit_chance_add = 0.55
+		ship_critical_hit_multiplier_add = 4.5
+		ship_vulnerability_add = 55
+		ship_screening_add = 28
+		ship_readiness_gain_add = 19
+		ship_accuracy_add = 70
+		ship_visibility_add = 280
+		ship_detection_add = 1100
+		ship_blockade_strength_add = 2100
+	}
+	construction_goods = {
+		goods_input_steel_add = 3800
+		goods_input_engines_add = 1500
+		goods_input_lead_add = 900
+		goods_input_computers_add = 900
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 1.4
+		goods_input_steel_add = 1.2
+		goods_input_lead_add = 0.9
+		goods_input_aeroplanes_add = 1.2
+		goods_input_computers_add = 1
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_aircraft_carrier.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_aircraft_carrier_armor_light ship_mod_aircraft_carrier_armor_medium ship_mod_aircraft_carrier_armor_high }
+		ship_mod_slot_guns = { ship_mod_aircraft_carrier_guns_light ship_mod_aircraft_carrier_guns_medium ship_mod_aircraft_carrier_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_aircraft_carrier_propulsion_light ship_mod_aircraft_carrier_propulsion_medium ship_mod_aircraft_carrier_propulsion_high }
+		ship_mod_slot_range = { ship_mod_aircraft_carrier_range_light ship_mod_aircraft_carrier_range_medium ship_mod_aircraft_carrier_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 280
+	unlocking_technologies = { tech_military_naval_forces_11 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_12
+	}
+}
+
+ship_type_aircraft_carrier_10 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	combat_power_multiplier = 2.0
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 14
+		ship_construction_progress_max_add = 75
+		ship_hit_points_max_add = 5100
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 14
+		ship_supply_capacity_add = 180
+		ship_hull_damage_add = 110
+		ship_crew_damage_add = 60
+		ship_armor_add = 340
+		ship_critical_hit_chance_add = 0.6
+		ship_critical_hit_multiplier_add = 5
+		ship_vulnerability_add = 50
+		ship_screening_add = 31
+		ship_readiness_gain_add = 20
+		ship_accuracy_add = 75
+		ship_visibility_add = 310
+		ship_detection_add = 1200
+		ship_blockade_strength_add = 2400
+	}
+	construction_goods = {
+		goods_input_steel_add = 4100
+		goods_input_engines_add = 1600
+		goods_input_lead_add = 1000
+		goods_input_computers_add = 1000
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 1.6
+		goods_input_steel_add = 1.4
+		goods_input_lead_add = 1
+		goods_input_aeroplanes_add = 1.4
+		goods_input_computers_add = 1.2
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_aircraft_carrier.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_aircraft_carrier_armor_light ship_mod_aircraft_carrier_armor_medium ship_mod_aircraft_carrier_armor_high }
+		ship_mod_slot_guns = { ship_mod_aircraft_carrier_guns_light ship_mod_aircraft_carrier_guns_medium ship_mod_aircraft_carrier_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_aircraft_carrier_propulsion_light ship_mod_aircraft_carrier_propulsion_medium ship_mod_aircraft_carrier_propulsion_high }
+		ship_mod_slot_range = { ship_mod_aircraft_carrier_range_light ship_mod_aircraft_carrier_range_medium ship_mod_aircraft_carrier_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 300
+	unlocking_technologies = { tech_military_naval_forces_12 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_13
+	}
+}
+
+ship_type_aircraft_carrier_11 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	combat_power_multiplier = 2.0
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 15
+		ship_construction_progress_max_add = 80
+		ship_hit_points_max_add = 5400
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 15
+		ship_supply_capacity_add = 190
+		ship_hull_damage_add = 120
+		ship_crew_damage_add = 65
+		ship_armor_add = 360
+		ship_critical_hit_chance_add = 0.65
+		ship_critical_hit_multiplier_add = 5.5
+		ship_vulnerability_add = 45
+		ship_screening_add = 34
+		ship_readiness_gain_add = 21
+		ship_accuracy_add = 80
+		ship_visibility_add = 340
+		ship_detection_add = 1300
+		ship_blockade_strength_add = 2700
+	}
+	construction_goods = {
+		goods_input_steel_add = 4400
+		goods_input_engines_add = 1700
+		goods_input_lead_add = 1100
+		goods_input_computers_add = 1100
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 1.8
+		goods_input_steel_add = 1.6
+		goods_input_lead_add = 1.1
+		goods_input_aeroplanes_add = 1.6
+		goods_input_computers_add = 1.4
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_aircraft_carrier.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_aircraft_carrier_armor_light ship_mod_aircraft_carrier_armor_medium ship_mod_aircraft_carrier_armor_high }
+		ship_mod_slot_guns = { ship_mod_aircraft_carrier_guns_light ship_mod_aircraft_carrier_guns_medium ship_mod_aircraft_carrier_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_aircraft_carrier_propulsion_light ship_mod_aircraft_carrier_propulsion_medium ship_mod_aircraft_carrier_propulsion_high }
+		ship_mod_slot_range = { ship_mod_aircraft_carrier_range_light ship_mod_aircraft_carrier_range_medium ship_mod_aircraft_carrier_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 320
+	unlocking_technologies = { tech_military_naval_forces_13 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_14
+	}
+}
+
+ship_type_aircraft_carrier_12 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	combat_power_multiplier = 2.0
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 16
+		ship_construction_progress_max_add = 85
+		ship_hit_points_max_add = 5700
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 16
+		ship_supply_capacity_add = 200
+		ship_hull_damage_add = 130
+		ship_crew_damage_add = 70
+		ship_armor_add = 380
+		ship_critical_hit_chance_add = 0.7
+		ship_critical_hit_multiplier_add = 6
+		ship_vulnerability_add = 40
+		ship_screening_add = 37
+		ship_readiness_gain_add = 22
+		ship_accuracy_add = 85
+		ship_visibility_add = 370
+		ship_detection_add = 1400
+		ship_blockade_strength_add = 3000
+	}
+	construction_goods = {
+		goods_input_steel_add = 4700
+		goods_input_engines_add = 1800
+		goods_input_lead_add = 1200
+		goods_input_computers_add = 1200
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2
+		goods_input_steel_add = 1.8
+		goods_input_lead_add = 1.2
+		goods_input_aeroplanes_add = 1.8
+		goods_input_computers_add = 1.6
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_aircraft_carrier.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_aircraft_carrier_armor_light ship_mod_aircraft_carrier_armor_medium ship_mod_aircraft_carrier_armor_high }
+		ship_mod_slot_guns = { ship_mod_aircraft_carrier_guns_light ship_mod_aircraft_carrier_guns_medium ship_mod_aircraft_carrier_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_aircraft_carrier_propulsion_light ship_mod_aircraft_carrier_propulsion_medium ship_mod_aircraft_carrier_propulsion_high }
+		ship_mod_slot_range = { ship_mod_aircraft_carrier_range_light ship_mod_aircraft_carrier_range_medium ship_mod_aircraft_carrier_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 340
+	unlocking_technologies = { tech_military_naval_forces_14 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_15
+	}
+}
+
+ship_type_aircraft_carrier_13 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	combat_power_multiplier = 2.0
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 17
+		ship_construction_progress_max_add = 90
+		ship_hit_points_max_add = 6000
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 17
+		ship_supply_capacity_add = 210
+		ship_hull_damage_add = 140
+		ship_crew_damage_add = 75
+		ship_armor_add = 400
+		ship_critical_hit_chance_add = 0.75
+		ship_critical_hit_multiplier_add = 6.5
+		ship_vulnerability_add = 35
+		ship_screening_add = 40
+		ship_readiness_gain_add = 23
+		ship_accuracy_add = 90
+		ship_visibility_add = 400
+		ship_detection_add = 1500
+		ship_blockade_strength_add = 3300
+	}
+	construction_goods = {
+		goods_input_steel_add = 5000
+		goods_input_engines_add = 1900
+		goods_input_lead_add = 1300
+		goods_input_computers_add = 1300
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2.2
+		goods_input_steel_add = 2
+		goods_input_lead_add = 1.3
+		goods_input_aeroplanes_add = 2
+		goods_input_computers_add = 1.8
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_aircraft_carrier.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_aircraft_carrier_armor_light ship_mod_aircraft_carrier_armor_medium ship_mod_aircraft_carrier_armor_high }
+		ship_mod_slot_guns = { ship_mod_aircraft_carrier_guns_light ship_mod_aircraft_carrier_guns_medium ship_mod_aircraft_carrier_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_aircraft_carrier_propulsion_light ship_mod_aircraft_carrier_propulsion_medium ship_mod_aircraft_carrier_propulsion_high }
+		ship_mod_slot_range = { ship_mod_aircraft_carrier_range_light ship_mod_aircraft_carrier_range_medium ship_mod_aircraft_carrier_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 360
+	unlocking_technologies = { tech_military_naval_forces_15 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_16
+	}
+}
+
+ship_type_aircraft_carrier_14 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	combat_power_multiplier = 2.0
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 18
+		ship_construction_progress_max_add = 95
+		ship_hit_points_max_add = 6300
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 18
+		ship_supply_capacity_add = 220
+		ship_hull_damage_add = 150
+		ship_crew_damage_add = 80
+		ship_armor_add = 420
+		ship_critical_hit_chance_add = 0.8
+		ship_critical_hit_multiplier_add = 7
+		ship_vulnerability_add = 30
+		ship_screening_add = 43
+		ship_readiness_gain_add = 24
+		ship_accuracy_add = 95
+		ship_visibility_add = 430
+		ship_detection_add = 1600
+		ship_blockade_strength_add = 3600
+	}
+	construction_goods = {
+		goods_input_steel_add = 5300
+		goods_input_engines_add = 2000
+		goods_input_lead_add = 1400
+		goods_input_computers_add = 1400
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2.4
+		goods_input_steel_add = 2.2
+		goods_input_lead_add = 1.4
+		goods_input_aeroplanes_add = 2.2
+		goods_input_computers_add = 2
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_aircraft_carrier.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_aircraft_carrier_armor_light ship_mod_aircraft_carrier_armor_medium ship_mod_aircraft_carrier_armor_high }
+		ship_mod_slot_guns = { ship_mod_aircraft_carrier_guns_light ship_mod_aircraft_carrier_guns_medium ship_mod_aircraft_carrier_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_aircraft_carrier_propulsion_light ship_mod_aircraft_carrier_propulsion_medium ship_mod_aircraft_carrier_propulsion_high }
+		ship_mod_slot_range = { ship_mod_aircraft_carrier_range_light ship_mod_aircraft_carrier_range_medium ship_mod_aircraft_carrier_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 380
+	unlocking_technologies = { tech_military_naval_forces_16 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_17
+	}
+}
+
+ship_type_aircraft_carrier_15 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	combat_power_multiplier = 2.0
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 19
+		ship_construction_progress_max_add = 100
+		ship_hit_points_max_add = 6600
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 19
+		ship_supply_capacity_add = 230
+		ship_hull_damage_add = 160
+		ship_crew_damage_add = 85
+		ship_armor_add = 440
+		ship_critical_hit_chance_add = 0.85
+		ship_critical_hit_multiplier_add = 7.5
+		ship_vulnerability_add = 25
+		ship_screening_add = 46
+		ship_readiness_gain_add = 25
+		ship_accuracy_add = 100
+		ship_visibility_add = 460
+		ship_detection_add = 1700
+		ship_blockade_strength_add = 3900
+	}
+	construction_goods = {
+		goods_input_steel_add = 5600
+		goods_input_engines_add = 2100
+		goods_input_lead_add = 1500
+		goods_input_computers_add = 1500
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2.6
+		goods_input_steel_add = 2.4
+		goods_input_lead_add = 1.5
+		goods_input_aeroplanes_add = 2.4
+		goods_input_computers_add = 2.2
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_aircraft_carrier.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_aircraft_carrier_armor_light ship_mod_aircraft_carrier_armor_medium ship_mod_aircraft_carrier_armor_high }
+		ship_mod_slot_guns = { ship_mod_aircraft_carrier_guns_light ship_mod_aircraft_carrier_guns_medium ship_mod_aircraft_carrier_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_aircraft_carrier_propulsion_light ship_mod_aircraft_carrier_propulsion_medium ship_mod_aircraft_carrier_propulsion_high }
+		ship_mod_slot_range = { ship_mod_aircraft_carrier_range_light ship_mod_aircraft_carrier_range_medium ship_mod_aircraft_carrier_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 400
+	unlocking_technologies = { tech_military_naval_forces_17 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_18
+	}
+}
+
+ship_type_aircraft_carrier_16 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	combat_power_multiplier = 2.0
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 20
+		ship_construction_progress_max_add = 105
+		ship_hit_points_max_add = 6900
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 20
+		ship_supply_capacity_add = 240
+		ship_hull_damage_add = 170
+		ship_crew_damage_add = 90
+		ship_armor_add = 460
+		ship_critical_hit_chance_add = 0.9
+		ship_critical_hit_multiplier_add = 8
+		ship_vulnerability_add = 20
+		ship_screening_add = 49
+		ship_readiness_gain_add = 26
+		ship_accuracy_add = 105
+		ship_visibility_add = 490
+		ship_detection_add = 1800
+		ship_blockade_strength_add = 4200
+	}
+	construction_goods = {
+		goods_input_steel_add = 5900
+		goods_input_engines_add = 2200
+		goods_input_lead_add = 1600
+		goods_input_computers_add = 1600
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2.8
+		goods_input_steel_add = 2.6
+		goods_input_lead_add = 1.6
+		goods_input_aeroplanes_add = 2.6
+		goods_input_computers_add = 2.4
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_aircraft_carrier.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_aircraft_carrier_armor_light ship_mod_aircraft_carrier_armor_medium ship_mod_aircraft_carrier_armor_high }
+		ship_mod_slot_guns = { ship_mod_aircraft_carrier_guns_light ship_mod_aircraft_carrier_guns_medium ship_mod_aircraft_carrier_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_aircraft_carrier_propulsion_light ship_mod_aircraft_carrier_propulsion_medium ship_mod_aircraft_carrier_propulsion_high }
+		ship_mod_slot_range = { ship_mod_aircraft_carrier_range_light ship_mod_aircraft_carrier_range_medium ship_mod_aircraft_carrier_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 420
+	unlocking_technologies = { tech_military_naval_forces_18 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_19
+	}
+}
+
+ship_type_aircraft_carrier_17 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	combat_power_multiplier = 2.0
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 21
+		ship_construction_progress_max_add = 110
+		ship_hit_points_max_add = 7200
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 21
+		ship_supply_capacity_add = 250
+		ship_hull_damage_add = 180
+		ship_crew_damage_add = 95
+		ship_armor_add = 480
+		ship_critical_hit_chance_add = 0.95
+		ship_critical_hit_multiplier_add = 8.5
+		ship_vulnerability_add = 15
+		ship_screening_add = 52
+		ship_readiness_gain_add = 27
+		ship_accuracy_add = 110
+		ship_visibility_add = 520
+		ship_detection_add = 1900
+		ship_blockade_strength_add = 4500
+	}
+	construction_goods = {
+		goods_input_steel_add = 6200
+		goods_input_engines_add = 2300
+		goods_input_lead_add = 1700
+		goods_input_computers_add = 1700
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 3
+		goods_input_steel_add = 2.8
+		goods_input_lead_add = 1.7
+		goods_input_aeroplanes_add = 2.8
+		goods_input_computers_add = 2.6
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_aircraft_carrier.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_aircraft_carrier_armor_light ship_mod_aircraft_carrier_armor_medium ship_mod_aircraft_carrier_armor_high }
+		ship_mod_slot_guns = { ship_mod_aircraft_carrier_guns_light ship_mod_aircraft_carrier_guns_medium ship_mod_aircraft_carrier_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_aircraft_carrier_propulsion_light ship_mod_aircraft_carrier_propulsion_medium ship_mod_aircraft_carrier_propulsion_high }
+		ship_mod_slot_range = { ship_mod_aircraft_carrier_range_light ship_mod_aircraft_carrier_range_medium ship_mod_aircraft_carrier_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 440
+	unlocking_technologies = { tech_military_naval_forces_19 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_20
+	}
+}
+
+ship_type_aircraft_carrier_18 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	combat_power_multiplier = 2.0
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 22
+		ship_construction_progress_max_add = 115
+		ship_hit_points_max_add = 7500
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 22
+		ship_supply_capacity_add = 260
+		ship_hull_damage_add = 190
+		ship_crew_damage_add = 100
+		ship_armor_add = 500
+		ship_critical_hit_chance_add = 1
+		ship_critical_hit_multiplier_add = 9
+		ship_vulnerability_add = 10
+		ship_screening_add = 55
+		ship_readiness_gain_add = 28
+		ship_accuracy_add = 115
+		ship_visibility_add = 550
+		ship_detection_add = 2000
+		ship_blockade_strength_add = 4800
+	}
+	construction_goods = {
+		goods_input_steel_add = 6500
+		goods_input_engines_add = 2400
+		goods_input_lead_add = 1800
+		goods_input_computers_add = 1800
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 3.2
+		goods_input_steel_add = 3
+		goods_input_lead_add = 1.8
+		goods_input_aeroplanes_add = 3
+		goods_input_computers_add = 2.8
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_aircraft_carrier.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_aircraft_carrier_armor_light ship_mod_aircraft_carrier_armor_medium ship_mod_aircraft_carrier_armor_high }
+		ship_mod_slot_guns = { ship_mod_aircraft_carrier_guns_light ship_mod_aircraft_carrier_guns_medium ship_mod_aircraft_carrier_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_aircraft_carrier_propulsion_light ship_mod_aircraft_carrier_propulsion_medium ship_mod_aircraft_carrier_propulsion_high }
+		ship_mod_slot_range = { ship_mod_aircraft_carrier_range_light ship_mod_aircraft_carrier_range_medium ship_mod_aircraft_carrier_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 460
+	unlocking_technologies = { tech_military_naval_forces_20 }
+}
+

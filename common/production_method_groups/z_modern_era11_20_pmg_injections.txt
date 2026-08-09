@@ -1,0 +1,1070 @@
+# Append generated Era 11-20 PMs to live CWE PMGs.
+# No unused/deprecated PMG is targeted.
+
+INJECT:pmg_advanced_weaponry_manufacturing = {
+	production_methods = {
+		pm_modern_advanced_weaponry_goods_manufacturing_1
+		pm_modern_advanced_weaponry_goods_manufacturing_2
+		pm_modern_advanced_weaponry_goods_manufacturing_3
+		pm_modern_advanced_weaponry_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_aeroplanes_manufacturing = {
+	production_methods = {
+		pm_modern_aeroplanes_goods_manufacturing_1
+		pm_modern_aeroplanes_goods_manufacturing_2
+		pm_modern_aeroplanes_goods_manufacturing_3
+		pm_modern_aeroplanes_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_air_design_infrastructure = {
+	production_methods = {
+		pm_modern_air_design_infrastructure_1
+		pm_modern_air_design_infrastructure_2
+		pm_modern_air_design_infrastructure_3
+		pm_modern_air_design_infrastructure_4
+	}
+}
+
+INJECT:pmg_ammunition_manufacturing = {
+	production_methods = {
+		pm_modern_ammunition_goods_manufacturing_1
+		pm_modern_ammunition_goods_manufacturing_2
+		pm_modern_ammunition_goods_manufacturing_3
+		pm_modern_ammunition_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_artillery_manufacturing = {
+	production_methods = {
+		pm_modern_artillery_goods_manufacturing_1
+		pm_modern_artillery_goods_manufacturing_2
+		pm_modern_artillery_goods_manufacturing_3
+		pm_modern_artillery_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_automation_manufacturing = {
+	production_methods = {
+		pm_modern_automation_11_building_manufacturing
+		pm_modern_automation_12_building_manufacturing
+		pm_modern_automation_13_building_manufacturing
+		pm_modern_automation_14_building_manufacturing
+		pm_modern_automation_15_building_manufacturing
+		pm_modern_automation_16_building_manufacturing
+		pm_modern_automation_17_building_manufacturing
+		pm_modern_automation_18_building_manufacturing
+		pm_modern_automation_19_building_manufacturing
+		pm_modern_automation_20_building_manufacturing
+	}
+}
+
+INJECT:pmg_automation_manufacturing_unskilled = {
+	production_methods = {
+		pm_modern_automation_11_building_manufacturing_unskilled
+		pm_modern_automation_12_building_manufacturing_unskilled
+		pm_modern_automation_13_building_manufacturing_unskilled
+		pm_modern_automation_14_building_manufacturing_unskilled
+		pm_modern_automation_15_building_manufacturing_unskilled
+		pm_modern_automation_16_building_manufacturing_unskilled
+		pm_modern_automation_17_building_manufacturing_unskilled
+		pm_modern_automation_18_building_manufacturing_unskilled
+		pm_modern_automation_19_building_manufacturing_unskilled
+		pm_modern_automation_20_building_manufacturing_unskilled
+	}
+}
+
+INJECT:pmg_automation_services = {
+	production_methods = {
+		pm_modern_automation_11_building_services
+		pm_modern_automation_12_building_services
+		pm_modern_automation_13_building_services
+		pm_modern_automation_14_building_services
+		pm_modern_automation_15_building_services
+		pm_modern_automation_16_building_services
+		pm_modern_automation_17_building_services
+		pm_modern_automation_18_building_services
+		pm_modern_automation_19_building_services
+		pm_modern_automation_20_building_services
+	}
+}
+
+INJECT:pmg_automation_services_professionals = {
+	production_methods = {
+		pm_modern_automation_11_building_services_professionals
+		pm_modern_automation_12_building_services_professionals
+		pm_modern_automation_13_building_services_professionals
+		pm_modern_automation_14_building_services_professionals
+		pm_modern_automation_15_building_services_professionals
+		pm_modern_automation_16_building_services_professionals
+		pm_modern_automation_17_building_services_professionals
+		pm_modern_automation_18_building_services_professionals
+		pm_modern_automation_19_building_services_professionals
+		pm_modern_automation_20_building_services_professionals
+	}
+}
+
+INJECT:pmg_automation_services_shopkeepers = {
+	production_methods = {
+		pm_modern_automation_11_building_services_shopkeepers
+		pm_modern_automation_12_building_services_shopkeepers
+		pm_modern_automation_13_building_services_shopkeepers
+		pm_modern_automation_14_building_services_shopkeepers
+		pm_modern_automation_15_building_services_shopkeepers
+		pm_modern_automation_16_building_services_shopkeepers
+		pm_modern_automation_17_building_services_shopkeepers
+		pm_modern_automation_18_building_services_shopkeepers
+		pm_modern_automation_19_building_services_shopkeepers
+		pm_modern_automation_20_building_services_shopkeepers
+	}
+}
+
+INJECT:pmg_automobiles_manufacturing = {
+	production_methods = {
+		pm_modern_automobiles_goods_manufacturing_3
+		pm_modern_automobiles_goods_manufacturing_4
+		pm_modern_automobiles_goods_manufacturing_5
+		pm_modern_automobiles_goods_manufacturing_6
+	}
+}
+
+INJECT:pmg_base_building_construction_sector = {
+	production_methods = {
+		pm_modern_construction_6
+		pm_modern_construction_7
+		pm_modern_construction_8
+		pm_modern_construction_9
+		pm_modern_construction_10
+	}
+}
+
+INJECT:pmg_base_building_construction_sector_size = {
+	production_methods = {
+		pm_modern_construction_size_6
+		pm_modern_construction_size_7
+		pm_modern_construction_size_8
+		pm_modern_construction_size_9
+		pm_modern_construction_size_10
+	}
+}
+
+INJECT:pmg_base_building_skyscraper = {
+	production_methods = {
+		pm_modern_real_estate_goods_infrastructure_5
+		pm_modern_real_estate_goods_infrastructure_6
+		pm_modern_real_estate_goods_infrastructure_7
+		pm_modern_real_estate_goods_infrastructure_8
+		pm_modern_real_estate_goods_infrastructure_9
+	}
+}
+
+INJECT:pmg_base_building_university = {
+	production_methods = {
+		pm_modern_base_building_university_3
+		pm_modern_base_building_university_4
+		pm_modern_base_building_university_5
+		pm_modern_base_building_university_6
+	}
+}
+
+INJECT:pmg_bureaucracy_government = {
+	production_methods = {
+		pm_modern_bureaucracy_government_6
+		pm_modern_bureaucracy_government_7
+		pm_modern_bureaucracy_government_8
+		pm_modern_bureaucracy_government_9
+		pm_modern_bureaucracy_government_10
+		pm_modern_bureaucracy_government_11
+	}
+}
+
+INJECT:pmg_car_design_infrastructure = {
+	production_methods = {
+		pm_modern_car_design_infrastructure_1
+		pm_modern_car_design_infrastructure_2
+		pm_modern_car_design_infrastructure_3
+		pm_modern_car_design_infrastructure_4
+	}
+}
+
+INJECT:pmg_circuit_boards_manufacturing = {
+	production_methods = {
+		pm_modern_circuit_boards_goods_manufacturing_4
+		pm_modern_circuit_boards_goods_manufacturing_5
+		pm_modern_circuit_boards_goods_manufacturing_6
+	}
+}
+
+INJECT:pmg_city_transport_urban_center = {
+	production_methods = {
+		pm_modern_city_transport_6
+		pm_modern_city_transport_7
+		pm_modern_city_transport_8
+		pm_modern_city_transport_9
+		pm_modern_city_transport_10
+	}
+}
+
+INJECT:pmg_city_utilities_urban_center = {
+	production_methods = {
+		pm_modern_city_utilities_6
+		pm_modern_city_utilities_7
+		pm_modern_city_utilities_8
+		pm_modern_city_utilities_9
+		pm_modern_city_utilities_10
+	}
+}
+
+INJECT:pmg_clothes_manufacturing = {
+	production_methods = {
+		pm_modern_clothes_goods_manufacturing_2
+		pm_modern_clothes_goods_manufacturing_3
+		pm_modern_clothes_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_coal_mining = {
+	production_methods = {
+		pm_modern_coal_goods_mining_11
+		pm_modern_coal_goods_mining_12
+		pm_modern_coal_goods_mining_13
+		pm_modern_coal_goods_mining_14
+		pm_modern_coal_goods_mining_15
+		pm_modern_coal_goods_mining_16
+		pm_modern_coal_goods_mining_17
+		pm_modern_coal_goods_mining_18
+		pm_modern_coal_goods_mining_19
+		pm_modern_coal_goods_mining_20
+	}
+}
+
+INJECT:pmg_coffee_agriculture = {
+	production_methods = {
+		pm_modern_coffee_goods_agriculture_11
+		pm_modern_coffee_goods_agriculture_12
+		pm_modern_coffee_goods_agriculture_13
+		pm_modern_coffee_goods_agriculture_14
+		pm_modern_coffee_goods_agriculture_15
+		pm_modern_coffee_goods_agriculture_16
+		pm_modern_coffee_goods_agriculture_17
+		pm_modern_coffee_goods_agriculture_18
+		pm_modern_coffee_goods_agriculture_19
+		pm_modern_coffee_goods_agriculture_20
+	}
+}
+
+INJECT:pmg_computers_manufacturing = {
+	production_methods = {
+		pm_modern_computers_goods_manufacturing_4
+		pm_modern_computers_goods_manufacturing_5
+		pm_modern_computers_goods_manufacturing_6
+	}
+}
+
+INJECT:pmg_consumer_robots_manufacturing = {
+	production_methods = {
+		pm_modern_consumer_robots_goods_manufacturing_1
+		pm_modern_consumer_robots_goods_manufacturing_2
+		pm_modern_consumer_robots_goods_manufacturing_3
+		pm_modern_consumer_robots_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_corporate_services_services = {
+	production_methods = {
+		pm_modern_corporate_services_goods_services_1
+		pm_modern_corporate_services_goods_services_2
+		pm_modern_corporate_services_goods_services_3
+		pm_modern_corporate_services_goods_services_4
+	}
+}
+
+INJECT:pmg_engines_manufacturing = {
+	production_methods = {
+		pm_modern_engines_goods_manufacturing_1
+		pm_modern_engines_goods_manufacturing_2
+		pm_modern_engines_goods_manufacturing_3
+		pm_modern_engines_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_essential_services_government = {
+	production_methods = {
+		pm_modern_essential_services_government_4
+		pm_modern_essential_services_government_5
+		pm_modern_essential_services_government_6
+		pm_modern_essential_services_government_7
+	}
+}
+
+INJECT:pmg_fabric_agriculture = {
+	production_methods = {
+		pm_modern_fabric_goods_agriculture_11
+		pm_modern_fabric_goods_agriculture_12
+		pm_modern_fabric_goods_agriculture_13
+		pm_modern_fabric_goods_agriculture_14
+		pm_modern_fabric_goods_agriculture_15
+		pm_modern_fabric_goods_agriculture_16
+		pm_modern_fabric_goods_agriculture_17
+		pm_modern_fabric_goods_agriculture_18
+		pm_modern_fabric_goods_agriculture_19
+		pm_modern_fabric_goods_agriculture_20
+	}
+}
+
+INJECT:pmg_financial_services_regulation_services = {
+	production_methods = {
+		pm_modern_financial_services_regulation_goods_services_3
+		pm_modern_financial_services_regulation_goods_services_4
+		pm_modern_financial_services_regulation_goods_services_5
+		pm_modern_financial_services_regulation_goods_services_6
+	}
+}
+
+INJECT:pmg_financial_services_services = {
+	production_methods = {
+		pm_modern_financial_services_goods_services_4
+		pm_modern_financial_services_goods_services_5
+		pm_modern_financial_services_goods_services_6
+		pm_modern_financial_services_goods_services_7
+	}
+}
+
+INJECT:pmg_fine_art_manufacturing = {
+	production_methods = {
+		pm_modern_fine_art_goods_manufacturing_3
+		pm_modern_fine_art_goods_manufacturing_4
+		pm_modern_fine_art_goods_manufacturing_5
+		pm_modern_fine_art_goods_manufacturing_6
+	}
+}
+
+INJECT:pmg_fish_agriculture = {
+	production_methods = {
+		pm_modern_fish_goods_agriculture_11
+		pm_modern_fish_goods_agriculture_12
+		pm_modern_fish_goods_agriculture_13
+		pm_modern_fish_goods_agriculture_14
+		pm_modern_fish_goods_agriculture_15
+		pm_modern_fish_goods_agriculture_16
+		pm_modern_fish_goods_agriculture_17
+		pm_modern_fish_goods_agriculture_18
+		pm_modern_fish_goods_agriculture_19
+		pm_modern_fish_goods_agriculture_20
+	}
+}
+
+INJECT:pmg_forex_government = {
+	production_methods = {
+		pm_modern_forex_government_3
+		pm_modern_forex_government_4
+		pm_modern_forex_government_5
+		pm_modern_forex_government_6
+	}
+}
+
+INJECT:pmg_fruit_agriculture = {
+	production_methods = {
+		pm_modern_fruit_goods_agriculture_11
+		pm_modern_fruit_goods_agriculture_12
+		pm_modern_fruit_goods_agriculture_13
+		pm_modern_fruit_goods_agriculture_14
+		pm_modern_fruit_goods_agriculture_15
+		pm_modern_fruit_goods_agriculture_16
+		pm_modern_fruit_goods_agriculture_17
+		pm_modern_fruit_goods_agriculture_18
+		pm_modern_fruit_goods_agriculture_19
+		pm_modern_fruit_goods_agriculture_20
+	}
+}
+
+INJECT:pmg_furniture_manufacturing = {
+	production_methods = {
+		pm_modern_furniture_goods_manufacturing_2
+		pm_modern_furniture_goods_manufacturing_3
+		pm_modern_furniture_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_geothermal_power_infrastructure = {
+	production_methods = {
+		pm_modern_geothermal_power_infrastructure_3
+		pm_modern_geothermal_power_infrastructure_4
+		pm_modern_geothermal_power_infrastructure_5
+		pm_modern_geothermal_power_infrastructure_6
+	}
+}
+
+INJECT:pmg_gold_mining = {
+	production_methods = {
+		pm_modern_gold_goods_mining_11
+		pm_modern_gold_goods_mining_12
+		pm_modern_gold_goods_mining_13
+		pm_modern_gold_goods_mining_14
+		pm_modern_gold_goods_mining_15
+		pm_modern_gold_goods_mining_16
+		pm_modern_gold_goods_mining_17
+		pm_modern_gold_goods_mining_18
+		pm_modern_gold_goods_mining_19
+		pm_modern_gold_goods_mining_20
+	}
+}
+
+INJECT:pmg_grain_agriculture = {
+	production_methods = {
+		pm_modern_grain_goods_agriculture_11
+		pm_modern_grain_goods_agriculture_12
+		pm_modern_grain_goods_agriculture_13
+		pm_modern_grain_goods_agriculture_14
+		pm_modern_grain_goods_agriculture_15
+		pm_modern_grain_goods_agriculture_16
+		pm_modern_grain_goods_agriculture_17
+		pm_modern_grain_goods_agriculture_18
+		pm_modern_grain_goods_agriculture_19
+		pm_modern_grain_goods_agriculture_20
+	}
+}
+
+INJECT:pmg_groceries_manufacturing = {
+	production_methods = {
+		pm_modern_groceries_goods_manufacturing_2
+		pm_modern_groceries_goods_manufacturing_3
+		pm_modern_groceries_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_housing_services = {
+	production_methods = {
+		pm_modern_housing_goods_services_5
+		pm_modern_housing_goods_services_6
+		pm_modern_housing_goods_services_7
+		pm_modern_housing_goods_services_8
+		pm_modern_housing_goods_services_9
+	}
+}
+
+INJECT:pmg_hydroelectric_power_infrastructure = {
+	production_methods = {
+		pm_modern_hydroelectric_power_infrastructure_2
+		pm_modern_hydroelectric_power_infrastructure_3
+		pm_modern_hydroelectric_power_infrastructure_4
+		pm_modern_hydroelectric_power_infrastructure_5
+	}
+}
+
+INJECT:pmg_industrial_chemicals_manufacturing = {
+	production_methods = {
+		pm_modern_industrial_chemicals_goods_manufacturing_4
+		pm_modern_industrial_chemicals_goods_manufacturing_5
+		pm_modern_industrial_chemicals_goods_manufacturing_6
+	}
+}
+
+INJECT:pmg_industrial_robots_manufacturing = {
+	production_methods = {
+		pm_modern_industrial_robots_goods_manufacturing_1
+		pm_modern_industrial_robots_goods_manufacturing_2
+		pm_modern_industrial_robots_goods_manufacturing_3
+		pm_modern_industrial_robots_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_internet_infrastructure = {
+	production_methods = {
+		pm_modern_internet_services_6
+		pm_modern_internet_services_7
+		pm_modern_internet_services_8
+		pm_modern_internet_services_9
+		pm_modern_internet_services_10
+		pm_modern_internet_services_11
+		pm_modern_internet_services_12
+		pm_modern_internet_services_13
+		pm_modern_internet_services_14
+		pm_modern_internet_services_15
+	}
+}
+
+INJECT:pmg_iron_mining = {
+	production_methods = {
+		pm_modern_iron_goods_mining_11
+		pm_modern_iron_goods_mining_12
+		pm_modern_iron_goods_mining_13
+		pm_modern_iron_goods_mining_14
+		pm_modern_iron_goods_mining_15
+		pm_modern_iron_goods_mining_16
+		pm_modern_iron_goods_mining_17
+		pm_modern_iron_goods_mining_18
+		pm_modern_iron_goods_mining_19
+		pm_modern_iron_goods_mining_20
+	}
+}
+
+INJECT:pmg_lead_mining = {
+	production_methods = {
+		pm_modern_lead_goods_mining_11
+		pm_modern_lead_goods_mining_12
+		pm_modern_lead_goods_mining_13
+		pm_modern_lead_goods_mining_14
+		pm_modern_lead_goods_mining_15
+		pm_modern_lead_goods_mining_16
+		pm_modern_lead_goods_mining_17
+		pm_modern_lead_goods_mining_18
+		pm_modern_lead_goods_mining_19
+		pm_modern_lead_goods_mining_20
+	}
+}
+
+INJECT:pmg_liquor_manufacturing = {
+	production_methods = {
+		pm_modern_liquor_goods_manufacturing_1
+		pm_modern_liquor_goods_manufacturing_2
+		pm_modern_liquor_goods_manufacturing_3
+	}
+}
+
+INJECT:pmg_locomotives_manufacturing = {
+	production_methods = {
+		pm_modern_locomotives_goods_manufacturing_1
+		pm_modern_locomotives_goods_manufacturing_2
+		pm_modern_locomotives_goods_manufacturing_3
+		pm_modern_locomotives_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_machinery_automation_manufacturing = {
+	production_methods = {
+		pm_modern_automation_11_building_machinery_manufacturing
+		pm_modern_automation_12_building_machinery_manufacturing
+		pm_modern_automation_13_building_machinery_manufacturing
+		pm_modern_automation_14_building_machinery_manufacturing
+		pm_modern_automation_15_building_machinery_manufacturing
+		pm_modern_automation_16_building_machinery_manufacturing
+		pm_modern_automation_17_building_machinery_manufacturing
+		pm_modern_automation_18_building_machinery_manufacturing
+		pm_modern_automation_19_building_machinery_manufacturing
+		pm_modern_automation_20_building_machinery_manufacturing
+	}
+}
+
+INJECT:pmg_meat_agriculture = {
+	production_methods = {
+		pm_modern_meat_goods_agriculture_11
+		pm_modern_meat_goods_agriculture_12
+		pm_modern_meat_goods_agriculture_13
+		pm_modern_meat_goods_agriculture_14
+		pm_modern_meat_goods_agriculture_15
+		pm_modern_meat_goods_agriculture_16
+		pm_modern_meat_goods_agriculture_17
+		pm_modern_meat_goods_agriculture_18
+		pm_modern_meat_goods_agriculture_19
+		pm_modern_meat_goods_agriculture_20
+	}
+}
+
+INJECT:pmg_media_services_services = {
+	production_methods = {
+		pm_modern_media_services_goods_services_3
+		pm_modern_media_services_goods_services_4
+		pm_modern_media_services_goods_services_5
+		pm_modern_media_services_goods_services_6
+	}
+}
+
+INJECT:pmg_nuclear_power_infrastructure = {
+	production_methods = {
+		pm_modern_nuclear_power_infrastructure_5
+		pm_modern_nuclear_power_infrastructure_6
+		pm_modern_nuclear_power_infrastructure_7
+		pm_modern_nuclear_power_infrastructure_8
+	}
+}
+
+INJECT:pmg_nuclear_rocket_military = {
+	production_methods = {
+		pm_modern_nuclear_rocket_2
+		pm_modern_nuclear_rocket_3
+		pm_modern_nuclear_rocket_4
+		pm_modern_nuclear_rocket_5
+	}
+}
+
+INJECT:pmg_nuclear_type_military = {
+	production_methods = {
+		pm_modern_nuclear_type_3
+		pm_modern_nuclear_type_4
+		pm_modern_nuclear_type_5
+		pm_modern_nuclear_type_6
+	}
+}
+
+INJECT:pmg_oil_mining = {
+	production_methods = {
+		pm_modern_oil_goods_mining_11
+		pm_modern_oil_goods_mining_12
+		pm_modern_oil_goods_mining_13
+		pm_modern_oil_goods_mining_14
+		pm_modern_oil_goods_mining_15
+		pm_modern_oil_goods_mining_16
+		pm_modern_oil_goods_mining_17
+		pm_modern_oil_goods_mining_18
+		pm_modern_oil_goods_mining_19
+		pm_modern_oil_goods_mining_20
+	}
+}
+
+INJECT:pmg_oil_power_infrastructure = {
+	production_methods = {
+		pm_modern_oil_power_infrastructure_6
+		pm_modern_oil_power_infrastructure_7
+		pm_modern_oil_power_infrastructure_8
+		pm_modern_oil_power_infrastructure_9
+	}
+}
+
+INJECT:pmg_opium_agriculture = {
+	production_methods = {
+		pm_modern_opium_goods_agriculture_11
+		pm_modern_opium_goods_agriculture_12
+		pm_modern_opium_goods_agriculture_13
+		pm_modern_opium_goods_agriculture_14
+		pm_modern_opium_goods_agriculture_15
+		pm_modern_opium_goods_agriculture_16
+		pm_modern_opium_goods_agriculture_17
+		pm_modern_opium_goods_agriculture_18
+		pm_modern_opium_goods_agriculture_19
+		pm_modern_opium_goods_agriculture_20
+	}
+}
+
+INJECT:pmg_organisation_agriculture = {
+	production_methods = {
+		pm_modern_organisation_11_building_agriculture
+		pm_modern_organisation_12_building_agriculture
+		pm_modern_organisation_13_building_agriculture
+		pm_modern_organisation_14_building_agriculture
+		pm_modern_organisation_15_building_agriculture
+		pm_modern_organisation_16_building_agriculture
+		pm_modern_organisation_17_building_agriculture
+		pm_modern_organisation_18_building_agriculture
+		pm_modern_organisation_19_building_agriculture
+		pm_modern_organisation_20_building_agriculture
+	}
+}
+
+INJECT:pmg_organisation_logging = {
+	production_methods = {
+		pm_modern_organisation_11_building_logging
+		pm_modern_organisation_12_building_logging
+		pm_modern_organisation_13_building_logging
+		pm_modern_organisation_14_building_logging
+		pm_modern_organisation_15_building_logging
+		pm_modern_organisation_16_building_logging
+		pm_modern_organisation_17_building_logging
+		pm_modern_organisation_18_building_logging
+		pm_modern_organisation_19_building_logging
+		pm_modern_organisation_20_building_logging
+	}
+}
+
+INJECT:pmg_organisation_manufacturing = {
+	production_methods = {
+		pm_modern_organisation_11_building_manufacturing
+		pm_modern_organisation_12_building_manufacturing
+		pm_modern_organisation_13_building_manufacturing
+		pm_modern_organisation_14_building_manufacturing
+		pm_modern_organisation_15_building_manufacturing
+		pm_modern_organisation_16_building_manufacturing
+		pm_modern_organisation_17_building_manufacturing
+		pm_modern_organisation_18_building_manufacturing
+		pm_modern_organisation_19_building_manufacturing
+		pm_modern_organisation_20_building_manufacturing
+	}
+}
+
+INJECT:pmg_organisation_manufacturing_unskilled = {
+	production_methods = {
+		pm_modern_organisation_11_building_manufacturing_unskilled
+		pm_modern_organisation_12_building_manufacturing_unskilled
+		pm_modern_organisation_13_building_manufacturing_unskilled
+		pm_modern_organisation_14_building_manufacturing_unskilled
+		pm_modern_organisation_15_building_manufacturing_unskilled
+		pm_modern_organisation_16_building_manufacturing_unskilled
+		pm_modern_organisation_17_building_manufacturing_unskilled
+		pm_modern_organisation_18_building_manufacturing_unskilled
+		pm_modern_organisation_19_building_manufacturing_unskilled
+		pm_modern_organisation_20_building_manufacturing_unskilled
+	}
+}
+
+INJECT:pmg_organisation_mining = {
+	production_methods = {
+		pm_modern_organisation_11_building_mining
+		pm_modern_organisation_12_building_mining
+		pm_modern_organisation_13_building_mining
+		pm_modern_organisation_14_building_mining
+		pm_modern_organisation_15_building_mining
+		pm_modern_organisation_16_building_mining
+		pm_modern_organisation_17_building_mining
+		pm_modern_organisation_18_building_mining
+		pm_modern_organisation_19_building_mining
+		pm_modern_organisation_20_building_mining
+	}
+}
+
+INJECT:pmg_organisation_mining_oil = {
+	production_methods = {
+		pm_modern_organisation_11_building_mining_oil
+		pm_modern_organisation_12_building_mining_oil
+		pm_modern_organisation_13_building_mining_oil
+		pm_modern_organisation_14_building_mining_oil
+		pm_modern_organisation_15_building_mining_oil
+		pm_modern_organisation_16_building_mining_oil
+		pm_modern_organisation_17_building_mining_oil
+		pm_modern_organisation_18_building_mining_oil
+		pm_modern_organisation_19_building_mining_oil
+		pm_modern_organisation_20_building_mining_oil
+	}
+}
+
+INJECT:pmg_organisation_services = {
+	production_methods = {
+		pm_modern_organisation_11_building_services
+		pm_modern_organisation_12_building_services
+		pm_modern_organisation_13_building_services
+		pm_modern_organisation_14_building_services
+		pm_modern_organisation_15_building_services
+		pm_modern_organisation_16_building_services
+		pm_modern_organisation_17_building_services
+		pm_modern_organisation_18_building_services
+		pm_modern_organisation_19_building_services
+		pm_modern_organisation_20_building_services
+	}
+}
+
+INJECT:pmg_organisation_services_professionals = {
+	production_methods = {
+		pm_modern_organisation_11_building_services_professionals
+		pm_modern_organisation_12_building_services_professionals
+		pm_modern_organisation_13_building_services_professionals
+		pm_modern_organisation_14_building_services_professionals
+		pm_modern_organisation_15_building_services_professionals
+		pm_modern_organisation_16_building_services_professionals
+		pm_modern_organisation_17_building_services_professionals
+		pm_modern_organisation_18_building_services_professionals
+		pm_modern_organisation_19_building_services_professionals
+		pm_modern_organisation_20_building_services_professionals
+	}
+}
+
+INJECT:pmg_organisation_services_shopkeepers = {
+	production_methods = {
+		pm_modern_organisation_11_building_services_shopkeepers
+		pm_modern_organisation_12_building_services_shopkeepers
+		pm_modern_organisation_13_building_services_shopkeepers
+		pm_modern_organisation_14_building_services_shopkeepers
+		pm_modern_organisation_15_building_services_shopkeepers
+		pm_modern_organisation_16_building_services_shopkeepers
+		pm_modern_organisation_17_building_services_shopkeepers
+		pm_modern_organisation_18_building_services_shopkeepers
+		pm_modern_organisation_19_building_services_shopkeepers
+		pm_modern_organisation_20_building_services_shopkeepers
+	}
+}
+
+INJECT:pmg_pharmaceuticals_manufacturing = {
+	production_methods = {
+		pm_modern_pharmaceuticals_goods_manufacturing_2
+		pm_modern_pharmaceuticals_goods_manufacturing_3
+		pm_modern_pharmaceuticals_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_plastics_manufacturing = {
+	production_methods = {
+		pm_modern_plastics_goods_manufacturing_2
+		pm_modern_plastics_goods_manufacturing_3
+		pm_modern_plastics_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_professional_services_services = {
+	production_methods = {
+		pm_modern_professional_services_goods_services_1
+		pm_modern_professional_services_goods_services_2
+		pm_modern_professional_services_goods_services_3
+		pm_modern_professional_services_goods_services_4
+	}
+}
+
+INJECT:pmg_rail_design_infrastructure = {
+	production_methods = {
+		pm_modern_rail_design_infrastructure_1
+		pm_modern_rail_design_infrastructure_2
+		pm_modern_rail_design_infrastructure_3
+		pm_modern_rail_design_infrastructure_4
+	}
+}
+
+INJECT:pmg_real_estate_intensity = {
+	production_methods = {
+		pm_modern_real_estate_5
+		pm_modern_real_estate_6
+		pm_modern_real_estate_7
+		pm_modern_real_estate_8
+		pm_modern_real_estate_9
+	}
+}
+
+INJECT:pmg_recreational_services_intoxicants = {
+	production_methods = {
+		pm_modern_recreational_services_intoxicants_2
+		pm_modern_recreational_services_intoxicants_3
+		pm_modern_recreational_services_intoxicants_4
+		pm_modern_recreational_services_intoxicants_5
+		pm_modern_recreational_services_intoxicants_6
+	}
+}
+
+INJECT:pmg_recreational_services_services = {
+	production_methods = {
+		pm_modern_recreational_services_goods_services_6
+		pm_modern_recreational_services_goods_services_7
+		pm_modern_recreational_services_goods_services_8
+		pm_modern_recreational_services_goods_services_9
+		pm_modern_recreational_services_goods_services_10
+	}
+}
+
+INJECT:pmg_recreational_services_tourism_services = {
+	production_methods = {
+		pm_modern_recreational_services_goods_tourism_services_6
+		pm_modern_recreational_services_goods_tourism_services_7
+		pm_modern_recreational_services_goods_tourism_services_8
+		pm_modern_recreational_services_goods_tourism_services_9
+		pm_modern_recreational_services_goods_tourism_services_10
+	}
+}
+
+INJECT:pmg_retail_services_services = {
+	production_methods = {
+		pm_modern_retail_services_goods_services_6
+		pm_modern_retail_services_goods_services_7
+		pm_modern_retail_services_goods_services_8
+		pm_modern_retail_services_goods_services_9
+		pm_modern_retail_services_goods_services_10
+	}
+}
+
+INJECT:pmg_rubber_agriculture = {
+	production_methods = {
+		pm_modern_rubber_goods_agriculture_11
+		pm_modern_rubber_goods_agriculture_12
+		pm_modern_rubber_goods_agriculture_13
+		pm_modern_rubber_goods_agriculture_14
+		pm_modern_rubber_goods_agriculture_15
+		pm_modern_rubber_goods_agriculture_16
+		pm_modern_rubber_goods_agriculture_17
+		pm_modern_rubber_goods_agriculture_18
+		pm_modern_rubber_goods_agriculture_19
+		pm_modern_rubber_goods_agriculture_20
+	}
+}
+
+INJECT:pmg_rubber_manufacturing = {
+	production_methods = {
+		pm_modern_rubber_goods_manufacturing_1
+		pm_modern_rubber_goods_manufacturing_2
+		pm_modern_rubber_goods_manufacturing_3
+	}
+}
+
+INJECT:pmg_sea_design_infrastructure = {
+	production_methods = {
+		pm_modern_building_port_goods_1
+		pm_modern_building_port_goods_2
+	}
+}
+
+INJECT:pmg_sea_infrastructure = {
+	production_methods = {
+		pm_modern_building_port_technique_1
+		pm_modern_building_port_technique_2
+	}
+}
+
+INJECT:pmg_security_services_government = {
+	production_methods = {
+		pm_modern_security_services_government_5
+		pm_modern_security_services_government_6
+		pm_modern_security_services_government_7
+		pm_modern_security_services_government_8
+	}
+}
+
+INJECT:pmg_skyscraper_energy_source = {
+	production_methods = {
+		pm_modern_skyscraper_energy_source_3
+		pm_modern_skyscraper_energy_source_4
+		pm_modern_skyscraper_energy_source_5
+		pm_modern_skyscraper_energy_source_6
+	}
+}
+
+INJECT:pmg_small_arms_manufacturing = {
+	production_methods = {
+		pm_modern_small_arms_goods_manufacturing_1
+		pm_modern_small_arms_goods_manufacturing_2
+		pm_modern_small_arms_goods_manufacturing_3
+		pm_modern_small_arms_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_software_services = {
+	production_methods = {
+		pm_modern_software_goods_services_6
+		pm_modern_software_goods_services_7
+		pm_modern_software_goods_services_8
+		pm_modern_software_goods_services_9
+		pm_modern_software_goods_services_10
+		pm_modern_software_goods_services_11
+		pm_modern_software_goods_services_12
+		pm_modern_software_goods_services_13
+		pm_modern_software_goods_services_14
+		pm_modern_software_goods_services_15
+	}
+}
+
+INJECT:pmg_steamers_manufacturing = {
+	production_methods = {
+		pm_modern_steamers_goods_manufacturing_4
+		pm_modern_steamers_goods_manufacturing_5
+	}
+}
+
+INJECT:pmg_steel_manufacturing = {
+	production_methods = {
+		pm_modern_steel_goods_manufacturing_3
+		pm_modern_steel_goods_manufacturing_4
+		pm_modern_steel_goods_manufacturing_5
+	}
+}
+
+INJECT:pmg_sulfur_mining = {
+	production_methods = {
+		pm_modern_sulfur_goods_mining_11
+		pm_modern_sulfur_goods_mining_12
+		pm_modern_sulfur_goods_mining_13
+		pm_modern_sulfur_goods_mining_14
+		pm_modern_sulfur_goods_mining_15
+		pm_modern_sulfur_goods_mining_16
+		pm_modern_sulfur_goods_mining_17
+		pm_modern_sulfur_goods_mining_18
+		pm_modern_sulfur_goods_mining_19
+		pm_modern_sulfur_goods_mining_20
+	}
+}
+
+INJECT:pmg_tanks_manufacturing = {
+	production_methods = {
+		pm_modern_tanks_goods_manufacturing_1
+		pm_modern_tanks_goods_manufacturing_2
+		pm_modern_tanks_goods_manufacturing_3
+		pm_modern_tanks_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_tea_agriculture = {
+	production_methods = {
+		pm_modern_tea_goods_agriculture_11
+		pm_modern_tea_goods_agriculture_12
+		pm_modern_tea_goods_agriculture_13
+		pm_modern_tea_goods_agriculture_14
+		pm_modern_tea_goods_agriculture_15
+		pm_modern_tea_goods_agriculture_16
+		pm_modern_tea_goods_agriculture_17
+		pm_modern_tea_goods_agriculture_18
+		pm_modern_tea_goods_agriculture_19
+		pm_modern_tea_goods_agriculture_20
+	}
+}
+
+INJECT:pmg_technique_university = {
+	production_methods = {
+		pm_modern_technique_11_building_university
+		pm_modern_technique_12_building_university
+		pm_modern_technique_13_building_university
+		pm_modern_technique_14_building_university
+		pm_modern_technique_15_building_university
+		pm_modern_technique_16_building_university
+		pm_modern_technique_17_building_university
+		pm_modern_technique_18_building_university
+		pm_modern_technique_19_building_university
+		pm_modern_technique_20_building_university
+	}
+}
+
+INJECT:pmg_telecommunications_manufacturing = {
+	production_methods = {
+		pm_modern_telecommunications_goods_manufacturing_1
+		pm_modern_telecommunications_goods_manufacturing_2
+		pm_modern_telecommunications_goods_manufacturing_3
+		pm_modern_telecommunications_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_tobacco_agriculture = {
+	production_methods = {
+		pm_modern_tobacco_goods_agriculture_11
+		pm_modern_tobacco_goods_agriculture_12
+		pm_modern_tobacco_goods_agriculture_13
+		pm_modern_tobacco_goods_agriculture_14
+		pm_modern_tobacco_goods_agriculture_15
+		pm_modern_tobacco_goods_agriculture_16
+		pm_modern_tobacco_goods_agriculture_17
+		pm_modern_tobacco_goods_agriculture_18
+		pm_modern_tobacco_goods_agriculture_19
+		pm_modern_tobacco_goods_agriculture_20
+	}
+}
+
+INJECT:pmg_warplanes_manufacturing = {
+	production_methods = {
+		pm_modern_warplanes_goods_manufacturing_1
+		pm_modern_warplanes_goods_manufacturing_2
+		pm_modern_warplanes_goods_manufacturing_3
+		pm_modern_warplanes_goods_manufacturing_4
+	}
+}
+
+INJECT:pmg_wine_agriculture = {
+	production_methods = {
+		pm_modern_wine_goods_agriculture_11
+		pm_modern_wine_goods_agriculture_12
+		pm_modern_wine_goods_agriculture_13
+		pm_modern_wine_goods_agriculture_14
+		pm_modern_wine_goods_agriculture_15
+		pm_modern_wine_goods_agriculture_16
+		pm_modern_wine_goods_agriculture_17
+		pm_modern_wine_goods_agriculture_18
+		pm_modern_wine_goods_agriculture_19
+		pm_modern_wine_goods_agriculture_20
+	}
+}
+
+INJECT:pmg_wood_logging = {
+	production_methods = {
+		pm_modern_wood_goods_logging_11
+		pm_modern_wood_goods_logging_12
+		pm_modern_wood_goods_logging_13
+		pm_modern_wood_goods_logging_14
+		pm_modern_wood_goods_logging_15
+		pm_modern_wood_goods_logging_16
+		pm_modern_wood_goods_logging_17
+		pm_modern_wood_goods_logging_18
+		pm_modern_wood_goods_logging_19
+		pm_modern_wood_goods_logging_20
+	}
+}
+

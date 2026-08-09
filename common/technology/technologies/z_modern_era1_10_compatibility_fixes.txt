@@ -1,0 +1,177 @@
+# Static compatibility-only fixes for zero-effect CWE Era 1-10 technologies.
+# Modifier-only by design: no unlocks are injected here.
+
+INJECT:tech_military_nuclear_1 = {
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+}
+
+INJECT:tech_military_nuclear_2 = {
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+}
+
+INJECT:tech_military_nuclear_5 = {
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+}
+
+INJECT:tech_military_nuclear_6 = {
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+}
+
+INJECT:tech_military_nuclear_7 = {
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+}
+
+INJECT:tech_military_nuclear_8 = {
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+}
+
+INJECT:tech_military_nuclear_9 = {
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+}
+
+INJECT:tech_military_nuclear_10 = {
+	modifier = {
+		battle_defense_owned_province_mult = 0.05
+		battle_offense_owned_province_mult = 0.05
+		battle_combat_width_mult = 0.05
+		country_authority_mult = 0.05
+	}
+}
+
+INJECT:tech_military_space_program_1 = {
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+}
+
+INJECT:tech_military_space_program_2 = {
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+}
+
+INJECT:tech_military_space_program_4 = {
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+}
+
+INJECT:tech_military_space_program_5 = {
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+}
+
+INJECT:tech_military_space_program_6 = {
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+}
+
+INJECT:tech_military_space_program_7 = {
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+}
+
+INJECT:tech_military_space_program_8 = {
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+}
+
+INJECT:tech_military_space_program_9 = {
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+}
+
+INJECT:tech_military_space_program_10 = {
+	modifier = {
+		country_prestige_from_army_power_projection_mult = 0.03
+		country_influence_mult = 0.05
+		country_leverage_generation_mult = 0.05
+		unit_navy_experience_gain_mult = 0.05
+		unit_army_experience_gain_mult = 0.05
+	}
+}
+
+INJECT:tech_sea_infrastructure_10 = {
+	modifier = {
+		building_port_throughput_add = 0.1
+		building_shipyards_throughput_add = 0.05
+		country_ship_group_capital_ships_construction_efficiency_add = 0.5
+		country_ship_group_cruisers_construction_efficiency_add = 0.5
+		country_ship_group_torpedo_craft_construction_efficiency_add = 0.5
+		country_ship_group_supply_ships_construction_efficiency_add = 0.5
+		country_ship_group_troop_ships_construction_efficiency_add = 0.5
+	}
+}
+

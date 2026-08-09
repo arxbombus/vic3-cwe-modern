@@ -1,0 +1,349 @@
+# Generated Era 11-20 airforce combat units
+
+INJECT:combat_unit_type_airforce_10 = {
+	upgrades = {
+		combat_unit_type_airforce_11
+	}
+}
+
+combat_unit_type_airforce_11 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_warplanes_add = 5.5
+		goods_input_ammunition_add = 11
+		goods_input_advanced_weaponry_add = 4
+		goods_input_oil_add = 11
+	}
+	battle_modifier = {
+		unit_offense_add = 110
+		unit_defense_add = 220
+		unit_morale_damage_mult = 0.55
+		unit_provinces_captured_mult = 0.55
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	formation_modifier = {
+		military_formation_mobilization_speed_mult = -0.1
+		military_formation_movement_speed_mult = -0.1
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_cavalry
+	max_manpower = 1000
+	supply_capacity = 110
+	unlocking_technologies = { tech_military_airforce_11 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/air_xi.png"
+	}
+	upgrades = { combat_unit_type_airforce_12 }
+}
+
+combat_unit_type_airforce_12 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_warplanes_add = 6
+		goods_input_ammunition_add = 12
+		goods_input_advanced_weaponry_add = 4.5
+		goods_input_oil_add = 12
+	}
+	battle_modifier = {
+		unit_offense_add = 120
+		unit_defense_add = 240
+		unit_morale_damage_mult = 0.6
+		unit_provinces_captured_mult = 0.6
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	formation_modifier = {
+		military_formation_mobilization_speed_mult = -0.1
+		military_formation_movement_speed_mult = -0.1
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_cavalry
+	max_manpower = 1000
+	supply_capacity = 120
+	unlocking_technologies = { tech_military_airforce_12 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/air_xii.png"
+	}
+	upgrades = { combat_unit_type_airforce_13 }
+}
+
+combat_unit_type_airforce_13 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_warplanes_add = 6.5
+		goods_input_ammunition_add = 13
+		goods_input_advanced_weaponry_add = 5
+		goods_input_oil_add = 13
+	}
+	battle_modifier = {
+		unit_offense_add = 130
+		unit_defense_add = 260
+		unit_morale_damage_mult = 0.65
+		unit_provinces_captured_mult = 0.65
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	formation_modifier = {
+		military_formation_mobilization_speed_mult = -0.1
+		military_formation_movement_speed_mult = -0.1
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_cavalry
+	max_manpower = 1000
+	supply_capacity = 130
+	unlocking_technologies = { tech_military_airforce_13 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/air_xiii.png"
+	}
+	upgrades = { combat_unit_type_airforce_14 }
+}
+
+combat_unit_type_airforce_14 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_warplanes_add = 7
+		goods_input_ammunition_add = 14
+		goods_input_advanced_weaponry_add = 5.5
+		goods_input_oil_add = 14
+	}
+	battle_modifier = {
+		unit_offense_add = 140
+		unit_defense_add = 280
+		unit_morale_damage_mult = 0.7
+		unit_provinces_captured_mult = 0.7
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	formation_modifier = {
+		military_formation_mobilization_speed_mult = -0.1
+		military_formation_movement_speed_mult = -0.1
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_cavalry
+	max_manpower = 1000
+	supply_capacity = 140
+	unlocking_technologies = { tech_military_airforce_14 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/air_xiv.png"
+	}
+	upgrades = { combat_unit_type_airforce_15 }
+}
+
+combat_unit_type_airforce_15 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_warplanes_add = 7.5
+		goods_input_ammunition_add = 15
+		goods_input_advanced_weaponry_add = 6
+		goods_input_oil_add = 15
+	}
+	battle_modifier = {
+		unit_offense_add = 150
+		unit_defense_add = 300
+		unit_morale_damage_mult = 0.75
+		unit_provinces_captured_mult = 0.75
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	formation_modifier = {
+		military_formation_mobilization_speed_mult = -0.1
+		military_formation_movement_speed_mult = -0.1
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_cavalry
+	max_manpower = 1000
+	supply_capacity = 150
+	unlocking_technologies = { tech_military_airforce_15 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/air_xv.png"
+	}
+	upgrades = { combat_unit_type_airforce_16 }
+}
+
+combat_unit_type_airforce_16 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_warplanes_add = 8
+		goods_input_ammunition_add = 16
+		goods_input_advanced_weaponry_add = 6.5
+		goods_input_oil_add = 16
+	}
+	battle_modifier = {
+		unit_offense_add = 160
+		unit_defense_add = 320
+		unit_morale_damage_mult = 0.8
+		unit_provinces_captured_mult = 0.8
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	formation_modifier = {
+		military_formation_mobilization_speed_mult = -0.1
+		military_formation_movement_speed_mult = -0.1
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_cavalry
+	max_manpower = 1000
+	supply_capacity = 160
+	unlocking_technologies = { tech_military_airforce_16 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/air_xvi.png"
+	}
+	upgrades = { combat_unit_type_airforce_17 }
+}
+
+combat_unit_type_airforce_17 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_warplanes_add = 8.5
+		goods_input_ammunition_add = 17
+		goods_input_advanced_weaponry_add = 7
+		goods_input_oil_add = 17
+	}
+	battle_modifier = {
+		unit_offense_add = 170
+		unit_defense_add = 340
+		unit_morale_damage_mult = 0.85
+		unit_provinces_captured_mult = 0.85
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	formation_modifier = {
+		military_formation_mobilization_speed_mult = -0.1
+		military_formation_movement_speed_mult = -0.1
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_cavalry
+	max_manpower = 1000
+	supply_capacity = 170
+	unlocking_technologies = { tech_military_airforce_17 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/air_xvii.png"
+	}
+	upgrades = { combat_unit_type_airforce_18 }
+}
+
+combat_unit_type_airforce_18 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_warplanes_add = 9
+		goods_input_ammunition_add = 18
+		goods_input_advanced_weaponry_add = 7.5
+		goods_input_oil_add = 18
+	}
+	battle_modifier = {
+		unit_offense_add = 180
+		unit_defense_add = 360
+		unit_morale_damage_mult = 0.9
+		unit_provinces_captured_mult = 0.9
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	formation_modifier = {
+		military_formation_mobilization_speed_mult = -0.1
+		military_formation_movement_speed_mult = -0.1
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_cavalry
+	max_manpower = 1000
+	supply_capacity = 180
+	unlocking_technologies = { tech_military_airforce_18 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/air_xviii.png"
+	}
+	upgrades = { combat_unit_type_airforce_19 }
+}
+
+combat_unit_type_airforce_19 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_warplanes_add = 9.5
+		goods_input_ammunition_add = 19
+		goods_input_advanced_weaponry_add = 8
+		goods_input_oil_add = 19
+	}
+	battle_modifier = {
+		unit_offense_add = 190
+		unit_defense_add = 380
+		unit_morale_damage_mult = 0.95
+		unit_provinces_captured_mult = 0.95
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	formation_modifier = {
+		military_formation_mobilization_speed_mult = -0.1
+		military_formation_movement_speed_mult = -0.1
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_cavalry
+	max_manpower = 1000
+	supply_capacity = 190
+	unlocking_technologies = { tech_military_airforce_19 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/air_xix.png"
+	}
+	upgrades = { combat_unit_type_airforce_20 }
+}
+
+combat_unit_type_airforce_20 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_warplanes_add = 10
+		goods_input_ammunition_add = 20
+		goods_input_advanced_weaponry_add = 8.5
+		goods_input_oil_add = 20
+	}
+	battle_modifier = {
+		unit_offense_add = 200
+		unit_defense_add = 400
+		unit_morale_damage_mult = 1
+		unit_provinces_captured_mult = 1
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	formation_modifier = {
+		military_formation_mobilization_speed_mult = -0.1
+		military_formation_movement_speed_mult = -0.1
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_cavalry
+	max_manpower = 1000
+	supply_capacity = 200
+	unlocking_technologies = { tech_military_airforce_20 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/air_xx.png"
+	}
+	upgrades = {
+	}
+}
+

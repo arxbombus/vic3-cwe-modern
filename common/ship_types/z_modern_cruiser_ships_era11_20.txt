@@ -1,0 +1,583 @@
+# Generated Era 11-20 cruiser ships. Graphics inherited from live final ship.
+
+INJECT:ship_type_cruiser_10 = {
+	is_obsolete = { has_technology_researched = tech_military_naval_forces_11 }
+}
+
+ship_type_cruiser_11 = {
+	ship_group = ship_group_cruisers
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 13
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 6600
+		ship_crew_max_add = 50
+		ship_movement_speed_add = 11
+		ship_supply_capacity_add = 120
+		ship_hull_damage_add = 175
+		ship_crew_damage_add = 75
+		ship_armor_add = 350
+		ship_critical_hit_chance_add = 0.29
+		ship_critical_hit_multiplier_add = 2.9
+		ship_vulnerability_add = 5
+		ship_screening_add = 90
+		ship_readiness_gain_add = 16
+		ship_accuracy_add = 21
+		ship_visibility_add = 34
+		ship_detection_add = 85
+		ship_blockade_strength_add = 280
+		ship_carrying_capacity_add = 7
+		ship_marine_capacity_add = 0.15
+	}
+	construction_goods = {
+		goods_input_steel_add = 3400
+		goods_input_engines_add = 1700
+		goods_input_computers_add = 1200
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 1.6
+		goods_input_steel_add = 1.4
+		goods_input_ammunition_add = 1.4
+		goods_input_computers_add = 1.2
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_cruisers.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_light_cruiser.dds"
+	ai_weight = 1.5
+	ai_weight = 1.5
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_light_cruiser_armor_light ship_mod_light_cruiser_armor_medium ship_mod_light_cruiser_armor_high }
+		ship_mod_slot_guns = { ship_mod_light_cruiser_guns_light ship_mod_light_cruiser_guns_medium ship_mod_light_cruiser_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_light_cruiser_propulsion_light ship_mod_light_cruiser_propulsion_medium ship_mod_light_cruiser_propulsion_high }
+		ship_mod_slot_range = { ship_mod_light_cruiser_range_light ship_mod_light_cruiser_range_medium ship_mod_light_cruiser_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_fire_suppression utility_mod_camouflage }
+	}
+	modification_construction_cost = 160
+	unlocking_technologies = { tech_military_naval_forces_11 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_12
+	}
+}
+
+ship_type_cruiser_12 = {
+	ship_group = ship_group_cruisers
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 14
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 7200
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 12
+		ship_supply_capacity_add = 130
+		ship_hull_damage_add = 190
+		ship_crew_damage_add = 80
+		ship_armor_add = 380
+		ship_critical_hit_chance_add = 0.3
+		ship_critical_hit_multiplier_add = 3
+		ship_vulnerability_add = 0
+		ship_screening_add = 95
+		ship_readiness_gain_add = 17
+		ship_accuracy_add = 22
+		ship_visibility_add = 36
+		ship_detection_add = 90
+		ship_blockade_strength_add = 300
+		ship_carrying_capacity_add = 7.5
+		ship_marine_capacity_add = 0.1
+	}
+	construction_goods = {
+		goods_input_steel_add = 3600
+		goods_input_engines_add = 1800
+		goods_input_computers_add = 1400
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 1.8
+		goods_input_steel_add = 1.6
+		goods_input_ammunition_add = 1.6
+		goods_input_computers_add = 1.4
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_cruisers.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_light_cruiser.dds"
+	ai_weight = 1.5
+	ai_weight = 1.5
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_light_cruiser_armor_light ship_mod_light_cruiser_armor_medium ship_mod_light_cruiser_armor_high }
+		ship_mod_slot_guns = { ship_mod_light_cruiser_guns_light ship_mod_light_cruiser_guns_medium ship_mod_light_cruiser_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_light_cruiser_propulsion_light ship_mod_light_cruiser_propulsion_medium ship_mod_light_cruiser_propulsion_high }
+		ship_mod_slot_range = { ship_mod_light_cruiser_range_light ship_mod_light_cruiser_range_medium ship_mod_light_cruiser_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_fire_suppression utility_mod_camouflage }
+	}
+	modification_construction_cost = 170
+	unlocking_technologies = { tech_military_naval_forces_12 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_13
+	}
+}
+
+ship_type_cruiser_13 = {
+	ship_group = ship_group_cruisers
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 15
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 7800
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 13
+		ship_supply_capacity_add = 140
+		ship_hull_damage_add = 205
+		ship_crew_damage_add = 85
+		ship_armor_add = 410
+		ship_critical_hit_chance_add = 0.31
+		ship_critical_hit_multiplier_add = 3.1
+		ship_vulnerability_add = 0
+		ship_screening_add = 100
+		ship_readiness_gain_add = 18
+		ship_accuracy_add = 23
+		ship_visibility_add = 38
+		ship_detection_add = 95
+		ship_blockade_strength_add = 320
+		ship_carrying_capacity_add = 8
+		ship_marine_capacity_add = 0.05
+	}
+	construction_goods = {
+		goods_input_steel_add = 3800
+		goods_input_engines_add = 1900
+		goods_input_computers_add = 1600
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2
+		goods_input_steel_add = 1.8
+		goods_input_ammunition_add = 1.8
+		goods_input_computers_add = 1.6
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_cruisers.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_light_cruiser.dds"
+	ai_weight = 1.5
+	ai_weight = 1.5
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_light_cruiser_armor_light ship_mod_light_cruiser_armor_medium ship_mod_light_cruiser_armor_high }
+		ship_mod_slot_guns = { ship_mod_light_cruiser_guns_light ship_mod_light_cruiser_guns_medium ship_mod_light_cruiser_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_light_cruiser_propulsion_light ship_mod_light_cruiser_propulsion_medium ship_mod_light_cruiser_propulsion_high }
+		ship_mod_slot_range = { ship_mod_light_cruiser_range_light ship_mod_light_cruiser_range_medium ship_mod_light_cruiser_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_fire_suppression utility_mod_camouflage }
+	}
+	modification_construction_cost = 180
+	unlocking_technologies = { tech_military_naval_forces_13 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_14
+	}
+}
+
+ship_type_cruiser_14 = {
+	ship_group = ship_group_cruisers
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 16
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 8400
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 14
+		ship_supply_capacity_add = 150
+		ship_hull_damage_add = 220
+		ship_crew_damage_add = 90
+		ship_armor_add = 440
+		ship_critical_hit_chance_add = 0.32
+		ship_critical_hit_multiplier_add = 3.2
+		ship_vulnerability_add = 0
+		ship_screening_add = 105
+		ship_readiness_gain_add = 19
+		ship_accuracy_add = 24
+		ship_visibility_add = 40
+		ship_detection_add = 100
+		ship_blockade_strength_add = 340
+		ship_carrying_capacity_add = 8.5
+		ship_marine_capacity_add = 0
+	}
+	construction_goods = {
+		goods_input_steel_add = 4000
+		goods_input_engines_add = 2000
+		goods_input_computers_add = 1800
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2.2
+		goods_input_steel_add = 2
+		goods_input_ammunition_add = 2
+		goods_input_computers_add = 1.8
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_cruisers.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_light_cruiser.dds"
+	ai_weight = 1.5
+	ai_weight = 1.5
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_light_cruiser_armor_light ship_mod_light_cruiser_armor_medium ship_mod_light_cruiser_armor_high }
+		ship_mod_slot_guns = { ship_mod_light_cruiser_guns_light ship_mod_light_cruiser_guns_medium ship_mod_light_cruiser_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_light_cruiser_propulsion_light ship_mod_light_cruiser_propulsion_medium ship_mod_light_cruiser_propulsion_high }
+		ship_mod_slot_range = { ship_mod_light_cruiser_range_light ship_mod_light_cruiser_range_medium ship_mod_light_cruiser_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_fire_suppression utility_mod_camouflage }
+	}
+	modification_construction_cost = 190
+	unlocking_technologies = { tech_military_naval_forces_14 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_15
+	}
+}
+
+ship_type_cruiser_15 = {
+	ship_group = ship_group_cruisers
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 17
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 9000
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 15
+		ship_supply_capacity_add = 160
+		ship_hull_damage_add = 235
+		ship_crew_damage_add = 95
+		ship_armor_add = 470
+		ship_critical_hit_chance_add = 0.33
+		ship_critical_hit_multiplier_add = 3.3
+		ship_vulnerability_add = 0
+		ship_screening_add = 110
+		ship_readiness_gain_add = 20
+		ship_accuracy_add = 25
+		ship_visibility_add = 42
+		ship_detection_add = 105
+		ship_blockade_strength_add = 360
+		ship_carrying_capacity_add = 9
+		ship_marine_capacity_add = 0
+	}
+	construction_goods = {
+		goods_input_steel_add = 4200
+		goods_input_engines_add = 2100
+		goods_input_computers_add = 2000
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2.4
+		goods_input_steel_add = 2.2
+		goods_input_ammunition_add = 2.2
+		goods_input_computers_add = 2
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_cruisers.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_light_cruiser.dds"
+	ai_weight = 1.5
+	ai_weight = 1.5
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_light_cruiser_armor_light ship_mod_light_cruiser_armor_medium ship_mod_light_cruiser_armor_high }
+		ship_mod_slot_guns = { ship_mod_light_cruiser_guns_light ship_mod_light_cruiser_guns_medium ship_mod_light_cruiser_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_light_cruiser_propulsion_light ship_mod_light_cruiser_propulsion_medium ship_mod_light_cruiser_propulsion_high }
+		ship_mod_slot_range = { ship_mod_light_cruiser_range_light ship_mod_light_cruiser_range_medium ship_mod_light_cruiser_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_fire_suppression utility_mod_camouflage }
+	}
+	modification_construction_cost = 200
+	unlocking_technologies = { tech_military_naval_forces_15 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_16
+	}
+}
+
+ship_type_cruiser_16 = {
+	ship_group = ship_group_cruisers
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 18
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 9600
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 16
+		ship_supply_capacity_add = 170
+		ship_hull_damage_add = 250
+		ship_crew_damage_add = 100
+		ship_armor_add = 500
+		ship_critical_hit_chance_add = 0.34
+		ship_critical_hit_multiplier_add = 3.4
+		ship_vulnerability_add = 0
+		ship_screening_add = 115
+		ship_readiness_gain_add = 21
+		ship_accuracy_add = 26
+		ship_visibility_add = 44
+		ship_detection_add = 110
+		ship_blockade_strength_add = 380
+		ship_carrying_capacity_add = 9.5
+		ship_marine_capacity_add = 0
+	}
+	construction_goods = {
+		goods_input_steel_add = 4400
+		goods_input_engines_add = 2200
+		goods_input_computers_add = 2200
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2.6
+		goods_input_steel_add = 2.4
+		goods_input_ammunition_add = 2.4
+		goods_input_computers_add = 2.2
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_cruisers.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_light_cruiser.dds"
+	ai_weight = 1.5
+	ai_weight = 1.5
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_light_cruiser_armor_light ship_mod_light_cruiser_armor_medium ship_mod_light_cruiser_armor_high }
+		ship_mod_slot_guns = { ship_mod_light_cruiser_guns_light ship_mod_light_cruiser_guns_medium ship_mod_light_cruiser_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_light_cruiser_propulsion_light ship_mod_light_cruiser_propulsion_medium ship_mod_light_cruiser_propulsion_high }
+		ship_mod_slot_range = { ship_mod_light_cruiser_range_light ship_mod_light_cruiser_range_medium ship_mod_light_cruiser_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_fire_suppression utility_mod_camouflage }
+	}
+	modification_construction_cost = 210
+	unlocking_technologies = { tech_military_naval_forces_16 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_17
+	}
+}
+
+ship_type_cruiser_17 = {
+	ship_group = ship_group_cruisers
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 19
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 10200
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 17
+		ship_supply_capacity_add = 180
+		ship_hull_damage_add = 265
+		ship_crew_damage_add = 105
+		ship_armor_add = 530
+		ship_critical_hit_chance_add = 0.35
+		ship_critical_hit_multiplier_add = 3.5
+		ship_vulnerability_add = 0
+		ship_screening_add = 120
+		ship_readiness_gain_add = 22
+		ship_accuracy_add = 27
+		ship_visibility_add = 46
+		ship_detection_add = 115
+		ship_blockade_strength_add = 400
+		ship_carrying_capacity_add = 10
+		ship_marine_capacity_add = 0
+	}
+	construction_goods = {
+		goods_input_steel_add = 4600
+		goods_input_engines_add = 2300
+		goods_input_computers_add = 2400
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2.8
+		goods_input_steel_add = 2.6
+		goods_input_ammunition_add = 2.6
+		goods_input_computers_add = 2.4
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_cruisers.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_light_cruiser.dds"
+	ai_weight = 1.5
+	ai_weight = 1.5
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_light_cruiser_armor_light ship_mod_light_cruiser_armor_medium ship_mod_light_cruiser_armor_high }
+		ship_mod_slot_guns = { ship_mod_light_cruiser_guns_light ship_mod_light_cruiser_guns_medium ship_mod_light_cruiser_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_light_cruiser_propulsion_light ship_mod_light_cruiser_propulsion_medium ship_mod_light_cruiser_propulsion_high }
+		ship_mod_slot_range = { ship_mod_light_cruiser_range_light ship_mod_light_cruiser_range_medium ship_mod_light_cruiser_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_fire_suppression utility_mod_camouflage }
+	}
+	modification_construction_cost = 220
+	unlocking_technologies = { tech_military_naval_forces_17 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_18
+	}
+}
+
+ship_type_cruiser_18 = {
+	ship_group = ship_group_cruisers
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 20
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 10800
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 18
+		ship_supply_capacity_add = 190
+		ship_hull_damage_add = 280
+		ship_crew_damage_add = 110
+		ship_armor_add = 560
+		ship_critical_hit_chance_add = 0.36
+		ship_critical_hit_multiplier_add = 3.6
+		ship_vulnerability_add = 0
+		ship_screening_add = 125
+		ship_readiness_gain_add = 23
+		ship_accuracy_add = 28
+		ship_visibility_add = 48
+		ship_detection_add = 120
+		ship_blockade_strength_add = 420
+		ship_carrying_capacity_add = 10.5
+		ship_marine_capacity_add = 0
+	}
+	construction_goods = {
+		goods_input_steel_add = 4800
+		goods_input_engines_add = 2400
+		goods_input_computers_add = 2600
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 3
+		goods_input_steel_add = 2.8
+		goods_input_ammunition_add = 2.8
+		goods_input_computers_add = 2.6
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_cruisers.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_light_cruiser.dds"
+	ai_weight = 1.5
+	ai_weight = 1.5
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_light_cruiser_armor_light ship_mod_light_cruiser_armor_medium ship_mod_light_cruiser_armor_high }
+		ship_mod_slot_guns = { ship_mod_light_cruiser_guns_light ship_mod_light_cruiser_guns_medium ship_mod_light_cruiser_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_light_cruiser_propulsion_light ship_mod_light_cruiser_propulsion_medium ship_mod_light_cruiser_propulsion_high }
+		ship_mod_slot_range = { ship_mod_light_cruiser_range_light ship_mod_light_cruiser_range_medium ship_mod_light_cruiser_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_fire_suppression utility_mod_camouflage }
+	}
+	modification_construction_cost = 230
+	unlocking_technologies = { tech_military_naval_forces_18 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_19
+	}
+}
+
+ship_type_cruiser_19 = {
+	ship_group = ship_group_cruisers
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 21
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 11400
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 19
+		ship_supply_capacity_add = 200
+		ship_hull_damage_add = 295
+		ship_crew_damage_add = 115
+		ship_armor_add = 590
+		ship_critical_hit_chance_add = 0.37
+		ship_critical_hit_multiplier_add = 3.7
+		ship_vulnerability_add = 0
+		ship_screening_add = 130
+		ship_readiness_gain_add = 24
+		ship_accuracy_add = 29
+		ship_visibility_add = 50
+		ship_detection_add = 125
+		ship_blockade_strength_add = 440
+		ship_carrying_capacity_add = 11
+		ship_marine_capacity_add = 0
+	}
+	construction_goods = {
+		goods_input_steel_add = 5000
+		goods_input_engines_add = 2500
+		goods_input_computers_add = 2800
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 3.2
+		goods_input_steel_add = 3
+		goods_input_ammunition_add = 3
+		goods_input_computers_add = 2.8
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_cruisers.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_light_cruiser.dds"
+	ai_weight = 1.5
+	ai_weight = 1.5
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_light_cruiser_armor_light ship_mod_light_cruiser_armor_medium ship_mod_light_cruiser_armor_high }
+		ship_mod_slot_guns = { ship_mod_light_cruiser_guns_light ship_mod_light_cruiser_guns_medium ship_mod_light_cruiser_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_light_cruiser_propulsion_light ship_mod_light_cruiser_propulsion_medium ship_mod_light_cruiser_propulsion_high }
+		ship_mod_slot_range = { ship_mod_light_cruiser_range_light ship_mod_light_cruiser_range_medium ship_mod_light_cruiser_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_fire_suppression utility_mod_camouflage }
+	}
+	modification_construction_cost = 240
+	unlocking_technologies = { tech_military_naval_forces_19 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_20
+	}
+}
+
+ship_type_cruiser_20 = {
+	ship_group = ship_group_cruisers
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 22
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 12000
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 20
+		ship_supply_capacity_add = 210
+		ship_hull_damage_add = 310
+		ship_crew_damage_add = 120
+		ship_armor_add = 620
+		ship_critical_hit_chance_add = 0.38
+		ship_critical_hit_multiplier_add = 3.8
+		ship_vulnerability_add = 0
+		ship_screening_add = 135
+		ship_readiness_gain_add = 25
+		ship_accuracy_add = 30
+		ship_visibility_add = 52
+		ship_detection_add = 130
+		ship_blockade_strength_add = 460
+		ship_carrying_capacity_add = 11.5
+		ship_marine_capacity_add = 0
+	}
+	construction_goods = {
+		goods_input_steel_add = 5200
+		goods_input_engines_add = 2600
+		goods_input_computers_add = 3000
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 3.4
+		goods_input_steel_add = 3.2
+		goods_input_ammunition_add = 3.2
+		goods_input_computers_add = 3
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_cruisers.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_light_cruiser.dds"
+	ai_weight = 1.5
+	ai_weight = 1.5
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_light_cruiser_armor_light ship_mod_light_cruiser_armor_medium ship_mod_light_cruiser_armor_high }
+		ship_mod_slot_guns = { ship_mod_light_cruiser_guns_light ship_mod_light_cruiser_guns_medium ship_mod_light_cruiser_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_light_cruiser_propulsion_light ship_mod_light_cruiser_propulsion_medium ship_mod_light_cruiser_propulsion_high }
+		ship_mod_slot_range = { ship_mod_light_cruiser_range_light ship_mod_light_cruiser_range_medium ship_mod_light_cruiser_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_fire_suppression utility_mod_camouflage }
+	}
+	modification_construction_cost = 250
+	unlocking_technologies = { tech_military_naval_forces_20 }
+}
+

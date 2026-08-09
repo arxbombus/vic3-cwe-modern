@@ -1,0 +1,26 @@
+rule,implementation
+GLOBAL-EMPLOYMENT,"For every future PM: do not reduce total employment below the Era-10/reference PM. Convert only lower-strata clerks/farmers/shopkeepers/machinists/laborers to engineers. Officers, soldiers, slaves, capitalists, aristocrats, academics, bureaucrats and existing engineers are never converted. A composition-changing PM gets building_modifiers.unscaled.goods_output_mult=0.1; an employment PM with no composition change gets 0.2."
+PARTIAL-GOODS,"For a partial/single Goods PMG, the baseline is the highest production method that is both defined AND actually listed in the active PMG. Never use a dangling definition. With N future tiers, scale every positive goods_input_* and goods_output_* from baseline by evenly spaced factors ending at 2.0x: N=3 -> 1.333/1.667/2.0; N=4 -> 1.25/1.5/1.75/2.0; N=5 -> 1.2/1.4/1.6/1.8/2.0; N=10 -> 1.1..2.0. Preserve non-goods mechanics unless a chain rule overrides them."
+AG-GRAIN/FABRIC/FRUIT/RUBBER,"Per future era over PM10: +1 industrial chemicals input, +1 oil, +0.5 industrial robots, +0.5 software, +100 output of the primary good."
+AG-COFFEE/TEA/TOBACCO,"Per future era over PM10: +1 industrial chemicals, +1 oil, +0.5 industrial robots, +0.5 software, +50 primary output."
+AG-WINE/OPIUM,"Per future era over PM10: +2 industrial chemicals, +1 oil, +0.5 industrial robots, +0.5 software, +50 primary output."
+AG-FISH,"Per future era: +1 industrial chemicals, +1 industrial robots, +1 oil, +0.5 software, +0.5 steamers, +100 fish output."
+AG-MEAT,"Per future era: +1 electricity, +10 grain, +1 industrial chemicals, +0.5 industrial robots, +0.5 software, +10 fabric, +100 meat output."
+MINE-COAL,"Per future era: +2 electricity, +2 industrial robots, +0.5 software, +50 coal output, +1 pollution. Do NOT reintroduce oil input removed by the current progression."
+MINE-IRON,"Per future era: +2 electricity, +2 industrial robots, +2 oil, +0.5 software, +100 iron output, +1 pollution."
+MINE-GOLD/SULFUR,"Per future era: +2 electricity, +2 industrial robots, +2 oil, +0.5 software, +50 primary output, +1 pollution."
+MINE-LEAD,"Per future era: +2 electricity, +2 industrial robots, +2 oil, +0.5 software, +50 lead output, +1 gold by-product, +1 pollution."
+MINE-OIL,"Per future era: +0.5 industrial robots, +0.5 software, +25 oil output, +1 pollution."
+LOG-WOOD,"Per future era: +1 industrial robots, +1 oil, +0.5 software, +200 wood output, +1 pollution."
+AUTO-SERVICE,"From PM10: +0.5 communication services, +1 electricity, +1 software, +0.5 computers, +1 pollution per era. Generic/shopkeeper staffing converts 100/1000 jobs to engineers per era; professionals stay 1000 engineers."
+AUTO-MANUFACTURING,"From PM10: +0.5 communication, +0.5 electricity, +0.5 software and +2 pollution per era; generic/unskilled also +0.5 industrial robots, machinery uses +0.5 engines. Keep 1000 jobs and convert 100 lower-strata workers to engineers per era."
+ORG-LAND,"From PM10: +0.5 corporate services per era; +1 transportation for agriculture/logging/mining/oil, +0.5 for manufacturing. Keep baseline total workers and convert 10% of baseline lower-strata employment to engineers each era."
+ORG-SERVICES,"No mandatory new goods inputs. Keep 1000 jobs; clerks/shopkeepers convert by 100 per era, professionals remain 1000 engineers."
+COMM-NET,"From pm_very_fast_internet_services: +0.2 professional services input, +25 communication services output and +1 pollution per era. Preserve computer/electricity/software values unless source changes. Keep 500 jobs and convert 50 clerks to engineers per era."
+UNIVERSITY-TECHNIQUE,"From pm_technique_10_building_university: +1 communication services, +1 electricity, +1 software and +1 innovation per era."
+CONSTRUCTION,"Future construction-output tiers use 1.2/1.4/1.6/1.8/2.0x PM5 material inputs; country_construction_add=7/8/9/10/11 and state_construction_mult=.04/.05/.06/.07/.08. Future size tiers add +2 transportation, +2 communication, +1 industrial robots, +1 computers, +2 software per tier and convert the fixed 500 laborers to engineers in 100-worker steps."
+AIR-DESIGN,"Four future tiers from pm_large_jet_aircraft: each tier +1 aeroplanes input, +10 propulsion-energy input, +50 transportation output, +5 merchant marine, +10 infrastructure and +1 trade capacity; professional services remains 2. Staffing remains 1000 total and transitions machinists→engineers according to unlock era."
+ENERGY,"Four-tier generation PMs clone the highest live PM and scale positive goods inputs/outputs 1.25/1.5/1.75/2.0. Future plant labor is engineer-only; previously engineer-only plants get output_mult .2, converted plants .1."
+SEA,Follow the explicit two-cycle 11–20 cadence. Port PM1 = 500 laborers+500 engineers; Port PM2 =1000 engineers. New ship-design and steamer tiers reach 1.5x then 2.0x their live baseline.
+NUCLEAR-TYPE,Type3–6: industrial chemicals 30/40/50/60; 2000 engineers +200 soldiers; prestige-from-army-power-projection .03/.04/.05/.06; WMD law; preserve nuclear timed modifier.
+NUCLEAR-ROCKET,Rocket2–5: advanced weaponry 8/11/14/17; oil 30/35/40/45; officers100; prestige .03/.05/.07/.09; WMD law. Gate each rocket on all nuclear types available by that point.

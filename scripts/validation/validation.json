@@ -1,0 +1,12 @@
+{
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "technologies": 260,
+    "production_methods": 592,
+    "combat_units": 30,
+    "ships": 52,
+    "mobilization_options": 10,
+    "active_pmgs": 130
+  }
+}

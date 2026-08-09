@@ -1,0 +1,643 @@
+# Generated Era 11-20 battleship ships. Graphics inherited from live final ship.
+
+INJECT:ship_type_battleship_10 = {
+	is_obsolete = { has_technology_researched = tech_military_naval_forces_11 }
+}
+
+ship_type_battleship_11 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_battle_against_ship_type_torpedo_boat_accuracy_mult = -0.8
+		ship_battle_against_ship_type_torpedo_boat_destroyer_accuracy_mult = -0.8
+		ship_battle_against_ship_type_submarine_accuracy_mult = -0.8
+		ship_battle_against_ship_type_destroyer_accuracy_mult = -0.6
+		ship_max_distance_to_port_add = 13
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 8500
+		ship_crew_max_add = 100
+		ship_movement_speed_add = 11
+		ship_supply_capacity_add = 140
+		ship_hull_damage_add = 220
+		ship_crew_damage_add = 110
+		ship_armor_add = 420
+		ship_critical_hit_chance_add = 0.2
+		ship_critical_hit_multiplier_add = 3.2
+		ship_vulnerability_add = 60
+		ship_screening_add = 36
+		ship_readiness_gain_add = 16
+		ship_accuracy_add = 22
+		ship_visibility_add = 190
+		ship_detection_add = 180
+		ship_blockade_strength_add = 950
+		ship_carrying_capacity_add = 7
+		ship_marine_capacity_add = 3.5
+	}
+	construction_goods = {
+		goods_input_steel_add = 3800
+		goods_input_engines_add = 1800
+		goods_input_computers_add = 1200
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 1.6
+		goods_input_steel_add = 1.4
+		goods_input_ammunition_add = 1.4
+		goods_input_computers_add = 1.2
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_super_dreadnought.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_super_dreadnought_armor_light ship_mod_super_dreadnought_armor_medium ship_mod_super_dreadnought_armor_high }
+		ship_mod_slot_guns = { ship_mod_super_dreadnought_guns_light ship_mod_super_dreadnought_guns_medium ship_mod_super_dreadnought_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_super_dreadnought_propulsion_light ship_mod_super_dreadnought_propulsion_medium ship_mod_super_dreadnought_propulsion_high }
+		ship_mod_slot_range = { ship_mod_super_dreadnought_range_light ship_mod_super_dreadnought_range_medium ship_mod_super_dreadnought_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_3 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 375
+	unlocking_technologies = { tech_military_naval_forces_11 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_12
+	}
+}
+
+ship_type_battleship_12 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_battle_against_ship_type_torpedo_boat_accuracy_mult = -0.8
+		ship_battle_against_ship_type_torpedo_boat_destroyer_accuracy_mult = -0.8
+		ship_battle_against_ship_type_submarine_accuracy_mult = -0.8
+		ship_battle_against_ship_type_destroyer_accuracy_mult = -0.6
+		ship_max_distance_to_port_add = 14
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 9000
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 12
+		ship_supply_capacity_add = 150
+		ship_hull_damage_add = 240
+		ship_crew_damage_add = 120
+		ship_armor_add = 440
+		ship_critical_hit_chance_add = 0.22
+		ship_critical_hit_multiplier_add = 3.4
+		ship_vulnerability_add = 55
+		ship_screening_add = 38
+		ship_readiness_gain_add = 17
+		ship_accuracy_add = 24
+		ship_visibility_add = 200
+		ship_detection_add = 200
+		ship_blockade_strength_add = 1000
+		ship_carrying_capacity_add = 7.5
+		ship_marine_capacity_add = 3.75
+	}
+	construction_goods = {
+		goods_input_steel_add = 4000
+		goods_input_engines_add = 1900
+		goods_input_computers_add = 1400
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 1.8
+		goods_input_steel_add = 1.6
+		goods_input_ammunition_add = 1.6
+		goods_input_computers_add = 1.4
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_super_dreadnought.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_super_dreadnought_armor_light ship_mod_super_dreadnought_armor_medium ship_mod_super_dreadnought_armor_high }
+		ship_mod_slot_guns = { ship_mod_super_dreadnought_guns_light ship_mod_super_dreadnought_guns_medium ship_mod_super_dreadnought_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_super_dreadnought_propulsion_light ship_mod_super_dreadnought_propulsion_medium ship_mod_super_dreadnought_propulsion_high }
+		ship_mod_slot_range = { ship_mod_super_dreadnought_range_light ship_mod_super_dreadnought_range_medium ship_mod_super_dreadnought_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_3 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 400
+	unlocking_technologies = { tech_military_naval_forces_12 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_13
+	}
+}
+
+ship_type_battleship_13 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_battle_against_ship_type_torpedo_boat_accuracy_mult = -0.8
+		ship_battle_against_ship_type_torpedo_boat_destroyer_accuracy_mult = -0.8
+		ship_battle_against_ship_type_submarine_accuracy_mult = -0.8
+		ship_battle_against_ship_type_destroyer_accuracy_mult = -0.6
+		ship_max_distance_to_port_add = 15
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 9500
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 13
+		ship_supply_capacity_add = 160
+		ship_hull_damage_add = 260
+		ship_crew_damage_add = 130
+		ship_armor_add = 460
+		ship_critical_hit_chance_add = 0.24
+		ship_critical_hit_multiplier_add = 3.6
+		ship_vulnerability_add = 50
+		ship_screening_add = 40
+		ship_readiness_gain_add = 18
+		ship_accuracy_add = 26
+		ship_visibility_add = 210
+		ship_detection_add = 220
+		ship_blockade_strength_add = 1050
+		ship_carrying_capacity_add = 8
+		ship_marine_capacity_add = 4
+	}
+	construction_goods = {
+		goods_input_steel_add = 4200
+		goods_input_engines_add = 2000
+		goods_input_computers_add = 1600
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2
+		goods_input_steel_add = 1.8
+		goods_input_ammunition_add = 1.8
+		goods_input_computers_add = 1.6
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_super_dreadnought.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_super_dreadnought_armor_light ship_mod_super_dreadnought_armor_medium ship_mod_super_dreadnought_armor_high }
+		ship_mod_slot_guns = { ship_mod_super_dreadnought_guns_light ship_mod_super_dreadnought_guns_medium ship_mod_super_dreadnought_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_super_dreadnought_propulsion_light ship_mod_super_dreadnought_propulsion_medium ship_mod_super_dreadnought_propulsion_high }
+		ship_mod_slot_range = { ship_mod_super_dreadnought_range_light ship_mod_super_dreadnought_range_medium ship_mod_super_dreadnought_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_3 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 425
+	unlocking_technologies = { tech_military_naval_forces_13 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_14
+	}
+}
+
+ship_type_battleship_14 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_battle_against_ship_type_torpedo_boat_accuracy_mult = -0.8
+		ship_battle_against_ship_type_torpedo_boat_destroyer_accuracy_mult = -0.8
+		ship_battle_against_ship_type_submarine_accuracy_mult = -0.8
+		ship_battle_against_ship_type_destroyer_accuracy_mult = -0.6
+		ship_max_distance_to_port_add = 16
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 10000
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 14
+		ship_supply_capacity_add = 170
+		ship_hull_damage_add = 280
+		ship_crew_damage_add = 140
+		ship_armor_add = 480
+		ship_critical_hit_chance_add = 0.26
+		ship_critical_hit_multiplier_add = 3.8
+		ship_vulnerability_add = 45
+		ship_screening_add = 42
+		ship_readiness_gain_add = 19
+		ship_accuracy_add = 28
+		ship_visibility_add = 220
+		ship_detection_add = 240
+		ship_blockade_strength_add = 1100
+		ship_carrying_capacity_add = 8.5
+		ship_marine_capacity_add = 4.25
+	}
+	construction_goods = {
+		goods_input_steel_add = 4400
+		goods_input_engines_add = 2100
+		goods_input_computers_add = 1800
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2.2
+		goods_input_steel_add = 2
+		goods_input_ammunition_add = 2
+		goods_input_computers_add = 1.8
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_super_dreadnought.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_super_dreadnought_armor_light ship_mod_super_dreadnought_armor_medium ship_mod_super_dreadnought_armor_high }
+		ship_mod_slot_guns = { ship_mod_super_dreadnought_guns_light ship_mod_super_dreadnought_guns_medium ship_mod_super_dreadnought_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_super_dreadnought_propulsion_light ship_mod_super_dreadnought_propulsion_medium ship_mod_super_dreadnought_propulsion_high }
+		ship_mod_slot_range = { ship_mod_super_dreadnought_range_light ship_mod_super_dreadnought_range_medium ship_mod_super_dreadnought_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_3 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 450
+	unlocking_technologies = { tech_military_naval_forces_14 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_15
+	}
+}
+
+ship_type_battleship_15 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_battle_against_ship_type_torpedo_boat_accuracy_mult = -0.8
+		ship_battle_against_ship_type_torpedo_boat_destroyer_accuracy_mult = -0.8
+		ship_battle_against_ship_type_submarine_accuracy_mult = -0.8
+		ship_battle_against_ship_type_destroyer_accuracy_mult = -0.6
+		ship_max_distance_to_port_add = 17
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 10500
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 15
+		ship_supply_capacity_add = 180
+		ship_hull_damage_add = 300
+		ship_crew_damage_add = 150
+		ship_armor_add = 500
+		ship_critical_hit_chance_add = 0.28
+		ship_critical_hit_multiplier_add = 4
+		ship_vulnerability_add = 40
+		ship_screening_add = 44
+		ship_readiness_gain_add = 20
+		ship_accuracy_add = 30
+		ship_visibility_add = 230
+		ship_detection_add = 260
+		ship_blockade_strength_add = 1150
+		ship_carrying_capacity_add = 9
+		ship_marine_capacity_add = 4.5
+	}
+	construction_goods = {
+		goods_input_steel_add = 4600
+		goods_input_engines_add = 2200
+		goods_input_computers_add = 2000
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2.4
+		goods_input_steel_add = 2.2
+		goods_input_ammunition_add = 2.2
+		goods_input_computers_add = 2
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_super_dreadnought.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_super_dreadnought_armor_light ship_mod_super_dreadnought_armor_medium ship_mod_super_dreadnought_armor_high }
+		ship_mod_slot_guns = { ship_mod_super_dreadnought_guns_light ship_mod_super_dreadnought_guns_medium ship_mod_super_dreadnought_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_super_dreadnought_propulsion_light ship_mod_super_dreadnought_propulsion_medium ship_mod_super_dreadnought_propulsion_high }
+		ship_mod_slot_range = { ship_mod_super_dreadnought_range_light ship_mod_super_dreadnought_range_medium ship_mod_super_dreadnought_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_3 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 475
+	unlocking_technologies = { tech_military_naval_forces_15 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_16
+	}
+}
+
+ship_type_battleship_16 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_battle_against_ship_type_torpedo_boat_accuracy_mult = -0.8
+		ship_battle_against_ship_type_torpedo_boat_destroyer_accuracy_mult = -0.8
+		ship_battle_against_ship_type_submarine_accuracy_mult = -0.8
+		ship_battle_against_ship_type_destroyer_accuracy_mult = -0.6
+		ship_max_distance_to_port_add = 18
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 11000
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 16
+		ship_supply_capacity_add = 190
+		ship_hull_damage_add = 320
+		ship_crew_damage_add = 160
+		ship_armor_add = 520
+		ship_critical_hit_chance_add = 0.3
+		ship_critical_hit_multiplier_add = 4.2
+		ship_vulnerability_add = 35
+		ship_screening_add = 46
+		ship_readiness_gain_add = 21
+		ship_accuracy_add = 32
+		ship_visibility_add = 240
+		ship_detection_add = 280
+		ship_blockade_strength_add = 1200
+		ship_carrying_capacity_add = 9.5
+		ship_marine_capacity_add = 4.75
+	}
+	construction_goods = {
+		goods_input_steel_add = 4800
+		goods_input_engines_add = 2300
+		goods_input_computers_add = 2200
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2.6
+		goods_input_steel_add = 2.4
+		goods_input_ammunition_add = 2.4
+		goods_input_computers_add = 2.2
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_super_dreadnought.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_super_dreadnought_armor_light ship_mod_super_dreadnought_armor_medium ship_mod_super_dreadnought_armor_high }
+		ship_mod_slot_guns = { ship_mod_super_dreadnought_guns_light ship_mod_super_dreadnought_guns_medium ship_mod_super_dreadnought_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_super_dreadnought_propulsion_light ship_mod_super_dreadnought_propulsion_medium ship_mod_super_dreadnought_propulsion_high }
+		ship_mod_slot_range = { ship_mod_super_dreadnought_range_light ship_mod_super_dreadnought_range_medium ship_mod_super_dreadnought_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_3 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 500
+	unlocking_technologies = { tech_military_naval_forces_16 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_17
+	}
+}
+
+ship_type_battleship_17 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_battle_against_ship_type_torpedo_boat_accuracy_mult = -0.8
+		ship_battle_against_ship_type_torpedo_boat_destroyer_accuracy_mult = -0.8
+		ship_battle_against_ship_type_submarine_accuracy_mult = -0.8
+		ship_battle_against_ship_type_destroyer_accuracy_mult = -0.6
+		ship_max_distance_to_port_add = 19
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 11500
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 17
+		ship_supply_capacity_add = 200
+		ship_hull_damage_add = 340
+		ship_crew_damage_add = 170
+		ship_armor_add = 540
+		ship_critical_hit_chance_add = 0.32
+		ship_critical_hit_multiplier_add = 4.4
+		ship_vulnerability_add = 30
+		ship_screening_add = 48
+		ship_readiness_gain_add = 22
+		ship_accuracy_add = 34
+		ship_visibility_add = 250
+		ship_detection_add = 300
+		ship_blockade_strength_add = 1250
+		ship_carrying_capacity_add = 10
+		ship_marine_capacity_add = 5
+	}
+	construction_goods = {
+		goods_input_steel_add = 5000
+		goods_input_engines_add = 2400
+		goods_input_computers_add = 2400
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 2.8
+		goods_input_steel_add = 2.6
+		goods_input_ammunition_add = 2.6
+		goods_input_computers_add = 2.4
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_super_dreadnought.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_super_dreadnought_armor_light ship_mod_super_dreadnought_armor_medium ship_mod_super_dreadnought_armor_high }
+		ship_mod_slot_guns = { ship_mod_super_dreadnought_guns_light ship_mod_super_dreadnought_guns_medium ship_mod_super_dreadnought_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_super_dreadnought_propulsion_light ship_mod_super_dreadnought_propulsion_medium ship_mod_super_dreadnought_propulsion_high }
+		ship_mod_slot_range = { ship_mod_super_dreadnought_range_light ship_mod_super_dreadnought_range_medium ship_mod_super_dreadnought_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_3 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 525
+	unlocking_technologies = { tech_military_naval_forces_17 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_18
+	}
+}
+
+ship_type_battleship_18 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_battle_against_ship_type_torpedo_boat_accuracy_mult = -0.8
+		ship_battle_against_ship_type_torpedo_boat_destroyer_accuracy_mult = -0.8
+		ship_battle_against_ship_type_submarine_accuracy_mult = -0.8
+		ship_battle_against_ship_type_destroyer_accuracy_mult = -0.6
+		ship_max_distance_to_port_add = 20
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 12000
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 18
+		ship_supply_capacity_add = 210
+		ship_hull_damage_add = 360
+		ship_crew_damage_add = 180
+		ship_armor_add = 560
+		ship_critical_hit_chance_add = 0.34
+		ship_critical_hit_multiplier_add = 4.6
+		ship_vulnerability_add = 25
+		ship_screening_add = 50
+		ship_readiness_gain_add = 23
+		ship_accuracy_add = 36
+		ship_visibility_add = 260
+		ship_detection_add = 320
+		ship_blockade_strength_add = 1300
+		ship_carrying_capacity_add = 10.5
+		ship_marine_capacity_add = 5.25
+	}
+	construction_goods = {
+		goods_input_steel_add = 5200
+		goods_input_engines_add = 2500
+		goods_input_computers_add = 2600
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 3
+		goods_input_steel_add = 2.8
+		goods_input_ammunition_add = 2.8
+		goods_input_computers_add = 2.6
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_super_dreadnought.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_super_dreadnought_armor_light ship_mod_super_dreadnought_armor_medium ship_mod_super_dreadnought_armor_high }
+		ship_mod_slot_guns = { ship_mod_super_dreadnought_guns_light ship_mod_super_dreadnought_guns_medium ship_mod_super_dreadnought_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_super_dreadnought_propulsion_light ship_mod_super_dreadnought_propulsion_medium ship_mod_super_dreadnought_propulsion_high }
+		ship_mod_slot_range = { ship_mod_super_dreadnought_range_light ship_mod_super_dreadnought_range_medium ship_mod_super_dreadnought_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_3 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 550
+	unlocking_technologies = { tech_military_naval_forces_18 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_19
+	}
+}
+
+ship_type_battleship_19 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_battle_against_ship_type_torpedo_boat_accuracy_mult = -0.8
+		ship_battle_against_ship_type_torpedo_boat_destroyer_accuracy_mult = -0.8
+		ship_battle_against_ship_type_submarine_accuracy_mult = -0.8
+		ship_battle_against_ship_type_destroyer_accuracy_mult = -0.6
+		ship_max_distance_to_port_add = 21
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 12500
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 19
+		ship_supply_capacity_add = 220
+		ship_hull_damage_add = 380
+		ship_crew_damage_add = 190
+		ship_armor_add = 580
+		ship_critical_hit_chance_add = 0.36
+		ship_critical_hit_multiplier_add = 4.8
+		ship_vulnerability_add = 20
+		ship_screening_add = 52
+		ship_readiness_gain_add = 24
+		ship_accuracy_add = 38
+		ship_visibility_add = 270
+		ship_detection_add = 340
+		ship_blockade_strength_add = 1350
+		ship_carrying_capacity_add = 11
+		ship_marine_capacity_add = 5.5
+	}
+	construction_goods = {
+		goods_input_steel_add = 5400
+		goods_input_engines_add = 2600
+		goods_input_computers_add = 2800
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 3.2
+		goods_input_steel_add = 3
+		goods_input_ammunition_add = 3
+		goods_input_computers_add = 2.8
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_super_dreadnought.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_super_dreadnought_armor_light ship_mod_super_dreadnought_armor_medium ship_mod_super_dreadnought_armor_high }
+		ship_mod_slot_guns = { ship_mod_super_dreadnought_guns_light ship_mod_super_dreadnought_guns_medium ship_mod_super_dreadnought_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_super_dreadnought_propulsion_light ship_mod_super_dreadnought_propulsion_medium ship_mod_super_dreadnought_propulsion_high }
+		ship_mod_slot_range = { ship_mod_super_dreadnought_range_light ship_mod_super_dreadnought_range_medium ship_mod_super_dreadnought_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_3 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 575
+	unlocking_technologies = { tech_military_naval_forces_19 }
+	is_obsolete = {
+		has_technology_researched = tech_military_naval_forces_20
+	}
+}
+
+ship_type_battleship_20 = {
+	ship_group = ship_group_capital_ships
+	can_be_flagship = yes
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_battle_against_ship_type_torpedo_boat_accuracy_mult = -0.8
+		ship_battle_against_ship_type_torpedo_boat_destroyer_accuracy_mult = -0.8
+		ship_battle_against_ship_type_submarine_accuracy_mult = -0.8
+		ship_battle_against_ship_type_destroyer_accuracy_mult = -0.6
+		ship_max_distance_to_port_add = 22
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 13000
+		ship_crew_max_add = 20
+		ship_movement_speed_add = 20
+		ship_supply_capacity_add = 230
+		ship_hull_damage_add = 400
+		ship_crew_damage_add = 200
+		ship_armor_add = 600
+		ship_critical_hit_chance_add = 0.38
+		ship_critical_hit_multiplier_add = 5
+		ship_vulnerability_add = 15
+		ship_screening_add = 54
+		ship_readiness_gain_add = 25
+		ship_accuracy_add = 40
+		ship_visibility_add = 280
+		ship_detection_add = 360
+		ship_blockade_strength_add = 1400
+		ship_carrying_capacity_add = 11.5
+		ship_marine_capacity_add = 5.75
+	}
+	construction_goods = {
+		goods_input_steel_add = 5600
+		goods_input_engines_add = 2700
+		goods_input_computers_add = 3000
+	}
+	materiel_goods = {
+		goods_input_groceries_add = 1
+		goods_input_oil_add = 3.4
+		goods_input_steel_add = 3.2
+		goods_input_ammunition_add = 3.2
+		goods_input_computers_add = 3
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_capital_ships.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_super_dreadnought.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_super_dreadnought_armor_light ship_mod_super_dreadnought_armor_medium ship_mod_super_dreadnought_armor_high }
+		ship_mod_slot_guns = { ship_mod_super_dreadnought_guns_light ship_mod_super_dreadnought_guns_medium ship_mod_super_dreadnought_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_super_dreadnought_propulsion_light ship_mod_super_dreadnought_propulsion_medium ship_mod_super_dreadnought_propulsion_high }
+		ship_mod_slot_range = { ship_mod_super_dreadnought_range_light ship_mod_super_dreadnought_range_medium ship_mod_super_dreadnought_range_high }
+		ship_mod_slot_utility_1 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_2 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+		ship_mod_slot_utility_3 = { utility_mod_patrol_boats utility_mod_landing_skiffs utility_mod_fire_suppression utility_mod_extended_sick_bay utility_mod_torpedo_nets utility_mod_camouflage }
+	}
+	modification_construction_cost = 600
+	unlocking_technologies = { tech_military_naval_forces_20 }
+}
+

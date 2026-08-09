@@ -1,0 +1,1016 @@
+# Generated CWE Era 11-20 society technologies
+# Era 11: Algorithmic Market Governance
+tech_economy_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/macroeconomics.dds"
+	category = society
+	unlocking_technologies = { tech_economy_10 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_max_trade_advantage_from_capacity_add = 0.05
+		state_trade_advantage_mult = 0.02
+		building_cash_reserves_mult = 0.1
+		building_economy_of_scale_level_cap_add = 10
+		country_max_weekly_construction_progress_add = 5
+		country_max_companies_add = 1
+		country_free_charters_add = 1
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Real-Time Macroeconomics
+tech_economy_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/macroeconomics.dds"
+	category = society
+	unlocking_technologies = { tech_economy_11 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_max_trade_advantage_from_capacity_add = 0.05
+		state_trade_advantage_mult = 0.02
+		building_cash_reserves_mult = 0.1
+		building_economy_of_scale_level_cap_add = 10
+		country_max_weekly_construction_progress_add = 5
+		country_max_companies_add = 1
+		country_free_charters_add = 1
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Machine-Mediated Capital Allocation
+tech_economy_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/macroeconomics.dds"
+	category = society
+	unlocking_technologies = { tech_economy_12 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_max_trade_advantage_from_capacity_add = 0.05
+		state_trade_advantage_mult = 0.02
+		building_cash_reserves_mult = 0.1
+		building_economy_of_scale_level_cap_add = 10
+		country_max_weekly_construction_progress_add = 5
+		country_max_companies_add = 1
+		country_free_charters_add = 1
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Planetary Clearing Networks
+tech_economy_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/macroeconomics.dds"
+	category = society
+	unlocking_technologies = { tech_economy_13 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_max_trade_advantage_from_capacity_add = 0.05
+		state_trade_advantage_mult = 0.02
+		building_cash_reserves_mult = 0.1
+		building_economy_of_scale_level_cap_add = 10
+		country_max_weekly_construction_progress_add = 5
+		country_max_companies_add = 1
+		country_free_charters_add = 1
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Autonomous Corporate Governance
+tech_economy_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/macroeconomics.dds"
+	category = society
+	unlocking_technologies = { tech_economy_14 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_max_trade_advantage_from_capacity_add = 0.05
+		state_trade_advantage_mult = 0.02
+		building_cash_reserves_mult = 0.1
+		building_economy_of_scale_level_cap_add = 10
+		country_max_weekly_construction_progress_add = 5
+		country_max_companies_add = 1
+		country_free_charters_add = 1
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Synthetic Market Institutions
+tech_economy_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/macroeconomics.dds"
+	category = society
+	unlocking_technologies = { tech_economy_15 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_max_trade_advantage_from_capacity_add = 0.05
+		state_trade_advantage_mult = 0.02
+		building_cash_reserves_mult = 0.1
+		building_economy_of_scale_level_cap_add = 10
+		country_max_weekly_construction_progress_add = 5
+		country_max_companies_add = 1
+		country_free_charters_add = 1
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Predictive Political Economy
+tech_economy_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/macroeconomics.dds"
+	category = society
+	unlocking_technologies = { tech_economy_16 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_max_trade_advantage_from_capacity_add = 0.05
+		state_trade_advantage_mult = 0.02
+		building_cash_reserves_mult = 0.1
+		building_economy_of_scale_level_cap_add = 10
+		country_max_weekly_construction_progress_add = 5
+		country_max_companies_add = 1
+		country_free_charters_add = 1
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Post-Scarcity Allocation Theory
+tech_economy_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/macroeconomics.dds"
+	category = society
+	unlocking_technologies = { tech_economy_17 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_max_trade_advantage_from_capacity_add = 0.05
+		state_trade_advantage_mult = 0.02
+		building_cash_reserves_mult = 0.1
+		building_economy_of_scale_level_cap_add = 10
+		country_max_weekly_construction_progress_add = 5
+		country_max_companies_add = 1
+		country_free_charters_add = 1
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Interplanetary Political Economy
+tech_economy_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/macroeconomics.dds"
+	category = society
+	unlocking_technologies = { tech_economy_18 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_max_trade_advantage_from_capacity_add = 0.05
+		state_trade_advantage_mult = 0.02
+		building_cash_reserves_mult = 0.1
+		building_economy_of_scale_level_cap_add = 10
+		country_max_weekly_construction_progress_add = 5
+		country_max_companies_add = 1
+		country_free_charters_add = 1
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Abundance Economics
+tech_economy_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/macroeconomics.dds"
+	category = society
+	unlocking_technologies = { tech_economy_19 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_max_trade_advantage_from_capacity_add = 0.05
+		state_trade_advantage_mult = 0.02
+		building_cash_reserves_mult = 0.1
+		building_economy_of_scale_level_cap_add = 10
+		country_max_weekly_construction_progress_add = 5
+		country_max_companies_add = 1
+		country_free_charters_add = 1
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Networked Sovereignty
+tech_geopolitics_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/multilateral_alliances.dds"
+	category = society
+	unlocking_technologies = { tech_geopolitics_10 }
+	modifier = {
+		country_diplomatic_play_maneuvers_mult = 0.2
+		country_influence_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Planetary Treaty Systems
+tech_geopolitics_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/multilateral_alliances.dds"
+	category = society
+	unlocking_technologies = { tech_geopolitics_11 }
+	modifier = {
+		country_diplomatic_play_maneuvers_mult = 0.2
+		country_influence_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Climate Governance Regimes
+tech_geopolitics_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/multilateral_alliances.dds"
+	category = society
+	unlocking_technologies = { tech_geopolitics_12 }
+	modifier = {
+		country_diplomatic_play_maneuvers_mult = 0.2
+		country_influence_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Supranational Security Architecture
+tech_geopolitics_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/multilateral_alliances.dds"
+	category = society
+	unlocking_technologies = { tech_geopolitics_13 }
+	modifier = {
+		country_diplomatic_play_maneuvers_mult = 0.2
+		country_influence_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Continental Federations
+tech_geopolitics_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/multilateral_alliances.dds"
+	category = society
+	unlocking_technologies = { tech_geopolitics_14 }
+	modifier = {
+		country_diplomatic_play_maneuvers_mult = 0.2
+		country_influence_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Transnational Citizenship
+tech_geopolitics_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/multilateral_alliances.dds"
+	category = society
+	unlocking_technologies = { tech_geopolitics_15 }
+	modifier = {
+		country_diplomatic_play_maneuvers_mult = 0.2
+		country_influence_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Planetary Resource Compacts
+tech_geopolitics_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/multilateral_alliances.dds"
+	category = society
+	unlocking_technologies = { tech_geopolitics_16 }
+	modifier = {
+		country_diplomatic_play_maneuvers_mult = 0.2
+		country_influence_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Orbital Sovereignty Law
+tech_geopolitics_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/multilateral_alliances.dds"
+	category = society
+	unlocking_technologies = { tech_geopolitics_17 }
+	modifier = {
+		country_diplomatic_play_maneuvers_mult = 0.2
+		country_influence_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Interplanetary Diplomacy
+tech_geopolitics_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/multilateral_alliances.dds"
+	category = society
+	unlocking_technologies = { tech_geopolitics_18 }
+	modifier = {
+		country_diplomatic_play_maneuvers_mult = 0.2
+		country_influence_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Civilizational Governance
+tech_geopolitics_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/multilateral_alliances.dds"
+	category = society
+	unlocking_technologies = { tech_geopolitics_19 }
+	modifier = {
+		country_diplomatic_play_maneuvers_mult = 0.2
+		country_influence_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Lifelong Adaptive Education
+tech_philosophy_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	category = society
+	unlocking_technologies = { tech_philosophy_10 }
+	modifier = {
+		state_building_university_max_level_add = 2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Neural Learning Interfaces
+tech_philosophy_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	category = society
+	unlocking_technologies = { tech_philosophy_11 }
+	modifier = {
+		state_building_university_max_level_add = 2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: AI Research Partners
+tech_philosophy_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	category = society
+	unlocking_technologies = { tech_philosophy_12 }
+	modifier = {
+		state_building_university_max_level_add = 2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Immersive Knowledge Environments
+tech_philosophy_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	category = society
+	unlocking_technologies = { tech_philosophy_13 }
+	modifier = {
+		state_building_university_max_level_add = 2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Cognitive Augmentation
+tech_philosophy_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	category = society
+	unlocking_technologies = { tech_philosophy_14 }
+	modifier = {
+		state_building_university_max_level_add = 2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Synthetic Tutors
+tech_philosophy_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	category = society
+	unlocking_technologies = { tech_philosophy_15 }
+	modifier = {
+		state_building_university_max_level_add = 2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Collective Intelligence Education
+tech_philosophy_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	category = society
+	unlocking_technologies = { tech_philosophy_16 }
+	modifier = {
+		state_building_university_max_level_add = 2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Direct Skill Encoding
+tech_philosophy_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	category = society
+	unlocking_technologies = { tech_philosophy_17 }
+	modifier = {
+		state_building_university_max_level_add = 2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Post-Biological Scholarship
+tech_philosophy_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	category = society
+	unlocking_technologies = { tech_philosophy_18 }
+	modifier = {
+		state_building_university_max_level_add = 2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Civilization-Scale Knowledge Systems
+tech_philosophy_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/academia.dds"
+	category = society
+	unlocking_technologies = { tech_philosophy_19 }
+	modifier = {
+		state_building_university_max_level_add = 2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Algorithmic Administration
+tech_politics_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
+	category = society
+	unlocking_technologies = { tech_politics_10 }
+	modifier = {
+		country_authority_mult = 0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		state_incorporation_speed_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Deliberative Digital Governance
+tech_politics_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
+	category = society
+	unlocking_technologies = { tech_politics_11 }
+	modifier = {
+		country_authority_mult = 0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		country_agitator_slots_add = 1
+		state_incorporation_speed_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Predictive Public Policy
+tech_politics_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
+	category = society
+	unlocking_technologies = { tech_politics_12 }
+	modifier = {
+		country_authority_mult = 0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		state_incorporation_speed_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Adaptive Constitutionalism
+tech_politics_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
+	category = society
+	unlocking_technologies = { tech_politics_13 }
+	modifier = {
+		country_authority_mult = 0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		country_agitator_slots_add = 1
+		state_incorporation_speed_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Automated State Capacity
+tech_politics_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
+	category = society
+	unlocking_technologies = { tech_politics_14 }
+	modifier = {
+		country_authority_mult = 0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		state_incorporation_speed_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Networked Civic Institutions
+tech_politics_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
+	category = society
+	unlocking_technologies = { tech_politics_15 }
+	modifier = {
+		country_authority_mult = 0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		country_agitator_slots_add = 1
+		state_incorporation_speed_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Machine-Mediated Governance
+tech_politics_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
+	category = society
+	unlocking_technologies = { tech_politics_16 }
+	modifier = {
+		country_authority_mult = 0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		state_incorporation_speed_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Planetary Political Institutions
+tech_politics_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
+	category = society
+	unlocking_technologies = { tech_politics_17 }
+	modifier = {
+		country_authority_mult = 0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		country_agitator_slots_add = 1
+		state_incorporation_speed_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Post-National Administration
+tech_politics_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
+	category = society
+	unlocking_technologies = { tech_politics_18 }
+	modifier = {
+		country_authority_mult = 0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		state_incorporation_speed_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Civilizational Statecraft
+tech_politics_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/centralization.dds"
+	category = society
+	unlocking_technologies = { tech_politics_19 }
+	modifier = {
+		country_authority_mult = 0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		country_agitator_slots_add = 1
+		state_incorporation_speed_mult = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Precision Nutrition
+tech_population_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/corporatism.dds"
+	category = society
+	unlocking_technologies = { tech_population_10 }
+	modifier = {
+		state_food_security_add = 0.05
+		state_migration_pull_mult = 0.1
+		state_birth_rate_mult = 0.1
+		state_education_access_wealth_add = 0.002
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Regenerative Public Health
+tech_population_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/corporatism.dds"
+	category = society
+	unlocking_technologies = { tech_population_11 }
+	modifier = {
+		state_food_security_add = 0.05
+		state_migration_pull_mult = 0.1
+		state_birth_rate_mult = 0.1
+		state_education_access_wealth_add = 0.002
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Longevity Medicine
+tech_population_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/corporatism.dds"
+	category = society
+	unlocking_technologies = { tech_population_12 }
+	modifier = {
+		state_food_security_add = 0.05
+		state_migration_pull_mult = 0.1
+		state_birth_rate_mult = 0.1
+		state_education_access_wealth_add = 0.002
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Reproductive Genomics
+tech_population_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/corporatism.dds"
+	category = society
+	unlocking_technologies = { tech_population_13 }
+	modifier = {
+		state_food_security_add = 0.05
+		state_migration_pull_mult = 0.1
+		state_birth_rate_mult = 0.1
+		state_education_access_wealth_add = 0.002
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Organ Renewal
+tech_population_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/corporatism.dds"
+	category = society
+	unlocking_technologies = { tech_population_14 }
+	modifier = {
+		state_food_security_add = 0.05
+		state_migration_pull_mult = 0.1
+		state_birth_rate_mult = 0.1
+		state_education_access_wealth_add = 0.002
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Senescence Reversal
+tech_population_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/corporatism.dds"
+	category = society
+	unlocking_technologies = { tech_population_15 }
+	modifier = {
+		state_food_security_add = 0.05
+		state_migration_pull_mult = 0.1
+		state_birth_rate_mult = 0.1
+		state_education_access_wealth_add = 0.002
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Synthetic Biology Healthcare
+tech_population_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/corporatism.dds"
+	category = society
+	unlocking_technologies = { tech_population_16 }
+	modifier = {
+		state_food_security_add = 0.05
+		state_migration_pull_mult = 0.1
+		state_birth_rate_mult = 0.1
+		state_education_access_wealth_add = 0.002
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Adaptive Human Physiology
+tech_population_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/corporatism.dds"
+	category = society
+	unlocking_technologies = { tech_population_17 }
+	modifier = {
+		state_food_security_add = 0.05
+		state_migration_pull_mult = 0.1
+		state_birth_rate_mult = 0.1
+		state_education_access_wealth_add = 0.002
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Radical Longevity
+tech_population_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/corporatism.dds"
+	category = society
+	unlocking_technologies = { tech_population_18 }
+	modifier = {
+		state_food_security_add = 0.05
+		state_migration_pull_mult = 0.1
+		state_birth_rate_mult = 0.1
+		state_education_access_wealth_add = 0.002
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Engineered Human Vitality
+tech_population_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/corporatism.dds"
+	category = society
+	unlocking_technologies = { tech_population_19 }
+	modifier = {
+		state_food_security_add = 0.05
+		state_migration_pull_mult = 0.1
+		state_birth_rate_mult = 0.1
+		state_education_access_wealth_add = 0.002
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Arcology Systems
+tech_urbanization_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	unlocking_technologies = { tech_urbanization_10 }
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		country_max_weekly_construction_progress_add = 10
+		state_standard_of_living_add = 0.5
+		state_market_access_price_impact = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Autonomous City Utilities
+tech_urbanization_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	unlocking_technologies = { tech_urbanization_11 }
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		country_max_weekly_construction_progress_add = 10
+		state_standard_of_living_add = 0.5
+		state_market_access_price_impact = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Vertical Urban Ecologies
+tech_urbanization_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	unlocking_technologies = { tech_urbanization_12 }
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		country_max_weekly_construction_progress_add = 10
+		state_standard_of_living_add = 0.5
+		state_market_access_price_impact = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Self-Repairing Cities
+tech_urbanization_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	unlocking_technologies = { tech_urbanization_13 }
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		country_max_weekly_construction_progress_add = 10
+		state_standard_of_living_add = 0.5
+		state_market_access_price_impact = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Metropolitan Resource Loops
+tech_urbanization_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	unlocking_technologies = { tech_urbanization_14 }
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		country_max_weekly_construction_progress_add = 10
+		state_standard_of_living_add = 0.5
+		state_market_access_price_impact = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Adaptive Megacity Infrastructure
+tech_urbanization_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	unlocking_technologies = { tech_urbanization_15 }
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		country_max_weekly_construction_progress_add = 10
+		state_standard_of_living_add = 0.5
+		state_market_access_price_impact = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Climate-Controlled Urbanism
+tech_urbanization_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	unlocking_technologies = { tech_urbanization_16 }
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		country_max_weekly_construction_progress_add = 10
+		state_standard_of_living_add = 0.5
+		state_market_access_price_impact = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Planetary Urban Networks
+tech_urbanization_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	unlocking_technologies = { tech_urbanization_17 }
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		country_max_weekly_construction_progress_add = 10
+		state_standard_of_living_add = 0.5
+		state_market_access_price_impact = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: City-Scale Artificial Ecologies
+tech_urbanization_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	unlocking_technologies = { tech_urbanization_18 }
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		country_max_weekly_construction_progress_add = 10
+		state_standard_of_living_add = 0.5
+		state_market_access_price_impact = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Mature Ecumenopolis Systems
+tech_urbanization_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/urbanization.dds"
+	category = society
+	unlocking_technologies = { tech_urbanization_19 }
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		country_max_weekly_construction_progress_add = 10
+		state_standard_of_living_add = 0.5
+		state_market_access_price_impact = 0.05
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+

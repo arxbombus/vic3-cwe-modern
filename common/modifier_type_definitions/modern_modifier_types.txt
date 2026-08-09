@@ -46,3 +46,459 @@ building_group_bg_urban_facilities_construction_efficiency_add={
         ai_value=0
     }
 }
+goods_output_ammunition_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_small_arms_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_artillery_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_tanks_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_warplanes_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_advanced_weaponry_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_aeroplanes_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_steamers_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_locomotives_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_automobiles_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_transportation_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_consumer_robots_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_real_estate_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_electricity_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_merchant_marine_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_services_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_corporate_services_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_professional_services_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_financial_services_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_communication_services_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_media_services_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_software_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_recreational_services_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_construction_services_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_illegal_services_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_grain_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_meat_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_fish_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_fabric_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_wood_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_tea_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_coffee_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_tobacco_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_liquor_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_wine_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_opium_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_fruit_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_groceries_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_clothes_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_furniture_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_telecommunications_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_computers_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_fine_art_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_pharmaceuticals_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_industrial_robots_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_steel_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_industrial_chemicals_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_plastics_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_circuit_boards_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_engines_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_iron_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_lead_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_sulfur_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_gold_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_coal_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_oil_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}
+goods_output_rubber_mult={
+    decimals=1
+    color=good
+    percent=yes
+    game_data={
+        ai_value=0
+    }
+}

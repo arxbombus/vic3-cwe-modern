@@ -1,0 +1,582 @@
+[
+  {
+    "path": "README_IMPLEMENTATION.md",
+    "bytes": 1446
+  },
+  {
+    "path": "REVISION_NOTES_V3.md",
+    "bytes": 5518
+  },
+  {
+    "path": "common/combat_unit_types/z_modern_airforce_unit_types_era11_20.txt",
+    "bytes": 9176
+  },
+  {
+    "path": "common/combat_unit_types/z_modern_artillery_unit_types_era11_20.txt",
+    "bytes": 9126
+  },
+  {
+    "path": "common/combat_unit_types/z_modern_infantry_unit_types_era11_20.txt",
+    "bytes": 8968
+  },
+  {
+    "path": "common/mobilization_options/z_modern_mobilization_options_era11_20.txt",
+    "bytes": 11677
+  },
+  {
+    "path": "common/production_method_groups/z_modern_era11_20_pmg_injections.txt",
+    "bytes": 32246
+  },
+  {
+    "path": "common/production_methods/z_modern_era11_20_production_methods.txt",
+    "bytes": 383169
+  },
+  {
+    "path": "common/ship_types/z_modern_aircraft_carrier_ships_era11_20.txt",
+    "bytes": 24299
+  },
+  {
+    "path": "common/ship_types/z_modern_battleship_ships_era11_20.txt",
+    "bytes": 29777
+  },
+  {
+    "path": "common/ship_types/z_modern_cruiser_ships_era11_20.txt",
+    "bytes": 21718
+  },
+  {
+    "path": "common/ship_types/z_modern_destroyer_ships_era11_20.txt",
+    "bytes": 21371
+  },
+  {
+    "path": "common/ship_types/z_modern_submarine_ships_era11_20.txt",
+    "bytes": 19378
+  },
+  {
+    "path": "common/ship_types/z_modern_troop_ship_ships_era11_20.txt",
+    "bytes": 3891
+  },
+  {
+    "path": "common/technology/eras/z_modern_eras_1_20.txt",
+    "bytes": 2122
+  },
+  {
+    "path": "common/technology/technologies/10_production_era11_20.txt",
+    "bytes": 50318
+  },
+  {
+    "path": "common/technology/technologies/20_military_era11_20.txt",
+    "bytes": 30119
+  },
+  {
+    "path": "common/technology/technologies/30_society_era11_20.txt",
+    "bytes": 25286
+  },
+  {
+    "path": "common/technology/technologies/z_modern_era1_10_compatibility_fixes.txt",
+    "bytes": 4741
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_i.png",
+    "bytes": 3745
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_ii.png",
+    "bytes": 3748
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_iii.png",
+    "bytes": 3756
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_iv.png",
+    "bytes": 5308
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_ix.png",
+    "bytes": 6001
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_v.png",
+    "bytes": 5279
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_vi.png",
+    "bytes": 5306
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_vii.png",
+    "bytes": 5314
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_viii.png",
+    "bytes": 5153
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_x.png",
+    "bytes": 5974
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_xi.png",
+    "bytes": 6004
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_xii.png",
+    "bytes": 6005
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_xiii.png",
+    "bytes": 5620
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_xiv.png",
+    "bytes": 7419
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_xix.png",
+    "bytes": 6163
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_xv.png",
+    "bytes": 7390
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_xvi.png",
+    "bytes": 7402
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_xvii.png",
+    "bytes": 6852
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_xviii.png",
+    "bytes": 6854
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/automation_xx.png",
+    "bytes": 6168
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_i.png",
+    "bytes": 2713
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_ii.png",
+    "bytes": 2717
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_iii.png",
+    "bytes": 2724
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_iv.png",
+    "bytes": 4296
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_ix.png",
+    "bytes": 4995
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_v.png",
+    "bytes": 4263
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_vi.png",
+    "bytes": 4295
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_vii.png",
+    "bytes": 4301
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_viii.png",
+    "bytes": 4147
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_x.png",
+    "bytes": 4966
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_xi.png",
+    "bytes": 4998
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_xii.png",
+    "bytes": 4997
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_xiii.png",
+    "bytes": 4609
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_xiv.png",
+    "bytes": 6428
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_xix.png",
+    "bytes": 5158
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_xv.png",
+    "bytes": 6401
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_xvi.png",
+    "bytes": 6419
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_xvii.png",
+    "bytes": 5868
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_xviii.png",
+    "bytes": 5870
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/good_xx.png",
+    "bytes": 5167
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_i.png",
+    "bytes": 4249
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_ii.png",
+    "bytes": 4252
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_iii.png",
+    "bytes": 4259
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_iv.png",
+    "bytes": 5818
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_ix.png",
+    "bytes": 6477
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_v.png",
+    "bytes": 5788
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_vi.png",
+    "bytes": 5816
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_vii.png",
+    "bytes": 5824
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_viii.png",
+    "bytes": 5658
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_x.png",
+    "bytes": 6448
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_xi.png",
+    "bytes": 6479
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_xii.png",
+    "bytes": 6481
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_xiii.png",
+    "bytes": 6099
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_xiv.png",
+    "bytes": 7914
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_xix.png",
+    "bytes": 6639
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_xv.png",
+    "bytes": 7881
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_xvi.png",
+    "bytes": 7897
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_xvii.png",
+    "bytes": 7333
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_xviii.png",
+    "bytes": 7336
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/organization_xx.png",
+    "bytes": 6647
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_i.png",
+    "bytes": 3070
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_ii.png",
+    "bytes": 3074
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_iii.png",
+    "bytes": 3081
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_iv.png",
+    "bytes": 4652
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_ix.png",
+    "bytes": 5341
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_v.png",
+    "bytes": 4621
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_vi.png",
+    "bytes": 4650
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_vii.png",
+    "bytes": 4657
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_viii.png",
+    "bytes": 4498
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_x.png",
+    "bytes": 5311
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_xi.png",
+    "bytes": 5343
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_xii.png",
+    "bytes": 5343
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_xiii.png",
+    "bytes": 4959
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_xiv.png",
+    "bytes": 6773
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_xix.png",
+    "bytes": 5499
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_xv.png",
+    "bytes": 6742
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_xvi.png",
+    "bytes": 6758
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_xvii.png",
+    "bytes": 6205
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_xviii.png",
+    "bytes": 6207
+  },
+  {
+    "path": "gfx/interface/icons/production_method_icons/modern_future/technique_xx.png",
+    "bytes": 5510
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/air_xi.png",
+    "bytes": 4888
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/air_xii.png",
+    "bytes": 4885
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/air_xiii.png",
+    "bytes": 4493
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/air_xiv.png",
+    "bytes": 6321
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/air_xix.png",
+    "bytes": 5053
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/air_xv.png",
+    "bytes": 6294
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/air_xvi.png",
+    "bytes": 6309
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/air_xvii.png",
+    "bytes": 5753
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/air_xviii.png",
+    "bytes": 5754
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/air_xx.png",
+    "bytes": 5059
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/artillery_xi.png",
+    "bytes": 5370
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/artillery_xii.png",
+    "bytes": 5369
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/artillery_xiii.png",
+    "bytes": 4980
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/artillery_xiv.png",
+    "bytes": 6790
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/artillery_xix.png",
+    "bytes": 5527
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/artillery_xv.png",
+    "bytes": 6760
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/artillery_xvi.png",
+    "bytes": 6776
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/artillery_xvii.png",
+    "bytes": 6222
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/artillery_xviii.png",
+    "bytes": 6223
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/artillery_xx.png",
+    "bytes": 5532
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/infantry_xi.png",
+    "bytes": 5200
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/infantry_xii.png",
+    "bytes": 5202
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/infantry_xiii.png",
+    "bytes": 4807
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/infantry_xiv.png",
+    "bytes": 6623
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/infantry_xix.png",
+    "bytes": 5368
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/infantry_xv.png",
+    "bytes": 6595
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/infantry_xvi.png",
+    "bytes": 6610
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/infantry_xvii.png",
+    "bytes": 6063
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/infantry_xviii.png",
+    "bytes": 6062
+  },
+  {
+    "path": "gfx/unit_illustrations/modern_future/infantry_xx.png",
+    "bytes": 5368
+  },
+  {
+    "path": "localization/english/z_modern_era11_20_content_l_english.yml",
+    "bytes": 76862
+  },
+  {
+    "path": "localization/english/z_modern_era11_20_techs_l_english.yml",
+    "bytes": 86700
+  },
+  {
+    "path": "manifests/01_technologies.csv",
+    "bytes": 251397
+  },
+  {
+    "path": "manifests/02_production_methods.csv",
+    "bytes": 384197
+  },
+  {
+    "path": "manifests/03_combat_units.csv",
+    "bytes": 20713
+  },
+  {
+    "path": "manifests/04_ships.csv",
+    "bytes": 89422
+  },
+  {
+    "path": "manifests/05_mobilization_options.csv",
+    "bytes": 3559
+  },
+  {
+    "path": "manifests/06_active_goods_pmg_coverage.csv",
+    "bytes": 10292
+  },
+  {
+    "path": "manifests/07_era_1_10_fixes.csv",
+    "bytes": 6230
+  },
+  {
+    "path": "manifests/08_stat_rules.csv",
+    "bytes": 5205
+  },
+  {
+    "path": "manifests/FINAL_IMPLEMENTATION_PLAN.md",
+    "bytes": 279662
+  },
+  {
+    "path": "tools/generate_era11_20.py",
+    "bytes": 113641
+  },
+  {
+    "path": "validation/PM_LINEAR_PROGRESSION_AUDIT.csv",
+    "bytes": 34931
+  },
+  {
+    "path": "validation/PM_LINEAR_PROGRESSION_AUDIT.md",
+    "bytes": 550
+  },
+  {
+    "path": "validation/VALIDATION_REPORT.md",
+    "bytes": 288
+  },
+  {
+    "path": "validation/validation.json",
+    "bytes": 207
+  }
+]

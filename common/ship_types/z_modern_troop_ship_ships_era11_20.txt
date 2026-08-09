@@ -1,0 +1,109 @@
+# Generated Era 11-20 troop_ship ships. Graphics inherited from live final ship.
+
+INJECT:ship_type_troop_ship_2 = {
+	is_obsolete = { has_technology_researched = tech_sea_infrastructure_13 }
+}
+
+ship_type_modern_troop_ship_3 = {
+	ship_group = ship_group_troop_ships
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 16
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 6000
+		ship_crew_max_add = 800
+		ship_movement_speed_add = 6
+		ship_supply_capacity_add = 220
+		ship_hull_damage_add = 40
+		ship_crew_damage_add = 24
+		ship_armor_add = 32
+		ship_critical_hit_chance_add = 0.2
+		ship_critical_hit_multiplier_add = 5
+		ship_vulnerability_add = 400
+		ship_screening_add = 20
+		ship_readiness_gain_add = 40
+		ship_accuracy_add = 20
+		ship_visibility_add = 40
+		ship_detection_add = 40
+		ship_blockade_strength_add = 20
+		ship_carrying_capacity_add = 80
+		ship_marine_capacity_add = 1
+	}
+	construction_goods = {
+		goods_input_steel_add = 2080
+		goods_input_engines_add = 114
+	}
+	materiel_goods = {
+		goods_input_grain_add = 1
+		goods_input_coal_add = 1
+		goods_input_iron_add = 0.1
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_cruisers.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_troop_ship.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_troop_ship_armor_light ship_mod_troop_ship_armor_medium ship_mod_troop_ship_armor_high }
+		ship_mod_slot_guns = { ship_mod_troop_ship_guns_light ship_mod_troop_ship_guns_medium ship_mod_troop_ship_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_troop_ship_propulsion_light ship_mod_troop_ship_propulsion_medium ship_mod_troop_ship_propulsion_high }
+		ship_mod_slot_range = { ship_mod_troop_ship_range_light ship_mod_troop_ship_range_medium ship_mod_troop_ship_range_high }
+	}
+	modification_construction_cost = 50
+	unlocking_technologies = { tech_sea_infrastructure_13 }
+	is_obsolete = {
+		has_technology_researched = tech_sea_infrastructure_18
+	}
+}
+
+ship_type_modern_troop_ship_4 = {
+	ship_group = ship_group_troop_ships
+	distance_to_port_modifier = {
+		ship_hull_damage_mult = -0.8
+		ship_crew_damage_mult = -0.8
+	}
+	modifier = {
+		ship_max_distance_to_port_add = 20
+		ship_construction_progress_max_add = 25
+		ship_hit_points_max_add = 7500
+		ship_crew_max_add = 1000
+		ship_movement_speed_add = 6.5
+		ship_supply_capacity_add = 275
+		ship_hull_damage_add = 50
+		ship_crew_damage_add = 30
+		ship_armor_add = 40
+		ship_critical_hit_chance_add = 0.25
+		ship_critical_hit_multiplier_add = 6.25
+		ship_vulnerability_add = 500
+		ship_screening_add = 25
+		ship_readiness_gain_add = 50
+		ship_accuracy_add = 25
+		ship_visibility_add = 50
+		ship_detection_add = 50
+		ship_blockade_strength_add = 25
+		ship_carrying_capacity_add = 100
+		ship_marine_capacity_add = 1.25
+	}
+	construction_goods = {
+		goods_input_steel_add = 2600
+		goods_input_engines_add = 140
+	}
+	materiel_goods = {
+		goods_input_grain_add = 1
+		goods_input_coal_add = 1
+		goods_input_iron_add = 0.1
+	}
+	icon = "gfx/interface/icons/ships/ship_category/ship_group_cruisers.dds"
+	profile_texture = "gfx/interface/icons/ships/ship_types/silhouette_troop_ship.dds"
+	ai_weight = 2
+	modifications = {
+		ship_mod_slot_armor = { ship_mod_troop_ship_armor_light ship_mod_troop_ship_armor_medium ship_mod_troop_ship_armor_high }
+		ship_mod_slot_guns = { ship_mod_troop_ship_guns_light ship_mod_troop_ship_guns_medium ship_mod_troop_ship_guns_high }
+		ship_mod_slot_propulsion = { ship_mod_troop_ship_propulsion_light ship_mod_troop_ship_propulsion_medium ship_mod_troop_ship_propulsion_high }
+		ship_mod_slot_range = { ship_mod_troop_ship_range_light ship_mod_troop_ship_range_medium ship_mod_troop_ship_range_high }
+	}
+	modification_construction_cost = 60
+	unlocking_technologies = { tech_sea_infrastructure_18 }
+}
+

@@ -1,0 +1,1984 @@
+# Generated CWE Era 11-20 production technologies
+# Era 11: Controlled-Environment Agriculture
+tech_agriculture_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
+	category = production
+	unlocking_technologies = { tech_agriculture_10 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				OR = {
+					has_strategy = ai_strategy_agricultural_expansion
+					has_strategy = ai_strategy_agricultural_expansion
+				}
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 12: Synthetic Soil Ecologies
+tech_agriculture_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
+	category = production
+	unlocking_technologies = { tech_agriculture_11 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				OR = {
+					has_strategy = ai_strategy_agricultural_expansion
+					has_strategy = ai_strategy_agricultural_expansion
+				}
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 13: Autonomous Biofarming
+tech_agriculture_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
+	category = production
+	unlocking_technologies = { tech_agriculture_12 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				OR = {
+					has_strategy = ai_strategy_agricultural_expansion
+					has_strategy = ai_strategy_agricultural_expansion
+				}
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 14: Precision Microbiome Cultivation
+tech_agriculture_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
+	category = production
+	unlocking_technologies = { tech_agriculture_13 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				OR = {
+					has_strategy = ai_strategy_agricultural_expansion
+					has_strategy = ai_strategy_agricultural_expansion
+				}
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 15: Closed-Loop Agroindustry
+tech_agriculture_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
+	category = production
+	unlocking_technologies = { tech_agriculture_14 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				OR = {
+					has_strategy = ai_strategy_agricultural_expansion
+					has_strategy = ai_strategy_agricultural_expansion
+				}
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 16: Climate-Independent Agriculture
+tech_agriculture_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
+	category = production
+	unlocking_technologies = { tech_agriculture_15 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				OR = {
+					has_strategy = ai_strategy_agricultural_expansion
+					has_strategy = ai_strategy_agricultural_expansion
+				}
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 17: Cellular Crop Engineering
+tech_agriculture_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
+	category = production
+	unlocking_technologies = { tech_agriculture_16 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				OR = {
+					has_strategy = ai_strategy_agricultural_expansion
+					has_strategy = ai_strategy_agricultural_expansion
+				}
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 18: Self-Optimising Farm Ecologies
+tech_agriculture_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
+	category = production
+	unlocking_technologies = { tech_agriculture_17 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				OR = {
+					has_strategy = ai_strategy_agricultural_expansion
+					has_strategy = ai_strategy_agricultural_expansion
+				}
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 19: Programmable Biosphere Agriculture
+tech_agriculture_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
+	category = production
+	unlocking_technologies = { tech_agriculture_18 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				OR = {
+					has_strategy = ai_strategy_agricultural_expansion
+					has_strategy = ai_strategy_agricultural_expansion
+				}
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 20: Planetary Food Fabrication
+tech_agriculture_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
+	category = production
+	unlocking_technologies = { tech_agriculture_19 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				OR = {
+					has_strategy = ai_strategy_agricultural_expansion
+					has_strategy = ai_strategy_agricultural_expansion
+				}
+			}
+			add = 2
+		}
+	}
+}
+
+# Era 11: Adaptive Airspace Management
+tech_air_infrastructure_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = production
+	unlocking_technologies = { tech_air_infrastructure_10 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_infrastructure_from_aeroplanes_consumption_add = 0.2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Morphing-Wing Airliners
+tech_air_infrastructure_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = production
+	unlocking_technologies = { tech_air_infrastructure_11 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_infrastructure_from_aeroplanes_consumption_add = 0.2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Stratospheric Transit Networks
+tech_air_infrastructure_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = production
+	unlocking_technologies = { tech_air_infrastructure_12 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_infrastructure_from_aeroplanes_consumption_add = 0.2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Autonomous Global Airlift
+tech_air_infrastructure_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = production
+	unlocking_technologies = { tech_air_infrastructure_13 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_infrastructure_from_aeroplanes_consumption_add = 0.2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Hypersonic Civil Aviation
+tech_air_infrastructure_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = production
+	unlocking_technologies = { tech_air_infrastructure_14 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_infrastructure_from_aeroplanes_consumption_add = 0.2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Atmospheric Traffic Orchestration
+tech_air_infrastructure_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = production
+	unlocking_technologies = { tech_air_infrastructure_15 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_infrastructure_from_aeroplanes_consumption_add = 0.2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Orbital-Linked Aviation
+tech_air_infrastructure_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = production
+	unlocking_technologies = { tech_air_infrastructure_16 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_infrastructure_from_aeroplanes_consumption_add = 0.2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Suborbital Passenger Flight
+tech_air_infrastructure_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = production
+	unlocking_technologies = { tech_air_infrastructure_17 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_infrastructure_from_aeroplanes_consumption_add = 0.2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Near-Space Logistics
+tech_air_infrastructure_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = production
+	unlocking_technologies = { tech_air_infrastructure_18 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_infrastructure_from_aeroplanes_consumption_add = 0.2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Fusion-Electric Aerospace Transport
+tech_air_infrastructure_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	category = production
+	unlocking_technologies = { tech_air_infrastructure_19 }
+	modifier = {
+		state_trade_capacity_mult = 0.05
+		state_infrastructure_from_aeroplanes_consumption_add = 0.2
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Molecular Consumer Materials
+tech_chemicals_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/aniline.dds"
+	category = production
+	unlocking_technologies = { tech_chemicals_10 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 12: Metamaterial Fabrication
+tech_chemicals_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/aniline.dds"
+	category = production
+	unlocking_technologies = { tech_chemicals_11 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 13: Programmable Polymers
+tech_chemicals_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/aniline.dds"
+	category = production
+	unlocking_technologies = { tech_chemicals_12 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 14: Molecular Electronics Chemistry
+tech_chemicals_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/aniline.dds"
+	category = production
+	unlocking_technologies = { tech_chemicals_13 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 15: Regenerative Medicine
+tech_chemicals_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/aniline.dds"
+	category = production
+	unlocking_technologies = { tech_chemicals_14 }
+	modifier = {
+		state_mortality_mult = -0.05
+		state_pollution_reduction_health_mult = -0.1
+		state_standard_of_living_add = 1
+	}
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 16: Atomic-Scale Manufacturing Chemistry
+tech_chemicals_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/aniline.dds"
+	category = production
+	unlocking_technologies = { tech_chemicals_15 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 17: Self-Healing Structural Materials
+tech_chemicals_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/aniline.dds"
+	category = production
+	unlocking_technologies = { tech_chemicals_16 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 18: Synthetic Molecular Ecologies
+tech_chemicals_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/aniline.dds"
+	category = production
+	unlocking_technologies = { tech_chemicals_17 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 19: Quantum Molecular Engineering
+tech_chemicals_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/aniline.dds"
+	category = production
+	unlocking_technologies = { tech_chemicals_18 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 20: Universal Materials Synthesis
+tech_chemicals_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/aniline.dds"
+	category = production
+	unlocking_technologies = { tech_chemicals_19 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 11: Terabit Mesh Networks
+tech_communication_infrastructure_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/telephone.dds"
+	category = production
+	unlocking_technologies = { tech_communication_infrastructure_10 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Photonic Communications
+tech_communication_infrastructure_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/telephone.dds"
+	category = production
+	unlocking_technologies = { tech_communication_infrastructure_11 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Ambient Network Computing
+tech_communication_infrastructure_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/telephone.dds"
+	category = production
+	unlocking_technologies = { tech_communication_infrastructure_12 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Neural Interface Networks
+tech_communication_infrastructure_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/telephone.dds"
+	category = production
+	unlocking_technologies = { tech_communication_infrastructure_13 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Planetary Quantum Networking
+tech_communication_infrastructure_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/telephone.dds"
+	category = production
+	unlocking_technologies = { tech_communication_infrastructure_14 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Holographic Telepresence
+tech_communication_infrastructure_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/telephone.dds"
+	category = production
+	unlocking_technologies = { tech_communication_infrastructure_15 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Autonomous Knowledge Networks
+tech_communication_infrastructure_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/telephone.dds"
+	category = production
+	unlocking_technologies = { tech_communication_infrastructure_16 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Entanglement-Secured Communications
+tech_communication_infrastructure_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/telephone.dds"
+	category = production
+	unlocking_technologies = { tech_communication_infrastructure_17 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Interplanetary Communications Architecture
+tech_communication_infrastructure_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/telephone.dds"
+	category = production
+	unlocking_technologies = { tech_communication_infrastructure_18 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Ubiquitous Cognitive Network
+tech_communication_infrastructure_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/telephone.dds"
+	category = production
+	unlocking_technologies = { tech_communication_infrastructure_19 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Autonomous Construction Fleets
+tech_construction_infrastructure_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/arc_welding.dds"
+	category = production
+	unlocking_technologies = { tech_construction_infrastructure_10 }
+	modifier = {
+		state_building_hydroelectric_power_plant_max_level_add = 5
+		state_building_construction_sector_max_level_add = 1
+		building_group_bg_manufacturing_construction_efficiency_add = 0.5
+		building_group_bg_agriculture_construction_efficiency_add = 0.5
+		building_group_bg_ranching_construction_efficiency_add = 0.5
+		building_group_bg_whaling_construction_efficiency_add = 0.5
+		building_group_bg_fishing_construction_efficiency_add = 0.5
+		building_group_bg_extraction_construction_efficiency_add = 0.5
+		building_group_bg_urban_center_construction_efficiency_add = 0.5
+		building_group_bg_service_construction_efficiency_add = 0.5
+		building_group_bg_military_construction_efficiency_add = 0.5
+		building_group_bg_infrastructure_construction_efficiency_add = 0.5
+		building_group_bg_urban_facilities_construction_efficiency_add = 0.5
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Self-Sensing Structures
+tech_construction_infrastructure_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/arc_welding.dds"
+	category = production
+	unlocking_technologies = { tech_construction_infrastructure_11 }
+	modifier = {
+		state_building_hydroelectric_power_plant_max_level_add = 5
+		state_building_construction_sector_max_level_add = 1
+		building_group_bg_manufacturing_construction_efficiency_add = 0.5
+		building_group_bg_agriculture_construction_efficiency_add = 0.5
+		building_group_bg_ranching_construction_efficiency_add = 0.5
+		building_group_bg_whaling_construction_efficiency_add = 0.5
+		building_group_bg_fishing_construction_efficiency_add = 0.5
+		building_group_bg_extraction_construction_efficiency_add = 0.5
+		building_group_bg_urban_center_construction_efficiency_add = 0.5
+		building_group_bg_service_construction_efficiency_add = 0.5
+		building_group_bg_military_construction_efficiency_add = 0.5
+		building_group_bg_infrastructure_construction_efficiency_add = 0.5
+		building_group_bg_urban_facilities_construction_efficiency_add = 0.5
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Robotic Prefabrication Yards
+tech_construction_infrastructure_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/arc_welding.dds"
+	category = production
+	unlocking_technologies = { tech_construction_infrastructure_12 }
+	modifier = {
+		state_building_hydroelectric_power_plant_max_level_add = 5
+		state_building_construction_sector_max_level_add = 1
+		building_group_bg_manufacturing_construction_efficiency_add = 0.5
+		building_group_bg_agriculture_construction_efficiency_add = 0.5
+		building_group_bg_ranching_construction_efficiency_add = 0.5
+		building_group_bg_whaling_construction_efficiency_add = 0.5
+		building_group_bg_fishing_construction_efficiency_add = 0.5
+		building_group_bg_extraction_construction_efficiency_add = 0.5
+		building_group_bg_urban_center_construction_efficiency_add = 0.5
+		building_group_bg_service_construction_efficiency_add = 0.5
+		building_group_bg_military_construction_efficiency_add = 0.5
+		building_group_bg_infrastructure_construction_efficiency_add = 0.5
+		building_group_bg_urban_facilities_construction_efficiency_add = 0.5
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Additive Megastructure Fabrication
+tech_construction_infrastructure_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/arc_welding.dds"
+	category = production
+	unlocking_technologies = { tech_construction_infrastructure_13 }
+	modifier = {
+		state_building_hydroelectric_power_plant_max_level_add = 5
+		state_building_construction_sector_max_level_add = 1
+		building_group_bg_manufacturing_construction_efficiency_add = 0.5
+		building_group_bg_agriculture_construction_efficiency_add = 0.5
+		building_group_bg_ranching_construction_efficiency_add = 0.5
+		building_group_bg_whaling_construction_efficiency_add = 0.5
+		building_group_bg_fishing_construction_efficiency_add = 0.5
+		building_group_bg_extraction_construction_efficiency_add = 0.5
+		building_group_bg_urban_center_construction_efficiency_add = 0.5
+		building_group_bg_service_construction_efficiency_add = 0.5
+		building_group_bg_military_construction_efficiency_add = 0.5
+		building_group_bg_infrastructure_construction_efficiency_add = 0.5
+		building_group_bg_urban_facilities_construction_efficiency_add = 0.5
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Self-Healing Concrete Systems
+tech_construction_infrastructure_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/arc_welding.dds"
+	category = production
+	unlocking_technologies = { tech_construction_infrastructure_14 }
+	modifier = {
+		state_building_hydroelectric_power_plant_max_level_add = 5
+		state_building_construction_sector_max_level_add = 1
+		building_group_bg_manufacturing_construction_efficiency_add = 0.5
+		building_group_bg_agriculture_construction_efficiency_add = 0.5
+		building_group_bg_ranching_construction_efficiency_add = 0.5
+		building_group_bg_whaling_construction_efficiency_add = 0.5
+		building_group_bg_fishing_construction_efficiency_add = 0.5
+		building_group_bg_extraction_construction_efficiency_add = 0.5
+		building_group_bg_urban_center_construction_efficiency_add = 0.5
+		building_group_bg_service_construction_efficiency_add = 0.5
+		building_group_bg_military_construction_efficiency_add = 0.5
+		building_group_bg_infrastructure_construction_efficiency_add = 0.5
+		building_group_bg_urban_facilities_construction_efficiency_add = 0.5
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Metamaterial Structural Engineering
+tech_construction_infrastructure_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/arc_welding.dds"
+	category = production
+	unlocking_technologies = { tech_construction_infrastructure_15 }
+	modifier = {
+		state_building_hydroelectric_power_plant_max_level_add = 5
+		state_building_construction_sector_max_level_add = 1
+		building_group_bg_manufacturing_construction_efficiency_add = 0.5
+		building_group_bg_agriculture_construction_efficiency_add = 0.5
+		building_group_bg_ranching_construction_efficiency_add = 0.5
+		building_group_bg_whaling_construction_efficiency_add = 0.5
+		building_group_bg_fishing_construction_efficiency_add = 0.5
+		building_group_bg_extraction_construction_efficiency_add = 0.5
+		building_group_bg_urban_center_construction_efficiency_add = 0.5
+		building_group_bg_service_construction_efficiency_add = 0.5
+		building_group_bg_military_construction_efficiency_add = 0.5
+		building_group_bg_infrastructure_construction_efficiency_add = 0.5
+		building_group_bg_urban_facilities_construction_efficiency_add = 0.5
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Autonomous Urban Fabrication
+tech_construction_infrastructure_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/arc_welding.dds"
+	category = production
+	unlocking_technologies = { tech_construction_infrastructure_16 }
+	modifier = {
+		state_building_hydroelectric_power_plant_max_level_add = 5
+		state_building_construction_sector_max_level_add = 1
+		building_group_bg_manufacturing_construction_efficiency_add = 0.5
+		building_group_bg_agriculture_construction_efficiency_add = 0.5
+		building_group_bg_ranching_construction_efficiency_add = 0.5
+		building_group_bg_whaling_construction_efficiency_add = 0.5
+		building_group_bg_fishing_construction_efficiency_add = 0.5
+		building_group_bg_extraction_construction_efficiency_add = 0.5
+		building_group_bg_urban_center_construction_efficiency_add = 0.5
+		building_group_bg_service_construction_efficiency_add = 0.5
+		building_group_bg_military_construction_efficiency_add = 0.5
+		building_group_bg_infrastructure_construction_efficiency_add = 0.5
+		building_group_bg_urban_facilities_construction_efficiency_add = 0.5
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Programmable Structural Matter
+tech_construction_infrastructure_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/arc_welding.dds"
+	category = production
+	unlocking_technologies = { tech_construction_infrastructure_17 }
+	modifier = {
+		state_building_hydroelectric_power_plant_max_level_add = 5
+		state_building_construction_sector_max_level_add = 1
+		building_group_bg_manufacturing_construction_efficiency_add = 0.5
+		building_group_bg_agriculture_construction_efficiency_add = 0.5
+		building_group_bg_ranching_construction_efficiency_add = 0.5
+		building_group_bg_whaling_construction_efficiency_add = 0.5
+		building_group_bg_fishing_construction_efficiency_add = 0.5
+		building_group_bg_extraction_construction_efficiency_add = 0.5
+		building_group_bg_urban_center_construction_efficiency_add = 0.5
+		building_group_bg_service_construction_efficiency_add = 0.5
+		building_group_bg_military_construction_efficiency_add = 0.5
+		building_group_bg_infrastructure_construction_efficiency_add = 0.5
+		building_group_bg_urban_facilities_construction_efficiency_add = 0.5
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Continental-Scale Construction Logistics
+tech_construction_infrastructure_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/arc_welding.dds"
+	category = production
+	unlocking_technologies = { tech_construction_infrastructure_18 }
+	modifier = {
+		state_building_hydroelectric_power_plant_max_level_add = 5
+		state_building_construction_sector_max_level_add = 1
+		building_group_bg_manufacturing_construction_efficiency_add = 0.5
+		building_group_bg_agriculture_construction_efficiency_add = 0.5
+		building_group_bg_ranching_construction_efficiency_add = 0.5
+		building_group_bg_whaling_construction_efficiency_add = 0.5
+		building_group_bg_fishing_construction_efficiency_add = 0.5
+		building_group_bg_extraction_construction_efficiency_add = 0.5
+		building_group_bg_urban_center_construction_efficiency_add = 0.5
+		building_group_bg_service_construction_efficiency_add = 0.5
+		building_group_bg_military_construction_efficiency_add = 0.5
+		building_group_bg_infrastructure_construction_efficiency_add = 0.5
+		building_group_bg_urban_facilities_construction_efficiency_add = 0.5
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Self-Assembling Megastructures
+tech_construction_infrastructure_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/arc_welding.dds"
+	category = production
+	unlocking_technologies = { tech_construction_infrastructure_19 }
+	modifier = {
+		state_building_hydroelectric_power_plant_max_level_add = 5
+		state_building_construction_sector_max_level_add = 1
+		building_group_bg_manufacturing_construction_efficiency_add = 0.5
+		building_group_bg_agriculture_construction_efficiency_add = 0.5
+		building_group_bg_ranching_construction_efficiency_add = 0.5
+		building_group_bg_whaling_construction_efficiency_add = 0.5
+		building_group_bg_fishing_construction_efficiency_add = 0.5
+		building_group_bg_extraction_construction_efficiency_add = 0.5
+		building_group_bg_urban_center_construction_efficiency_add = 0.5
+		building_group_bg_service_construction_efficiency_add = 0.5
+		building_group_bg_military_construction_efficiency_add = 0.5
+		building_group_bg_infrastructure_construction_efficiency_add = 0.5
+		building_group_bg_urban_facilities_construction_efficiency_add = 0.5
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Neuromorphic Computing
+tech_electronics_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/goods_icons/software.dds"
+	category = production
+	unlocking_technologies = { tech_electronics_10 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 12: Photonic Logic
+tech_electronics_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/goods_icons/software.dds"
+	category = production
+	unlocking_technologies = { tech_electronics_11 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 13: Molecular-Scale Electronics
+tech_electronics_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/goods_icons/software.dds"
+	category = production
+	unlocking_technologies = { tech_electronics_12 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 14: Reversible Computing
+tech_electronics_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/goods_icons/software.dds"
+	category = production
+	unlocking_technologies = { tech_electronics_13 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 15: Synthetic Cognition Hardware
+tech_electronics_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/goods_icons/software.dds"
+	category = production
+	unlocking_technologies = { tech_electronics_14 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 16: Distributed Machine Intelligence
+tech_electronics_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/goods_icons/software.dds"
+	category = production
+	unlocking_technologies = { tech_electronics_15 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 17: Biological-Digital Convergence
+tech_electronics_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/goods_icons/software.dds"
+	category = production
+	unlocking_technologies = { tech_electronics_16 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 18: Quantum-Neural Architectures
+tech_electronics_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/goods_icons/software.dds"
+	category = production
+	unlocking_technologies = { tech_electronics_17 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 19: Matter-Embedded Computation
+tech_electronics_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/goods_icons/software.dds"
+	category = production
+	unlocking_technologies = { tech_electronics_18 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 20: Substrate-Independent Computing
+tech_electronics_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/goods_icons/software.dds"
+	category = production
+	unlocking_technologies = { tech_electronics_19 }
+	ai_weight = {
+		value = 2
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 11: Commercial Fusion Grids
+tech_energy_infrastructure_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+	category = production
+	unlocking_technologies = { tech_energy_infrastructure_10 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Superconducting Power Networks
+tech_energy_infrastructure_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+	category = production
+	unlocking_technologies = { tech_energy_infrastructure_11 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Advanced Stellarator Systems
+tech_energy_infrastructure_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+	category = production
+	unlocking_technologies = { tech_energy_infrastructure_12 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Space-Based Solar Power
+tech_energy_infrastructure_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+	category = production
+	unlocking_technologies = { tech_energy_infrastructure_13 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Aneutronic Fusion
+tech_energy_infrastructure_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+	category = production
+	unlocking_technologies = { tech_energy_infrastructure_14 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Planetary Energy Storage
+tech_energy_infrastructure_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+	category = production
+	unlocking_technologies = { tech_energy_infrastructure_15 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Helium-3 Fusion Economy
+tech_energy_infrastructure_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+	category = production
+	unlocking_technologies = { tech_energy_infrastructure_16 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Deep-Geothermal Planetary Tapping
+tech_energy_infrastructure_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+	category = production
+	unlocking_technologies = { tech_energy_infrastructure_17 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Artificial Photosynthetic Power
+tech_energy_infrastructure_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+	category = production
+	unlocking_technologies = { tech_energy_infrastructure_18 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Controlled Microstar Power
+tech_energy_infrastructure_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+	category = production
+	unlocking_technologies = { tech_energy_infrastructure_19 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Autonomous Freight Corridors
+tech_land_infrastructure_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/steel_railway_cars.dds"
+	category = production
+	unlocking_technologies = { tech_land_infrastructure_10 }
+	modifier = {
+		state_trade_capacity_mult = 0.1
+		state_infrastructure_from_automobiles_consumption_add = 0.4
+		state_infrastructure_from_locomotives_consumption_add = 0.2
+		state_infrastructure_from_population_max_add = 20
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Maglev Freight Networks
+tech_land_infrastructure_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/steel_railway_cars.dds"
+	category = production
+	unlocking_technologies = { tech_land_infrastructure_11 }
+	modifier = {
+		state_trade_capacity_mult = 0.1
+		state_infrastructure_from_automobiles_consumption_add = 0.4
+		state_infrastructure_from_locomotives_consumption_add = 0.2
+		state_infrastructure_from_population_max_add = 20
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Dynamic Road Surfaces
+tech_land_infrastructure_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/steel_railway_cars.dds"
+	category = production
+	unlocking_technologies = { tech_land_infrastructure_12 }
+	modifier = {
+		state_trade_capacity_mult = 0.1
+		state_infrastructure_from_automobiles_consumption_add = 0.4
+		state_infrastructure_from_locomotives_consumption_add = 0.2
+		state_infrastructure_from_population_max_add = 20
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Vacuum Transit
+tech_land_infrastructure_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/steel_railway_cars.dds"
+	category = production
+	unlocking_technologies = { tech_land_infrastructure_13 }
+	modifier = {
+		state_trade_capacity_mult = 0.1
+		state_infrastructure_from_automobiles_consumption_add = 0.4
+		state_infrastructure_from_locomotives_consumption_add = 0.2
+		state_infrastructure_from_population_max_add = 20
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Planetary Logistics Mesh
+tech_land_infrastructure_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/steel_railway_cars.dds"
+	category = production
+	unlocking_technologies = { tech_land_infrastructure_14 }
+	modifier = {
+		state_trade_capacity_mult = 0.1
+		state_infrastructure_from_automobiles_consumption_add = 0.4
+		state_infrastructure_from_locomotives_consumption_add = 0.2
+		state_infrastructure_from_population_max_add = 20
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Self-Repairing Infrastructure
+tech_land_infrastructure_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/steel_railway_cars.dds"
+	category = production
+	unlocking_technologies = { tech_land_infrastructure_15 }
+	modifier = {
+		state_trade_capacity_mult = 0.1
+		state_infrastructure_from_automobiles_consumption_add = 0.4
+		state_infrastructure_from_locomotives_consumption_add = 0.2
+		state_infrastructure_from_population_max_add = 20
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: AI-Orchestrated Mobility
+tech_land_infrastructure_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/steel_railway_cars.dds"
+	category = production
+	unlocking_technologies = { tech_land_infrastructure_16 }
+	modifier = {
+		state_trade_capacity_mult = 0.1
+		state_infrastructure_from_automobiles_consumption_add = 0.4
+		state_infrastructure_from_locomotives_consumption_add = 0.2
+		state_infrastructure_from_population_max_add = 20
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Continental Vacuum Rail
+tech_land_infrastructure_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/steel_railway_cars.dds"
+	category = production
+	unlocking_technologies = { tech_land_infrastructure_17 }
+	modifier = {
+		state_trade_capacity_mult = 0.1
+		state_infrastructure_from_automobiles_consumption_add = 0.4
+		state_infrastructure_from_locomotives_consumption_add = 0.2
+		state_infrastructure_from_population_max_add = 20
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Adaptive Megainfrastructure
+tech_land_infrastructure_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/steel_railway_cars.dds"
+	category = production
+	unlocking_technologies = { tech_land_infrastructure_18 }
+	modifier = {
+		state_trade_capacity_mult = 0.1
+		state_infrastructure_from_automobiles_consumption_add = 0.4
+		state_infrastructure_from_locomotives_consumption_add = 0.2
+		state_infrastructure_from_population_max_add = 20
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Integrated Planetary Transit
+tech_land_infrastructure_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/steel_railway_cars.dds"
+	category = production
+	unlocking_technologies = { tech_land_infrastructure_19 }
+	modifier = {
+		state_trade_capacity_mult = 0.1
+		state_infrastructure_from_automobiles_consumption_add = 0.4
+		state_infrastructure_from_locomotives_consumption_add = 0.2
+		state_infrastructure_from_population_max_add = 20
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Lights-Out Megafactories
+tech_manufacturing_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	category = production
+	unlocking_technologies = { tech_manufacturing_10 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 12: Adaptive Robotic Production
+tech_manufacturing_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	category = production
+	unlocking_technologies = { tech_manufacturing_11 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 13: Additive Industrial Fabrication
+tech_manufacturing_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	category = production
+	unlocking_technologies = { tech_manufacturing_12 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 14: Molecular Assembly Lines
+tech_manufacturing_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	category = production
+	unlocking_technologies = { tech_manufacturing_13 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 15: Self-Reconfiguring Factories
+tech_manufacturing_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	category = production
+	unlocking_technologies = { tech_manufacturing_14 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 16: Bioindustrial Manufacturing
+tech_manufacturing_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	category = production
+	unlocking_technologies = { tech_manufacturing_15 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 17: Autonomous Industrial Ecosystems
+tech_manufacturing_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	category = production
+	unlocking_technologies = { tech_manufacturing_16 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 18: Programmable Matter Production
+tech_manufacturing_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	category = production
+	unlocking_technologies = { tech_manufacturing_17 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 19: Distributed Megafabrication
+tech_manufacturing_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	category = production
+	unlocking_technologies = { tech_manufacturing_18 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 20: Universal Fabrication Systems
+tech_manufacturing_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/manufacturies.dds"
+	category = production
+	unlocking_technologies = { tech_manufacturing_19 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 11: Autonomous Deep Mining
+tech_mining_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/shaft_mining.dds"
+	category = production
+	unlocking_technologies = { tech_mining_10 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 12: Precision Ore Sorting
+tech_mining_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/shaft_mining.dds"
+	category = production
+	unlocking_technologies = { tech_mining_11 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 13: Robotic Subsurface Extraction
+tech_mining_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/shaft_mining.dds"
+	category = production
+	unlocking_technologies = { tech_mining_12 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 14: In-Situ Resource Processing
+tech_mining_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/shaft_mining.dds"
+	category = production
+	unlocking_technologies = { tech_mining_13 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 15: Ultra-Deep Mining
+tech_mining_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/shaft_mining.dds"
+	category = production
+	unlocking_technologies = { tech_mining_14 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 16: Bioleaching Megasystems
+tech_mining_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/shaft_mining.dds"
+	category = production
+	unlocking_technologies = { tech_mining_15 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 17: Self-Replicating Mining Systems
+tech_mining_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/shaft_mining.dds"
+	category = production
+	unlocking_technologies = { tech_mining_16 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 18: Crustal Resource Engineering
+tech_mining_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/shaft_mining.dds"
+	category = production
+	unlocking_technologies = { tech_mining_17 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 19: Planetary Resource Mapping
+tech_mining_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/shaft_mining.dds"
+	category = production
+	unlocking_technologies = { tech_mining_18 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 20: Programmable Extraction
+tech_mining_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/shaft_mining.dds"
+	category = production
+	unlocking_technologies = { tech_mining_19 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_resource_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 11: Autonomous Port Complexes
+tech_sea_infrastructure_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/concrete_dockyards.dds"
+	category = production
+	unlocking_technologies = { tech_sea_infrastructure_10 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 12: Smart Maritime Corridors
+tech_sea_infrastructure_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/concrete_dockyards.dds"
+	category = production
+	unlocking_technologies = { tech_sea_infrastructure_11 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 13: Global Sealift Systems
+tech_sea_infrastructure_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/concrete_dockyards.dds"
+	category = production
+	unlocking_technologies = { tech_sea_infrastructure_12 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 14: Molecular Shipbuilding
+tech_sea_infrastructure_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/concrete_dockyards.dds"
+	category = production
+	unlocking_technologies = { tech_sea_infrastructure_13 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 15: Oceanic Logistics Networks
+tech_sea_infrastructure_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/concrete_dockyards.dds"
+	category = production
+	unlocking_technologies = { tech_sea_infrastructure_14 }
+	modifier = {
+		building_port_throughput_add = 0.1
+		building_shipyards_throughput_add = 0.05
+		country_ship_group_capital_ships_construction_efficiency_add = 0.5
+		country_ship_group_cruisers_construction_efficiency_add = 0.5
+		country_ship_group_torpedo_craft_construction_efficiency_add = 0.5
+		country_ship_group_supply_ships_construction_efficiency_add = 0.5
+		country_ship_group_troop_ships_construction_efficiency_add = 0.5
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 16: Self-Operating Ports
+tech_sea_infrastructure_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/concrete_dockyards.dds"
+	category = production
+	unlocking_technologies = { tech_sea_infrastructure_15 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 17: Adaptive Merchant Shipping
+tech_sea_infrastructure_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/concrete_dockyards.dds"
+	category = production
+	unlocking_technologies = { tech_sea_infrastructure_16 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 18: Planetary Sealift
+tech_sea_infrastructure_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/concrete_dockyards.dds"
+	category = production
+	unlocking_technologies = { tech_sea_infrastructure_17 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 19: Self-Repairing Megaships
+tech_sea_infrastructure_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/concrete_dockyards.dds"
+	category = production
+	unlocking_technologies = { tech_sea_infrastructure_18 }
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 20: Integrated Oceanic Infrastructure
+tech_sea_infrastructure_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/concrete_dockyards.dds"
+	category = production
+	unlocking_technologies = { tech_sea_infrastructure_19 }
+	modifier = {
+		building_port_throughput_add = 0.1
+		building_shipyards_throughput_add = 0.05
+		country_ship_group_capital_ships_construction_efficiency_add = 0.5
+		country_ship_group_cruisers_construction_efficiency_add = 0.5
+		country_ship_group_torpedo_craft_construction_efficiency_add = 0.5
+		country_ship_group_supply_ships_construction_efficiency_add = 0.5
+		country_ship_group_troop_ships_construction_efficiency_add = 0.5
+	}
+	ai_weight = {
+		value = 1
+	}
+}
+
+# Era 11: Cognitive Office Systems
+tech_services_11 = {
+	era = era_11
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	category = production
+	unlocking_technologies = { tech_services_10 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 12: Autonomous Professional Services
+tech_services_12 = {
+	era = era_12
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	category = production
+	unlocking_technologies = { tech_services_11 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 13: Algorithmic Bureaucracy
+tech_services_13 = {
+	era = era_13
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	category = production
+	unlocking_technologies = { tech_services_12 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 14: Immersive Service Delivery
+tech_services_14 = {
+	era = era_14
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	category = production
+	unlocking_technologies = { tech_services_13 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 15: Synthetic Knowledge Work
+tech_services_15 = {
+	era = era_15
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	category = production
+	unlocking_technologies = { tech_services_14 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 16: Distributed Service Economies
+tech_services_16 = {
+	era = era_16
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	category = production
+	unlocking_technologies = { tech_services_15 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 17: Machine-Mediated Administration
+tech_services_17 = {
+	era = era_17
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	category = production
+	unlocking_technologies = { tech_services_16 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 18: Cognitive Enterprise Networks
+tech_services_18 = {
+	era = era_18
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	category = production
+	unlocking_technologies = { tech_services_17 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 19: Autonomous Institutional Management
+tech_services_19 = {
+	era = era_19
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	category = production
+	unlocking_technologies = { tech_services_18 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+
+# Era 20: Post-Labor Service Systems
+tech_services_20 = {
+	era = era_20
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	category = production
+	unlocking_technologies = { tech_services_19 }
+	ai_weight = {
+		value = 1
+		if = {
+			limit = {
+				has_strategy = ai_strategy_services_expansion
+			}
+			add = 1
+		}
+	}
+}
+

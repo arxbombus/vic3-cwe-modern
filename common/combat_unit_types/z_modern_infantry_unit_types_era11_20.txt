@@ -1,0 +1,349 @@
+# Generated Era 11-20 infantry combat units
+
+INJECT:combat_unit_type_infantry_10 = {
+	upgrades = {
+		combat_unit_type_infantry_11
+	}
+}
+
+combat_unit_type_infantry_11 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_ammunition_add = 11
+		goods_input_advanced_weaponry_add = 4
+		goods_input_oil_add = 5.5
+		goods_input_small_arms_add = 5.5
+		goods_input_tanks_add = 5.5
+		goods_input_communication_services_add = 5.5
+	}
+	battle_modifier = {
+		unit_offense_add = 110
+		unit_defense_add = 120
+		unit_morale_loss_add = 0
+		unit_morale_recovery_mult = 0.05
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_infantry
+	max_manpower = 1000
+	supply_capacity = 220
+	formation_modifier = {
+	}
+	unlocking_technologies = { tech_military_ground_forces_11 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/infantry_xi.png"
+	}
+	upgrades = { combat_unit_type_infantry_12 }
+}
+
+combat_unit_type_infantry_12 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_ammunition_add = 12
+		goods_input_advanced_weaponry_add = 4.5
+		goods_input_oil_add = 6
+		goods_input_small_arms_add = 6
+		goods_input_tanks_add = 6
+		goods_input_communication_services_add = 6
+	}
+	battle_modifier = {
+		unit_offense_add = 120
+		unit_defense_add = 130
+		unit_morale_loss_add = 0
+		unit_morale_recovery_mult = 0.1
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_infantry
+	max_manpower = 1000
+	supply_capacity = 240
+	formation_modifier = {
+	}
+	unlocking_technologies = { tech_military_ground_forces_12 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/infantry_xii.png"
+	}
+	upgrades = { combat_unit_type_infantry_13 }
+}
+
+combat_unit_type_infantry_13 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_ammunition_add = 13
+		goods_input_advanced_weaponry_add = 5
+		goods_input_oil_add = 6.5
+		goods_input_small_arms_add = 6.5
+		goods_input_tanks_add = 6.5
+		goods_input_communication_services_add = 6.5
+	}
+	battle_modifier = {
+		unit_offense_add = 130
+		unit_defense_add = 140
+		unit_morale_loss_add = 0
+		unit_morale_recovery_mult = 0.15
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_infantry
+	max_manpower = 1000
+	supply_capacity = 260
+	formation_modifier = {
+	}
+	unlocking_technologies = { tech_military_ground_forces_13 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/infantry_xiii.png"
+	}
+	upgrades = { combat_unit_type_infantry_14 }
+}
+
+combat_unit_type_infantry_14 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_ammunition_add = 14
+		goods_input_advanced_weaponry_add = 5.5
+		goods_input_oil_add = 7
+		goods_input_small_arms_add = 7
+		goods_input_tanks_add = 7
+		goods_input_communication_services_add = 7
+	}
+	battle_modifier = {
+		unit_offense_add = 140
+		unit_defense_add = 150
+		unit_morale_loss_add = 0
+		unit_morale_recovery_mult = 0.2
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_infantry
+	max_manpower = 1000
+	supply_capacity = 280
+	formation_modifier = {
+	}
+	unlocking_technologies = { tech_military_ground_forces_14 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/infantry_xiv.png"
+	}
+	upgrades = { combat_unit_type_infantry_15 }
+}
+
+combat_unit_type_infantry_15 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_ammunition_add = 15
+		goods_input_advanced_weaponry_add = 6
+		goods_input_oil_add = 7.5
+		goods_input_small_arms_add = 7.5
+		goods_input_tanks_add = 7.5
+		goods_input_communication_services_add = 7.5
+	}
+	battle_modifier = {
+		unit_offense_add = 150
+		unit_defense_add = 160
+		unit_morale_loss_add = 0
+		unit_morale_recovery_mult = 0.25
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_infantry
+	max_manpower = 1000
+	supply_capacity = 300
+	formation_modifier = {
+	}
+	unlocking_technologies = { tech_military_ground_forces_15 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/infantry_xv.png"
+	}
+	upgrades = { combat_unit_type_infantry_16 }
+}
+
+combat_unit_type_infantry_16 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_ammunition_add = 16
+		goods_input_advanced_weaponry_add = 6.5
+		goods_input_oil_add = 8
+		goods_input_small_arms_add = 8
+		goods_input_tanks_add = 8
+		goods_input_communication_services_add = 8
+	}
+	battle_modifier = {
+		unit_offense_add = 160
+		unit_defense_add = 170
+		unit_morale_loss_add = 0
+		unit_morale_recovery_mult = 0.3
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_infantry
+	max_manpower = 1000
+	supply_capacity = 320
+	formation_modifier = {
+	}
+	unlocking_technologies = { tech_military_ground_forces_16 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/infantry_xvi.png"
+	}
+	upgrades = { combat_unit_type_infantry_17 }
+}
+
+combat_unit_type_infantry_17 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_ammunition_add = 17
+		goods_input_advanced_weaponry_add = 7
+		goods_input_oil_add = 8.5
+		goods_input_small_arms_add = 8.5
+		goods_input_tanks_add = 8.5
+		goods_input_communication_services_add = 8.5
+	}
+	battle_modifier = {
+		unit_offense_add = 170
+		unit_defense_add = 180
+		unit_morale_loss_add = 0
+		unit_morale_recovery_mult = 0.35
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_infantry
+	max_manpower = 1000
+	supply_capacity = 340
+	formation_modifier = {
+	}
+	unlocking_technologies = { tech_military_ground_forces_17 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/infantry_xvii.png"
+	}
+	upgrades = { combat_unit_type_infantry_18 }
+}
+
+combat_unit_type_infantry_18 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_ammunition_add = 18
+		goods_input_advanced_weaponry_add = 7.5
+		goods_input_oil_add = 9
+		goods_input_small_arms_add = 9
+		goods_input_tanks_add = 9
+		goods_input_communication_services_add = 9
+	}
+	battle_modifier = {
+		unit_offense_add = 180
+		unit_defense_add = 190
+		unit_morale_loss_add = 0
+		unit_morale_recovery_mult = 0.4
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_infantry
+	max_manpower = 1000
+	supply_capacity = 360
+	formation_modifier = {
+	}
+	unlocking_technologies = { tech_military_ground_forces_18 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/infantry_xviii.png"
+	}
+	upgrades = { combat_unit_type_infantry_19 }
+}
+
+combat_unit_type_infantry_19 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_ammunition_add = 19
+		goods_input_advanced_weaponry_add = 8
+		goods_input_oil_add = 9.5
+		goods_input_small_arms_add = 9.5
+		goods_input_tanks_add = 9.5
+		goods_input_communication_services_add = 9.5
+	}
+	battle_modifier = {
+		unit_offense_add = 190
+		unit_defense_add = 200
+		unit_morale_loss_add = 0
+		unit_morale_recovery_mult = 0.45
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_infantry
+	max_manpower = 1000
+	supply_capacity = 380
+	formation_modifier = {
+	}
+	unlocking_technologies = { tech_military_ground_forces_19 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/infantry_xix.png"
+	}
+	upgrades = { combat_unit_type_infantry_20 }
+}
+
+combat_unit_type_infantry_20 = {
+	conscript_peasant_levies = yes
+	upkeep_modifier = {
+		goods_input_ammunition_add = 20
+		goods_input_advanced_weaponry_add = 8.5
+		goods_input_oil_add = 10
+		goods_input_small_arms_add = 10
+		goods_input_tanks_add = 10
+		goods_input_communication_services_add = 10
+	}
+	battle_modifier = {
+		unit_offense_add = 200
+		unit_defense_add = 210
+		unit_morale_loss_add = 0
+		unit_morale_recovery_mult = 0.5
+		unit_naval_invasion_efficiency_mult = -0.25
+	}
+	can_build_conscript = {
+		NOT = {
+			has_law_or_variant = law_type:law_peasant_levies
+		}
+	}
+	group = combat_unit_group_infantry
+	max_manpower = 1000
+	supply_capacity = 400
+	formation_modifier = {
+	}
+	unlocking_technologies = { tech_military_ground_forces_20 }
+	combat_unit_image = {
+		texture = "gfx/unit_illustrations/modern_future/infantry_xx.png"
+	}
+	upgrades = {
+	}
+}
+

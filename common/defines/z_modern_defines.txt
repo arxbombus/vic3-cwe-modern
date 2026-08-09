@@ -1,3 +1,7 @@
+NGame = {
+	END_DATE = "2292.1.1"
+}
+
 NEconomy = {
 	PRICE_RANGE = 0.9								# min price of a good is base * (1 - PRICE_RANGE), Max price is base * (1 + PRICE_RANGE), PRICE_RANGE is locked to [0-1]
 	COUNTRY_GDP_MODIFIER_MAX_MULTIPLIER = 750000		# The country_gdp modifier multiplier cannot be higher than this
