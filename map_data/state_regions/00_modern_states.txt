@@ -562,14 +562,14 @@ STATE_SOUTH_GEORGIA_SOUTH_SANDWICH_ISLANDS = {
     farm = "xB5100C"
     mine = "xB5100C"
     wood = "xB5100C"
-    arable_land = 48
+    arable_land = 142
     arable_resources = { "building_rye_farm" "building_wheat_farm" "building_livestock_ranch" "building_vineyard" }
     capped_resources = {
         building_coal_mine = 400
         building_iron_mine = 350
         building_lead_mine = 250
         building_sulfur_mine = 300
-        building_gold_mine = 100
+        building_gold_mine = 300
         building_fishing_wharf = 80
         building_whaling_station = 40
     }
