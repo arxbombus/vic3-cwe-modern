@@ -166,178 +166,94 @@ on_monthly_pulse_country = {
 			activate_law = law_type:law_social_hierarchy_0_not_enforced
 		}
 		
-		#Failsafe for monarchy system
+		#Failsafe for monarchies
 		if = {
-			limit = { 
+			limit = {
+				has_law_or_variant = law_type:law_HOS_monarch
 				is_a_regime_monarchy = yes
-				ruler ?= { NOT = { has_role = character_role_monarch } }
+				ruler ?= {
+					NOR = {
+						has_role = character_role_monarch
+						has_role = character_role_regent
+					}
+				}
 			}
 			ruler ?= {
-				if = {
-					limit = { NOT = { has_role = character_role_monarch } }
-					add_character_role = character_role_monarch
-				}
-			}
-		}
-		if = {
-			limit = {
-				is_a_regime_monarchy = no
-				ruler ?= { has_role = character_role_monarch }
-			}
-			ruler ?= { 
-				remove_character_role = character_role_monarch
-			}
-		}
-		if = {
-			limit = {
-				is_a_regime_monarchy = no
-				NAND = {
-					has_law_or_variant = law_type:law_HOS_monarch
-					is_a_constitutional_monarchy = yes
-					ruler_is_governor_general = no
-				}
-				any_scope_character = {
-					OR = {
-						has_role = character_role_monarch 
-						has_role = character_role_monarch_elective 
-					}
-				}
-			}
-			every_scope_character = {
-				limit = { has_role = character_role_monarch }
-				remove_character_role = character_role_monarch
-				set_character_as_royal = yes
-			}
-			every_scope_character = {
-				limit = { has_role = character_role_monarch_elective }
-				remove_character_role = character_role_monarch_elective
-				set_character_as_royal = yes
-			}
-		}
-		if = {
-			limit = {
-				NAND = {
-					OR = {
-						is_a_colonial_government = yes
-						shares_same_monarch = yes
-					}
-					is_subject = yes
-				}
-				any_scope_character = { has_role = character_role_viceroy } 
-			}
-			every_scope_character = {
-				limit = { has_role = character_role_viceroy }
-				remove_character_role = character_role_viceroy
+				set_character_as_monarch = yes
 			}
 		}
 		if = {
 			limit = {
 				has_law_or_variant = law_type:law_HOS_monarch
-				NOR = {
-					is_a_colonial_government = yes
-					shares_same_monarch = yes
-				}
-				any_scope_character = {
-					is_royal_character = yes
-					has_role_of_type = magnate
-					count = 0
-				}
+				NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
+				ruler_is_governor_general = no
+				shares_same_monarch = no
+				ruler ?= { has_role = character_role_monarch }
+				heir ?= { NOT = { has_role = character_role_prince } }
 			}
-			random_list = {
-				1 = {
-					create_character = {
-						role = magnate noble = yes
-						on_created = { 
-							set_character_as_royal = yes
-						}
-					}
-				}
-				1 = {
-					create_character = {
-						role = magnate noble = yes female = yes
-						on_created = { 
-							set_character_as_royal = yes
-						}
-					}
-				}
-			}
+			heir ?= { set_character_as_royal = yes }
 		}
 		if = {
 			limit = {
-				ruler ?= {
-					has_role = character_role_monarch
-					has_role = character_role_monarch_elective
+				has_law_or_variant = law_type:law_HOS_monarch
+				is_a_regency_government = yes
+				heir ?= {
+					NOT = { has_role = character_role_monarch }
 				}
 			}
-			ruler ?= { 
-				remove_character_role = character_role_monarch_elective
-				set_character_as_royal = yes
-			}
-		}
-		if = {
-			limit = {
-				any_scope_character = { has_role = character_role_monarch_elective }
-				OR = {
-					NOT = { has_law_or_variant = law_type:law_HOS_monarch }
-					NOT = { active_law:lawgroup_governance_principles ?= { has_amendment = amendment_type:amendment_elective_monarchy } }
-				}
-			}
-			every_scope_character = {
-				limit = { has_role = character_role_monarch_elective }
-				remove_character_role = character_role_monarch_elective
-				set_character_as_royal = yes
+			heir ?= {
+				set_character_as_monarch = yes
 			}
 		}
 		
-		#Failsafe for Regency System
+		#Prioritise Male Princes
 		if = {
-			limit = { is_a_regency_government = yes }
-			every_scope_character = {
-				limit = { 
-					has_modifier = regent_character
-					is_ruler_of_own_country = no 
-				}
-				remove_modifier = regent_character
-			}
-			ruler ?= {
-				if = {
-					limit = { NOT = { has_modifier = regent_character } }
-					add_modifier = { name = regent_character }
-				}
-				if = {
-					limit = { has_role = character_role_monarch }
-					remove_character_role = character_role_monarch
-					set_character_as_royal = yes
+			limit = {
+				has_law_or_variant = law_type:law_HOS_monarch
+				NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
+				ruler_is_governor_general = no
+				shares_same_monarch = no
+				has_variable = primogeniture_system
+				heir ?= {
+					has_role = character_role_prince
+					is_eligible_to_become_monarch = no
 				}
 			}
-		}
-		else = {
-			every_scope_character = {
-				limit = { 
-					has_modifier = regent_character
+			if = {
+				limit = {
+					any_scope_character = {
+						has_role = character_role_prince
+						is_eligible_to_become_monarch = yes
+						NOT = { has_role = character_role_monarch }
+						count > 0
+					}
 				}
-				remove_modifier = regent_character
+				random_scope_character = {
+					limit = {
+						has_role = character_role_prince
+						is_eligible_to_become_monarch = yes
+						NOT = { has_role = character_role_monarch }
+					}
+					save_scope_as = prince_scope
+					owner ?= { set_heir = scope:prince_scope }
+				}
 			}
 		}
 		if = {
 			limit = {
-				has_modifier = modifier_regency 
-				is_a_monarchy = no
-			}
-			remove_modifier = modifier_regency
-		}
-		if = {
-			limit = {
-				any_scope_character = { has_role = character_role_regent }
-				OR = {
-					NOT = { has_law_or_variant = law_type:law_HOS_monarch }
-					shares_same_monarch = yes
-					ruler_is_governor_general = yes
+				has_law_or_variant = law_type:law_HOS_monarch
+				NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
+				ruler_is_governor_general = no
+				shares_same_monarch = no
+				ruler ?= {
+					has_role = character_role_monarch
+					is_eligible_to_become_monarch = no
 				}
 			}
-			every_scope_character = {
-				limit = { has_role = character_role_regent }
-				remove_character_role = character_role_regent
+			trigger_event = {
+				id = regency.1
+				#days = 1
+				#popup = yes
 			}
 		}
 		
@@ -677,6 +593,7 @@ on_monthly_pulse_country = {
 		historical_alliances_system.29
 		historical_alliances_system.31
 		historical_alliances_system.36
+		historical_alliances_system.38
 		
 		historical_militarisation.1
 		
@@ -1906,10 +1823,6 @@ on_half_yearly_pulse_country = {
 	random_events = {
 		chance_of_no_event = 1
 		1 = generic_decolonisation_indy.2
-	}
-	
-	random_events = {
-		chance_of_no_event = 1
 		1 = political_trials_system.3
 	}
 	
@@ -1917,6 +1830,38 @@ on_half_yearly_pulse_country = {
 	
 		#Yearly party update
 		effect_party_update_cwe_on_action = yes
+		
+		#Create princes
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_HOS_monarch
+				ruler_is_governor_general = no
+				shares_same_monarch = no
+				any_scope_character = {
+					OR = {
+						has_role = character_role_monarch
+						AND = {
+							has_role = character_role_regent
+							has_role = character_role_prince
+							has_variable = prince_consort_character
+						}
+					}
+					age >= 35
+					NOT = { has_trait = homosexual_character }
+				}
+			}
+			generate_prince_for_country = yes
+		}
+		
+		#Marry princes
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_HOS_monarch
+				ruler_is_governor_general = no
+				shares_same_monarch = no
+			}
+			randomly_marry_prince_effect = yes
+		}
 		
 	}
 
@@ -2011,7 +1956,6 @@ on_yearly_pulse_country = {
 	
 	random_events = {
 		chance_of_no_event = 10
-		1 = dynamic_ideology_system.1
 		1 = dynamic_ideology_system.2
 	}
 

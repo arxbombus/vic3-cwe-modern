@@ -1,9 +1,9 @@
-generate_monarch_for_country = {
+generate_prince_for_country = {
 
 	#UK
 	if = {
 		limit = {
-			AND = { OR = { c:GBR ?= this was_formed_from = GBR } game_date >= 1936.12.11 game_date < 1952.2.6 }	# George VI
+			AND = { OR = { c:GBR ?= this was_formed_from = GBR } game_date >= 1895.12.14 game_date < 1952.2.6 }	# George VI
 			NOT = { has_variable = george_vi_generated }
 		}
 		if = {
@@ -18,8 +18,8 @@ generate_monarch_for_country = {
 					has_variable = george_vi
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -27,7 +27,7 @@ generate_monarch_for_country = {
 				first_name = "george_vi_first_name"
 				last_name = "george_vi_last_name"
 				birth_date = 1895.12.14
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:british
@@ -39,7 +39,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = george_vi
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -47,7 +47,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:GBR ?= this was_formed_from = GBR } game_date >= 1952.2.6 game_date < 2022.9.8 }		# Elizabeth II
+			AND = { OR = { c:GBR ?= this was_formed_from = GBR } game_date >= 1926.4.21 game_date < 2022.9.8 }		# Elizabeth II
 			NOT = { has_variable = elizabeth_ii_generated }
 		}
 		if = {
@@ -62,8 +62,8 @@ generate_monarch_for_country = {
 					has_variable = elizabeth_ii
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -71,7 +71,7 @@ generate_monarch_for_country = {
 				first_name = "elizabeth_ii_first_name"
 				last_name = "elizabeth_ii_last_name"
 				birth_date = 1926.4.21
-				role = character_role_monarch historical = yes female = yes #ruler = yes ig_leader = yes female = yes
+				role = character_role_prince historical = yes female = yes #ruler = yes ig_leader = yes female = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:british
@@ -83,7 +83,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = elizabeth_ii
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -91,7 +91,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:GBR ?= this was_formed_from = GBR } game_date >= 2022.9.8 game_date < 2038.11.14 }	# Charles III
+			AND = { OR = { c:GBR ?= this was_formed_from = GBR } game_date >= 1948.11.14 game_date < 2038.11.14 }	# Charles III
 			NOT = { has_variable = charles_iii_generated }
 		}
 		if = {
@@ -106,8 +106,8 @@ generate_monarch_for_country = {
 					has_variable = charles_iii
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -115,7 +115,7 @@ generate_monarch_for_country = {
 				first_name = "charles_iii_first_name"
 				last_name = "charles_iii_last_name"
 				birth_date = 1948.11.14
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:british
@@ -127,11 +127,54 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = charles_iii
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
 		set_variable = charles_iii_generated
+	}
+	else_if = {
+		limit = {
+			AND = { OR = { c:GBR ?= this was_formed_from = GBR } game_date >= 1982.6.21 game_date < 2052.6.21 }   # Prince William
+			NOT = { has_variable = William_Windsor_generated }
+		}
+		if = {
+			limit = { 
+				any_character = { 
+					has_variable = William_Windsor
+					is_ruler_of_own_country = no
+				}
+			}
+			random_character = { 
+				limit = {
+					has_variable = William_Windsor
+					is_ruler_of_own_country = no
+				}
+				set_character_as_royal = yes
+			}
+		}
+		else = {
+			create_character = {
+				first_name = "William_Windsor_first_name"
+				last_name = "William_Windsor_last_name"
+				birth_date = 1982.6.21
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
+				interest_group = ig_landowners
+				ideology = ideology_elitist
+				culture = cu:british
+				religion = rel:protestant
+				traits = { healthy_character
+					honorable
+					charismatic
+					reserved
+				}
+				on_created = {
+					set_variable = William_Windsor
+					set_character_as_royal = yes
+				}
+			}
+		}
+		set_variable = William_Windsor_generated
 	}
 	
 	#Spain
@@ -152,8 +195,8 @@ generate_monarch_for_country = {
 					has_variable = juan_carlos_i
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -161,7 +204,7 @@ generate_monarch_for_country = {
 				first_name = "juan_carlos_i_first_name"
 				last_name = "juan_carlos_i_last_name"
 				birth_date = 1938.1.5
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:spanish
@@ -173,7 +216,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = juan_carlos_i
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -196,8 +239,8 @@ generate_monarch_for_country = {
 					has_variable = felipe_vi
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -205,7 +248,7 @@ generate_monarch_for_country = {
 				first_name = "felipe_vi_first_name"
 				last_name = "felipe_vi_last_name"
 				birth_date = 1968.1.30
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:spanish
@@ -217,7 +260,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = felipe_vi
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -229,18 +272,9 @@ generate_monarch_for_country = {
 		limit = {
 			AND = { 
 				OR = { c:BEL ?= this was_formed_from = BEL } 
-				game_date >= 1934.2.23 
-				OR = { 
-					AND = { 
-						game_date < 1951.7.16 
-						has_variable = Leopold_III_abdication
-					}
-					AND = { 
-						game_date < 1983.9.25 
-						NOT = { has_variable = Leopold_III_abdication }
-					}
-				}
-			}	# Leopold III
+				game_date >= 1934.2.23 game_date < 1983.9.25
+				NOT = { has_variable = Leopold_III_abdication }
+			}
 			NOT = { has_variable = leopold_iii_generated }
 		}
 		if = {
@@ -255,8 +289,8 @@ generate_monarch_for_country = {
 					has_variable = leopold_iii
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -264,7 +298,7 @@ generate_monarch_for_country = {
 				first_name = "leopold_iii_first_name"
 				last_name = "leopold_iii_last_name"
 				birth_date = 1901.11.3
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:flemish
@@ -276,7 +310,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = leopold_iii
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -284,14 +318,11 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { 
-				OR = { c:BEL ?= this was_formed_from = BEL } 
-				OR = { 
-					game_date >= 1951.7.16 
-					has_variable = Leopold_III_abdication
-				}
-				game_date < 1993.7.31 
-			}	# Baudouin
+			AND = {
+				OR = { c:BEL ?= this was_formed_from = BEL }
+				game_date >= 1930.9.7 game_date < 1993.7.31 
+				NOT = { has_variable = Leopold_III_abdication }
+			}
 			NOT = { has_variable = baudouin_generated }
 		}
 		if = {
@@ -306,8 +337,8 @@ generate_monarch_for_country = {
 					has_variable = baudouin
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -315,7 +346,7 @@ generate_monarch_for_country = {
 				first_name = "baudouin_first_name"
 				last_name = "baudouin_last_name"
 				birth_date = 1930.9.7
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:flemish
@@ -327,7 +358,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = baudouin
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -335,7 +366,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:BEL ?= this was_formed_from = BEL } game_date >= 1993.7.31 game_date < 2013.7.21 }	# Albert II
+			AND = { OR = { c:BEL ?= this was_formed_from = BEL } game_date >= 1934.6.6 game_date < 2013.7.21 }	# Albert II
 			NOT = { has_variable = albert_ii_generated }
 		}
 		if = {
@@ -350,8 +381,8 @@ generate_monarch_for_country = {
 					has_variable = albert_ii
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -359,7 +390,7 @@ generate_monarch_for_country = {
 				first_name = "albert_ii_first_name"
 				last_name = "albert_ii_last_name"
 				birth_date = 1934.6.6
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:flemish
@@ -371,7 +402,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = albert_ii
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -379,7 +410,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:BEL ?= this was_formed_from = BEL } game_date >= 2013.7.21 game_date < 2050.7.21 }	# Philippe
+			AND = { OR = { c:BEL ?= this was_formed_from = BEL } game_date >= 1960.4.15 game_date < 2050.7.21 }	# Philippe
 			NOT = { has_variable = philippe_generated }
 		}
 		if = {
@@ -394,8 +425,8 @@ generate_monarch_for_country = {
 					has_variable = philippe
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -403,7 +434,7 @@ generate_monarch_for_country = {
 				first_name = "philippe_first_name"
 				last_name = "philippe_last_name"
 				birth_date = 1960.4.15
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:flemish
@@ -415,7 +446,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = philippe
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -425,7 +456,7 @@ generate_monarch_for_country = {
 	#Netherlands
 	else_if = {
 		limit = {
-			AND = { OR = { c:NET ?= this was_formed_from = NET } game_date >= 1890.11.23 game_date < 1948.9.4 }	# Wilhelmina
+			AND = { OR = { c:NET ?= this was_formed_from = NET } game_date >= 1880.8.31 game_date < 1948.9.4 }	# Wilhelmina
 			NOT = { has_variable = wilhelmina_generated }
 		}
 		if = {
@@ -440,8 +471,8 @@ generate_monarch_for_country = {
 					has_variable = wilhelmina
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -449,7 +480,7 @@ generate_monarch_for_country = {
 				first_name = "wilhelmina_first_name"
 				last_name = "wilhelmina_last_name"
 				birth_date = 1880.8.31
-				role = character_role_monarch historical = yes female = yes #ruler = yes ig_leader = yes female = yes
+				role = character_role_prince historical = yes female = yes #ruler = yes ig_leader = yes female = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:dutch
@@ -461,7 +492,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = wilhelmina
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -469,7 +500,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:NET ?= this was_formed_from = NET } game_date >= 1948.9.4 game_date < 1980.4.30 }		# Juliana
+			AND = { OR = { c:NET ?= this was_formed_from = NET } game_date >= 1909.4.30 game_date < 1980.4.30 }		# Juliana
 			NOT = { has_variable = juliana_generated }
 		}
 		if = {
@@ -484,8 +515,8 @@ generate_monarch_for_country = {
 					has_variable = juliana
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -493,7 +524,7 @@ generate_monarch_for_country = {
 				first_name = "juliana_first_name"
 				last_name = "juliana_last_name"
 				birth_date = 1909.4.30
-				role = character_role_monarch historical = yes female = yes #ruler = yes ig_leader = yes female = yes
+				role = character_role_prince historical = yes female = yes #ruler = yes ig_leader = yes female = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:dutch
@@ -505,7 +536,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = juliana
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -513,7 +544,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:NET ?= this was_formed_from = NET } game_date >= 1980.4.30 game_date < 2013.4.30 }	# Beatrix
+			AND = { OR = { c:NET ?= this was_formed_from = NET } game_date >= 1938.1.31 game_date < 2013.4.30 }	# Beatrix
 			NOT = { has_variable = beatrix_generated }
 		}
 		if = {
@@ -528,8 +559,8 @@ generate_monarch_for_country = {
 					has_variable = beatrix
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -537,7 +568,7 @@ generate_monarch_for_country = {
 				first_name = "beatrix_first_name"
 				last_name = "beatrix_last_name"
 				birth_date = 1938.1.31
-				role = character_role_monarch historical = yes female = yes #ruler = yes ig_leader = yes female = yes
+				role = character_role_prince historical = yes female = yes #ruler = yes ig_leader = yes female = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:dutch
@@ -549,7 +580,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = beatrix
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -557,7 +588,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:NET ?= this was_formed_from = NET } game_date >= 2013.4.30 game_date < 2057.4.30 }	# Willem-Alexander
+			AND = { OR = { c:NET ?= this was_formed_from = NET } game_date >= 1967.4.27 game_date < 2057.4.30 }	# Willem-Alexander
 			NOT = { has_variable = willem_alexander_generated }
 		}
 		if = {
@@ -572,8 +603,8 @@ generate_monarch_for_country = {
 					has_variable = willem_alexander
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -581,7 +612,7 @@ generate_monarch_for_country = {
 				first_name = "willem_alexander_first_name"
 				last_name = "willem_alexander_last_name"
 				birth_date = 1967.4.27
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:dutch
@@ -593,7 +624,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = willem_alexander
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -618,8 +649,8 @@ generate_monarch_for_country = {
 					has_variable = Charlotte_Nassau
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -627,7 +658,7 @@ generate_monarch_for_country = {
 				first_name = "Charlotte_Nassau_first_name"
 				last_name = "Charlotte_Nassau_last_name"
 				birth_date = 1919.1.14
-				role = character_role_monarch historical = yes female = yes #ruler = yes ig_leader = yes female = yes
+				role = character_role_prince historical = yes female = yes #ruler = yes ig_leader = yes female = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:luxembourger
@@ -639,7 +670,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Charlotte_Nassau
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -647,7 +678,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:LUX ?= this was_formed_from = LUX } game_date >= 1964.11.12 game_date < 2000.10.7 }	# Jean
+			AND = { OR = { c:LUX ?= this was_formed_from = LUX } game_date >= 1921.1.5 game_date < 2000.10.7 }	# Jean
 			NOT = { has_variable = Jean_Nassau_generated }
 		}
 		if = {
@@ -662,8 +693,8 @@ generate_monarch_for_country = {
 					has_variable = Jean_Nassau
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -671,7 +702,7 @@ generate_monarch_for_country = {
 				first_name = "Jean_Nassau_first_name"
 				last_name = "Jean_Nassau_last_name"
 				birth_date = 1921.1.5
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_democratic
 				culture = cu:luxembourger
@@ -683,7 +714,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Jean_Nassau
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -691,7 +722,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:LUX ?= this was_formed_from = LUX } game_date >= 2000.10.7 game_date < 2025.10.3 }	# Henri
+			AND = { OR = { c:LUX ?= this was_formed_from = LUX } game_date >= 1955.4.16 game_date < 2025.10.3 }	# Henri
 			NOT = { has_variable = Henri_Nassau_generated }
 		}
 		if = {
@@ -706,8 +737,8 @@ generate_monarch_for_country = {
 					has_variable = Henri_Nassau
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -715,7 +746,7 @@ generate_monarch_for_country = {
 				first_name = "Henri_Nassau_first_name"
 				last_name = "Henri_Nassau_last_name"
 				birth_date = 1955.4.16
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_democratic
 				culture = cu:luxembourger
@@ -727,7 +758,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Henri_Nassau
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -735,7 +766,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:LUX ?= this was_formed_from = LUX } game_date >= 2025.10.3 game_date < 2055.10.3 }	# Guillaume V
+			AND = { OR = { c:LUX ?= this was_formed_from = LUX } game_date >= 1981.11.11 game_date < 2055.10.3 }	# Guillaume V
 			NOT = { has_variable = Guillaume_V_Nassau_generated }
 		}
 		if = {
@@ -750,8 +781,8 @@ generate_monarch_for_country = {
 					has_variable = Guillaume_V_Nassau
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -759,7 +790,7 @@ generate_monarch_for_country = {
 				first_name = "Guillaume_V_Nassau_first_name"
 				last_name = "Guillaume_V_Nassau_last_name"
 				birth_date = 1981.11.11
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_democratic
 				culture = cu:luxembourger
@@ -771,7 +802,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Guillaume_V_Nassau
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -781,7 +812,7 @@ generate_monarch_for_country = {
 	#Denmark
 	else_if = {
 		limit = {
-			AND = { OR = { c:DEN ?= this was_formed_from = DEN } game_date >= 1912.5.14 game_date < 1947.4.20 }	# Christian X
+			AND = { OR = { c:DEN ?= this was_formed_from = DEN } game_date >= 1870.9.26 game_date < 1947.4.20 }	# Christian X
 			NOT = { has_variable = Christian_X_Oldenburg_generated }
 		}
 		if = {
@@ -796,8 +827,8 @@ generate_monarch_for_country = {
 					has_variable = Christian_X_Oldenburg
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -805,7 +836,7 @@ generate_monarch_for_country = {
 				first_name = "Christian_X_Oldenburg_first_name"
 				last_name = "Christian_X_Oldenburg_last_name"
 				birth_date = 1870.9.26
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_autocratic
 				culture = cu:danish
@@ -817,7 +848,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Christian_X_Oldenburg
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -825,7 +856,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:DEN ?= this was_formed_from = DEN } game_date >= 1947.4.20 game_date < 1972.1.14 }	# Frederik IX
+			AND = { OR = { c:DEN ?= this was_formed_from = DEN } game_date >= 1899.3.11 game_date < 1972.1.14 }	# Frederik IX
 			NOT = { has_variable = Frederik_IX_Oldenburg_generated }
 		}
 		if = {
@@ -840,8 +871,8 @@ generate_monarch_for_country = {
 					has_variable = Frederik_IX_Oldenburg
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -849,7 +880,7 @@ generate_monarch_for_country = {
 				first_name = "Frederik_IX_Oldenburg_first_name"
 				last_name = "Frederik_IX_Oldenburg_last_name"
 				birth_date = 1899.3.11
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:danish
@@ -861,7 +892,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Frederik_IX_Oldenburg
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -869,7 +900,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:DEN ?= this was_formed_from = DEN } game_date >= 1972.1.14 game_date < 2024.1.14 }	# Margrethe II
+			AND = { OR = { c:DEN ?= this was_formed_from = DEN } game_date >= 1940.4.16 game_date < 2024.1.14 }	# Margrethe II
 			NOT = { has_variable = Margrethe_II_Oldenburg_generated }
 		}
 		if = {
@@ -884,8 +915,8 @@ generate_monarch_for_country = {
 					has_variable = Margrethe_II_Oldenburg
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -893,7 +924,7 @@ generate_monarch_for_country = {
 				first_name = "Margrethe_II_Oldenburg_first_name"
 				last_name = "Margrethe_II_Oldenburg_last_name"
 				birth_date = 1940.4.16
-				role = character_role_monarch historical = yes female = yes #ruler = yes ig_leader = yes female = yes
+				role = character_role_prince historical = yes female = yes #ruler = yes ig_leader = yes female = yes
 				interest_group = ig_landowners
 				ideology = ideology_democratic
 				culture = cu:danish
@@ -905,7 +936,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Margrethe_II_Oldenburg
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -913,7 +944,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:DEN ?= this was_formed_from = DEN } game_date >= 2024.1.14 game_date < 2054.1.14 }	# Frederik X
+			AND = { OR = { c:DEN ?= this was_formed_from = DEN } game_date >= 1968.5.26 game_date < 2054.1.14 }	# Frederik X
 			NOT = { has_variable = Frederik_X_Oldenburg_generated }
 		}
 		if = {
@@ -928,8 +959,8 @@ generate_monarch_for_country = {
 					has_variable = Frederik_X_Oldenburg
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -937,7 +968,7 @@ generate_monarch_for_country = {
 				first_name = "Frederik_X_Oldenburg_first_name"
 				last_name = "Frederik_X_Oldenburg_last_name"
 				birth_date = 1968.5.26
-				role = character_role_monarch historical = yes
+				role = character_role_prince historical = yes
 				interest_group = ig_landowners
 				ideology = ideology_democratic
 				culture = cu:danish
@@ -949,7 +980,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Frederik_X_Oldenburg
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -959,7 +990,7 @@ generate_monarch_for_country = {
 	#Norway
 	else_if = {
 		limit = {
-			AND = { OR = { c:NOR ?= this was_formed_from = NOR } game_date >= 1905.11.18 game_date < 1957.9.21 }	# Haakon VII
+			AND = { OR = { c:NOR ?= this was_formed_from = NOR } game_date >= 1872.8.3 game_date < 1957.9.21 }	# Haakon VII
 			NOT = { has_variable = Haakon_VII_Oldenburg_generated }
 		}
 		if = {
@@ -974,8 +1005,8 @@ generate_monarch_for_country = {
 					has_variable = Haakon_VII_Oldenburg
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -983,7 +1014,7 @@ generate_monarch_for_country = {
 				first_name = "Haakon_VII_Oldenburg_first_name"
 				last_name = "Haakon_VII_Oldenburg_last_name"
 				birth_date = 1872.8.3
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:norwegian
@@ -995,7 +1026,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Haakon_VII_Oldenburg
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1003,7 +1034,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:NOR ?= this was_formed_from = NOR } game_date >= 1957.9.21 game_date < 1991.1.17 }	# Olav V
+			AND = { OR = { c:NOR ?= this was_formed_from = NOR } game_date >= 1903.7.2 game_date < 1991.1.17 }	# Olav V
 			NOT = { has_variable = Olav_V_Oldenburg_generated }
 		}
 		if = {
@@ -1018,8 +1049,8 @@ generate_monarch_for_country = {
 					has_variable = Olav_V_Oldenburg
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1027,7 +1058,7 @@ generate_monarch_for_country = {
 				first_name = "Olav_V_Oldenburg_first_name"
 				last_name = "Olav_V_Oldenburg_last_name"
 				birth_date = 1903.7.2
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:norwegian
@@ -1039,7 +1070,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Olav_V_Oldenburg
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1047,7 +1078,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:NOR ?= this was_formed_from = NOR } game_date >= 1991.1.17 game_date < 2021.1.17 }	# Harald V
+			AND = { OR = { c:NOR ?= this was_formed_from = NOR } game_date >= 1937.2.21 game_date < 2021.1.17 }	# Harald V
 			NOT = { has_variable = Harald_V_Oldenburg_generated }
 		}
 		if = {
@@ -1062,8 +1093,8 @@ generate_monarch_for_country = {
 					has_variable = Harald_V_Oldenburg
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1071,7 +1102,7 @@ generate_monarch_for_country = {
 				first_name = "Harald_V_Oldenburg_first_name"
 				last_name = "Harald_V_Oldenburg_last_name"
 				birth_date = 1937.2.21
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:norwegian
@@ -1083,7 +1114,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Harald_V_Oldenburg
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1093,7 +1124,7 @@ generate_monarch_for_country = {
 	#Sweden
 	else_if = {
 		limit = {
-			AND = { OR = { c:SWE ?= this was_formed_from = SWE } game_date >= 1907.12.8 game_date < 1950.10.29 }	# Gustaf V
+			AND = { OR = { c:SWE ?= this was_formed_from = SWE } game_date >= 1858.6.16 game_date < 1950.10.29 }	# Gustaf V
 			NOT = { has_variable = Gustaf_V_Bernadotte_generated }
 		}
 		if = {
@@ -1108,8 +1139,8 @@ generate_monarch_for_country = {
 					has_variable = Gustaf_V_Bernadotte
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1117,7 +1148,7 @@ generate_monarch_for_country = {
 				first_name = "Gustaf_V_Bernadotte_first_name"
 				last_name = "Gustaf_V_Bernadotte_last_name"
 				birth_date = 1858.6.16
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:swedish
@@ -1129,7 +1160,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Gustaf_V_Bernadotte
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1137,7 +1168,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:SWE ?= this was_formed_from = SWE } game_date >= 1950.10.29 game_date < 1973.9.15 }	# Gustaf VI
+			AND = { OR = { c:SWE ?= this was_formed_from = SWE } game_date >= 1882.11.11 game_date < 1973.9.15 }	# Gustaf VI
 			NOT = { has_variable = Gustaf_VI_Bernadotte_generated }
 		}
 		if = {
@@ -1152,8 +1183,8 @@ generate_monarch_for_country = {
 					has_variable = Gustaf_VI_Bernadotte
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1161,7 +1192,7 @@ generate_monarch_for_country = {
 				first_name = "Gustaf_VI_Bernadotte_first_name"
 				last_name = "Gustaf_VI_Bernadotte_last_name"
 				birth_date = 1882.11.11
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:swedish
@@ -1173,7 +1204,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Gustaf_VI_Bernadotte
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1181,7 +1212,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:SWE ?= this was_formed_from = SWE } game_date >= 1973.9.15 game_date < 2021.9.15 }	# Carl XVI Gustaf
+			AND = { OR = { c:SWE ?= this was_formed_from = SWE } game_date >= 1946.4.30 game_date < 2021.9.15 }	# Carl XVI Gustaf
 			NOT = { has_variable = Carl_XVI_Gustaf_Bernadotte_generated }
 		}
 		if = {
@@ -1196,8 +1227,8 @@ generate_monarch_for_country = {
 					has_variable = Carl_XVI_Gustaf_Bernadotte
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1205,7 +1236,7 @@ generate_monarch_for_country = {
 				first_name = "Carl_XVI_Gustaf_Bernadotte_first_name"
 				last_name = "Carl_XVI_Gustaf_Bernadotte_last_name"
 				birth_date = 1946.4.30
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_democratic
 				culture = cu:swedish
@@ -1217,7 +1248,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Carl_XVI_Gustaf_Bernadotte
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1227,7 +1258,7 @@ generate_monarch_for_country = {
 	#Germany
 	else_if = {
 		limit = {
-			AND = { OR = { c:GER ?= this c:WGR ?= this c:EGR ?= this was_formed_from = GER was_formed_from = WGR was_formed_from = EGR } game_date >= 1951.7.20 game_date < 1994.9.26 }	# Louis Ferdinand
+			AND = { OR = { c:GER ?= this c:WGR ?= this c:EGR ?= this was_formed_from = GER was_formed_from = WGR was_formed_from = EGR } game_date >= 1907.11.9 game_date < 1994.9.26 }	# Louis Ferdinand
 			NOT = { has_variable = louis_ferdinand_generated }
 		}
 		if = {
@@ -1242,8 +1273,8 @@ generate_monarch_for_country = {
 					has_variable = louis_ferdinand
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1251,7 +1282,7 @@ generate_monarch_for_country = {
 				first_name = "louis_ferdinand_first_name"
 				last_name = "louis_ferdinand_last_name"
 				birth_date = 1907.11.9
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:german
@@ -1263,7 +1294,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = louis_ferdinand
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1273,7 +1304,7 @@ generate_monarch_for_country = {
 	#Austria
 	else_if = {
 		limit = {
-			AND = { OR = { c:AUS ?= this c:WAU ?= this c:EAU ?= this was_formed_from = AUS was_formed_from = WAU was_formed_from = EAU } game_date >= 1922.4.1 game_date < 2007.1.1 }		# Otto von Habsburg
+			AND = { OR = { c:AUS ?= this c:WAU ?= this c:EAU ?= this was_formed_from = AUS was_formed_from = WAU was_formed_from = EAU } game_date >= 1912.11.20 game_date < 2007.1.1 }		# Otto von Habsburg
 			NOT = { has_variable = Otto_von_Habsburg_generated }
 		}
 		if = {
@@ -1288,8 +1319,8 @@ generate_monarch_for_country = {
 					has_variable = Otto_von_Habsburg
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1297,7 +1328,7 @@ generate_monarch_for_country = {
 				first_name = "Otto_von_Habsburg_first_name"
 				last_name = "Otto_von_Habsburg_last_name"
 				birth_date = 1912.11.20
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:austrian
@@ -1309,7 +1340,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Otto_von_Habsburg
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1334,15 +1365,15 @@ generate_monarch_for_country = {
 					has_variable = paul_of_greece
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
 			create_character = {
 				first_name = "paul_of_greece_first_name"
 				last_name = "paul_of_greece_last_name"
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				birth_date = 1901.12.14
 				interest_group = ig_landowners
 				ideology = ideology_elitist
@@ -1354,7 +1385,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = paul_of_greece
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 				dna = dna_paul_of_greece
 			}
@@ -1363,7 +1394,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:GRE ?= this was_formed_from = GRE } game_date >= 1964.3.6 game_date < 2023.1.10 }		# Constantine II of Greece
+			AND = { OR = { c:GRE ?= this was_formed_from = GRE } game_date >= 1940.6.2 game_date < 2023.1.10 }		# Constantine II of Greece
 			NOT = { has_variable = constantie_ii_of_greece_generated }
 		}
 		if = {
@@ -1378,15 +1409,15 @@ generate_monarch_for_country = {
 					has_variable = constantie_ii_of_greece
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
 			create_character = {
 				first_name = "constantie_ii_of_greece_first_name"
 				last_name = "constantie_ii_of_greece_last_name"
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				birth_date = 1940.6.2
 				interest_group = ig_landowners
 				ideology = ideology_elitist
@@ -1398,7 +1429,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = constantie_ii_of_greece
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1408,7 +1439,7 @@ generate_monarch_for_country = {
 	#Italy
 	else_if = {
 		limit = {
-			AND = { c:ITA ?= this game_date >= 1900.7.29 game_date < 1946.5.9 }	# Victor Emmanuel III
+			AND = { c:ITA ?= this game_date >= 1869.11.11 game_date < 1946.5.9 }	# Victor Emmanuel III
 			NOT = { has_variable = Victor_Emmanuel_III_generated }
 		}
 		if = {
@@ -1423,15 +1454,15 @@ generate_monarch_for_country = {
 					has_variable = Victor_Emmanuel_III
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
 			create_character = {
 				first_name = "Victor_Emmanuel_III_first_name"
 				last_name = "Victor_Emmanuel_III_last_name"
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				birth_date = 1869.11.11
 				interest_group = ig_landowners
 				ideology = ideology_elitist
@@ -1443,7 +1474,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Victor_Emmanuel_III
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1451,7 +1482,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { c:ITA ?= this game_date >= 1946.5.9 game_date < 1963.3.18 }	# Umberto II
+			AND = { c:ITA ?= this game_date >= 1904.9.15 game_date < 1963.3.18 }	# Umberto II
 			NOT = { has_variable = Umberto_II_generated }
 		}
 		if = {
@@ -1466,15 +1497,15 @@ generate_monarch_for_country = {
 					has_variable = Umberto_II
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
 			create_character = {
 				first_name = "Umberto_II_first_name"
 				last_name = "Umberto_II_last_name"
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				birth_date = 1904.9.15
 				interest_group = ig_landowners
 				ideology = ideology_democratic
@@ -1486,17 +1517,16 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Umberto_II
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
 		set_variable = Umberto_II_generated
 	}
 	
-	#Bulgaria
 	else_if = {
 		limit = {
-			AND = { OR = { c:BUL ?= this was_formed_from = BUL } game_date >= 1943.8.28 game_date < 2010.9.15 }   # Simeon II
+			AND = { OR = { c:BUL ?= this was_formed_from = BUL } game_date >= 1937.6.16 game_date < 2010.9.15 }   # Simeon II
 			NOT = { has_variable = simeon_ii_generated }
 		}
 		if = {
@@ -1511,8 +1541,8 @@ generate_monarch_for_country = {
 					has_variable = simeon_ii
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1520,7 +1550,7 @@ generate_monarch_for_country = {
 				first_name = "simeon_ii_first_name"
 				last_name = "simeon_ii_last_name"
 				birth_date = 1937.6.16
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:bulgarian
@@ -1532,57 +1562,11 @@ generate_monarch_for_country = {
 				}
 				on_created = {
 					set_variable = simeon_ii
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
 		set_variable = simeon_ii_generated
-	}
-	
-	#Romania
-	if = {
-		limit = {
-			AND = { OR = { c:ROM ?= this was_formed_from = ROM } game_date >= 1940.9.6 game_date < 1947.12.30 }   # Michael I
-			NOT = { has_variable = michael_i_generated }
-		}
-		if = {
-			limit = {
-				any_character = {
-					has_variable = michael_i
-					is_ruler_of_own_country = no
-				}
-			}
-			random_character = {
-				limit = {
-					has_variable = michael_i
-					is_ruler_of_own_country = no
-				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
-			}
-		}
-		else = {
-			create_character = {
-				first_name = "michael_i_first_name"
-				last_name = "michael_i_last_name"
-				birth_date = 1921.10.25
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
-				interest_group = ig_landowners
-				ideology = ideology_elitist
-				culture = cu:romanian
-				religion = rel:orthodox
-				traits = { healthy_character
-					honorable
-					reserved
-					charismatic
-				}
-				on_created = {
-					set_variable = michael_i
-					set_character_as_monarch = yes
-				}
-			}
-		}
-		set_variable = michael_i_generated
 	}
 	
 	#Libya
@@ -1603,8 +1587,8 @@ generate_monarch_for_country = {
 					has_variable = idris_of_libya
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1612,7 +1596,7 @@ generate_monarch_for_country = {
 				first_name = "idris_of_libya_first_name"
 				last_name = "idris_of_libya_last_name"
 				birth_date = 1890.3.13
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:libyan
@@ -1624,7 +1608,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = idris_of_libya
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1634,19 +1618,10 @@ generate_monarch_for_country = {
 	#Egypt
 	else_if = {
 		limit = {
-			AND = { 
-				OR = { c:EGY ?= this was_formed_from = EGY } 
-				game_date >= 1920.2.11
-				OR = { 
-					AND = { 
-						game_date < 1952.7.23
-						has_variable = farouk_i_abdicated
-					}
-					AND = { 
-						game_date < 1990.2.11
-						NOT = { has_variable = farouk_i_abdicated }
-					}
-				}
+			AND = {
+				OR = { c:EGY ?= this was_formed_from = EGY }
+				game_date >= 1920.2.11 game_date < 1990.2.11
+				NOT = { has_variable = farouk_i_abdicated }
 			}	# Farouk I
 			NOT = { has_variable = farouk_i_generated }
 		}
@@ -1662,8 +1637,8 @@ generate_monarch_for_country = {
 					has_variable = farouk_i
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1683,7 +1658,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = farouk_i
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1706,8 +1681,8 @@ generate_monarch_for_country = {
 					has_variable = Fuad_II
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1715,7 +1690,7 @@ generate_monarch_for_country = {
 				first_name = "Fuad_II_first_name"
 				last_name = "Fuad_II_last_name"
 				birth_date = 1952.1.16
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:egyptian
@@ -1727,7 +1702,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Fuad_II
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1737,7 +1712,7 @@ generate_monarch_for_country = {
 	#Japan
 	else_if = {
 		limit = {
-			AND = { OR = { c:JAP ?= this was_formed_from = JAP } game_date >= 1926.12.25 game_date < 1989.1.7 }	# Hirohito
+			AND = { OR = { c:JAP ?= this was_formed_from = JAP } game_date >= 1901.4.29 game_date < 1989.1.7 }	# Hirohito
 			NOT = { has_variable = hirohito_generated }
 		}
 		if = {
@@ -1752,8 +1727,8 @@ generate_monarch_for_country = {
 					has_variable = hirohito
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1761,7 +1736,7 @@ generate_monarch_for_country = {
 				first_name = "hirohito_first_name"
 				last_name = "hirohito_last_name"
 				birth_date = 1901.4.29
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:japanese
@@ -1773,7 +1748,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = hirohito
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 				dna = HJM_dna_showa
 			}
@@ -1782,7 +1757,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:JAP ?= this was_formed_from = JAP } game_date >= 1989.1.7 game_date < 2019.4.30 }		# Akihito
+			AND = { OR = { c:JAP ?= this was_formed_from = JAP } game_date >= 1933.12.23 game_date < 2019.4.30 }		# Akihito
 			NOT = { has_variable = akihito_generated }
 		}
 		if = {
@@ -1797,8 +1772,8 @@ generate_monarch_for_country = {
 					has_variable = akihito
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1806,7 +1781,7 @@ generate_monarch_for_country = {
 				first_name = "akihito_first_name"
 				last_name = "akihito_last_name"
 				birth_date = 1933.12.23
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:japanese
@@ -1818,7 +1793,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = akihito
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 				dna = HJM_dna_heisei
 			}
@@ -1827,7 +1802,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:JAP ?= this was_formed_from = JAP } game_date >= 2019.4.30 game_date < 2050.7.21 }	# Naruhito
+			AND = { OR = { c:JAP ?= this was_formed_from = JAP } game_date >= 1960.2.23 game_date < 2050.7.21 }	# Naruhito
 			NOT = { has_variable = naruhito_generated }
 		}
 		if = {
@@ -1842,8 +1817,8 @@ generate_monarch_for_country = {
 					has_variable = naruhito
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1851,7 +1826,7 @@ generate_monarch_for_country = {
 				first_name = "naruhito_first_name"
 				last_name = "naruhito_last_name"
 				birth_date = 1960.2.23
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:japanese
@@ -1863,18 +1838,61 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = naruhito
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 				dna = HJM_dna_reiwa
 			}
 		}
 		set_variable = naruhito_generated
 	}
+	else_if = {
+		limit = {
+			AND = { OR = { c:JAP ?= this was_formed_from = JAP } game_date >= 2006.9.6 game_date < 2076.9.6 }   # Prince Hisahito
+			NOT = { has_variable = Hisahito_generated }
+		}
+		if = {
+			limit = { 
+				any_character = { 
+					has_variable = Hisahito
+					is_ruler_of_own_country = no
+				}
+			}
+			random_character = { 
+				limit = {
+					has_variable = Hisahito
+					is_ruler_of_own_country = no
+				}
+				set_character_as_royal = yes
+			}
+		}
+		else = {
+			create_character = {
+				first_name = "Hisahito_first_name"
+				last_name = "Hisahito_last_name"
+				birth_date = 2006.9.6
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
+				interest_group = ig_landowners
+				ideology = ideology_elitist
+				culture = cu:japanese
+				religion = rel:shinto
+				traits = { healthy_character
+					reserved
+					honorable
+					tactful
+				}
+				on_created = { 
+					set_variable = Hisahito
+					set_character_as_royal = yes
+				}
+			}
+		}
+		set_variable = Hisahito_generated
+	}
 	
 	#China
 	else_if = {
 		limit = {
-			AND = { OR = { c:CHI ?= this c:PRC ?= this c:ROC ?= this was_formed_from = CHI was_formed_from = PRC was_formed_from = ROC } game_date >= 1908.12.2 game_date < 1967.10.17 }	# Puyi
+			AND = { OR = { c:CHI ?= this c:PRC ?= this c:ROC ?= this was_formed_from = CHI was_formed_from = PRC was_formed_from = ROC } game_date >= 1906.2.7 game_date < 1967.10.17 }	# Puyi
 			NOT = { has_variable = puyi_generated }
 		}
 		if = {
@@ -1889,8 +1907,8 @@ generate_monarch_for_country = {
 					has_variable = puyi
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -1898,7 +1916,7 @@ generate_monarch_for_country = {
 				first_name = "puyi_first_name"
 				last_name = "puyi_last_name"
 				birth_date = 1906.2.7
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:manchu
@@ -1910,7 +1928,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = puyi
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1935,15 +1953,15 @@ generate_monarch_for_country = {
 					has_variable = bhumibol_adulyadej
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
 			create_character = {
 				first_name = "bhumibol_adulyadej_first_name"
 				last_name = "bhumibol_adulyadej_last_name"
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				birth_date = 1927.12.5
 				interest_group = ig_landowners
 				ideology = ideology_democratic
@@ -1956,7 +1974,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = bhumibol_adulyadej
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -1964,7 +1982,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:THI ?= this was_formed_from = THI } game_date >= 2016.10.13 game_date < 2042.7.28 }	# Vajiralongkorn Mahidol
+			AND = { OR = { c:THI ?= this was_formed_from = THI } game_date >= 1952.7.28 game_date < 2042.7.28 }	# Vajiralongkorn Mahidol
 			NOT = { has_variable = Vajiralongkorn_Mahidol_generated }
 		}
 		if = {
@@ -1979,15 +1997,15 @@ generate_monarch_for_country = {
 					has_variable = Vajiralongkorn_Mahidol
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
 			create_character = {
 				first_name = "Vajiralongkorn_Mahidol_first_name"
 				last_name = "Vajiralongkorn_Mahidol_last_name"
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				birth_date = 1952.7.28
 				interest_group = ig_landowners
 				ideology = ideology_democratic
@@ -2000,7 +2018,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Vajiralongkorn_Mahidol
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -2010,7 +2028,7 @@ generate_monarch_for_country = {
 	#Cambodia
 	else_if = {
 		limit = {
-			AND = { OR = { c:CAM ?= this was_formed_from = CAM } game_date >= 1941.4.24 game_date < 2004.10.14 }	# Norodom Sihanouk
+			AND = { OR = { c:CAM ?= this was_formed_from = CAM } game_date >= 1922.10.31 game_date < 2004.10.14 }	# Norodom Sihanouk
 			NOT = { has_variable = norodom_sihanouk_generated }
 		}
 		if = {
@@ -2025,15 +2043,15 @@ generate_monarch_for_country = {
 					has_variable = norodom_sihanouk
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
 			create_character = {
 				first_name = "norodom_sihanouk_first_name"
 				last_name = "norodom_sihanouk_last_name"
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				birth_date = 1922.10.31
 				interest_group = ig_landowners
 				ideology = ideology_autocratic
@@ -2046,7 +2064,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = norodom_sihanouk
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -2054,7 +2072,7 @@ generate_monarch_for_country = {
 	}
 	else_if = {
 		limit = {
-			AND = { OR = { c:CAM ?= this was_formed_from = CAM } game_date >= 2004.10.14 game_date < 2030.10.14 }	# Norodom Sihamoni
+			AND = { OR = { c:CAM ?= this was_formed_from = CAM } game_date >= 1953.5.14 game_date < 2030.10.14 }	# Norodom Sihamoni
 			NOT = { has_variable = Norodom_Sihamoni_generated }
 		}
 		if = {
@@ -2069,15 +2087,15 @@ generate_monarch_for_country = {
 					has_variable = Norodom_Sihamoni
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
 			create_character = {
 				first_name = "Norodom_Sihamoni_first_name"
 				last_name = "Norodom_Sihamoni_last_name"
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				birth_date = 1953.5.14
 				interest_group = ig_landowners
 				ideology = ideology_democratic
@@ -2090,7 +2108,7 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = Norodom_Sihamoni
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
@@ -2100,7 +2118,7 @@ generate_monarch_for_country = {
 	#Brazil
 	else_if = {
 		limit = {
-			AND = { OR = { c:BRZ ?= this was_formed_from = BRZ } game_date >= 1940.1.29 game_date < 2007.12.27 }	# Pedro Gastão
+			AND = { OR = { c:BRZ ?= this was_formed_from = BRZ } game_date >= 1913.2.19 game_date < 2007.12.27 }	# Pedro Gastão
 			NOT = { has_variable = pedro_gastao_generated }
 		}
 		if = {
@@ -2115,8 +2133,8 @@ generate_monarch_for_country = {
 					has_variable = pedro_gastao
 					is_ruler_of_own_country = no
 				}
-				resolve_any_exiled_monarch = yes
-				set_character_as_monarch = yes
+				
+				set_character_as_royal = yes
 			}
 		}
 		else = {
@@ -2124,7 +2142,7 @@ generate_monarch_for_country = {
 				first_name = "pedro_gastao_first_name"
 				last_name = "pedro_gastao_last_name"
 				birth_date = 1913.2.19
-				role = character_role_monarch historical = yes #ruler = yes ig_leader = yes
+				role = character_role_prince historical = yes #ruler = yes ig_leader = yes
 				interest_group = ig_landowners
 				ideology = ideology_elitist
 				culture = cu:brazilian
@@ -2136,119 +2154,117 @@ generate_monarch_for_country = {
 				}
 				on_created = { 
 					set_variable = pedro_gastao
-					set_character_as_monarch = yes
+					set_character_as_royal = yes
 				}
 			}
 		}
 		set_variable = pedro_gastao_generated
 	}
 	
-	#Generic monarch
+	#Generic prince
 	else = {
-		
-		#Find existing monarchs
+	
+		#Find existing princes
 		if = {
 			limit = {
-				any_scope_character = {
-					has_role = character_role_monarch
-				}
+				NOT = { exists = heir }
+				ruler ?= { has_role = character_role_monarch }
+				any_scope_character = { has_role = character_role_prince }
 			}
 			random_scope_character = {
 				limit = {
-					has_role = character_role_monarch
+					has_role = character_role_prince
 				}
-				set_character_as_monarch = yes
+				save_scope_as = THIS_scope
+				owner ?= { set_heir = scope:THIS_scope }
 			}
 		}
-		else = {
-			if = {
-				limit = {
-					NOT = {
-						any_scope_character = {
-							has_role = character_role_monarch 
-						}
-					}
+		else_if = {
+			limit = {
+				any_scope_character = {
+					is_royal_character = yes
+					is_ruler_of_own_country = no
+					NOT = { has_role = character_role_regent }
+					count = 0
 				}
-				if = {
-					limit = {
-						any_scope_character = {
+				any_scope_character = {
+					OR = {
+						has_role = character_role_monarch
+						AND = {
+							has_role = character_role_regent
 							has_role = character_role_prince
-							NOT = { has_variable = prince_consort_character }
-							NAND = {
-								owner ?= { has_variable = primogeniture_system }
-								is_female = yes
-							}
+							has_variable = prince_consort_character
 						}
 					}
-					ordered_scope_character = {
-						limit = {
-							has_role = character_role_prince
-							NOT = { has_variable = prince_consort_character }
-							NAND = {
-								owner ?= { has_variable = primogeniture_system }
-								is_female = yes
-							}
-						}
-						order_by = age
-						position = 0
-						check_range_bounds = no
-						set_character_as_monarch = yes
-					}
+					has_variable = is_married
+					age >= 35
+					NOT = { has_trait = homosexual_character }
 				}
-				else_if = {
-					limit = { 
-						ruler ?= { NOT = { has_role = character_role_regent } }
-						NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
-					}
-					ruler ?= {
-						set_character_as_regent = yes
-					}
-				}
-				else = {
+			}
+			random_list = {
+				1 = {
 					if = {
-						limit = {
-							any_scope_character = {
-								has_role_of_type = magnate
-								is_noble = yes
-								is_adult = yes
-							}
-						}
-						ordered_scope_character = {
-							limit = {
-								has_role_of_type = magnate
-								is_noble = yes
-								is_adult = yes
-							}
-							order_by = popularity
-							position = 0
-							set_character_as_regent = yes
-						}
-					}
-					else_if = {
-						limit = {
-							any_scope_character = {
-								OR = { 
-									has_role_of_type = general
-									has_role_of_type = admiral
+						limit = { 
+							any_scope_character = { 
+								OR = {
+									has_role = character_role_monarch
+									AND = { 
+										has_role = character_role_regent
+										has_role = character_role_prince
+										has_variable = prince_consort_character
+									}
 								}
+								age >= 50
 							}
 						}
-						ordered_scope_character = {
-							limit = {
-								OR = { 
-									has_role_of_type = general
-									has_role_of_type = admiral
-								}
+						create_character = {
+							role = character_role_prince noble = yes
+							age = { 15 25 }
+							on_created = {
+								set_character_as_royal = yes
 							}
-							order_by = commander_rank
-							position = 0
-							set_character_as_regent = yes
 						}
 					}
 					else = {
 						create_character = {
-							role = character_role_regent noble = yes
-							on_created = { set_character_as_regent = yes }
+							role = character_role_prince noble = yes
+							age = { 0 10 }
+							on_created = {
+								set_character_as_royal = yes
+							}
+						}
+					}
+				}
+				1 = {
+					if = {
+						limit = { 
+							any_scope_character = { 
+								OR = {
+									has_role = character_role_monarch
+									AND = { 
+										has_role = character_role_regent
+										has_role = character_role_prince
+										has_variable = prince_consort_character
+									}
+								}
+								age >= 50
+							}
+						}
+						create_character = {
+							role = character_role_prince noble = yes female = yes
+							age = { 15 25 }
+							on_created = {
+								set_character_as_royal = yes
+							}
+						}
+					}
+					else = {
+						create_character = {
+							role = character_role_prince noble = yes female = yes
+							age = { 0 10 }
+							on_created = {
+								set_character_as_royal = yes
+							}
 						}
 					}
 				}
@@ -2257,769 +2273,33 @@ generate_monarch_for_country = {
 		
 	}
 	
-	#Set Monarch home state
-	every_scope_character = {
-		limit = { has_role = character_role_monarch }
-		set_home_state = owner.capital
-	}
-	
-	#Create princes
+	#Set heir
 	if = {
 		limit = {
-			has_law_or_variant = law_type:law_HOS_monarch
-			ruler_is_governor_general = no
-			shares_same_monarch = no
-			any_scope_character = {
+			ruler ?= { 
 				OR = {
 					has_role = character_role_monarch
-					AND = {
+					AND = { 
 						has_role = character_role_regent
 						has_role = character_role_prince
 						has_variable = prince_consort_character
 					}
 				}
-				age >= 35
-				NOT = { has_trait = homosexual_character }
 			}
-		}
-		generate_prince_for_country = yes
-	}
-
-}
-
-set_character_as_monarch = {
-	
-	#Clear irrelevant roles
-	save_scope_as = THIS_scope
-	owner ?= {
-		every_scope_character = {
-			limit = {
-				NOT = { this = scope:THIS_scope }
-				has_role = character_role_monarch
-			}
-			remove_character_role = character_role_monarch
-		}
-	}
-	add_character_role = character_role_monarch
-	if = {
-		limit = { has_role = character_role_monarch_elective }
-		remove_character_role = character_role_monarch_elective
-	}
-	if = {
-		limit = { has_role = character_role_prince }
-		remove_character_role = character_role_prince
-	}
-	
-	#Clothes
-	if = {
-		limit = { NOT = { has_variable = once_a_monarch } }
-		set_variable = once_a_monarch
-	}
-	
-	#Clean up regency
-	if = {
-		limit = { has_role = character_role_regent }
-		remove_character_role = character_role_regent
-	}
-	if = {
-		limit = { has_modifier = regent_character }
-		remove_modifier = regent_character
-	}
-	if = {
-		limit = { 
-			is_eligible_to_become_monarch = yes
-		}
-		owner ?= { remove_regency_modifier = yes }
-	}
-	
-	#Set as ruler if applicable
-	if = {
-		limit = {
-			owner ?= {
-				has_law_or_variant = law_type:law_HOS_monarch
-				NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
-				OR = {
-					is_a_regency_government = no
-					ruler ?= { has_role = character_role_regent }
-				}
-			}
-			is_eligible_to_become_monarch = yes
-			is_ruler_of_own_country = no
-		}
-		set_character_as_ruler = yes
-	}
-
-}
-
-set_character_as_regent = {
-	
-	#Mark owner as having a regency
-	owner ?= {
-		add_regency_modifier = yes
-	}
-	
-	if = {
-		limit = { is_adult = yes }
-		
-		#Clean up roles
-		if = {
-			limit = { has_role = character_role_monarch }
-			remove_character_role = character_role_monarch
-		}
-		if = {
-			limit = { has_role = character_role_monarch_elective }
-			remove_character_role = character_role_monarch_elective
-		}
-		if = {
-			limit = { has_role = character_role_viceroy }
-			remove_character_role = character_role_viceroy
-		}
-		
-		#Set as regent
-		save_scope_as = THIS_scope
-		owner ?= {
-			every_scope_character = {
-				limit = {
-					NOT = { this = scope:THIS_scope }
-					has_role = character_role_regent
-				}
-				remove_character_role = character_role_regent
-				clean_up_regent_character = yes
-			}
-		}
-		add_character_role = character_role_regent
-		owner ?= {
-			set_variable = { name = hide_ruler_change_notification days = 3 }
-		}
-		designate_character_as_regent = {
-			YEARS = 0
-		}
-		
-		#Heir is the monarch
-		if = {
-			limit = {
-				owner ?= {
-					has_law_or_variant = law_type:law_HOS_monarch
-					NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
-					ruler_is_governor_general = no
-					shares_same_monarch = no
-					is_a_regency_government = yes
-				}
-			}
-			owner ?= {
-				random_scope_character = {
-					limit = {
-						has_role = character_role_monarch
-						is_eligible_to_become_monarch = no
-					}
-					set_character_as_monarch = yes
-					if = {
-						limit = {
-							is_heir_of_own_country = no
-						}
-						save_scope_as = THIS_scope
-						owner ?= { set_heir = scope:THIS_scope }
-					}
-				}
-			}
-			set_character_as_ruler = yes
-		}
-		
-	}
-
-}
-
-clean_up_regent_character = {
-	
-	remove_character_role = character_role_regent
-	remove_variable = regency_years
-	remove_variable = regent_immortality_var
-	if = {
-		limit = {
-			is_immortal = yes
-		}
-		set_character_immortal = no
-	}
-	if = {
-		limit = { has_modifier = regent_character }
-		remove_modifier = regent_character
-	}
-	
-}
-
-clean_up_any_monarchs = {
-	
-	#Clean up deposed monarchy
-	if = {
-		limit = {
-			NOT = { has_law_or_variant = law_type:law_HOS_monarch }
-		}
-		clean_up_all_royal_titles = yes
-	}
-	
-	#Mark
-	set_variable = { 
-		name = monarchy_deposed_recently
-		months = 1
-	}
-	
-}
-
-clean_up_any_princes = {
-	
-	every_scope_character = {
-		limit = { is_a_prince_character = yes }
-		replace_character_roles = { add = { character_role_magnate } remove_all = yes }
-	}
-	
-}
-
-clean_up_prince_character = {
-
-	if = {
-		limit = { is_heir_of_own_country = yes }
-		disinherit_character = yes
-	}
-	remove_character_role = character_role_prince
-	set_variable = former_royal_character
-	if = {
-		limit = { NOT = { has_role_of_type = magnate } }
-		add_character_role = magnate
-	}
-
-}
-
-remove_current_monarchs = {
-	
-	random_scope_character = {
-		limit = { 
-			has_role = character_role_monarch
-		}
-		retire_monarch_character_scripted_effect = yes
-	}
-	set_variable = { 
-		name = monarchy_deposed_recently
-		months = 1
-	}
-	
-}
-
-retire_monarch_character_scripted_effect = {
-	save_scope_as = retiring_monarch
-	custom_tooltip = {
-		text = retire_monarch
-		retire_character = yes
-	}
-}
-
-retire_character_scripted_effect = {
-	save_scope_as = retiring_monarch
-	custom_tooltip = {
-		text = retire_character
-		retire_character = yes
-	}
-}
-
-resolve_any_exiled_monarch = {
-
-	if = {
-		limit = { 
-			OR = { 
-				AND = { 
-					is_ruler_of_own_country = no
-					owner ?= { NOT = { owner = ROOT } }
-				}
-				is_in_exile_pool = yes 
-				is_in_void = yes
-			}
-		}
-		if = {
-			limit = { is_in_void = yes }
-			free_character_from_void = yes
-		}
-		transfer_character = root
-		hidden_effect = {
-			remove_modifier = in_exile_modifier
-		}
-	}
-
-}
-
-generate_viceroy_for_country = {
-
-	#UK
-	if = {
-		limit = {
-			AND = { c:HND ?= this exists = c:GBR is_direct_subject_of = c:GBR game_date >= 1943.10.1 game_date < 1947.2.21 }	# Archibald Wavell
-			NOT = { has_variable = Archibald_Wavell_generated }
-		}
-		if = {
-			limit = { 
-				any_character = { 
-					has_variable = Archibald_Wavell
-					is_ruler_of_own_country = no
-				}
-			}
-			random_character = { 
-				limit = {
-					has_variable = Archibald_Wavell
-					is_ruler_of_own_country = no
-				}
-				set_character_as_viceroy = yes
-			}
-		}
-		else = {
-			create_character = {
-				first_name = "Archibald_Wavell_first_name"
-				last_name = "Archibald_Wavell_last_name"
-				birth_date = 1883.5.5
-				role = character_role_viceroy historical = yes #ruler = yes ig_leader = yes
-				interest_group = ig_armed_forces
-				ideology = ideology_elitist
-				culture = cu:english
-				religion = rel:protestant
-				traits = { healthy_character
-					direct
-					tactful
-					experienced_diplomat
-				}
-				on_created = { 
-					set_variable = Archibald_Wavell
-					set_character_as_viceroy = yes
-				}
-			}
-		}
-		set_variable = Archibald_Wavell_generated
-	}
-	else_if = {
-		limit = {
-			AND = { c:HND ?= this exists = c:GBR is_direct_subject_of = c:GBR OR = { game_date >= 1947.2.21 has_variable = Archibald_Wavell_dismissed } game_date < 1948.6.21 }	# Louis Mountbatten
-			NOT = { has_variable = Louis_Mountbatten_generated }
-		}
-		if = {
-			limit = { 
-				any_character = { 
-					has_variable = Louis_Mountbatten
-					is_ruler_of_own_country = no
-				}
-			}
-			random_character = { 
-				limit = {
-					has_variable = Louis_Mountbatten
-					is_ruler_of_own_country = no
-				}
-				set_character_as_viceroy = yes
-			}
-		}
-		else = {
-			create_character = {
-				first_name = "Louis_Mountbatten_first_name"
-				last_name = "Louis_Mountbatten_last_name"
-				birth_date = 1900.6.25
-				role = character_role_viceroy historical = yes #ruler = yes ig_leader = yes
-				interest_group = ig_industrialists
-				ideology = ideology_democratic
-				culture = cu:english
-				religion = rel:protestant
-				traits = { healthy_character
-					charismatic
-					pious
-					romantic
-				}
-				on_created = { 
-					set_variable = Louis_Mountbatten
-					set_character_as_viceroy = yes
-				}
-			}
-		}
-		set_variable = Louis_Mountbatten_generated
-	}
-	else_if = {
-		limit = {
-			AND = { c:HND ?= this exists = c:GBR is_direct_subject_of = c:GBR game_date >= 1948.6.21 game_date < 1955.1.26 }	# Chakravarti Rajagopalachari
-			NOT = { has_variable = Chakravarti_Rajagopalachari_generated }
-		}
-		if = {
-			limit = { 
-				any_character = { 
-					has_variable = Chakravarti_Rajagopalachari
-					is_ruler_of_own_country = no
-				}
-			}
-			random_character = { 
-				limit = {
-					has_variable = Chakravarti_Rajagopalachari
-					is_ruler_of_own_country = no
-				}
-				set_character_as_viceroy = yes
-			}
-		}
-		else = {
-			create_character = {
-				first_name = "Chakravarti_Rajagopalachari_first_name"
-				last_name = "Chakravarti_Rajagopalachari_last_name"
-				birth_date = 1878.12.10
-				role = character_role_viceroy historical = yes #ruler = yes ig_leader = yes
-				interest_group = ig_intelligentsia
-				ideology = ideology_liberal
-				culture = cu:indian
-				religion = rel:hindu
-				traits = { tactful
-					honorable
-					meticulous
-					charismatic
-				}
-				on_created = { 
-					set_variable = Chakravarti_Rajagopalachari
-					set_character_as_viceroy = yes
-				}
-			}
-		}
-		set_variable = Chakravarti_Rajagopalachari_generated
-	}
-	else_if = {
-		limit = {
-			AND = { c:PAK ?= this exists = c:GBR is_direct_subject_of = c:GBR game_date >= 1946.1.1 game_date < 1951.10.17 }	# Khawaja Nazimuddin
-			NOT = { has_variable = Khawaja_Nazimuddin_generated }
-		}
-		if = {
-			limit = { 
-				any_character = { 
-					has_variable = Khawaja_Nazimuddin
-					is_ruler_of_own_country = no
-				}
-			}
-			random_character = { 
-				limit = {
-					has_variable = Khawaja_Nazimuddin
-					is_ruler_of_own_country = no
-				}
-				set_character_as_viceroy = yes
-			}
-		}
-		else = {
-			create_character = {
-				first_name = "Khawaja_Nazimuddin_first_name"
-				last_name = "Khawaja_Nazimuddin_last_name"
-				birth_date = 1894.7.19
-				role = character_role_viceroy historical = yes #ruler = yes ig_leader = yes
-				interest_group = ig_landowners
-				ideology = ideology_elitist
-				culture = cu:pakistani
-				religion = rel:sunni
-				traits = { reserved
-					honorable
-					pious
-					compliant
-				}
-				on_created = { 
-					set_variable = Khawaja_Nazimuddin
-					set_character_as_viceroy = yes
-				}
-			}
-		}
-		set_variable = Khawaja_Nazimuddin_generated
-	}
-	
-	#Generic Viceroy
-	else_if = {
-		limit = {
-			any_scope_character = {
-				has_role = character_role_viceroy
-			}
-		}
-		random_scope_character = {
-			limit = {
-				has_role = character_role_viceroy
-			}
-			set_character_as_viceroy = yes
-		}
-	}
-	else_if = {
-		limit = {
-			is_subject = yes
-			overlord ?= { save_temporary_scope_as = viceroy_overlord }
-			any_scope_character = {
-				OR = { is_ruler_of_own_country = yes has_role_of_type = politician }
-				culture = { is_primary_culture_of = scope:viceroy_overlord }
-			}
-		}
-		overlord ?= { save_scope_as = viceroy_overlord }
-		random_scope_character = {
-			limit = {
-				OR = { is_ruler_of_own_country = yes has_role_of_type = politician }
-				culture = { is_primary_culture_of = scope:viceroy_overlord }
-			}
-			set_character_as_viceroy = yes
-		}
-	}
-	else = {
-		if = {
-			limit = { is_sufficiently_independent = no }
-			overlord ?= {
-				random_primary_culture = { save_scope_as = culture_to_add }
-			}
-			if = {
-				limit = { exists = scope:culture_to_add }
-				create_character = {
-					save_scope_as = ruler_to_be
-					role = character_role_viceroy
-					culture = scope:culture_to_add
-					religion = overlord.religion
-					on_created = { 
-						set_character_as_viceroy = yes
-					}
-				}
-			}
-			else = {
-				create_character = {
-					save_scope_as = ruler_to_be
-					role = character_role_viceroy
-					on_created = { 
-						set_character_as_viceroy = yes
-					}
-				}
-			}
-			random_scope_character = {
-				limit = { 
-					has_role = character_role_viceroy
-					owner = { exists = overlord }
-					culture = { NOT = { is_primary_culture_of = owner } }
-				}
-				set_home_state = owner.overlord.capital
-			}
-		}
-		else = {
-			create_character = {
-				save_scope_as = ruler_to_be
-				role = character_role_viceroy
-				on_created = { 
-					set_character_as_viceroy = yes
-				}
-			}
-		}
-	}
-
-}
-
-set_character_as_viceroy = {
-	
-	if = {
-		limit = {
-			owner ?= { ruler_is_governor_general = yes }
-			is_ruler_of_own_country = no
-		}
-		set_character_as_ruler = yes
-		if = {
-			limit = { has_role_of_type = agitator }
-			remove_character_role = agitator
-		}
-	}
-	owner ?= {
-		every_scope_character = {
-			limit = {
-				has_role = character_role_viceroy
-			}
-			remove_character_role = character_role_viceroy
-		}
-	}
-	if = {
-		limit = { NOT = { has_role = character_role_viceroy } }
-		add_character_role = character_role_viceroy
-	}
-	if = {
-		limit = { NOT = { has_variable = viceroy_character_term_limit } }
-		
-		#Viceroys are dismissed through subject interaction by overlord
-		set_variable = { name = viceroy_character_term_limit }
-		#set_variable = { name = viceroy_character_term_limit years = 5 }
-	}
-
-}
-
-set_character_as_royal = {
-	set_variable = former_royal_character
-	if = {
-		limit = {
-			owner ?= { has_law_or_variant = law_type:law_HOS_monarch }
-			NOR = {
-				has_role = character_role_monarch
-				has_role = character_role_monarch_elective
-			}
-			NOT = { has_role = character_role_prince }
-		}
-		add_character_role = character_role_prince
-	}
-	set_is_noble = yes
-}
-
-generate_elective_monarchs_for_country = {
-
-	#Generate Elective Monarchs
-	if = {
-		limit = {
-			any_scope_character = {
-				has_role = character_role_monarch_elective
-				count < 3
-			}
-		}
-		random_primary_culture = {
-			save_scope_as = primary_culture_scope
-		}
-		create_character = {
-			save_scope_as = ruler_to_be
-			role = character_role_monarch_elective noble = yes
-			culture = scope:primary_culture_scope
-			on_created = {
-				set_character_as_royal = yes
-			}
-		}
-	}
-	if = {
-		limit = {
-			any_scope_character = {
-				has_role = character_role_monarch_elective
-				count < 3
-			}
-		}
-		random_primary_culture = {
-			save_scope_as = primary_culture_scope
-		}
-		create_character = {
-			save_scope_as = ruler_to_be
-			role = character_role_monarch_elective noble = yes
-			culture = scope:primary_culture_scope
-			on_created = {
-				set_character_as_royal = yes
-			}
-		}
-	}
-	if = {
-		limit = {
-			any_scope_character = {
-				has_role = character_role_monarch_elective
-				count < 3
-			}
-		}
-		random_primary_culture = {
-			save_scope_as = primary_culture_scope
-		}
-		create_character = {
-			save_scope_as = ruler_to_be
-			role = character_role_monarch_elective noble = yes
-			culture = scope:primary_culture_scope
-			on_created = {
-				set_character_as_royal = yes
-			}
-		}
-	}
-
-}
-
-clean_up_all_royal_titles = {
-	
-	#Remove all monarch titles
-	if = {
-		limit = {
-			NOT = { has_law_or_variant = law_type:law_HOS_monarch }
-		}
-		every_scope_character = {
-			limit = { has_role = character_role_monarch }
-			remove_character_role = character_role_monarch
-			set_character_as_royal = yes
-		}
-		every_scope_character = {
-			limit = { has_role = character_role_monarch_elective }
-			remove_character_role = character_role_monarch_elective
-			set_character_as_royal = yes
-		}
-		every_scope_character = {
-			limit = { has_role = character_role_regent }
-			remove_character_role = character_role_regent
-			clean_up_regent_character = yes
-		}
-		every_scope_character = {
-			limit = { has_role = character_role_prince }
-			remove_character_role = character_role_prince
-		}
-		heir ?= {
-			disinherit_character = yes
-		}
-		
-		#Remove all viceroys
-		every_scope_character = {
-			limit = { has_role = character_role_viceroy }
-			remove_character_role = character_role_viceroy
-		}
-	
-		#Remove Regency
-		remove_regency_modifier = yes
-	}
-
-}
-
-randomly_marry_prince_effect = {
-
-	random_scope_character = {
-		limit = {
-			
-			#Is a prince
-			has_role = character_role_prince
-			
-			#Is interested in marrying
-			NOT = { has_variable = spouse_seeker }
-			NOT = { has_variable = is_married }
-			NOT = { has_trait = homosexual_character }
-			
-			#Is of a marryable age
-			is_adult = yes
-			age >= 25
 			OR = {
-				age < 50
-				AND = {
-					is_female = yes
-					age < 40
-				}
+				NOT = { exists = heir }
+				heir ?= { NOT = { has_role = character_role_prince } }
 			}
-			
+			has_law_or_variant = law_type:law_HOS_monarch
+			NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
 		}
-		random_list = {
-			9 = {
-				#No marriage
+		random_scope_character = {
+			limit = {
+				has_role = character_role_prince
+				is_heir_of_own_country = no
 			}
-			1 = {
-				#Marry commoner - always a magnate
-				set_variable = spouse_seeker
-				save_scope_as = royal_marriage_character
-				owner ?= { save_scope_as = marriage_country }
-				if = {
-					limit = { is_female = no }
-					owner ?= {
-						create_character = {
-							role = magnate female = yes
-							age = { 21 40 }
-							save_scope_as = foreign_ruler_1
-						}
-						custom_tooltip = {
-							text = arrange_royal_wedding.tt
-							trigger_event = { id = wedding.1 popup = yes }
-						}
-					}
-				}
-				else = {
-					owner ?= {
-						create_character = {
-							role = magnate
-							age = { 25 50 }
-							save_scope_as = foreign_ruler_1
-						}
-						custom_tooltip = {
-							text = arrange_royal_wedding.tt
-							trigger_event = { id = wedding.1 popup = yes }
-						}
-					}
-				}
-			}
+			save_scope_as = THIS_scope
+			owner ?= { set_heir = scope:THIS_scope }
 		}
 	}
 

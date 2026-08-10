@@ -23,22 +23,7 @@ law_HOG_none = {
 	}
 	
 	on_activate = {
-		if = {
-			limit = { 
-				has_law_or_variant = law_type:law_HOS_monarch
-				any_scope_character = { 
-					has_role = character_role_regent
-					is_ruler_of_own_country = no 
-				}
-			}
-			every_scope_character = {
-				limit = {
-					has_role = character_role_regent
-					is_ruler_of_own_country = no 
-				}
-				remove_character_role = character_role_regent
-			}
-		}
+		
 	}
 
 	modifier = {
@@ -80,6 +65,10 @@ law_HOG_prime_minister = {
 	}
 	
 	can_enact = {
+		
+	}
+	
+	on_activate = {
 		
 	}
 
@@ -130,22 +119,7 @@ law_HOG_president_prime_minister = {
 	}
 	
 	on_activate = {
-		if = {
-			limit = { 
-				has_law_or_variant = law_type:law_HOS_monarch
-				any_scope_character = { 
-					has_role = character_role_regent
-					is_ruler_of_own_country = no 
-				}
-			}
-			every_scope_character = {
-				limit = {
-					has_role = character_role_regent
-					is_ruler_of_own_country = no 
-				}
-				remove_character_role = character_role_regent
-			}
-		}
+		
 	}
 
 	modifier = {

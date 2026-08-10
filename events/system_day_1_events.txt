@@ -33,6 +33,7 @@ day_1_events.1 = {
 		
 		#Initialise parliaments
 		every_country = {
+			effect_update_voting_power_for_laws = yes
 			if = {
 				limit = { has_journal_entry = je_upper_house }
 				set_variable = election_held_recently_UH_var
@@ -60,6 +61,31 @@ day_1_events.1 = {
 				value = 5
 			}
 			
+		}
+		
+		#Mark and generate all monarchs
+		every_country = {
+			limit = {
+				has_law_or_variant = law_type:law_HOS_monarch
+				NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
+				has_gov_regency = no
+			}
+			ruler ?= { set_character_as_monarch = yes }
+		}
+		every_country = {
+			if = {
+				limit = {
+					OR = {
+						country_is_in_middle_east = yes
+						country_is_in_africa = yes 
+						NOR = {
+							religion ?= rel:catholic
+							religion ?= rel:protestant
+						}
+					}
+				}
+				set_variable = primogeniture_system
+			}
 		}
 		
 	}

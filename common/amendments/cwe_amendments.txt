@@ -114,6 +114,13 @@ amendment_elective_monarchy = {
 			}
 		}
 		
+		#Remove all elective monarchs
+		every_scope_character = {
+			limit = { has_role = character_role_monarch_elective }
+			remove_character_role = character_role_monarch_elective
+			set_character_as_royal = yes
+		}
+		
 	}
 
 }
@@ -358,6 +365,8 @@ amendment_no_nobility = {
 			interest_group = ig:ig_landowners
 		}
 		
+		set_variable = female_princess_lose_title_upon_marriage
+		
 	}
 
 	# Effect will trigger when amendment is repealed from an active law 
@@ -367,6 +376,8 @@ amendment_no_nobility = {
 			value = large_radicals
 			interest_group = ig:ig_landowners
 		}
+		
+		remove_variable = female_princess_lose_title_upon_marriage
 		
 	}
 

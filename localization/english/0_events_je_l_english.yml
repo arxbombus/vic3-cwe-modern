@@ -1454,6 +1454,8 @@
     ETH_SOM_2006_war.d:0 "The Ethiopian invasion of Somalia was an armed conflict lasting from mid-2006 to early 2009. It began when Ethiopian military forces, supported by the United States, invaded Somalia to depose the Islamic Courts Union (ICU) and install the Transitional Federal Government (TFG). The conflict evolved into a military occupation and a rapidly escalating anti-Ethiopian insurgency. By 2008, insurgents had recaptured the majority of territory lost by the ICU during the invasion. The conflict caused the second largest population displacement since 1991."
     USA_Saudi_Arabia_petrodollar.t:0 "The Petrodollar Agreement?"
     USA_Saudi_Arabia_petrodollar.d:0 "The petrodollar agreement was a 1974 pact between the U.S. and Saudi Arabia, establishing that Saudi Arabia would price its oil sales exclusively in U.S. dollars and invest its surplus revenue into U.S. Treasury securities. In return, the U.S. provided security guarantees and military equipment, establishing the dollar as the dominant global oil currency."
+    HND_Indo_Sikkimese_Treaty.t:0 "The Indo-Sikkimese Treaty?"
+    HND_Indo_Sikkimese_Treaty.d:0 "Signed on December 5, 1950, the Indo-Sikkimese Treaty made Sikkim a protectorate of India. Under the agreement brokered by Hariswar Dayal and the Chogyal, India took charge of Sikkim's defense, foreign affairs, and strategic communications, while Sikkim retained internal autonomy. This arrangement lasted until 1975, when Sikkim merged to become India's 22nd state."
     
     korean_war:0 "The Korean War"
     portugal_india_war:0 "Annexation of Goa"
@@ -4099,6 +4101,14 @@
     je_central_bank_decrease_monetary_policy_button:0 "Decrease Minting"
     je_central_bank_decrease_monetary_policy_button_desc:0 "The Central Bank will mint less national currency to decrease the money supply."
     
+    je_central_bank_devalue_currency_system_button:0 "Decrease Currency Backing"
+    je_central_bank_devalue_currency_system_button_desc:0 "The Central Bank will use a less valuable item to back its currency."
+    
+    je_central_bank_revalue_currency_system_button:0 "Increase Currency Backing"
+    je_central_bank_revalue_currency_system_button_desc:0 "The Central Bank will use a more valuable item to back its currency."
+    
+    currency_system_timer.tt:0 "Did not change #y Currency Backing#! in the last #y 5 years#!"
+    
     je_foreign_central_bank:0 "The [SCOPE.sCountry('foreign_central_bank').GetAdjectiveNoFlag] Central Bank"
     je_foreign_central_bank_reason:0 "As we are in a [concept_currency_union], The Bank of [SCOPE.sCountry('foreign_central_bank').GetName] is the Central Bank of [ROOT.GetCountry.GetName]. This means that the Central Bank of [SCOPE.sCountry('foreign_central_bank').GetName] will decide what #White Central Bank Interest Rate#! [ROOT.GetCountry.GetName] shall have. \n\nCentral banks use monetary policy to manage economic fluctuations and achieve price stability, which means that inflation is low and stable. Central banks conduct monetary policy by adjusting the supply of money, usually through buying or selling securities in the open market. Open market operations affect short-term interest rates, which in turn influence longer-term rates and economic activity. When central banks lower interest rates, monetary policy is easing. When they raise interest rates, monetary policy is tightening. \n\nCurrent Interest Rate: [SCOPE.GetRootScope.GetCountry.GetCustom('central_bank_current_monetary_policy_custom_title')] \n\nAppropriate $lawgroup_monetary_policy$: [SCOPE.GetRootScope.GetCountry.GetCustom('central_bank_appropriate_monetary_policy_custom_title')] \n\nCurrent Month's Average Core [concept_market_price]: [GetPlayer.MakeScope.Var('core_interest_rate_now').GetValue]% \n\nPrevious Month's Average Core [concept_market_price]: [GetPlayer.MakeScope.Var('core_interest_rate_prev').GetValue]% \n\nGoods used to calculate the Core [concept_market_price] ([GetPlayer.MakeScope.Var('core_interest_rate_total_factors').GetValue] available): $cir_grain$ $cir_meat$ $cir_fish$ $cir_fruit$ $cir_tea$ $cir_coffee$ $cir_groceries$ $cir_liquor$ $cir_tobacco$ $cir_wine$ $cir_transportation$ $cir_real_estate$ $cir_electricity$ $cir_communication_services$ $cir_services$ $cir_furniture$ $cir_telecommunications$ $cir_computers$"
     je_foreign_central_bank_status:0 "Core Inflation Rate: [GetPlayer.MakeScope.Var('core_interest_rate').GetValue]%"
@@ -5417,7 +5427,7 @@
     je_state_run_companies_status:0 "[concept_investment_pool]: #Green [GetPlayer.MakeScope.Var('tekhpromfinplans_fund_size').GetValue]M#!"
     
     je_constitutional_monarchy:0 "The [SCOPE.GetRootScope.GetCountry.GetCustom('monarchy_type_custom_title')]"
-    je_constitutional_monarchy_reason:0 "[SCOPE.sCharacter('constitutional_monarch_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('constitutional_monarch_scope').GetFullName] is the [concept_monarch_character] of [ROOT.GetCountry.GetName]. \n\nAlthough the [SCOPE.sCharacter('constitutional_monarch_scope').GetPrimaryRoleTitle] of [ROOT.GetCountry.GetNameNoFormatting] does not exercise executive power, the [SCOPE.sCharacter('constitutional_monarch_scope').GetPrimaryRoleTitle] still remains a highly influential figure in the country by being a visible symbol of national unity. [SCOPE.GetRootScope.GetCountry.GetCustom('monarchy_type_custom_desc')] [SCOPE.GetRootScope.GetCountry.GetCustom('viceroy_monarchy_type_custom_desc')]"
+    je_constitutional_monarchy_reason:0 "[SCOPE.sCharacter('constitutional_monarch_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('constitutional_monarch_scope').GetFirstName] is the [concept_monarch_character] of [ROOT.GetCountry.GetName]. \n\nAlthough the [SCOPE.sCharacter('constitutional_monarch_scope').GetPrimaryRoleTitle] of [ROOT.GetCountry.GetNameNoFormatting] does not exercise executive power, the [SCOPE.sCharacter('constitutional_monarch_scope').GetPrimaryRoleTitle] still remains a highly influential figure in the country by being a visible symbol of national unity. [SCOPE.GetRootScope.GetCountry.GetCustom('monarchy_type_custom_desc')] [SCOPE.GetRootScope.GetCountry.GetCustom('viceroy_monarchy_type_custom_desc')]"
     monarch_ig_landowners:0 "Supports [GetInterestGroupVariant('ig_landowners',GetPlayer).GetNameWithCountryVariant]"
     monarch_ig_devout:0 "Supports [GetInterestGroupVariant('ig_devout',GetPlayer).GetNameWithCountryVariant]"
     monarch_ig_rural_folk:0 "Supports [GetInterestGroupVariant('ig_rural_folk',GetPlayer).GetNameWithCountryVariant]"
@@ -5426,6 +5436,7 @@
     monarch_ig_trade_unions:0 "Supports [GetInterestGroupVariant('ig_trade_unions',GetPlayer).GetNameWithCountryVariant]"
     monarch_ig_armed_forces:0 "Supports [GetInterestGroupVariant('ig_armed_forces',GetPlayer).GetNameWithCountryVariant]"
     monarch_ig_intelligentsia:0 "Supports [GetInterestGroupVariant('ig_intelligentsia',GetPlayer).GetNameWithCountryVariant]"
+    monarch_ig_label:0 "Supports [SCOPE.sCharacter('constitutional_monarch_scope').GetInterestGroup.GetName]"
     
     monarch_vacated:0 "Position Vacated \n(Please exit this [concept_journal_entry] to reset details)"
     monarch_child:0 "Regency Ongoing"
@@ -5433,8 +5444,8 @@
     elective_monarchy_type:0 "Elective Monarchy"
     constitutional_monarchy_type:0 "Constitutional Monarchy"
     
-    elective_monarchy_type_desc:0 "\n\n[ROOT.GetCountry.GetName] has an [SCOPE.GetRootScope.GetCountry.GetCustom('monarchy_type_custom_title')] where the [SCOPE.GetRootScope.GetCountry.GetCustom('monarch_custom_title')] is rotated between the various regional royal families every 5 years. This means that the [SCOPE.GetRootScope.GetCountry.GetCustom('monarch_custom_title')] will change randomly every 5 years."
-    constitutional_monarchy_type_desc:0 "\n\n[ROOT.GetCountry.GetName] has a hereditary monarchy where the [SCOPE.GetRootScope.GetCountry.GetCustom('monarch_custom_title')] will rule for life and will not change except upon the [SCOPE.GetRootScope.GetCountry.GetCustom('monarch_custom_title')]'s death."
+    elective_monarchy_type_desc:0 "\n\n[ROOT.GetCountry.GetName] has an [SCOPE.GetRootScope.GetCountry.GetCustom('monarchy_type_custom_title')] where the title of [SCOPE.GetRootScope.GetCountry.GetCustom('monarch_custom_title')] is rotated between the various regional royal families every 5 years. This means that the [SCOPE.GetRootScope.GetCountry.GetCustom('monarch_custom_title')] will change randomly every 5 years."
+    constitutional_monarchy_type_desc:0 "\n\n[ROOT.GetCountry.GetName] has a hereditary monarchy where the [concept_monarch_character] will rule for life and will not change except upon the [concept_monarch_character]'s death."
     
     amendment_elective_monarchy:0 "Elective Monarchy"
     amendment_elective_monarchy_desc:0 "A hybrid system where the crown is not strictly hereditary, but chosen by a select body of nobles, clergy, or other elites."
@@ -7137,12 +7148,13 @@
     wedding.3.f: ""They say the [SCOPE.sCharacter('abdicating_monarch').GetPrimaryRoleTitle]'s gone mad. Tried to marry [SCOPE.sCharacter('abdicating_monarch').GetHerHis] horse or somesuch."\n\n"What drivel are you reading in the [SCOPE.GetRootScope.GetCountry.GetCustom('generic_newspaper_type')]? These are loftier matters, obviously to do with the [SCOPE.gsInterestGroup('monarch_ig').GetNameNoFormatting] situation."\n\n"It's nothing so complicated. Everyone hates the [SCOPE.sCharacter('abdicating_monarch').GetPrimaryRoleTitle], so [SCOPE.sCharacter('abdicating_monarch').GetSheHe]'s got to go. Simple democracy.""
     wedding.3.a: "Host a private, elite coronation."
     wedding.3.b: "Hold a grand public coronation."
+    wedding.3.c: "Let's see who will be the next monarch."
     
     character_role_regent:0 "[concept_regent_character]"
     character_role_regent_title:0 "[concept_regent_character]"
     
     concept_regent_character:0 "Regent"
-    concept_regent_character_desc:0 "This [concept_character] is a person appointed to execute the office of a [concept_monarch_character] temporarily."
+    concept_regent_character_desc:0 "This [concept_character] has been appointed to execute the duties of the office of the [concept_monarch_character] temporarily."
     
     je_regency_system:0 "The Regency"
     je_regency_system_reason:0 "As there is currently no adult [concept_monarch_character] or [concept_heir] to rule as [concept_monarch_character], the [SCOPE.GetRootScope.GetCountry.GetCustom('legislature_name')] has appointed [SCOPE.sCharacter('regent_character').GetFullName] as the [concept_regent_character] of [ROOT.GetCountry.GetName] to discharge the duties of the [ROOT.GetCountry.GetAdjective] [concept_monarch_character] for the time being."
@@ -7150,4 +7162,57 @@
     regency_IG:0 "Supports [SCOPE.sCharacter('regent_character').GetInterestGroup.GetName]"
     regency_vacant:0 "Position Vacated"
     
-    character_role_monarch.tt:0 "[concept_monarch_character]: [SCOPE.sCharacter('monarch_character_label').GetPrimaryRoleTitle] [SCOPE.sCharacter('monarch_character_label').GetFullName]"
+    character_role_monarch.tt:0 "[concept_monarch_character]: [SCOPE.sCharacter('monarch_character_label').GetPrimaryRoleTitle] [SCOPE.sCharacter('monarch_character_label').GetFirstName]"
+    
+    monarch_character_label.tt:0 "[concept_monarch_character]: [SCOPE.sCharacter('monarch_character_label').GetPrimaryRoleTitle] [SCOPE.sCharacter('monarch_character_label').GetFirstName]"
+    
+    character_role_prince:0 "[concept_royal_character]"
+    character_role_prince_desc:0 "This [concept_character] is a member of the country's royal family and is eligible to inherit the throne."
+    
+    prince_consort_character.tt:0 "Is a #y Royal Consort#!"
+    primogeniture_system.tt:0 "Country does not use #y Male-preference Primogeniture#!"
+    
+    starting_voting_power_modifier:0 "Starting Voting Power"
+    
+    enact_primogeniture_system_decision:0 "Enact Male-preference Royal Primogeniture"
+    enact_primogeniture_system_decision_desc:0 "Male-preference primogeniture is a system of royal succession where sons inherit the throne before daughters. Under this rule, an older sister is bypassed if she has a younger brother, who takes precedence simply because he is male. If a monarch has no sons at all, a daughter may inherit the crown."
+    
+    remove_primogeniture_system_decision:0 "Abolish Male-preference Royal Primogeniture"
+    remove_primogeniture_system_decision_desc:0 "Male-preference primogeniture is a system of royal succession where sons inherit the throne before daughters. Under this rule, an older sister is bypassed if she has a younger brother, who takes precedence simply because he is male. If a monarch has no sons at all, a daughter may inherit the crown."
+    
+    enact_primogeniture_system.tt:0 "Only male [concept_royal_character] [Concept('concept_character', '$concept_characters$')] may become a [concept_monarch_character]"
+    remove_primogeniture_system.tt:0 "[concept_royal_character] [Concept('concept_character', '$concept_characters$')] of any gender may become a [concept_monarch_character]"
+    primogeniture_system_timer.tt:0 "Did not enact or abolish Male-preference Royal Primogeniture in the last 5 years"
+    
+    regency.2.t: "The New Regent"
+    regency.2.d: "As the Office of the [concept_regent_character] of [ROOT.GetCountry.GetName] has become vacant, the [concept_government] must determine who will be the new [concept_regent_character]. Several promising candidates have put forward their name to take up the noble office."
+    regency.2.f: ""It is with deep regrets that I..."\n\nThe Regent of [ROOT.GetCountry.GetNameNoFormatting] looked at the half-sentence one more time, neatly folded the paper, and slid it into the fireplace. No, unacceptable. It could be misinterpreted, used to slander him as power-hungry. It had to be more neutral. Something that his worst enemies would be unable to spin. He picked up another piece of paper.\n\n"I have felt it my duty to wait upon the Sovereign...""
+    regency.2.a: "Appoint a new candidate from the ranks of the [SCOPE.gsInterestGroup('ig_candidate_1').GetName]."
+    regency.2.b: "[SCOPE.gsInterestGroup('ig_candidate_2').GetLeader.GetFullName] best reflects the current government."
+    regency.2.c: "[SCOPE.gsInterestGroup('ig_candidate_3').GetLeader.GetFullName] has a proven loyalty to the Crown."
+    regency.2.e: "Choose the popular candidate - [SCOPE.gsInterestGroup('ig_candidate_4').GetLeader.GetFullName]."
+    
+    regency.3.t: "Coronation Day"
+    regency.3.d: "[SCOPE.sCharacter('monarch_scope').GetFullName] has reached the age of majority, and may now take the [ROOT.GetCountry.GetAdjective] throne. The regency has come to an end."
+    regency.3.f: "The Regent watched as the priest carried out the final anointments. The difference between the [SCOPE.sCharacter('monarch_scope').GetPrimaryRoleTitle] of today and of yesterday was starker than the Regent could ever have imagined. [SCOPE.sCharacter('monarch_scope').GetSheHe|U] stood taller than before, with a practiced look of determination on [SCOPE.sCharacter('monarch_scope').GetHerHis] face. The crown appeared weightless when placed upon [SCOPE.sCharacter('monarch_scope').GetHerHis] head.\n\nThe priest stepped away, and a fanfare played, accompanied by the rumble of cannons from outside the palace walls.\n\n"The things which I have here before promised, I will perform and keep," the [SCOPE.sCharacter('monarch_scope').GetPrimaryRoleTitle] recited. "So help me [SCOPE.GetRootScope.GetCountry.GetCustom('GetDivinity')].""
+    regency.3.a: "Long live the [SCOPE.sCharacter('monarch_scope').GetPrimaryRoleTitle]!"
+    
+    eterna_regency_5_tt: "The sitting [Concept('concept_ruler','$RULER_TITLE_REGENT$')] has been in power for more than #v 5 years#! (currently [Character.MakeScope.Var('regency_years').GetValue|v0])"
+    
+    female_princess_lose_title_upon_marriage.tt:0 "Under the #y Royal Household Laws#! of [ROOT.GetCountry.GetNameNoFlag], [SCOPE.sCharacter('royal_marriage_character').GetPrimaryRoleTitle] [SCOPE.sCharacter('royal_marriage_character').GetFullName] will lose [SCOPE.sCharacter('royal_marriage_character').GetHerHis] [concept_royal_character] title upon marriage with a commoner"
+    
+    remove_princess_restriction_decision:0 "Reform Royal Household Laws"
+    remove_princess_restriction_decision_desc:0 "The [concept_government] will pass a constitutional amendment to allow female members of the royal family to retain their [concept_royal_character] status after marrying men outside the royal family. The amendment does not alter the restriction of the royal succession to male descendants in the male line (if any)."
+    disable_female_princess_lose_title_upon_marriage.tt:0 "#y Female#! [Concept('concept_character', '$concept_characters$')] [concept_royal_character] will retain their [concept_royal_character] status after marriage"
+    
+    regency.1.t: "The Regency"
+    regency.1.d: "In light of recent developments in the [ROOT.GetCountry.GetAdjectiveNoFormatting] Royal Family, there is currently no eligible [concept_royal_character] to become the [ROOT.GetCountry.GetAdjectiveNoFormatting] [concept_monarch_character]. A regency must therefore be formed to discharge the constitutional duties of the [ROOT.GetCountry.GetAdjectiveNoFormatting] monarchy. The task of assembling a regency has fallen to the sitting government."
+    regency.1.f: "This event fired because there is either no [concept_monarch_character] [concept_character] in the country or there are no eligible [concept_royal_character] [Concept('concept_character', '$concept_characters$')] to become a [concept_monarch_character]."
+    regency.1.a: "[SCOPE.gsInterestGroup('ig_candidate_1').GetLeader.GetFullName] is the obvious choice."
+    regency.1.b: "[SCOPE.gsInterestGroup('ig_candidate_2').GetLeader.GetFullName] can be trusted to uphold the monarchy."
+    regency.1.c: "We may compromise with [SCOPE.gsInterestGroup('ig_candidate_3').GetLeader.GetFullName]."
+    regency.1.e: "Appointing [SCOPE.gsInterestGroup('ig_candidate_4').GetLeader.GetFullName] will be the popular choice."
+    
+    je_dismiss_regent_button:0 "Dismiss Regent"
+    je_dismiss_regent_button_desc:0 "The [concept_government] will remove [SCOPE.sCharacter('regent_character').GetPrimaryRoleTitle] [SCOPE.sCharacter('regent_character').GetFullName] from office."
+    dismiss_regent_timer.tt:0 "Did not dismiss Regent in the last #y 5 years#!"

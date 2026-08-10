@@ -221,6 +221,17 @@
     RULER_TITLE_CROWN_PRINCE:0 "Crown Prince"
     RULER_TITLE_CROWN_PRINCESS:0 "Crown Princess"
     
+    RULER_TITLE_PRINCE_REGENT:0 "Prince Regent"
+    RULER_TITLE_PRINCESS_REGENT:0 "Princess Regent"
+    
+    RULER_TITLE_PRINCE_CONSORT:0 "Prince Consort"
+    RULER_TITLE_PRINCESS_CONSORT:0 "Princess Consort"
+    
+    RULER_TITLE_PRINCE_CONSORT_REGENT:0 "Prince Consort Regent"
+    RULER_TITLE_PRINCESS_CONSORT_REGENT:0 "Princess Consort Regent"
+    
+    RULER_TITLE_PRIME_MINISTER_REGENT:0 "Prime Minister Regent"
+    
     custom_chancellor_title:0 "Chancellor"
     custom_taoiseach_title:0 "Taoiseach"
     custom_prime_minister_title:0 "Prime Minister"
@@ -311,3 +322,5 @@
     custom_chairwoman_presidium_title:0 "Presidium Chairwoman"
     custom_chairman_state_title:0 "State Chairman"
     custom_chairwoman_state_title:0 "State Chairwoman"
+    
+    custom_Reting_Rinpoche_title:0 "Reting Rinpoche"

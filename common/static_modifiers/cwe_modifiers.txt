@@ -157,6 +157,24 @@ gold_standard_leader = {
 	country_loan_interest_rate_add = -0.10
 }
 
+law_gold_standard = {
+	icon = gfx/interface/icons/goods_icons/gold.dds
+	building_group_bg_gold_mining_tax_mult = 0.20
+}
+
+law_semi_gold_standard = {
+	icon = gfx/interface/icons/invention_icons/stock_exchanges.dds
+	building_group_bg_gold_mining_tax_mult = 0.10
+	country_minting_mult = 0.10
+	country_loan_interest_rate_add = 0.05
+}
+
+law_fiat_standard = {
+	icon = gfx/interface/icons/invention_icons/currency_standards.dds
+	country_minting_mult = 0.20
+	country_loan_interest_rate_add = 0.10
+}
+
 ### Impeachment & Backbencher's Plot System ###
 
 impeached_politician = {
@@ -356,6 +374,11 @@ post_ww2_rationing_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
 	political_movement_radicalism_add = 0.50
 	state_food_security_add = 0.50
+}
+
+starting_voting_power_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_voting_power_base_add = 5
 }
 
 ### Colonial System ###

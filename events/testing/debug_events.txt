@@ -373,29 +373,18 @@ debug.12 = {
 		
 		#effect_party_update_cwe_on_action = yes
 		
-		create_diplomatic_play = {
-			name = soviet_persian_war
-			type = dp_liberate_country
-			country_definition = AZB 
-			target_country = c:PER
-			
-			add_war_goal = { 
-				holder = ROOT
-				type = liberate_country 
-				country_definition = AZB  
-				target_country = c:PER
-			}
+		random_scope_character = {
+			limit = { has_role = character_role_monarch }
+			save_scope_as = abdicating_monarch
+			interest_group ?= { save_scope_as = monarch_ig }
+			owner ?= { trigger_event = { id = resignation.3 popup = yes } }
+			#owner ?= { trigger_event = { id = wedding.3 popup = yes } }
 		}
 		
-		if = {
-			limit = { NOT = { exists = c:KUR } }
-			create_diplomatic_play = {
-				name = soviet_persian_war
-				type = dp_liberate_country
-				country_definition = KUR 
-				target_country = c:PER
-			}
-		}
+		#every_scope_character = {
+		#	limit = { has_role = character_role_prince }
+		#	retire_character_scripted_effect = yes
+		#}
 		
 	}
 }
@@ -409,7 +398,7 @@ debug.13 = {
 	}
 	option = {
 		#effect_party_update_cwe_on_action = yes
-		effect_set_ig_electoral_strategy = yes
+		#effect_set_ig_electoral_strategy = yes
 		
 		#enable_temporary_hostilities = {
 		#	country = c:PRC
@@ -441,14 +430,38 @@ debug.13 = {
 		#	#war = yes
 		#}
 		
-		#ruler ?= {
-		#	save_scope_as = abdicating_monarch
-		#	interest_group ?= { save_scope_as = monarch_ig }
-		#	owner ?= { trigger_event = { id = resignation.3 popup = yes } }
+		#effect_starting_politics_absolute_monarchy = yes
+		#effect_starting_politics_dictatorship = yes
+		
+		#effect_starting_politics_presidential_republic = yes
+		
+		#ruler ?= { add_character_role = character_role_prince }
+		
+		set_variable = primogeniture_system
+		
+		every_scope_character = {
+			limit = { OR = { has_role = character_role_prince is_heir_of_own_country = yes } }
+			#kill_character = yes
+		}
+		
+		every_scope_character = {
+			limit = { has_role = character_role_regent }
+			kill_character = yes
+		}
+		
+		every_scope_character = {
+			limit = { has_role = character_role_monarch }
+			#kill_character = yes
+		}
+		
+		#create_character = {
+		#	ruler = yes noble = yes female = yes
+		#	age = 40
+		#	on_created = { 
+		#		#set_character_as_monarch = yes 
+		#	}
 		#}
 		
-		effect_starting_politics_absolute_monarchy = yes
-	
 	}
 }
 

@@ -262,6 +262,26 @@ CHARACTERS = {
 				meticulous
 			}
 		}
+		create_character = {
+			first_name = "Charles_Flanders_first_name"
+			last_name = "Charles_Flanders_last_name"
+			historical = yes
+			birth_date = 1903.10.10
+			interest_group = ig_landowners
+			ideology = ideology_elitist
+			culture = cu:flemish
+			religion = rel:catholic
+			traits = {
+				honorable
+				reserved
+				tactful
+			}
+			on_created = { 
+				set_variable = Charles_Flanders
+				set_character_as_regent = yes
+				set_character_as_royal = yes
+			}
+		}
 	}
 	c:LUX = {
 		create_character = {
@@ -1155,9 +1175,27 @@ CHARACTERS = {
 	}
 	c:TIB = {
 		create_character = {
+			first_name = "Taktra_Rinpoche_first_name"
+			last_name = "Taktra_Rinpoche_last_name"
+			ruler = yes ig_leader = yes historical = yes
+			birth_date = 1886.1.1
+			interest_group = ig_devout
+			ideology = ideology_autocratic
+			culture = cu:tibetan
+			religion = rel:gelugpa
+			traits = {
+				pious
+				reserved
+				tactful
+			}
+			on_created = { 
+				set_character_as_regent = yes
+			}
+		}
+		create_character = {
 			first_name = "tenzin_gyatso_first_name"
 			last_name = "tenzin_gyatso_last_name"
-			ruler = yes ig_leader = yes historical = yes
+			heir = yes historical = yes
 			birth_date = 1935.7.6
 			interest_group = ig_devout
 			ideology = ideology_democratic
@@ -1166,6 +1204,10 @@ CHARACTERS = {
 				innovative
 				charismatic
 				tactful
+			}
+			on_created = { 
+				set_variable = tenzin_gyatso
+				set_character_as_monarch = yes
 			}
 		}
 	}
@@ -1289,8 +1331,8 @@ CHARACTERS = {
 				tactful
 			}
 			on_created = { 
-				set_character_as_regent = yes 
-				owner = { add_regency_modifier = yes }
+				set_character_as_regent = yes
+				set_character_as_royal = yes
 			}
 		}
 		create_character = {
@@ -1305,6 +1347,9 @@ CHARACTERS = {
 				ambitious
 				innovative
 				reserved
+			}
+			on_created = {
+				set_character_as_monarch = yes
 			}
 		}
 	}
@@ -1748,8 +1793,8 @@ CHARACTERS = {
 				tactful
 			}
 			on_created = { 
-				set_character_as_regent = yes 
-				owner = { add_regency_modifier = yes }
+				set_character_as_regent = yes
+				set_character_as_royal = yes
 			}
 		}
 		create_character = {
@@ -1764,6 +1809,9 @@ CHARACTERS = {
 				expensive_tastes
 				reserved
 				persistent
+			}
+			on_created = {
+				set_character_as_monarch = yes
 			}
 		}
 	}

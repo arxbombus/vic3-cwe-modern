@@ -396,7 +396,8 @@ on_monthly_pulse_country_elections = {
 on_monthly_pulse_character = {
 	effect = {
 		
-		if = { # Updates biannual unit share cache
+		# Updates biannual unit share cache
+		if = {
 			limit = {
 				OR = {
 					has_role_of_type = admiral
@@ -439,6 +440,19 @@ on_monthly_pulse_character = {
 			post_notification = political_prisoner_released
 		}
 		
+		#Regent check
+		if = {
+			limit = {
+				OR = {
+					has_variable = regency_years
+					has_variable = regent_immortality_var
+					is_immortal = yes
+				}
+				NOT = { has_role = character_role_regent }
+			}
+			clean_up_regent_character = yes
+		}
+		
 	}
 }
 on_yearly_pulse_character = {
@@ -448,10 +462,7 @@ on_yearly_pulse_character = {
 	effect = {
 		if = {
 			limit = {
-				is_ruler_of_own_country = yes
-				owner = {
-					has_gov_regency = yes
-				}
+				has_role = character_role_regent
 			}
 			if = {
 				limit = {
@@ -857,7 +868,7 @@ on_character_death = {
 				is_ruler_of_own_country = yes
 				
 				#Country is an absolute dictatorship
-				owner ? = { has_law_or_variant = law_type:law_appointed_legislature }
+				owner ?= { has_law_or_variant = law_type:law_appointed_legislature }
 				
 				#No clear successor
 				owner ?= {
@@ -891,6 +902,7 @@ on_new_interest_group_leader = {
 # Root = Character
 on_new_ruler = {
 	effect = {
+		#Vanilla
 		if = {
 			limit = {
 				owner ?= {
@@ -984,24 +996,62 @@ on_new_ruler = {
 				
 			}
 		}
+		#Monarchs
 		if = {
 			limit = {
 				owner ?= {
-					is_a_regime_monarchy = yes
+					has_law_or_variant = law_type:law_HOS_monarch
+					NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
+					ruler_is_governor_general = no
+					shares_same_monarch = no
 					is_a_regency_government = no
-					has_gov_regency = no
 				}
-				is_adult = no
+				is_eligible_to_become_monarch = no
 				NOT = { has_variable = regency_complete }
 			}
 			owner ?= {
 				trigger_event = {
 					id = regency.1
-					days = 1
+					#days = 1
 					#popup = yes
 				}
 			}
 		}
+		else_if = {
+			limit = {
+				owner ?= {
+					has_law_or_variant = law_type:law_HOS_monarch
+					NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
+				}
+				owner ?= { has_variable = primogeniture_system }
+				is_female = yes
+			}
+			if = {
+				limit = { has_role = character_role_monarch }
+				remove_character_role = character_role_monarch
+			}
+			set_character_as_regent = yes
+		}
+		else_if = {
+			limit = {
+				owner ?= {
+					has_law_or_variant = law_type:law_HOS_monarch
+					NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
+					has_gov_regency = no
+					ruler_is_governor_general = no
+					shares_same_monarch = no
+				}
+				NOT = { has_role = character_role_monarch }
+			}
+			set_character_as_monarch = yes
+		}
+		if = {
+			limit = {
+				owner ?= { ruler_is_governor_general = yes }
+			}
+			set_character_as_viceroy = yes
+		}
+		
 		#Always have ruler's IG or party in government
 		if = {
 			limit = {
@@ -1765,6 +1815,19 @@ on_country_formed = {
 		if = { 
 			limit = { has_variable = dynamic_decolonisation_country }
 			remove_variable = dynamic_decolonisation_country
+		}
+		if = {
+			limit = {
+				OR = {
+					country_is_in_middle_east = yes
+					country_is_in_africa = yes 
+					NOR = {
+						religion ?= rel:catholic
+						religion ?= rel:protestant
+					}
+				}
+			}
+			set_variable = primogeniture_system
 		}
 	}
 }
@@ -2986,35 +3049,44 @@ on_company_disbanded = {
 on_heir_born = {
 	effect = {
 		
-		#Regency
-		if = {
-			limit = {
-				owner ?= {
-					has_gov_regency = no
-				}
-			}
-			post_notification = heir_born_notification
-		}
-		else = { # Regents should not produce heirs, TODO remove this hack once we have code support
-			this = { kill_character = { hidden = yes } }
-		}
-		
 		#Dynastic Republic
 		if = {
 			limit = {
 				owner = {
-					OR = { 
+					OR = {
 						ruler ?= { has_variable = dynastic_ruler_enabled }
 						is_a_dynastic_government = yes
 					}
 				}
 			}
-			owner = {
-				heir ?= {
-					set_variable = dynastic_ruler_enabled
+			set_variable = dynastic_ruler_enabled
+			post_notification = heir_born_notification
+		}
+		
+		#Regency - Regents should not produce heirs, TODO remove this hack once we have code support
+		else_if = {
+			limit = {
+				owner ?= {
+					OR = {
+						is_a_regency_government = yes
+						AND = {
+							ruler ?= { has_role = character_role_regent }
+							has_law_or_variant = law_type:law_HOS_monarch
+							NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
+						}
+					}
 				}
 			}
-			post_notification = heir_born_notification
+			this = { kill_character = { hidden = yes } }
+		}
+		
+		#Princes
+		if = {
+			limit = {
+				owner.ruler ?= { has_role = character_role_monarch }
+				NOT = { has_role = character_role_prince }
+			}
+			set_character_as_royal = yes
 		}
 		
 	}

@@ -1,0 +1,250 @@
+enact_primogeniture_system_decision = {
+
+	is_shown = {
+		
+		is_a_monarchy = yes
+		ruler_is_governor_general = no
+		OR = {
+			shares_same_monarch = no
+			is_subject_type = subject_type_personal_union
+		}
+		
+		NOT = { has_variable = primogeniture_system }
+		
+	}
+
+	possible = {
+		
+		is_a_regency_government = no
+		is_sufficiently_independent = yes
+		
+		#Timer
+		custom_tooltip = {
+			text = primogeniture_system_timer.tt
+			NOT = { has_variable = primogeniture_system_timer }
+		}
+		
+		#Sufficient Government support
+		government_has_legislative_super_majority = yes
+		
+		#Monarch is not current female
+		trigger_if = {
+			limit = {
+				shares_same_monarch = yes
+			}
+			overlord ?= {
+				any_scope_character = {
+					has_role = character_role_monarch
+					is_female = no
+				}
+			}
+		}
+		trigger_else = {
+			any_scope_character = {
+				has_role = character_role_monarch
+				is_female = no
+			}
+		}
+		
+	}
+	
+	when_taken = {
+		
+		every_interest_group = {
+			limit = {
+				has_ideology = ideology:ideology_progressive
+			}
+			owner ?= {
+				add_radicals = {
+					value = large_radicals
+					interest_group = prev
+				}
+			}
+		}
+		
+		custom_tooltip = {
+			text = enact_primogeniture_system.tt
+			set_variable = primogeniture_system
+		}
+		
+		set_variable = {
+			name = primogeniture_system_timer
+			years = 5
+		}
+		
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				radical_right_wing_ruling_coalition = yes
+				any_scope_character = {
+					has_role = character_role_prince
+					is_female = no
+				}
+			}
+			add = 10
+		}
+	}
+	
+}
+
+remove_primogeniture_system_decision = {
+
+	is_shown = {
+		
+		has_variable = primogeniture_system
+		
+		is_a_monarchy = yes
+		ruler_is_governor_general = no
+		OR = {
+			shares_same_monarch = no
+			is_subject_type = subject_type_personal_union
+		}
+		
+	}
+
+	possible = {
+		
+		is_sufficiently_independent = yes
+		
+		#Timer
+		custom_tooltip = {
+			text = primogeniture_system_timer.tt
+			NOT = { has_variable = primogeniture_system_timer }
+		}
+		
+		#Sufficient Government support
+		government_has_legislative_super_majority = yes
+		
+	}
+	
+	when_taken = {
+		
+		every_interest_group = {
+			limit = {
+				has_ideology = ideology:ideology_traditionalist
+			}
+			owner ?= {
+				add_radicals = {
+					value = large_radicals
+					interest_group = prev
+				}
+			}
+		}
+		every_interest_group = {
+			limit = {
+				has_ideology = ideology:ideology_conservative
+			}
+			owner ?= {
+				add_radicals = {
+					value = medium_radicals
+					interest_group = prev
+				}
+			}
+		}
+		
+		custom_tooltip = {
+			text = remove_primogeniture_system.tt
+			remove_variable = primogeniture_system
+		}
+		
+		set_variable = {
+			name = primogeniture_system_timer
+			years = 5
+		}
+		
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				OR = {
+					communist_ruling_coalition = yes
+					reformist_ruling_coalition = yes
+				}
+				NOT = { 
+					any_scope_character = {
+						has_role = character_role_prince
+						is_female = no
+					}
+				}
+			}
+			add = 10
+		}
+	}
+	
+}
+
+remove_princess_restriction_decision = {
+
+	is_shown = {
+		
+		has_variable = female_princess_lose_title_upon_marriage
+		
+		is_a_monarchy = yes
+		ruler_is_governor_general = no
+		shares_same_monarch = no
+		
+	}
+
+	possible = {
+		
+		is_sufficiently_independent = yes
+		
+		#Sufficient Government support
+		government_has_legislative_super_majority = yes
+		
+	}
+	
+	when_taken = {
+		
+		every_interest_group = {
+			limit = {
+				has_ideology = ideology:ideology_traditionalist
+			}
+			owner ?= {
+				add_radicals = {
+					value = large_radicals
+					interest_group = prev
+				}
+			}
+		}
+		every_interest_group = {
+			limit = {
+				has_ideology = ideology:ideology_conservative
+			}
+			owner ?= {
+				add_radicals = {
+					value = medium_radicals
+					interest_group = prev
+				}
+			}
+		}
+		
+		custom_tooltip = {
+			text = disable_female_princess_lose_title_upon_marriage.tt
+			remove_variable = female_princess_lose_title_upon_marriage
+		}
+		
+	}
+
+	ai_chance = {
+		value = 0
+		if = {
+			limit = {
+				reformist_ruling_coalition = yes
+				NOT = {
+					any_scope_character = {
+						has_role = character_role_prince
+						is_female = no
+					}
+				}
+			}
+			add = 10
+		}
+	}
+	
+}

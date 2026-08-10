@@ -264,6 +264,14 @@
 	}
 	text = {
 		trigger = {
+			owner ?= {
+				country_has_primary_culture = cu:tibetan
+			}
+		}
+		localization_key = custom_dalai_lama_title
+	}
+	text = {
+		trigger = {
 			is_female = no
 		}
 		localization_key = RULER_TITLE_KING
@@ -944,6 +952,19 @@ character_role_ruler_custom_loc = {
 	}
 	text = {
 		trigger = {
+			owner ?= {
+				country_has_primary_culture = cu:tibetan
+				OR = {
+					has_government_type = gov_absolute_monarchy
+					has_government_type = gov_semi_constitutional_monarchy
+					has_government_type = gov_devolved_administration_monarchy
+				}
+			}
+		}
+		localization_key = custom_dalai_lama_title
+	}
+	text = {
+		trigger = {
 			is_female = no
 			owner ?= {
 				OR = {
@@ -970,6 +991,34 @@ character_role_ruler_custom_loc = {
 	}
 	
 	#Regent
+	text = {
+		trigger = {
+			has_role = character_role_prince
+			is_female = no
+			owner ?= {
+				OR = {
+					has_government_type = gov_regency_empire
+					has_government_type = gov_regency_kingdom
+					has_government_type = gov_regency_devolved_administration_monarchy
+				}
+			}
+		}
+		localization_key = RULER_TITLE_PRINCE_REGENT
+	}
+	text = {
+		trigger = {
+			has_role = character_role_prince
+			is_female = yes
+			owner ?= {
+				OR = {
+					has_government_type = gov_regency_empire
+					has_government_type = gov_regency_kingdom
+					has_government_type = gov_regency_devolved_administration_monarchy
+				}
+			}
+		}
+		localization_key = RULER_TITLE_PRINCESS_REGENT
+	}
 	text = {
 		trigger = {
 			owner ?= {
@@ -1510,6 +1559,15 @@ character_role_heir_custom_loc = {
 	#Prince
 	text = {
 		trigger = {
+			owner ?= {
+				country_has_primary_culture = cu:tibetan
+				ruler ?= { has_role = character_role_regent }
+			}
+		}
+		localization_key = custom_dalai_lama_title
+	}
+	text = {
+		trigger = {
 			is_female = no
 			owner ?= {
 				OR = {
@@ -1819,6 +1877,15 @@ character_role_heir_custom_loc = {
 			}
 		}
 		localization_key = custom_grand_duchess_title
+	}
+	text = {
+		trigger = {
+			owner ?= {
+				has_government_type = gov_regency_kingdom
+				country_has_primary_culture = cu:tibetan
+			}
+		}
+		localization_key = custom_dalai_lama_title
 	}
 	text = {
 		trigger = {
@@ -2186,6 +2253,105 @@ character_role_pope_character_custom_loc = {
 	
 }
 
+character_role_prince_custom_loc = {
+	type = character
+	
+	text = {
+		trigger = {
+			is_female = no
+			has_variable = prince_consort_character
+		}
+		localization_key = RULER_TITLE_PRINCE_CONSORT
+	}
+	text = {
+		trigger = {
+			is_female = no
+		}
+		localization_key = RULER_TITLE_PRINCE
+	}
+	
+	text = {
+		trigger = {
+			is_female = yes
+			has_variable = prince_consort_character
+		}
+		localization_key = RULER_TITLE_PRINCESS_CONSORT
+	}
+	text = {
+		trigger = {
+			is_female = yes
+		}
+		localization_key = RULER_TITLE_PRINCESS
+	}
+	
+}
+
+character_role_regent_custom_loc = {
+	type = character
+	
+	text = {
+		trigger = {
+			owner ?= {
+				country_has_primary_culture = cu:tibetan
+			}
+		}
+		localization_key = custom_Reting_Rinpoche_title
+	}
+	
+	text = {
+		trigger = {
+			is_ruler_of_own_country = yes
+			NOT = { has_role = character_role_prince }
+		}
+		localization_key = RULER_TITLE_PRIME_MINISTER_REGENT
+	}
+	
+	text = {
+		trigger = {
+			is_female = no
+			has_variable = prince_consort_character
+			has_role = character_role_prince
+		}
+		localization_key = RULER_TITLE_PRINCE_CONSORT_REGENT
+	}
+	text = {
+		trigger = {
+			is_female = no
+			has_role = character_role_prince
+		}
+		localization_key = RULER_TITLE_PRINCE_REGENT
+	}
+	text = {
+		trigger = {
+			is_female = no
+		}
+		localization_key = RULER_TITLE_REGENT
+	}
+	
+	text = {
+		trigger = {
+			is_female = yes
+			has_variable = prince_consort_character
+			has_role = character_role_prince
+		}
+		localization_key = RULER_TITLE_PRINCESS_CONSORT_REGENT
+	}
+	text = {
+		trigger = {
+			is_female = yes
+			has_role = character_role_prince
+		}
+		localization_key = RULER_TITLE_PRINCESS_REGENT
+	}
+	text = {
+		trigger = {
+			is_female = yes
+		}
+		localization_key = RULER_TITLE_REGENT
+	}
+	
+}
+
 REPLACE_OR_CREATE:character_role_magnate_custom_loc = {
 	type = character
 	random_valid = yes
@@ -2193,16 +2359,9 @@ REPLACE_OR_CREATE:character_role_magnate_custom_loc = {
 	text = {
 		trigger = {
 			is_female = yes
-			is_royal_character = yes owner ?= { country_has_nobility = yes }
-			NOT = { has_variable = former_elective_monarch }
-		}
-		localization_key = RULER_TITLE_PRINCESS
-	}
-	text = {
-		trigger = {
-			is_female = yes
 			is_noble = yes
-			OR = { is_royal_character = no has_variable = former_elective_monarch } owner ?= { country_has_nobility = yes }
+			has_variable = former_royal_character 
+			owner ?= { country_has_nobility = yes }
 		}
 		localization_key = character_title_duchess
 	}
@@ -2210,7 +2369,7 @@ REPLACE_OR_CREATE:character_role_magnate_custom_loc = {
 		trigger = {
 			is_female = yes
 			is_noble = yes
-			is_royal_character = no owner ?= { country_has_nobility = yes }
+			owner ?= { country_has_nobility = yes }
 		}
 		localization_key = character_title_viscountess
 	}
@@ -2218,7 +2377,7 @@ REPLACE_OR_CREATE:character_role_magnate_custom_loc = {
 		trigger = {
 			is_female = yes
 			is_noble = yes
-			is_royal_character = no owner ?= { country_has_nobility = yes }
+			owner ?= { country_has_nobility = yes }
 		}
 		localization_key = character_title_baroness
 	}
@@ -2226,7 +2385,7 @@ REPLACE_OR_CREATE:character_role_magnate_custom_loc = {
 		trigger = {
 			is_female = yes
 			is_noble = yes
-			is_royal_character = no owner ?= { country_has_nobility = yes }
+			owner ?= { country_has_nobility = yes }
 		}
 		localization_key = character_title_countess
 	}
@@ -2234,23 +2393,17 @@ REPLACE_OR_CREATE:character_role_magnate_custom_loc = {
 		trigger = {
 			is_female = yes
 			is_noble = yes
-			is_royal_character = no owner ?= { country_has_nobility = yes }
+			owner ?= { country_has_nobility = yes }
 		}
 		localization_key = character_title_marquess
 	}
-	text = {
-		trigger = {
-			is_female = no
-			is_royal_character = yes owner ?= { country_has_nobility = yes }
-			NOT = { has_variable = former_elective_monarch }
-		}
-		localization_key = RULER_TITLE_PRINCE
-	}
+	
 	text = {
 		trigger = {
 			is_female = no
 			is_noble = yes
-			OR = { is_royal_character = no has_variable = former_elective_monarch } owner ?= { country_has_nobility = yes }
+			has_variable = former_royal_character 
+			owner ?= { country_has_nobility = yes }
 		}
 		localization_key = character_title_duke
 	}
@@ -2258,7 +2411,7 @@ REPLACE_OR_CREATE:character_role_magnate_custom_loc = {
 		trigger = {
 			is_female = no
 			is_noble = yes
-			is_royal_character = no owner ?= { country_has_nobility = yes }
+			owner ?= { country_has_nobility = yes }
 		}
 		localization_key = character_title_viscount
 	}
@@ -2266,7 +2419,7 @@ REPLACE_OR_CREATE:character_role_magnate_custom_loc = {
 		trigger = {
 			is_female = no
 			is_noble = yes
-			is_royal_character = no owner ?= { country_has_nobility = yes }
+			owner ?= { country_has_nobility = yes }
 		}
 		localization_key = character_title_baron
 	}
@@ -2274,7 +2427,7 @@ REPLACE_OR_CREATE:character_role_magnate_custom_loc = {
 		trigger = {
 			is_female = no
 			is_noble = yes
-			is_royal_character = no owner ?= { country_has_nobility = yes NOT = { country_has_primary_culture = cu:english } }
+			owner ?= { country_has_nobility = yes NOT = { country_has_primary_culture = cu:english } }
 		}
 		localization_key = character_title_count
 	}
@@ -2282,7 +2435,7 @@ REPLACE_OR_CREATE:character_role_magnate_custom_loc = {
 		trigger = {
 			is_female = no
 			is_noble = yes
-			is_royal_character = no owner ?= { country_has_nobility = yes country_has_primary_culture = cu:english }
+			owner ?= { country_has_nobility = yes country_has_primary_culture = cu:english }
 		}
 		localization_key = character_title_earl
 	}
@@ -2290,7 +2443,7 @@ REPLACE_OR_CREATE:character_role_magnate_custom_loc = {
 		trigger = {
 			is_female = no
 			is_noble = yes
-			is_royal_character = no owner ?= { country_has_nobility = yes }
+			owner ?= { country_has_nobility = yes }
 		}
 		localization_key = character_title_marquis
 	}

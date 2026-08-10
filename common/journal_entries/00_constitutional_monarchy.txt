@@ -27,10 +27,6 @@ je_constitutional_monarchy = {
 
 	possible = {
 		
-		#is_revolutionary = no
-		#is_secessionist = no
-		
-		#NOT = { has_modifier = modifier_regency }
 		trigger_if = {
 			limit = { 
 				OR = { 
@@ -41,7 +37,10 @@ je_constitutional_monarchy = {
 			}
 			overlord ?= {
 				any_scope_character = {
-					has_role = character_role_monarch
+					OR = {
+						has_role = character_role_monarch
+						has_role = character_role_regent
+					}
 				}
 			}
 		}
@@ -62,16 +61,39 @@ je_constitutional_monarchy = {
 				limit = { 
 					overlord ?= {
 						any_scope_character = {
-							has_role = character_role_monarch
+							OR = {
+								has_role = character_role_monarch
+								has_role = character_role_regent
+							}
 						}
 					}
 				}
 				overlord ?= {
-					random_scope_character = {
-						limit = { 
-							has_role = character_role_monarch
+					if = {
+						limit = {
+							any_scope_character = {
+								has_role = character_role_regent
+							}
 						}
-						save_scope_as = constitutional_monarch_scope
+						random_scope_character = {
+							limit = { 
+								has_role = character_role_regent
+							}
+							save_scope_as = constitutional_monarch_scope
+						}
+					}
+					else_if = {
+						limit = {
+							any_scope_character = {
+								has_role = character_role_monarch
+							}
+						}
+						random_scope_character = {
+							limit = { 
+								has_role = character_role_monarch
+							}
+							save_scope_as = constitutional_monarch_scope
+						}
 					}
 				}
 			}
@@ -79,16 +101,39 @@ je_constitutional_monarchy = {
 				limit = { 
 					top_overlord ?= {
 						any_scope_character = {
-							has_role = character_role_monarch
+							OR = {
+								has_role = character_role_monarch
+								has_role = character_role_regent
+							}
 						}
 					}
 				}
 				top_overlord ?= {
-					random_scope_character = {
-						limit = { 
-							has_role = character_role_monarch
+					if = {
+						limit = {
+							any_scope_character = {
+								has_role = character_role_regent
+							}
 						}
-						save_scope_as = constitutional_monarch_scope
+						random_scope_character = {
+							limit = { 
+								has_role = character_role_regent
+							}
+							save_scope_as = constitutional_monarch_scope
+						}
+					}
+					else_if = {
+						limit = {
+							any_scope_character = {
+								has_role = character_role_monarch
+							}
+						}
+						random_scope_character = {
+							limit = { 
+								has_role = character_role_monarch
+							}
+							save_scope_as = constitutional_monarch_scope
+						}
 					}
 				}
 			}
@@ -115,31 +160,21 @@ je_constitutional_monarchy = {
 			
 			#If there is no Viceroy
 			if = {
-				limit = { 
+				limit = {
 					exists = scope:constitutional_monarch_scope
+					OR = {
+						is_a_colonial_government = yes
+						shares_same_monarch = yes
+					}
+					is_subject = yes
 					NOT = {
 						any_scope_character = {
-							has_role = character_role_monarch
-						}
-					}
-					OR = { 
-						NOT = {
-							any_scope_character = {
+							OR = { 
+								has_role = character_role_monarch
 								has_role = character_role_viceroy
 							}
 						}
-						any_scope_character = {
-							has_role = character_role_viceroy
-							NOT = { has_variable = viceroy_character_term_limit }
-						}
 					}
-				}
-				random_scope_character = {
-					limit = { 
-						has_role = character_role_viceroy
-						NOT = { has_variable = viceroy_character_term_limit }
-					}
-					retire_character = yes
 				}
 				generate_viceroy_for_country = yes
 			}
@@ -210,15 +245,41 @@ je_constitutional_monarchy = {
 				save_scope_as = constitutional_monarch_scope
 			}
 			
+			#There is local monarchy when monarchy should be foreign
+			if = {
+				limit = {
+					OR = { 
+						ruler_is_governor_general = yes
+						shares_same_monarch = yes
+					}
+					any_scope_character = {
+						OR = {
+							has_role = character_role_monarch 
+							has_role = character_role_monarch_elective
+							has_role = character_role_regent
+							has_role = character_role_prince
+						}
+					}
+				}
+				every_scope_character = {
+					limit = { has_role = character_role_monarch }
+					remove_character_role = character_role_monarch
+				}
+				every_scope_character = {
+					limit = { has_role = character_role_monarch_elective }
+					remove_character_role = character_role_monarch_elective
+				}
+				every_scope_character = {
+					limit = { has_role = character_role_regent }
+					remove_character_role = character_role_regent
+				}
+				every_scope_character = {
+					limit = { has_role = character_role_prince }
+					remove_character_role = character_role_prince
+				}
+			}
+			
 		}
-		
-		#Clear modifiers
-		if = { limit = { has_modifier = monarch_ig_landowners } remove_modifier = monarch_ig_landowners }
-		if = { limit = { has_modifier = monarch_ig_devout } remove_modifier = monarch_ig_devout }
-		if = { limit = { has_modifier = monarch_ig_rural_folk } remove_modifier = monarch_ig_rural_folk }
-		if = { limit = { has_modifier = monarch_ig_industrialists } remove_modifier = monarch_ig_industrialists }
-		if = { limit = { has_modifier = monarch_ig_petty_bourgeoisie } remove_modifier = monarch_ig_petty_bourgeoisie }
-		if = { limit = { has_modifier = monarch_ig_trade_unions } remove_modifier = monarch_ig_trade_unions }
 		
 		#Clear variables
 		remove_variable = elective_monarchy_system
@@ -250,7 +311,16 @@ je_constitutional_monarchy = {
 			save_scope_as = constitutional_monarch_country_scope
 			post_notification = new_elective_monarch
 		}
-		else = {
+		else_if = {
+			limit = {
+				scope:constitutional_monarch_scope ?= {
+					is_adult = yes
+					NAND = {
+						owner ?= { has_variable = primogeniture_system }
+						is_female = yes
+					}
+				}
+			}
 			save_scope_as = constitutional_monarch_country_scope
 			post_notification = new_monarch
 		}
@@ -259,7 +329,7 @@ je_constitutional_monarchy = {
 
 	invalid = {
 		
-		OR = { 
+		OR = {
 		
 			#No longer a constitutional monarchy
 			NAND = {
@@ -275,7 +345,10 @@ je_constitutional_monarchy = {
 			
 			#Monarch no longer a monarch
 			scope:constitutional_monarch_scope ?= {
-				NOT = { has_role = character_role_monarch }
+				NOR = {
+					has_role = character_role_monarch
+					has_role = character_role_regent
+				}
 			}
 			
 			#Foreign Monarch is no longer monarch of THIS
@@ -283,15 +356,27 @@ je_constitutional_monarchy = {
 				scope:constitutional_monarch_scope ?= {
 					NOT = { owner ?= ROOT }
 				}
-				NAND = {
-					is_subject = yes
-					shares_same_monarch = yes
+				OR = {
+					is_subject = no
+					shares_same_monarch = no
 				}
 			}
 			
 			#Regency
 			scope:constitutional_monarch_scope ?= {
-				is_adult = no
+				owner ?= ROOT
+				has_role = character_role_monarch
+				OR = {
+					is_adult = no
+					AND = {
+						is_female = yes
+						owner ?= { has_variable = primogeniture_system }
+					}
+					AND = {
+						has_role = character_role_regent
+						has_role = character_role_monarch
+					}
+				}
 			}
 			
 		}
@@ -314,18 +399,10 @@ je_constitutional_monarchy = {
 					limit = { 
 						has_role = character_role_viceroy
 					}
-					retire_character_scripted_effect = yes
+					retire_character = yes
 				}
 			}
 		}
-		
-		#Clear modifiers
-		if = { limit = { has_modifier = monarch_ig_landowners } remove_modifier = monarch_ig_landowners }
-		if = { limit = { has_modifier = monarch_ig_devout } remove_modifier = monarch_ig_devout }
-		if = { limit = { has_modifier = monarch_ig_rural_folk } remove_modifier = monarch_ig_rural_folk }
-		if = { limit = { has_modifier = monarch_ig_industrialists } remove_modifier = monarch_ig_industrialists }
-		if = { limit = { has_modifier = monarch_ig_petty_bourgeoisie } remove_modifier = monarch_ig_petty_bourgeoisie }
-		if = { limit = { has_modifier = monarch_ig_trade_unions } remove_modifier = monarch_ig_trade_unions }
 		
 		#Clear variables
 		remove_variable = elective_monarchy_system
@@ -339,22 +416,43 @@ je_constitutional_monarchy = {
 			}
 			every_scope_character = {
 				limit = { has_role = character_role_monarch_elective }
-				set_character_as_royal = yes
-				set_variable = former_elective_monarch
 				remove_character_role = character_role_monarch_elective
+				set_character_as_royal = yes
 			}
 		}
 		
-		#Clear monarch
+		#Clear monarchy
 		if = {
 			limit = {
-				NOT = { has_law_or_variant = law_type:law_HOS_monarch }
-				scope:constitutional_monarch_scope ?= {
-					has_role = character_role_monarch
+				OR = {
+					NOT = { has_law_or_variant = law_type:law_HOS_monarch }
+					ruler_is_governor_general = yes
+					shares_same_monarch = yes
+				}
+				any_scope_character = {
+					OR = {
+						has_role = character_role_monarch 
+						has_role = character_role_monarch_elective
+						has_role = character_role_regent
+						has_role = character_role_prince
+					}
 				}
 			}
-			scope:constitutional_monarch_scope ?= {
+			every_scope_character = {
+				limit = { has_role = character_role_monarch }
 				remove_character_role = character_role_monarch
+			}
+			every_scope_character = {
+				limit = { has_role = character_role_monarch_elective }
+				remove_character_role = character_role_monarch_elective
+			}
+			every_scope_character = {
+				limit = { has_role = character_role_regent }
+				remove_character_role = character_role_regent
+			}
+			every_scope_character = {
+				limit = { has_role = character_role_prince }
+				remove_character_role = character_role_prince
 			}
 		}
 		
@@ -365,38 +463,89 @@ je_constitutional_monarchy = {
 				scope:constitutional_monarch_scope ?= {
 					owner ?= ROOT
 					has_role = character_role_monarch
-					is_adult = no
+					OR = {
+						is_adult = no
+						AND = {
+							owner ?= { has_variable = primogeniture_system }
+							is_female = yes
+						}
+					}
+				}
+				NOT = {
+					any_scope_character = {
+						has_role = character_role_regent
+					}
 				}
 			}
 			if = {
 				limit = {
 					any_scope_character = {
-						is_a_prince_character = yes
+						has_role = character_role_prince
+						NOT = { has_variable = prince_consort_character }
+						NAND = {
+							owner ?= { has_variable = primogeniture_system }
+							is_female = yes
+						}
 					}
 				}
 				random_scope_character = {
-					limit = {
-						is_a_prince_character = yes
+					limit = { 
+						has_role = character_role_prince
+						NOT = { has_variable = prince_consort_character }
+						NAND = {
+							owner ?= { has_variable = primogeniture_system }
+							is_female = yes
+						}
 					}
-					add_character_role = character_role_regent
-				}
-			}
-			else_if = {
-				limit = {
-					any_scope_character = {
-						has_role_of_type = magnate
-					}
-				}
-				random_scope_character = {
-					limit = {
-						has_role_of_type = magnate
-					}
-					add_character_role = character_role_regent
+					set_character_as_monarch = yes
 				}
 			}
 			else = {
-				create_character = {
-					role = character_role_regent noble = yes
+				if = {
+					limit = {
+						any_scope_character = {
+							has_role_of_type = magnate
+							is_noble = yes
+							is_adult = yes
+						}
+					}
+					ordered_scope_character = {
+						limit = {
+							has_role_of_type = magnate
+							is_noble = yes
+							is_adult = yes
+						}
+						order_by = popularity
+						position = 0
+						set_character_as_regent = yes
+					}
+				}
+				else_if = {
+					limit = {
+						any_scope_character = {
+							OR = { 
+								has_role_of_type = general
+								has_role_of_type = admiral
+							}
+						}
+					}
+					ordered_scope_character = {
+						limit = {
+							OR = { 
+								has_role_of_type = general
+								has_role_of_type = admiral
+							}
+						}
+						order_by = commander_rank
+						position = 0
+						set_character_as_regent = yes
+					}
+				}
+				else = {
+					create_character = {
+						role = character_role_regent noble = yes
+						on_created = { set_character_as_regent = yes }
+					}
 				}
 			}
 		}
@@ -413,6 +562,28 @@ je_constitutional_monarchy = {
 			save_scope_as = viceroy_character_label
 			custom_tooltip = {
 				text = governor_general_character_label.tt
+			}
+		}
+		
+		#Mark Monarch under Regency
+		if = {
+			limit = {
+				scope:constitutional_monarch_scope ?= {
+					has_role = character_role_regent
+				}
+			}
+			scope:constitutional_monarch_scope ?= {
+				owner ?= {
+					random_scope_character = {
+						limit = { 
+							has_role = character_role_monarch
+						}
+						save_scope_as = monarch_character_label
+						custom_tooltip = {
+							text = monarch_character_label.tt
+						}
+					}
+				}
 			}
 		}
 		
@@ -458,22 +629,19 @@ je_constitutional_monarchy = {
 			
 			#If there is no Viceroy
 			if = {
-				limit = { 
+				limit = {
 					exists = scope:constitutional_monarch_scope
+					OR = {
+						is_a_colonial_government = yes
+						shares_same_monarch = yes
+					}
+					is_subject = yes
 					NOT = {
 						any_scope_character = {
-							has_role = character_role_monarch
-						}
-					}
-					OR = { 
-						NOT = {
-							any_scope_character = {
+							OR = { 
+								has_role = character_role_monarch
 								has_role = character_role_viceroy
 							}
-						}
-						any_scope_character = {
-							has_role = character_role_viceroy
-							NOT = { has_variable = viceroy_character_term_limit }
 						}
 					}
 				}
@@ -546,83 +714,13 @@ je_constitutional_monarchy = {
 	status_desc = {
 		first_valid = {
 			triggered_desc = {
-				desc = monarch_ig_landowners
+				desc = monarch_ig_label
 				trigger = {
 					scope:constitutional_monarch_scope ?= {
-						has_role = character_role_monarch
-						is_interest_group_type = ig_landowners
-					}
-				}
-			}
-			triggered_desc = {
-				desc = monarch_ig_devout
-				trigger = {
-					scope:constitutional_monarch_scope ?= {
-						has_role = character_role_monarch
-						is_interest_group_type = ig_devout
-					}
-				}
-			}
-			triggered_desc = {
-				desc = monarch_ig_rural_folk
-				trigger = {
-					scope:constitutional_monarch_scope ?= {
-						has_role = character_role_monarch
-						is_interest_group_type = ig_rural_folk
-					}
-				}
-			}
-			triggered_desc = {
-				desc = monarch_ig_industrialists
-				trigger = {
-					scope:constitutional_monarch_scope ?= {
-						has_role = character_role_monarch
-						is_interest_group_type = ig_industrialists
-					}
-				}
-			}
-			triggered_desc = {
-				desc = monarch_ig_petty_bourgeoisie
-				trigger = {
-					scope:constitutional_monarch_scope ?= {
-						has_role = character_role_monarch
-						is_interest_group_type = ig_petty_bourgeoisie
-					}
-				}
-			}
-			triggered_desc = {
-				desc = monarch_ig_trade_unions
-				trigger = {
-					scope:constitutional_monarch_scope ?= {
-						has_role = character_role_monarch
-						is_interest_group_type = ig_trade_unions
-					}
-				}
-			}
-			triggered_desc = {
-				desc = monarch_ig_armed_forces
-				trigger = {
-					scope:constitutional_monarch_scope ?= {
-						has_role = character_role_monarch
-						is_interest_group_type = ig_armed_forces
-					}
-				}
-			}
-			triggered_desc = {
-				desc = monarch_ig_intelligentsia
-				trigger = {
-					scope:constitutional_monarch_scope ?= {
-						has_role = character_role_monarch
-						is_interest_group_type = ig_intelligentsia
-					}
-				}
-			}
-			triggered_desc = {
-				desc = monarch_child
-				trigger = {
-					scope:constitutional_monarch_scope ?= {
-						has_role = character_role_monarch
-						is_adult = no
+						OR = { 
+							has_role = character_role_monarch
+							has_role = character_role_regent
+						}
 					}
 				}
 			}

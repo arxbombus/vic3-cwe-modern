@@ -13,8 +13,24 @@
 
 	possible = {
 		
-		### Personal Union by Marriage ###
-		eligible_for_royal_marriage_creating_PU = yes
+		#Personal Union by Regency
+		trigger_if = {
+			limit = {
+				scope:target_country = {
+					is_a_regency_government = yes
+				}
+				is_a_regency_government = no
+			}
+			any_primary_culture = {
+				shares_heritage_trait_group_with_any_primary_culture = scope:target_country
+			}
+			religion ?= { is_state_religion = scope:target_country }
+		}
+		
+		#Personal Union by Marriage
+		trigger_else = {
+			eligible_for_royal_marriage_creating_PU = yes
+		}
 		
 	}	
 	
@@ -104,7 +120,7 @@
 			is_diplomatic_play_committed_participant = no
 		}
 		
-		requirement_to_maintain = { 
+		requirement_to_maintain = {
 		
 			trigger = {
 		
@@ -114,7 +130,24 @@
 					scope:target_country = { has_law_or_variant = law_type:law_HOS_monarch }
 				}
 			
-			} 
+			}
+			
+		}
+		
+		requirement_to_maintain = {
+		
+			trigger = {
+				
+				#Personal union subject does not allow female rulers
+				NAND = {
+					scope:target_country = { has_variable = primogeniture_system }
+					any_scope_character = {
+						has_role = character_role_monarch
+						is_female = yes
+					}
+				}
+				
+			}
 			
 		}
 		
@@ -132,8 +165,21 @@
 			}
 		}
 		
-		#Marriage if applicable
+		#Regency
 		if = {
+			limit = {
+				scope:target_country = { is_a_regency_government = yes }
+			}
+			every_scope_character = {
+				limit = {
+					has_role = character_role_regent
+				}
+				scope:target_country = { clean_up_regent_character = yes }
+			}
+		}
+		
+		#Marriage if applicable
+		else_if = {
 			limit = {
 				eligible_for_royal_marriage_creating_PU = yes
 			}
@@ -144,10 +190,18 @@
 					}
 					set_variable = spouse_seeker
 					set_variable = { name = monarch_spouse_seeker days = 2 }
+					save_scope_as = royal_marriage_character
 					owner ?= {
+						scope:target_country = {
+							save_scope_as = marriage_country
+							random_scope_character = {
+								limit = { eligible_character_for_royal_marriage_creating_PU = yes }
+								save_scope_as = foreign_ruler_1
+							}
+						}
 						custom_tooltip = {
 							text = arrange_royal_wedding.tt
-							trigger_event = { id = wedding.2 popup = yes }
+							trigger_event = { id = wedding.1 popup = yes }
 						}
 					}
 				}
@@ -215,10 +269,19 @@
 		junior_accept_score = {
 			value = 0
 	
-			add = {
-				desc = "DIPLOMATIC_ACCEPTANCE_BASE"
-				value = -100
-			}	
+			if = {
+				limit = { scope:target_country = { is_a_regency_government = yes } }
+				add = {
+					desc = "DIPLOMATIC_ACCEPTANCE_BASE"
+					value = -50
+				}
+			}
+			else = {
+				add = {
+					desc = "DIPLOMATIC_ACCEPTANCE_BASE"
+					value = -100
+				}
+			}
 	
 			if = {
 				limit = { has_truce_with = scope:actor }

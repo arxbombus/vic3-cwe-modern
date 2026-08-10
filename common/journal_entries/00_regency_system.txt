@@ -2,15 +2,16 @@ je_regency_system = {
 	icon = "gfx/interface/icons/law_icons/monarchy.dds"
 
 	group = je_group_political_organs
+	
+	scripted_button = je_dismiss_regent_button 
 
 	is_shown_when_inactive = {
-		OR = {
-			has_gov_regency = yes
-			AND = {
-				has_law_or_variant = law_type:law_HOS_monarch
-				any_scope_character = { has_role = character_role_regent }
-			}
-		}
+		has_law_or_variant = law_type:law_HOS_monarch
+		ruler_is_governor_general = no
+		shares_same_monarch = no
+		is_a_regency_government = yes
+		any_scope_character = { has_role = character_role_regent }
+		NOT = { has_variable = replacing_regency }
 	}
 
 	possible = {
@@ -18,125 +19,204 @@ je_regency_system = {
 	}
 
 	immediate = {
-		if = {
-			limit = { has_gov_regency = yes }
-			ruler ?= { add_character_role = character_role_regent }
-		}
 		random_scope_character = {
 			limit = { has_role = character_role_regent }
 			save_scope_as = regent_character
+		}
+		random_scope_character = {
+			limit = { has_role = character_role_monarch }
+			save_scope_as = monarch_character
 		}
 	}
 	
 	invalid = {
 		OR = {
-			NOT = { has_law_or_variant = law_type:law_HOS_monarch }
+			NAND = {
+				has_law_or_variant = law_type:law_HOS_monarch
+				ruler_is_governor_general = no
+				shares_same_monarch = no
+				is_a_regency_government = yes
+			}
 			scope:regent_character ?= { NOT = { has_role = character_role_regent } }
 			NOT = { exists = scope:regent_character }
+			scope:monarch_character ?= { NOT = { has_role = character_role_monarch } }
 		}
 	}
 	
 	on_invalid = {
 		
-		#Clean up
-		every_scope_character = {
-			limit = { has_role = character_role_regent }
-			remove_character_role = character_role_regent
-		}
-		every_scope_character = {
-			limit = { 
-				has_modifier = regent_character
+		#Coronation Day
+		hidden_effect = {
+			if = {
+				limit = {
+					has_law_or_variant = law_type:law_HOS_monarch
+					ruler_is_governor_general = no
+					shares_same_monarch = no
+					any_scope_character = {
+						NOT = { has_role = character_role_regent }
+						has_role = character_role_monarch
+						is_adult = yes
+						NAND = {
+							owner ?= { has_variable = primogeniture_system }
+							is_female = yes
+						}
+					}
+				}
+				trigger_event = { id = regency.3 popup = yes }
 			}
-			remove_modifier = regent_character
+		}
+		
+		#Clean up
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_HOS_monarch
+				ruler_is_governor_general = no
+				shares_same_monarch = no
+				scope:monarch_character ?= { has_role = character_role_monarch }
+			}
+			every_scope_character = {
+				limit = { has_role = character_role_regent }
+				remove_character_role = character_role_regent
+			}
+			every_scope_character = {
+				limit = { 
+					has_modifier = regent_character
+				}
+				remove_modifier = regent_character
+			}
+			remove_regency_modifier = yes
 		}
 		
 		#Detect monarch
 		random_scope_character = {
 			limit = { has_role = character_role_monarch }
-			save_scope_as = monarch_character_label
+			save_scope_as = constitutional_monarch_scope
 		}
 		
 		#Create Regency if applicable
 		if = {
 			limit = {
 				has_law_or_variant = law_type:law_HOS_monarch
-				scope:monarch_character_label ?= {
+				ruler_is_governor_general = no
+				shares_same_monarch = no
+				any_scope_character = {
+					owner ?= ROOT
 					has_role = character_role_monarch
-					is_adult = no
+					is_eligible_to_become_monarch = no
 				}
 			}
-			if = {
-				limit = {
-					any_scope_character = {
-						is_a_prince_character = yes
-					}
-				}
-				random_scope_character = {
-					limit = {
-						is_a_prince_character = yes
-					}
-					add_character_role = character_role_regent
-				}
-			}
-			else = {
-				if = {
-					limit = {
-						any_scope_character = {
-							has_role_of_type = magnate
-						}
-					}
-					random_scope_character = {
-						limit = {
-							has_role_of_type = magnate
-						}
-						add_character_role = character_role_regent
-					}
-				}
-				else = {
-					create_character = {
-						role = character_role_regent noble = yes
-					}
-				}
-			}
+			trigger_event = { id = regency.2 popup = yes }
 		}
 		
 	}
 	
 	complete = {
-		any_scope_character = { has_role = character_role_monarch is_adult = yes }
+		trigger_if = {
+			limit = { exists = scope:monarch_character }
+			scope:monarch_character ?= {
+				OR = {
+					has_role = character_role_monarch
+					AND = {
+						has_role = character_role_prince
+						custom_tooltip = {
+							text = prince_consort_character.tt
+							NOT = { has_variable = prince_consort_character }
+						}
+						NAND = {
+							custom_tooltip = {
+								text = primogeniture_system.tt
+								owner ?= { has_variable = primogeniture_system }
+							}
+							is_female = yes
+						}
+					}
+				}
+				is_adult = yes
+				NAND = {
+					custom_tooltip = {
+						text = primogeniture_system.tt
+						owner ?= { has_variable = primogeniture_system }
+					}
+					is_female = yes
+				}
+			}
+		}
+		trigger_else = {
+			any_scope_character = {
+				OR = {
+					has_role = character_role_monarch
+					AND = {
+						has_role = character_role_prince
+						NOT = {  has_role = character_role_regent }
+						custom_tooltip = {
+							text = prince_consort_character.tt
+							NOT = { has_variable = prince_consort_character }
+						}
+						NAND = {
+							custom_tooltip = {
+								text = primogeniture_system.tt
+								owner ?= { has_variable = primogeniture_system }
+							}
+							is_female = yes
+						}
+					}
+				}
+				is_adult = yes
+				NAND = {
+					custom_tooltip = {
+						text = primogeniture_system.tt
+						owner ?= { has_variable = primogeniture_system }
+					}
+					is_female = yes
+				}
+			}
+		}
 	}
 	
 	on_complete = {
+		
+		#Coronation Day
+		hidden_effect = {
+			if = {
+				limit = {
+					has_law_or_variant = law_type:law_HOS_monarch
+					ruler_is_governor_general = no
+					shares_same_monarch = no
+					any_scope_character = {
+						NOT = { has_role = character_role_regent }
+						has_role = character_role_monarch
+						is_adult = yes
+						NAND = {
+							owner ?= { has_variable = primogeniture_system }
+							is_female = yes
+						}
+					}
+				}
+				trigger_event = { id = regency.3 popup = yes }
+			}
+		}
 		
 		#Clean up
 		every_scope_character = {
 			limit = { has_role = character_role_regent }
 			remove_character_role = character_role_regent
 		}
-		every_scope_character = {
-			limit = { 
-				has_modifier = regent_character
+		hidden_effect = {
+			every_scope_character = {
+				limit = { 
+					has_modifier = regent_character
+				}
+				remove_modifier = regent_character
 			}
-			remove_modifier = regent_character
+			remove_regency_modifier = yes
 		}
 		
 		#Mark monarchs
-		if = {
-			limit = { has_gov_regency = yes }
-			heir ?= {
-				save_scope_as = monarch_character_label
-				custom_tooltip = {
-					text = character_role_monarch.tt
-				}
-			}
-		}
-		else = {
-			every_scope_character = {
-				limit = { has_role = character_role_monarch }
-				save_scope_as = monarch_character_label
-				custom_tooltip = {
-					text = character_role_monarch.tt
-				}
+		every_scope_character = {
+			limit = { has_role = character_role_monarch }
+			save_scope_as = monarch_character_label
+			custom_tooltip = {
+				text = character_role_monarch.tt
 			}
 		}
 		
