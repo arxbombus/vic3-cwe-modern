@@ -954,4 +954,341 @@ modern_apply_country_power_modifiers = {
 			}
 		}
 	}
+	# BEGIN GENERATED MODERN SUPERSTATE POWER EFFECTS
+	### United States of Great Columbia
+	if = {
+		limit = { exists = c:ZGC }
+		c:ZGC = {
+			remove_modifier = modern_country_power_usa
+			remove_modifier = modern_country_power_canada
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zgc } }
+				add_modifier = {
+					name = modern_country_power_zgc
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### Grand Anáhuac
+	if = {
+		limit = { exists = c:ZAH }
+		c:ZAH = {
+			remove_modifier = modern_country_power_mexico
+			remove_modifier = modern_country_power_panama
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zah } }
+				add_modifier = {
+					name = modern_country_power_zah
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### Grand Bolivarian Republic
+	if = {
+		limit = { exists = c:ZBV }
+		c:ZBV = {
+			remove_modifier = modern_country_power_colombia
+			remove_modifier = modern_country_power_peru
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zbv } }
+				add_modifier = {
+					name = modern_country_power_zbv
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### Austral Concord
+	if = {
+		limit = { exists = c:ZAU }
+		c:ZAU = {
+			remove_modifier = modern_country_power_brazil
+			remove_modifier = modern_country_power_argentina
+			remove_modifier = modern_country_power_chile
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zau } }
+				add_modifier = {
+					name = modern_country_power_zau
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### Mitteleuropa
+	if = {
+		limit = { exists = c:ZGR }
+		c:ZGR = {
+			remove_modifier = modern_country_power_germany
+			remove_modifier = modern_country_power_poland
+			remove_modifier = modern_country_power_czechia
+			remove_modifier = modern_country_power_ukraine
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zgr } }
+				add_modifier = {
+					name = modern_country_power_zgr
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### Rumelia
+	if = {
+		limit = { exists = c:ZBK }
+		c:ZBK = {
+			remove_modifier = modern_country_power_turkey
+			remove_modifier = modern_country_power_romania
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zbk } }
+				add_modifier = {
+					name = modern_country_power_zbk
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### The Western Accord
+	if = {
+		limit = { exists = c:ZOC }
+		c:ZOC = {
+			remove_modifier = modern_country_power_france
+			remove_modifier = modern_country_power_united_kingdom
+			remove_modifier = modern_country_power_ireland
+			remove_modifier = modern_country_power_italy
+			remove_modifier = modern_country_power_spain
+			remove_modifier = modern_country_power_belgium
+			remove_modifier = modern_country_power_netherlands
+			remove_modifier = modern_country_power_luxembourg
+			remove_modifier = modern_country_power_switzerland
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zoc } }
+				add_modifier = {
+					name = modern_country_power_zoc
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### New Kalmar Union
+	if = {
+		limit = { exists = c:ZKA }
+		c:ZKA = {
+			remove_modifier = modern_country_power_sweden
+			remove_modifier = modern_country_power_denmark
+			remove_modifier = modern_country_power_norway
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zka } }
+				add_modifier = {
+					name = modern_country_power_zka
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### The Union
+	if = {
+		limit = { exists = c:ZUN }
+		c:ZUN = {
+			remove_modifier = modern_country_power_russia
+			remove_modifier = modern_country_power_kazakhstan
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zun } }
+				add_modifier = {
+					name = modern_country_power_zun
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### United Arab Kingdoms
+	if = {
+		limit = { exists = c:ZAB }
+		c:ZAB = {
+			remove_modifier = modern_country_power_saudi_arabia
+			remove_modifier = modern_country_power_united_arab_emirates
+			remove_modifier = modern_country_power_bahrain
+			remove_modifier = modern_country_power_qatar
+			remove_modifier = modern_country_power_kuwait
+			remove_modifier = modern_country_power_oman
+			remove_modifier = modern_country_power_egypt
+			remove_modifier = modern_country_power_algeria
+			remove_modifier = modern_country_power_morocco
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zab } }
+				add_modifier = {
+					name = modern_country_power_zab
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### Covenant of Eran
+	if = {
+		limit = { exists = c:ZER }
+		c:ZER = {
+			remove_modifier = modern_country_power_iran
+			remove_modifier = modern_country_power_iraq
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zer } }
+				add_modifier = {
+					name = modern_country_power_zer
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### West African Compact
+	if = {
+		limit = { exists = c:ZGN }
+		c:ZGN = {
+			remove_modifier = modern_country_power_nigeria
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zgn } }
+				add_modifier = {
+					name = modern_country_power_zgn
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### Greater Kongo
+	if = {
+		limit = { exists = c:ZKG }
+		c:ZKG = {
+			remove_modifier = modern_country_power_dr_congo
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zkg } }
+				add_modifier = {
+					name = modern_country_power_zkg
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### Azania
+	if = {
+		limit = { exists = c:ZAZ }
+		c:ZAZ = {
+			remove_modifier = modern_country_power_ethiopia
+			remove_modifier = modern_country_power_kenya
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zaz } }
+				add_modifier = {
+					name = modern_country_power_zaz
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### Mzansi
+	if = {
+		limit = { exists = c:ZMZ }
+		c:ZMZ = {
+			remove_modifier = modern_country_power_south_africa
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zmz } }
+				add_modifier = {
+					name = modern_country_power_zmz
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### Bharat Mandal
+	if = {
+		limit = { exists = c:ZBT }
+		c:ZBT = {
+			remove_modifier = modern_country_power_india
+			remove_modifier = modern_country_power_pakistan
+			remove_modifier = modern_country_power_bangladesh
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zbt } }
+				add_modifier = {
+					name = modern_country_power_zbt
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### Eastern Harmonious Order
+	if = {
+		limit = { exists = c:ZHH }
+		c:ZHH = {
+			remove_modifier = modern_country_power_china
+			remove_modifier = modern_country_power_vietnam
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zhh } }
+				add_modifier = {
+					name = modern_country_power_zhh
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### League of the Golden Lands
+	if = {
+		limit = { exists = c:ZSV }
+		c:ZSV = {
+			remove_modifier = modern_country_power_thailand
+			remove_modifier = modern_country_power_vietnam
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zsv } }
+				add_modifier = {
+					name = modern_country_power_zsv
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### Nusantara
+	if = {
+		limit = { exists = c:ZNS }
+		c:ZNS = {
+			remove_modifier = modern_country_power_indonesia
+			remove_modifier = modern_country_power_malaysia
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zns } }
+				add_modifier = {
+					name = modern_country_power_zns
+					duration = -1
+				}
+			}
+		}
+	}
+
+	### Pacific Commonwealth
+	if = {
+		limit = { exists = c:ZOE }
+		c:ZOE = {
+			remove_modifier = modern_country_power_australia
+			remove_modifier = modern_country_power_new_zealand
+			if = {
+				limit = { NOT = { has_modifier = modern_country_power_zoe } }
+				add_modifier = {
+					name = modern_country_power_zoe
+					duration = -1
+				}
+			}
+		}
+	}
+	# END GENERATED MODERN SUPERSTATE POWER EFFECTS
 }

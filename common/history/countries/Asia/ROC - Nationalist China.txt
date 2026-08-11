@@ -52,7 +52,6 @@ COUNTRIES = {
 		#add_modifier = { name = ww2_victor months = 60 is_decaying = yes }
 
 		set_capital = STATE_FORMOSA
-		effect_modern_utopian_laws = yes
 		effect_starting_technology_tier_2_5_tech = yes
 	}
 	

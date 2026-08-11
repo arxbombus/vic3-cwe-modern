@@ -5,3 +5,185 @@ FRE = {
 	cultures = { chinese han yue min miao hakka zhuang yi manchu taiwanese aurelian ryukyuan japanese korean indonesian malay singaporean }
 	capital = STATE_FORMOSA
 }
+
+# BEGIN GENERATED MODERN SUPERSTATES
+ZGC = { # United States of Great Columbia
+	color = { 66 94 193 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { afro_american anglo_american anglo_canadian athabaskan franco_canadian hawaiian }
+	capital = STATE_DISTRICT_OF_COLUMBIA
+}
+
+ZAH = { # Grand Anáhuac
+	color = { 0 100 0 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { belizean costa_rican guatemalan honduran mexican nicaraguan panamanian salvadoran zapotec }
+	capital = STATE_MEXICO
+}
+
+ZBV = { # Grand Bolivarian Republic
+	color = { 255 234 168 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { bolivian colombian ecuadorian franco_guyanese guyanese peruvian surinamese venezuelan }
+	capital = STATE_CUNDINAMARCA
+}
+
+ZAU = { # Austral Concord
+	color = { 129 177 125 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { argentinian bolivian brazilian british chilean paraguayan uruguayan }
+	capital = STATE_RIO_DE_JANEIRO
+}
+
+ZGR = { # Mitteleuropa
+	color = { 147 130 110 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { austrian bavarian byelorussian czech czechoslovakian danish estonian german hungarian latvian lithuanian polish russian slovak sorb soviet tatar ukrainian }
+	capital = STATE_BRANDENBURG
+}
+
+ZBK = { # Rumelia
+	color = { 170 206 162 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { albanian armenian bosniak bulgarian croat cypriot georgian greek hungarian italian kosovan kurdish macedonian moldovan montenegrin romanian serb slovene soviet turkish ukrainian yugoslavian }
+	capital = STATE_ANKARA
+}
+
+ZOC = { # The Western Accord
+	color = { 20 50 210 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { anglo_irish asturleonese austrian basque belgian breton british catalan corsican dutch english flemish french galician german irish italian luxembourger maltese occitan portuguese scottish spanish swiss wallonian welsh }
+	capital = STATE_ILE_DE_FRANCE
+}
+
+ZKA = { # New Kalmar Union
+	color = { 25 88 217 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { danish finnish icelandic inuit norwegian sami swedish }
+	capital = STATE_SVEALAND
+}
+
+ZUN = { # The Union
+	color = { 100 120 90 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { abkhaz ainu armenian azerbaijani chechen finnish gagauz georgian kazak kirgiz manchu moldovan mongol north_caucasian ossetic romanian russian sami siberian soviet swedish tajik tatar turkmen uighur ukrainian uzbek }
+	capital = STATE_MOSCOW
+}
+
+ZAB = { # United Arab Kingdoms
+	color = { 60 179 113 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { algerian bahraini bedouin darfuri egyptian emirati iraqi israeli jordanian kurdish lebanese libyan maghrebi mauritanian moroccan omani palestinian qatari saharan south_sudanese sudanese syrian tunisian turkish yemenite }
+	capital = STATE_NEJD
+}
+
+ZER = { # Covenant of Eran
+	color = { 189 183 107 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { armenian azerbaijani baluchi iraqi khuzestani kurdish pashtun persian turkish }
+	capital = STATE_IRAKAJEMI
+}
+
+ZGN = { # West African Compact
+	color = { 0 153 0 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { azawagh beninese biafran bissau_guinean burkinese cabo_verdean gambian ghanaian guinean ivorian liberian malian nigerian nigerien senegalese sierra_leonean togolese yoruba }
+	capital = STATE_EAST_HAUSALAND
+}
+
+ZKG = { # Greater Kongo
+	color = { 139 119 101 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { ambazonian angolan cameroonian central_african chadian congolese equatoguinean gabonese santomean }
+	capital = STATE_BAS_CONGO
+}
+
+ZAZ = { # Azania
+	color = { 176 196 222 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { amhara kenyan oromo ruanda rundi somali somalilander tanganyikan tanzanian tigray ugandan zanzibari }
+	capital = STATE_OROMIA
+}
+
+ZMZ = { # Mzansi
+	color = { 252 160 0 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { boer botswanan liswati malawian mozambican namibian rhodesian sotho south_african zambian zimbabwean }
+	capital = STATE_TRANSVAAL
+}
+
+ZBT = { # Bharat Mandal
+	color = { 188 113 61 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { assamese avadhi bageli baluchi bengali bhutanese bihari bundeli chhattisgarhi deccani gondi gujarati hindustani indian kannada kashmiri malayalam maldivian manipuri marathi naga oriya pahari pakistani panjabi pashtun pathan rajput sikkimese sindi sinhala tamil telegu tibetan }
+	capital = STATE_DELHI
+}
+
+ZHH = { # Eastern Harmonious Order
+	color = { 204 0 0 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { chinese hakka han korean manchu miao min mongol tibetan uighur vietnamese yi yue zhuang }
+	capital = STATE_BEIJING
+}
+
+ZSV = { # League of the Golden Lands
+	color = { 238 238 238 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { burmese kachin karen khmer lao lushai mon shan thai vietnamese }
+	capital = STATE_BANGKOK
+}
+
+ZNS = { # Nusantara
+	color = { 46 139 87 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { balinese batak bornean bruneian dayak indonesian javan kalimantan malay malaysian moluccan sabahan sarawakian singaporean sumatran timorese west_papuan }
+	capital = STATE_WEST_JAVA
+}
+
+ZOE = { # Pacific Commonwealth
+	color = { 60 147 246 }
+	country_type = recognized
+	tier = hegemony
+	valid_as_home_country_for_separatists = { always = no }
+	cultures = { aborigine australian bougainvillean east_papuan fijian kiribati maori marshallese micronesian nauruan new_caledonian new_zealander polynesian samoan solomon_islander tongan tuvaluan vanuatuan }
+	capital = STATE_NEW_SOUTH_WALES
+}
+# END GENERATED MODERN SUPERSTATES

@@ -1,0 +1,3161 @@
+# Generated debug helper for the private modern-superstate test setup.
+# It is intentionally not called by an on_action, decision, journal entry, or scripted button.
+# Run debug_release_modern_superstate_test_countries manually in the debug script runner.
+debug_release_modern_superstate_test_countries = {
+	# Release every direct subject of the country used as the script-runner ROOT.
+	every_country = {
+		limit = {
+			is_subject_of = ROOT
+		}
+		make_independent = yes
+	}
+
+	# Create relevant constituent tags missing from the 1949 starting setup.
+	# random_scope_state is deterministic here: ROOT has at most one state object per named region.
+
+	# NFL — STATE_NEWFOUNDLAND
+	if = {
+		limit = {
+			NOT = { exists = c:NFL }
+			any_scope_state = {
+				state_region = s:STATE_NEWFOUNDLAND
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_NEWFOUNDLAND
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = NFL
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# QUE — STATE_QUEBEC
+	if = {
+		limit = {
+			NOT = { exists = c:QUE }
+			any_scope_state = {
+				state_region = s:STATE_QUEBEC
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_QUEBEC
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = QUE
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# CSC — STATE_BRITISH_COLUMBIA
+	if = {
+		limit = {
+			NOT = { exists = c:CSC }
+			any_scope_state = {
+				state_region = s:STATE_BRITISH_COLUMBIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_BRITISH_COLUMBIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = CSC
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# EUS — STATE_NEW_YORK
+	if = {
+		limit = {
+			NOT = { exists = c:EUS }
+			any_scope_state = {
+				state_region = s:STATE_NEW_YORK
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_NEW_YORK
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = EUS
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# WUS — STATE_NEW_YORK
+	if = {
+		limit = {
+			NOT = { exists = c:WUS }
+			any_scope_state = {
+				state_region = s:STATE_NEW_YORK
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_NEW_YORK
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = WUS
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# CUS — STATE_NEW_YORK
+	if = {
+		limit = {
+			NOT = { exists = c:CUS }
+			any_scope_state = {
+				state_region = s:STATE_NEW_YORK
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_NEW_YORK
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = CUS
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SUS — STATE_VIRGINIA
+	if = {
+		limit = {
+			NOT = { exists = c:SUS }
+			any_scope_state = {
+				state_region = s:STATE_VIRGINIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_VIRGINIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SUS
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# ASA — STATE_GEORGIA
+	if = {
+		limit = {
+			NOT = { exists = c:ASA }
+			any_scope_state = {
+				state_region = s:STATE_GEORGIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_GEORGIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = ASA
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# TEX — STATE_TEXAS
+	if = {
+		limit = {
+			NOT = { exists = c:TEX }
+			any_scope_state = {
+				state_region = s:STATE_TEXAS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TEXAS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = TEX
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# BLZ — STATE_GUATEMALA
+	if = {
+		limit = {
+			NOT = { exists = c:BLZ }
+			any_scope_state = {
+				state_region = s:STATE_GUATEMALA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_GUATEMALA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = BLZ
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# ZAP — STATE_OAXACA
+	if = {
+		limit = {
+			NOT = { exists = c:ZAP }
+			any_scope_state = {
+				state_region = s:STATE_OAXACA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_OAXACA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = ZAP
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# GUY — STATE_GUAYANA
+	if = {
+		limit = {
+			NOT = { exists = c:GUY }
+			any_scope_state = {
+				state_region = s:STATE_GUAYANA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_GUAYANA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = GUY
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SUR — STATE_GUAYANA
+	if = {
+		limit = {
+			NOT = { exists = c:SUR }
+			any_scope_state = {
+				state_region = s:STATE_GUAYANA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_GUAYANA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SUR
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# FGY — STATE_GUAYANA
+	if = {
+		limit = {
+			NOT = { exists = c:FGY }
+			any_scope_state = {
+				state_region = s:STATE_GUAYANA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_GUAYANA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = FGY
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# FLK — STATE_SOUTH_ATLANTIC_ISLANDS
+	if = {
+		limit = {
+			NOT = { exists = c:FLK }
+			any_scope_state = {
+				state_region = s:STATE_SOUTH_ATLANTIC_ISLANDS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SOUTH_ATLANTIC_ISLANDS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = FLK
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# BOH — STATE_BOHEMIA
+	if = {
+		limit = {
+			NOT = { exists = c:BOH }
+			any_scope_state = {
+				state_region = s:STATE_BOHEMIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_BOHEMIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = BOH
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SLV — STATE_SLOVAKIA
+	if = {
+		limit = {
+			NOT = { exists = c:SLV }
+			any_scope_state = {
+				state_region = s:STATE_SLOVAKIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SLOVAKIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SLV
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# EST — STATE_TALINN
+	if = {
+		limit = {
+			NOT = { exists = c:EST }
+			any_scope_state = {
+				state_region = s:STATE_TALINN
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TALINN
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = EST
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# LAT — STATE_RIGA
+	if = {
+		limit = {
+			NOT = { exists = c:LAT }
+			any_scope_state = {
+				state_region = s:STATE_RIGA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_RIGA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = LAT
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# LIT — STATE_VILNIUS
+	if = {
+		limit = {
+			NOT = { exists = c:LIT }
+			any_scope_state = {
+				state_region = s:STATE_VILNIUS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_VILNIUS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = LIT
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# BYE — STATE_MINSK
+	if = {
+		limit = {
+			NOT = { exists = c:BYE }
+			any_scope_state = {
+				state_region = s:STATE_MINSK
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_MINSK
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = BYE
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# UKR — STATE_KIEV
+	if = {
+		limit = {
+			NOT = { exists = c:UKR }
+			any_scope_state = {
+				state_region = s:STATE_KIEV
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_KIEV
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = UKR
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SLO — STATE_SLOVENIA
+	if = {
+		limit = {
+			NOT = { exists = c:SLO }
+			any_scope_state = {
+				state_region = s:STATE_SLOVENIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SLOVENIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SLO
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# CRO — STATE_CROATIA
+	if = {
+		limit = {
+			NOT = { exists = c:CRO }
+			any_scope_state = {
+				state_region = s:STATE_CROATIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_CROATIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = CRO
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# BOS — STATE_BOSNIA
+	if = {
+		limit = {
+			NOT = { exists = c:BOS }
+			any_scope_state = {
+				state_region = s:STATE_BOSNIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_BOSNIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = BOS
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# RSK — STATE_BOSNIA
+	if = {
+		limit = {
+			NOT = { exists = c:RSK }
+			any_scope_state = {
+				state_region = s:STATE_BOSNIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_BOSNIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = RSK
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# HZB — STATE_BOSNIA
+	if = {
+		limit = {
+			NOT = { exists = c:HZB }
+			any_scope_state = {
+				state_region = s:STATE_BOSNIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_BOSNIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = HZB
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# MON — STATE_MONTENEGRO
+	if = {
+		limit = {
+			NOT = { exists = c:MON }
+			any_scope_state = {
+				state_region = s:STATE_MONTENEGRO
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_MONTENEGRO
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = MON
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SER — STATE_WESTERN_SERBIA
+	if = {
+		limit = {
+			NOT = { exists = c:SER }
+			any_scope_state = {
+				state_region = s:STATE_WESTERN_SERBIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_WESTERN_SERBIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SER
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# KOS — STATE_SKOPIA
+	if = {
+		limit = {
+			NOT = { exists = c:KOS }
+			any_scope_state = {
+				state_region = s:STATE_SKOPIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SKOPIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = KOS
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# MCD — STATE_SKOPIA
+	if = {
+		limit = {
+			NOT = { exists = c:MCD }
+			any_scope_state = {
+				state_region = s:STATE_SKOPIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SKOPIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = MCD
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# UGR — STATE_ATTICA
+	if = {
+		limit = {
+			NOT = { exists = c:UGR }
+			any_scope_state = {
+				state_region = s:STATE_ATTICA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_ATTICA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = UGR
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# CYP — STATE_CYPRUS
+	if = {
+		limit = {
+			NOT = { exists = c:CYP }
+			any_scope_state = {
+				state_region = s:STATE_CYPRUS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_CYPRUS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = CYP
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# ECY — STATE_CYPRUS
+	if = {
+		limit = {
+			NOT = { exists = c:ECY }
+			any_scope_state = {
+				state_region = s:STATE_CYPRUS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_CYPRUS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = ECY
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# RUS — STATE_INGRIA
+	if = {
+		limit = {
+			NOT = { exists = c:RUS }
+			any_scope_state = {
+				state_region = s:STATE_INGRIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_INGRIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = RUS
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# MOL — STATE_MOLDAVIA
+	if = {
+		limit = {
+			NOT = { exists = c:MOL }
+			any_scope_state = {
+				state_region = s:STATE_MOLDAVIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_MOLDAVIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = MOL
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# GEO — STATE_GREATER_CAUCASUS
+	if = {
+		limit = {
+			NOT = { exists = c:GEO }
+			any_scope_state = {
+				state_region = s:STATE_GREATER_CAUCASUS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_GREATER_CAUCASUS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = GEO
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# ARM — STATE_ARMENIA
+	if = {
+		limit = {
+			NOT = { exists = c:ARM }
+			any_scope_state = {
+				state_region = s:STATE_ARMENIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_ARMENIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = ARM
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# AZB — STATE_AZERBAIJAN
+	if = {
+		limit = {
+			NOT = { exists = c:AZB }
+			any_scope_state = {
+				state_region = s:STATE_AZERBAIJAN
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_AZERBAIJAN
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = AZB
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# KAZ — STATE_AKMOLINSK
+	if = {
+		limit = {
+			NOT = { exists = c:KAZ }
+			any_scope_state = {
+				state_region = s:STATE_AKMOLINSK
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_AKMOLINSK
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = KAZ
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# UZB — STATE_FERGANA
+	if = {
+		limit = {
+			NOT = { exists = c:UZB }
+			any_scope_state = {
+				state_region = s:STATE_FERGANA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_FERGANA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = UZB
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# TKM — STATE_TURKMENIA
+	if = {
+		limit = {
+			NOT = { exists = c:TKM }
+			any_scope_state = {
+				state_region = s:STATE_TURKMENIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TURKMENIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = TKM
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# KYR — STATE_KIRGHIZIA
+	if = {
+		limit = {
+			NOT = { exists = c:KYR }
+			any_scope_state = {
+				state_region = s:STATE_KIRGHIZIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_KIRGHIZIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = KYR
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# TAJ — STATE_TAJIKISTAN
+	if = {
+		limit = {
+			NOT = { exists = c:TAJ }
+			any_scope_state = {
+				state_region = s:STATE_TAJIKISTAN
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TAJIKISTAN
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = TAJ
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# FAE — STATE_ABU_DHABI
+	if = {
+		limit = {
+			NOT = { exists = c:FAE }
+			any_scope_state = {
+				state_region = s:STATE_ABU_DHABI
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_ABU_DHABI
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = FAE
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# YEM — STATE_YEMEN
+	if = {
+		limit = {
+			NOT = { exists = c:YEM }
+			any_scope_state = {
+				state_region = s:STATE_YEMEN
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_YEMEN
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = YEM
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SYE — STATE_YEMEN
+	if = {
+		limit = {
+			NOT = { exists = c:SYE }
+			any_scope_state = {
+				state_region = s:STATE_YEMEN
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_YEMEN
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SYE
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# PAL — STATE_PALESTINE
+	if = {
+		limit = {
+			NOT = { exists = c:PAL }
+			any_scope_state = {
+				state_region = s:STATE_PALESTINE
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_PALESTINE
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = PAL
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# GZA — STATE_PALESTINE
+	if = {
+		limit = {
+			NOT = { exists = c:GZA }
+			any_scope_state = {
+				state_region = s:STATE_PALESTINE
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_PALESTINE
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = GZA
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SUD — STATE_BLUE_NILE
+	if = {
+		limit = {
+			NOT = { exists = c:SUD }
+			any_scope_state = {
+				state_region = s:STATE_BLUE_NILE
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_BLUE_NILE
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SUD
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# LBY — STATE_TRIPOLI
+	if = {
+		limit = {
+			NOT = { exists = c:LBY }
+			any_scope_state = {
+				state_region = s:STATE_TRIPOLI
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TRIPOLI
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = LBY
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# TRI — STATE_TRIPOLI
+	if = {
+		limit = {
+			NOT = { exists = c:TRI }
+			any_scope_state = {
+				state_region = s:STATE_TRIPOLI
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TRIPOLI
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = TRI
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# FEZ — STATE_LIBYAN_DESERT
+	if = {
+		limit = {
+			NOT = { exists = c:FEZ }
+			any_scope_state = {
+				state_region = s:STATE_LIBYAN_DESERT
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_LIBYAN_DESERT
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = FEZ
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# ALG — STATE_ALGIERS
+	if = {
+		limit = {
+			NOT = { exists = c:ALG }
+			any_scope_state = {
+				state_region = s:STATE_ALGIERS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_ALGIERS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = ALG
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# FAG — STATE_ALGIERS
+	if = {
+		limit = {
+			NOT = { exists = c:FAG }
+			any_scope_state = {
+				state_region = s:STATE_ALGIERS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_ALGIERS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = FAG
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# WSA — STATE_WEST_SAHARA
+	if = {
+		limit = {
+			NOT = { exists = c:WSA }
+			any_scope_state = {
+				state_region = s:STATE_WEST_SAHARA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_WEST_SAHARA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = WSA
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# MAU — STATE_MAURITANIA
+	if = {
+		limit = {
+			NOT = { exists = c:MAU }
+			any_scope_state = {
+				state_region = s:STATE_MAURITANIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_MAURITANIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = MAU
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# UAR — STATE_LOWER_EGYPT
+	if = {
+		limit = {
+			NOT = { exists = c:UAR }
+			any_scope_state = {
+				state_region = s:STATE_LOWER_EGYPT
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_LOWER_EGYPT
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = UAR
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# BEN — STATE_BENIN
+	if = {
+		limit = {
+			NOT = { exists = c:BEN }
+			any_scope_state = {
+				state_region = s:STATE_BENIN
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_BENIN
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = BEN
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# TOG — STATE_TOGO
+	if = {
+		limit = {
+			NOT = { exists = c:TOG }
+			any_scope_state = {
+				state_region = s:STATE_TOGO
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TOGO
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = TOG
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# GHA — STATE_GOLD_COAST
+	if = {
+		limit = {
+			NOT = { exists = c:GHA }
+			any_scope_state = {
+				state_region = s:STATE_GOLD_COAST
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_GOLD_COAST
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = GHA
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# IVC — STATE_IVORY_COAST
+	if = {
+		limit = {
+			NOT = { exists = c:IVC }
+			any_scope_state = {
+				state_region = s:STATE_IVORY_COAST
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_IVORY_COAST
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = IVC
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SIL — STATE_SIERRA_LEONE
+	if = {
+		limit = {
+			NOT = { exists = c:SIL }
+			any_scope_state = {
+				state_region = s:STATE_SIERRA_LEONE
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SIERRA_LEONE
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SIL
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# GUI — STATE_GUINEA
+	if = {
+		limit = {
+			NOT = { exists = c:GUI }
+			any_scope_state = {
+				state_region = s:STATE_GUINEA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_GUINEA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = GUI
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# GNB — STATE_GUINEA
+	if = {
+		limit = {
+			NOT = { exists = c:GNB }
+			any_scope_state = {
+				state_region = s:STATE_GUINEA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_GUINEA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = GNB
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# GAM — STATE_SENEGAL
+	if = {
+		limit = {
+			NOT = { exists = c:GAM }
+			any_scope_state = {
+				state_region = s:STATE_SENEGAL
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SENEGAL
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = GAM
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SEN — STATE_SENEGAL
+	if = {
+		limit = {
+			NOT = { exists = c:SEN }
+			any_scope_state = {
+				state_region = s:STATE_SENEGAL
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SENEGAL
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SEN
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# MAL — STATE_WESTERN_MALI
+	if = {
+		limit = {
+			NOT = { exists = c:MAL }
+			any_scope_state = {
+				state_region = s:STATE_WESTERN_MALI
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_WESTERN_MALI
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = MAL
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# BUF — STATE_VOLTA
+	if = {
+		limit = {
+			NOT = { exists = c:BUF }
+			any_scope_state = {
+				state_region = s:STATE_VOLTA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_VOLTA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = BUF
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# NIG — STATE_OUTER_HAUSALAND
+	if = {
+		limit = {
+			NOT = { exists = c:NIG }
+			any_scope_state = {
+				state_region = s:STATE_OUTER_HAUSALAND
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_OUTER_HAUSALAND
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = NIG
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# CPV — STATE_CAPE_VERDE
+	if = {
+		limit = {
+			NOT = { exists = c:CPV }
+			any_scope_state = {
+				state_region = s:STATE_CAPE_VERDE
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_CAPE_VERDE
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = CPV
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# BIA — STATE_YORUBA_STATES
+	if = {
+		limit = {
+			NOT = { exists = c:BIA }
+			any_scope_state = {
+				state_region = s:STATE_YORUBA_STATES
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_YORUBA_STATES
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = BIA
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# YOR — STATE_YORUBA_STATES
+	if = {
+		limit = {
+			NOT = { exists = c:YOR }
+			any_scope_state = {
+				state_region = s:STATE_YORUBA_STATES
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_YORUBA_STATES
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = YOR
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# CME — STATE_SENEGAL
+	if = {
+		limit = {
+			NOT = { exists = c:CME }
+			any_scope_state = {
+				state_region = s:STATE_SENEGAL
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SENEGAL
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = CME
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# MSF — STATE_WESTERN_MALI
+	if = {
+		limit = {
+			NOT = { exists = c:MSF }
+			any_scope_state = {
+				state_region = s:STATE_WESTERN_MALI
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_WESTERN_MALI
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = MSF
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# FCG — STATE_BAS_CONGO
+	if = {
+		limit = {
+			NOT = { exists = c:FCG }
+			any_scope_state = {
+				state_region = s:STATE_BAS_CONGO
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_BAS_CONGO
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = FCG
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# ANG — STATE_NORTH_ANGOLA
+	if = {
+		limit = {
+			NOT = { exists = c:ANG }
+			any_scope_state = {
+				state_region = s:STATE_NORTH_ANGOLA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_NORTH_ANGOLA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = ANG
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# CBA — STATE_CONGO
+	if = {
+		limit = {
+			NOT = { exists = c:CBA }
+			any_scope_state = {
+				state_region = s:STATE_CONGO
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_CONGO
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = CBA
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# GAB — STATE_GABON
+	if = {
+		limit = {
+			NOT = { exists = c:GAB }
+			any_scope_state = {
+				state_region = s:STATE_GABON
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_GABON
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = GAB
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# CMR — STATE_SOUTH_CAMEROON
+	if = {
+		limit = {
+			NOT = { exists = c:CMR }
+			any_scope_state = {
+				state_region = s:STATE_SOUTH_CAMEROON
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SOUTH_CAMEROON
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = CMR
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# CAR — STATE_UBANGI_SHARI
+	if = {
+		limit = {
+			NOT = { exists = c:CAR }
+			any_scope_state = {
+				state_region = s:STATE_UBANGI_SHARI
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_UBANGI_SHARI
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = CAR
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# CHA — STATE_WADDAI
+	if = {
+		limit = {
+			NOT = { exists = c:CHA }
+			any_scope_state = {
+				state_region = s:STATE_WADDAI
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_WADDAI
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = CHA
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# EQG — STATE_GABON
+	if = {
+		limit = {
+			NOT = { exists = c:EQG }
+			any_scope_state = {
+				state_region = s:STATE_GABON
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_GABON
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = EQG
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# STP — STATE_NORTH_ANGOLA
+	if = {
+		limit = {
+			NOT = { exists = c:STP }
+			any_scope_state = {
+				state_region = s:STATE_NORTH_ANGOLA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_NORTH_ANGOLA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = STP
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# KAT — STATE_KATANGA
+	if = {
+		limit = {
+			NOT = { exists = c:KAT }
+			any_scope_state = {
+				state_region = s:STATE_KATANGA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_KATANGA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = KAT
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SKA — STATE_KASAI
+	if = {
+		limit = {
+			NOT = { exists = c:SKA }
+			any_scope_state = {
+				state_region = s:STATE_KASAI
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_KASAI
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SKA
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# AMB — STATE_SOUTH_CAMEROON
+	if = {
+		limit = {
+			NOT = { exists = c:AMB }
+			any_scope_state = {
+				state_region = s:STATE_SOUTH_CAMEROON
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SOUTH_CAMEROON
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = AMB
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# AEF — STATE_UBANGI_SHARI
+	if = {
+		limit = {
+			NOT = { exists = c:AEF }
+			any_scope_state = {
+				state_region = s:STATE_UBANGI_SHARI
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_UBANGI_SHARI
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = AEF
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SML — STATE_SOMALILAND
+	if = {
+		limit = {
+			NOT = { exists = c:SML }
+			any_scope_state = {
+				state_region = s:STATE_SOMALILAND
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SOMALILAND
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SML
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# KEN — STATE_RIFT_VALLEY
+	if = {
+		limit = {
+			NOT = { exists = c:KEN }
+			any_scope_state = {
+				state_region = s:STATE_RIFT_VALLEY
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_RIFT_VALLEY
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = KEN
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# TAN — STATE_TANGANYIKA
+	if = {
+		limit = {
+			NOT = { exists = c:TAN }
+			any_scope_state = {
+				state_region = s:STATE_TANGANYIKA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TANGANYIKA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = TAN
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# TGY — STATE_TANGANYIKA
+	if = {
+		limit = {
+			NOT = { exists = c:TGY }
+			any_scope_state = {
+				state_region = s:STATE_TANGANYIKA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TANGANYIKA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = TGY
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# UGA — STATE_UGANDA
+	if = {
+		limit = {
+			NOT = { exists = c:UGA }
+			any_scope_state = {
+				state_region = s:STATE_UGANDA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_UGANDA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = UGA
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# BUG — STATE_UGANDA
+	if = {
+		limit = {
+			NOT = { exists = c:BUG }
+			any_scope_state = {
+				state_region = s:STATE_UGANDA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_UGANDA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = BUG
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# RWA — STATE_TANGANYIKA
+	if = {
+		limit = {
+			NOT = { exists = c:RWA }
+			any_scope_state = {
+				state_region = s:STATE_TANGANYIKA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TANGANYIKA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = RWA
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# BRD — STATE_TANGANYIKA
+	if = {
+		limit = {
+			NOT = { exists = c:BRD }
+			any_scope_state = {
+				state_region = s:STATE_TANGANYIKA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TANGANYIKA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = BRD
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# RBK — STATE_TANGANYIKA
+	if = {
+		limit = {
+			NOT = { exists = c:RBK }
+			any_scope_state = {
+				state_region = s:STATE_TANGANYIKA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TANGANYIKA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = RBK
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# RSA — STATE_CAPE_COLONY
+	if = {
+		limit = {
+			NOT = { exists = c:RSA }
+			any_scope_state = {
+				state_region = s:STATE_CAPE_COLONY
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_CAPE_COLONY
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = RSA
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# NMB — STATE_NAMAQUALAND
+	if = {
+		limit = {
+			NOT = { exists = c:NMB }
+			any_scope_state = {
+				state_region = s:STATE_NAMAQUALAND
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_NAMAQUALAND
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = NMB
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# BOT — STATE_BOTSWANA
+	if = {
+		limit = {
+			NOT = { exists = c:BOT }
+			any_scope_state = {
+				state_region = s:STATE_BOTSWANA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_BOTSWANA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = BOT
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# ZIM — STATE_ZAMBEZIA
+	if = {
+		limit = {
+			NOT = { exists = c:ZIM }
+			any_scope_state = {
+				state_region = s:STATE_ZAMBEZIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_ZAMBEZIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = ZIM
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# ZAM — STATE_ZAMBIA
+	if = {
+		limit = {
+			NOT = { exists = c:ZAM }
+			any_scope_state = {
+				state_region = s:STATE_ZAMBIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_ZAMBIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = ZAM
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# MLW — STATE_KAZEMBE
+	if = {
+		limit = {
+			NOT = { exists = c:MLW }
+			any_scope_state = {
+				state_region = s:STATE_KAZEMBE
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_KAZEMBE
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = MLW
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# MOZ — STATE_LOURENCO_MARQUES
+	if = {
+		limit = {
+			NOT = { exists = c:MOZ }
+			any_scope_state = {
+				state_region = s:STATE_LOURENCO_MARQUES
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_LOURENCO_MARQUES
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = MOZ
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# ZAR — STATE_ZAMBEZIA
+	if = {
+		limit = {
+			NOT = { exists = c:ZAR }
+			any_scope_state = {
+				state_region = s:STATE_ZAMBEZIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_ZAMBEZIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = ZAR
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# CAF — STATE_ZAMBEZIA
+	if = {
+		limit = {
+			NOT = { exists = c:CAF }
+			any_scope_state = {
+				state_region = s:STATE_ZAMBEZIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_ZAMBEZIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = CAF
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# BNG — STATE_EAST_BENGAL
+	if = {
+		limit = {
+			NOT = { exists = c:BNG }
+			any_scope_state = {
+				state_region = s:STATE_EAST_BENGAL
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_EAST_BENGAL
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = BNG
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# CHI — STATE_BEIJING
+	if = {
+		limit = {
+			NOT = { exists = c:CHI }
+			any_scope_state = {
+				state_region = s:STATE_BEIJING
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_BEIJING
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = CHI
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# KRN — STATE_PEGU
+	if = {
+		limit = {
+			NOT = { exists = c:KRN }
+			any_scope_state = {
+				state_region = s:STATE_PEGU
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_PEGU
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = KRN
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# KHN — STATE_KACHIN
+	if = {
+		limit = {
+			NOT = { exists = c:KHN }
+			any_scope_state = {
+				state_region = s:STATE_KACHIN
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_KACHIN
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = KHN
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SHS — STATE_SHAN_STATES
+	if = {
+		limit = {
+			NOT = { exists = c:SHS }
+			any_scope_state = {
+				state_region = s:STATE_SHAN_STATES
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SHAN_STATES
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SHS
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# HTH — STATE_PEGU
+	if = {
+		limit = {
+			NOT = { exists = c:HTH }
+			any_scope_state = {
+				state_region = s:STATE_PEGU
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_PEGU
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = HTH
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# MSY — STATE_MALAYA
+	if = {
+		limit = {
+			NOT = { exists = c:MSY }
+			any_scope_state = {
+				state_region = s:STATE_MALAYA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_MALAYA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = MSY
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# CMY — STATE_MALAYA
+	if = {
+		limit = {
+			NOT = { exists = c:CMY }
+			any_scope_state = {
+				state_region = s:STATE_MALAYA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_MALAYA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = CMY
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SAB — STATE_NORTH_BORNEO
+	if = {
+		limit = {
+			NOT = { exists = c:SAB }
+			any_scope_state = {
+				state_region = s:STATE_NORTH_BORNEO
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_NORTH_BORNEO
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SAB
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SWK — STATE_NORTH_BORNEO
+	if = {
+		limit = {
+			NOT = { exists = c:SWK }
+			any_scope_state = {
+				state_region = s:STATE_NORTH_BORNEO
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_NORTH_BORNEO
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SWK
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# KLM — STATE_WEST_BORNEO
+	if = {
+		limit = {
+			NOT = { exists = c:KLM }
+			any_scope_state = {
+				state_region = s:STATE_WEST_BORNEO
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_WEST_BORNEO
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = KLM
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# ACE — STATE_ACEH
+	if = {
+		limit = {
+			NOT = { exists = c:ACE }
+			any_scope_state = {
+				state_region = s:STATE_ACEH
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_ACEH
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = ACE
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SAK — STATE_NORTH_SUMATRA
+	if = {
+		limit = {
+			NOT = { exists = c:SAK }
+			any_scope_state = {
+				state_region = s:STATE_NORTH_SUMATRA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_NORTH_SUMATRA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SAK
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# JAV — STATE_WEST_JAVA
+	if = {
+		limit = {
+			NOT = { exists = c:JAV }
+			any_scope_state = {
+				state_region = s:STATE_WEST_JAVA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_WEST_JAVA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = JAV
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# BAL — STATE_SUNDA_ISLANDS
+	if = {
+		limit = {
+			NOT = { exists = c:BAL }
+			any_scope_state = {
+				state_region = s:STATE_SUNDA_ISLANDS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SUNDA_ISLANDS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = BAL
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SMK — STATE_MOLUCCAS
+	if = {
+		limit = {
+			NOT = { exists = c:SMK }
+			any_scope_state = {
+				state_region = s:STATE_MOLUCCAS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_MOLUCCAS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SMK
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# WPA — STATE_WESTERN_NEW_GUINEA
+	if = {
+		limit = {
+			NOT = { exists = c:WPA }
+			any_scope_state = {
+				state_region = s:STATE_WESTERN_NEW_GUINEA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_WESTERN_NEW_GUINEA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = WPA
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# AOT — STATE_NORTH_ISLAND
+	if = {
+		limit = {
+			NOT = { exists = c:AOT }
+			any_scope_state = {
+				state_region = s:STATE_NORTH_ISLAND
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_NORTH_ISLAND
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = AOT
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# PNG — STATE_EASTERN_NEW_GUINEA
+	if = {
+		limit = {
+			NOT = { exists = c:PNG }
+			any_scope_state = {
+				state_region = s:STATE_EASTERN_NEW_GUINEA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_EASTERN_NEW_GUINEA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = PNG
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SOL — STATE_SOLOMON_ISLANDS
+	if = {
+		limit = {
+			NOT = { exists = c:SOL }
+			any_scope_state = {
+				state_region = s:STATE_SOLOMON_ISLANDS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SOLOMON_ISLANDS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SOL
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# NAU — STATE_NAURU
+	if = {
+		limit = {
+			NOT = { exists = c:NAU }
+			any_scope_state = {
+				state_region = s:STATE_NAURU
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_NAURU
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = NAU
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# PAU — STATE_WEST_MICRONESIA
+	if = {
+		limit = {
+			NOT = { exists = c:PAU }
+			any_scope_state = {
+				state_region = s:STATE_WEST_MICRONESIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_WEST_MICRONESIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = PAU
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# NMI — STATE_EAST_MICRONESIA
+	if = {
+		limit = {
+			NOT = { exists = c:NMI }
+			any_scope_state = {
+				state_region = s:STATE_EAST_MICRONESIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_EAST_MICRONESIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = NMI
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# MIC — STATE_EAST_MICRONESIA
+	if = {
+		limit = {
+			NOT = { exists = c:MIC }
+			any_scope_state = {
+				state_region = s:STATE_EAST_MICRONESIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_EAST_MICRONESIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = MIC
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# MAR — STATE_EAST_MICRONESIA
+	if = {
+		limit = {
+			NOT = { exists = c:MAR }
+			any_scope_state = {
+				state_region = s:STATE_EAST_MICRONESIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_EAST_MICRONESIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = MAR
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# TVU — STATE_SUNDA_ISLANDS
+	if = {
+		limit = {
+			NOT = { exists = c:TVU }
+			any_scope_state = {
+				state_region = s:STATE_SUNDA_ISLANDS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SUNDA_ISLANDS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = TVU
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# NCD — STATE_KANAK
+	if = {
+		limit = {
+			NOT = { exists = c:NCD }
+			any_scope_state = {
+				state_region = s:STATE_KANAK
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_KANAK
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = NCD
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# FIJ — STATE_FIJI
+	if = {
+		limit = {
+			NOT = { exists = c:FIJ }
+			any_scope_state = {
+				state_region = s:STATE_FIJI
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_FIJI
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = FIJ
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# WAF — STATE_SUNDA_ISLANDS
+	if = {
+		limit = {
+			NOT = { exists = c:WAF }
+			any_scope_state = {
+				state_region = s:STATE_SUNDA_ISLANDS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SUNDA_ISLANDS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = WAF
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# KIR — STATE_EAST_MICRONESIA
+	if = {
+		limit = {
+			NOT = { exists = c:KIR }
+			any_scope_state = {
+				state_region = s:STATE_EAST_MICRONESIA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_EAST_MICRONESIA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = KIR
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# SAM — STATE_TONGA
+	if = {
+		limit = {
+			NOT = { exists = c:SAM }
+			any_scope_state = {
+				state_region = s:STATE_TONGA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TONGA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = SAM
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# ESM — STATE_TONGA
+	if = {
+		limit = {
+			NOT = { exists = c:ESM }
+			any_scope_state = {
+				state_region = s:STATE_TONGA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TONGA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = ESM
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# NIU — STATE_SUNDA_ISLANDS
+	if = {
+		limit = {
+			NOT = { exists = c:NIU }
+			any_scope_state = {
+				state_region = s:STATE_SUNDA_ISLANDS
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_SUNDA_ISLANDS
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = NIU
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# COI — STATE_TAHITI
+	if = {
+		limit = {
+			NOT = { exists = c:COI }
+			any_scope_state = {
+				state_region = s:STATE_TAHITI
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TAHITI
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = COI
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# TKE — STATE_TONGA
+	if = {
+		limit = {
+			NOT = { exists = c:TKE }
+			any_scope_state = {
+				state_region = s:STATE_TONGA
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TONGA
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = TKE
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# PYI — STATE_TAHITI
+	if = {
+		limit = {
+			NOT = { exists = c:PYI }
+			any_scope_state = {
+				state_region = s:STATE_TAHITI
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_TAHITI
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = PYI
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+
+	# BOU — STATE_BOUGAINVILLE
+	if = {
+		limit = {
+			NOT = { exists = c:BOU }
+			any_scope_state = {
+				state_region = s:STATE_BOUGAINVILLE
+			}
+		}
+		random_scope_state = {
+			limit = {
+				state_region = s:STATE_BOUGAINVILLE
+			}
+			save_scope_as = modern_superstate_debug_seed_state
+		}
+		create_country = {
+			tag = BOU
+			origin = ROOT
+			state = scope:modern_superstate_debug_seed_state
+		}
+		clear_saved_scope = modern_superstate_debug_seed_state
+	}
+}

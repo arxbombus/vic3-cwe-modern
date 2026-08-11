@@ -1,0 +1,371 @@
+version = 1
+
+# This manifest is the single source of truth for the private, direct-formable
+# superstates. Country tags listed in members are annexed whole. Territory tags
+# are used only to derive the canonical state list for country formation.
+
+[[superstate]]
+tag = "ZGC"
+name = "United States of Great Columbia"
+adjective = "Great Columbian"
+founders = ["USA"]
+definition_founder = "USA"
+history_files = ["north_american_states.txt", "pacific_states.txt"]
+territory_tags = ["USA", "CAN", "LSK", "HAW", "NFL", "QUE"]
+members = ["CAN", "LSK", "HAW", "NFL", "QUE", "CSC", "EUS", "WUS", "CUS", "SUS", "ASA", "TEX"]
+exclude_states = ["STATE_EAST_MICRONESIA", "STATE_WEST_MICRONESIA", "STATE_TONGA"]
+flag_script = '''
+	@usa_canton_width = 0.5
+	@usa_canton_height = @[ 1 / 13 * 7 ]
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_stripes_13.dds"
+		color1 = "red"
+		color2 = "red"
+	}
+	sub = {
+		parent = "sub_USA_canton_24"
+		instance = { scale = { @usa_canton_width @usa_canton_height } } # top left
+	}
+	colored_emblem = {
+		texture = "ce_eagle_usa_simple.dds"
+		color1 = "yellow"
+		color2 = "white"
+		instance = { scale = { 0.75 0.75 } position = { 0.75 0.5 } }
+	}
+'''
+
+[[superstate]]
+tag = "ZAH"
+name = "Grand Anáhuac"
+adjective = "Anáhuacan"
+founders = ["MEX"]
+definition_founder = "MEX"
+history_files = ["north_american_states.txt", "central_american_states.txt"]
+territory_tags = ["MEX", "GUA", "BLZ", "HON", "ELS", "NIC", "COS", "PNM"]
+members = ["GUA", "BLZ", "HON", "ELS", "NIC", "COS", "PNM", "ZAP"]
+flag_pattern = "pattern_solid.tga"
+flag_colors = [[0, 104, 71], [246, 242, 224], [190, 32, 45]]
+flag_layers = [
+  { kind = "colored", texture = "ce_tricolor_vertical.dds", colors = ["color2", "color3"] },
+  { kind = "textured", texture = "te_coa_mexico.dds", scale = [0.44, 0.44] },
+]
+
+[[superstate]]
+tag = "ZBV"
+name = "Grand Bolivarian Republic"
+adjective = "Bolivarian"
+founders = ["CLM"]
+definition_founder = "CLM"
+history_files = ["latin_american.txt"]
+territory_tags = ["CLM", "VNZ", "ECU", "PEU", "BOL", "GUY", "SUR", "FGY"]
+members = ["VNZ", "ECU", "PEU", "BOL", "GUY", "SUR", "FGY"]
+exclude_states = ["STATE_JUJUY"]
+flag_pattern = "pattern_solid.tga"
+flag_colors = [[247, 205, 48], [27, 72, 139], [184, 35, 48]]
+flag_layers = [
+  { kind = "colored", texture = "ce_tricolor_horizontal.dds", colors = ["color2", "color3"] },
+  { kind = "colored", texture = "ce_sun.dds", colors = ["color1", "color3"], scale = [0.31, 0.31] },
+]
+
+[[superstate]]
+tag = "ZAU"
+name = "Austral Concord"
+adjective = "Australis"
+founders = ["BRZ"]
+definition_founder = "BRZ"
+history_files = ["latin_american.txt"]
+territory_tags = ["BRZ", "ARG", "CHL", "PRG", "URU", "FLK"]
+members = ["ARG", "CHL", "PRG", "URU", "FLK"]
+flag_pattern = "pattern_rhombus.dds"
+flag_colors = [[12, 53, 76], [219, 174, 67], [244, 245, 240]]
+flag_layers = [
+  { kind = "colored", texture = "ce_southern_cross_variant.dds", colors = ["color3", "color2"], scale = [0.56, 0.56] },
+]
+
+[[superstate]]
+tag = "ZGR"
+name = "Mitteleuropa"
+adjective = "Mitteleuropean"
+founders = ["GER"]
+definition_founder = "GER"
+history_files = ["german_states.txt", "european_states.txt", "soviet_states.txt"]
+territory_tags = ["GER", "WGR", "EGR", "FCB", "SAR", "AUS", "POL", "CZH", "BOH", "SLV", "HUN", "EST", "LAT", "LIT", "BYE", "UKR"]
+members = ["AUS", "POL", "CZH", "BOH", "SLV", "HUN", "EST", "LAT", "LIT", "BYE", "UKR"]
+exclude_states = ["STATE_ALSACE_LORRAINE", "STATE_SOUTH_TYROL", "STATE_BESSARABIA", "STATE_ROSTOV", "STATE_BANAT", "STATE_BEKES", "STATE_BUKOVINA", "STATE_DELVIDEK", "STATE_NORTHERN_TRANSYLVANIA", "STATE_SOUTHERN_TRANSYLVANIA"]
+flag_pattern = "pattern_solid.tga"
+flag_colors = [[24, 22, 23], [174, 37, 45], [222, 174, 56]]
+flag_layers = [
+  { kind = "colored", texture = "ce_tricolor_horizontal.dds", colors = ["color2", "color3"] },
+  { kind = "colored", texture = "ce_circle.dds", colors = ["color3", "color3"], scale = [0.45, 0.45] },
+  { kind = "colored", texture = "ce_eagle_prussia.dds", colors = ["color1", "color3"], scale = [0.32, 0.32] },
+]
+
+[[superstate]]
+tag = "ZBK"
+name = "Rumelia"
+adjective = "Rumelian"
+founders = ["TUR"]
+definition_founder = "TUR"
+history_files = ["european_states.txt", "middle_east_states.txt"]
+territory_tags = ["TUR", "YUG", "SLO", "CRO", "BOS", "RSK", "HZB", "MON", "SER", "KOS", "MCD", "ROM", "BUL", "GRE", "UGR", "ALB", "CYP", "ECY", "TRE"]
+members = ["YUG", "SLO", "CRO", "BOS", "RSK", "HZB", "MON", "SER", "KOS", "MCD", "ROM", "BUL", "GRE", "UGR", "ALB", "CYP", "ECY", "TRE"]
+exclude_states = ["STATE_ALEPPO", "STATE_MOSUL", "STATE_TRANSDANUBIA"]
+flag_pattern = "pattern_solid.tga"
+flag_colors = [[28, 52, 105], [183, 36, 49], [239, 190, 58]]
+flag_layers = [
+  { kind = "colored", texture = "ce_tricolor_horizontal.dds", colors = ["color2", "color1"] },
+  { kind = "colored", texture = "ce_sun.dds", colors = ["color3", "color2"], scale = [0.30, 0.30] },
+  { kind = "colored", texture = "ce_star_08.dds", colors = ["color3", "color1"], scale = [0.14, 0.14] },
+]
+
+[[superstate]]
+tag = "ZOC"
+name = "The Western Accord"
+adjective = "Western Accordian"
+founders = ["FRA", "GBR"]
+definition_founder = "FRA"
+history_files = ["european_states.txt"]
+territory_tags = ["FRA", "GBR", "SIR", "ITA", "SPA", "POR", "BEL", "NET", "LUX", "SWI", "MLT"]
+members = ["GBR", "SIR", "ITA", "SPA", "POR", "BEL", "NET", "LUX", "SWI", "MLT"]
+exclude_states = ["STATE_CYPRUS", "STATE_ISTRIA"]
+flag_pattern = "pattern_border_double.dds"
+flag_colors = [[24, 50, 105], [218, 177, 70], [242, 239, 225]]
+flag_layers = [
+  { kind = "colored", texture = "ce_stars_circle_13.dds", colors = ["color2", "color1"], scale = [0.56, 0.56] },
+  { kind = "colored", texture = "ce_sun_radiant.dds", colors = ["color3", "color2"], scale = [0.18, 0.18] },
+]
+
+[[superstate]]
+tag = "ZKA"
+name = "New Kalmar Union"
+adjective = "Kalmar"
+founders = ["SWE"]
+definition_founder = "SWE"
+history_files = ["european_states.txt"]
+territory_tags = ["SWE", "DEN", "NOR", "FIN", "ICL", "ALA", "FAR"]
+members = ["DEN", "NOR", "FIN", "ICL", "ALA", "FAR"]
+flag_pattern = "pattern_solid.tga"
+flag_colors = [[147, 31, 43], [225, 177, 52], [24, 49, 91]]
+flag_layers = [
+  { kind = "colored", texture = "ce_cross_norway.dds", colors = ["color2", "color3"] },
+]
+
+[[superstate]]
+tag = "ZUN"
+name = "The Union"
+adjective = "Union"
+founders = ["SOV"]
+definition_founder = "SOV"
+history_files = ["soviet_states.txt"]
+territory_tags = ["SOV", "RUS", "MOL", "GEO", "ARM", "AZB", "KAZ", "UZB", "TKM", "KYR", "TAJ"]
+members = ["RUS", "MOL", "GEO", "ARM", "AZB", "KAZ", "UZB", "TKM", "KYR", "TAJ"]
+subtract = ["ZGR"]
+flag_pattern = "pattern_solid.tga"
+flag_colors = [[241, 239, 228], [255, 255, 255], [167, 39, 51]]
+flag_layers = [
+  { kind = "colored", texture = "ce_tricolor_horizontal.dds", colors = ["color2", "color3"] },
+  { kind = "colored", texture = "ce_stars_circle_06.dds", colors = ["yellow", "color3"], scale = [0.48, 0.48] },
+  { kind = "colored", texture = "ce_star_08.dds", colors = ["color1", "color2"], scale = [0.17, 0.17] },
+]
+
+[[superstate]]
+tag = "ZAB"
+name = "United Arab Kingdoms"
+adjective = "Arabian"
+founders = ["NEJ"]
+definition_founder = "NEJ"
+history_files = ["middle_east_states.txt", "african_states.txt", "01_new_states.txt"]
+territory_tags = ["NEJ", "FAE", "UAE", "BHR", "QAT", "KUW", "OMA", "YEM", "NYE", "SYE", "JOR", "SYR", "LEB", "PAL", "GZA", "EGY", "SUD", "LBY", "TRI", "FEZ", "CYR", "TUN", "ALG", "FAG", "MOR", "TGZ", "WSA", "MAU"]
+members = ["FAE", "UAE", "BHR", "QAT", "KUW", "OMA", "YEM", "NYE", "SYE", "JOR", "SYR", "LEB", "PAL", "GZA", "EGY", "SUD", "LBY", "TRI", "FEZ", "CYR", "TUN", "ALG", "FAG", "MOR", "TGZ", "WSA", "MAU", "UAR"]
+exclude_states = ["STATE_BASRA"]
+flag_script = '''
+  pattern = "pattern_solid.tga"
+  color1 = "green"
+
+  textured_emblem = {
+    texture = "te_coa_saudi_emblem.dds"
+    instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+  }
+'''
+
+[[superstate]]
+tag = "ZER"
+name = "Covenant of Eran"
+adjective = "Eranshahri"
+founders = ["PER"]
+definition_founder = "PER"
+history_files = ["middle_east_states.txt", "asian_states.txt"]
+territory_tags = ["PER", "AFG", "IRQ"]
+members = ["AFG", "IRQ"]
+exclude_states = ["STATE_ABU_DHABI", "STATE_DEIR_EZ_ZOR", "STATE_HAIL"]
+flag_pattern = "pattern_solid.tga"
+flag_colors = [[31, 112, 71], [244, 241, 226], [174, 38, 47]]
+flag_layers = [
+  { kind = "colored", texture = "ce_tricolor_horizontal.dds", colors = ["color2", "color3"] },
+  { kind = "colored", texture = "ce_sun.dds", colors = ["yellow", "orange"], scale = [0.31, 0.31] },
+  { kind = "colored", texture = "ce_lion_persia.dds", colors = ["yellow", "orange", "color2"], scale = [0.48, 0.48] },
+]
+
+[[superstate]]
+tag = "ZGN"
+name = "West African Compact"
+adjective = "West African"
+founders = ["NGE"]
+definition_founder = "NGE"
+history_files = ["african_states.txt"]
+territory_tags = ["NGE", "BEN", "TOG", "GHA", "IVC", "LIB", "SIL", "GUI", "GNB", "GAM", "SEN", "MAL", "BUF", "NIG", "CPV"]
+members = ["BEN", "TOG", "GHA", "IVC", "LIB", "SIL", "GUI", "GNB", "GAM", "SEN", "MAL", "BUF", "NIG", "CPV", "BIA", "YOR", "CME", "MSF"]
+flag_pattern = "pattern_solid.tga"
+flag_colors = [[31, 116, 72], [226, 178, 48], [177, 38, 49]]
+flag_layers = [
+  { kind = "colored", texture = "ce_tricolor_vertical.dds", colors = ["color2", "color3"] },
+  { kind = "colored", texture = "ce_ashanti_golden_stool.dds", colors = ["black", "color2", "color3"], scale = [0.29, 0.29] },
+]
+
+[[superstate]]
+tag = "ZKG"
+name = "Greater Kongo"
+adjective = "Kongolese"
+founders = ["CNG"]
+definition_founder = "CNG"
+history_files = ["african_states.txt"]
+territory_tags = ["CNG", "FCG", "ANG", "CBA", "GAB", "CMR", "CAR", "CHA", "EQG", "STP"]
+members = ["FCG", "ANG", "CBA", "GAB", "CMR", "CAR", "CHA", "EQG", "STP", "KAT", "SKA", "AMB", "AEF"]
+flag_script = '''
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "white"
+	color3 = "black"
+
+	colored_emblem = {
+		texture = "ce_saltire_fimbriated_02.dds"
+		color1 = color3
+		color2 = color2
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_sun.dds"
+		color1 = color3
+		color2 = color1
+		instance = { scale = { 0.28 0.28 } position = { 0.5 0.5 } }
+	}
+'''
+
+[[superstate]]
+tag = "ZAZ"
+name = "Azania"
+adjective = "Azanian"
+founders = ["ETH"]
+definition_founder = "ETH"
+history_files = ["african_states.txt"]
+territory_tags = ["ETH", "SOM", "SML", "KEN", "TAN", "UGA", "RWA", "BRD", "RBK"]
+members = ["SOM", "SML", "KEN", "TAN", "TGY", "ZAN", "UGA", "BUG", "RWA", "BRD", "RBK"]
+flag_pattern = "pattern_solid.tga"
+flag_colors = [[41, 139, 143], [28, 27, 25], [45, 121, 68]]
+flag_layers = [
+  { kind = "colored", texture = "ce_tricolor_horizontal.dds", colors = ["color2", "color3"] },
+  { kind = "colored", texture = "ce_sun.dds", colors = ["yellow", "color1"], scale = [0.32, 0.32] },
+  { kind = "colored", texture = "ce_buffalo.dds", colors = ["color2", "color2"], scale = [0.18, 0.18] },
+]
+
+[[superstate]]
+tag = "ZMZ"
+name = "Mzansi"
+adjective = "Mzansian"
+founders = ["SAF"]
+definition_founder = "SAF"
+history_files = ["african_states.txt"]
+territory_tags = ["SAF", "RSA", "NMB", "BOT", "ZIM", "RHO", "ZAM", "MLW", "MOZ", "LES", "ESW"]
+members = ["RSA", "NMB", "BOT", "ZIM", "RHO", "ZAM", "MLW", "MOZ", "LES", "ESW", "ZAR", "CAF"]
+flag_pattern = "pattern_per_saltire.dds"
+flag_colors = [[25, 101, 70], [223, 176, 55], [27, 27, 25]]
+flag_layers = [
+  { kind = "colored", texture = "ce_circle.dds", colors = ["color3", "color3"], scale = [0.46, 0.46] },
+  { kind = "colored", texture = "ce_coa_saf_tree.dds", colors = ["color2", "color2"], scale = [0.32, 0.32] },
+]
+
+[[superstate]]
+tag = "ZBT"
+name = "Bharat Mandal"
+adjective = "Bharatiya"
+founders = ["HND"]
+definition_founder = "HND"
+history_files = ["asian_states.txt"]
+territory_tags = ["HND", "PAK", "BNG", "SRL"]
+members = ["PAK", "BNG", "SRL"]
+exclude_states = ["STATE_PEGU"]
+flag_pattern = "pattern_solid.tga"
+flag_colors = [[229, 126, 45], [246, 243, 229], [31, 119, 72]]
+flag_layers = [
+  { kind = "colored", texture = "ce_tricolor_horizontal.dds", colors = ["color2", "color3"] },
+  { kind = "colored", texture = "ce_dharmachakra_india.dds", colors = ["blue", "blue"], scale = [0.28, 0.28] },
+]
+
+[[superstate]]
+tag = "ZHH"
+name = "Eastern Harmonious Order"
+adjective = "Zhonghua"
+founders = ["PRC", "CHI"]
+definition_founder = "PRC"
+history_files = ["far_east_asian_states.txt", "asian_states.txt"]
+territory_tags = ["PRC", "CHI", "MGL", "NKO", "NVM"]
+members = ["PRC", "CHI", "MGL", "NKO", "NVM"]
+exclude_states = ["STATE_FORMOSA", "STATE_EAST_FORMOSA", "STATE_WEST_FORMOSA", "STATE_SOUTH_FORMOSA", "STATE_SOUTH_WEST_FORMOSA", "STATE_NORTH_CENTRAL_FORMOSA", "STATE_SOUTH_CENTRAL_FORMOSA", "STATE_ANNAM", "STATE_EASTERN_HIMALAYAS", "STATE_SEOUL"]
+flag_pattern = "pattern_solid.tga"
+flag_colors = [[172, 35, 43], [225, 177, 51], [245, 239, 215]]
+flag_layers = [
+  { kind = "colored", texture = "ce_frame_circle_roundel_triangles.dds", colors = ["color2", "color1", "color3"], scale = [0.58, 0.58] },
+  { kind = "colored", texture = "ce_dragon_china_circle.dds", colors = ["color2", "color3", "color1"], scale = [0.41, 0.41] },
+]
+
+[[superstate]]
+tag = "ZSV"
+name = "League of the Golden Lands"
+adjective = "Suvarnabhumian"
+founders = ["THI"]
+definition_founder = "THI"
+history_files = ["asian_states.txt"]
+territory_tags = ["THI", "BUR", "LAO", "CAM", "SVM"]
+members = ["BUR", "LAO", "CAM", "SVM", "KRN", "KHN", "SHS", "HTH"]
+flag_pattern = "pattern_border_of_3_decorated.dds"
+flag_colors = [[218, 167, 49], [139, 28, 50], [39, 44, 102]]
+flag_layers = [
+  { kind = "colored", texture = "ce_chakra_siam.dds", colors = ["color3", "white", "color1"], scale = [0.38, 0.38] },
+]
+
+[[superstate]]
+tag = "ZNS"
+name = "Nusantara"
+adjective = "Nusantaran"
+founders = ["IDO"]
+definition_founder = "IDO"
+history_files = ["southeast_asian_states.txt"]
+territory_tags = ["IDO", "MSY", "MLY", "CMY", "SAB", "SWK", "KLM", "DYK", "ACE", "YOG", "SAK", "JAV", "BAL", "EID", "SMK", "WPA"]
+members = ["MSY", "MLY", "CMY", "SAB", "SWK", "KLM", "DYK", "ACE", "YOG", "SAK", "JAV", "BAL", "EID", "SMK", "WPA"]
+flag_pattern = "pattern_solid.tga"
+flag_colors = [[179, 36, 47], [245, 241, 225], [25, 54, 91]]
+flag_layers = [
+  { kind = "colored", texture = "ce_tricolor_horizontal.dds", colors = ["color2", "color3"] },
+  { kind = "colored", texture = "ce_crossed_kris_daggers_mataram.dds", colors = ["yellow", "color3", "color1"], scale = [0.40, 0.40] },
+]
+
+[[superstate]]
+tag = "ZOE"
+name = "Pacific Commonwealth"
+adjective = "Pacifican"
+founders = ["AST"]
+definition_founder = "AST"
+history_files = ["southeast_asian_states.txt", "pacific_states.txt"]
+territory_tags = ["AST", "NZL", "AOT", "PNG", "SOL", "VAN", "NAU", "PAU", "NMI", "MIC", "MAR", "TVU", "NCD", "FIJ", "WAF", "KIR", "SAM", "ESM", "TON", "NIU", "COI", "TKE", "PYI", "BOU"]
+members = ["NZL", "AOT", "PNG", "SOL", "VAN", "NAU", "PAU", "NMI", "MIC", "MAR", "TVU", "NCD", "FIJ", "WAF", "KIR", "SAM", "ESM", "TON", "NIU", "COI", "TKE", "PYI", "BOU"]
+flag_pattern = "pattern_solid.tga"
+flag_colors = [[16, 53, 91], [47, 154, 166], [244, 242, 228]]
+flag_layers = [
+  { kind = "colored", texture = "ce_waves.dds", colors = ["color2", "color3"], scale = [1.0, 1.0], position = [0.5, 0.78] },
+  { kind = "colored", texture = "ce_southern_cross_variant.dds", colors = ["color3", "color2"], scale = [0.54, 0.54], position = [0.58, 0.39] },
+]

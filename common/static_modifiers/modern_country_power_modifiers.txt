@@ -840,7 +840,7 @@ modern_country_power_turkey = {
 	country_bureaucracy_mult = 0.2125
 	country_authority_mult = 0.2125
 	state_standard_of_living_add = 2.125
-	state_birth_rate_mult = 0.0531
+	state_birth_rate_mult = 0.5
 	state_education_access_add = 0.0708
 	state_literacy_growth_add = 0.1417
 	state_infrastructure_mult = 0.0531
@@ -2619,7 +2619,7 @@ modern_country_power_sweden = {
 	country_bureaucracy_mult = 0.1625
 	country_authority_mult = 0.1625
 	state_standard_of_living_add = 1.625
-	state_birth_rate_mult = 0.0406
+	state_birth_rate_mult = 1
 	state_education_access_add = 0.0542
 	state_literacy_growth_add = 0.1083
 	state_infrastructure_mult = 0.0406
@@ -3065,3 +3065,1070 @@ modern_country_power_romania = {
 	building_textile_mill_throughput_add = 0.152
 	building_steel_factory_throughput_add = 0.152
 }
+
+# BEGIN GENERATED MODERN SUPERSTATE POWER MODIFIERS
+### United States of Great Columbia | strongest=United States | rank=1 | score=96
+modern_country_power_zgc = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+	# Universal national chassis copied from United States
+	building_throughput_add = 0.6
+	building_goods_input_mult = 0.48
+	building_economy_of_scale_level_cap_add = 24
+	country_construction_add = 45
+	country_max_companies_add = 8
+	country_company_throughput_bonus_add = 0.2
+	country_company_construction_efficiency_bonus_add = 0.1
+	country_tech_spread_mult = 0.1
+	country_weekly_innovation_max_add = 100
+	country_influence_mult = 0.24
+	country_bureaucracy_mult = 0.3
+	country_authority_mult = 0.3
+	state_standard_of_living_add = 3
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.1
+	state_literacy_growth_add = 0.2
+	state_infrastructure_mult = 0.075
+	state_tax_capacity_mult = 0.1
+	state_tax_collection_mult = 0.05
+
+	# All constituent specializations; strongest value retained per modifier
+	building_advanced_weaponry_factory_throughput_add = 0.96
+	building_aeroplanes_factory_throughput_add = 0.96
+	building_ammunition_factory_throughput_add = 0.384
+	building_artillery_factory_throughput_add = 0.384
+	building_automobiles_factory_throughput_add = 0.672
+	building_circuit_boards_factory_throughput_add = 0.96
+	building_coal_mine_throughput_add = 0.518
+	building_communications_network_throughput_add = 0.384
+	building_computers_factory_throughput_add = 0.96
+	building_construction_sector_throughput_add = 0.384
+	building_consumer_robots_factory_throughput_add = 0.672
+	building_corporate_services_industry_throughput_add = 0.672
+	building_financial_services_sector_throughput_add = 0.96
+	building_gold_mine_throughput_add = 0.74
+	building_hydroelectric_power_plant_throughput_add = 0.74
+	building_industrial_chemicals_factory_throughput_add = 0.384
+	building_industrial_robots_factory_throughput_add = 0.96
+	building_iron_mine_throughput_add = 0.74
+	building_livestock_ranch_throughput_add = 0.296
+	building_logging_camp_throughput_add = 0.74
+	building_media_services_sector_throughput_add = 0.672
+	building_oil_rig_throughput_add = 0.74
+	building_pharmaceuticals_factory_throughput_add = 0.672
+	building_port_throughput_add = 0.518
+	building_professional_services_sector_throughput_add = 0.96
+	building_railway_throughput_add = 0.296
+	building_shipyard_throughput_add = 0.384
+	building_small_arms_factory_throughput_add = 0.384
+	building_software_industry_throughput_add = 0.96
+	building_steel_factory_throughput_add = 0.384
+	building_tanks_factory_throughput_add = 0.384
+	building_telecommunications_factory_throughput_add = 0.96
+	building_university_throughput_add = 0.672
+	building_warplanes_factory_throughput_add = 0.672
+	building_wheat_farm_throughput_add = 0.74
+}
+
+### Grand Anáhuac | strongest=Mexico | rank=14 | score=70
+modern_country_power_zah = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+	# Universal national chassis copied from Mexico
+	building_throughput_add = 0.4375
+	building_goods_input_mult = 0.35
+	building_economy_of_scale_level_cap_add = 17.5
+	country_construction_add = 32.813
+	country_max_companies_add = 6
+	country_company_throughput_bonus_add = 0.1458
+	country_company_construction_efficiency_bonus_add = 0.0729
+	country_tech_spread_mult = 0.0729
+	country_weekly_innovation_max_add = 73
+	country_influence_mult = 0.175
+	country_bureaucracy_mult = 0.2188
+	country_authority_mult = 0.2188
+	state_standard_of_living_add = 2.188
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0729
+	state_literacy_growth_add = 0.1458
+	state_infrastructure_mult = 0.0547
+	state_tax_capacity_mult = 0.0729
+	state_tax_collection_mult = 0.0365
+
+	# All constituent specializations; strongest value retained per modifier
+	building_aeroplanes_factory_throughput_add = 0.7
+	building_automobiles_factory_throughput_add = 0.7
+	building_circuit_boards_factory_throughput_add = 0.7
+	building_communications_network_throughput_add = 0.28
+	building_computers_factory_throughput_add = 0.49
+	building_construction_sector_throughput_add = 0.28
+	building_corporate_services_industry_throughput_add = 0.32
+	building_engines_factory_throughput_add = 0.7
+	building_financial_services_sector_throughput_add = 0.32
+	building_furniture_factory_throughput_add = 0.28
+	building_groceries_factory_throughput_add = 0.49
+	building_industrial_chemicals_factory_throughput_add = 0.49
+	building_maize_farm_throughput_add = 0.28
+	building_oil_rig_throughput_add = 0.7
+	building_port_throughput_add = 0.49
+	building_professional_services_sector_throughput_add = 0.28
+	building_railway_throughput_add = 0.28
+	building_real_estate_sector_throughput_add = 0.32
+	building_recreational_services_sector_throughput_add = 0.128
+	building_retail_services_sector_throughput_add = 0.28
+	building_skyscraper_throughput_add = 0.224
+	building_software_industry_throughput_add = 0.128
+	building_steel_factory_throughput_add = 0.49
+	building_telecommunications_factory_throughput_add = 0.49
+	building_textile_mill_throughput_add = 0.7
+	building_urban_center_throughput_add = 0.128
+	country_trade_route_cost_mult = -0.027
+}
+
+### Grand Bolivarian Republic | strongest=Colombia | rank=33 | score=32
+modern_country_power_zbv = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+
+	# Universal national chassis copied from Colombia
+	building_throughput_add = 0.2
+	building_goods_input_mult = 0.16
+	building_economy_of_scale_level_cap_add = 8
+	country_construction_add = 15
+	country_max_companies_add = 3
+	country_company_throughput_bonus_add = 0.0667
+	country_company_construction_efficiency_bonus_add = 0.0333
+	country_tech_spread_mult = 0.0333
+	country_weekly_innovation_max_add = 33
+	country_influence_mult = 0.08
+	country_bureaucracy_mult = 0.1
+	country_authority_mult = 0.1
+	state_standard_of_living_add = 1
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0333
+	state_literacy_growth_add = 0.0667
+	state_infrastructure_mult = 0.025
+	state_tax_capacity_mult = 0.0333
+	state_tax_collection_mult = 0.0167
+
+	# All constituent specializations; strongest value retained per modifier
+	building_banana_plantation_throughput_add = 0.32
+	building_coal_mine_throughput_add = 0.224
+	building_coffee_plantation_throughput_add = 0.32
+	building_communications_network_throughput_add = 0.128
+	building_construction_sector_throughput_add = 0.224
+	building_financial_services_sector_throughput_add = 0.128
+	building_fishing_wharf_throughput_add = 0.18
+	building_gold_field_throughput_add = 0.126
+	building_gold_mine_throughput_add = 0.18
+	building_groceries_factory_throughput_add = 0.32
+	building_industrial_chemicals_factory_throughput_add = 0.072
+	building_iron_mine_throughput_add = 0.18
+	building_lead_mine_throughput_add = 0.18
+	building_livestock_ranch_throughput_add = 0.128
+	building_oil_rig_throughput_add = 0.32
+	building_port_throughput_add = 0.224
+	building_power_plant_throughput_add = 0.128
+	building_professional_services_sector_throughput_add = 0.224
+	building_recreational_services_sector_throughput_add = 0.128
+	building_retail_services_sector_throughput_add = 0.128
+	building_textile_mill_throughput_add = 0.224
+	building_wheat_farm_throughput_add = 0.072
+}
+
+### Austral Concord | strongest=Brazil | rank=9 | score=80
+modern_country_power_zau = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+
+	# Universal national chassis copied from Brazil
+	building_throughput_add = 0.5
+	building_goods_input_mult = 0.4
+	building_economy_of_scale_level_cap_add = 20
+	country_construction_add = 37.5
+	country_max_companies_add = 7
+	country_company_throughput_bonus_add = 0.1667
+	country_company_construction_efficiency_bonus_add = 0.0833
+	country_tech_spread_mult = 0.0833
+	country_weekly_innovation_max_add = 83
+	country_influence_mult = 0.2
+	country_bureaucracy_mult = 0.25
+	country_authority_mult = 0.25
+	state_standard_of_living_add = 2.5
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0833
+	state_literacy_growth_add = 0.1667
+	state_infrastructure_mult = 0.0625
+	state_tax_capacity_mult = 0.0833
+	state_tax_collection_mult = 0.0417
+
+	# All constituent specializations; strongest value retained per modifier
+	building_aeroplanes_factory_throughput_add = 0.56
+	building_automobiles_factory_throughput_add = 0.56
+	building_coffee_plantation_throughput_add = 0.8
+	building_communications_network_throughput_add = 0.16
+	building_construction_sector_throughput_add = 0.32
+	building_cotton_plantation_throughput_add = 0.56
+	building_financial_services_sector_throughput_add = 0.266
+	building_fishing_wharf_throughput_add = 0.4
+	building_furniture_factory_throughput_add = 0.32
+	building_gold_field_throughput_add = 0.28
+	building_gold_mine_throughput_add = 0.56
+	building_groceries_factory_throughput_add = 0.8
+	building_hydroelectric_power_plant_throughput_add = 0.56
+	building_industrial_chemicals_factory_throughput_add = 0.32
+	building_iron_mine_throughput_add = 0.8
+	building_lead_mine_throughput_add = 0.4
+	building_livestock_ranch_throughput_add = 0.8
+	building_logging_camp_throughput_add = 0.8
+	building_maize_farm_throughput_add = 0.8
+	building_oil_rig_throughput_add = 0.8
+	building_port_throughput_add = 0.32
+	building_power_plant_throughput_add = 0.32
+	building_professional_services_sector_throughput_add = 0.32
+	building_recreational_services_sector_throughput_add = 0.266
+	building_rubber_plantation_throughput_add = 0.32
+	building_steel_factory_throughput_add = 0.56
+	building_textile_mill_throughput_add = 0.32
+	building_vineyard_throughput_add = 0.4
+	building_wheat_farm_throughput_add = 0.38
+}
+
+### Mitteleuropa | strongest=Germany | rank=4 | score=90
+modern_country_power_zgr = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+	# Universal national chassis copied from Germany
+	building_throughput_add = 0.5625
+	building_goods_input_mult = 0.45
+	building_economy_of_scale_level_cap_add = 22.5
+	country_construction_add = 42.188
+	country_max_companies_add = 8
+	country_company_throughput_bonus_add = 0.1875
+	country_company_construction_efficiency_bonus_add = 0.0938
+	country_tech_spread_mult = 0.0938
+	country_weekly_innovation_max_add = 94
+	country_influence_mult = 0.225
+	country_bureaucracy_mult = 0.2813
+	country_authority_mult = 0.2813
+	state_standard_of_living_add = 2.813
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0938
+	state_literacy_growth_add = 0.1875
+	state_infrastructure_mult = 0.0703
+	state_tax_capacity_mult = 0.0938
+	state_tax_collection_mult = 0.0469
+
+	# All constituent specializations; strongest value retained per modifier
+	building_advanced_weaponry_factory_throughput_add = 0.63
+	building_aeroplanes_factory_throughput_add = 0.36
+	building_ammunition_factory_throughput_add = 0.58
+	building_artillery_factory_throughput_add = 0.58
+	building_automobiles_factory_throughput_add = 0.9
+	building_circuit_boards_factory_throughput_add = 0.63
+	building_coal_mine_throughput_add = 0.58
+	building_communications_network_throughput_add = 0.232
+	building_computers_factory_throughput_add = 0.63
+	building_construction_sector_throughput_add = 0.36
+	building_consumer_robots_factory_throughput_add = 0.63
+	building_engines_factory_throughput_add = 0.9
+	building_financial_services_sector_throughput_add = 0.36
+	building_furniture_factory_throughput_add = 0.406
+	building_groceries_factory_throughput_add = 0.104
+	building_industrial_chemicals_factory_throughput_add = 0.9
+	building_industrial_robots_factory_throughput_add = 0.9
+	building_iron_mine_throughput_add = 0.26
+	building_locomotives_factory_throughput_add = 0.9
+	building_maize_farm_throughput_add = 0.26
+	building_oil_rig_throughput_add = 0.182
+	building_pharmaceuticals_factory_throughput_add = 0.9
+	building_power_plant_throughput_add = 0.36
+	building_professional_services_sector_throughput_add = 0.63
+	building_railway_throughput_add = 0.63
+	building_software_industry_throughput_add = 0.36
+	building_steel_factory_throughput_add = 0.9
+	building_tanks_factory_throughput_add = 0.63
+	building_telecommunications_factory_throughput_add = 0.36
+	building_textile_mill_throughput_add = 0.232
+	building_university_throughput_add = 0.36
+	building_warplanes_factory_throughput_add = 0.36
+	building_wheat_farm_throughput_add = 0.26
+}
+
+### Rumelia | strongest=Turkey | rank=15 | score=68
+modern_country_power_zbk = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+	# Universal national chassis copied from Turkey
+	building_throughput_add = 0.425
+	building_goods_input_mult = 0.34
+	building_economy_of_scale_level_cap_add = 17
+	country_construction_add = 31.875
+	country_max_companies_add = 6
+	country_company_throughput_bonus_add = 0.1417
+	country_company_construction_efficiency_bonus_add = 0.0708
+	country_tech_spread_mult = 0.0708
+	country_weekly_innovation_max_add = 71
+	country_influence_mult = 0.17
+	country_bureaucracy_mult = 0.2125
+	country_authority_mult = 0.2125
+	state_standard_of_living_add = 2.125
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0708
+	state_literacy_growth_add = 0.1417
+	state_infrastructure_mult = 0.0531
+	state_tax_capacity_mult = 0.0708
+	state_tax_collection_mult = 0.0354
+
+	# All constituent specializations; strongest value retained per modifier
+	building_ammunition_factory_throughput_add = 0.68
+	building_artillery_factory_throughput_add = 0.476
+	building_automobiles_factory_throughput_add = 0.68
+	building_communications_network_throughput_add = 0.272
+	building_construction_sector_throughput_add = 0.68
+	building_engines_factory_throughput_add = 0.476
+	building_furniture_factory_throughput_add = 0.272
+	building_groceries_factory_throughput_add = 0.272
+	building_industrial_chemicals_factory_throughput_add = 0.476
+	building_maize_farm_throughput_add = 0.38
+	building_oil_rig_throughput_add = 0.38
+	building_pharmaceuticals_factory_throughput_add = 0.272
+	building_port_throughput_add = 0.272
+	building_power_plant_throughput_add = 0.272
+	building_professional_services_sector_throughput_add = 0.272
+	building_railway_throughput_add = 0.476
+	building_shipyard_throughput_add = 0.476
+	building_small_arms_factory_throughput_add = 0.68
+	building_software_industry_throughput_add = 0.266
+	building_steel_factory_throughput_add = 0.68
+	building_tanks_factory_throughput_add = 0.68
+	building_textile_mill_throughput_add = 0.68
+	building_warplanes_factory_throughput_add = 0.476
+	building_wheat_farm_throughput_add = 0.38
+}
+
+### The Western Accord | strongest=United Kingdom | rank=6 | score=86
+modern_country_power_zoc = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+
+	# Universal national chassis copied from United Kingdom
+	building_throughput_add = 0.5375
+	building_goods_input_mult = 0.43
+	building_economy_of_scale_level_cap_add = 21.5
+	country_construction_add = 40.313
+	country_max_companies_add = 7
+	country_company_throughput_bonus_add = 0.1792
+	country_company_construction_efficiency_bonus_add = 0.0896
+	country_tech_spread_mult = 0.0896
+	country_weekly_innovation_max_add = 90
+	country_influence_mult = 0.215
+	country_bureaucracy_mult = 0.2688
+	country_authority_mult = 0.2688
+	state_standard_of_living_add = 2.688
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0896
+	state_literacy_growth_add = 0.1792
+	state_infrastructure_mult = 0.0672
+	state_tax_capacity_mult = 0.0896
+	state_tax_collection_mult = 0.0448
+
+	# All constituent specializations; strongest value retained per modifier
+	building_advanced_weaponry_factory_throughput_add = 0.602
+	building_aeroplanes_factory_throughput_add = 0.86
+	building_art_academy_throughput_add = 0.76
+	building_automobiles_factory_throughput_add = 0.84
+	building_circuit_boards_factory_throughput_add = 0.344
+	building_communications_network_throughput_add = 0.344
+	building_computers_factory_throughput_add = 0.46
+	building_construction_sector_throughput_add = 0.344
+	building_corporate_services_industry_throughput_add = 0.86
+	building_engines_factory_throughput_add = 0.76
+	building_financial_services_sector_throughput_add = 0.86
+	building_fishing_wharf_throughput_add = 0.248
+	building_furniture_factory_throughput_add = 0.76
+	building_groceries_factory_throughput_add = 0.56
+	building_industrial_chemicals_factory_throughput_add = 0.84
+	building_industrial_robots_factory_throughput_add = 0.532
+	building_liquor_factory_throughput_add = 0.532
+	building_livestock_ranch_throughput_add = 0.56
+	building_media_services_sector_throughput_add = 0.86
+	building_pharmaceuticals_factory_throughput_add = 0.84
+	building_port_throughput_add = 0.62
+	building_power_plant_throughput_add = 0.434
+	building_professional_services_sector_throughput_add = 0.86
+	building_railway_throughput_add = 0.434
+	building_real_estate_sector_throughput_add = 0.602
+	building_recreational_services_sector_throughput_add = 0.76
+	building_retail_services_sector_throughput_add = 0.344
+	building_shipyard_throughput_add = 0.344
+	building_skyscraper_throughput_add = 0.602
+	building_software_industry_throughput_add = 0.86
+	building_steel_factory_throughput_add = 0.48
+	building_telecommunications_factory_throughput_add = 0.602
+	building_textile_mill_throughput_add = 0.76
+	building_university_throughput_add = 0.86
+	building_urban_center_throughput_add = 0.168
+	building_vineyard_throughput_add = 0.588
+	building_warplanes_factory_throughput_add = 0.84
+	building_wheat_farm_throughput_add = 0.588
+	country_minting_mult = 0.046
+	country_trade_route_cost_mult = -0.035
+	state_capitalists_investment_pool_efficiency_mult = 0.046
+}
+
+### New Kalmar Union | strongest=Sweden | rank=special | score=52
+modern_country_power_zka = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+	# Universal national chassis copied from Sweden
+	building_throughput_add = 0.325
+	building_goods_input_mult = 0.26
+	building_economy_of_scale_level_cap_add = 13
+	country_construction_add = 24.375
+	country_max_companies_add = 4
+	country_company_throughput_bonus_add = 0.1083
+	country_company_construction_efficiency_bonus_add = 0.0542
+	country_tech_spread_mult = 0.0542
+	country_weekly_innovation_max_add = 54
+	country_influence_mult = 0.13
+	country_bureaucracy_mult = 0.1625
+	country_authority_mult = 0.1625
+	state_standard_of_living_add = 1.625
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0542
+	state_literacy_growth_add = 0.1083
+	state_infrastructure_mult = 0.0406
+	state_tax_capacity_mult = 0.0542
+	state_tax_collection_mult = 0.0271
+
+	# All constituent specializations; strongest value retained per modifier
+	building_advanced_weaponry_factory_throughput_add = 0.52
+	building_automobiles_factory_throughput_add = 0.52
+	building_communications_network_throughput_add = 0.208
+	building_construction_sector_throughput_add = 0.208
+	building_engines_factory_throughput_add = 0.364
+	building_financial_services_sector_throughput_add = 0.35
+	building_fishing_wharf_throughput_add = 0.5
+	building_groceries_factory_throughput_add = 0.46
+	building_hydroelectric_power_plant_throughput_add = 0.5
+	building_industrial_robots_factory_throughput_add = 0.52
+	building_livestock_ranch_throughput_add = 0.46
+	building_oil_rig_throughput_add = 0.5
+	building_pharmaceuticals_factory_throughput_add = 0.46
+	building_port_throughput_add = 0.35
+	building_power_plant_throughput_add = 0.322
+	building_professional_services_sector_throughput_add = 0.364
+	building_shipyard_throughput_add = 0.5
+	building_software_industry_throughput_add = 0.52
+	building_steel_factory_throughput_add = 0.364
+	building_telecommunications_factory_throughput_add = 0.52
+	building_university_throughput_add = 0.208
+	building_warplanes_factory_throughput_add = 0.364
+	country_ship_construction_efficiency_add = 0.032
+}
+
+### The Union | strongest=Russia | rank=8 | score=82
+modern_country_power_zun = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+	# Universal national chassis copied from Russia
+	building_throughput_add = 0.5125
+	building_goods_input_mult = 0.41
+	building_economy_of_scale_level_cap_add = 20.5
+	country_construction_add = 38.438
+	country_max_companies_add = 7
+	country_company_throughput_bonus_add = 0.1708
+	country_company_construction_efficiency_bonus_add = 0.0854
+	country_tech_spread_mult = 0.0854
+	country_weekly_innovation_max_add = 85
+	country_influence_mult = 0.205
+	country_bureaucracy_mult = 0.2563
+	country_authority_mult = 0.2563
+	state_standard_of_living_add = 2.563
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0854
+	state_literacy_growth_add = 0.1708
+	state_infrastructure_mult = 0.0641
+	state_tax_capacity_mult = 0.0854
+	state_tax_collection_mult = 0.0427
+
+	# All constituent specializations; strongest value retained per modifier
+	building_advanced_weaponry_factory_throughput_add = 0.82
+	building_aeroplanes_factory_throughput_add = 0.328
+	building_ammunition_factory_throughput_add = 0.574
+	building_artillery_factory_throughput_add = 0.82
+	building_coal_mine_throughput_add = 0.82
+	building_communications_network_throughput_add = 0.328
+	building_construction_sector_throughput_add = 0.328
+	building_engines_factory_throughput_add = 0.328
+	building_gold_field_throughput_add = 0.08
+	building_gold_mine_throughput_add = 0.574
+	building_industrial_chemicals_factory_throughput_add = 0.574
+	building_iron_mine_throughput_add = 0.82
+	building_livestock_ranch_throughput_add = 0.14
+	building_locomotives_factory_throughput_add = 0.574
+	building_logging_camp_throughput_add = 0.328
+	building_oil_rig_throughput_add = 0.82
+	building_pharmaceuticals_factory_throughput_add = 0.328
+	building_power_plant_throughput_add = 0.574
+	building_railway_throughput_add = 0.574
+	building_shipyard_throughput_add = 0.328
+	building_small_arms_factory_throughput_add = 0.574
+	building_steel_factory_throughput_add = 0.82
+	building_tanks_factory_throughput_add = 0.82
+	building_warplanes_factory_throughput_add = 0.82
+	building_wheat_farm_throughput_add = 0.328
+}
+
+### United Arab Kingdoms | strongest=Saudi Arabia | rank=17 | score=64
+modern_country_power_zab = {
+	icon = gfx/interface/icons/invention_icons/pumpjacks.dds
+
+	# Universal national chassis copied from Saudi Arabia
+	building_throughput_add = 0.4
+	building_goods_input_mult = 0.32
+	building_economy_of_scale_level_cap_add = 16
+	country_construction_add = 30
+	country_max_companies_add = 5
+	country_company_throughput_bonus_add = 0.1333
+	country_company_construction_efficiency_bonus_add = 0.0667
+	country_tech_spread_mult = 0.0667
+	country_weekly_innovation_max_add = 67
+	country_influence_mult = 0.16
+	country_bureaucracy_mult = 0.2
+	country_authority_mult = 0.2
+	state_standard_of_living_add = 2
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0667
+	state_literacy_growth_add = 0.1333
+	state_infrastructure_mult = 0.05
+	state_tax_capacity_mult = 0.0667
+	state_tax_collection_mult = 0.0333
+
+	# All constituent specializations; strongest value retained per modifier
+	building_aeroplanes_factory_throughput_add = 0.256
+	building_automobiles_factory_throughput_add = 0.36
+	building_communications_network_throughput_add = 0.448
+	building_construction_sector_throughput_add = 0.64
+	building_corporate_services_industry_throughput_add = 0.448
+	building_cotton_plantation_throughput_add = 0.2
+	building_financial_services_sector_throughput_add = 0.64
+	building_fishing_wharf_throughput_add = 0.28
+	building_groceries_factory_throughput_add = 0.35
+	building_industrial_chemicals_factory_throughput_add = 0.64
+	building_iron_mine_throughput_add = 0.21
+	building_maize_farm_throughput_add = 0.5
+	building_oil_rig_throughput_add = 0.64
+	building_plastics_factory_throughput_add = 0.64
+	building_port_throughput_add = 0.56
+	building_power_plant_throughput_add = 0.448
+	building_professional_services_sector_throughput_add = 0.448
+	building_railway_throughput_add = 0.2
+	building_real_estate_sector_throughput_add = 0.64
+	building_recreational_services_sector_throughput_add = 0.448
+	building_retail_services_sector_throughput_add = 0.392
+	building_skyscraper_throughput_add = 0.64
+	building_steel_factory_throughput_add = 0.256
+	building_sulfur_mine_throughput_add = 0.36
+	building_telecommunications_factory_throughput_add = 0.256
+	building_textile_mill_throughput_add = 0.5
+	building_urban_center_throughput_add = 0.35
+	building_wheat_farm_throughput_add = 0.5
+	country_minting_mult = 0.024
+	country_trade_route_cost_mult = -0.025
+	state_capitalists_investment_pool_efficiency_mult = 0.024
+}
+
+### Covenant of Eran | strongest=Iran | rank=19 | score=60
+modern_country_power_zer = {
+	icon = gfx/interface/icons/invention_icons/pumpjacks.dds
+
+	# Universal national chassis copied from Iran
+	building_throughput_add = 0.375
+	building_goods_input_mult = 0.3
+	building_economy_of_scale_level_cap_add = 15
+	country_construction_add = 28.125
+	country_max_companies_add = 5
+	country_company_throughput_bonus_add = 0.125
+	country_company_construction_efficiency_bonus_add = 0.0625
+	country_tech_spread_mult = 0.0625
+	country_weekly_innovation_max_add = 63
+	country_influence_mult = 0.15
+	country_bureaucracy_mult = 0.1875
+	country_authority_mult = 0.1875
+	state_standard_of_living_add = 1.875
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0625
+	state_literacy_growth_add = 0.125
+	state_infrastructure_mult = 0.0469
+	state_tax_capacity_mult = 0.0625
+	state_tax_collection_mult = 0.0312
+
+	# All constituent specializations; strongest value retained per modifier
+	building_advanced_weaponry_factory_throughput_add = 0.6
+	building_ammunition_factory_throughput_add = 0.6
+	building_artillery_factory_throughput_add = 0.6
+	building_automobiles_factory_throughput_add = 0.42
+	building_circuit_boards_factory_throughput_add = 0.24
+	building_communications_network_throughput_add = 0.24
+	building_construction_sector_throughput_add = 0.42
+	building_engines_factory_throughput_add = 0.24
+	building_groceries_factory_throughput_add = 0.128
+	building_industrial_chemicals_factory_throughput_add = 0.6
+	building_livestock_ranch_throughput_add = 0.128
+	building_oil_rig_throughput_add = 0.6
+	building_pharmaceuticals_factory_throughput_add = 0.24
+	building_plastics_factory_throughput_add = 0.42
+	building_port_throughput_add = 0.224
+	building_power_plant_throughput_add = 0.42
+	building_professional_services_sector_throughput_add = 0.128
+	building_railway_throughput_add = 0.24
+	building_small_arms_factory_throughput_add = 0.42
+	building_steel_factory_throughput_add = 0.6
+	building_tanks_factory_throughput_add = 0.42
+	building_telecommunications_factory_throughput_add = 0.24
+	building_wheat_farm_throughput_add = 0.32
+}
+
+### West African Compact | strongest=Nigeria | rank=22 | score=54
+modern_country_power_zgn = {
+	icon = gfx/interface/icons/invention_icons/pumpjacks.dds
+
+	# Universal national chassis copied from Nigeria
+	building_throughput_add = 0.3375
+	building_goods_input_mult = 0.27
+	building_economy_of_scale_level_cap_add = 13.5
+	country_construction_add = 25.313
+	country_max_companies_add = 5
+	country_company_throughput_bonus_add = 0.1125
+	country_company_construction_efficiency_bonus_add = 0.0563
+	country_tech_spread_mult = 0.0563
+	country_weekly_innovation_max_add = 56
+	country_influence_mult = 0.135
+	country_bureaucracy_mult = 0.1688
+	country_authority_mult = 0.1688
+	state_standard_of_living_add = 1.688
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0563
+	state_literacy_growth_add = 0.1125
+	state_infrastructure_mult = 0.0422
+	state_tax_capacity_mult = 0.0563
+	state_tax_collection_mult = 0.0281
+
+	# All constituent specializations; strongest value retained per modifier
+	building_communications_network_throughput_add = 0.216
+	building_construction_sector_throughput_add = 0.54
+	building_cotton_plantation_throughput_add = 0.216
+	building_fishing_wharf_throughput_add = 0.216
+	building_groceries_factory_throughput_add = 0.54
+	building_industrial_chemicals_factory_throughput_add = 0.216
+	building_livestock_ranch_throughput_add = 0.54
+	building_maize_farm_throughput_add = 0.54
+	building_oil_rig_throughput_add = 0.54
+	building_port_throughput_add = 0.378
+	building_power_plant_throughput_add = 0.378
+	building_professional_services_sector_throughput_add = 0.378
+	building_retail_services_sector_throughput_add = 0.216
+	building_rubber_plantation_throughput_add = 0.216
+	building_telecommunications_factory_throughput_add = 0.378
+	building_textile_mill_throughput_add = 0.378
+}
+
+### Greater Kongo | strongest=Democratic Republic of the Congo | rank=37 | score=24
+modern_country_power_zkg = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+	# Universal national chassis copied from Democratic Republic of the Congo
+	building_throughput_add = 0.15
+	building_goods_input_mult = 0.12
+	building_economy_of_scale_level_cap_add = 6
+	country_construction_add = 11.25
+	country_max_companies_add = 2
+	country_company_throughput_bonus_add = 0.05
+	country_company_construction_efficiency_bonus_add = 0.025
+	country_tech_spread_mult = 0.025
+	country_weekly_innovation_max_add = 25
+	country_influence_mult = 0.06
+	country_bureaucracy_mult = 0.075
+	country_authority_mult = 0.075
+	state_standard_of_living_add = 0.75
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.025
+	state_literacy_growth_add = 0.05
+	state_infrastructure_mult = 0.0188
+	state_tax_capacity_mult = 0.025
+	state_tax_collection_mult = 0.0125
+
+	# All constituent specializations; strongest value retained per modifier
+	building_communications_network_throughput_add = 0.096
+	building_construction_sector_throughput_add = 0.168
+	building_gold_field_throughput_add = 0.168
+	building_gold_mine_throughput_add = 0.24
+	building_groceries_factory_throughput_add = 0.096
+	building_hydroelectric_power_plant_throughput_add = 0.24
+	building_iron_mine_throughput_add = 0.24
+	building_lead_mine_throughput_add = 0.24
+	building_logging_camp_throughput_add = 0.24
+	building_maize_farm_throughput_add = 0.096
+	building_power_plant_throughput_add = 0.168
+	building_professional_services_sector_throughput_add = 0.096
+	building_railway_throughput_add = 0.168
+}
+
+### Azania | strongest=Ethiopia | rank=35 | score=28
+modern_country_power_zaz = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+
+	# Universal national chassis copied from Ethiopia
+	building_throughput_add = 0.175
+	building_goods_input_mult = 0.14
+	building_economy_of_scale_level_cap_add = 7
+	country_construction_add = 13.125
+	country_max_companies_add = 2
+	country_company_throughput_bonus_add = 0.0583
+	country_company_construction_efficiency_bonus_add = 0.0292
+	country_tech_spread_mult = 0.0292
+	country_weekly_innovation_max_add = 29
+	country_influence_mult = 0.07
+	country_bureaucracy_mult = 0.0875
+	country_authority_mult = 0.0875
+	state_standard_of_living_add = 0.875
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0292
+	state_literacy_growth_add = 0.0583
+	state_infrastructure_mult = 0.0219
+	state_tax_capacity_mult = 0.0292
+	state_tax_collection_mult = 0.0146
+
+	# All constituent specializations; strongest value retained per modifier
+	building_coffee_plantation_throughput_add = 0.28
+	building_communications_network_throughput_add = 0.112
+	building_construction_sector_throughput_add = 0.196
+	building_cotton_plantation_throughput_add = 0.112
+	building_financial_services_sector_throughput_add = 0.088
+	building_groceries_factory_throughput_add = 0.196
+	building_hydroelectric_power_plant_throughput_add = 0.28
+	building_livestock_ranch_throughput_add = 0.28
+	building_maize_farm_throughput_add = 0.28
+	building_port_throughput_add = 0.154
+	building_power_plant_throughput_add = 0.196
+	building_professional_services_sector_throughput_add = 0.22
+	building_railway_throughput_add = 0.112
+	building_recreational_services_sector_throughput_add = 0.154
+	building_software_industry_throughput_add = 0.088
+	building_tea_plantation_throughput_add = 0.22
+	building_telecommunications_factory_throughput_add = 0.22
+	building_textile_mill_throughput_add = 0.196
+	building_wheat_farm_throughput_add = 0.28
+}
+
+### Mzansi | strongest=South Africa | rank=29 | score=40
+modern_country_power_zmz = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+	# Universal national chassis copied from South Africa
+	building_throughput_add = 0.25
+	building_goods_input_mult = 0.2
+	building_economy_of_scale_level_cap_add = 10
+	country_construction_add = 18.75
+	country_max_companies_add = 3
+	country_company_throughput_bonus_add = 0.0833
+	country_company_construction_efficiency_bonus_add = 0.0417
+	country_tech_spread_mult = 0.0417
+	country_weekly_innovation_max_add = 42
+	country_influence_mult = 0.1
+	country_bureaucracy_mult = 0.125
+	country_authority_mult = 0.125
+	state_standard_of_living_add = 1.25
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0417
+	state_literacy_growth_add = 0.0833
+	state_infrastructure_mult = 0.0313
+	state_tax_capacity_mult = 0.0417
+	state_tax_collection_mult = 0.0208
+
+	# All constituent specializations; strongest value retained per modifier
+	building_automobiles_factory_throughput_add = 0.4
+	building_coal_mine_throughput_add = 0.4
+	building_communications_network_throughput_add = 0.16
+	building_construction_sector_throughput_add = 0.16
+	building_financial_services_sector_throughput_add = 0.4
+	building_gold_field_throughput_add = 0.16
+	building_gold_mine_throughput_add = 0.4
+	building_industrial_chemicals_factory_throughput_add = 0.28
+	building_iron_mine_throughput_add = 0.4
+	building_livestock_ranch_throughput_add = 0.16
+	building_port_throughput_add = 0.28
+	building_power_plant_throughput_add = 0.16
+	building_professional_services_sector_throughput_add = 0.28
+	building_railway_throughput_add = 0.16
+	building_steel_factory_throughput_add = 0.28
+	building_vineyard_throughput_add = 0.28
+}
+
+### Bharat Mandal | strongest=India | rank=3 | score=92
+modern_country_power_zbt = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+	# Universal national chassis copied from India
+	building_throughput_add = 0.575
+	building_goods_input_mult = 0.46
+	building_economy_of_scale_level_cap_add = 23
+	country_construction_add = 43.125
+	country_max_companies_add = 8
+	country_company_throughput_bonus_add = 0.1917
+	country_company_construction_efficiency_bonus_add = 0.0958
+	country_tech_spread_mult = 0.0958
+	country_weekly_innovation_max_add = 96
+	country_influence_mult = 0.23
+	country_bureaucracy_mult = 0.2875
+	country_authority_mult = 0.2875
+	state_standard_of_living_add = 2.875
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0958
+	state_literacy_growth_add = 0.1917
+	state_infrastructure_mult = 0.0719
+	state_tax_capacity_mult = 0.0958
+	state_tax_collection_mult = 0.0479
+
+	# All constituent specializations; strongest value retained per modifier
+	building_ammunition_factory_throughput_add = 0.48
+	building_artillery_factory_throughput_add = 0.336
+	building_automobiles_factory_throughput_add = 0.368
+	building_circuit_boards_factory_throughput_add = 0.644
+	building_communications_network_throughput_add = 0.368
+	building_computers_factory_throughput_add = 0.644
+	building_construction_sector_throughput_add = 0.644
+	building_corporate_services_industry_throughput_add = 0.644
+	building_cotton_plantation_throughput_add = 0.92
+	building_financial_services_sector_throughput_add = 0.368
+	building_fishing_wharf_throughput_add = 0.42
+	building_furniture_factory_throughput_add = 0.294
+	building_groceries_factory_throughput_add = 0.644
+	building_industrial_chemicals_factory_throughput_add = 0.368
+	building_livestock_ranch_throughput_add = 0.336
+	building_maize_farm_throughput_add = 0.294
+	building_media_services_sector_throughput_add = 0.368
+	building_pharmaceuticals_factory_throughput_add = 0.92
+	building_port_throughput_add = 0.294
+	building_power_plant_throughput_add = 0.368
+	building_professional_services_sector_throughput_add = 0.92
+	building_railway_throughput_add = 0.644
+	building_retail_services_sector_throughput_add = 0.368
+	building_rice_farm_throughput_add = 0.92
+	building_small_arms_factory_throughput_add = 0.48
+	building_software_industry_throughput_add = 0.92
+	building_tea_plantation_throughput_add = 0.368
+	building_telecommunications_factory_throughput_add = 0.92
+	building_textile_mill_throughput_add = 0.92
+	building_university_throughput_add = 0.92
+	building_wheat_farm_throughput_add = 0.644
+}
+
+### Eastern Harmonious Order | strongest=China | rank=2 | score=94
+modern_country_power_zhh = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+	# Universal national chassis copied from China
+	building_throughput_add = 0.5875
+	building_goods_input_mult = 0.47
+	building_economy_of_scale_level_cap_add = 23.5
+	country_construction_add = 44.063
+	country_max_companies_add = 8
+	country_company_throughput_bonus_add = 0.1958
+	country_company_construction_efficiency_bonus_add = 0.0979
+	country_tech_spread_mult = 0.0979
+	country_weekly_innovation_max_add = 98
+	country_influence_mult = 0.235
+	country_bureaucracy_mult = 0.2938
+	country_authority_mult = 0.2938
+	state_standard_of_living_add = 2.938
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0979
+	state_literacy_growth_add = 0.1958
+	state_infrastructure_mult = 0.0734
+	state_tax_capacity_mult = 0.0979
+	state_tax_collection_mult = 0.049
+
+	# All constituent specializations; strongest value retained per modifier
+	building_advanced_weaponry_factory_throughput_add = 0.658
+	building_aeroplanes_factory_throughput_add = 0.376
+	building_automobiles_factory_throughput_add = 0.94
+	building_circuit_boards_factory_throughput_add = 0.94
+	building_coal_mine_throughput_add = 0.376
+	building_coffee_plantation_throughput_add = 0.46
+	building_communications_network_throughput_add = 0.376
+	building_computers_factory_throughput_add = 0.94
+	building_construction_sector_throughput_add = 0.658
+	building_consumer_robots_factory_throughput_add = 0.376
+	building_engines_factory_throughput_add = 0.658
+	building_fishing_wharf_throughput_add = 0.184
+	building_furniture_factory_throughput_add = 0.46
+	building_groceries_factory_throughput_add = 0.322
+	building_industrial_chemicals_factory_throughput_add = 0.658
+	building_industrial_robots_factory_throughput_add = 0.94
+	building_iron_mine_throughput_add = 0.376
+	building_locomotives_factory_throughput_add = 0.658
+	building_plastics_factory_throughput_add = 0.658
+	building_port_throughput_add = 0.94
+	building_power_plant_throughput_add = 0.94
+	building_professional_services_sector_throughput_add = 0.184
+	building_railway_throughput_add = 0.94
+	building_rice_farm_throughput_add = 0.46
+	building_rubber_plantation_throughput_add = 0.46
+	building_shipyard_throughput_add = 0.658
+	building_software_industry_throughput_add = 0.376
+	building_steel_factory_throughput_add = 0.94
+	building_telecommunications_factory_throughput_add = 0.94
+	building_textile_mill_throughput_add = 0.46
+	building_warplanes_factory_throughput_add = 0.376
+}
+
+### League of the Golden Lands | strongest=Vietnam | rank=26 | score=46
+modern_country_power_zsv = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+	# Universal national chassis copied from Vietnam
+	building_throughput_add = 0.2875
+	building_goods_input_mult = 0.23
+	building_economy_of_scale_level_cap_add = 11.5
+	country_construction_add = 21.563
+	country_max_companies_add = 4
+	country_company_throughput_bonus_add = 0.0958
+	country_company_construction_efficiency_bonus_add = 0.0479
+	country_tech_spread_mult = 0.0479
+	country_weekly_innovation_max_add = 48
+	country_influence_mult = 0.115
+	country_bureaucracy_mult = 0.1438
+	country_authority_mult = 0.1438
+	state_standard_of_living_add = 1.438
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0479
+	state_literacy_growth_add = 0.0958
+	state_infrastructure_mult = 0.0359
+	state_tax_capacity_mult = 0.0479
+	state_tax_collection_mult = 0.024
+
+	# All constituent specializations; strongest value retained per modifier
+	building_automobiles_factory_throughput_add = 0.36
+	building_circuit_boards_factory_throughput_add = 0.46
+	building_coffee_plantation_throughput_add = 0.46
+	building_communications_network_throughput_add = 0.184
+	building_computers_factory_throughput_add = 0.322
+	building_construction_sector_throughput_add = 0.184
+	building_fishing_wharf_throughput_add = 0.252
+	building_furniture_factory_throughput_add = 0.46
+	building_groceries_factory_throughput_add = 0.36
+	building_industrial_chemicals_factory_throughput_add = 0.184
+	building_port_throughput_add = 0.322
+	building_power_plant_throughput_add = 0.184
+	building_professional_services_sector_throughput_add = 0.184
+	building_recreational_services_sector_throughput_add = 0.252
+	building_retail_services_sector_throughput_add = 0.144
+	building_rice_farm_throughput_add = 0.46
+	building_rubber_plantation_throughput_add = 0.46
+	building_software_industry_throughput_add = 0.184
+	building_telecommunications_factory_throughput_add = 0.322
+	building_textile_mill_throughput_add = 0.46
+}
+
+### Nusantara | strongest=Indonesia | rank=10 | score=78
+modern_country_power_zns = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+
+	# Universal national chassis copied from Indonesia
+	building_throughput_add = 0.4875
+	building_goods_input_mult = 0.39
+	building_economy_of_scale_level_cap_add = 19.5
+	country_construction_add = 36.563
+	country_max_companies_add = 7
+	country_company_throughput_bonus_add = 0.1625
+	country_company_construction_efficiency_bonus_add = 0.0813
+	country_tech_spread_mult = 0.0813
+	country_weekly_innovation_max_add = 81
+	country_influence_mult = 0.195
+	country_bureaucracy_mult = 0.2438
+	country_authority_mult = 0.2438
+	state_standard_of_living_add = 2.438
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0813
+	state_literacy_growth_add = 0.1625
+	state_infrastructure_mult = 0.0609
+	state_tax_capacity_mult = 0.0813
+	state_tax_collection_mult = 0.0406
+
+	# All constituent specializations; strongest value retained per modifier
+	building_automobiles_factory_throughput_add = 0.312
+	building_circuit_boards_factory_throughput_add = 0.34
+	building_coal_mine_throughput_add = 0.78
+	building_coffee_plantation_throughput_add = 0.312
+	building_communications_network_throughput_add = 0.312
+	building_computers_factory_throughput_add = 0.34
+	building_construction_sector_throughput_add = 0.546
+	building_corporate_services_industry_throughput_add = 0.238
+	building_financial_services_sector_throughput_add = 0.312
+	building_fishing_wharf_throughput_add = 0.78
+	building_furniture_factory_throughput_add = 0.312
+	building_groceries_factory_throughput_add = 0.546
+	building_industrial_chemicals_factory_throughput_add = 0.546
+	building_logging_camp_throughput_add = 0.78
+	building_oil_rig_throughput_add = 0.78
+	building_port_throughput_add = 0.78
+	building_power_plant_throughput_add = 0.546
+	building_professional_services_sector_throughput_add = 0.238
+	building_retail_services_sector_throughput_add = 0.312
+	building_rice_farm_throughput_add = 0.78
+	building_rubber_plantation_throughput_add = 0.78
+	building_software_industry_throughput_add = 0.136
+	building_telecommunications_factory_throughput_add = 0.546
+	building_textile_mill_throughput_add = 0.546
+	building_tobacco_plantation_throughput_add = 0.312
+}
+
+### Pacific Commonwealth | strongest=Australia | rank=16 | score=66
+modern_country_power_zoe = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+
+	# Universal national chassis copied from Australia
+	building_throughput_add = 0.4125
+	building_goods_input_mult = 0.33
+	building_economy_of_scale_level_cap_add = 16.5
+	country_construction_add = 30.938
+	country_max_companies_add = 6
+	country_company_throughput_bonus_add = 0.1375
+	country_company_construction_efficiency_bonus_add = 0.0688
+	country_tech_spread_mult = 0.0688
+	country_weekly_innovation_max_add = 69
+	country_influence_mult = 0.165
+	country_bureaucracy_mult = 0.2063
+	country_authority_mult = 0.2063
+	state_standard_of_living_add = 2.063
+	state_birth_rate_mult = 0.1
+	state_education_access_add = 0.0688
+	state_literacy_growth_add = 0.1375
+	state_infrastructure_mult = 0.0516
+	state_tax_capacity_mult = 0.0688
+	state_tax_collection_mult = 0.0344
+
+	# All constituent specializations; strongest value retained per modifier
+	building_coal_mine_throughput_add = 0.66
+	building_communications_network_throughput_add = 0.264
+	building_construction_sector_throughput_add = 0.462
+	building_financial_services_sector_throughput_add = 0.462
+	building_fishing_wharf_throughput_add = 0.36
+	building_gold_field_throughput_add = 0.462
+	building_gold_mine_throughput_add = 0.66
+	building_groceries_factory_throughput_add = 0.36
+	building_hydroelectric_power_plant_throughput_add = 0.264
+	building_iron_mine_throughput_add = 0.66
+	building_livestock_ranch_throughput_add = 0.66
+	building_logging_camp_throughput_add = 0.462
+	building_oil_rig_throughput_add = 0.66
+	building_port_throughput_add = 0.462
+	building_power_plant_throughput_add = 0.264
+	building_professional_services_sector_throughput_add = 0.462
+	building_railway_throughput_add = 0.264
+	building_recreational_services_sector_throughput_add = 0.36
+	building_software_industry_throughput_add = 0.264
+	building_vineyard_throughput_add = 0.264
+	building_wheat_farm_throughput_add = 0.66
+}
+# END GENERATED MODERN SUPERSTATE POWER MODIFIERS

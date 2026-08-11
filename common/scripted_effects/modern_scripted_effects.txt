@@ -10,7 +10,7 @@ effect_modern_utopian_laws = {
     activate_law = law_type:law_no_politicised_armed_forces
     activate_law = law_type:law_professional_army
     activate_law = law_type:law_professional_navy
-    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_legislative_supremacy
     activate_law = law_type:law_common_law
     activate_law = law_type:law_HOS_president
     activate_law = law_type:law_HOG_none
@@ -53,4 +53,1307 @@ effect_modern_utopian_laws = {
     activate_law = law_type:law_state_atheism
     activate_law = law_type:law_multicultural
     activate_law = law_type:law_affirmative_action
+}
+
+
+# Superstate law packages
+# Generated from the uploaded CWE law definitions. Each effect sets the same 54 law groups as effect_modern_utopian_laws.
+
+# United States of Great Columbia (ZGC)
+# Federal liberal presidential superstate; high-capital, service-led and globally interventionist.
+effect_zgc_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_fair_voting
+    activate_law = law_type:law_first_past_the_post
+    activate_law = law_type:law_parties_allowed
+    activate_law = law_type:law_independent_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_yes_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_no_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_diplomatic_navy
+    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_common_law
+    activate_law = law_type:law_HOS_president
+    activate_law = law_type:law_HOG_none
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_medium_social_security
+    activate_law = law_type:law_free_trade
+    activate_law = law_type:law_taxation_4
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_medium_minimum_wage
+    activate_law = law_type:law_pro_industry_regulations
+    activate_law = law_type:law_moderate_financial_regulations
+    activate_law = law_type:law_weak_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_moderate_environment_law
+    activate_law = law_type:law_globalist_fp
+    activate_law = law_type:law_full_foreign_investment_policy
+    activate_law = law_type:law_pro_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_services_focus
+    activate_law = law_type:law_laissez_faire
+    activate_law = law_type:law_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_offensive_war
+    activate_law = law_type:law_balanced_policing
+    activate_law = law_type:law_restricted_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_full_free_speech
+    activate_law = law_type:law_very_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_full_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_allowed
+    activate_law = law_type:law_offensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_total_separation
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Anáhuac (ZAH)
+# Federal social-developmentalist democracy built around industrialization and regional autonomy.
+effect_zah_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_fair_voting
+    activate_law = law_type:law_propotional_representation
+    activate_law = law_type:law_parties_allowed
+    activate_law = law_type:law_independent_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_yes_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_no_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_professional_navy
+    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_president
+    activate_law = law_type:law_HOG_none
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_medium_social_security
+    activate_law = law_type:law_protectionism
+    activate_law = law_type:law_taxation_4
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_medium_minimum_wage
+    activate_law = law_type:law_balanced_regulations
+    activate_law = law_type:law_moderate_financial_regulations
+    activate_law = law_type:law_moderate_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_strong_environment_law
+    activate_law = law_type:law_regionalist_fp
+    activate_law = law_type:law_full_foreign_investment_policy
+    activate_law = law_type:law_no_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_manufacturing_focus
+    activate_law = law_type:law_social_capitalism
+    activate_law = law_type:law_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_defensive_war
+    activate_law = law_type:law_balanced_policing
+    activate_law = law_type:law_full_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_full_free_speech
+    activate_law = law_type:law_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_full_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_banned
+    activate_law = law_type:law_defensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_total_separation
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Bolivaria (ZBV)
+# Populist presidential federation: redistributive, resource-nationalist and electorally dominant-party.
+effect_zbv_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_fair_voting
+    activate_law = law_type:law_propotional_representation
+    activate_law = law_type:law_dominant_party_state
+    activate_law = law_type:law_independent_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_yes_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_no_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_professional_navy
+    activate_law = law_type:law_executive_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_president
+    activate_law = law_type:law_HOG_none
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_unicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_high_social_security
+    activate_law = law_type:law_protectionism
+    activate_law = law_type:law_taxation_5
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_high_minimum_wage
+    activate_law = law_type:law_pro_consumer_regulations
+    activate_law = law_type:law_strong_financial_regulations
+    activate_law = law_type:law_strong_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_moderate_environment_law
+    activate_law = law_type:law_regionalist_fp
+    activate_law = law_type:law_nationalist_foreign_investment_policy
+    activate_law = law_type:law_no_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_natural_resource_focus
+    activate_law = law_type:law_state_capitalism
+    activate_law = law_type:law_non_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_defensive_war
+    activate_law = law_type:law_strict_policing
+    activate_law = law_type:law_full_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_full_free_speech
+    activate_law = law_type:law_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_full_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_banned
+    activate_law = law_type:law_defensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_freedom_of_conscience
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Australis (ZAU)
+# Southern South American federal social democracy balancing open markets, welfare, resources and environmentalism.
+effect_zau_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_fair_voting
+    activate_law = law_type:law_propotional_representation
+    activate_law = law_type:law_parties_allowed
+    activate_law = law_type:law_independent_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_yes_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_no_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_professional_navy
+    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_president
+    activate_law = law_type:law_HOG_none
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_high_social_security
+    activate_law = law_type:law_free_trade
+    activate_law = law_type:law_taxation_5
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_high_minimum_wage
+    activate_law = law_type:law_balanced_regulations
+    activate_law = law_type:law_strong_financial_regulations
+    activate_law = law_type:law_strong_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_strong_environment_law
+    activate_law = law_type:law_globalist_fp
+    activate_law = law_type:law_full_foreign_investment_policy
+    activate_law = law_type:law_pro_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_no_economic_specialisation
+    activate_law = law_type:law_social_capitalism
+    activate_law = law_type:law_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_defensive_war
+    activate_law = law_type:law_balanced_policing
+    activate_law = law_type:law_full_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_full_free_speech
+    activate_law = law_type:law_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_full_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_banned
+    activate_law = law_type:law_defensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_total_separation
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Germania (ZGR)
+# Illiberal nationalist federal state: technocratic, manufacturing-first, corporatist and heavily securitized.
+effect_zgr_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_harassment_voting
+    activate_law = law_type:law_propotional_representation
+    activate_law = law_type:law_dominant_party_state
+    activate_law = law_type:law_partially_politicised_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_no_term_limit
+    activate_law = law_type:law_no_secession_rights
+    activate_law = law_type:law_semi_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_professional_navy
+    activate_law = law_type:law_executive_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_nationalist_leader
+    activate_law = law_type:law_HOG_none
+    activate_law = law_type:law_technocratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_high_social_security
+    activate_law = law_type:law_protectionism
+    activate_law = law_type:law_taxation_5
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_high_minimum_wage
+    activate_law = law_type:law_pro_industry_regulations
+    activate_law = law_type:law_strong_financial_regulations
+    activate_law = law_type:law_strong_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_moderate_environment_law
+    activate_law = law_type:law_nationalist_fp
+    activate_law = law_type:law_nationalist_foreign_investment_policy
+    activate_law = law_type:law_pro_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_manufacturing_focus
+    activate_law = law_type:law_state_capitalism
+    activate_law = law_type:law_non_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_offensive_war
+    activate_law = law_type:law_strict_policing
+    activate_law = law_type:law_restricted_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_limited_free_speech
+    activate_law = law_type:law_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_some_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_allowed
+    activate_law = law_type:law_offensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_freedom_of_conscience
+    activate_law = law_type:law_cultural_exclusion
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Balkan Union (ZBK)
+# Turkish-led federal republic: electorally competitive, military-influenced, developmental and regionally assertive.
+effect_zbk_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_fair_voting
+    activate_law = law_type:law_propotional_representation
+    activate_law = law_type:law_parties_allowed
+    activate_law = law_type:law_partially_politicised_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_yes_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_semi_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_diplomatic_navy
+    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_president
+    activate_law = law_type:law_HOG_president_prime_minister
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_medium_social_security
+    activate_law = law_type:law_free_trade
+    activate_law = law_type:law_taxation_4
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_medium_minimum_wage
+    activate_law = law_type:law_pro_industry_regulations
+    activate_law = law_type:law_moderate_financial_regulations
+    activate_law = law_type:law_moderate_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_moderate_environment_law
+    activate_law = law_type:law_regionalist_fp
+    activate_law = law_type:law_full_foreign_investment_policy
+    activate_law = law_type:law_pro_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_natural_resource_focus
+    activate_law = law_type:law_social_capitalism
+    activate_law = law_type:law_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_offensive_war
+    activate_law = law_type:law_balanced_policing
+    activate_law = law_type:law_restricted_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_limited_free_speech
+    activate_law = law_type:law_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_some_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_banned
+    activate_law = law_type:law_defensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_freedom_of_conscience
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Occidentia (ZOC)
+# Federal Western European parliamentary republic: highly regulated social capitalism with maximal civil rights.
+effect_zoc_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_fair_voting
+    activate_law = law_type:law_propotional_representation
+    activate_law = law_type:law_parties_allowed
+    activate_law = law_type:law_independent_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_yes_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_no_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_diplomatic_navy
+    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_president
+    activate_law = law_type:law_HOG_prime_minister
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_high_social_security
+    activate_law = law_type:law_free_trade
+    activate_law = law_type:law_taxation_5
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_high_minimum_wage
+    activate_law = law_type:law_pro_consumer_regulations
+    activate_law = law_type:law_strong_financial_regulations
+    activate_law = law_type:law_strong_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_strong_environment_law
+    activate_law = law_type:law_globalist_fp
+    activate_law = law_type:law_full_foreign_investment_policy
+    activate_law = law_type:law_pro_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_services_focus
+    activate_law = law_type:law_social_capitalism
+    activate_law = law_type:law_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_defensive_war
+    activate_law = law_type:law_lenient_policing
+    activate_law = law_type:law_full_trade_unions
+    activate_law = law_type:law_no_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_full_free_speech
+    activate_law = law_type:law_very_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_full_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_allowed
+    activate_law = law_type:law_offensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_total_separation
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Kalmar (ZKA)
+# Nordic federal constitutional monarchy: cooperative economy, universal welfare, strong labor and restrained security policy.
+effect_zka_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_fair_voting
+    activate_law = law_type:law_propotional_representation
+    activate_law = law_type:law_parties_allowed
+    activate_law = law_type:law_independent_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_no_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_no_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_diplomatic_navy
+    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_monarch
+    activate_law = law_type:law_HOG_prime_minister
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_high_social_security
+    activate_law = law_type:law_free_trade
+    activate_law = law_type:law_taxation_5
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_high_minimum_wage
+    activate_law = law_type:law_pro_consumer_regulations
+    activate_law = law_type:law_strong_financial_regulations
+    activate_law = law_type:law_strong_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_strong_environment_law
+    activate_law = law_type:law_globalist_fp
+    activate_law = law_type:law_full_foreign_investment_policy
+    activate_law = law_type:law_pro_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_services_focus
+    activate_law = law_type:law_cooperative_ownership
+    activate_law = law_type:law_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_defensive_war
+    activate_law = law_type:law_lenient_policing
+    activate_law = law_type:law_full_trade_unions
+    activate_law = law_type:law_no_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_full_free_speech
+    activate_law = law_type:law_very_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_full_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_banned
+    activate_law = law_type:law_defensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_total_separation
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# The Union (ZUN)
+# Neo-Soviet Eurasian federation: single-party, semi-command economy, militarized and socially paternalist.
+effect_zun_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_rigged_voting
+    activate_law = law_type:law_first_past_the_post
+    activate_law = law_type:law_single_party_state
+    activate_law = law_type:law_politicised_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_no_term_limit
+    activate_law = law_type:law_no_secession_rights
+    activate_law = law_type:law_politicised_armed_forces
+    activate_law = law_type:law_mass_conscription
+    activate_law = law_type:law_professional_navy
+    activate_law = law_type:law_executive_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_communist_leader
+    activate_law = law_type:law_HOG_none
+    activate_law = law_type:law_technocratic_legislature
+    activate_law = law_type:law_unicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_high_social_security
+    activate_law = law_type:law_mercantilism
+    activate_law = law_type:law_taxation_4
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_medium_minimum_wage
+    activate_law = law_type:law_pro_industry_regulations
+    activate_law = law_type:law_strong_financial_regulations
+    activate_law = law_type:law_strong_company_regulations
+    activate_law = law_type:law_limited_private_land_ownership
+    activate_law = law_type:law_weak_environment_law
+    activate_law = law_type:law_nationalist_fp
+    activate_law = law_type:law_nationalist_foreign_investment_policy
+    activate_law = law_type:law_pro_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_no_economic_specialisation
+    activate_law = law_type:law_semi_command_economy
+    activate_law = law_type:law_non_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_offensive_war
+    activate_law = law_type:law_draconian_policing
+    activate_law = law_type:law_state_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_secret_police
+    activate_law = law_type:law_censorship
+    activate_law = law_type:law_medium_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_some_minority_issues
+    activate_law = law_type:law_some_gender_issues
+    activate_law = law_type:law_wmd_allowed
+    activate_law = law_type:law_offensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_state_atheism
+    activate_law = law_type:law_cultural_exclusion
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Arabia (ZAB)
+# Saudi-centered devolved rentier monarchy: paternalist welfare, state capitalism, religion and dynastic security institutions.
+effect_zab_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_no_voting
+    activate_law = law_type:law_first_past_the_post
+    activate_law = law_type:law_parties_not_allowed
+    activate_law = law_type:law_politicised_judiciary
+    activate_law = law_type:law_semi_nepotistic_cabinet
+    activate_law = law_type:law_elitist_bureaucrats
+    activate_law = law_type:law_no_term_limit
+    activate_law = law_type:law_no_secession_rights
+    activate_law = law_type:law_semi_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_professional_navy
+    activate_law = law_type:law_executive_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_monarch
+    activate_law = law_type:law_HOG_none
+    activate_law = law_type:law_appointed_legislature
+    activate_law = law_type:law_unicameralism
+    activate_law = law_type:law_devolved_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_high_social_security
+    activate_law = law_type:law_mercantilism
+    activate_law = law_type:law_taxation_2
+    activate_law = law_type:law_regulatory_bodies
+    activate_law = law_type:law_low_minimum_wage
+    activate_law = law_type:law_pro_industry_regulations
+    activate_law = law_type:law_moderate_financial_regulations
+    activate_law = law_type:law_moderate_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_weak_environment_law
+    activate_law = law_type:law_regionalist_fp
+    activate_law = law_type:law_nationalist_foreign_investment_policy
+    activate_law = law_type:law_pro_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_religious_schools
+    activate_law = law_type:law_natural_resource_focus
+    activate_law = law_type:law_state_capitalism
+    activate_law = law_type:law_non_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_offensive_war
+    activate_law = law_type:law_strict_policing
+    activate_law = law_type:law_trade_unions_banned
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_secret_police
+    activate_law = law_type:law_censorship
+    activate_law = law_type:law_medium_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_some_minority_issues
+    activate_law = law_type:law_some_gender_issues
+    activate_law = law_type:law_wmd_allowed
+    activate_law = law_type:law_offensive_espionage
+    activate_law = law_type:law_women_in_the_workplace
+    activate_law = law_type:law_state_religion
+    activate_law = law_type:law_national_supremacy
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Eranshahr (ZER)
+# Persian nationalist federal developmental state: technocratic authoritarianism with protected industry and controlled pluralism.
+effect_zer_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_harassment_voting
+    activate_law = law_type:law_first_past_the_post
+    activate_law = law_type:law_dominant_party_state
+    activate_law = law_type:law_partially_politicised_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_no_term_limit
+    activate_law = law_type:law_no_secession_rights
+    activate_law = law_type:law_semi_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_professional_navy
+    activate_law = law_type:law_executive_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_nationalist_leader
+    activate_law = law_type:law_HOG_none
+    activate_law = law_type:law_technocratic_legislature
+    activate_law = law_type:law_hybrid_chamber
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_medium_social_security
+    activate_law = law_type:law_protectionism
+    activate_law = law_type:law_taxation_4
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_medium_minimum_wage
+    activate_law = law_type:law_pro_industry_regulations
+    activate_law = law_type:law_strong_financial_regulations
+    activate_law = law_type:law_strong_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_moderate_environment_law
+    activate_law = law_type:law_nationalist_fp
+    activate_law = law_type:law_nationalist_foreign_investment_policy
+    activate_law = law_type:law_pro_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_manufacturing_focus
+    activate_law = law_type:law_state_capitalism
+    activate_law = law_type:law_non_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_offensive_war
+    activate_law = law_type:law_strict_policing
+    activate_law = law_type:law_restricted_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_secret_police
+    activate_law = law_type:law_limited_free_speech
+    activate_law = law_type:law_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_some_minority_issues
+    activate_law = law_type:law_some_gender_issues
+    activate_law = law_type:law_wmd_allowed
+    activate_law = law_type:law_offensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_freedom_of_conscience
+    activate_law = law_type:law_national_supremacy
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Guinea (ZGN)
+# Nigeria-led West African federal democracy: pragmatic developmentalism, resources, regional trade protection and pluralism.
+effect_zgn_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_fair_voting
+    activate_law = law_type:law_first_past_the_post
+    activate_law = law_type:law_parties_allowed
+    activate_law = law_type:law_independent_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_yes_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_no_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_professional_navy
+    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_common_law
+    activate_law = law_type:law_HOS_president
+    activate_law = law_type:law_HOG_none
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_medium_social_security
+    activate_law = law_type:law_protectionism
+    activate_law = law_type:law_taxation_3
+    activate_law = law_type:law_regulatory_bodies
+    activate_law = law_type:law_low_minimum_wage
+    activate_law = law_type:law_balanced_regulations
+    activate_law = law_type:law_moderate_financial_regulations
+    activate_law = law_type:law_moderate_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_moderate_environment_law
+    activate_law = law_type:law_regionalist_fp
+    activate_law = law_type:law_full_foreign_investment_policy
+    activate_law = law_type:law_no_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_natural_resource_focus
+    activate_law = law_type:law_interventionism
+    activate_law = law_type:law_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_defensive_war
+    activate_law = law_type:law_balanced_policing
+    activate_law = law_type:law_full_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_full_free_speech
+    activate_law = law_type:law_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_full_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_banned
+    activate_law = law_type:law_defensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_freedom_of_conscience
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Kongo (ZKG)
+# Central African developmental federation: authoritarian, resource-led and state-capitalist, but deliberately multicultural.
+effect_zkg_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_rigged_voting
+    activate_law = law_type:law_first_past_the_post
+    activate_law = law_type:law_dominant_party_state
+    activate_law = law_type:law_partially_politicised_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_no_term_limit
+    activate_law = law_type:law_no_secession_rights
+    activate_law = law_type:law_semi_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_professional_navy
+    activate_law = law_type:law_executive_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_nationalist_leader
+    activate_law = law_type:law_HOG_none
+    activate_law = law_type:law_technocratic_legislature
+    activate_law = law_type:law_unicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_low_social_security
+    activate_law = law_type:law_mercantilism
+    activate_law = law_type:law_taxation_3
+    activate_law = law_type:law_regulatory_bodies
+    activate_law = law_type:law_low_minimum_wage
+    activate_law = law_type:law_pro_industry_regulations
+    activate_law = law_type:law_strong_financial_regulations
+    activate_law = law_type:law_strong_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_moderate_environment_law
+    activate_law = law_type:law_regionalist_fp
+    activate_law = law_type:law_nationalist_foreign_investment_policy
+    activate_law = law_type:law_no_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_natural_resource_focus
+    activate_law = law_type:law_state_capitalism
+    activate_law = law_type:law_non_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_defensive_war
+    activate_law = law_type:law_strict_policing
+    activate_law = law_type:law_state_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_secret_police
+    activate_law = law_type:law_limited_free_speech
+    activate_law = law_type:law_medium_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_some_minority_issues
+    activate_law = law_type:law_some_gender_issues
+    activate_law = law_type:law_wmd_banned
+    activate_law = law_type:law_offensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_freedom_of_conscience
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Azania (ZAZ)
+# East African federal developmental democracy: manufacturing-oriented, institution-building and pan-regional.
+effect_zaz_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_fair_voting
+    activate_law = law_type:law_propotional_representation
+    activate_law = law_type:law_parties_allowed
+    activate_law = law_type:law_independent_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_yes_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_no_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_professional_navy
+    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_president
+    activate_law = law_type:law_HOG_president_prime_minister
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_medium_social_security
+    activate_law = law_type:law_protectionism
+    activate_law = law_type:law_taxation_4
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_medium_minimum_wage
+    activate_law = law_type:law_balanced_regulations
+    activate_law = law_type:law_moderate_financial_regulations
+    activate_law = law_type:law_moderate_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_strong_environment_law
+    activate_law = law_type:law_regionalist_fp
+    activate_law = law_type:law_full_foreign_investment_policy
+    activate_law = law_type:law_no_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_manufacturing_focus
+    activate_law = law_type:law_interventionism
+    activate_law = law_type:law_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_defensive_war
+    activate_law = law_type:law_balanced_policing
+    activate_law = law_type:law_full_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_full_free_speech
+    activate_law = law_type:law_very_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_full_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_banned
+    activate_law = law_type:law_defensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_total_separation
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Mzansi (ZMZ)
+# Southern African constitutional federation: social-democratic, labor-friendly, multicultural and explicitly redress-oriented.
+effect_zmz_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_fair_voting
+    activate_law = law_type:law_propotional_representation
+    activate_law = law_type:law_parties_allowed
+    activate_law = law_type:law_independent_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_yes_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_no_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_professional_navy
+    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_common_law
+    activate_law = law_type:law_HOS_president
+    activate_law = law_type:law_HOG_none
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_high_social_security
+    activate_law = law_type:law_free_trade
+    activate_law = law_type:law_taxation_5
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_high_minimum_wage
+    activate_law = law_type:law_pro_consumer_regulations
+    activate_law = law_type:law_strong_financial_regulations
+    activate_law = law_type:law_strong_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_strong_environment_law
+    activate_law = law_type:law_globalist_fp
+    activate_law = law_type:law_full_foreign_investment_policy
+    activate_law = law_type:law_no_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_services_focus
+    activate_law = law_type:law_social_capitalism
+    activate_law = law_type:law_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_defensive_war
+    activate_law = law_type:law_balanced_policing
+    activate_law = law_type:law_full_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_full_free_speech
+    activate_law = law_type:law_very_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_full_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_banned
+    activate_law = law_type:law_defensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_total_separation
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_affirmative_action
+}
+
+
+# Bharatvarsha (ZBT)
+# Reunified South Asian federal parliamentary republic: pluralist, welfare-oriented, industrial and strategically autonomous.
+effect_zbt_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_fair_voting
+    activate_law = law_type:law_first_past_the_post
+    activate_law = law_type:law_parties_allowed
+    activate_law = law_type:law_independent_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_yes_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_no_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_professional_navy
+    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_common_law
+    activate_law = law_type:law_HOS_president
+    activate_law = law_type:law_HOG_prime_minister
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_high_social_security
+    activate_law = law_type:law_protectionism
+    activate_law = law_type:law_taxation_4
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_medium_minimum_wage
+    activate_law = law_type:law_balanced_regulations
+    activate_law = law_type:law_moderate_financial_regulations
+    activate_law = law_type:law_moderate_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_moderate_environment_law
+    activate_law = law_type:law_regionalist_fp
+    activate_law = law_type:law_full_foreign_investment_policy
+    activate_law = law_type:law_anti_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_manufacturing_focus
+    activate_law = law_type:law_social_capitalism
+    activate_law = law_type:law_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_offensive_war
+    activate_law = law_type:law_strict_policing
+    activate_law = law_type:law_full_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_full_free_speech
+    activate_law = law_type:law_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_full_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_allowed
+    activate_law = law_type:law_offensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_total_separation
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_affirmative_action
+}
+
+
+# Zhonghua (ZHH)
+# Chinese-led unitary party-state: technocratic state capitalism, industrial primacy, demographic mobilization and hard security.
+effect_zhh_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_rigged_voting
+    activate_law = law_type:law_first_past_the_post
+    activate_law = law_type:law_single_party_state
+    activate_law = law_type:law_politicised_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_no_term_limit
+    activate_law = law_type:law_no_secession_rights
+    activate_law = law_type:law_politicised_armed_forces
+    activate_law = law_type:law_mass_conscription
+    activate_law = law_type:law_diplomatic_navy
+    activate_law = law_type:law_executive_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_communist_leader
+    activate_law = law_type:law_HOG_none
+    activate_law = law_type:law_technocratic_legislature
+    activate_law = law_type:law_unicameralism
+    activate_law = law_type:law_unitary_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_medium_social_security
+    activate_law = law_type:law_mercantilism
+    activate_law = law_type:law_taxation_4
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_medium_minimum_wage
+    activate_law = law_type:law_pro_industry_regulations
+    activate_law = law_type:law_strong_financial_regulations
+    activate_law = law_type:law_strong_company_regulations
+    activate_law = law_type:law_limited_private_land_ownership
+    activate_law = law_type:law_moderate_environment_law
+    activate_law = law_type:law_nationalist_fp
+    activate_law = law_type:law_nationalist_foreign_investment_policy
+    activate_law = law_type:law_pro_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_manufacturing_focus
+    activate_law = law_type:law_state_capitalism
+    activate_law = law_type:law_non_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_offensive_war
+    activate_law = law_type:law_draconian_policing
+    activate_law = law_type:law_state_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_secret_police
+    activate_law = law_type:law_censorship
+    activate_law = law_type:law_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_some_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_allowed
+    activate_law = law_type:law_offensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_state_atheism
+    activate_law = law_type:law_cultural_exclusion
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Suvarnabhumi (ZSV)
+# Mainland Southeast Asian devolved constitutional monarchy: export-industrial, socially moderate and regionally integrationist.
+effect_zsv_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_fair_voting
+    activate_law = law_type:law_propotional_representation
+    activate_law = law_type:law_parties_allowed
+    activate_law = law_type:law_independent_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_no_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_no_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_professional_navy
+    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_monarch
+    activate_law = law_type:law_HOG_prime_minister
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_devolved_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_medium_social_security
+    activate_law = law_type:law_free_trade
+    activate_law = law_type:law_taxation_4
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_medium_minimum_wage
+    activate_law = law_type:law_balanced_regulations
+    activate_law = law_type:law_moderate_financial_regulations
+    activate_law = law_type:law_moderate_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_moderate_environment_law
+    activate_law = law_type:law_regionalist_fp
+    activate_law = law_type:law_full_foreign_investment_policy
+    activate_law = law_type:law_no_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_manufacturing_focus
+    activate_law = law_type:law_social_capitalism
+    activate_law = law_type:law_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_defensive_war
+    activate_law = law_type:law_balanced_policing
+    activate_law = law_type:law_full_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_full_free_speech
+    activate_law = law_type:law_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_full_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_banned
+    activate_law = law_type:law_defensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_freedom_of_conscience
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Nusantara (ZNS)
+# Maritime federal semi-presidential developmental state: dominant-party, resource-rich, trade-protective and commercially outward.
+effect_zns_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_gerrymandered_voting
+    activate_law = law_type:law_propotional_representation
+    activate_law = law_type:law_dominant_party_state
+    activate_law = law_type:law_independent_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_yes_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_no_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_diplomatic_navy
+    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_civil_law
+    activate_law = law_type:law_HOS_president
+    activate_law = law_type:law_HOG_president_prime_minister
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_medium_social_security
+    activate_law = law_type:law_protectionism
+    activate_law = law_type:law_taxation_4
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_medium_minimum_wage
+    activate_law = law_type:law_pro_industry_regulations
+    activate_law = law_type:law_moderate_financial_regulations
+    activate_law = law_type:law_moderate_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_moderate_environment_law
+    activate_law = law_type:law_regionalist_fp
+    activate_law = law_type:law_full_foreign_investment_policy
+    activate_law = law_type:law_no_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_natural_resource_focus
+    activate_law = law_type:law_state_capitalism
+    activate_law = law_type:law_non_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_defensive_war
+    activate_law = law_type:law_strict_policing
+    activate_law = law_type:law_restricted_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_limited_free_speech
+    activate_law = law_type:law_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_full_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_banned
+    activate_law = law_type:law_defensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_freedom_of_conscience
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_hindu_caste_not_enforced
+}
+
+
+# Oceania (ZOE)
+# Pacific federal parliamentary republic: high-welfare, service-led, open-market and environmentally stringent.
+effect_zoe_laws = {
+    # --- STATE STRUCTURE & POLITICAL SYSTEM ---
+    activate_law = law_type:law_fair_voting
+    activate_law = law_type:law_propotional_representation
+    activate_law = law_type:law_parties_allowed
+    activate_law = law_type:law_independent_judiciary
+    activate_law = law_type:law_meritocratic_cabinet
+    activate_law = law_type:law_professional_bureaucrats
+    activate_law = law_type:law_yes_term_limit
+    activate_law = law_type:law_limited_secession_rights
+    activate_law = law_type:law_no_politicised_armed_forces
+    activate_law = law_type:law_professional_army
+    activate_law = law_type:law_diplomatic_navy
+    activate_law = law_type:law_constitutional_supremacy
+    activate_law = law_type:law_common_law
+    activate_law = law_type:law_HOS_president
+    activate_law = law_type:law_HOG_prime_minister
+    activate_law = law_type:law_democratic_legislature
+    activate_law = law_type:law_bicameralism
+    activate_law = law_type:law_federal_state
+
+    # --- ECONOMIC & SOCIAL MODEL ---
+    activate_law = law_type:law_high_social_security
+    activate_law = law_type:law_free_trade
+    activate_law = law_type:law_taxation_5
+    activate_law = law_type:law_worker_protections
+    activate_law = law_type:law_high_minimum_wage
+    activate_law = law_type:law_pro_consumer_regulations
+    activate_law = law_type:law_strong_financial_regulations
+    activate_law = law_type:law_strong_company_regulations
+    activate_law = law_type:law_full_private_land_ownership
+    activate_law = law_type:law_strong_environment_law
+    activate_law = law_type:law_globalist_fp
+    activate_law = law_type:law_full_foreign_investment_policy
+    activate_law = law_type:law_pro_pop_growth_policy
+    activate_law = law_type:law_public_health_insurance
+    activate_law = law_type:law_public_schools
+    activate_law = law_type:law_services_focus
+    activate_law = law_type:law_social_capitalism
+    activate_law = law_type:law_independent_central_bank
+
+    # --- SECURITY, RIGHTS & SOCIAL ORDER ---
+    activate_law = law_type:law_slavery_banned
+    activate_law = law_type:law_defensive_war
+    activate_law = law_type:law_balanced_policing
+    activate_law = law_type:law_full_trade_unions
+    activate_law = law_type:law_migration_controls
+    activate_law = law_type:law_no_secret_police
+    activate_law = law_type:law_full_free_speech
+    activate_law = law_type:law_very_high_anti_corruption
+    activate_law = law_type:law_no_colonial_affairs
+    activate_law = law_type:law_compulsory_primary_school
+    activate_law = law_type:law_full_minority_issues
+    activate_law = law_type:law_full_gender_issues
+    activate_law = law_type:law_wmd_banned
+    activate_law = law_type:law_defensive_espionage
+    activate_law = law_type:law_womens_suffrage
+    activate_law = law_type:law_total_separation
+    activate_law = law_type:law_multicultural
+    activate_law = law_type:law_hindu_caste_not_enforced
 }

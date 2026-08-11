@@ -1,0 +1,1141 @@
+form_zgc_decision = {
+	is_shown = {
+		is_player = yes
+		c:USA ?= this
+		NOT = { exists = c:ZGC }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:CAN ?= this
+					c:LSK ?= this
+					c:HAW ?= this
+					c:NFL ?= this
+					c:QUE ?= this
+					c:CSC ?= this
+					c:EUS ?= this
+					c:WUS ?= this
+					c:CUS ?= this
+					c:SUS ?= this
+					c:ASA ?= this
+					c:TEX ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_usa
+		remove_modifier = modern_country_power_canada
+		change_tag = ZGC
+		add_primary_culture = cu:afro_american
+		add_primary_culture = cu:anglo_canadian
+		add_primary_culture = cu:athabaskan
+		add_primary_culture = cu:franco_canadian
+		add_primary_culture = cu:hawaiian
+		effect_zgc_laws = yes
+		add_modifier = {
+			name = modern_country_power_zgc
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zah_decision = {
+	is_shown = {
+		is_player = yes
+		c:MEX ?= this
+		NOT = { exists = c:ZAH }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:GUA ?= this
+					c:BLZ ?= this
+					c:HON ?= this
+					c:ELS ?= this
+					c:NIC ?= this
+					c:COS ?= this
+					c:PNM ?= this
+					c:ZAP ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_mexico
+		remove_modifier = modern_country_power_panama
+		change_tag = ZAH
+		add_primary_culture = cu:belizean
+		add_primary_culture = cu:costa_rican
+		add_primary_culture = cu:guatemalan
+		add_primary_culture = cu:honduran
+		add_primary_culture = cu:nicaraguan
+		add_primary_culture = cu:panamanian
+		add_primary_culture = cu:salvadoran
+		add_primary_culture = cu:zapotec
+		effect_zah_laws = yes
+		add_modifier = {
+			name = modern_country_power_zah
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zbv_decision = {
+	is_shown = {
+		is_player = yes
+		c:CLM ?= this
+		NOT = { exists = c:ZBV }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:VNZ ?= this
+					c:ECU ?= this
+					c:PEU ?= this
+					c:BOL ?= this
+					c:GUY ?= this
+					c:SUR ?= this
+					c:FGY ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_colombia
+		remove_modifier = modern_country_power_peru
+		change_tag = ZBV
+		add_primary_culture = cu:bolivian
+		add_primary_culture = cu:ecuadorian
+		add_primary_culture = cu:franco_guyanese
+		add_primary_culture = cu:guyanese
+		add_primary_culture = cu:peruvian
+		add_primary_culture = cu:surinamese
+		add_primary_culture = cu:venezuelan
+		effect_zbv_laws = yes
+		add_modifier = {
+			name = modern_country_power_zbv
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zau_decision = {
+	is_shown = {
+		is_player = yes
+		c:BRZ ?= this
+		NOT = { exists = c:ZAU }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:ARG ?= this
+					c:CHL ?= this
+					c:PRG ?= this
+					c:URU ?= this
+					c:FLK ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_brazil
+		remove_modifier = modern_country_power_argentina
+		remove_modifier = modern_country_power_chile
+		change_tag = ZAU
+		add_primary_culture = cu:argentinian
+		add_primary_culture = cu:bolivian
+		add_primary_culture = cu:british
+		add_primary_culture = cu:chilean
+		add_primary_culture = cu:paraguayan
+		add_primary_culture = cu:uruguayan
+		effect_zau_laws = yes
+		add_modifier = {
+			name = modern_country_power_zau
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zgr_decision = {
+	is_shown = {
+		is_player = yes
+		c:GER ?= this
+		NOT = { exists = c:ZGR }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:AUS ?= this
+					c:POL ?= this
+					c:CZH ?= this
+					c:BOH ?= this
+					c:SLV ?= this
+					c:HUN ?= this
+					c:EST ?= this
+					c:LAT ?= this
+					c:LIT ?= this
+					c:BYE ?= this
+					c:UKR ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_germany
+		remove_modifier = modern_country_power_poland
+		remove_modifier = modern_country_power_czechia
+		remove_modifier = modern_country_power_ukraine
+		change_tag = ZGR
+		add_primary_culture = cu:austrian
+		add_primary_culture = cu:bavarian
+		add_primary_culture = cu:byelorussian
+		add_primary_culture = cu:czech
+		add_primary_culture = cu:czechoslovakian
+		add_primary_culture = cu:danish
+		add_primary_culture = cu:estonian
+		add_primary_culture = cu:hungarian
+		add_primary_culture = cu:latvian
+		add_primary_culture = cu:lithuanian
+		add_primary_culture = cu:polish
+		add_primary_culture = cu:russian
+		add_primary_culture = cu:slovak
+		add_primary_culture = cu:sorb
+		add_primary_culture = cu:soviet
+		add_primary_culture = cu:tatar
+		add_primary_culture = cu:ukrainian
+		effect_zgr_laws = yes
+		add_modifier = {
+			name = modern_country_power_zgr
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zbk_decision = {
+	is_shown = {
+		is_player = yes
+		c:TUR ?= this
+		NOT = { exists = c:ZBK }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:YUG ?= this
+					c:SLO ?= this
+					c:CRO ?= this
+					c:BOS ?= this
+					c:RSK ?= this
+					c:HZB ?= this
+					c:MON ?= this
+					c:SER ?= this
+					c:KOS ?= this
+					c:MCD ?= this
+					c:ROM ?= this
+					c:BUL ?= this
+					c:GRE ?= this
+					c:UGR ?= this
+					c:ALB ?= this
+					c:CYP ?= this
+					c:ECY ?= this
+					c:TRE ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_turkey
+		remove_modifier = modern_country_power_romania
+		change_tag = ZBK
+		add_primary_culture = cu:albanian
+		add_primary_culture = cu:armenian
+		add_primary_culture = cu:bosniak
+		add_primary_culture = cu:bulgarian
+		add_primary_culture = cu:croat
+		add_primary_culture = cu:cypriot
+		add_primary_culture = cu:georgian
+		add_primary_culture = cu:greek
+		add_primary_culture = cu:hungarian
+		add_primary_culture = cu:italian
+		add_primary_culture = cu:kosovan
+		add_primary_culture = cu:kurdish
+		add_primary_culture = cu:macedonian
+		add_primary_culture = cu:moldovan
+		add_primary_culture = cu:montenegrin
+		add_primary_culture = cu:romanian
+		add_primary_culture = cu:serb
+		add_primary_culture = cu:slovene
+		add_primary_culture = cu:soviet
+		add_primary_culture = cu:ukrainian
+		add_primary_culture = cu:yugoslavian
+		effect_zbk_laws = yes
+		add_modifier = {
+			name = modern_country_power_zbk
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zoc_decision = {
+	is_shown = {
+		is_player = yes
+		OR = {
+			c:FRA ?= this
+			c:GBR ?= this
+		}
+		NOT = { exists = c:ZOC }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:GBR ?= this
+					c:SIR ?= this
+					c:ITA ?= this
+					c:SPA ?= this
+					c:POR ?= this
+					c:BEL ?= this
+					c:NET ?= this
+					c:LUX ?= this
+					c:SWI ?= this
+					c:MLT ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_france
+		remove_modifier = modern_country_power_united_kingdom
+		remove_modifier = modern_country_power_ireland
+		remove_modifier = modern_country_power_italy
+		remove_modifier = modern_country_power_spain
+		remove_modifier = modern_country_power_belgium
+		remove_modifier = modern_country_power_netherlands
+		remove_modifier = modern_country_power_luxembourg
+		remove_modifier = modern_country_power_switzerland
+		change_tag = ZOC
+		add_primary_culture = cu:anglo_irish
+		add_primary_culture = cu:asturleonese
+		add_primary_culture = cu:austrian
+		add_primary_culture = cu:basque
+		add_primary_culture = cu:belgian
+		add_primary_culture = cu:breton
+		add_primary_culture = cu:british
+		add_primary_culture = cu:catalan
+		add_primary_culture = cu:corsican
+		add_primary_culture = cu:dutch
+		add_primary_culture = cu:english
+		add_primary_culture = cu:flemish
+		add_primary_culture = cu:galician
+		add_primary_culture = cu:german
+		add_primary_culture = cu:irish
+		add_primary_culture = cu:italian
+		add_primary_culture = cu:luxembourger
+		add_primary_culture = cu:maltese
+		add_primary_culture = cu:occitan
+		add_primary_culture = cu:portuguese
+		add_primary_culture = cu:scottish
+		add_primary_culture = cu:spanish
+		add_primary_culture = cu:swiss
+		add_primary_culture = cu:wallonian
+		add_primary_culture = cu:welsh
+		effect_zoc_laws = yes
+		add_modifier = {
+			name = modern_country_power_zoc
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zka_decision = {
+	is_shown = {
+		is_player = yes
+		c:SWE ?= this
+		NOT = { exists = c:ZKA }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:DEN ?= this
+					c:NOR ?= this
+					c:FIN ?= this
+					c:ICL ?= this
+					c:ALA ?= this
+					c:FAR ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_sweden
+		remove_modifier = modern_country_power_denmark
+		remove_modifier = modern_country_power_norway
+		change_tag = ZKA
+		add_primary_culture = cu:danish
+		add_primary_culture = cu:finnish
+		add_primary_culture = cu:icelandic
+		add_primary_culture = cu:inuit
+		add_primary_culture = cu:norwegian
+		add_primary_culture = cu:sami
+		effect_zka_laws = yes
+		add_modifier = {
+			name = modern_country_power_zka
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zun_decision = {
+	is_shown = {
+		is_player = yes
+		c:SOV ?= this
+		NOT = { exists = c:ZUN }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:RUS ?= this
+					c:MOL ?= this
+					c:GEO ?= this
+					c:ARM ?= this
+					c:AZB ?= this
+					c:KAZ ?= this
+					c:UZB ?= this
+					c:TKM ?= this
+					c:KYR ?= this
+					c:TAJ ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_russia
+		remove_modifier = modern_country_power_kazakhstan
+		change_tag = ZUN
+		add_primary_culture = cu:abkhaz
+		add_primary_culture = cu:ainu
+		add_primary_culture = cu:armenian
+		add_primary_culture = cu:azerbaijani
+		add_primary_culture = cu:chechen
+		add_primary_culture = cu:finnish
+		add_primary_culture = cu:gagauz
+		add_primary_culture = cu:georgian
+		add_primary_culture = cu:kazak
+		add_primary_culture = cu:kirgiz
+		add_primary_culture = cu:manchu
+		add_primary_culture = cu:moldovan
+		add_primary_culture = cu:mongol
+		add_primary_culture = cu:north_caucasian
+		add_primary_culture = cu:ossetic
+		add_primary_culture = cu:romanian
+		add_primary_culture = cu:sami
+		add_primary_culture = cu:siberian
+		add_primary_culture = cu:swedish
+		add_primary_culture = cu:tajik
+		add_primary_culture = cu:tatar
+		add_primary_culture = cu:turkmen
+		add_primary_culture = cu:uighur
+		add_primary_culture = cu:ukrainian
+		add_primary_culture = cu:uzbek
+		effect_zun_laws = yes
+		add_modifier = {
+			name = modern_country_power_zun
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zab_decision = {
+	is_shown = {
+		is_player = yes
+		c:NEJ ?= this
+		NOT = { exists = c:ZAB }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:FAE ?= this
+					c:UAE ?= this
+					c:BHR ?= this
+					c:QAT ?= this
+					c:KUW ?= this
+					c:OMA ?= this
+					c:YEM ?= this
+					c:NYE ?= this
+					c:SYE ?= this
+					c:JOR ?= this
+					c:SYR ?= this
+					c:LEB ?= this
+					c:PAL ?= this
+					c:GZA ?= this
+					c:EGY ?= this
+					c:SUD ?= this
+					c:LBY ?= this
+					c:TRI ?= this
+					c:FEZ ?= this
+					c:CYR ?= this
+					c:TUN ?= this
+					c:ALG ?= this
+					c:FAG ?= this
+					c:MOR ?= this
+					c:TGZ ?= this
+					c:WSA ?= this
+					c:MAU ?= this
+					c:UAR ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_saudi_arabia
+		remove_modifier = modern_country_power_united_arab_emirates
+		remove_modifier = modern_country_power_bahrain
+		remove_modifier = modern_country_power_qatar
+		remove_modifier = modern_country_power_kuwait
+		remove_modifier = modern_country_power_oman
+		remove_modifier = modern_country_power_egypt
+		remove_modifier = modern_country_power_algeria
+		remove_modifier = modern_country_power_morocco
+		change_tag = ZAB
+		add_primary_culture = cu:algerian
+		add_primary_culture = cu:bahraini
+		add_primary_culture = cu:darfuri
+		add_primary_culture = cu:egyptian
+		add_primary_culture = cu:emirati
+		add_primary_culture = cu:iraqi
+		add_primary_culture = cu:israeli
+		add_primary_culture = cu:jordanian
+		add_primary_culture = cu:kurdish
+		add_primary_culture = cu:lebanese
+		add_primary_culture = cu:libyan
+		add_primary_culture = cu:maghrebi
+		add_primary_culture = cu:mauritanian
+		add_primary_culture = cu:moroccan
+		add_primary_culture = cu:omani
+		add_primary_culture = cu:palestinian
+		add_primary_culture = cu:qatari
+		add_primary_culture = cu:saharan
+		add_primary_culture = cu:south_sudanese
+		add_primary_culture = cu:sudanese
+		add_primary_culture = cu:syrian
+		add_primary_culture = cu:tunisian
+		add_primary_culture = cu:turkish
+		add_primary_culture = cu:yemenite
+		effect_zab_laws = yes
+		add_modifier = {
+			name = modern_country_power_zab
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zer_decision = {
+	is_shown = {
+		is_player = yes
+		c:PER ?= this
+		NOT = { exists = c:ZER }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:AFG ?= this
+					c:IRQ ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_iran
+		remove_modifier = modern_country_power_iraq
+		change_tag = ZER
+		add_primary_culture = cu:armenian
+		add_primary_culture = cu:azerbaijani
+		add_primary_culture = cu:baluchi
+		add_primary_culture = cu:iraqi
+		add_primary_culture = cu:khuzestani
+		add_primary_culture = cu:kurdish
+		add_primary_culture = cu:pashtun
+		add_primary_culture = cu:turkish
+		effect_zer_laws = yes
+		add_modifier = {
+			name = modern_country_power_zer
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zgn_decision = {
+	is_shown = {
+		is_player = yes
+		c:NGE ?= this
+		NOT = { exists = c:ZGN }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:BEN ?= this
+					c:TOG ?= this
+					c:GHA ?= this
+					c:IVC ?= this
+					c:LIB ?= this
+					c:SIL ?= this
+					c:GUI ?= this
+					c:GNB ?= this
+					c:GAM ?= this
+					c:SEN ?= this
+					c:MAL ?= this
+					c:BUF ?= this
+					c:NIG ?= this
+					c:CPV ?= this
+					c:BIA ?= this
+					c:YOR ?= this
+					c:CME ?= this
+					c:MSF ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_nigeria
+		change_tag = ZGN
+		add_primary_culture = cu:azawagh
+		add_primary_culture = cu:beninese
+		add_primary_culture = cu:biafran
+		add_primary_culture = cu:bissau_guinean
+		add_primary_culture = cu:burkinese
+		add_primary_culture = cu:cabo_verdean
+		add_primary_culture = cu:gambian
+		add_primary_culture = cu:ghanaian
+		add_primary_culture = cu:guinean
+		add_primary_culture = cu:ivorian
+		add_primary_culture = cu:liberian
+		add_primary_culture = cu:malian
+		add_primary_culture = cu:nigerien
+		add_primary_culture = cu:senegalese
+		add_primary_culture = cu:sierra_leonean
+		add_primary_culture = cu:togolese
+		add_primary_culture = cu:yoruba
+		effect_zgn_laws = yes
+		add_modifier = {
+			name = modern_country_power_zgn
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zkg_decision = {
+	is_shown = {
+		is_player = yes
+		c:CNG ?= this
+		NOT = { exists = c:ZKG }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:FCG ?= this
+					c:ANG ?= this
+					c:CBA ?= this
+					c:GAB ?= this
+					c:CMR ?= this
+					c:CAR ?= this
+					c:CHA ?= this
+					c:EQG ?= this
+					c:STP ?= this
+					c:KAT ?= this
+					c:SKA ?= this
+					c:AMB ?= this
+					c:AEF ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_dr_congo
+		change_tag = ZKG
+		add_primary_culture = cu:ambazonian
+		add_primary_culture = cu:angolan
+		add_primary_culture = cu:cameroonian
+		add_primary_culture = cu:central_african
+		add_primary_culture = cu:chadian
+		add_primary_culture = cu:equatoguinean
+		add_primary_culture = cu:gabonese
+		add_primary_culture = cu:santomean
+		effect_zkg_laws = yes
+		add_modifier = {
+			name = modern_country_power_zkg
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zaz_decision = {
+	is_shown = {
+		is_player = yes
+		c:ETH ?= this
+		NOT = { exists = c:ZAZ }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:SOM ?= this
+					c:SML ?= this
+					c:KEN ?= this
+					c:TAN ?= this
+					c:TGY ?= this
+					c:ZAN ?= this
+					c:UGA ?= this
+					c:BUG ?= this
+					c:RWA ?= this
+					c:BRD ?= this
+					c:RBK ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_ethiopia
+		remove_modifier = modern_country_power_kenya
+		change_tag = ZAZ
+		add_primary_culture = cu:kenyan
+		add_primary_culture = cu:oromo
+		add_primary_culture = cu:ruanda
+		add_primary_culture = cu:rundi
+		add_primary_culture = cu:somali
+		add_primary_culture = cu:somalilander
+		add_primary_culture = cu:tanganyikan
+		add_primary_culture = cu:tanzanian
+		add_primary_culture = cu:tigray
+		add_primary_culture = cu:ugandan
+		add_primary_culture = cu:zanzibari
+		effect_zaz_laws = yes
+		add_modifier = {
+			name = modern_country_power_zaz
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zmz_decision = {
+	is_shown = {
+		is_player = yes
+		c:SAF ?= this
+		NOT = { exists = c:ZMZ }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:RSA ?= this
+					c:NMB ?= this
+					c:BOT ?= this
+					c:ZIM ?= this
+					c:RHO ?= this
+					c:ZAM ?= this
+					c:MLW ?= this
+					c:MOZ ?= this
+					c:LES ?= this
+					c:ESW ?= this
+					c:ZAR ?= this
+					c:CAF ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_south_africa
+		change_tag = ZMZ
+		add_primary_culture = cu:botswanan
+		add_primary_culture = cu:liswati
+		add_primary_culture = cu:malawian
+		add_primary_culture = cu:mozambican
+		add_primary_culture = cu:namibian
+		add_primary_culture = cu:rhodesian
+		add_primary_culture = cu:sotho
+		add_primary_culture = cu:south_african
+		add_primary_culture = cu:zambian
+		add_primary_culture = cu:zimbabwean
+		effect_zmz_laws = yes
+		add_modifier = {
+			name = modern_country_power_zmz
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zbt_decision = {
+	is_shown = {
+		is_player = yes
+		c:HND ?= this
+		NOT = { exists = c:ZBT }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:PAK ?= this
+					c:BNG ?= this
+					c:SRL ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_india
+		remove_modifier = modern_country_power_pakistan
+		remove_modifier = modern_country_power_bangladesh
+		change_tag = ZBT
+		add_primary_culture = cu:bageli
+		add_primary_culture = cu:bhutanese
+		add_primary_culture = cu:bundeli
+		add_primary_culture = cu:chhattisgarhi
+		add_primary_culture = cu:deccani
+		add_primary_culture = cu:gondi
+		add_primary_culture = cu:hindustani
+		add_primary_culture = cu:kashmiri
+		add_primary_culture = cu:maldivian
+		add_primary_culture = cu:manipuri
+		add_primary_culture = cu:naga
+		add_primary_culture = cu:pahari
+		add_primary_culture = cu:pakistani
+		add_primary_culture = cu:pathan
+		add_primary_culture = cu:sikkimese
+		add_primary_culture = cu:sinhala
+		add_primary_culture = cu:tibetan
+		effect_zbt_laws = yes
+		add_modifier = {
+			name = modern_country_power_zbt
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zhh_decision = {
+	is_shown = {
+		is_player = yes
+		OR = {
+			c:PRC ?= this
+			c:CHI ?= this
+		}
+		NOT = { exists = c:ZHH }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:PRC ?= this
+					c:CHI ?= this
+					c:MGL ?= this
+					c:NKO ?= this
+					c:NVM ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_china
+		remove_modifier = modern_country_power_vietnam
+		change_tag = ZHH
+		add_primary_culture = cu:korean
+		add_primary_culture = cu:mongol
+		add_primary_culture = cu:tibetan
+		add_primary_culture = cu:uighur
+		add_primary_culture = cu:vietnamese
+		effect_zhh_laws = yes
+		add_modifier = {
+			name = modern_country_power_zhh
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zsv_decision = {
+	is_shown = {
+		is_player = yes
+		c:THI ?= this
+		NOT = { exists = c:ZSV }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:BUR ?= this
+					c:LAO ?= this
+					c:CAM ?= this
+					c:SVM ?= this
+					c:KRN ?= this
+					c:KHN ?= this
+					c:SHS ?= this
+					c:HTH ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_thailand
+		remove_modifier = modern_country_power_vietnam
+		change_tag = ZSV
+		add_primary_culture = cu:burmese
+		add_primary_culture = cu:kachin
+		add_primary_culture = cu:karen
+		add_primary_culture = cu:khmer
+		add_primary_culture = cu:lao
+		add_primary_culture = cu:lushai
+		add_primary_culture = cu:mon
+		add_primary_culture = cu:shan
+		add_primary_culture = cu:vietnamese
+		effect_zsv_laws = yes
+		add_modifier = {
+			name = modern_country_power_zsv
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zns_decision = {
+	is_shown = {
+		is_player = yes
+		c:IDO ?= this
+		NOT = { exists = c:ZNS }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:MSY ?= this
+					c:MLY ?= this
+					c:CMY ?= this
+					c:SAB ?= this
+					c:SWK ?= this
+					c:KLM ?= this
+					c:DYK ?= this
+					c:ACE ?= this
+					c:YOG ?= this
+					c:SAK ?= this
+					c:JAV ?= this
+					c:BAL ?= this
+					c:EID ?= this
+					c:SMK ?= this
+					c:WPA ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_indonesia
+		remove_modifier = modern_country_power_malaysia
+		change_tag = ZNS
+		add_primary_culture = cu:bruneian
+		add_primary_culture = cu:kalimantan
+		add_primary_culture = cu:malay
+		add_primary_culture = cu:malaysian
+		add_primary_culture = cu:sabahan
+		add_primary_culture = cu:sarawakian
+		add_primary_culture = cu:singaporean
+		add_primary_culture = cu:timorese
+		add_primary_culture = cu:west_papuan
+		effect_zns_laws = yes
+		add_modifier = {
+			name = modern_country_power_zns
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}
+
+form_zoe_decision = {
+	is_shown = {
+		is_player = yes
+		c:AST ?= this
+		NOT = { exists = c:ZOE }
+	}
+	possible = { always = yes }
+	when_taken = {
+		save_scope_as = modern_superstate_founder
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				OR = {
+					c:NZL ?= this
+					c:AOT ?= this
+					c:PNG ?= this
+					c:SOL ?= this
+					c:VAN ?= this
+					c:NAU ?= this
+					c:PAU ?= this
+					c:NMI ?= this
+					c:MIC ?= this
+					c:MAR ?= this
+					c:TVU ?= this
+					c:NCD ?= this
+					c:FIJ ?= this
+					c:WAF ?= this
+					c:KIR ?= this
+					c:SAM ?= this
+					c:ESM ?= this
+					c:TON ?= this
+					c:NIU ?= this
+					c:COI ?= this
+					c:TKE ?= this
+					c:PYI ?= this
+					c:BOU ?= this
+				}
+			}
+			save_scope_as = modern_superstate_member
+			scope:modern_superstate_founder = {
+				annex_with_incorporation = scope:modern_superstate_member
+			}
+		}
+		remove_modifier = modern_country_power_australia
+		remove_modifier = modern_country_power_new_zealand
+		change_tag = ZOE
+		add_primary_culture = cu:aborigine
+		add_primary_culture = cu:bougainvillean
+		add_primary_culture = cu:east_papuan
+		add_primary_culture = cu:fijian
+		add_primary_culture = cu:kiribati
+		add_primary_culture = cu:maori
+		add_primary_culture = cu:marshallese
+		add_primary_culture = cu:micronesian
+		add_primary_culture = cu:nauruan
+		add_primary_culture = cu:new_caledonian
+		add_primary_culture = cu:new_zealander
+		add_primary_culture = cu:polynesian
+		add_primary_culture = cu:samoan
+		add_primary_culture = cu:solomon_islander
+		add_primary_culture = cu:tongan
+		add_primary_culture = cu:tuvaluan
+		add_primary_culture = cu:vanuatuan
+		effect_zoe_laws = yes
+		add_modifier = {
+			name = modern_country_power_zoe
+			duration = -1
+		}
+	}
+	ai_chance = { value = 0 }
+}

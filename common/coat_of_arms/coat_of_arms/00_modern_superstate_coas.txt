@@ -1,0 +1,429 @@
+ZGC = { # United States of Great Columbia
+	@usa_canton_width = 0.5
+	@usa_canton_height = @[ 1 / 13 * 7 ]
+
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+
+	colored_emblem = {
+		texture = "ce_stripes_13.dds"
+		color1 = "red"
+		color2 = "red"
+	}
+	sub = {
+		parent = "sub_USA_canton_24"
+		instance = { scale = { @usa_canton_width @usa_canton_height } } # top left
+	}
+	colored_emblem = {
+		texture = "ce_eagle_usa_simple.dds"
+		color1 = "yellow"
+		color2 = "white"
+		instance = { scale = { 0.75 0.75 } position = { 0.75 0.5 } }
+	}
+}
+
+ZAH = { # Grand Anáhuac
+	pattern = "pattern_solid.tga"
+	color1 = { 0 104 71 }
+	color2 = { 246 242 224 }
+	color3 = { 190 32 45 }
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = color2
+		color2 = color3
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	textured_emblem = {
+		texture = "te_coa_mexico.dds"
+		instance = { scale = { 0.44 0.44 } position = { 0.5 0.5 } }
+	}
+}
+
+ZBV = { # Grand Bolivarian Republic
+	pattern = "pattern_solid.tga"
+	color1 = { 247 205 48 }
+	color2 = { 27 72 139 }
+	color3 = { 184 35 48 }
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_sun.dds"
+		color1 = color1
+		color2 = color3
+		instance = { scale = { 0.31 0.31 } position = { 0.5 0.5 } }
+	}
+}
+
+ZAU = { # Austral Concord
+	pattern = "pattern_rhombus.dds"
+	color1 = { 12 53 76 }
+	color2 = { 219 174 67 }
+	color3 = { 244 245 240 }
+
+	colored_emblem = {
+		texture = "ce_southern_cross_variant.dds"
+		color1 = color3
+		color2 = color2
+		instance = { scale = { 0.56 0.56 } position = { 0.5 0.5 } }
+	}
+}
+
+ZGR = { # Mitteleuropa
+	pattern = "pattern_solid.tga"
+	color1 = { 24 22 23 }
+	color2 = { 174 37 45 }
+	color3 = { 222 174 56 }
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = color3
+		color2 = color3
+		instance = { scale = { 0.45 0.45 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_eagle_prussia.dds"
+		color1 = color1
+		color2 = color3
+		instance = { scale = { 0.32 0.32 } position = { 0.5 0.5 } }
+	}
+}
+
+ZBK = { # Rumelia
+	pattern = "pattern_solid.tga"
+	color1 = { 28 52 105 }
+	color2 = { 183 36 49 }
+	color3 = { 239 190 58 }
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color1
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_sun.dds"
+		color1 = color3
+		color2 = color2
+		instance = { scale = { 0.3 0.3 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_star_08.dds"
+		color1 = color3
+		color2 = color1
+		instance = { scale = { 0.14 0.14 } position = { 0.5 0.5 } }
+	}
+}
+
+ZOC = { # The Western Accord
+	pattern = "pattern_border_double.dds"
+	color1 = { 24 50 105 }
+	color2 = { 218 177 70 }
+	color3 = { 242 239 225 }
+
+	colored_emblem = {
+		texture = "ce_stars_circle_13.dds"
+		color1 = color2
+		color2 = color1
+		instance = { scale = { 0.56 0.56 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_sun_radiant.dds"
+		color1 = color3
+		color2 = color2
+		instance = { scale = { 0.18 0.18 } position = { 0.5 0.5 } }
+	}
+}
+
+ZKA = { # New Kalmar Union
+	pattern = "pattern_solid.tga"
+	color1 = { 147 31 43 }
+	color2 = { 225 177 52 }
+	color3 = { 24 49 91 }
+
+	colored_emblem = {
+		texture = "ce_cross_norway.dds"
+		color1 = color2
+		color2 = color3
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+}
+
+ZUN = { # The Union
+	pattern = "pattern_solid.tga"
+	color1 = { 241 239 228 }
+	color2 = { 255 255 255 }
+	color3 = { 167 39 51 }
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_stars_circle_06.dds"
+		color1 = "yellow"
+		color2 = color3
+		instance = { scale = { 0.48 0.48 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_star_08.dds"
+		color1 = color1
+		color2 = color2
+		instance = { scale = { 0.17 0.17 } position = { 0.5 0.5 } }
+	}
+}
+
+ZAB = { # United Arab Kingdoms
+  pattern = "pattern_solid.tga"
+  color1 = "green"
+
+  textured_emblem = {
+    texture = "te_coa_saudi_emblem.dds"
+    instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+  }
+}
+
+ZER = { # Covenant of Eran
+	pattern = "pattern_solid.tga"
+	color1 = { 31 112 71 }
+	color2 = { 244 241 226 }
+	color3 = { 174 38 47 }
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_sun.dds"
+		color1 = "yellow"
+		color2 = "orange"
+		instance = { scale = { 0.31 0.31 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_lion_persia.dds"
+		color1 = "yellow"
+		color2 = "orange"
+		color3 = color2
+		instance = { scale = { 0.48 0.48 } position = { 0.5 0.5 } }
+	}
+}
+
+ZGN = { # West African Compact
+	pattern = "pattern_solid.tga"
+	color1 = { 31 116 72 }
+	color2 = { 226 178 48 }
+	color3 = { 177 38 49 }
+
+	colored_emblem = {
+		texture = "ce_tricolor_vertical.dds"
+		color1 = color2
+		color2 = color3
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_ashanti_golden_stool.dds"
+		color1 = "black"
+		color2 = color2
+		color3 = color3
+		instance = { scale = { 0.29 0.29 } position = { 0.5 0.5 } }
+	}
+}
+
+ZKG = { # Greater Kongo
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	color2 = "white"
+	color3 = "black"
+
+	colored_emblem = {
+		texture = "ce_saltire_fimbriated_02.dds"
+		color1 = color3
+		color2 = color2
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_sun.dds"
+		color1 = color3
+		color2 = color1
+		instance = { scale = { 0.28 0.28 } position = { 0.5 0.5 } }
+	}
+}
+
+ZAZ = { # Azania
+	pattern = "pattern_solid.tga"
+	color1 = { 41 139 143 }
+	color2 = { 28 27 25 }
+	color3 = { 45 121 68 }
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_sun.dds"
+		color1 = "yellow"
+		color2 = color1
+		instance = { scale = { 0.32 0.32 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_buffalo.dds"
+		color1 = color2
+		color2 = color2
+		instance = { scale = { 0.18 0.18 } position = { 0.5 0.5 } }
+	}
+}
+
+ZMZ = { # Mzansi
+	pattern = "pattern_per_saltire.dds"
+	color1 = { 25 101 70 }
+	color2 = { 223 176 55 }
+	color3 = { 27 27 25 }
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = color3
+		color2 = color3
+		instance = { scale = { 0.46 0.46 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_coa_saf_tree.dds"
+		color1 = color2
+		color2 = color2
+		instance = { scale = { 0.32 0.32 } position = { 0.5 0.5 } }
+	}
+}
+
+ZBT = { # Bharat Mandal
+	pattern = "pattern_solid.tga"
+	color1 = { 229 126 45 }
+	color2 = { 246 243 229 }
+	color3 = { 31 119 72 }
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_dharmachakra_india.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { scale = { 0.28 0.28 } position = { 0.5 0.5 } }
+	}
+}
+
+ZHH = { # Eastern Harmonious Order
+	pattern = "pattern_solid.tga"
+	color1 = { 172 35 43 }
+	color2 = { 225 177 51 }
+	color3 = { 245 239 215 }
+
+	colored_emblem = {
+		texture = "ce_frame_circle_roundel_triangles.dds"
+		color1 = color2
+		color2 = color1
+		color3 = color3
+		instance = { scale = { 0.58 0.58 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_dragon_china_circle.dds"
+		color1 = color2
+		color2 = color3
+		color3 = color1
+		instance = { scale = { 0.41 0.41 } position = { 0.5 0.5 } }
+	}
+}
+
+ZSV = { # League of the Golden Lands
+	pattern = "pattern_border_of_3_decorated.dds"
+	color1 = { 218 167 49 }
+	color2 = { 139 28 50 }
+	color3 = { 39 44 102 }
+
+	colored_emblem = {
+		texture = "ce_chakra_siam.dds"
+		color1 = color3
+		color2 = "white"
+		color3 = color1
+		instance = { scale = { 0.38 0.38 } position = { 0.5 0.5 } }
+	}
+}
+
+ZNS = { # Nusantara
+	pattern = "pattern_solid.tga"
+	color1 = { 179 36 47 }
+	color2 = { 245 241 225 }
+	color3 = { 25 54 91 }
+
+	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = color2
+		color2 = color3
+		instance = { scale = { 1 1 } position = { 0.5 0.5 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_crossed_kris_daggers_mataram.dds"
+		color1 = "yellow"
+		color2 = color3
+		color3 = color1
+		instance = { scale = { 0.4 0.4 } position = { 0.5 0.5 } }
+	}
+}
+
+ZOE = { # Pacific Commonwealth
+	pattern = "pattern_solid.tga"
+	color1 = { 16 53 91 }
+	color2 = { 47 154 166 }
+	color3 = { 244 242 228 }
+
+	colored_emblem = {
+		texture = "ce_waves.dds"
+		color1 = color2
+		color2 = color3
+		instance = { scale = { 1 1 } position = { 0.5 0.78 } }
+	}
+
+	colored_emblem = {
+		texture = "ce_southern_cross_variant.dds"
+		color1 = color3
+		color2 = color2
+		instance = { scale = { 0.54 0.54 } position = { 0.58 0.39 } }
+	}
+}
