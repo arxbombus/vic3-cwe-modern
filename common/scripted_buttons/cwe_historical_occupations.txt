@@ -589,6 +589,8 @@ je_chinese_unification_button = {
 	}
 
 	possible = {
+
+		NOT = { exists = c:FRE }
 	
 		#German reunification factors
 		OR = {

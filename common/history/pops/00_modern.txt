@@ -3,7 +3,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 14387319
+				size = 13482731
 			}
 		}
 	}
@@ -11,7 +11,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 5243617
+				size = 5827431
 			}
 		}
 	}
@@ -19,7 +19,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 1654389
+				size = 1082413
 			}
 		}
 	}
@@ -27,7 +27,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 8978931
+				size = 6413857
 			}
 		}
 	}
@@ -35,7 +35,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 2617643
+				size = 5376149
 			}
 		}
 	}
@@ -43,7 +43,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 9864927
+				size = 6202719
 			}
 		}
 	}
@@ -51,7 +51,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 1084361
+				size = 916527
 			}
 		}
 	}
@@ -59,7 +59,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 8235987
+				size = 5984263
 			}
 		}
 	}
@@ -67,7 +67,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 1347921
+				size = 983761
 			}
 		}
 	}
@@ -75,7 +75,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 892453
+				size = 821349
 			}
 		}
 	}
@@ -83,7 +83,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 3127649
+				size = 4731689
 			}
 		}
 	}
@@ -91,7 +91,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 1334217
+				size = 754283
 			}
 		}
 	}
@@ -99,7 +99,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 718563
+				size = 689417
 			}
 		}
 	}
@@ -107,7 +107,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 1568937
+				size = 4958673
 			}
 		}
 	}
@@ -115,7 +115,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 426819
+				size = 4421587
 			}
 		}
 	}
@@ -123,7 +123,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 683271
+				size = 872631
 			}
 		}
 	}
@@ -131,7 +131,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 2974931
+				size = 5643921
 			}
 		}
 	}
@@ -139,7 +139,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 118643
+				size = 491857
 			}
 		}
 	}
@@ -147,7 +147,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 373651
+				size = 527193
 			}
 		}
 	}
@@ -155,7 +155,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
-				size = 5531879
+				size = 4284317
 			}
 		}
 	}

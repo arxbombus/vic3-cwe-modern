@@ -13,7 +13,8 @@ je_chinese_unification = {
 	}
 
 	possible = {
-	
+		NOT = { exists = c:FRE }
+
 		#CHI does not exist
 		NOT = { exists = c:CHI }
 	
@@ -34,13 +35,14 @@ je_chinese_unification = {
 	}
 
 	invalid = {
-		
-		#THIS has become Germany through some other means
-		custom_tooltip = {
-			text = je_chinese_unification_complete_trigger_desc
-			c:CHI ?= this
+		OR = {
+			#THIS has become Germany through some other means
+			custom_tooltip = {
+				text = je_chinese_unification_complete_trigger_desc
+				c:CHI ?= this
+			}
+			c:FRE ?= this
 		}
-		
 	}
 
 	weight = 1000

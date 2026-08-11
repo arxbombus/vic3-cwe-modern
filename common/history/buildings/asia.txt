@@ -341,9 +341,1704 @@ BUILDINGS = {
 	}
 	
 	c:ROC = {
-		every_scope_state = { limit = { state_has_sufficient_population = yes }
-			effect_starting_buildings_2 = yes
+		# Archetype-based starting economy. All explicitly created buildings are capped at level 5 per type.
+		# Buildings unavailable because of starting technology are intentionally left in history; the game filters them.
+
+		# Tier 14 — Taipei–Hsinchu Command Arc
+		# Archetype: High Tier Services
+		s:STATE_FORMOSA = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 10
+					reserves = 1
+				}
+				create_building = {
+					building = "building_corporate_services_industry"
+					level = 10
+					reserves = 1
+				}
+				create_building = {
+					building = "building_professional_services_sector"
+					level = 10
+					reserves = 1
+				}
+				create_building = {
+					building = "building_real_estate_sector"
+					level = 10
+					reserves = 1
+				}
+				create_building = {
+					building = "building_financial_services_sector"
+					level = 10
+					reserves = 1
+				}
+				create_building = {
+					building = "building_media_services_sector"
+					level = 10
+					reserves = 1
+				}
+				create_building = {
+					building = "building_software_industry"
+					level = 10
+					reserves = 1
+				}
+				create_building = {
+					building = "building_skyscraper"
+					level = 10
+					reserves = 1
+				}
+			}
 		}
+
+		# Tier 12 — Pacific Agriculture Corridor
+		# Archetypes: Farming + Low Tier Services
+		s:STATE_EAST_FORMOSA = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_wheat_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_rice_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_rye_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_maize_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_millet_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_cotton_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_fishing_wharf"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_livestock_ranch"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_banana_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_coffee_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_tea_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_tobacco_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_vineyard"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_opium_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_rubber_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_retail_services_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_recreational_services_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_communications_network"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 8 — Central Mountain Precision Belt
+		# Archetype: Industrial Goods Manufacturing
+		s:STATE_NORTH_CENTRAL_FORMOSA = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_industrial_robots_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_steel_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_plastics_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_synthetic_rubber_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_industrial_chemicals_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_circuit_boards_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_engines_factory"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 12 — Taichung Industrial Constellation
+		# Archetypes: Industrial Goods Manufacturing + Strategic Consumer Goods Manufacturing
+		s:STATE_WEST_FORMOSA = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_industrial_robots_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_steel_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_plastics_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_synthetic_rubber_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_industrial_chemicals_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_circuit_boards_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_engines_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_telecommunications_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_computers_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_pharmaceuticals_factory"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 12 — Formosan Agro-Systems Basin
+		# Archetypes: Farming + Industrial Goods Manufacturing
+		s:STATE_SOUTH_CENTRAL_FORMOSA = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_wheat_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_rice_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_rye_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_maize_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_millet_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_cotton_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_fishing_wharf"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_livestock_ranch"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_banana_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_coffee_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_tea_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_tobacco_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_vineyard"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_opium_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_rubber_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_industrial_robots_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_steel_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_plastics_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_synthetic_rubber_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_industrial_chemicals_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_circuit_boards_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_engines_factory"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 12 — Kaohsiung–Tainan Arsenal Coast
+		# Archetypes: Military Manufacturing + Transport Manufacturing
+		s:STATE_SOUTH_WEST_FORMOSA = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_ammunition_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_small_arms_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_artillery_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_tanks_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_warplanes_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_advanced_weaponry_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_aeroplanes_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_shipyard"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_locomotives_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_automobiles_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_consumer_robots_factory"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 8 — Pingtung Tropical Production Frontier
+		# Archetype: Farming
+		s:STATE_SOUTH_FORMOSA = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_wheat_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_rice_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_rye_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_maize_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_millet_farm"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_cotton_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_fishing_wharf"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_livestock_ranch"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_banana_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_coffee_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_tea_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_tobacco_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_vineyard"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_opium_plantation"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_rubber_plantation"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 12 — Haikou Administrative Metropolis
+		# Archetypes: High Tier Services + Consumer Goods Manufacturing
+		s:STATE_NORTH_HAINAN = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_corporate_services_industry"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_professional_services_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_real_estate_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_financial_services_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_media_services_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_software_industry"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_skyscraper"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_groceries_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_liquor_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_textile_mill"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_furniture_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_art_academy"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 8 — Wenchang Orbital Coast
+		# Archetype: Transport Manufacturing
+		s:STATE_NORTH_EAST_HAINAN = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_aeroplanes_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_shipyard"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_locomotives_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_automobiles_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_consumer_robots_factory"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 8 — Bo’ao Life-Sciences Riviera
+		# Archetype: Strategic Consumer Goods Manufacturing
+		s:STATE_EAST_HAINAN = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_telecommunications_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_computers_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_pharmaceuticals_factory"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 12 — Sanya Oceanic Command
+		# Archetypes: Low Tier Services + Industrial Goods Manufacturing
+		s:STATE_SOUTH_EAST_HAINAN = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_retail_services_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_recreational_services_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_communications_network"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_industrial_robots_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_steel_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_plastics_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_synthetic_rubber_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_industrial_chemicals_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_circuit_boards_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_engines_factory"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 8 — Yangpu Industrial Gateway
+		# Archetype: Industrial Goods Manufacturing
+		s:STATE_NORTH_WEST_HAINAN = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_industrial_robots_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_steel_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_plastics_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_synthetic_rubber_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_industrial_chemicals_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_circuit_boards_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_engines_factory"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 8 — Basuo Energy Coast
+		# Archetype: Raw Resource
+		s:STATE_SOUTH_WEST_HAINAN = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_logging_camp"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_gold_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_gold_field"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_iron_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_lead_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_sulfur_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_coal_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_oil_rig"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 12 — Jeju Climate-Tech Island
+		# Archetypes: Low Tier Services + Strategic Consumer Goods Manufacturing
+		s:STATE_JEJU = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_retail_services_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_recreational_services_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_communications_network"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_telecommunications_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_computers_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_pharmaceuticals_factory"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 12 — Yaeyama Forward Shield
+		# Archetypes: Low Tier Services + Transport Manufacturing
+		s:STATE_ISHIGAKI_ISLAND = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_retail_services_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_recreational_services_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_communications_network"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_aeroplanes_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_shipyard"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_locomotives_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_automobiles_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_consumer_robots_factory"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 8 — Natuna Maritime Energy Frontier
+		# Archetype: Raw Resource
+		s:STATE_OUTER_RIAU_ISLANDS = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_logging_camp"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_gold_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_gold_field"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_iron_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_lead_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_sulfur_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_coal_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_oil_rig"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 12 — Batam–Bintan World Workshop
+		# Archetypes: Industrial Goods Manufacturing + Consumer Goods Manufacturing
+		s:STATE_GREATER_RIAU_ISLANDS = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_industrial_robots_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_steel_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_plastics_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_synthetic_rubber_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_industrial_chemicals_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_circuit_boards_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_engines_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_groceries_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_liquor_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_textile_mill"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_furniture_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_art_academy"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 8 — Ogasawara Pacific Bastion
+		# Archetype: Military Manufacturing
+		s:STATE_BONIN_ISLANDS = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_ammunition_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_small_arms_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_artillery_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_tanks_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_warplanes_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_advanced_weaponry_factory"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 8 — Cocos Indian Ocean Relay
+		# Archetype: Low Tier Services
+		s:STATE_COCOS_ISLANDS = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_retail_services_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_recreational_services_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_communications_network"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
+		# Tier 12 — Aurelian Antarctic Gateway
+		# Archetypes: Raw Resource + Consumer Goods Manufacturing
+		s:STATE_SOUTH_GEORGIA_SOUTH_SANDWICH_ISLANDS = {
+			region_state:ROC = {
+				create_building = {
+					building = "building_construction_sector"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_government_administration"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_power_plant"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_railway"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_port"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_university"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_logging_camp"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_gold_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_gold_field"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_iron_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_lead_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_sulfur_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_coal_mine"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_oil_rig"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_groceries_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_liquor_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_textile_mill"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_furniture_factory"
+					level = 5
+					reserves = 1
+				}
+				create_building = {
+					building = "building_art_academy"
+					level = 5
+					reserves = 1
+				}
+			}
+		}
+
 	}
 	
 	c:TIB = {

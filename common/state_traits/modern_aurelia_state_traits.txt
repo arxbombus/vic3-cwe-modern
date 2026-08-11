@@ -1,15 +1,17 @@
 # Aurelian state traits
 # Country tag: FRE
-# Generated from the established Level 1–10 contemporary-power framework.
-# Levels 11–14 deliberately exceed the normal framework and are Aurelia-only superstate tiers.
+# Rebalanced to three tiers (14 / 12 / 8) with standardized universal bonuses and archetype specializations.
+# Archetype throughput: Tier 14 = +250%; Tier 12 = +200%; Tier 8 = +125%.
+# Pharmaceuticals are part of Strategic Consumer Goods Manufacturing.
 
-# Level 14 — Taipei–Hsinchu Command Arc
+# Tier 14 — Taipei–Hsinchu Command Arc
+# Archetype: High Tier Services
 state_trait_fre_north_taiwan = {
     icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
     modifier = {
         building_throughput_add = 2
         state_construction_mult = 4.5
-        state_standard_of_living_add = 30
+        state_standard_of_living_add = 20
         state_birth_rate_mult = 3
         state_education_access_add = 1
         state_literacy_growth_add = 2
@@ -17,206 +19,56 @@ state_trait_fre_north_taiwan = {
         state_infrastructure_mult = 2
         state_tax_capacity_mult = 1.75
         state_trade_capacity_mult = 1.5
-        building_software_industry_throughput_add = 2.25
-        building_computers_factory_throughput_add = 2.25
-        building_telecommunications_factory_throughput_add = 2.25
-        building_professional_services_sector_throughput_add = 2.25
-        building_financial_services_sector_throughput_add = 2.25
-        building_media_services_sector_throughput_add = 2.25
-        building_government_administration_throughput_add = 2.25
-        building_communications_network_throughput_add = 2.25
-        building_corporate_services_industry_throughput_add = 2.25
-        building_real_estate_sector_throughput_add = 2.25
-        building_skyscraper_throughput_add = 2.25
-        building_university_throughput_add = 2.25
-        building_recreational_services_sector = 2.25
-        building_circuit_boards_factory_throughput_add = 1.13
         state_building_university_max_level_add = 20
         state_tax_capacity_add = 150
         state_market_access_price_impact = 0.2
         building_economy_of_scale_level_cap_add = 180
-    }
-}
+        building_railway_throughput_add = 1.5
+        building_port_throughput_add = 1.5
+        building_power_plant_throughput_add = 1.5
+        building_hydroelectric_power_plant_throughput_add = 1.5
+        building_construction_sector_throughput_add = 1.5
+        building_government_administration_throughput_add = 1.5
+        building_university_throughput_add = 1.5
 
-# Level 12 — Pacific Agriculture Corridor
-state_trait_fre_east_taiwan = {
-    icon = "gfx/interface/icons/state_trait_icons/river.dds"
-    modifier = {
-        building_throughput_add = 0.56
-        state_construction_mult = 2.25
-        state_standard_of_living_add = 15
-        state_birth_rate_mult = 0.85
-        state_education_access_add = 0.5625
-        state_literacy_growth_add = 1.1125
-        state_infrastructure_add = 350
-        state_infrastructure_mult = 1.25
-        state_tax_capacity_mult = 0.9
-        state_trade_capacity_mult = 0.65
-        building_hydroelectric_power_plant_throughput_add = 0.38
-        building_pharmaceuticals_factory_throughput_add = 0.38
-        building_recreational_services_sector_throughput_add = 0.38
-        building_power_plant_throughput_add = 0.19
-        building_group_bg_logging_throughput_add = 0.19
-        building_group_bg_agriculture_throughput_add = 3
-        building_university_throughput_add = 0.19
-        state_building_university_max_level_add = 3
-        state_market_access_price_impact = 0.1
-        building_economy_of_scale_level_cap_add = 90
-    }
-}
+        # High Tier Services
+        building_corporate_services_industry_throughput_add = 2.5
+        building_professional_services_sector_throughput_add = 2.5
+        building_real_estate_sector_throughput_add = 2.5
+        building_financial_services_sector_throughput_add = 2.5
+        building_media_services_sector_throughput_add = 2.5
+        building_software_industry_throughput_add = 2.5
+        building_skyscraper_throughput_add = 2.5
 
-# Level 7 — Central Mountain Precision Belt
-state_trait_fre_north_central_taiwan = {
-    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
-    modifier = {
-        building_throughput_add = 0.23
-        state_construction_mult = 0.9
-        state_standard_of_living_add = 7.25
-        state_birth_rate_mult = 0.27
-        state_education_access_add = 0.225
-        state_literacy_growth_add = 0.45
-        state_infrastructure_add = 80
-        state_infrastructure_mult = 0.3
-        state_tax_capacity_mult = 0.3
-        state_trade_capacity_mult = 0.15
-        building_industrial_robots_factory_throughput_add = 0.45
-        building_engines_factory_throughput_add = 0.45
-        building_pharmaceuticals_factory_throughput_add = 0.45
-        building_hydroelectric_power_plant_throughput_add = 0.45
-        building_steel_factory_throughput_add = 0.23
-        building_railway_throughput_add = 0.23
-        building_computers_factory_throughput_add = 0.23
-        state_building_university_max_level_add = 1
-        building_economy_of_scale_level_cap_add = 30
-    }
-}
-
-# Level 12 — Taichung Industrial Constellation
-state_trait_fre_west_taiwan = {
-    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
-    modifier = {
-        building_throughput_add = 0.56
-        state_construction_mult = 2.25
-        state_standard_of_living_add = 15
-        state_birth_rate_mult = 0.85
-        state_education_access_add = 0.5625
-        state_literacy_growth_add = 1.125
-        state_infrastructure_add = 350
-        state_infrastructure_mult = 1.25
-        state_tax_capacity_mult = 0.9
-        state_trade_capacity_mult = 0.65
+        # Industrial Goods Manufacturing
         building_industrial_robots_factory_throughput_add = 2
-        building_automobiles_factory_throughput_add = 1.13
-        building_circuit_boards_factory_throughput_add = 2.5
-        building_computers_factory_throughput_add = 2.5
-        building_power_plant_throughput_add = 0.56
-        building_railway_throughput_add = 0.56
-        building_locomotives_factory_throughput_add = 0.56
-        building_group_bg_advanced_industry_throughput_add = 0.56
-        state_building_university_max_level_add = 3
-        state_market_access_price_impact = 0.1
-        building_economy_of_scale_level_cap_add = 90
-    }
-}
-
-# Level 11 — Formosan Agro-Systems Basin
-state_trait_fre_south_central_taiwan = {
-    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
-    modifier = {
-        building_throughput_add = 0.45
-        state_construction_mult = 1.8
-        state_standard_of_living_add = 12.5
-        state_birth_rate_mult = 0.7
-        state_education_access_add = 0.45
-        state_literacy_growth_add = 0.9
-        state_infrastructure_add = 260
-        state_infrastructure_mult = 1
-        state_tax_capacity_mult = 0.75
-        state_trade_capacity_mult = 0.5
-        building_group_bg_agriculture_throughput_add = 0.9
-        building_fishing_wharf_throughput_add = 0.9
-        building_groceries_factory_throughput_add = 0.9
-        building_pharmaceuticals_factory_throughput_add = 0.9
-        building_hydroelectric_power_plant_throughput_add = 0.9
-        building_rice_farm_throughput_add = 0.45
-        building_power_plant_throughput_add = 0.45
-        building_communications_network_throughput_add = 0.45
-        building_university_throughput_add = 0.45
-        state_building_university_max_level_add = 2
-        building_economy_of_scale_level_cap_add = 75
-    }
-}
-
-# Level 12 — Kaohsiung–Tainan Arsenal Coast
-state_trait_fre_south_west_taiwan = {
-    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
-    modifier = {
-        building_throughput_add = 0.56
-        state_construction_mult = 2.25
-        state_standard_of_living_add = 15
-        state_birth_rate_mult = 0.85
-        state_education_access_add = 0.5625
-        state_literacy_growth_add = 1.125
-        state_infrastructure_add = 350
-        state_infrastructure_mult = 1.25
-        state_tax_capacity_mult = 0.9
-        state_trade_capacity_mult = 0.85
-        building_port_throughput_add = 1.13
-        building_warplanes_factory_throughput_add = 2
-        building_ammunition_factory_throughput_add = 2
-        building_artillery_factory_throughput_add = 2
-        building_tanks_factory_throughput_add = 2
-        building_advanced_weaponry_factory_throughput_add = 2
-        building_aeroplanes_factory_throughput_add = 2
-        building_shipyard_throughput_add = 2
-        building_locomotives_factory_throughput_add = 2
-        building_automobiles_factory_throughput_add = 2
-        building_consumer_robots_factory_throughput_add = 2
-        building_engines_factory_throughput_add = 2
         building_steel_factory_throughput_add = 2
         building_plastics_factory_throughput_add = 2
         building_synthetic_rubber_factory_throughput_add = 2
         building_industrial_chemicals_factory_throughput_add = 2
-        building_industrial_robots_factory_throughput_add = 2
-        building_power_plant_throughput_add = 0.56
-        building_group_bg_military_industry_throughput_add = 0.56
-        state_building_naval_fortification_max_level_add = 3
-        state_building_university_max_level_add = 2
-        state_market_access_price_impact = 0.1
-        building_economy_of_scale_level_cap_add = 90
+        building_circuit_boards_factory_throughput_add = 2
+        building_engines_factory_throughput_add = 2
+
+        # Consumer Goods Manufacturing
+        building_groceries_factory_throughput_add = 2
+        building_liquor_factory_throughput_add = 2
+        building_textile_mill_throughput_add = 2
+        building_furniture_factory_throughput_add = 2
+        building_art_academy_throughput_add = 2
+
+        # Strategic Consumer Goods Manufacturing
+        building_telecommunications_factory_throughput_add = 2
+        building_computers_factory_throughput_add = 2
+        building_pharmaceuticals_factory_throughput_add = 2
     }
 }
 
-# Level 5 — Pingtung Tropical Production Frontier
-state_trait_fre_south_taiwan = {
-    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
-    modifier = {
-        building_throughput_add = 0.15
-        state_construction_mult = 0.6
-        state_standard_of_living_add = 4.75
-        state_birth_rate_mult = 0.17
-        state_education_access_add = 0.15
-        state_literacy_growth_add = 0.3
-        state_infrastructure_add = 40
-        state_infrastructure_mult = 0.2
-        state_tax_capacity_mult = 0.2
-        state_trade_capacity_mult = 0.2
-        building_group_bg_agriculture_throughput_add = 0.3
-        building_fishing_wharf_throughput_add = 0.3
-        building_groceries_factory_throughput_add = 0.3
-        building_recreational_services_sector_throughput_add = 0.3
-        building_power_plant_throughput_add = 0.15
-        building_port_throughput_add = 0.15
-        building_pharmaceuticals_factory_throughput_add = 0.15
-        building_economy_of_scale_level_cap_add = 20
-    }
-}
-
-# Level 12 — Haikou Administrative Metropolis
-state_trait_fre_north_hainan = {
+# Tier 12 — Pacific Agriculture Corridor
+# Archetypes: Farming + Low Tier Services
+state_trait_fre_east_taiwan = {
     icon = "gfx/interface/icons/state_trait_icons/river.dds"
     modifier = {
-        building_throughput_add = 0.56
+        building_throughput_add = 0.75
         state_construction_mult = 2.25
         state_standard_of_living_add = 15
         state_birth_rate_mult = 0.85
@@ -224,32 +76,49 @@ state_trait_fre_north_hainan = {
         state_literacy_growth_add = 1.125
         state_infrastructure_add = 350
         state_infrastructure_mult = 1.25
-        state_tax_capacity_mult = 1
-        state_trade_capacity_mult = 0.8
-        building_retail_services_sector_throughput_add = 2.5
-        building_software_industry_throughput_add = 2
-        building_government_administration_throughput_add = 1.13
-        building_financial_services_sector_throughput_add = 1.13
-        building_professional_services_sector_throughput_add = 1.13
-        building_real_estate_sector_throughput_add = 1.13
-        building_media_services_sector_throughput_add = 1.13
-        building_telecommunications_factory_throughput_add = 1.13
-        building_communications_network_throughput_add = 0.56
-        building_software_industry_throughput_add = 0.56
-        building_skyscraper_throughput_add = 0.56
-        building_corporate_services_industry_throughput_add = 0.56
+        state_tax_capacity_mult = 0.9
+        state_trade_capacity_mult = 0.75
         state_building_university_max_level_add = 4
         state_tax_capacity_add = 75
         state_market_access_price_impact = 0.1
         building_economy_of_scale_level_cap_add = 90
+        building_railway_throughput_add = 0.75
+        building_port_throughput_add = 0.75
+        building_power_plant_throughput_add = 0.75
+        building_hydroelectric_power_plant_throughput_add = 0.75
+        building_construction_sector_throughput_add = 0.75
+        building_government_administration_throughput_add = 0.75
+        building_university_throughput_add = 0.75
+
+        # Farming
+        building_wheat_farm_throughput_add = 2
+        building_rice_farm_throughput_add = 2
+        building_rye_farm_throughput_add = 2
+        building_maize_farm_throughput_add = 2
+        building_millet_farm_throughput_add = 2
+        building_cotton_plantation_throughput_add = 2
+        building_fishing_wharf_throughput_add = 2
+        building_livestock_ranch_throughput_add = 2
+        building_banana_plantation_throughput_add = 2
+        building_coffee_plantation_throughput_add = 2
+        building_tea_plantation_throughput_add = 2
+        building_tobacco_plantation_throughput_add = 2
+        building_vineyard_throughput_add = 2
+        building_opium_plantation_throughput_add = 2
+        building_rubber_plantation_throughput_add = 2
+        # Low Tier Services
+        building_retail_services_sector_throughput_add = 2
+        building_recreational_services_sector_throughput_add = 2
+        building_communications_network_throughput_add = 2
     }
 }
 
-# Level 8 — Wenchang Orbital Coast
-state_trait_fre_northeast_hainan = {
-    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+# Tier 8 — Central Mountain Precision Belt
+# Archetype: Industrial Goods Manufacturing
+state_trait_fre_north_central_taiwan = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
-        building_throughput_add = 0.26
+        building_throughput_add = 0.3
         state_construction_mult = 1.05
         state_standard_of_living_add = 8.25
         state_birth_rate_mult = 0.34
@@ -259,300 +128,35 @@ state_trait_fre_northeast_hainan = {
         state_infrastructure_mult = 0.4
         state_tax_capacity_mult = 0.4
         state_trade_capacity_mult = 0.35
-        building_aeroplanes_factory_throughput_add = 0.56
-        building_warplanes_factory_throughput_add = 0.56
-        building_telecommunications_factory_throughput_add = 0.56
-        building_communications_network_throughput_add = 0.56
-        building_computers_factory_throughput_add = 0.28
-        building_software_industry_throughput_add = 0.28
-        building_power_plant_throughput_add = 0.28
-        building_university_throughput_add = 0.28
         state_building_university_max_level_add = 2
-        state_building_naval_fortification_max_level_add = 1
+        state_tax_capacity_add = 25
+        state_market_access_price_impact = 0.05
         building_economy_of_scale_level_cap_add = 40
+        building_railway_throughput_add = 0.35
+        building_port_throughput_add = 0.35
+        building_power_plant_throughput_add = 0.35
+        building_hydroelectric_power_plant_throughput_add = 0.35
+        building_construction_sector_throughput_add = 0.35
+        building_government_administration_throughput_add = 0.35
+        building_university_throughput_add = 0.35
+
+        # Industrial Goods Manufacturing
+        building_industrial_robots_factory_throughput_add = 1.25
+        building_steel_factory_throughput_add = 1.25
+        building_plastics_factory_throughput_add = 1.25
+        building_synthetic_rubber_factory_throughput_add = 1.25
+        building_industrial_chemicals_factory_throughput_add = 1.25
+        building_circuit_boards_factory_throughput_add = 1.25
+        building_engines_factory_throughput_add = 1.25
     }
 }
 
-# Level 5 — Bo’ao Life-Sciences Riviera
-state_trait_fre_east_hainan = {
-    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
-    modifier = {
-        building_throughput_add = 0.15
-        state_construction_mult = 0.6
-        state_standard_of_living_add = 4.75
-        state_birth_rate_mult = 0.17
-        state_education_access_add = 0.15
-        state_literacy_growth_add = 0.3
-        state_infrastructure_add = 40
-        state_infrastructure_mult = 0.2
-        state_tax_capacity_mult = 0.2
-        state_trade_capacity_mult = 0.2
-        building_pharmaceuticals_factory_throughput_add = 0.3
-        building_group_bg_agriculture_throughput_add = 0.3
-        building_recreational_services_sector_throughput_add = 0.3
-        building_groceries_factory_throughput_add = 0.3
-        building_fishing_wharf_throughput_add = 0.15
-        building_professional_services_sector_throughput_add = 0.15
-        building_university_throughput_add = 0.15
-        building_economy_of_scale_level_cap_add = 20
-    }
-}
-
-# Level 11 — Sanya Oceanic Command
-state_trait_fre_southeast_hainan = {
-    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
-    modifier = {
-        building_throughput_add = 0.45
-        state_construction_mult = 1.8
-        state_standard_of_living_add = 12.5
-        state_birth_rate_mult = 0.7
-        state_education_access_add = 0.45
-        state_literacy_growth_add = 0.9
-        state_infrastructure_add = 260
-        state_infrastructure_mult = 1
-        state_tax_capacity_mult = 0.75
-        state_trade_capacity_mult = 0.85
-        building_port_throughput_add = 0.9
-        building_shipyard_throughput_add = 0.9
-        building_recreational_services_sector_throughput_add = 2.5
-        building_communications_network_throughput_add = 0.9
-        building_fishing_wharf_throughput_add = 0.45
-        building_professional_services_sector_throughput_add = 0.45
-        building_university_throughput_add = 0.45
-        building_power_plant_throughput_add = 0.45
-        state_building_naval_fortification_max_level_add = 3
-        state_building_university_max_level_add = 2
-        state_market_access_price_impact = 0.05
-        building_economy_of_scale_level_cap_add = 75
-    }
-}
-
-# Level 6 — Yangpu Industrial Gateway
-state_trait_fre_northwest_hainan = {
-    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
-    modifier = {
-        building_throughput_add = 0.19
-        state_construction_mult = 0.75
-        state_standard_of_living_add = 6
-        state_birth_rate_mult = 0.22
-        state_education_access_add = 0.1875
-        state_literacy_growth_add = 0.375
-        state_infrastructure_add = 60
-        state_infrastructure_mult = 0.25
-        state_tax_capacity_mult = 0.25
-        state_trade_capacity_mult = 0.35
-        building_port_throughput_add = 0.38
-        building_oil_rig_throughput_add = 0.38
-        building_industrial_chemicals_factory_throughput_add = 0.38
-        building_steel_factory_throughput_add = 0.38
-        building_power_plant_throughput_add = 0.19
-        building_group_bg_extraction_throughput_add = 0.19
-        building_shipyard_throughput_add = 0.19
-        building_railway_throughput_add = 0.19
-        building_economy_of_scale_level_cap_add = 25
-    }
-}
-
-# Level 5 — Basuo Energy Coast
-state_trait_fre_southwest_hainan = {
-    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
-    modifier = {
-        building_throughput_add = 0.15
-        state_construction_mult = 0.6
-        state_standard_of_living_add = 4.75
-        state_birth_rate_mult = 0.17
-        state_education_access_add = 0.15
-        state_literacy_growth_add = 0.3
-        state_infrastructure_add = 40
-        state_infrastructure_mult = 0.2
-        state_tax_capacity_mult = 0.2
-        state_trade_capacity_mult = 0.25
-        building_oil_rig_throughput_add = 0.3
-        building_power_plant_throughput_add = 0.3
-        building_industrial_chemicals_factory_throughput_add = 0.3
-        building_group_bg_extraction_throughput_add = 0.3
-        building_port_throughput_add = 0.15
-        building_fishing_wharf_throughput_add = 0.15
-        building_group_bg_agriculture_throughput_add = 0.15
-        building_economy_of_scale_level_cap_add = 20
-    }
-}
-
-# Level 11 — Jeju Climate-Tech Island
-state_trait_fre_jeju = {
-    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
-    modifier = {
-        building_throughput_add = 0.45
-        state_construction_mult = 1.8
-        state_standard_of_living_add = 12.5
-        state_birth_rate_mult = 0.7
-        state_education_access_add = 0.45
-        state_literacy_growth_add = 0.9
-        state_infrastructure_add = 260
-        state_infrastructure_mult = 1
-        state_tax_capacity_mult = 0.75
-        state_trade_capacity_mult = 0.55
-        building_recreational_services_sector_throughput_add = 0.9
-        building_group_bg_agriculture_throughput_add = 0.9
-        building_fishing_wharf_throughput_add = 0.9
-        building_hydroelectric_power_plant_throughput_add = 0.9
-        building_software_industry_throughput_add = 0.9
-        building_telecommunications_factory_throughput_add = 0.9
-        building_pharmaceuticals_factory_throughput_add = 0.9
-        building_communications_network_throughput_add = 0.45
-        building_university_throughput_add = 0.45
-        building_port_throughput_add = 0.45
-        state_building_university_max_level_add = 3
-        building_economy_of_scale_level_cap_add = 75
-    }
-}
-
-# Level 11 — Yaeyama Forward Shield
-state_trait_fre_ishigaki_island = {
-    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
-    modifier = {
-        building_throughput_add = 0.45
-        state_construction_mult = 1.8
-        state_standard_of_living_add = 12.5
-        state_birth_rate_mult = 0.7
-        state_education_access_add = 0.45
-        state_literacy_growth_add = 0.9
-        state_infrastructure_add = 260
-        state_infrastructure_mult = 1
-        state_tax_capacity_mult = 0.75
-        state_trade_capacity_mult = 0.6
-        building_port_throughput_add = 0.9
-        building_communications_network_throughput_add = 0.9
-        building_warplanes_factory_throughput_add = 0.9
-        building_aeroplanes_factory_throughput_add = 0.9
-        building_fishing_wharf_throughput_add = 0.9
-        building_recreational_services_sector_throughput_add = 0.9
-        building_group_bg_agriculture_throughput_add = 0.45
-        building_shipyard_throughput_add = 0.45
-        building_power_plant_throughput_add = 0.45
-        state_building_naval_fortification_max_level_add = 3
-        state_building_university_max_level_add = 2
-        state_market_access_price_impact = 0.05
-        building_economy_of_scale_level_cap_add = 75
-    }
-}
-
-# Level 7 — Natuna Maritime Energy Frontier
-state_trait_fre_outer_riau_islands = {
-    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
-    modifier = {
-        building_throughput_add = 0.23
-        state_construction_mult = 0.9
-        state_standard_of_living_add = 7.25
-        state_birth_rate_mult = 0.27
-        state_education_access_add = 0.225
-        state_literacy_growth_add = 0.45
-        state_infrastructure_add = 80
-        state_infrastructure_mult = 0.3
-        state_tax_capacity_mult = 0.3
-        state_trade_capacity_mult = 0.45
-        building_oil_rig_throughput_add = 0.45
-        building_fishing_wharf_throughput_add = 0.45
-        building_port_throughput_add = 0.45
-        building_communications_network_throughput_add = 0.45
-        building_power_plant_throughput_add = 0.23
-        building_shipyard_throughput_add = 0.23
-        building_group_bg_extraction_throughput_add = 0.23
-        state_building_naval_fortification_max_level_add = 1
-        building_economy_of_scale_level_cap_add = 30
-    }
-}
-
-# Level 11 — Batam–Bintan World Workshop
-state_trait_fre_greater_riau_islands = {
-    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
-    modifier = {
-        building_throughput_add = 0.45
-        state_construction_mult = 1.8
-        state_standard_of_living_add = 12.5
-        state_birth_rate_mult = 0.7
-        state_education_access_add = 0.45
-        state_literacy_growth_add = 0.9
-        state_infrastructure_add = 260
-        state_infrastructure_mult = 1
-        state_tax_capacity_mult = 0.75
-        state_trade_capacity_mult = 0.9
-        building_port_throughput_add = 0.9
-        building_shipyard_throughput_add = 0.9
-        building_computers_factory_throughput_add = 0.9
-        building_telecommunications_factory_throughput_add = 0.9
-        building_industrial_robots_factory_throughput_add = 0.9
-        building_financial_services_sector_throughput_add = 0.9
-        building_professional_services_sector_throughput_add = 0.9
-        building_corporate_services_industry_throughput_add = 0.9
-        building_real_estate_sector_throughput_add = 0.45
-        building_group_bg_trade_throughput_add = 0.45
-        building_automobiles_factory_throughput_add = 0.45
-        building_communications_network_throughput_add = 0.45
-        state_building_university_max_level_add = 2
-        state_building_naval_fortification_max_level_add = 2
-        state_market_access_price_impact = 0.1
-        building_economy_of_scale_level_cap_add = 75
-    }
-}
-
-# Level 5 — Ogasawara Pacific Bastion
-state_trait_fre_bonin_islands = {
-    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
-    modifier = {
-        building_throughput_add = 0.15
-        state_construction_mult = 0.6
-        state_standard_of_living_add = 4.75
-        state_birth_rate_mult = 0.17
-        state_education_access_add = 0.15
-        state_literacy_growth_add = 0.3
-        state_infrastructure_add = 40
-        state_infrastructure_mult = 0.2
-        state_tax_capacity_mult = 0.2
-        state_trade_capacity_mult = 0.3
-        building_port_throughput_add = 0.3
-        building_warplanes_factory_throughput_add = 0.3
-        building_communications_network_throughput_add = 0.3
-        building_telecommunications_factory_throughput_add = 0.3
-        building_power_plant_throughput_add = 0.15
-        building_fishing_wharf_throughput_add = 0.15
-        building_shipyard_throughput_add = 0.15
-        state_building_naval_fortification_max_level_add = 2
-        building_economy_of_scale_level_cap_add = 20
-    }
-}
-
-# Level 5 — Cocos Indian Ocean Relay
-state_trait_fre_cocos_islands = {
-    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
-    modifier = {
-        building_throughput_add = 0.15
-        state_construction_mult = 0.6
-        state_standard_of_living_add = 4.75
-        state_birth_rate_mult = 0.17
-        state_education_access_add = 0.15
-        state_literacy_growth_add = 0.3
-        state_infrastructure_add = 40
-        state_infrastructure_mult = 0.2
-        state_tax_capacity_mult = 0.2
-        state_trade_capacity_mult = 0.5
-        building_port_throughput_add = 0.3
-        building_communications_network_throughput_add = 0.3
-        building_telecommunications_factory_throughput_add = 0.3
-        building_group_bg_trade_throughput_add = 0.3
-        building_power_plant_throughput_add = 0.15
-        building_fishing_wharf_throughput_add = 0.15
-        building_aeroplanes_factory_throughput_add = 0.15
-        state_building_naval_fortification_max_level_add = 1
-        building_economy_of_scale_level_cap_add = 20
-    }
-}
-
-# Level 12 — Aurelian Antarctic Gateway
-state_trait_fre_south_georgia_south_sandwich = {
+# Tier 12 — Taichung Industrial Constellation
+# Archetypes: Industrial Goods Manufacturing + Strategic Consumer Goods Manufacturing
+state_trait_fre_west_taiwan = {
     icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
     modifier = {
-        building_throughput_add = 0.88
+        building_throughput_add = 0.75
         state_construction_mult = 2.25
         state_standard_of_living_add = 15
         state_birth_rate_mult = 0.85
@@ -561,19 +165,683 @@ state_trait_fre_south_georgia_south_sandwich = {
         state_infrastructure_add = 350
         state_infrastructure_mult = 1.25
         state_tax_capacity_mult = 0.9
-        state_trade_capacity_mult = 0.65
-        building_fishing_wharf_throughput_add = 0.75
-        building_port_throughput_add = 0.75
-        building_group_bg_extraction_throughput_add = 2.5
-        building_university_throughput_add = 0.75
-        building_communications_network_throughput_add = 0.38
-        building_power_plant_throughput_add = 0.38
-        building_group_bg_logging_throughput_add = 0.38
-        building_shipyard_throughput_add = 0.38
-        state_building_naval_fortification_max_level_add = 3
-        state_building_university_max_level_add = 3
+        state_trade_capacity_mult = 0.75
+        state_building_university_max_level_add = 4
+        state_tax_capacity_add = 75
         state_market_access_price_impact = 0.1
         building_economy_of_scale_level_cap_add = 90
+        building_railway_throughput_add = 0.75
+        building_port_throughput_add = 0.75
+        building_power_plant_throughput_add = 0.75
+        building_hydroelectric_power_plant_throughput_add = 0.75
+        building_construction_sector_throughput_add = 0.75
+        building_government_administration_throughput_add = 0.75
+        building_university_throughput_add = 0.75
+
+        # Industrial Goods Manufacturing
+        building_industrial_robots_factory_throughput_add = 2
+        building_steel_factory_throughput_add = 2
+        building_plastics_factory_throughput_add = 2
+        building_synthetic_rubber_factory_throughput_add = 2
+        building_industrial_chemicals_factory_throughput_add = 2
+        building_circuit_boards_factory_throughput_add = 2
+        building_engines_factory_throughput_add = 2
+        # Strategic Consumer Goods Manufacturing
+        building_telecommunications_factory_throughput_add = 2
+        building_computers_factory_throughput_add = 2
+        building_pharmaceuticals_factory_throughput_add = 2
     }
 }
 
+# Tier 12 — Formosan Agro-Systems Basin
+# Archetypes: Farming + Industrial Goods Manufacturing
+state_trait_fre_south_central_taiwan = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.75
+        state_construction_mult = 2.25
+        state_standard_of_living_add = 15
+        state_birth_rate_mult = 0.85
+        state_education_access_add = 0.5625
+        state_literacy_growth_add = 1.125
+        state_infrastructure_add = 350
+        state_infrastructure_mult = 1.25
+        state_tax_capacity_mult = 0.9
+        state_trade_capacity_mult = 0.75
+        state_building_university_max_level_add = 4
+        state_tax_capacity_add = 75
+        state_market_access_price_impact = 0.1
+        building_economy_of_scale_level_cap_add = 90
+        building_railway_throughput_add = 0.75
+        building_port_throughput_add = 0.75
+        building_power_plant_throughput_add = 0.75
+        building_hydroelectric_power_plant_throughput_add = 0.75
+        building_construction_sector_throughput_add = 0.75
+        building_government_administration_throughput_add = 0.75
+        building_university_throughput_add = 0.75
+
+        # Farming
+        building_wheat_farm_throughput_add = 2
+        building_rice_farm_throughput_add = 2
+        building_rye_farm_throughput_add = 2
+        building_maize_farm_throughput_add = 2
+        building_millet_farm_throughput_add = 2
+        building_cotton_plantation_throughput_add = 2
+        building_fishing_wharf_throughput_add = 2
+        building_livestock_ranch_throughput_add = 2
+        building_banana_plantation_throughput_add = 2
+        building_coffee_plantation_throughput_add = 2
+        building_tea_plantation_throughput_add = 2
+        building_tobacco_plantation_throughput_add = 2
+        building_vineyard_throughput_add = 2
+        building_opium_plantation_throughput_add = 2
+        building_rubber_plantation_throughput_add = 2
+        # Industrial Goods Manufacturing
+        building_industrial_robots_factory_throughput_add = 2
+        building_steel_factory_throughput_add = 2
+        building_plastics_factory_throughput_add = 2
+        building_synthetic_rubber_factory_throughput_add = 2
+        building_industrial_chemicals_factory_throughput_add = 2
+        building_circuit_boards_factory_throughput_add = 2
+        building_engines_factory_throughput_add = 2
+    }
+}
+
+# Tier 12 — Kaohsiung–Tainan Arsenal Coast
+# Archetypes: Military Manufacturing + Transport Manufacturing
+state_trait_fre_south_west_taiwan = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.75
+        state_construction_mult = 2.25
+        state_standard_of_living_add = 15
+        state_birth_rate_mult = 0.85
+        state_education_access_add = 0.5625
+        state_literacy_growth_add = 1.125
+        state_infrastructure_add = 350
+        state_infrastructure_mult = 1.25
+        state_tax_capacity_mult = 0.9
+        state_trade_capacity_mult = 0.75
+        state_building_university_max_level_add = 4
+        state_tax_capacity_add = 75
+        state_market_access_price_impact = 0.1
+        building_economy_of_scale_level_cap_add = 90
+        building_railway_throughput_add = 0.75
+        building_port_throughput_add = 0.75
+        building_power_plant_throughput_add = 0.75
+        building_hydroelectric_power_plant_throughput_add = 0.75
+        building_construction_sector_throughput_add = 0.75
+        building_government_administration_throughput_add = 0.75
+        building_university_throughput_add = 0.75
+
+        # Military Manufacturing
+        building_ammunition_factory_throughput_add = 2
+        building_small_arms_factory_throughput_add = 2
+        building_artillery_factory_throughput_add = 2
+        building_tanks_factory_throughput_add = 2
+        building_warplanes_factory_throughput_add = 2
+        building_advanced_weaponry_factory_throughput_add = 2
+        # Transport Manufacturing
+        building_aeroplanes_factory_throughput_add = 2
+        building_shipyard_throughput_add = 2
+        building_locomotives_factory_throughput_add = 2
+        building_automobiles_factory_throughput_add = 2
+        building_consumer_robots_factory_throughput_add = 2
+    }
+}
+
+# Tier 8 — Pingtung Tropical Production Frontier
+# Archetype: Farming
+state_trait_fre_south_taiwan = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 1.05
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.34
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.35
+        state_building_university_max_level_add = 2
+        state_tax_capacity_add = 25
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+        building_railway_throughput_add = 0.35
+        building_port_throughput_add = 0.35
+        building_power_plant_throughput_add = 0.35
+        building_hydroelectric_power_plant_throughput_add = 0.35
+        building_construction_sector_throughput_add = 0.35
+        building_government_administration_throughput_add = 0.35
+        building_university_throughput_add = 0.35
+
+        # Farming
+        building_wheat_farm_throughput_add = 1.25
+        building_rice_farm_throughput_add = 1.25
+        building_rye_farm_throughput_add = 1.25
+        building_maize_farm_throughput_add = 1.25
+        building_millet_farm_throughput_add = 1.25
+        building_cotton_plantation_throughput_add = 1.25
+        building_fishing_wharf_throughput_add = 1.25
+        building_livestock_ranch_throughput_add = 1.25
+        building_banana_plantation_throughput_add = 1.25
+        building_coffee_plantation_throughput_add = 1.25
+        building_tea_plantation_throughput_add = 1.25
+        building_tobacco_plantation_throughput_add = 1.25
+        building_vineyard_throughput_add = 1.25
+        building_opium_plantation_throughput_add = 1.25
+        building_rubber_plantation_throughput_add = 1.25
+    }
+}
+
+# Tier 12 — Haikou Administrative Metropolis
+# Archetypes: High Tier Services + Consumer Goods Manufacturing
+state_trait_fre_north_hainan = {
+    icon = "gfx/interface/icons/state_trait_icons/river.dds"
+    modifier = {
+        building_throughput_add = 0.75
+        state_construction_mult = 2.25
+        state_standard_of_living_add = 15
+        state_birth_rate_mult = 0.85
+        state_education_access_add = 0.5625
+        state_literacy_growth_add = 1.125
+        state_infrastructure_add = 350
+        state_infrastructure_mult = 1.25
+        state_tax_capacity_mult = 0.9
+        state_trade_capacity_mult = 0.75
+        state_building_university_max_level_add = 4
+        state_tax_capacity_add = 75
+        state_market_access_price_impact = 0.1
+        building_economy_of_scale_level_cap_add = 90
+        building_railway_throughput_add = 0.75
+        building_port_throughput_add = 0.75
+        building_power_plant_throughput_add = 0.75
+        building_hydroelectric_power_plant_throughput_add = 0.75
+        building_construction_sector_throughput_add = 0.75
+        building_government_administration_throughput_add = 0.75
+        building_university_throughput_add = 0.75
+
+        # High Tier Services
+        building_corporate_services_industry_throughput_add = 2
+        building_professional_services_sector_throughput_add = 2
+        building_real_estate_sector_throughput_add = 2
+        building_financial_services_sector_throughput_add = 2
+        building_media_services_sector_throughput_add = 2
+        building_software_industry_throughput_add = 2
+        building_skyscraper_throughput_add = 2
+        # Consumer Goods Manufacturing
+        building_groceries_factory_throughput_add = 2
+        building_liquor_factory_throughput_add = 2
+        building_textile_mill_throughput_add = 2
+        building_furniture_factory_throughput_add = 2
+        building_art_academy_throughput_add = 2
+    }
+}
+
+# Tier 8 — Wenchang Orbital Coast
+# Archetype: Transport Manufacturing
+state_trait_fre_northeast_hainan = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 1.05
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.34
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.35
+        state_building_university_max_level_add = 2
+        state_tax_capacity_add = 25
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+        building_railway_throughput_add = 0.35
+        building_port_throughput_add = 0.35
+        building_power_plant_throughput_add = 0.35
+        building_hydroelectric_power_plant_throughput_add = 0.35
+        building_construction_sector_throughput_add = 0.35
+        building_government_administration_throughput_add = 0.35
+        building_university_throughput_add = 0.35
+
+        # Transport Manufacturing
+        building_aeroplanes_factory_throughput_add = 1.25
+        building_shipyard_throughput_add = 1.25
+        building_locomotives_factory_throughput_add = 1.25
+        building_automobiles_factory_throughput_add = 1.25
+        building_consumer_robots_factory_throughput_add = 1.25
+    }
+}
+
+# Tier 8 — Bo’ao Life-Sciences Riviera
+# Archetype: Strategic Consumer Goods Manufacturing
+state_trait_fre_east_hainan = {
+    icon = "gfx/interface/icons/state_trait_icons/good_soils.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 1.05
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.34
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.35
+        state_building_university_max_level_add = 2
+        state_tax_capacity_add = 25
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+        building_railway_throughput_add = 0.35
+        building_port_throughput_add = 0.35
+        building_power_plant_throughput_add = 0.35
+        building_hydroelectric_power_plant_throughput_add = 0.35
+        building_construction_sector_throughput_add = 0.35
+        building_government_administration_throughput_add = 0.35
+        building_university_throughput_add = 0.35
+
+        # Strategic Consumer Goods Manufacturing
+        building_telecommunications_factory_throughput_add = 1.25
+        building_computers_factory_throughput_add = 1.25
+        building_pharmaceuticals_factory_throughput_add = 1.25
+    }
+}
+
+# Tier 12 — Sanya Oceanic Command
+# Archetypes: Low Tier Services + Industrial Goods Manufacturing
+state_trait_fre_southeast_hainan = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.75
+        state_construction_mult = 2.25
+        state_standard_of_living_add = 15
+        state_birth_rate_mult = 0.85
+        state_education_access_add = 0.5625
+        state_literacy_growth_add = 1.125
+        state_infrastructure_add = 350
+        state_infrastructure_mult = 1.25
+        state_tax_capacity_mult = 0.9
+        state_trade_capacity_mult = 0.75
+        state_building_university_max_level_add = 4
+        state_tax_capacity_add = 75
+        state_market_access_price_impact = 0.1
+        building_economy_of_scale_level_cap_add = 90
+        building_railway_throughput_add = 0.75
+        building_port_throughput_add = 0.75
+        building_power_plant_throughput_add = 0.75
+        building_hydroelectric_power_plant_throughput_add = 0.75
+        building_construction_sector_throughput_add = 0.75
+        building_government_administration_throughput_add = 0.75
+        building_university_throughput_add = 0.75
+
+        # Low Tier Services
+        building_retail_services_sector_throughput_add = 2
+        building_recreational_services_sector_throughput_add = 2
+        building_communications_network_throughput_add = 2
+        # Industrial Goods Manufacturing
+        building_industrial_robots_factory_throughput_add = 2
+        building_steel_factory_throughput_add = 2
+        building_plastics_factory_throughput_add = 2
+        building_synthetic_rubber_factory_throughput_add = 2
+        building_industrial_chemicals_factory_throughput_add = 2
+        building_circuit_boards_factory_throughput_add = 2
+        building_engines_factory_throughput_add = 2
+    }
+}
+
+# Tier 8 — Yangpu Industrial Gateway
+# Archetype: Industrial Goods Manufacturing
+state_trait_fre_northwest_hainan = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 1.05
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.34
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.35
+        state_building_university_max_level_add = 2
+        state_tax_capacity_add = 25
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+        building_railway_throughput_add = 0.35
+        building_port_throughput_add = 0.35
+        building_power_plant_throughput_add = 0.35
+        building_hydroelectric_power_plant_throughput_add = 0.35
+        building_construction_sector_throughput_add = 0.35
+        building_government_administration_throughput_add = 0.35
+        building_university_throughput_add = 0.35
+
+        # Industrial Goods Manufacturing
+        building_industrial_robots_factory_throughput_add = 1.25
+        building_steel_factory_throughput_add = 1.25
+        building_plastics_factory_throughput_add = 1.25
+        building_synthetic_rubber_factory_throughput_add = 1.25
+        building_industrial_chemicals_factory_throughput_add = 1.25
+        building_circuit_boards_factory_throughput_add = 1.25
+        building_engines_factory_throughput_add = 1.25
+    }
+}
+
+# Tier 8 — Basuo Energy Coast
+# Archetype: Raw Resource
+state_trait_fre_southwest_hainan = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 1.05
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.34
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.35
+        state_building_university_max_level_add = 2
+        state_tax_capacity_add = 25
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+        building_railway_throughput_add = 0.35
+        building_port_throughput_add = 0.35
+        building_power_plant_throughput_add = 0.35
+        building_hydroelectric_power_plant_throughput_add = 0.35
+        building_construction_sector_throughput_add = 0.35
+        building_government_administration_throughput_add = 0.35
+        building_university_throughput_add = 0.35
+
+        # Raw Resource
+        building_logging_camp_throughput_add = 1.25
+        building_gold_mine_throughput_add = 1.25
+        building_gold_field_throughput_add = 1.25
+        building_iron_mine_throughput_add = 1.25
+        building_lead_mine_throughput_add = 1.25
+        building_sulfur_mine_throughput_add = 1.25
+        building_coal_mine_throughput_add = 1.25
+        building_oil_rig_throughput_add = 1.25
+    }
+}
+
+# Tier 12 — Jeju Climate-Tech Island
+# Archetypes: Low Tier Services + Strategic Consumer Goods Manufacturing
+state_trait_fre_jeju = {
+    icon = "gfx/interface/icons/state_trait_icons/turquoise.dds"
+    modifier = {
+        building_throughput_add = 0.75
+        state_construction_mult = 2.25
+        state_standard_of_living_add = 15
+        state_birth_rate_mult = 0.85
+        state_education_access_add = 0.5625
+        state_literacy_growth_add = 1.125
+        state_infrastructure_add = 350
+        state_infrastructure_mult = 1.25
+        state_tax_capacity_mult = 0.9
+        state_trade_capacity_mult = 0.75
+        state_building_university_max_level_add = 4
+        state_tax_capacity_add = 75
+        state_market_access_price_impact = 0.1
+        building_economy_of_scale_level_cap_add = 90
+        building_railway_throughput_add = 0.75
+        building_port_throughput_add = 0.75
+        building_power_plant_throughput_add = 0.75
+        building_hydroelectric_power_plant_throughput_add = 0.75
+        building_construction_sector_throughput_add = 0.75
+        building_government_administration_throughput_add = 0.75
+        building_university_throughput_add = 0.75
+
+        # Low Tier Services
+        building_retail_services_sector_throughput_add = 2
+        building_recreational_services_sector_throughput_add = 2
+        building_communications_network_throughput_add = 2
+        # Strategic Consumer Goods Manufacturing
+        building_telecommunications_factory_throughput_add = 2
+        building_computers_factory_throughput_add = 2
+        building_pharmaceuticals_factory_throughput_add = 2
+    }
+}
+
+# Tier 12 — Yaeyama Forward Shield
+# Archetypes: Low Tier Services + Transport Manufacturing
+state_trait_fre_ishigaki_island = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.75
+        state_construction_mult = 2.25
+        state_standard_of_living_add = 15
+        state_birth_rate_mult = 0.85
+        state_education_access_add = 0.5625
+        state_literacy_growth_add = 1.125
+        state_infrastructure_add = 350
+        state_infrastructure_mult = 1.25
+        state_tax_capacity_mult = 0.9
+        state_trade_capacity_mult = 0.75
+        state_building_university_max_level_add = 4
+        state_tax_capacity_add = 75
+        state_market_access_price_impact = 0.1
+        building_economy_of_scale_level_cap_add = 90
+        building_railway_throughput_add = 0.75
+        building_port_throughput_add = 0.75
+        building_power_plant_throughput_add = 0.75
+        building_hydroelectric_power_plant_throughput_add = 0.75
+        building_construction_sector_throughput_add = 0.75
+        building_government_administration_throughput_add = 0.75
+        building_university_throughput_add = 0.75
+
+        # Low Tier Services
+        building_retail_services_sector_throughput_add = 2
+        building_recreational_services_sector_throughput_add = 2
+        building_communications_network_throughput_add = 2
+        # Transport Manufacturing
+        building_aeroplanes_factory_throughput_add = 2
+        building_shipyard_throughput_add = 2
+        building_locomotives_factory_throughput_add = 2
+        building_automobiles_factory_throughput_add = 2
+        building_consumer_robots_factory_throughput_add = 2
+    }
+}
+
+# Tier 8 — Natuna Maritime Energy Frontier
+# Archetype: Raw Resource
+state_trait_fre_outer_riau_islands = {
+    icon = "gfx/interface/icons/state_trait_icons/unused/rich_natural_resources.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 1.05
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.34
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.35
+        state_building_university_max_level_add = 2
+        state_tax_capacity_add = 25
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+        building_railway_throughput_add = 0.35
+        building_port_throughput_add = 0.35
+        building_power_plant_throughput_add = 0.35
+        building_hydroelectric_power_plant_throughput_add = 0.35
+        building_construction_sector_throughput_add = 0.35
+        building_government_administration_throughput_add = 0.35
+        building_university_throughput_add = 0.35
+
+        # Raw Resource
+        building_logging_camp_throughput_add = 1.25
+        building_gold_mine_throughput_add = 1.25
+        building_gold_field_throughput_add = 1.25
+        building_iron_mine_throughput_add = 1.25
+        building_lead_mine_throughput_add = 1.25
+        building_sulfur_mine_throughput_add = 1.25
+        building_coal_mine_throughput_add = 1.25
+        building_oil_rig_throughput_add = 1.25
+    }
+}
+
+# Tier 12 — Batam–Bintan World Workshop
+# Archetypes: Industrial Goods Manufacturing + Consumer Goods Manufacturing
+state_trait_fre_greater_riau_islands = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.75
+        state_construction_mult = 2.25
+        state_standard_of_living_add = 15
+        state_birth_rate_mult = 0.85
+        state_education_access_add = 0.5625
+        state_literacy_growth_add = 1.125
+        state_infrastructure_add = 350
+        state_infrastructure_mult = 1.25
+        state_tax_capacity_mult = 0.9
+        state_trade_capacity_mult = 0.75
+        state_building_university_max_level_add = 4
+        state_tax_capacity_add = 75
+        state_market_access_price_impact = 0.1
+        building_economy_of_scale_level_cap_add = 90
+        building_railway_throughput_add = 0.75
+        building_port_throughput_add = 0.75
+        building_power_plant_throughput_add = 0.75
+        building_hydroelectric_power_plant_throughput_add = 0.75
+        building_construction_sector_throughput_add = 0.75
+        building_government_administration_throughput_add = 0.75
+        building_university_throughput_add = 0.75
+
+        # Industrial Goods Manufacturing
+        building_industrial_robots_factory_throughput_add = 2
+        building_steel_factory_throughput_add = 2
+        building_plastics_factory_throughput_add = 2
+        building_synthetic_rubber_factory_throughput_add = 2
+        building_industrial_chemicals_factory_throughput_add = 2
+        building_circuit_boards_factory_throughput_add = 2
+        building_engines_factory_throughput_add = 2
+        # Consumer Goods Manufacturing
+        building_groceries_factory_throughput_add = 2
+        building_liquor_factory_throughput_add = 2
+        building_textile_mill_throughput_add = 2
+        building_furniture_factory_throughput_add = 2
+        building_art_academy_throughput_add = 2
+    }
+}
+
+# Tier 8 — Ogasawara Pacific Bastion
+# Archetype: Military Manufacturing
+state_trait_fre_bonin_islands = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 1.05
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.34
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.35
+        state_building_university_max_level_add = 2
+        state_tax_capacity_add = 25
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+        building_railway_throughput_add = 0.35
+        building_port_throughput_add = 0.35
+        building_power_plant_throughput_add = 0.35
+        building_hydroelectric_power_plant_throughput_add = 0.35
+        building_construction_sector_throughput_add = 0.35
+        building_government_administration_throughput_add = 0.35
+        building_university_throughput_add = 0.35
+
+        # Military Manufacturing
+        building_ammunition_factory_throughput_add = 1.25
+        building_small_arms_factory_throughput_add = 1.25
+        building_artillery_factory_throughput_add = 1.25
+        building_tanks_factory_throughput_add = 1.25
+        building_warplanes_factory_throughput_add = 1.25
+        building_advanced_weaponry_factory_throughput_add = 1.25
+    }
+}
+
+# Tier 8 — Cocos Indian Ocean Relay
+# Archetype: Low Tier Services
+state_trait_fre_cocos_islands = {
+    icon = "gfx/interface/icons/state_trait_icons/natural_harbors.dds"
+    modifier = {
+        building_throughput_add = 0.3
+        state_construction_mult = 1.05
+        state_standard_of_living_add = 8.25
+        state_birth_rate_mult = 0.34
+        state_education_access_add = 0.2625
+        state_literacy_growth_add = 0.5625
+        state_infrastructure_add = 110
+        state_infrastructure_mult = 0.4
+        state_tax_capacity_mult = 0.4
+        state_trade_capacity_mult = 0.35
+        state_building_university_max_level_add = 2
+        state_tax_capacity_add = 25
+        state_market_access_price_impact = 0.05
+        building_economy_of_scale_level_cap_add = 40
+        building_railway_throughput_add = 0.35
+        building_port_throughput_add = 0.35
+        building_power_plant_throughput_add = 0.35
+        building_hydroelectric_power_plant_throughput_add = 0.35
+        building_construction_sector_throughput_add = 0.35
+        building_government_administration_throughput_add = 0.35
+        building_university_throughput_add = 0.35
+
+        # Low Tier Services
+        building_retail_services_sector_throughput_add = 1.25
+        building_recreational_services_sector_throughput_add = 1.25
+        building_communications_network_throughput_add = 1.25
+    }
+}
+
+# Tier 12 — Aurelian Antarctic Gateway
+# Archetypes: Raw Resource + Consumer Goods Manufacturing
+state_trait_fre_south_georgia_south_sandwich = {
+    icon = "gfx/interface/icons/state_trait_icons/resources_ore.dds"
+    modifier = {
+        building_throughput_add = 0.75
+        state_construction_mult = 2.25
+        state_standard_of_living_add = 15
+        state_birth_rate_mult = 0.85
+        state_education_access_add = 0.5625
+        state_literacy_growth_add = 1.125
+        state_infrastructure_add = 350
+        state_infrastructure_mult = 1.25
+        state_tax_capacity_mult = 0.9
+        state_trade_capacity_mult = 0.75
+        state_building_university_max_level_add = 4
+        state_tax_capacity_add = 75
+        state_market_access_price_impact = 0.1
+        building_economy_of_scale_level_cap_add = 90
+        building_railway_throughput_add = 0.75
+        building_port_throughput_add = 0.75
+        building_power_plant_throughput_add = 0.75
+        building_hydroelectric_power_plant_throughput_add = 0.75
+        building_construction_sector_throughput_add = 0.75
+        building_government_administration_throughput_add = 0.75
+        building_university_throughput_add = 0.75
+
+        # Raw Resource
+        building_logging_camp_throughput_add = 2
+        building_gold_mine_throughput_add = 2
+        building_gold_field_throughput_add = 2
+        building_iron_mine_throughput_add = 2
+        building_lead_mine_throughput_add = 2
+        building_sulfur_mine_throughput_add = 2
+        building_coal_mine_throughput_add = 2
+        building_oil_rig_throughput_add = 2
+        # Consumer Goods Manufacturing
+        building_groceries_factory_throughput_add = 2
+        building_liquor_factory_throughput_add = 2
+        building_textile_mill_throughput_add = 2
+        building_furniture_factory_throughput_add = 2
+        building_art_academy_throughput_add = 2
+    }
+}

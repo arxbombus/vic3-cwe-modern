@@ -67,18 +67,6 @@ modern_apply_country_power_modifiers = {
 			}
 		}
 	}
-	if = {
-		limit = { exists = c:ROC }
-		c:ROC = {
-			if = {
-				limit = { NOT = { has_modifier = modern_country_power_china } }
-				add_modifier = {
-					name = modern_country_power_china
-					duration = -1
-				}
-			}
-		}
-	}
 	### India
 	if = {
 		limit = { exists = c:HND }

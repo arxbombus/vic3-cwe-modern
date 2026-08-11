@@ -380,7 +380,7 @@ company_fre_haidong_automata = {
 	}
 
 	preferred_headquarters = {
-		STATE_JEJU
+		STATE_WEST_FORMOSA
 	}
 
 	prosperity_modifier = {
@@ -464,7 +464,7 @@ company_fre_danqi_strategic_industries = {
 	}
 
 	preferred_headquarters = {
-		STATE_SOUTH_WEST_FORMOSA
+		STATE_FORMOSA
 	}
 
 	prosperity_modifier = {
@@ -554,7 +554,7 @@ company_fre_canghai_resources = {
 	}
 
 	preferred_headquarters = {
-		STATE_NORTH_HAINAN
+		STATE_SOUTH_GEORGIA_SOUTH_SANDWICH_ISLANDS
 	}
 
 	prosperity_modifier = {
@@ -631,7 +631,7 @@ company_fre_liuxing_aerospace_marine = {
 	}
 
 	preferred_headquarters = {
-		STATE_ISHIGAKI_ISLAND
+		STATE_SOUTH_WEST_FORMOSA
 	}
 
 	prosperity_modifier = {
@@ -712,11 +712,11 @@ company_fre_xuanyu_advanced_materials = {
 	}
 
 	prosperity_modifier = {
-		building_steel_factory_throughput_add = 0.6
-		building_industrial_chemicals_factory_throughput_add = 0.6
-		building_plastics_factory_throughput_add = 0.6
-		building_synthetic_rubber_factory_throughput_add = 0.6
-		state_construction_mult = 0.3
+		building_steel_factory_throughput_add = 1.2
+		building_industrial_chemicals_factory_throughput_add = 1.2
+		building_plastics_factory_throughput_add = 1.2
+		building_synthetic_rubber_factory_throughput_add = 1.2
+		state_construction_mult = 1
 		state_infrastructure_mult = 0.3
 	}
 
@@ -785,7 +785,7 @@ company_fre_jinlun_mobility = {
 	}
 
 	preferred_headquarters = {
-		STATE_WEST_FORMOSA
+		STATE_SOUTH_WEST_FORMOSA
 	}
 
 	prosperity_modifier = {
@@ -855,7 +855,7 @@ company_fre_shennong_biotechnologies = {
 	}
 
 	preferred_headquarters = {
-		STATE_SOUTH_EAST_HAINAN
+		STATE_NORTH_FORMOSA
 	}
 
 	prosperity_modifier = {
@@ -881,6 +881,7 @@ company_fre_minsheng_group = {
 		building_media_services_sector
 		building_government_administration
 		building_urban_center
+		building_communications_network
 	}
 
 	extension_building_types = {
@@ -1097,7 +1098,7 @@ company_fre_wanjia_consumer_holdings = {
 	}
 
 	preferred_headquarters = {
-		STATE_FORMOSA
+		STATE_NORTH_HAINAN
 	}
 
 	prosperity_modifier = {
@@ -1187,7 +1188,7 @@ company_fre_chiguan_agrotrade = {
 	}
 
 	preferred_headquarters = {
-		STATE_GREATER_RIAU_ISLANDS
+		STATE_SOUTH_CENTRAL_FORMOSA
 	}
 
 	prosperity_modifier = {
