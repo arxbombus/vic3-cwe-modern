@@ -272,11 +272,12 @@ is_some_kind_of_democracy = {
 	OR = {
 		has_government_type = gov_constitutional_monarchy_regime
 		has_government_type = gov_constitutional_monarchy
-		has_government_type = gov_semi_constitutional_monarchy
+		has_government_type = gov_semi_constitutional_monarchy has_government_type = gov_elective_monarchy
 		AND = { has_government_type = gov_regency_kingdom country_has_voting_franchise = yes }
 		has_government_type = gov_semi_constitutional_empire
 		AND = { has_government_type = gov_regency_empire country_has_voting_franchise = yes }
 		has_government_type = gov_semi_constitutional_monarchy_foreign
+		has_government_type = gov_constitutional_monarchy_foreign
 		has_government_type = gov_presidential_democracy
 		has_government_type = gov_semi_presidential_democracy
 		has_government_type = gov_presidential_regime
@@ -321,7 +322,7 @@ is_a_regime_type_government = {
 		has_government_type = gov_semi_constitutional_monarchy_foreign
 		has_government_type = gov_semi_constitutional_empire
 		AND = { has_government_type = gov_regency_empire country_has_voting_franchise = yes }
-		has_government_type = gov_semi_constitutional_monarchy
+		has_government_type = gov_semi_constitutional_monarchy has_government_type = gov_elective_monarchy
 		AND = { has_government_type = gov_regency_kingdom country_has_voting_franchise = yes }
 		has_government_type = gov_presidential_regime
 		has_government_type = gov_nationalist_regime has_government_type = gov_nationalist_regime_parl
@@ -358,7 +359,7 @@ is_a_dictatorship = {
 			has_government_type = gov_absolute_monarchy_foreign_dynastic
 			has_government_type = gov_absolute_monarchy_foreign
 			has_government_type = gov_semi_constitutional_empire
-			has_government_type = gov_semi_constitutional_monarchy
+			has_government_type = gov_semi_constitutional_monarchy has_government_type = gov_elective_monarchy
 			has_government_type = gov_semi_constitutional_monarchy_foreign
 			has_government_type = gov_constitutional_monarchy_dictatorship_dynastic
 			has_government_type = gov_constitutional_monarchy_dictatorship
@@ -537,6 +538,7 @@ is_a_presidential_elective_system = {
 		has_government_type = gov_nationalist_republic
 		has_government_type = gov_colonial_administration_elective
 		has_government_type = gov_devolved_administration_elective
+		has_government_type = gov_constitutional_monarchy_foreign
 	}
 	
 }
@@ -560,9 +562,10 @@ is_a_democratic_monarchy = {
 		has_government_type = gov_constitutional_monarchy
 		has_government_type = gov_semi_constitutional_empire
 		AND = { has_government_type = gov_regency_empire country_has_voting_franchise = yes }
-		has_government_type = gov_semi_constitutional_monarchy
+		has_government_type = gov_semi_constitutional_monarchy has_government_type = gov_elective_monarchy
 		AND = { has_government_type = gov_regency_kingdom country_has_voting_franchise = yes }
 		has_government_type = gov_semi_constitutional_monarchy_foreign
+		has_government_type = gov_constitutional_monarchy_foreign
 	}
 	
 }
@@ -571,7 +574,7 @@ is_a_regime_monarchy = {
 
 	OR = {
 		has_government_type = gov_semi_constitutional_empire
-		has_government_type = gov_semi_constitutional_monarchy
+		has_government_type = gov_semi_constitutional_monarchy has_government_type = gov_elective_monarchy
 		has_government_type = gov_absolute_monarchy
 		has_government_type = gov_regency_kingdom
 		has_government_type = gov_absolute_empire
@@ -618,6 +621,7 @@ is_a_constitutional_monarchy = {
 		has_government_type = gov_absolute_monarchy_foreign_dynastic
 		has_government_type = gov_absolute_monarchy_foreign
 		has_government_type = gov_semi_constitutional_monarchy_foreign
+		has_government_type = gov_constitutional_monarchy_foreign
 		has_government_type = gov_constitutional_monarchy_dictatorship_dynastic
 		has_government_type = gov_constitutional_monarchy_dictatorship
 		has_government_type = gov_constitutional_monarchy_regime
@@ -651,11 +655,12 @@ is_a_monarchy = {
 		has_government_type = gov_absolute_monarchy_foreign_dynastic
 		has_government_type = gov_absolute_monarchy_foreign
 		has_government_type = gov_semi_constitutional_monarchy_foreign
+		has_government_type = gov_constitutional_monarchy_foreign
 		has_government_type = gov_constitutional_monarchy_dictatorship_dynastic
 		has_government_type = gov_constitutional_monarchy_dictatorship
 		has_government_type = gov_constitutional_monarchy_regime
 		has_government_type = gov_constitutional_monarchy
-		has_government_type = gov_semi_constitutional_monarchy
+		has_government_type = gov_semi_constitutional_monarchy has_government_type = gov_elective_monarchy
 		has_government_type = gov_semi_constitutional_empire
 		has_government_type = gov_absolute_monarchy
 		has_government_type = gov_regency_kingdom
@@ -675,11 +680,12 @@ is_not_a_monarchy = {
 		has_government_type = gov_absolute_monarchy_foreign_dynastic
 		has_government_type = gov_absolute_monarchy_foreign
 		has_government_type = gov_semi_constitutional_monarchy_foreign
+		has_government_type = gov_constitutional_monarchy_foreign
 		has_government_type = gov_constitutional_monarchy_dictatorship_dynastic
 		has_government_type = gov_constitutional_monarchy_dictatorship
 		has_government_type = gov_constitutional_monarchy_regime
 		has_government_type = gov_constitutional_monarchy
-		has_government_type = gov_semi_constitutional_monarchy
+		has_government_type = gov_semi_constitutional_monarchy has_government_type = gov_elective_monarchy
 		has_government_type = gov_semi_constitutional_empire
 		has_government_type = gov_absolute_monarchy
 		has_government_type = gov_regency_kingdom
@@ -833,6 +839,7 @@ ruler_is_governor_general = {
 		has_government_type = gov_absolute_monarchy_foreign_dynastic
 		has_government_type = gov_absolute_monarchy_foreign
 		has_government_type = gov_semi_constitutional_monarchy_foreign
+		has_government_type = gov_constitutional_monarchy_foreign
 		has_government_type = gov_colonial_administration_dictatorial_dynastic
 		has_government_type = gov_colonial_administration_dictatorial
 		has_government_type = gov_colonial_administration_elective
@@ -2718,15 +2725,14 @@ is_a_policy_type_law = {
 		is_enacting_law = law_type:law_regionalist_fp
 		is_enacting_law = law_type:law_globalist_fp
 		
-		is_enacting_law = law_type:law_very_deflationary_monetary_policy
-		is_enacting_law = law_type:law_deflationary_monetary_policy
-		is_enacting_law = law_type:law_neutral_monetary_policy
-		is_enacting_law = law_type:law_expansionary_monetary_policy
-		is_enacting_law = law_type:law_very_expansionary_monetary_policy
+		is_enacting_law = law_type:law_independent_central_bank
+		is_enacting_law = law_type:law_semi_independent_central_bank
+		is_enacting_law = law_type:law_non_independent_central_bank
 		
 		is_enacting_law = law_type:law_merchant_navy
 		is_enacting_law = law_type:law_jeune_ecole
 		is_enacting_law = law_type:law_professional_navy
+		is_enacting_law = law_type:law_diplomatic_navy
 	}
 
 }
