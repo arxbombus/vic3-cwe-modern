@@ -11,7 +11,7 @@ modern_country_power_aurelia = {
 
 	# Weak universal national chassis
 	building_throughput_add = 0.6
-	building_goods_input_mult = 0.48
+	building_goods_input_mult = 0.36
 	building_economy_of_scale_level_cap_add = 24
 	country_construction_add = 45
 	country_max_companies_add = 18
@@ -22,8 +22,8 @@ modern_country_power_aurelia = {
 	country_weekly_innovation_max_add = 100
 	country_influence_mult = 0.24
 	country_bureaucracy_mult = 0.3
-	country_authority_mult = 0.6
-	state_standard_of_living_add = 3
+	country_authority_mult = 2
+	state_standard_of_living_add = 1.5
 	state_birth_rate_mult = 0.075
 	state_education_access_add = 0.1
 	state_literacy_growth_add = 0.2
@@ -70,7 +70,7 @@ modern_country_power_usa = {
 
 	# Universal national chassis
 	building_throughput_add = 0.6
-	building_goods_input_mult = 0.48
+	building_goods_input_mult = 0.36
 	building_economy_of_scale_level_cap_add = 24
 	country_construction_add = 45
 	country_max_companies_add = 8
@@ -81,7 +81,7 @@ modern_country_power_usa = {
 	country_influence_mult = 0.24
 	country_bureaucracy_mult = 0.3
 	country_authority_mult = 0.3
-	state_standard_of_living_add = 3
+	state_standard_of_living_add = 1.5
 	state_birth_rate_mult = 0.15
 	state_education_access_add = 0.1
 	state_literacy_growth_add = 0.2
@@ -128,7 +128,7 @@ modern_country_power_china = {
 
 	# Universal national chassis
 	building_throughput_add = 0.5875
-	building_goods_input_mult = 0.47
+	building_goods_input_mult = 0.35
 	building_economy_of_scale_level_cap_add = 23.5
 	country_construction_add = 44.063
 	country_max_companies_add = 8
@@ -139,7 +139,7 @@ modern_country_power_china = {
 	country_influence_mult = 0.235
 	country_bureaucracy_mult = 0.2938
 	country_authority_mult = 0.2938
-	state_standard_of_living_add = 2.938
+	state_standard_of_living_add = 1.47
 	state_birth_rate_mult = 0.0734
 	state_education_access_add = 0.0979
 	state_literacy_growth_add = 0.1958
@@ -185,7 +185,7 @@ modern_country_power_india = {
 
 	# Universal national chassis
 	building_throughput_add = 0.575
-	building_goods_input_mult = 0.46
+	building_goods_input_mult = 0.35
 	building_economy_of_scale_level_cap_add = 23
 	country_construction_add = 43.125
 	country_max_companies_add = 8
@@ -196,7 +196,7 @@ modern_country_power_india = {
 	country_influence_mult = 0.23
 	country_bureaucracy_mult = 0.2875
 	country_authority_mult = 0.2875
-	state_standard_of_living_add = 2.875
+	state_standard_of_living_add = 1.44
 	state_birth_rate_mult = 0.0719
 	state_education_access_add = 0.0958
 	state_literacy_growth_add = 0.1917
@@ -240,7 +240,7 @@ modern_country_power_germany = {
 
 	# Universal national chassis
 	building_throughput_add = 0.5625
-	building_goods_input_mult = 0.45
+	building_goods_input_mult = 0.34
 	building_economy_of_scale_level_cap_add = 22.5
 	country_construction_add = 42.188
 	country_max_companies_add = 8
@@ -251,7 +251,7 @@ modern_country_power_germany = {
 	country_influence_mult = 0.225
 	country_bureaucracy_mult = 0.2813
 	country_authority_mult = 0.2813
-	state_standard_of_living_add = 2.813
+	state_standard_of_living_add = 1.41
 	state_birth_rate_mult = 0.35
 	state_education_access_add = 0.0938
 	state_literacy_growth_add = 0.1875
@@ -294,7 +294,7 @@ modern_country_power_japan = {
 
 	# Universal national chassis
 	building_throughput_add = 0.55
-	building_goods_input_mult = 0.44
+	building_goods_input_mult = 0.33
 	building_economy_of_scale_level_cap_add = 22
 	country_construction_add = 41.25
 	country_max_companies_add = 7
@@ -305,7 +305,7 @@ modern_country_power_japan = {
 	country_influence_mult = 0.22
 	country_bureaucracy_mult = 0.275
 	country_authority_mult = 0.275
-	state_standard_of_living_add = 2.75
+	state_standard_of_living_add = 1.38
 	state_birth_rate_mult = 0.35
 	state_education_access_add = 0.0917
 	state_literacy_growth_add = 0.1833
@@ -348,7 +348,7 @@ modern_country_power_united_kingdom = {
 
 	# Universal national chassis
 	building_throughput_add = 0.5375
-	building_goods_input_mult = 0.43
+	building_goods_input_mult = 0.32
 	building_economy_of_scale_level_cap_add = 21.5
 	country_construction_add = 40.313
 	country_max_companies_add = 7
@@ -359,7 +359,7 @@ modern_country_power_united_kingdom = {
 	country_influence_mult = 0.215
 	country_bureaucracy_mult = 0.2688
 	country_authority_mult = 0.2688
-	state_standard_of_living_add = 2.688
+	state_standard_of_living_add = 1.34
 	state_birth_rate_mult = 0.35
 	state_education_access_add = 0.0896
 	state_literacy_growth_add = 0.1792
@@ -406,7 +406,7 @@ modern_country_power_france = {
 
 	# Universal national chassis
 	building_throughput_add = 0.525
-	building_goods_input_mult = 0.42
+	building_goods_input_mult = 0.32
 	building_economy_of_scale_level_cap_add = 21
 	country_construction_add = 39.375
 	country_max_companies_add = 7
@@ -417,7 +417,7 @@ modern_country_power_france = {
 	country_influence_mult = 0.21
 	country_bureaucracy_mult = 0.2625
 	country_authority_mult = 0.2625
-	state_standard_of_living_add = 2.625
+	state_standard_of_living_add = 1.31
 	state_birth_rate_mult = 0.35
 	state_education_access_add = 0.0875
 	state_literacy_growth_add = 0.175
@@ -460,7 +460,7 @@ modern_country_power_russia = {
 
 	# Universal national chassis
 	building_throughput_add = 0.5125
-	building_goods_input_mult = 0.41
+	building_goods_input_mult = 0.31
 	building_economy_of_scale_level_cap_add = 20.5
 	country_construction_add = 38.438
 	country_max_companies_add = 7
@@ -471,7 +471,7 @@ modern_country_power_russia = {
 	country_influence_mult = 0.205
 	country_bureaucracy_mult = 0.2563
 	country_authority_mult = 0.2563
-	state_standard_of_living_add = 2.563
+	state_standard_of_living_add = 1.28
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0854
 	state_literacy_growth_add = 0.1708
@@ -515,7 +515,7 @@ modern_country_power_brazil = {
 
 	# Universal national chassis
 	building_throughput_add = 0.5
-	building_goods_input_mult = 0.4
+	building_goods_input_mult = 0.3
 	building_economy_of_scale_level_cap_add = 20
 	country_construction_add = 37.5
 	country_max_companies_add = 7
@@ -526,7 +526,7 @@ modern_country_power_brazil = {
 	country_influence_mult = 0.2
 	country_bureaucracy_mult = 0.25
 	country_authority_mult = 0.25
-	state_standard_of_living_add = 2.5
+	state_standard_of_living_add = 1.25
 	state_birth_rate_mult = 0.0625
 	state_education_access_add = 0.0833
 	state_literacy_growth_add = 0.1667
@@ -568,7 +568,7 @@ modern_country_power_indonesia = {
 
 	# Universal national chassis
 	building_throughput_add = 0.4875
-	building_goods_input_mult = 0.39
+	building_goods_input_mult = 0.29
 	building_economy_of_scale_level_cap_add = 19.5
 	country_construction_add = 36.563
 	country_max_companies_add = 7
@@ -579,7 +579,7 @@ modern_country_power_indonesia = {
 	country_influence_mult = 0.195
 	country_bureaucracy_mult = 0.2438
 	country_authority_mult = 0.2438
-	state_standard_of_living_add = 2.438
+	state_standard_of_living_add = 1.22
 	state_birth_rate_mult = 0.0609
 	state_education_access_add = 0.0813
 	state_literacy_growth_add = 0.1625
@@ -620,7 +620,7 @@ modern_country_power_italy = {
 
 	# Universal national chassis
 	building_throughput_add = 0.475
-	building_goods_input_mult = 0.38
+	building_goods_input_mult = 0.29
 	building_economy_of_scale_level_cap_add = 19
 	country_construction_add = 35.625
 	country_max_companies_add = 6
@@ -631,7 +631,7 @@ modern_country_power_italy = {
 	country_influence_mult = 0.19
 	country_bureaucracy_mult = 0.2375
 	country_authority_mult = 0.2375
-	state_standard_of_living_add = 2.375
+	state_standard_of_living_add = 1.19
 	state_birth_rate_mult = 0.0594
 	state_education_access_add = 0.0792
 	state_literacy_growth_add = 0.1583
@@ -673,7 +673,7 @@ modern_country_power_canada = {
 
 	# Universal national chassis
 	building_throughput_add = 0.4625
-	building_goods_input_mult = 0.37
+	building_goods_input_mult = 0.28
 	building_economy_of_scale_level_cap_add = 18.5
 	country_construction_add = 34.688
 	country_max_companies_add = 6
@@ -684,7 +684,7 @@ modern_country_power_canada = {
 	country_influence_mult = 0.185
 	country_bureaucracy_mult = 0.2313
 	country_authority_mult = 0.2313
-	state_standard_of_living_add = 2.313
+	state_standard_of_living_add = 1.16
 	state_birth_rate_mult = 0.0578
 	state_education_access_add = 0.0771
 	state_literacy_growth_add = 0.1542
@@ -725,7 +725,7 @@ modern_country_power_south_korea = {
 
 	# Universal national chassis
 	building_throughput_add = 0.45
-	building_goods_input_mult = 0.36
+	building_goods_input_mult = 0.27
 	building_economy_of_scale_level_cap_add = 18
 	country_construction_add = 300
 	country_max_companies_add = 6
@@ -736,7 +736,7 @@ modern_country_power_south_korea = {
 	country_influence_mult = 0.18
 	country_bureaucracy_mult = 0.225
 	country_authority_mult = 0.225
-	state_standard_of_living_add = 2.25
+	state_standard_of_living_add = 1.13
 	state_birth_rate_mult = 0.5
 	state_education_access_add = 0.075
 	state_literacy_growth_add = 0.15
@@ -777,7 +777,7 @@ modern_country_power_mexico = {
 
 	# Universal national chassis
 	building_throughput_add = 0.4375
-	building_goods_input_mult = 0.35
+	building_goods_input_mult = 0.26
 	building_economy_of_scale_level_cap_add = 17.5
 	country_construction_add = 32.813
 	country_max_companies_add = 6
@@ -788,7 +788,7 @@ modern_country_power_mexico = {
 	country_influence_mult = 0.175
 	country_bureaucracy_mult = 0.2188
 	country_authority_mult = 0.2188
-	state_standard_of_living_add = 2.188
+	state_standard_of_living_add = 1.09
 	state_birth_rate_mult = 0.0547
 	state_education_access_add = 0.0729
 	state_literacy_growth_add = 0.1458
@@ -828,7 +828,7 @@ modern_country_power_turkey = {
 
 	# Universal national chassis
 	building_throughput_add = 0.425
-	building_goods_input_mult = 0.34
+	building_goods_input_mult = 0.26
 	building_economy_of_scale_level_cap_add = 17
 	country_construction_add = 31.875
 	country_max_companies_add = 6
@@ -839,7 +839,7 @@ modern_country_power_turkey = {
 	country_influence_mult = 0.17
 	country_bureaucracy_mult = 0.2125
 	country_authority_mult = 0.2125
-	state_standard_of_living_add = 2.125
+	state_standard_of_living_add = 1.06
 	state_birth_rate_mult = 0.5
 	state_education_access_add = 0.0708
 	state_literacy_growth_add = 0.1417
@@ -880,7 +880,7 @@ modern_country_power_australia = {
 
 	# Universal national chassis
 	building_throughput_add = 0.4125
-	building_goods_input_mult = 0.33
+	building_goods_input_mult = 0.25
 	building_economy_of_scale_level_cap_add = 16.5
 	country_construction_add = 30.938
 	country_max_companies_add = 6
@@ -891,7 +891,7 @@ modern_country_power_australia = {
 	country_influence_mult = 0.165
 	country_bureaucracy_mult = 0.2063
 	country_authority_mult = 0.2063
-	state_standard_of_living_add = 2.063
+	state_standard_of_living_add = 1.03
 	state_birth_rate_mult = 0.0516
 	state_education_access_add = 0.0688
 	state_literacy_growth_add = 0.1375
@@ -931,7 +931,7 @@ modern_country_power_saudi_arabia = {
 
 	# Universal national chassis
 	building_throughput_add = 0.4
-	building_goods_input_mult = 0.32
+	building_goods_input_mult = 0.24
 	building_economy_of_scale_level_cap_add = 16
 	country_construction_add = 30
 	country_max_companies_add = 5
@@ -942,7 +942,7 @@ modern_country_power_saudi_arabia = {
 	country_influence_mult = 0.16
 	country_bureaucracy_mult = 0.2
 	country_authority_mult = 0.2
-	state_standard_of_living_add = 2
+	state_standard_of_living_add = 1
 	state_birth_rate_mult = 0.05
 	state_education_access_add = 0.0667
 	state_literacy_growth_add = 0.1333
@@ -981,7 +981,7 @@ modern_country_power_spain = {
 
 	# Universal national chassis
 	building_throughput_add = 0.3875
-	building_goods_input_mult = 0.31
+	building_goods_input_mult = 0.23
 	building_economy_of_scale_level_cap_add = 15.5
 	country_construction_add = 29.063
 	country_max_companies_add = 5
@@ -992,7 +992,7 @@ modern_country_power_spain = {
 	country_influence_mult = 0.155
 	country_bureaucracy_mult = 0.1938
 	country_authority_mult = 0.1938
-	state_standard_of_living_add = 1.938
+	state_standard_of_living_add = 0.97
 	state_birth_rate_mult = 0.0484
 	state_education_access_add = 0.0646
 	state_literacy_growth_add = 0.1292
@@ -1032,7 +1032,7 @@ modern_country_power_iran = {
 
 	# Universal national chassis
 	building_throughput_add = 0.375
-	building_goods_input_mult = 0.3
+	building_goods_input_mult = 0.23
 	building_economy_of_scale_level_cap_add = 15
 	country_construction_add = 28.125
 	country_max_companies_add = 5
@@ -1043,7 +1043,7 @@ modern_country_power_iran = {
 	country_influence_mult = 0.15
 	country_bureaucracy_mult = 0.1875
 	country_authority_mult = 0.1875
-	state_standard_of_living_add = 1.875
+	state_standard_of_living_add = 0.94
 	state_birth_rate_mult = 0.0469
 	state_education_access_add = 0.0625
 	state_literacy_growth_add = 0.125
@@ -1083,7 +1083,7 @@ modern_country_power_poland = {
 
 	# Universal national chassis
 	building_throughput_add = 0.3625
-	building_goods_input_mult = 0.29
+	building_goods_input_mult = 0.22
 	building_economy_of_scale_level_cap_add = 14.5
 	country_construction_add = 27.188
 	country_max_companies_add = 5
@@ -1094,7 +1094,7 @@ modern_country_power_poland = {
 	country_influence_mult = 0.145
 	country_bureaucracy_mult = 0.1813
 	country_authority_mult = 0.1813
-	state_standard_of_living_add = 1.813
+	state_standard_of_living_add = 0.91
 	state_birth_rate_mult = 0.0453
 	state_education_access_add = 0.0604
 	state_literacy_growth_add = 0.1208
@@ -1134,7 +1134,7 @@ modern_country_power_netherlands = {
 
 	# Universal national chassis
 	building_throughput_add = 0.35
-	building_goods_input_mult = 0.28
+	building_goods_input_mult = 0.21
 	building_economy_of_scale_level_cap_add = 14
 	country_construction_add = 26.25
 	country_max_companies_add = 5
@@ -1145,7 +1145,7 @@ modern_country_power_netherlands = {
 	country_influence_mult = 0.14
 	country_bureaucracy_mult = 0.175
 	country_authority_mult = 0.175
-	state_standard_of_living_add = 1.75
+	state_standard_of_living_add = 0.88
 	state_birth_rate_mult = 0.0438
 	state_education_access_add = 0.0583
 	state_literacy_growth_add = 0.1167
@@ -1188,7 +1188,7 @@ modern_country_power_nigeria = {
 
 	# Universal national chassis
 	building_throughput_add = 0.3375
-	building_goods_input_mult = 0.27
+	building_goods_input_mult = 0.2
 	building_economy_of_scale_level_cap_add = 13.5
 	country_construction_add = 25.313
 	country_max_companies_add = 5
@@ -1199,7 +1199,7 @@ modern_country_power_nigeria = {
 	country_influence_mult = 0.135
 	country_bureaucracy_mult = 0.1688
 	country_authority_mult = 0.1688
-	state_standard_of_living_add = 1.688
+	state_standard_of_living_add = 0.84
 	state_birth_rate_mult = 0.0422
 	state_education_access_add = 0.0563
 	state_literacy_growth_add = 0.1125
@@ -1236,7 +1236,7 @@ modern_country_power_israel = {
 
 	# Universal national chassis
 	building_throughput_add = 0.325
-	building_goods_input_mult = 0.26
+	building_goods_input_mult = 0.2
 	building_economy_of_scale_level_cap_add = 13
 	country_construction_add = 24.375
 	country_max_companies_add = 4
@@ -1247,7 +1247,7 @@ modern_country_power_israel = {
 	country_influence_mult = 0.13
 	country_bureaucracy_mult = 0.1625
 	country_authority_mult = 0.1625
-	state_standard_of_living_add = 1.625
+	state_standard_of_living_add = 0.81
 	state_birth_rate_mult = 0.0406
 	state_education_access_add = 0.0542
 	state_literacy_growth_add = 0.1083
@@ -1289,7 +1289,7 @@ modern_country_power_egypt = {
 
 	# Universal national chassis
 	building_throughput_add = 0.3125
-	building_goods_input_mult = 0.25
+	building_goods_input_mult = 0.19
 	building_economy_of_scale_level_cap_add = 12.5
 	country_construction_add = 23.438
 	country_max_companies_add = 4
@@ -1300,7 +1300,7 @@ modern_country_power_egypt = {
 	country_influence_mult = 0.125
 	country_bureaucracy_mult = 0.1563
 	country_authority_mult = 0.1563
-	state_standard_of_living_add = 1.563
+	state_standard_of_living_add = 0.78
 	state_birth_rate_mult = 0.0391
 	state_education_access_add = 0.0521
 	state_literacy_growth_add = 0.1042
@@ -1337,7 +1337,7 @@ modern_country_power_pakistan = {
 
 	# Universal national chassis
 	building_throughput_add = 0.3
-	building_goods_input_mult = 0.24
+	building_goods_input_mult = 0.18
 	building_economy_of_scale_level_cap_add = 12
 	country_construction_add = 22.5
 	country_max_companies_add = 4
@@ -1348,7 +1348,7 @@ modern_country_power_pakistan = {
 	country_influence_mult = 0.12
 	country_bureaucracy_mult = 0.15
 	country_authority_mult = 0.15
-	state_standard_of_living_add = 1.5
+	state_standard_of_living_add = 0.75
 	state_birth_rate_mult = 0.0375
 	state_education_access_add = 0.05
 	state_literacy_growth_add = 0.1
@@ -1386,7 +1386,7 @@ modern_country_power_vietnam = {
 
 	# Universal national chassis
 	building_throughput_add = 0.2875
-	building_goods_input_mult = 0.23
+	building_goods_input_mult = 0.17
 	building_economy_of_scale_level_cap_add = 11.5
 	country_construction_add = 21.563
 	country_max_companies_add = 4
@@ -1397,7 +1397,7 @@ modern_country_power_vietnam = {
 	country_influence_mult = 0.115
 	country_bureaucracy_mult = 0.1438
 	country_authority_mult = 0.1438
-	state_standard_of_living_add = 1.438
+	state_standard_of_living_add = 0.72
 	state_birth_rate_mult = 0.0359
 	state_education_access_add = 0.0479
 	state_literacy_growth_add = 0.0958
@@ -1436,7 +1436,7 @@ modern_country_power_philippines = {
 
 	# Universal national chassis
 	building_throughput_add = 0.275
-	building_goods_input_mult = 0.22
+	building_goods_input_mult = 0.17
 	building_economy_of_scale_level_cap_add = 11
 	country_construction_add = 20.625
 	country_max_companies_add = 4
@@ -1447,7 +1447,7 @@ modern_country_power_philippines = {
 	country_influence_mult = 0.11
 	country_bureaucracy_mult = 0.1375
 	country_authority_mult = 0.1375
-	state_standard_of_living_add = 1.375
+	state_standard_of_living_add = 0.69
 	state_birth_rate_mult = 0.0344
 	state_education_access_add = 0.0458
 	state_literacy_growth_add = 0.0917
@@ -1485,7 +1485,7 @@ modern_country_power_bangladesh = {
 
 	# Universal national chassis
 	building_throughput_add = 0.2625
-	building_goods_input_mult = 0.21
+	building_goods_input_mult = 0.16
 	building_economy_of_scale_level_cap_add = 10.5
 	country_construction_add = 19.688
 	country_max_companies_add = 4
@@ -1496,7 +1496,7 @@ modern_country_power_bangladesh = {
 	country_influence_mult = 0.105
 	country_bureaucracy_mult = 0.1313
 	country_authority_mult = 0.1313
-	state_standard_of_living_add = 1.313
+	state_standard_of_living_add = 0.66
 	state_birth_rate_mult = 0.0328
 	state_education_access_add = 0.0438
 	state_literacy_growth_add = 0.0875
@@ -1532,7 +1532,7 @@ modern_country_power_south_africa = {
 
 	# Universal national chassis
 	building_throughput_add = 0.25
-	building_goods_input_mult = 0.2
+	building_goods_input_mult = 0.15
 	building_economy_of_scale_level_cap_add = 10
 	country_construction_add = 18.75
 	country_max_companies_add = 3
@@ -1543,7 +1543,7 @@ modern_country_power_south_africa = {
 	country_influence_mult = 0.1
 	country_bureaucracy_mult = 0.125
 	country_authority_mult = 0.125
-	state_standard_of_living_add = 1.25
+	state_standard_of_living_add = 0.63
 	state_birth_rate_mult = 0.0313
 	state_education_access_add = 0.0417
 	state_literacy_growth_add = 0.0833
@@ -1580,7 +1580,7 @@ modern_country_power_argentina = {
 
 	# Universal national chassis
 	building_throughput_add = 0.2375
-	building_goods_input_mult = 0.19
+	building_goods_input_mult = 0.14
 	building_economy_of_scale_level_cap_add = 9.5
 	country_construction_add = 17.813
 	country_max_companies_add = 3
@@ -1591,7 +1591,7 @@ modern_country_power_argentina = {
 	country_influence_mult = 0.095
 	country_bureaucracy_mult = 0.1188
 	country_authority_mult = 0.1188
-	state_standard_of_living_add = 1.188
+	state_standard_of_living_add = 0.59
 	state_birth_rate_mult = 0.0297
 	state_education_access_add = 0.0396
 	state_literacy_growth_add = 0.0792
@@ -1628,7 +1628,7 @@ modern_country_power_thailand = {
 
 	# Universal national chassis
 	building_throughput_add = 0.225
-	building_goods_input_mult = 0.18
+	building_goods_input_mult = 0.14
 	building_economy_of_scale_level_cap_add = 9
 	country_construction_add = 16.875
 	country_max_companies_add = 3
@@ -1639,7 +1639,7 @@ modern_country_power_thailand = {
 	country_influence_mult = 0.09
 	country_bureaucracy_mult = 0.1125
 	country_authority_mult = 0.1125
-	state_standard_of_living_add = 1.125
+	state_standard_of_living_add = 0.56
 	state_birth_rate_mult = 0.0281
 	state_education_access_add = 0.0375
 	state_literacy_growth_add = 0.075
@@ -1676,7 +1676,7 @@ modern_country_power_malaysia = {
 
 	# Universal national chassis
 	building_throughput_add = 0.2125
-	building_goods_input_mult = 0.17
+	building_goods_input_mult = 0.13
 	building_economy_of_scale_level_cap_add = 8.5
 	country_construction_add = 15.938
 	country_max_companies_add = 3
@@ -1687,7 +1687,7 @@ modern_country_power_malaysia = {
 	country_influence_mult = 0.085
 	country_bureaucracy_mult = 0.1063
 	country_authority_mult = 0.1063
-	state_standard_of_living_add = 1.063
+	state_standard_of_living_add = 0.53
 	state_birth_rate_mult = 0.0266
 	state_education_access_add = 0.0354
 	state_literacy_growth_add = 0.0708
@@ -1724,7 +1724,7 @@ modern_country_power_colombia = {
 
 	# Universal national chassis
 	building_throughput_add = 0.2
-	building_goods_input_mult = 0.16
+	building_goods_input_mult = 0.12
 	building_economy_of_scale_level_cap_add = 8
 	country_construction_add = 15
 	country_max_companies_add = 3
@@ -1735,7 +1735,7 @@ modern_country_power_colombia = {
 	country_influence_mult = 0.08
 	country_bureaucracy_mult = 0.1
 	country_authority_mult = 0.1
-	state_standard_of_living_add = 1
+	state_standard_of_living_add = 0.5
 	state_birth_rate_mult = 0.025
 	state_education_access_add = 0.0333
 	state_literacy_growth_add = 0.0667
@@ -1771,7 +1771,7 @@ modern_country_power_algeria = {
 
 	# Universal national chassis
 	building_throughput_add = 0.1875
-	building_goods_input_mult = 0.15
+	building_goods_input_mult = 0.11
 	building_economy_of_scale_level_cap_add = 7.5
 	country_construction_add = 14.063
 	country_max_companies_add = 3
@@ -1782,7 +1782,7 @@ modern_country_power_algeria = {
 	country_influence_mult = 0.075
 	country_bureaucracy_mult = 0.0938
 	country_authority_mult = 0.0938
-	state_standard_of_living_add = 0.938
+	state_standard_of_living_add = 0.47
 	state_birth_rate_mult = 0.0234
 	state_education_access_add = 0.0313
 	state_literacy_growth_add = 0.0625
@@ -1815,7 +1815,7 @@ modern_country_power_ethiopia = {
 
 	# Universal national chassis
 	building_throughput_add = 0.175
-	building_goods_input_mult = 0.14
+	building_goods_input_mult = 0.11
 	building_economy_of_scale_level_cap_add = 7
 	country_construction_add = 13.125
 	country_max_companies_add = 2
@@ -1826,7 +1826,7 @@ modern_country_power_ethiopia = {
 	country_influence_mult = 0.07
 	country_bureaucracy_mult = 0.0875
 	country_authority_mult = 0.0875
-	state_standard_of_living_add = 0.875
+	state_standard_of_living_add = 0.44
 	state_birth_rate_mult = 0.0219
 	state_education_access_add = 0.0292
 	state_literacy_growth_add = 0.0583
@@ -1860,7 +1860,7 @@ modern_country_power_ukraine = {
 
 	# Universal national chassis
 	building_throughput_add = 0.1625
-	building_goods_input_mult = 0.13
+	building_goods_input_mult = 0.1
 	building_economy_of_scale_level_cap_add = 6.5
 	country_construction_add = 12.188
 	country_max_companies_add = 2
@@ -1871,7 +1871,7 @@ modern_country_power_ukraine = {
 	country_influence_mult = 0.065
 	country_bureaucracy_mult = 0.0813
 	country_authority_mult = 0.0813
-	state_standard_of_living_add = 0.813
+	state_standard_of_living_add = 0.41
 	state_birth_rate_mult = 0.0203
 	state_education_access_add = 0.0271
 	state_literacy_growth_add = 0.0542
@@ -1907,7 +1907,7 @@ modern_country_power_dr_congo = {
 
 	# Universal national chassis
 	building_throughput_add = 0.15
-	building_goods_input_mult = 0.12
+	building_goods_input_mult = 0.09
 	building_economy_of_scale_level_cap_add = 6
 	country_construction_add = 11.25
 	country_max_companies_add = 2
@@ -1918,7 +1918,7 @@ modern_country_power_dr_congo = {
 	country_influence_mult = 0.06
 	country_bureaucracy_mult = 0.075
 	country_authority_mult = 0.075
-	state_standard_of_living_add = 0.75
+	state_standard_of_living_add = 0.38
 	state_birth_rate_mult = 0.0188
 	state_education_access_add = 0.025
 	state_literacy_growth_add = 0.05
@@ -1952,7 +1952,7 @@ modern_country_power_kenya = {
 
 	# Universal national chassis
 	building_throughput_add = 0.1375
-	building_goods_input_mult = 0.11
+	building_goods_input_mult = 0.08
 	building_economy_of_scale_level_cap_add = 5.5
 	country_construction_add = 10.313
 	country_max_companies_add = 2
@@ -1963,7 +1963,7 @@ modern_country_power_kenya = {
 	country_influence_mult = 0.055
 	country_bureaucracy_mult = 0.0688
 	country_authority_mult = 0.0688
-	state_standard_of_living_add = 0.688
+	state_standard_of_living_add = 0.34
 	state_birth_rate_mult = 0.0172
 	state_education_access_add = 0.0229
 	state_literacy_growth_add = 0.0458
@@ -1997,7 +1997,7 @@ modern_country_power_kazakhstan = {
 
 	# Universal national chassis
 	building_throughput_add = 0.125
-	building_goods_input_mult = 0.1
+	building_goods_input_mult = 0.08
 	building_economy_of_scale_level_cap_add = 5
 	country_construction_add = 9.375
 	country_max_companies_add = 2
@@ -2008,7 +2008,7 @@ modern_country_power_kazakhstan = {
 	country_influence_mult = 0.05
 	country_bureaucracy_mult = 0.0625
 	country_authority_mult = 0.0625
-	state_standard_of_living_add = 0.625
+	state_standard_of_living_add = 0.31
 	state_birth_rate_mult = 0.0156
 	state_education_access_add = 0.0208
 	state_literacy_growth_add = 0.0417
@@ -2042,7 +2042,7 @@ modern_country_power_peru = {
 
 	# Universal national chassis
 	building_throughput_add = 0.1125
-	building_goods_input_mult = 0.09
+	building_goods_input_mult = 0.07
 	building_economy_of_scale_level_cap_add = 4.5
 	country_construction_add = 8.438
 	country_max_companies_add = 2
@@ -2053,7 +2053,7 @@ modern_country_power_peru = {
 	country_influence_mult = 0.045
 	country_bureaucracy_mult = 0.0563
 	country_authority_mult = 0.0563
-	state_standard_of_living_add = 0.563
+	state_standard_of_living_add = 0.28
 	state_birth_rate_mult = 0.0141
 	state_education_access_add = 0.0188
 	state_literacy_growth_add = 0.0375
@@ -2086,7 +2086,7 @@ modern_country_power_singapore = {
 
 	# Universal national chassis
 	building_throughput_add = 0.4
-	building_goods_input_mult = 0.32
+	building_goods_input_mult = 0.24
 	building_economy_of_scale_level_cap_add = 16
 	country_construction_add = 30
 	country_max_companies_add = 5
@@ -2097,7 +2097,7 @@ modern_country_power_singapore = {
 	country_influence_mult = 0.16
 	country_bureaucracy_mult = 0.2
 	country_authority_mult = 0.2
-	state_standard_of_living_add = 2
+	state_standard_of_living_add = 1
 	state_birth_rate_mult = 0.05
 	state_education_access_add = 0.0667
 	state_literacy_growth_add = 0.1333
@@ -2140,7 +2140,7 @@ modern_country_power_united_arab_emirates = {
 
 	# Universal national chassis
 	building_throughput_add = 0.35
-	building_goods_input_mult = 0.28
+	building_goods_input_mult = 0.21
 	building_economy_of_scale_level_cap_add = 14
 	country_construction_add = 26.25
 	country_max_companies_add = 5
@@ -2151,7 +2151,7 @@ modern_country_power_united_arab_emirates = {
 	country_influence_mult = 0.14
 	country_bureaucracy_mult = 0.175
 	country_authority_mult = 0.175
-	state_standard_of_living_add = 1.75
+	state_standard_of_living_add = 0.88
 	state_birth_rate_mult = 0.0438
 	state_education_access_add = 0.0583
 	state_literacy_growth_add = 0.1167
@@ -2189,7 +2189,7 @@ modern_country_power_panama = {
 
 	# Universal national chassis
 	building_throughput_add = 0.2
-	building_goods_input_mult = 0.16
+	building_goods_input_mult = 0.12
 	building_economy_of_scale_level_cap_add = 8
 	country_construction_add = 15
 	country_max_companies_add = 3
@@ -2200,7 +2200,7 @@ modern_country_power_panama = {
 	country_influence_mult = 0.08
 	country_bureaucracy_mult = 0.1
 	country_authority_mult = 0.1
-	state_standard_of_living_add = 1
+	state_standard_of_living_add = 0.5
 	state_birth_rate_mult = 0.025
 	state_education_access_add = 0.0333
 	state_literacy_growth_add = 0.0667
@@ -2237,7 +2237,7 @@ modern_country_power_luxembourg = {
 
 	# Universal national chassis
 	building_throughput_add = 0.2625
-	building_goods_input_mult = 0.21
+	building_goods_input_mult = 0.16
 	building_economy_of_scale_level_cap_add = 10.5
 	country_construction_add = 19.688
 	country_max_companies_add = 4
@@ -2248,7 +2248,7 @@ modern_country_power_luxembourg = {
 	country_influence_mult = 0.105
 	country_bureaucracy_mult = 0.1313
 	country_authority_mult = 0.1313
-	state_standard_of_living_add = 1.313
+	state_standard_of_living_add = 0.66
 	state_birth_rate_mult = 0.0328
 	state_education_access_add = 0.0438
 	state_literacy_growth_add = 0.0875
@@ -2286,7 +2286,7 @@ modern_country_power_bahrain = {
 
 	# Universal national chassis
 	building_throughput_add = 0.15
-	building_goods_input_mult = 0.12
+	building_goods_input_mult = 0.09
 	building_economy_of_scale_level_cap_add = 6
 	country_construction_add = 11.25
 	country_max_companies_add = 2
@@ -2297,7 +2297,7 @@ modern_country_power_bahrain = {
 	country_influence_mult = 0.06
 	country_bureaucracy_mult = 0.075
 	country_authority_mult = 0.075
-	state_standard_of_living_add = 0.75
+	state_standard_of_living_add = 0.38
 	state_birth_rate_mult = 0.0188
 	state_education_access_add = 0.025
 	state_literacy_growth_add = 0.05
@@ -2333,7 +2333,7 @@ modern_country_power_qatar = {
 
 	# Universal national chassis
 	building_throughput_add = 0.2625
-	building_goods_input_mult = 0.21
+	building_goods_input_mult = 0.16
 	building_economy_of_scale_level_cap_add = 10.5
 	country_construction_add = 19.688
 	country_max_companies_add = 4
@@ -2344,7 +2344,7 @@ modern_country_power_qatar = {
 	country_influence_mult = 0.105
 	country_bureaucracy_mult = 0.1313
 	country_authority_mult = 0.1313
-	state_standard_of_living_add = 1.313
+	state_standard_of_living_add = 0.66
 	state_birth_rate_mult = 0.0328
 	state_education_access_add = 0.0438
 	state_literacy_growth_add = 0.0875
@@ -2378,7 +2378,7 @@ modern_country_power_kuwait = {
 
 	# Universal national chassis
 	building_throughput_add = 0.2125
-	building_goods_input_mult = 0.17
+	building_goods_input_mult = 0.13
 	building_economy_of_scale_level_cap_add = 8.5
 	country_construction_add = 15.938
 	country_max_companies_add = 3
@@ -2389,7 +2389,7 @@ modern_country_power_kuwait = {
 	country_influence_mult = 0.085
 	country_bureaucracy_mult = 0.1063
 	country_authority_mult = 0.1063
-	state_standard_of_living_add = 1.063
+	state_standard_of_living_add = 0.53
 	state_birth_rate_mult = 0.0266
 	state_education_access_add = 0.0354
 	state_literacy_growth_add = 0.0708
@@ -2422,7 +2422,7 @@ modern_country_power_norway = {
 
 	# Universal national chassis
 	building_throughput_add = 0.3125
-	building_goods_input_mult = 0.25
+	building_goods_input_mult = 0.19
 	building_economy_of_scale_level_cap_add = 12.5
 	country_construction_add = 23.438
 	country_max_companies_add = 4
@@ -2433,7 +2433,7 @@ modern_country_power_norway = {
 	country_influence_mult = 0.125
 	country_bureaucracy_mult = 0.1563
 	country_authority_mult = 0.1563
-	state_standard_of_living_add = 1.563
+	state_standard_of_living_add = 0.78
 	state_birth_rate_mult = 0.0391
 	state_education_access_add = 0.0521
 	state_literacy_growth_add = 0.1042
@@ -2468,7 +2468,7 @@ modern_country_power_brunei = {
 
 	# Universal national chassis
 	building_throughput_add = 0.125
-	building_goods_input_mult = 0.1
+	building_goods_input_mult = 0.08
 	building_economy_of_scale_level_cap_add = 5
 	country_construction_add = 9.375
 	country_max_companies_add = 2
@@ -2479,7 +2479,7 @@ modern_country_power_brunei = {
 	country_influence_mult = 0.05
 	country_bureaucracy_mult = 0.0625
 	country_authority_mult = 0.0625
-	state_standard_of_living_add = 0.625
+	state_standard_of_living_add = 0.31
 	state_birth_rate_mult = 0.0156
 	state_education_access_add = 0.0208
 	state_literacy_growth_add = 0.0417
@@ -2509,7 +2509,7 @@ modern_country_power_oman = {
 
 	# Universal national chassis
 	building_throughput_add = 0.175
-	building_goods_input_mult = 0.14
+	building_goods_input_mult = 0.11
 	building_economy_of_scale_level_cap_add = 7
 	country_construction_add = 13.125
 	country_max_companies_add = 2
@@ -2520,7 +2520,7 @@ modern_country_power_oman = {
 	country_influence_mult = 0.07
 	country_bureaucracy_mult = 0.0875
 	country_authority_mult = 0.0875
-	state_standard_of_living_add = 0.875
+	state_standard_of_living_add = 0.44
 	state_birth_rate_mult = 0.0219
 	state_education_access_add = 0.0292
 	state_literacy_growth_add = 0.0583
@@ -2555,7 +2555,7 @@ modern_country_power_switzerland = {
 
 	# Universal national chassis
 	building_throughput_add = 0.3625
-	building_goods_input_mult = 0.29
+	building_goods_input_mult = 0.22
 	building_economy_of_scale_level_cap_add = 14.5
 	country_construction_add = 27.188
 	country_max_companies_add = 5
@@ -2566,7 +2566,7 @@ modern_country_power_switzerland = {
 	country_influence_mult = 0.145
 	country_bureaucracy_mult = 0.1813
 	country_authority_mult = 0.1813
-	state_standard_of_living_add = 1.813
+	state_standard_of_living_add = 0.91
 	state_birth_rate_mult = 0.0453
 	state_education_access_add = 0.0604
 	state_literacy_growth_add = 0.1208
@@ -2607,7 +2607,7 @@ modern_country_power_sweden = {
 
 	# Universal national chassis
 	building_throughput_add = 0.325
-	building_goods_input_mult = 0.26
+	building_goods_input_mult = 0.2
 	building_economy_of_scale_level_cap_add = 13
 	country_construction_add = 24.375
 	country_max_companies_add = 4
@@ -2618,7 +2618,7 @@ modern_country_power_sweden = {
 	country_influence_mult = 0.13
 	country_bureaucracy_mult = 0.1625
 	country_authority_mult = 0.1625
-	state_standard_of_living_add = 1.625
+	state_standard_of_living_add = 0.81
 	state_birth_rate_mult = 1
 	state_education_access_add = 0.0542
 	state_literacy_growth_add = 0.1083
@@ -2655,7 +2655,7 @@ modern_country_power_belgium = {
 
 	# Universal national chassis
 	building_throughput_add = 0.3
-	building_goods_input_mult = 0.24
+	building_goods_input_mult = 0.18
 	building_economy_of_scale_level_cap_add = 12
 	country_construction_add = 22.5
 	country_max_companies_add = 4
@@ -2666,7 +2666,7 @@ modern_country_power_belgium = {
 	country_influence_mult = 0.12
 	country_bureaucracy_mult = 0.15
 	country_authority_mult = 0.15
-	state_standard_of_living_add = 1.5
+	state_standard_of_living_add = 0.75
 	state_birth_rate_mult = 0.0375
 	state_education_access_add = 0.05
 	state_literacy_growth_add = 0.1
@@ -2702,7 +2702,7 @@ modern_country_power_denmark = {
 
 	# Universal national chassis
 	building_throughput_add = 0.2875
-	building_goods_input_mult = 0.23
+	building_goods_input_mult = 0.17
 	building_economy_of_scale_level_cap_add = 11.5
 	country_construction_add = 21.563
 	country_max_companies_add = 4
@@ -2713,7 +2713,7 @@ modern_country_power_denmark = {
 	country_influence_mult = 0.115
 	country_bureaucracy_mult = 0.1438
 	country_authority_mult = 0.1438
-	state_standard_of_living_add = 1.438
+	state_standard_of_living_add = 0.72
 	state_birth_rate_mult = 0.0359
 	state_education_access_add = 0.0479
 	state_literacy_growth_add = 0.0958
@@ -2752,7 +2752,7 @@ modern_country_power_ireland = {
 
 	# Universal national chassis
 	building_throughput_add = 0.2875
-	building_goods_input_mult = 0.23
+	building_goods_input_mult = 0.17
 	building_economy_of_scale_level_cap_add = 11.5
 	country_construction_add = 21.563
 	country_max_companies_add = 4
@@ -2763,7 +2763,7 @@ modern_country_power_ireland = {
 	country_influence_mult = 0.115
 	country_bureaucracy_mult = 0.1438
 	country_authority_mult = 0.1438
-	state_standard_of_living_add = 1.438
+	state_standard_of_living_add = 0.72
 	state_birth_rate_mult = 0.0359
 	state_education_access_add = 0.0479
 	state_literacy_growth_add = 0.0958
@@ -2799,7 +2799,7 @@ modern_country_power_czechia = {
 
 	# Universal national chassis
 	building_throughput_add = 0.275
-	building_goods_input_mult = 0.22
+	building_goods_input_mult = 0.17
 	building_economy_of_scale_level_cap_add = 11
 	country_construction_add = 20.625
 	country_max_companies_add = 4
@@ -2810,7 +2810,7 @@ modern_country_power_czechia = {
 	country_influence_mult = 0.11
 	country_bureaucracy_mult = 0.1375
 	country_authority_mult = 0.1375
-	state_standard_of_living_add = 1.375
+	state_standard_of_living_add = 0.69
 	state_birth_rate_mult = 0.0344
 	state_education_access_add = 0.0458
 	state_literacy_growth_add = 0.0917
@@ -2845,7 +2845,7 @@ modern_country_power_new_zealand = {
 
 	# Universal national chassis
 	building_throughput_add = 0.225
-	building_goods_input_mult = 0.18
+	building_goods_input_mult = 0.14
 	building_economy_of_scale_level_cap_add = 9
 	country_construction_add = 16.875
 	country_max_companies_add = 3
@@ -2856,7 +2856,7 @@ modern_country_power_new_zealand = {
 	country_influence_mult = 0.09
 	country_bureaucracy_mult = 0.1125
 	country_authority_mult = 0.1125
-	state_standard_of_living_add = 1.125
+	state_standard_of_living_add = 0.56
 	state_birth_rate_mult = 0.0281
 	state_education_access_add = 0.0375
 	state_literacy_growth_add = 0.075
@@ -2890,7 +2890,7 @@ modern_country_power_chile = {
 
 	# Universal national chassis
 	building_throughput_add = 0.25
-	building_goods_input_mult = 0.2
+	building_goods_input_mult = 0.15
 	building_economy_of_scale_level_cap_add = 10
 	country_construction_add = 18.75
 	country_max_companies_add = 3
@@ -2901,7 +2901,7 @@ modern_country_power_chile = {
 	country_influence_mult = 0.1
 	country_bureaucracy_mult = 0.125
 	country_authority_mult = 0.125
-	state_standard_of_living_add = 1.25
+	state_standard_of_living_add = 0.63
 	state_birth_rate_mult = 0.0313
 	state_education_access_add = 0.0417
 	state_literacy_growth_add = 0.0833
@@ -2936,7 +2936,7 @@ modern_country_power_morocco = {
 
 	# Universal national chassis
 	building_throughput_add = 0.225
-	building_goods_input_mult = 0.18
+	building_goods_input_mult = 0.14
 	building_economy_of_scale_level_cap_add = 9
 	country_construction_add = 16.875
 	country_max_companies_add = 3
@@ -2947,7 +2947,7 @@ modern_country_power_morocco = {
 	country_influence_mult = 0.09
 	country_bureaucracy_mult = 0.1125
 	country_authority_mult = 0.1125
-	state_standard_of_living_add = 1.125
+	state_standard_of_living_add = 0.56
 	state_birth_rate_mult = 0.0281
 	state_education_access_add = 0.0375
 	state_literacy_growth_add = 0.075
@@ -2982,7 +2982,7 @@ modern_country_power_iraq = {
 
 	# Universal national chassis
 	building_throughput_add = 0.2
-	building_goods_input_mult = 0.16
+	building_goods_input_mult = 0.12
 	building_economy_of_scale_level_cap_add = 8
 	country_construction_add = 15
 	country_max_companies_add = 3
@@ -2993,7 +2993,7 @@ modern_country_power_iraq = {
 	country_influence_mult = 0.08
 	country_bureaucracy_mult = 0.1
 	country_authority_mult = 0.1
-	state_standard_of_living_add = 1
+	state_standard_of_living_add = 0.5
 	state_birth_rate_mult = 0.025
 	state_education_access_add = 0.0333
 	state_literacy_growth_add = 0.0667
@@ -3026,7 +3026,7 @@ modern_country_power_romania = {
 
 	# Universal national chassis
 	building_throughput_add = 0.2375
-	building_goods_input_mult = 0.19
+	building_goods_input_mult = 0.14
 	building_economy_of_scale_level_cap_add = 9.5
 	country_construction_add = 17.813
 	country_max_companies_add = 3
@@ -3037,7 +3037,7 @@ modern_country_power_romania = {
 	country_influence_mult = 0.095
 	country_bureaucracy_mult = 0.1188
 	country_authority_mult = 0.1188
-	state_standard_of_living_add = 1.188
+	state_standard_of_living_add = 0.59
 	state_birth_rate_mult = 0.0297
 	state_education_access_add = 0.0396
 	state_literacy_growth_add = 0.0792
@@ -3073,7 +3073,7 @@ modern_country_power_zgc = {
 
 	# Universal national chassis copied from United States
 	building_throughput_add = 0.6
-	building_goods_input_mult = 0.48
+	building_goods_input_mult = 0.36
 	building_economy_of_scale_level_cap_add = 24
 	country_construction_add = 45
 	country_max_companies_add = 8
@@ -3084,7 +3084,7 @@ modern_country_power_zgc = {
 	country_influence_mult = 0.24
 	country_bureaucracy_mult = 0.3
 	country_authority_mult = 0.3
-	state_standard_of_living_add = 3
+	state_standard_of_living_add = 1.5
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.1
 	state_literacy_growth_add = 0.2
@@ -3136,7 +3136,7 @@ modern_country_power_zah = {
 
 	# Universal national chassis copied from Mexico
 	building_throughput_add = 0.4375
-	building_goods_input_mult = 0.35
+	building_goods_input_mult = 0.26
 	building_economy_of_scale_level_cap_add = 17.5
 	country_construction_add = 32.813
 	country_max_companies_add = 6
@@ -3147,7 +3147,7 @@ modern_country_power_zah = {
 	country_influence_mult = 0.175
 	country_bureaucracy_mult = 0.2188
 	country_authority_mult = 0.2188
-	state_standard_of_living_add = 2.188
+	state_standard_of_living_add = 1.09
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0729
 	state_literacy_growth_add = 0.1458
@@ -3191,7 +3191,7 @@ modern_country_power_zbv = {
 
 	# Universal national chassis copied from Colombia
 	building_throughput_add = 0.2
-	building_goods_input_mult = 0.16
+	building_goods_input_mult = 0.12
 	building_economy_of_scale_level_cap_add = 8
 	country_construction_add = 15
 	country_max_companies_add = 3
@@ -3202,7 +3202,7 @@ modern_country_power_zbv = {
 	country_influence_mult = 0.08
 	country_bureaucracy_mult = 0.1
 	country_authority_mult = 0.1
-	state_standard_of_living_add = 1
+	state_standard_of_living_add = 0.5
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0333
 	state_literacy_growth_add = 0.0667
@@ -3241,7 +3241,7 @@ modern_country_power_zau = {
 
 	# Universal national chassis copied from Brazil
 	building_throughput_add = 0.5
-	building_goods_input_mult = 0.4
+	building_goods_input_mult = 0.3
 	building_economy_of_scale_level_cap_add = 20
 	country_construction_add = 37.5
 	country_max_companies_add = 7
@@ -3252,7 +3252,7 @@ modern_country_power_zau = {
 	country_influence_mult = 0.2
 	country_bureaucracy_mult = 0.25
 	country_authority_mult = 0.25
-	state_standard_of_living_add = 2.5
+	state_standard_of_living_add = 1.25
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0833
 	state_literacy_growth_add = 0.1667
@@ -3298,7 +3298,7 @@ modern_country_power_zgr = {
 
 	# Universal national chassis copied from Germany
 	building_throughput_add = 0.5625
-	building_goods_input_mult = 0.45
+	building_goods_input_mult = 0.34
 	building_economy_of_scale_level_cap_add = 22.5
 	country_construction_add = 42.188
 	country_max_companies_add = 8
@@ -3309,7 +3309,7 @@ modern_country_power_zgr = {
 	country_influence_mult = 0.225
 	country_bureaucracy_mult = 0.2813
 	country_authority_mult = 0.2813
-	state_standard_of_living_add = 2.813
+	state_standard_of_living_add = 1.41
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0938
 	state_literacy_growth_add = 0.1875
@@ -3359,7 +3359,7 @@ modern_country_power_zbk = {
 
 	# Universal national chassis copied from Turkey
 	building_throughput_add = 0.425
-	building_goods_input_mult = 0.34
+	building_goods_input_mult = 0.26
 	building_economy_of_scale_level_cap_add = 17
 	country_construction_add = 31.875
 	country_max_companies_add = 6
@@ -3370,7 +3370,7 @@ modern_country_power_zbk = {
 	country_influence_mult = 0.17
 	country_bureaucracy_mult = 0.2125
 	country_authority_mult = 0.2125
-	state_standard_of_living_add = 2.125
+	state_standard_of_living_add = 1.06
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0708
 	state_literacy_growth_add = 0.1417
@@ -3411,7 +3411,7 @@ modern_country_power_zoc = {
 
 	# Universal national chassis copied from United Kingdom
 	building_throughput_add = 0.5375
-	building_goods_input_mult = 0.43
+	building_goods_input_mult = 0.32
 	building_economy_of_scale_level_cap_add = 21.5
 	country_construction_add = 40.313
 	country_max_companies_add = 7
@@ -3422,7 +3422,7 @@ modern_country_power_zoc = {
 	country_influence_mult = 0.215
 	country_bureaucracy_mult = 0.2688
 	country_authority_mult = 0.2688
-	state_standard_of_living_add = 2.688
+	state_standard_of_living_add = 1.34
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0896
 	state_literacy_growth_add = 0.1792
@@ -3480,7 +3480,7 @@ modern_country_power_zka = {
 
 	# Universal national chassis copied from Sweden
 	building_throughput_add = 0.325
-	building_goods_input_mult = 0.26
+	building_goods_input_mult = 0.2
 	building_economy_of_scale_level_cap_add = 13
 	country_construction_add = 24.375
 	country_max_companies_add = 4
@@ -3491,7 +3491,7 @@ modern_country_power_zka = {
 	country_influence_mult = 0.13
 	country_bureaucracy_mult = 0.1625
 	country_authority_mult = 0.1625
-	state_standard_of_living_add = 1.625
+	state_standard_of_living_add = 0.81
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0542
 	state_literacy_growth_add = 0.1083
@@ -3531,7 +3531,7 @@ modern_country_power_zun = {
 
 	# Universal national chassis copied from Russia
 	building_throughput_add = 0.5125
-	building_goods_input_mult = 0.41
+	building_goods_input_mult = 0.31
 	building_economy_of_scale_level_cap_add = 20.5
 	country_construction_add = 38.438
 	country_max_companies_add = 7
@@ -3542,7 +3542,7 @@ modern_country_power_zun = {
 	country_influence_mult = 0.205
 	country_bureaucracy_mult = 0.2563
 	country_authority_mult = 0.2563
-	state_standard_of_living_add = 2.563
+	state_standard_of_living_add = 1.28
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0854
 	state_literacy_growth_add = 0.1708
@@ -3584,7 +3584,7 @@ modern_country_power_zab = {
 
 	# Universal national chassis copied from Saudi Arabia
 	building_throughput_add = 0.4
-	building_goods_input_mult = 0.32
+	building_goods_input_mult = 0.24
 	building_economy_of_scale_level_cap_add = 16
 	country_construction_add = 30
 	country_max_companies_add = 5
@@ -3595,7 +3595,7 @@ modern_country_power_zab = {
 	country_influence_mult = 0.16
 	country_bureaucracy_mult = 0.2
 	country_authority_mult = 0.2
-	state_standard_of_living_add = 2
+	state_standard_of_living_add = 1
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0667
 	state_literacy_growth_add = 0.1333
@@ -3643,7 +3643,7 @@ modern_country_power_zer = {
 
 	# Universal national chassis copied from Iran
 	building_throughput_add = 0.375
-	building_goods_input_mult = 0.3
+	building_goods_input_mult = 0.23
 	building_economy_of_scale_level_cap_add = 15
 	country_construction_add = 28.125
 	country_max_companies_add = 5
@@ -3654,7 +3654,7 @@ modern_country_power_zer = {
 	country_influence_mult = 0.15
 	country_bureaucracy_mult = 0.1875
 	country_authority_mult = 0.1875
-	state_standard_of_living_add = 1.875
+	state_standard_of_living_add = 0.94
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0625
 	state_literacy_growth_add = 0.125
@@ -3694,7 +3694,7 @@ modern_country_power_zgn = {
 
 	# Universal national chassis copied from Nigeria
 	building_throughput_add = 0.3375
-	building_goods_input_mult = 0.27
+	building_goods_input_mult = 0.2
 	building_economy_of_scale_level_cap_add = 13.5
 	country_construction_add = 25.313
 	country_max_companies_add = 5
@@ -3705,7 +3705,7 @@ modern_country_power_zgn = {
 	country_influence_mult = 0.135
 	country_bureaucracy_mult = 0.1688
 	country_authority_mult = 0.1688
-	state_standard_of_living_add = 1.688
+	state_standard_of_living_add = 0.84
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0563
 	state_literacy_growth_add = 0.1125
@@ -3738,7 +3738,7 @@ modern_country_power_zkg = {
 
 	# Universal national chassis copied from Democratic Republic of the Congo
 	building_throughput_add = 0.15
-	building_goods_input_mult = 0.12
+	building_goods_input_mult = 0.09
 	building_economy_of_scale_level_cap_add = 6
 	country_construction_add = 11.25
 	country_max_companies_add = 2
@@ -3749,7 +3749,7 @@ modern_country_power_zkg = {
 	country_influence_mult = 0.06
 	country_bureaucracy_mult = 0.075
 	country_authority_mult = 0.075
-	state_standard_of_living_add = 0.75
+	state_standard_of_living_add = 0.38
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.025
 	state_literacy_growth_add = 0.05
@@ -3779,7 +3779,7 @@ modern_country_power_zaz = {
 
 	# Universal national chassis copied from Ethiopia
 	building_throughput_add = 0.175
-	building_goods_input_mult = 0.14
+	building_goods_input_mult = 0.11
 	building_economy_of_scale_level_cap_add = 7
 	country_construction_add = 13.125
 	country_max_companies_add = 2
@@ -3790,7 +3790,7 @@ modern_country_power_zaz = {
 	country_influence_mult = 0.07
 	country_bureaucracy_mult = 0.0875
 	country_authority_mult = 0.0875
-	state_standard_of_living_add = 0.875
+	state_standard_of_living_add = 0.44
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0292
 	state_literacy_growth_add = 0.0583
@@ -3826,7 +3826,7 @@ modern_country_power_zmz = {
 
 	# Universal national chassis copied from South Africa
 	building_throughput_add = 0.25
-	building_goods_input_mult = 0.2
+	building_goods_input_mult = 0.15
 	building_economy_of_scale_level_cap_add = 10
 	country_construction_add = 18.75
 	country_max_companies_add = 3
@@ -3837,7 +3837,7 @@ modern_country_power_zmz = {
 	country_influence_mult = 0.1
 	country_bureaucracy_mult = 0.125
 	country_authority_mult = 0.125
-	state_standard_of_living_add = 1.25
+	state_standard_of_living_add = 0.63
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0417
 	state_literacy_growth_add = 0.0833
@@ -3870,7 +3870,7 @@ modern_country_power_zbt = {
 
 	# Universal national chassis copied from India
 	building_throughput_add = 0.575
-	building_goods_input_mult = 0.46
+	building_goods_input_mult = 0.35
 	building_economy_of_scale_level_cap_add = 23
 	country_construction_add = 43.125
 	country_max_companies_add = 8
@@ -3881,7 +3881,7 @@ modern_country_power_zbt = {
 	country_influence_mult = 0.23
 	country_bureaucracy_mult = 0.2875
 	country_authority_mult = 0.2875
-	state_standard_of_living_add = 2.875
+	state_standard_of_living_add = 1.44
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0958
 	state_literacy_growth_add = 0.1917
@@ -3929,7 +3929,7 @@ modern_country_power_zhh = {
 
 	# Universal national chassis copied from China
 	building_throughput_add = 0.5875
-	building_goods_input_mult = 0.47
+	building_goods_input_mult = 0.35
 	building_economy_of_scale_level_cap_add = 23.5
 	country_construction_add = 44.063
 	country_max_companies_add = 8
@@ -3940,7 +3940,7 @@ modern_country_power_zhh = {
 	country_influence_mult = 0.235
 	country_bureaucracy_mult = 0.2938
 	country_authority_mult = 0.2938
-	state_standard_of_living_add = 2.938
+	state_standard_of_living_add = 1.47
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0979
 	state_literacy_growth_add = 0.1958
@@ -3988,7 +3988,7 @@ modern_country_power_zsv = {
 
 	# Universal national chassis copied from Vietnam
 	building_throughput_add = 0.2875
-	building_goods_input_mult = 0.23
+	building_goods_input_mult = 0.17
 	building_economy_of_scale_level_cap_add = 11.5
 	country_construction_add = 21.563
 	country_max_companies_add = 4
@@ -3999,7 +3999,7 @@ modern_country_power_zsv = {
 	country_influence_mult = 0.115
 	country_bureaucracy_mult = 0.1438
 	country_authority_mult = 0.1438
-	state_standard_of_living_add = 1.438
+	state_standard_of_living_add = 0.72
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0479
 	state_literacy_growth_add = 0.0958
@@ -4036,7 +4036,7 @@ modern_country_power_zns = {
 
 	# Universal national chassis copied from Indonesia
 	building_throughput_add = 0.4875
-	building_goods_input_mult = 0.39
+	building_goods_input_mult = 0.29
 	building_economy_of_scale_level_cap_add = 19.5
 	country_construction_add = 36.563
 	country_max_companies_add = 7
@@ -4047,7 +4047,7 @@ modern_country_power_zns = {
 	country_influence_mult = 0.195
 	country_bureaucracy_mult = 0.2438
 	country_authority_mult = 0.2438
-	state_standard_of_living_add = 2.438
+	state_standard_of_living_add = 1.22
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0813
 	state_literacy_growth_add = 0.1625
@@ -4089,7 +4089,7 @@ modern_country_power_zoe = {
 
 	# Universal national chassis copied from Australia
 	building_throughput_add = 0.4125
-	building_goods_input_mult = 0.33
+	building_goods_input_mult = 0.25
 	building_economy_of_scale_level_cap_add = 16.5
 	country_construction_add = 30.938
 	country_max_companies_add = 6
@@ -4100,7 +4100,7 @@ modern_country_power_zoe = {
 	country_influence_mult = 0.165
 	country_bureaucracy_mult = 0.2063
 	country_authority_mult = 0.2063
-	state_standard_of_living_add = 2.063
+	state_standard_of_living_add = 1.03
 	state_birth_rate_mult = 0.1
 	state_education_access_add = 0.0688
 	state_literacy_growth_add = 0.1375
