@@ -2174,6 +2174,7 @@ generate_monarch_for_country = {
 						any_scope_character = {
 							has_role = character_role_prince
 							NOT = { has_variable = prince_consort_character }
+							NOT = { has_variable = prince_renounced_throne }
 							NAND = {
 								owner ?= { has_variable = primogeniture_system }
 								is_female = yes
@@ -2184,6 +2185,7 @@ generate_monarch_for_country = {
 						limit = {
 							has_role = character_role_prince
 							NOT = { has_variable = prince_consort_character }
+							NOT = { has_variable = prince_renounced_throne }
 							NAND = {
 								owner ?= { has_variable = primogeniture_system }
 								is_female = yes
@@ -2267,6 +2269,7 @@ generate_monarch_for_country = {
 	if = {
 		limit = {
 			has_law_or_variant = law_type:law_HOS_monarch
+			is_an_elective_monarchy = no
 			ruler_is_governor_general = no
 			shares_same_monarch = no
 			any_scope_character = {
