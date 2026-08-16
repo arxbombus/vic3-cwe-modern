@@ -181,14 +181,33 @@ on_monthly_pulse_country = {
 						has_role = character_role_prince
 					}
 				}
-				NOT = {
-					any_scope_character = {
-						has_role = character_role_monarch
-					}
-				}
 				NOT = { has_variable = replacing_regency }
 			}
-			generate_monarch_for_country = yes
+			if = {
+				limit = {
+					NOT = {
+						any_scope_character = {
+							has_role = character_role_monarch
+						}
+					}
+				}
+				generate_monarch_for_country = yes
+			}
+			else_if = {
+				limit = {
+					any_scope_character = {
+						has_role = character_role_monarch
+						is_eligible_to_become_monarch = yes
+					}
+				}
+				random_scope_character = {
+					limit = {
+						has_role = character_role_monarch
+						is_eligible_to_become_monarch = yes
+					}
+					set_character_as_monarch = yes
+				}
+			}
 		}
 		if = {
 			limit = {
@@ -220,7 +239,9 @@ on_monthly_pulse_country = {
 		#Viceroy
 		if = {
 			limit = {
+				has_law_or_variant = law_type:law_HOS_monarch
 				ruler_is_governor_general = yes
+				shares_same_monarch = yes
 				ruler ?= { NOT = { has_role = character_role_viceroy } }
 			}
 			ruler ?= { set_character_as_viceroy = yes }
@@ -1199,6 +1220,13 @@ on_monthly_pulse_country = {
 		historical_diplomatic_incidents.45
 		historical_diplomatic_incidents.47
 		historical_diplomatic_incidents.49
+		
+		historical_terrorists_events.1
+		historical_terrorists_events.2
+		historical_terrorists_events.3
+		historical_terrorists_events.4
+		historical_terrorists_events.5
+		historical_terrorists_events.6
 		
 		historical_pop_transfer.1
 		historical_pop_transfer.2

@@ -1,0 +1,58 @@
+﻿je_british_palestine = {
+	icon = "gfx/interface/icons/invention_icons/colonization.dds"
+
+	group = je_group_internal_affairs
+
+	possible = {
+		
+		#Added by script
+		
+	}
+
+	immediate = {
+		
+	}
+
+	complete = {
+	
+		#Independent
+		is_sufficiently_independent = yes
+		
+	}
+	
+	on_complete = {
+		
+		#Become Israel-Palestine - if multicultural
+		if = {
+			limit = {
+				NOT = { exists = c:PIR }
+				has_law_or_variant = law_type:law_multicultural
+				NOT = { has_law_or_variant = law_type:law_state_religion }
+			}
+			
+			#Become Israel-Palestine
+			change_tag = PIR
+			add_primary_culture = cu:palestinian
+			
+		}
+		
+		#Clean up politics
+		every_scope_character = {
+			limit = { culture ?= { NOT = { is_primary_culture_of = ROOT } } }
+			retire_character = yes
+		}
+		
+	}
+	
+	modifiers_while_active = {
+		colonial_citizenship_modifier_3
+	}
+
+	weight = 100
+
+	should_be_pinned_by_default_uninvolved_or_context = no
+
+	transferable = no
+
+	progressbar = no
+}
