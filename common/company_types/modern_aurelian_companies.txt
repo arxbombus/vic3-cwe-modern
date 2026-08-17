@@ -1,8 +1,6 @@
-# Aurelian companies
-# Country tag: FRE
-# Budget: 384 points (4x the United States' 96-point budget)
-# Tier throughput: 10% / 20% / 40% / 60% / 90% / 120%
-# All 67 primary company-compatible building types are covered exactly once.
+# Aurelian companies — bracket rebalance v1
+# Aurelia remains uniquely strong, but company throughput is capped well below state/national specialization.
+# Tier throughput: T1 +8%, T2 +15%, T3 +25%, T4 +35%, T5 +50%, T6 +70% before per-industry aggregate caps.
 
 # Aurelia — Tianjing Microelectronics — Tier 6
 company_fre_tianjing_microelectronics = {
@@ -67,11 +65,11 @@ company_fre_tianjing_microelectronics = {
 	}
 
 	prosperity_modifier = {
-		building_telecommunications_factory_throughput_add = 2
-		building_computers_factory_throughput_add = 2
-		building_circuit_boards_factory_throughput_add = 2
-		country_weekly_innovation_mult = 0.25
-		country_tech_spread_mult = 1.5
+		building_telecommunications_factory_throughput_add = 0.7
+		building_computers_factory_throughput_add = 0.7
+		building_circuit_boards_factory_throughput_add = 0.7
+		country_weekly_innovation_mult = 0.0682
+		country_tech_spread_mult = 0.1929
 	}
 
 	ai_will_do = { always = yes }
@@ -142,11 +140,11 @@ company_fre_zhihai_technologies = {
 	}
 
 	prosperity_modifier = {
-		building_software_industry_throughput_add = 2
-		building_professional_services_sector_throughput_add = 2.5
-		building_university_throughput_add = 2
-		country_weekly_innovation_mult = 0.25
-		country_tech_spread_mult = 1.5
+		building_software_industry_throughput_add = 0.7
+		building_professional_services_sector_throughput_add = 0.7
+		building_university_throughput_add = 0.525
+		country_weekly_innovation_mult = 0.0682
+		country_tech_spread_mult = 0.1929
 	}
 
 	ai_will_do = { always = yes }
@@ -223,13 +221,13 @@ company_fre_jingwei_holdings = {
 	}
 
 	prosperity_modifier = {
-		building_financial_services_sector_throughput_add = 2
-		building_corporate_services_industry_throughput_add = 2
-		building_retail_services_sector_throughput_add = 2
-		building_real_estate_sector_throughput_add = 2
-		building_skyscraper_throughput_add = 2
-		state_trade_capacity_mult = 1.5
-		country_prestige_mult = 0.6
+		building_financial_services_sector_throughput_add = 0.7
+		building_corporate_services_industry_throughput_add = 0.7
+		building_retail_services_sector_throughput_add = 0.525
+		building_real_estate_sector_throughput_add = 0.7
+		building_skyscraper_throughput_add = 0.7
+		state_trade_capacity_mult = 0.2143
+		country_prestige_mult = 0.1256
 	}
 
 	ai_will_do = { always = yes }
@@ -308,14 +306,14 @@ company_fre_qingji_engineering_group = {
 	}
 
 	prosperity_modifier = {
-		building_railway_throughput_add = 1.2
-		building_port_throughput_add = 1.2
-		building_power_plant_throughput_add = 2
-		building_hydroelectric_power_plant_throughput_add = 2
-		building_communications_network_throughput_add = 2
-		building_construction_sector_throughput_add = 2.5
-		state_infrastructure_mult = 1.5
-		state_infrastructure_from_population_max_add = 120
+		building_railway_throughput_add = 0.7
+		building_port_throughput_add = 0.7
+		building_power_plant_throughput_add = 0.7
+		building_hydroelectric_power_plant_throughput_add = 0.7
+		building_communications_network_throughput_add = 0.7
+		building_construction_sector_throughput_add = 0.7
+		state_infrastructure_mult = 0.1286
+		state_infrastructure_from_population_max_add = 30
 	}
 
 	ai_will_do = { always = yes }
@@ -384,10 +382,10 @@ company_fre_haidong_automata = {
 	}
 
 	prosperity_modifier = {
-		building_industrial_robots_factory_throughput_add = 1.2
-		building_consumer_robots_factory_throughput_add = 1.2
-		country_production_tech_spread_mult = 1.5
-		country_prestige_mult = 0.6
+		building_industrial_robots_factory_throughput_add = 0.7
+		building_consumer_robots_factory_throughput_add = 0.525
+		country_production_tech_spread_mult = 0.1687
+		country_prestige_mult = 0.1256
 	}
 
 	ai_will_do = { always = yes }
@@ -468,14 +466,14 @@ company_fre_danqi_strategic_industries = {
 	}
 
 	prosperity_modifier = {
-		building_small_arms_factory_throughput_add = 1.2
-		building_ammunition_factory_throughput_add = 1.2
-		building_artillery_factory_throughput_add = 1.2
-		building_tanks_factory_throughput_add = 1.2
-		building_warplanes_factory_throughput_add = 1.2
-		building_advanced_weaponry_factory_throughput_add = 1.2
-		unit_army_offense_mult = 0.45
-		country_military_goods_cost_mult = -0.6
+		building_small_arms_factory_throughput_add = 0.525
+		building_ammunition_factory_throughput_add = 0.525
+		building_artillery_factory_throughput_add = 0.525
+		building_tanks_factory_throughput_add = 0.525
+		building_warplanes_factory_throughput_add = 0.525
+		building_advanced_weaponry_factory_throughput_add = 0.525
+		unit_army_offense_mult = 0.15
+		country_military_goods_cost_mult = -0.225
 	}
 
 	ai_will_do = { always = yes }
@@ -558,15 +556,15 @@ company_fre_canghai_resources = {
 	}
 
 	prosperity_modifier = {
-		building_iron_mine_throughput_add = 1.2
-		building_coal_mine_throughput_add = 1.2
-		building_lead_mine_throughput_add = 1.2
-		building_sulfur_mine_throughput_add = 1.2
-		building_gold_mine_throughput_add = 1.2
-		building_gold_field_throughput_add = 1.2
-		building_oil_rig_throughput_add = 1.2
-		country_minting_mult = 0.6
-		state_infrastructure_mult = 1.5
+		building_iron_mine_throughput_add = 0.375
+		building_coal_mine_throughput_add = 0.375
+		building_lead_mine_throughput_add = 0.375
+		building_sulfur_mine_throughput_add = 0.375
+		building_gold_mine_throughput_add = 0.375
+		building_gold_field_throughput_add = 0.375
+		building_oil_rig_throughput_add = 0.375
+		country_minting_mult = 0.1875
+		state_infrastructure_mult = 0.1286
 	}
 
 	ai_will_do = { always = yes }
@@ -635,10 +633,10 @@ company_fre_liuxing_aerospace_marine = {
 	}
 
 	prosperity_modifier = {
-		building_aeroplanes_factory_throughput_add = 0.9
-		building_shipyard_throughput_add = 0.9
-		country_ship_group_supply_ships_construction_efficiency_add = 1.125
-		country_prestige_mult = 0.45
+		building_aeroplanes_factory_throughput_add = 0.5
+		building_shipyard_throughput_add = 0.5
+		country_ship_group_supply_ships_construction_efficiency_add = 0.45
+		country_prestige_mult = 0.0942
 	}
 
 	ai_will_do = { always = yes }
@@ -712,12 +710,12 @@ company_fre_xuanyu_advanced_materials = {
 	}
 
 	prosperity_modifier = {
-		building_steel_factory_throughput_add = 1.2
-		building_industrial_chemicals_factory_throughput_add = 1.2
-		building_plastics_factory_throughput_add = 1.2
-		building_synthetic_rubber_factory_throughput_add = 1.2
-		state_construction_mult = 1
-		state_infrastructure_mult = 0.3
+		building_steel_factory_throughput_add = 0.35
+		building_industrial_chemicals_factory_throughput_add = 0.35
+		building_plastics_factory_throughput_add = 0.35
+		building_synthetic_rubber_factory_throughput_add = 0.35
+		state_construction_mult = 0.1875
+		state_infrastructure_mult = 0.0257
 	}
 
 	ai_will_do = { always = yes }
@@ -789,11 +787,11 @@ company_fre_jinlun_mobility = {
 	}
 
 	prosperity_modifier = {
-		building_engines_factory_throughput_add = 0.4
-		building_locomotives_factory_throughput_add = 0.4
-		building_automobiles_factory_throughput_add = 0.4
-		country_production_tech_spread_mult = 0.5
-		country_prestige_mult = 0.2
+		building_engines_factory_throughput_add = 0.25
+		building_locomotives_factory_throughput_add = 0.25
+		building_automobiles_factory_throughput_add = 0.25
+		country_production_tech_spread_mult = 0.0562
+		country_prestige_mult = 0.0419
 	}
 
 	ai_will_do = { always = yes }
@@ -859,9 +857,9 @@ company_fre_shennong_biotechnologies = {
 	}
 
 	prosperity_modifier = {
-		building_pharmaceuticals_factory_throughput_add = 0.4
-		country_weekly_innovation_mult = 0.05
-		country_tech_spread_mult = 0.5
+		building_pharmaceuticals_factory_throughput_add = 0.25
+		country_weekly_innovation_mult = 0.0136
+		country_tech_spread_mult = 0.0643
 	}
 
 	ai_will_do = { always = yes }
@@ -935,12 +933,12 @@ company_fre_minsheng_group = {
 	}
 
 	prosperity_modifier = {
-		building_recreational_services_sector_throughput_add = 0.4
-		building_media_services_sector_throughput_add = 0.4
-		building_government_administration_throughput_add = 0.4
-		building_urban_center_throughput_add = 0.4
-		state_trade_capacity_mult = 0.5
-		country_prestige_mult = 0.2
+		building_recreational_services_sector_throughput_add = 0.25
+		building_media_services_sector_throughput_add = 0.25
+		building_government_administration_throughput_add = 0.25
+		building_urban_center_throughput_add = 0.25
+		state_trade_capacity_mult = 0.0714
+		country_prestige_mult = 0.0419
 	}
 
 	ai_will_do = { always = yes }
@@ -1017,14 +1015,14 @@ company_fre_jintian_agrifoods = {
 	}
 
 	prosperity_modifier = {
-		building_wheat_farm_throughput_add = 0.2
-		building_rye_farm_throughput_add = 0.2
-		building_rice_farm_throughput_add = 0.2
-		building_millet_farm_throughput_add = 0.2
-		building_maize_farm_throughput_add = 0.2
-		building_livestock_ranch_throughput_add = 0.2
-		state_birth_rate_mult = 0.1
-		state_infrastructure_mult = 0.1
+		building_wheat_farm_throughput_add = 0.15
+		building_rye_farm_throughput_add = 0.15
+		building_rice_farm_throughput_add = 0.15
+		building_millet_farm_throughput_add = 0.15
+		building_maize_farm_throughput_add = 0.15
+		building_livestock_ranch_throughput_add = 0.15
+		state_birth_rate_mult = 0.06
+		state_infrastructure_mult = 0.0086
 	}
 
 	ai_will_do = { always = yes }
@@ -1102,13 +1100,13 @@ company_fre_wanjia_consumer_holdings = {
 	}
 
 	prosperity_modifier = {
-		building_groceries_factory_throughput_add = 0.2
-		building_textile_mill_throughput_add = 0.2
-		building_furniture_factory_throughput_add = 0.2
-		building_liquor_factory_throughput_add = 0.2
-		building_art_academy_throughput_add = 0.2
-		state_standard_of_living_add = 2
-		country_prestige_mult = 0.1
+		building_groceries_factory_throughput_add = 0.15
+		building_textile_mill_throughput_add = 0.15
+		building_furniture_factory_throughput_add = 0.15
+		building_liquor_factory_throughput_add = 0.15
+		building_art_academy_throughput_add = 0.15
+		state_standard_of_living_add = 1.5
+		country_prestige_mult = 0.0209
 	}
 
 	ai_will_do = { always = yes }
@@ -1192,14 +1190,14 @@ company_fre_chiguan_agrotrade = {
 	}
 
 	prosperity_modifier = {
-		building_coffee_plantation_throughput_add = 0.1
-		building_tea_plantation_throughput_add = 0.1
-		building_tobacco_plantation_throughput_add = 0.1
-		building_opium_plantation_throughput_add = 0.1
-		building_banana_plantation_throughput_add = 0.1
-		building_cotton_plantation_throughput_add = 0.1
-		building_vineyard_throughput_add = 0.1
-		state_trade_capacity_mult = 0.1
+		building_coffee_plantation_throughput_add = 0.08
+		building_tea_plantation_throughput_add = 0.08
+		building_tobacco_plantation_throughput_add = 0.08
+		building_opium_plantation_throughput_add = 0.08
+		building_banana_plantation_throughput_add = 0.08
+		building_cotton_plantation_throughput_add = 0.08
+		building_vineyard_throughput_add = 0.08
+		state_trade_capacity_mult = 0.0143
 		state_migration_pull_mult = 0.05
 	}
 
@@ -1272,11 +1270,11 @@ company_fre_qundao_bio_resources = {
 	}
 
 	prosperity_modifier = {
-		building_logging_camp_throughput_add = 0.1
-		building_fishing_wharf_throughput_add = 0.1
-		building_rubber_plantation_throughput_add = 0.1
-		state_infrastructure_mult = 0.1
-		state_trade_advantage_mult = 0.05
+		building_logging_camp_throughput_add = 0.08
+		building_fishing_wharf_throughput_add = 0.08
+		building_rubber_plantation_throughput_add = 0.08
+		state_infrastructure_mult = 0.0086
+		state_trade_advantage_mult = 0.045
 	}
 
 	ai_will_do = { always = yes }

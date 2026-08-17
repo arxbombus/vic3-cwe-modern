@@ -80,6 +80,8 @@
   building_group_bg_service_construction_efficiency_add_desc: "An increase or decrease to the weekly [concept_construction] progress for $bg_service$"
   building_group_bg_urban_facilities_construction_efficiency_add: "$bg_urban_facilities$ Construction Efficiency"
   building_group_bg_urban_facilities_construction_efficiency_add_desc: "An increase or decrease to the weekly [concept_construction] progress for $bg_urban_facilities$"
+  building_group_bg_government_construction_efficiency_add: "$bg_government$ Construction Efficiency"
+  building_group_bg_government_construction_efficiency_add_desc: "An increase or decrease to the weekly [concept_construction] progress for $bg_government$"
   goods_output_ammunition_mult:0 "Building @ammunition! Ammunition output"
   goods_output_ammunition_mult_desc:0 "A bonus or penalty to the ouptut of @ammunition! Ammunition produced by buildings"
   goods_output_small_arms_mult:0 "Building @small_arms! Small Arms output"

@@ -16,3 +16,6 @@ INJECT:bg_infrastructure = {
 INJECT:bg_urban_facilities = {
     construction_efficiency_modifier = yes
 }
+INJECT:bg_government = {
+    construction_efficiency_modifier = yes
+}

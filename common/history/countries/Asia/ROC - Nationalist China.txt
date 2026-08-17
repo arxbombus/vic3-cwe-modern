@@ -53,6 +53,7 @@ COUNTRIES = {
 
 		set_capital = STATE_FORMOSA
 		effect_starting_technology_tier_2_5_tech = yes
+		effect_modern_utopian_laws = yes
 	}
 	
 }
