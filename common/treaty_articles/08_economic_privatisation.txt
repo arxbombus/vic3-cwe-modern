@@ -38,20 +38,26 @@
 
 	requirement_to_maintain = {
 		
-		#Proper countries
-		is_not_revolutionary_or_decentralised = yes
-		scope:other_country = { is_not_revolutionary_or_decentralised = yes }
+		trigger = {
 		
-		#Both parties are sufficiently independent
-		OR = {
-			is_sufficiently_independent = yes
-			is_a_devolved_gov = yes
-		}
-		scope:other_country = { 
-			OR = {
-				is_sufficiently_independent = yes
-				is_a_devolved_gov = yes
+			#Proper countries
+			scope:source_country = { is_not_revolutionary_or_decentralised = yes }
+			scope:target_country = { is_not_revolutionary_or_decentralised = yes }
+			
+			#Both parties are sufficiently independent
+			scope:source_country = {
+				OR = {
+					is_sufficiently_independent = yes
+					is_a_devolved_gov = yes
+				}
 			}
+			scope:target_country = { 
+				OR = {
+					is_sufficiently_independent = yes
+					is_a_devolved_gov = yes
+				}
+			}
+			
 		}
 		
 	}

@@ -1,0 +1,48 @@
+je_request_international_alliance_intervention_button = {
+	name = "je_request_international_alliance_intervention_button"
+	desc = "je_request_international_alliance_intervention_button_desc"
+
+	visible = { 
+		
+	}
+
+	possible = {
+		
+		#THIS is at war
+		is_at_war = yes
+		
+		#Not already triggered
+		hidden_trigger = {
+			NOT = {
+				any_country = {
+					has_variable = requested_international_alliance_intervention
+				}
+			}
+		}
+		
+		#Enemy is targeting a state belonging to THIS in the correct region
+		any_scope_war = {
+			is_warleader = ROOT
+			eligible_war_for_international_alliance = yes
+		}
+		
+	}
+
+	effect = {
+		
+		#Request NATO intervention
+		set_variable = {
+			name = requested_international_alliance_intervention 
+			months = 1 
+		}
+		
+		#Call in all international alliance members to join war
+		invoke_collective_security_international_alliance_effect = yes
+		
+	}
+	
+	ai_chance = {
+		base = 10
+	}
+	
+}

@@ -1,0 +1,93 @@
+diplo_action_international_alliance_join_effect = {
+
+	#Add membership
+	if = {
+		limit = { diplo_action_nato_leader_check = yes }
+		if = {
+			limit = {
+				NOT = { has_modifier = nato_member }
+			}
+			add_modifier = { name = nato_member }
+		}
+		add_journal_entry = { type = je_nato_system }
+	}
+	if = {
+		limit = { diplo_action_warsaw_pact_leader_check = yes }
+		if = {
+			limit = {
+				NOT = { has_modifier = warsaw_pact_member }
+			}
+			add_modifier = { name = warsaw_pact_member }
+		}
+		add_journal_entry = { type = je_warsaw_pact_system }
+	}
+	if = {
+		limit = { diplo_action_rio_pact_leader_check = yes }
+		if = {
+			limit = {
+				NOT = { has_modifier = rio_pact_member }
+			}
+			add_modifier = { name = rio_pact_member }
+		}
+		add_journal_entry = { type = je_rio_pact_system }
+	}
+	if = {
+		limit = { diplo_action_csto_leader_check = yes }
+		if = {
+			limit = {
+				NOT = { has_modifier = csto_member }
+			}
+			add_modifier = { name = csto_member }
+		}
+		add_journal_entry = { type = je_csto_system }
+	}
+	
+	#Remove timer
+	remove_variable = international_alliance_application_cooldown
+
+}
+
+invoke_collective_security_international_alliance_effect = {
+
+	custom_tooltip = {
+		text = invoke_collective_security.tt
+		save_scope_as = war_starter_scope
+		every_country = {
+			limit = {
+				NOT = { THIS = ROOT }
+				has_war_with = ROOT
+				#does_not_share_same_international_alliance = yes
+				save_temporary_scope_as = enemy_country
+				eligible_war_goal_for_international_alliance = yes
+			}
+			every_country = {
+				limit = {
+					NOT = { THIS = ROOT }
+					shares_same_international_alliance = yes
+					NOR = {
+						any_cobelligerent_in_war = { this = root } 
+						any_enemy_in_diplo_play = { this = root }
+					}
+				}
+				save_scope_as = target_country
+				ROOT = {
+					every_scope_war = {
+						limit = {
+							eligible_war_for_international_alliance = yes
+						}
+						join_war = {
+							target = scope:target_country
+							side = ROOT
+						}
+					}
+				}
+				save_scope_as = war_joiner_scope
+				post_notification = auto_war_join_notification
+			}
+		}
+		every_country = {
+			post_notification = collective_security_invoked_notification
+		}
+	}
+
+}

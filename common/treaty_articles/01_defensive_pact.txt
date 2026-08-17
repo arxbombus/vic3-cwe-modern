@@ -51,63 +51,31 @@
 
 	requirement_to_maintain = {
 		
-		#Proper countries
-		is_not_revolutionary_or_decentralised = yes
-		scope:other_country = { is_not_revolutionary_or_decentralised = yes }
+		trigger = {
 		
-		#Both parties are sufficiently independent
-		is_sufficiently_independent = yes
-		scope:other_country = { is_sufficiently_independent = yes }
-		
-		#Neither parties are subjects of the other
-		scope:other_country = { NOT = { is_subject_of = ROOT } } 
-		NOT = { is_subject_of = scope:other_country }
-		
-		#Neither party is neutral
-		NOR = {
-			is_neutral = yes
-			scope:other_country = { is_neutral = yes }
+			#Proper countries
+			scope:first_country = { is_not_revolutionary_or_decentralised = yes }
+			scope:second_country = { is_not_revolutionary_or_decentralised = yes }
+			
+			#Both parties are sufficiently independent
+			scope:first_country = { is_sufficiently_independent = yes }
+			scope:second_country = { is_sufficiently_independent = yes }
+			
+			#Neither parties are subjects of the other
+			scope:second_country = { NOT = { is_subject_of = scope:first_country } } 
+			scope:first_country = { NOT = { is_subject_of = scope:second_country } }
+			
+			#Neither party is neutral
+			NOR = {
+				scope:first_country = { is_neutral = yes }
+				scope:second_country = { is_neutral = yes }
+			}
+			
 		}
 		
 	}
 	
-	can_withdraw = {  
-		
-		#NATO
-		trigger_if = {
-			limit = { scope:first_country = { OR = { has_modifier = nato_member has_modifier = nato_leader } } }
-			NAND = { 
-				scope:first_country = { OR = { has_modifier = nato_member has_modifier = nato_leader } }
-				scope:second_country = { OR = { has_modifier = nato_member has_modifier = nato_leader } }
-			}
-		}
-		
-		#Rio Pact
-		trigger_if = {
-			limit = { scope:first_country = { OR = { has_modifier = rio_pact_member has_modifier = rio_pact_leader } } }
-			NAND = { 
-				scope:first_country = { OR = { has_modifier = rio_pact_member has_modifier = rio_pact_leader } }
-				scope:second_country = { OR = { has_modifier = rio_pact_member has_modifier = rio_pact_leader } }
-			}
-		}
-		
-		#Warsaw Pact
-		trigger_if = {
-			limit = { scope:first_country = { OR = { has_modifier = warsaw_pact_member has_modifier = warsaw_pact_leader } } }
-			NAND = { 
-				scope:first_country = { OR = { has_modifier = warsaw_pact_member has_modifier = warsaw_pact_leader } }
-				scope:second_country = { OR = { has_modifier = warsaw_pact_member has_modifier = warsaw_pact_leader } }
-			}
-		}
-		
-		#CSTO
-		trigger_if = {
-			limit = { scope:first_country = { OR = { has_modifier = csto_member has_modifier = csto_leader } } }
-			NAND = { 
-				scope:first_country = { OR = { has_modifier = csto_member has_modifier = csto_leader } }
-				scope:second_country = { OR = { has_modifier = csto_member has_modifier = csto_leader } }
-			}
-		}
+	can_withdraw = {
 		
 		#Superstate Defence Union
 		trigger_if = {

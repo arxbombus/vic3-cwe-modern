@@ -51,7 +51,7 @@ debug.2 = {
 				type = dp_annex_war
 				target_country = c:USA
 			
-				#war = yes
+				war = yes
 			
 				add_war_goal = {
 					holder = c:USA
@@ -505,4 +505,19 @@ debug.14 = {
 			calculate_lower_house_composition = yes
 		}
 	}
+}
+
+debug.14 = {
+	type = country_event
+	
+	hidden = yes
+	
+	immediate = {
+		
+		add_modifier = { name = nato_member }
+		
+		#post_notification = auto_dp_join_notification
+		
+	}
+	
 }

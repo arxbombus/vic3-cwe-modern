@@ -5267,11 +5267,8 @@
     alliance_leader_label.tt:0 "Leader: [SCOPE.sCountry('alliance_leader_scope_label').GetName]"
     
     je_nato_system:0 "The North Atlantic Treaty Organisation"
-    je_nato_system_reason:0 "The North Atlantic Treaty Organisation is an intergovernmental military alliance of European and North American states. Established in the aftermath of World War II, the organisation implemented the North Atlantic Treaty, signed in Washington, D.C., on 4 April 1949. NATO is a collective security system: its independent member states agree to defend each other against attacks by third parties. \n\nLeader: [SCOPE.sCountry('nato_leader').GetName] \n\nHeadquaters: #y [SCOPE.sCountry('nato_leader').GetCapital.GetCityHubName]#!"
+    je_nato_system_reason:0 "The North Atlantic Treaty Organisation is an intergovernmental military alliance of European and North American states. Established in the aftermath of World War II, the organisation implemented the North Atlantic Treaty, signed in Washington, D.C., on 4 April 1949. NATO is a collective security system: its independent member states agree to defend each other against attacks by third parties. \n\n$international_alliance_geographical_limits_desc$"
     je_nato_system_status:0 "Total Members: [GetGlobalVariable('nato_org_member_count').GetValue]"
-    
-    je_request_nato_intervention_button:0 "Invoke Article 5"
-    je_request_nato_intervention_button_desc:0 "Article 5 provides that if a NATO Ally is the victim of an armed attack, each and every other member of the Alliance will consider this act of violence as an armed attack against all members and will take the actions it deems necessary to assist the Ally attacked."
     
     je_fund_nato_button:0 "Bankroll NATO"
     je_fund_nato_button_desc:0 "[ROOT.GetCountry.GetName], in its capacity as the Leader of NATO, will provide the military, political and economic backbone of the organisation."
@@ -5279,12 +5276,19 @@
     je_defund_nato_button_desc:0 "[ROOT.GetCountry.GetName], in its capacity as the Leader of NATO, will no longer provide the military, political and economic backbone of the organisation."
     je_hold_nato_exercise_button:0 "Hold NATO Exercises"
     je_hold_nato_exercise_button_desc:0 "NATO members will conduct military exercises to boost their combat readiness and expertise."
-    
-    join_nato_war.tt:0 "Join [SCOPE.sCountry('nato_victim').GetName]'s defensive war"
+    je_leave_nato_button:0 "Leave NATO"
+    je_leave_nato_button_desc:0 "[ROOT.GetCountry.GetName] will leave NATO with immediate effect."
+    je_become_nato_leader_button:0 "Take NATO Leadership"
+    je_become_nato_leader_button_desc:0 "[ROOT.GetCountry.GetName] take over as leader of NATO."
     fund_nato.tt:0 "Station troops in all NATO member states"
     defund_nato.tt:0 "Remove stationed troops from all NATO member states"
-    
     nato_exercise:0 "NATO Military Exercises"
+    eligible_geography_for_nato.tt:0 "[concept_country] is eligible to join NATO"
+    
+    je_request_nato_intervention_button:0 "Invoke Article 5"
+    je_request_nato_intervention_button_desc:0 "Article 5 provides that if a NATO Ally is the victim of an armed attack, each and every other member of the Alliance will consider this act of violence as an armed attack against all members and will take the actions it deems necessary to assist the Ally attacked."
+    
+    join_nato_war.tt:0 "Join [SCOPE.sCountry('nato_victim').GetName]'s defensive war"
     
     nato_join_war.t:0 "Collective Defence Invoked"
     nato_join_war.d:0 "[SCOPE.sCountry('nato_victim').GetName] has invoked Article 5 of the NATO Charter which mandates that member states defend each other against attacks by third parties."
@@ -5292,11 +5296,8 @@
     nato_join_war.1:0 "We shall protect the [SCOPE.sCountry('nato_victim').GetAdjectiveNoFlag] people!"
     
     je_warsaw_pact_system:0 "The Warsaw Pact"
-    je_warsaw_pact_system_reason:0 "The Warsaw Pact was a collective defence treaty signed in Warsaw, Poland, between the Soviet Union and seven other Eastern Bloc socialist republics of Central and Eastern Europe in May 1955, during the Cold War. The term 'Warsaw Pact' commonly refers to both the treaty itself and its resultant defensive alliance, the Warsaw Treaty Organisation. The Warsaw Pact was the military and economic complement to the Council for Mutual Economic Assistance (Comecon), the regional economic organisation for the Eastern Bloc states of Central and Eastern Europe. \n\nLeader: [SCOPE.sCountry('warsaw_pact_leader').GetName] \n\nHeadquaters: #y [SCOPE.sCountry('warsaw_pact_leader').GetCapital.GetCityHubName]#!"
+    je_warsaw_pact_system_reason:0 "The Warsaw Pact was a collective defence treaty signed in Warsaw, Poland, between the Soviet Union and seven other Eastern Bloc socialist republics of Central and Eastern Europe in May 1955, during the Cold War. The term 'Warsaw Pact' commonly refers to both the treaty itself and its resultant defensive alliance, the Warsaw Treaty Organisation. The Warsaw Pact was the military and economic complement to the Council for Mutual Economic Assistance (Comecon), the regional economic organisation for the Eastern Bloc states of Central and Eastern Europe. \n\n$international_alliance_geographical_limits_desc$"
     je_warsaw_pact_system_status:0 "Total Members: [GetGlobalVariable('warsaw_pact_org_member_count').GetValue]"
-    
-    je_request_warsaw_pact_intervention_button:0 "Invoke Article 4"
-    je_request_warsaw_pact_intervention_button_desc:0 "In the event of an armed attack in Europe on one or several states that are signatories of the treaty by any state or group of states, each state that is a party to this treaty shall, in the exercise of the right to individual or collective self-defence in accordance with Article 51 of the Charter of the United Nations Organisation, render the state or states so attacked immediate assistance, individually and in agreement with other states that are parties to this treaty, by all the means it may consider necessary, including the use of armed force."
     
     je_fund_warsaw_pact_button:0 "Bankroll Warsaw Pact"
     je_fund_warsaw_pact_button_desc:0 "[ROOT.GetCountry.GetName], in its capacity as the Leader of Warsaw Pact, will provide the military, political and economic backbone of the organisation."
@@ -5304,12 +5305,17 @@
     je_defund_warsaw_pact_button_desc:0 "[ROOT.GetCountry.GetName], in its capacity as the Leader of Warsaw Pact, will no longer provide the military, political and economic backbone of the organisation."
     je_hold_warsaw_pact_exercise_button:0 "Hold Warsaw Pact Exercises"
     je_hold_warsaw_pact_exercise_button_desc:0 "Warsaw Pact members will conduct military exercises to boost their combat readiness and expertise."
-    
-    join_warsaw_pact_war.tt:0 "Join [SCOPE.sCountry('warsaw_pact_victim').GetName]'s defensive war"
+    je_leave_warsaw_pact_button:0 "Leave Warsaw Pact"
+    je_leave_warsaw_pact_button_desc:0 "[ROOT.GetCountry.GetName] will leave Warsaw Pact with immediate effect."
+    je_become_warsaw_pact_leader_button:0 "Take Warsaw Pact Leadership"
+    je_become_warsaw_pact_leader_button_desc:0 "[ROOT.GetCountry.GetName] take over as leader of Warsaw Pact."
     fund_warsaw_pact.tt:0 "Station troops in all Warsaw Pact member states"
     defund_warsaw_pact.tt:0 "Remove stationed troops from all Warsaw Pact member states"
-    
     warsaw_pact_exercise:0 "Warsaw Pact Military Exercises"
+    eligible_geography_for_warsaw_pact.tt:0 "[concept_country] is eligible to join Warsaw Pact"
+    
+    je_request_warsaw_pact_intervention_button:0 "Invoke Article 4"
+    je_request_warsaw_pact_intervention_button_desc:0 "In the event of an armed attack in Europe on one or several states that are signatories of the treaty by any state or group of states, each state that is a party to this treaty shall, in the exercise of the right to individual or collective self-defence in accordance with Article 51 of the Charter of the United Nations Organisation, render the state or states so attacked immediate assistance, individually and in agreement with other states that are parties to this treaty, by all the means it may consider necessary, including the use of armed force."
     
     warsaw_pact_join_war.t:0 "Collective Defence Invoked"
     warsaw_pact_join_war.d:0 "[SCOPE.sCountry('warsaw_pact_victim').GetName] has invoked Article 4 of the Warsaw Pact Charter which mandates that member states defend each other against attacks by third parties."
@@ -5317,11 +5323,8 @@
     warsaw_pact_join_war.1:0 "We shall protect the [SCOPE.sCountry('warsaw_pact_victim').GetAdjectiveNoFlag] people!"
     
     je_rio_pact_system:0 "The Rio Pact"
-    je_rio_pact_system_reason:0 "$form_rio_pact_decision_desc$ \n\nLeader: [SCOPE.sCountry('rio_pact_leader').GetName] \n\nHeadquaters: #y [SCOPE.sCountry('rio_pact_leader').GetCapital.GetCityHubName]#!"
+    je_rio_pact_system_reason:0 "$form_rio_pact_decision_desc$ \n\n$international_alliance_geographical_limits_desc$"
     je_rio_pact_system_status:0 "Total Members: [GetGlobalVariable('rio_pact_org_member_count').GetValue]"
-    
-    je_request_rio_pact_intervention_button:0 "Invoke Article 3"
-    je_request_rio_pact_intervention_button_desc:0 "An armed attack by any State against an American State shall be considered an attack against all American States, requiring each signatory to assist in meeting the attack in exercise of the inherent right of individual or collective self-defense recognised by Article 51 of the UN Charter."
     
     je_fund_rio_pact_button:0 "Bankroll Rio Pact"
     je_fund_rio_pact_button_desc:0 "[ROOT.GetCountry.GetName], in its capacity as the Leader of Rio Pact, will provide the military, political and economic backbone of the organisation."
@@ -5329,12 +5332,17 @@
     je_defund_rio_pact_button_desc:0 "[ROOT.GetCountry.GetName], in its capacity as the Leader of Rio Pact, will no longer provide the military, political and economic backbone of the organisation."
     je_hold_rio_pact_exercise_button:0 "Hold Rio Pact Exercises"
     je_hold_rio_pact_exercise_button_desc:0 "Rio Pact members will conduct military exercises to boost their combat readiness and expertise."
-    
-    join_rio_pact_war.tt:0 "Join [SCOPE.sCountry('rio_pact_victim').GetName]'s defensive war"
+    je_leave_rio_pact_button:0 "Leave Rio Pact"
+    je_leave_rio_pact_button_desc:0 "[ROOT.GetCountry.GetName] will leave Rio Pact with immediate effect."
+    je_become_rio_pact_leader_button:0 "Take Rio Pact Leadership"
+    je_become_rio_pact_leader_button_desc:0 "[ROOT.GetCountry.GetName] take over as leader of Rio Pact."
     fund_rio_pact.tt:0 "Station troops in all Rio Pact member states"
     defund_rio_pact.tt:0 "Remove stationed troops from all Rio Pact member states"
-    
     rio_pact_exercise:0 "Rio Pact Military Exercises"
+    eligible_geography_for_rio_pact.tt:0 "[concept_country] is eligible to join Rio Pact"
+    
+    je_request_rio_pact_intervention_button:0 "Invoke Article 3"
+    je_request_rio_pact_intervention_button_desc:0 "An armed attack by any State against an American State shall be considered an attack against all American States, requiring each signatory to assist in meeting the attack in exercise of the inherent right of individual or collective self-defense recognised by Article 51 of the UN Charter."
     
     rio_pact_join_war.t:0 "Collective Defence Invoked"
     rio_pact_join_war.d:0 "[SCOPE.sCountry('rio_pact_victim').GetName] has invoked Article 3 of the Rio Pact Charter which mandates that member states defend each other against attacks by third parties."
@@ -5342,11 +5350,8 @@
     rio_pact_join_war.1:0 "We shall protect the [SCOPE.sCountry('rio_pact_victim').GetAdjectiveNoFlag] people!"
     
     je_csto_system:0 "The Collective Security Treaty Organisation"
-    je_csto_system_reason:0 "$form_csto_decision_desc$ \n\nLeader: [SCOPE.sCountry('csto_leader').GetName] \n\nHeadquaters: #y [SCOPE.sCountry('csto_leader').GetCapital.GetCityHubName]#!"
+    je_csto_system_reason:0 "$form_csto_decision_desc$ \n\n$international_alliance_geographical_limits_desc$"
     je_csto_system_status:0 "Total Members: [GetGlobalVariable('csto_org_member_count').GetValue]"
-    
-    je_request_csto_intervention_button:0 "Invoke Article 4"
-    je_request_csto_intervention_button_desc:0 "In case of aggression commission (armed attack menacing to safety, stability, territorial integrity and sovereignty) to any of the Member States, all the other Member States at request of this Member State shall immediately provide the latter with the necessary help, including military one, as well as provide support by the means at their disposal in accordance with the right to collective defence pursuant to article 51 of the UN Charter."
     
     je_fund_csto_button:0 "Bankroll CSTO"
     je_fund_csto_button_desc:0 "[ROOT.GetCountry.GetName], in its capacity as the Leader of CSTO, will provide the military, political and economic backbone of the organisation."
@@ -5354,12 +5359,17 @@
     je_defund_csto_button_desc:0 "[ROOT.GetCountry.GetName], in its capacity as the Leader of CSTO, will no longer provide the military, political and economic backbone of the organisation."
     je_hold_csto_exercise_button:0 "Hold CSTO Exercises"
     je_hold_csto_exercise_button_desc:0 "CSTO members will conduct military exercises to boost their combat readiness and expertise."
-    
-    join_csto_war.tt:0 "Join [SCOPE.sCountry('csto_victim').GetName]'s defensive war"
+    je_leave_csto_button:0 "Leave CSTO"
+    je_leave_csto_button_desc:0 "[ROOT.GetCountry.GetName] will leave CSTO with immediate effect."
+    je_become_csto_leader_button:0 "Take CSTO Leadership"
+    je_become_csto_leader_button_desc:0 "[ROOT.GetCountry.GetName] take over as leader of CSTO."
     fund_csto.tt:0 "Station troops in all CSTO member states"
     defund_csto.tt:0 "Remove stationed troops from all CSTO member states"
-    
     csto_exercise:0 "CSTO Military Exercises"
+    eligible_geography_for_csto.tt:0 "[concept_country] is eligible to join CSTO"
+    
+    je_request_csto_intervention_button:0 "Invoke Article 4"
+    je_request_csto_intervention_button_desc:0 "In case of aggression commission (armed attack menacing to safety, stability, territorial integrity and sovereignty) to any of the Member States, all the other Member States at request of this Member State shall immediately provide the latter with the necessary help, including military one, as well as provide support by the means at their disposal in accordance with the right to collective defence pursuant to article 51 of the UN Charter."
     
     csto_join_war.t:0 "Collective Defence Invoked"
     csto_join_war.d:0 "[SCOPE.sCountry('csto_victim').GetName] has invoked Article 4 of the CSTO Charter which mandates that member states defend each other against attacks by third parties."
@@ -7144,7 +7154,7 @@
     warlord_state_start.option.2:0 "It is what it is."
     
     je_organised_crime_system:0 "Organised Crime"
-    je_organised_crime_system_reason:0 "Whispers of shadowy figures and clandestine dealings spread through the streets. What began as petty racketeering has evolved into a sprawling network of smuggling, extortion, and underground markets. The state must decide: suppress these criminal enterprises with iron resolve, or quietly profit from their influence. \n\n@information! Organised crime appears whenever [ROOT.GetCountry.GetName] has weak [GetLawType('law_very_low_anti_corruption').GetGroup.GetName] or [GetLawType('law_lenient_policing').GetGroup.GetName] [Concept('concept_law','$concept_laws$')]. \n\n@warning! Organised crime allows the [concept_investment_pool] to build the following [Concept('concept_building','$concept_buildings$')] even though the country's [Concept('concept_law','$concept_laws$')] may prohibit doing so: \n\n• [GetBuildingType('building_opium_plantation').GetName] \n\n• [GetBuildingType('building_liquor_factory').GetName] \n\n• [GetBuildingType('building_vineyard').GetName] \n\n• [GetBuildingType('building_tobacco_plantation').GetName]."
+    je_organised_crime_system_reason:0 "Whispers of shadowy figures and clandestine dealings spread through the streets. What began as petty racketeering has evolved into a sprawling network of smuggling, extortion, and underground markets. The state must decide: suppress these criminal enterprises with iron resolve, or quietly profit from their influence. \n\n@information! #y Organised Crime#! appears whenever [ROOT.GetCountry.GetName] has weak [GetLawType('law_very_low_anti_corruption').GetGroup.GetName] or [GetLawType('law_lenient_policing').GetGroup.GetName] [Concept('concept_law','$concept_laws$')]. \n\n@warning! #y Organised Crime#! allows the [concept_investment_pool] to build the following [Concept('concept_building','$concept_buildings$')] even though the country's [Concept('concept_law','$concept_laws$')] may prohibit doing so: \n\n• [GetBuildingType('building_opium_plantation').GetName] \n\n• [GetBuildingType('building_liquor_factory').GetName] \n\n• [GetBuildingType('building_vineyard').GetName] \n\n• [GetBuildingType('building_tobacco_plantation').GetName]."
     
     organised_crime_system:0 "Organised Crime"
     
@@ -7244,3 +7254,15 @@
     
     je_british_palestine:0 "Mandatory Palestine"
     je_british_palestine_reason:0 "Mandatory Palestine was a geopolitical entity under British administration from 1920 to 1948. Created after the collapse of the Ottoman Empire and formalised by the League of Nations, the mandate encompassed modern-day Israel, the West Bank, and Gaza, carrying the dual obligation to facilitate a Jewish national home while protecting local rights. \n\nDue to the Israeli dominance of Palestinian politics, unless [ROOT.GetCountry.GetName] has the [GetLawType('law_multicultural').GetName] [concept_law] and does not have the [GetLawType('law_state_religion').GetName] [concept_law], [ROOT.GetCountry.GetName] will become #y $ISR$#! upon independence."
+    
+    je_request_international_alliance_intervention_button:0 "Invoke Collective Security"
+    je_request_international_alliance_intervention_button_desc:0 "The Alliance Treaty provides that if a member state is the victim of an armed attack, each and every other member of the Alliance will consider this act of violence as an armed attack against all members and will take the actions it deems necessary to assist the member state attacked. \n\n@information! The Alliance's collective defense obligations are geographically restricted by the Alliance Treaty. As such, the collective security mechanism cannot be triggered a member state is the target of a [concept_war_goal] which targets a [concept_state] outside the #y Geographical Protection Limits#! of the Alliance."
+    
+    war_goal_target_state_in_alliance_geographical_limits.tt:0 "Any [ROOT.GetCountry.GetAdjective] [concept_state] which is targeted by a [concept_war_goal] is located within the #y Geographical Protection Limits#! of the relevant international alliance"
+    country_has_truce_with_international_alliance_member.tt:0 "There is at least #y 1 member of the alliance#! who is not at [concept_war] or not has a [concept_truce] with the enemy country"
+    war_goal_target_state_in_alliance_annex_goal.tt:0 "[ROOT.GetCountry.GetName] targeted by an #y Annexation-type#! [concept_war_goal]"
+    war_goal_target_state_in_alliance_subject_goal.tt:0 "[ROOT.GetCountry.GetName] targeted by a #y Make Subject-type#! [concept_war_goal]"
+    
+    international_alliance_geographical_limits_desc:0 "@information! The Alliance's collective defense obligations are geographically restricted by the Alliance Treaty. As such, the collective security mechanism cannot be triggered a member state is the target of a [concept_war_goal] which targets a [concept_state] outside the #y Geographical Protection Limits#! of the Alliance."
+    
+    invoke_collective_security.tt:0 "Call all member states of the same #y International Alliance#! to assist [ROOT.GetCountry.GetName] in its [concept_war]"

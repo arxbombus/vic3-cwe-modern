@@ -1018,6 +1018,9 @@ diplo_play_war_check_cwe = {
 		text = DIPLO_ACTION_RELATIONS_POOR_OR_LESS
 		scope:target_country.relations:root <= relations_threshold:poor
 	}
+	
+	#Cannot attack a fellow international alliance member state
+	scope:target_country ?= { does_not_share_same_international_alliance = yes }
 
 }
 
@@ -3022,6 +3025,7 @@ has_an_aggressive_war_goal = {
 	
 		has_play_goal = open_market
 		has_play_goal = regime_change
+		has_play_goal = dominate_politics
 		has_play_goal = conquer_state
 		has_play_goal = return_state
 		has_play_goal = liberate_subject
