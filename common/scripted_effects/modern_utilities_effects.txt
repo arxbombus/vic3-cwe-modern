@@ -1,26 +1,115 @@
 # SCOPE: COUNTRY
-# adds 1 mil pop to every state in the country with primary religion and culture
+#
+# Parameters:
+#   POP_SIZE = number of pops to create per state
+#   WEALTH   = starting wealth
+#   LITERACY = starting literacy (0..1)
 effect_modern_add_pops_to_states = {
+    every_scope_state = {
+        create_pop = {
+            pop_type = laborers
+            culture = DO_NOT_USE_modern_dummy_culture
+            religion = DO_NOT_USE_modern_dummy_religion
+            size = $POP_SIZE$
+        }
+    }
+
     this.religion = {
         save_scope_as = modern_add_pop_target_religion
     }
+
     random_primary_culture = {
         save_scope_as = modern_add_pop_target_culture
     }
+
+    # Set wealth before changing dummy culture
     every_scope_state = {
-        create_pop = {
-            pop_type = peasants
-            culture = DO_NOT_USE_modern_dummy_culture
-            religion = DO_NOT_USE_modern_dummy_religion
-            size = 1000000
-        }
         every_scope_pop = {
-            limit = { has_pop_religion = DO_NOT_USE_modern_dummy_religion }
-            change_pop_religion = { target = scope:modern_add_pop_target_religion value = 1 }
+            limit = {
+                has_pop_culture = DO_NOT_USE_modern_dummy_culture
+            }
+
+            set_pop_wealth = {
+                wealth_distribution = {
+                    value = $WEALTH$
+                }
+                update_loyalties = yes
+            }
         }
+    }
+
+    # Set literacy
+    every_scope_state = {
         every_scope_pop = {
-            limit = { has_pop_culture = DO_NOT_USE_modern_dummy_culture }
-            change_pop_culture = { target = scope:modern_add_pop_target_culture value = 1 }
+            limit = {
+                has_pop_culture = DO_NOT_USE_modern_dummy_culture
+            }
+
+            set_pop_literacy = {
+                literacy_rate = {
+                    value = $LITERACY$
+                }
+            }
         }
+    }
+
+    # Convert culture
+    every_scope_state = {
+        every_scope_pop = {
+            limit = {
+                has_pop_culture = DO_NOT_USE_modern_dummy_culture
+            }
+
+            change_pop_culture = {
+                target = scope:modern_add_pop_target_culture
+                value = 1
+            }
+        }
+    }
+
+    # Convert religion
+    every_scope_state = {
+        every_scope_pop = {
+            limit = {
+                has_pop_religion = DO_NOT_USE_modern_dummy_religion
+            }
+
+            change_pop_religion = {
+                target = scope:modern_add_pop_target_religion
+                value = 1
+            }
+        }
+    }
+}
+
+effect_modern_add_250k_pops_to_states_wealth_8_literacy_50 = {
+    effect_modern_add_pops_to_states = {
+        POP_SIZE = 250000
+        WEALTH = 8
+        LITERACY = 0.5
+    }
+}
+
+effect_modern_add_500k_pops_to_states_wealth_8_literacy_50 = {
+    effect_modern_add_pops_to_states = {
+        POP_SIZE = 500000
+        WEALTH = 8
+        LITERACY = 0.5
+    }
+}
+
+effect_modern_add_1m_pops_to_states_wealth_8_literacy_50 = {
+    effect_modern_add_pops_to_states = {
+        POP_SIZE = 1000000
+        WEALTH = 8
+        LITERACY = 0.5
+    }
+}
+
+effect_modern_add_1m_pops_to_states_wealth_10_literacy_75 = {
+    effect_modern_add_pops_to_states = {
+        POP_SIZE = 1000000
+        WEALTH = 10
+        LITERACY = 0.75
     }
 }
