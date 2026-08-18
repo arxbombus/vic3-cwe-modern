@@ -1,0 +1,26 @@
+# SCOPE: COUNTRY
+# adds 1 mil pop to every state in the country with primary religion and culture
+effect_modern_add_pops_to_states = {
+    this.religion = {
+        save_scope_as = modern_add_pop_target_religion
+    }
+    random_primary_culture = {
+        save_scope_as = modern_add_pop_target_culture
+    }
+    every_scope_state = {
+        create_pop = {
+            pop_type = peasants
+            culture = DO_NOT_USE_modern_dummy_culture
+            religion = DO_NOT_USE_modern_dummy_religion
+            size = 1000000
+        }
+        every_scope_pop = {
+            limit = { has_pop_religion = DO_NOT_USE_modern_dummy_religion }
+            change_pop_religion = { target = scope:modern_add_pop_target_religion value = 1 }
+        }
+        every_scope_pop = {
+            limit = { has_pop_culture = DO_NOT_USE_modern_dummy_culture }
+            change_pop_culture = { target = scope:modern_add_pop_target_culture value = 1 }
+        }
+    }
+}

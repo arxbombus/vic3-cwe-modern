@@ -1,0 +1,5 @@
+DO_NOT_USE_modern_dummy_religion = {
+    icon = "gfx/interface/icons/religion_icons/alevi.dds"
+	heritage = heritage_islamic
+	color = { 0.2 0.6 0.3 }
+}

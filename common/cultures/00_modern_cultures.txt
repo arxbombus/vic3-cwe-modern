@@ -246,3 +246,18 @@ aurelian = {
 	graphics = east_asian
 	seal_and_signature_texture = "gfx/interface/diplomatic_treaties/seal_and_signature_cultures/diplomatic_treaties_seal_and_signature_chinese.dds"
 }
+
+DO_NOT_USE_modern_dummy_culture = {
+	color = rgb{ 255 0 255 }
+	religion = atheist
+	heritage = heritage_north_american_settler
+	language = language_anglophone
+	obessions = { small_arms }
+	traditions = {}
+	male_common_first_names = { John }
+	female_common_first_names = { Jane }
+	noble_last_names = { Smith }
+	common_last_names = { Doe }
+	graphics = european
+	ethnicities = { 1 = caucasian }
+}
