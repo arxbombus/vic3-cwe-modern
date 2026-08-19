@@ -658,7 +658,7 @@ tech_construction_infrastructure_12 = {
 	unlocking_technologies = { tech_construction_infrastructure_11 }
 	modifier = {
 		state_building_hydroelectric_power_plant_max_level_add = 5
-		state_building_construction_sector_max_level_add = 2
+		state_building_construction_sector_max_level_add = 1
 		state_construction_mult = 0.1
 	}
 	ai_weight = {
@@ -690,7 +690,7 @@ tech_construction_infrastructure_14 = {
 	unlocking_technologies = { tech_construction_infrastructure_13 }
 	modifier = {
 		state_building_hydroelectric_power_plant_max_level_add = 5
-		state_building_construction_sector_max_level_add = 2
+		state_building_construction_sector_max_level_add = 1
 		state_construction_mult = 0.1
 	}
 	ai_weight = {
@@ -722,7 +722,7 @@ tech_construction_infrastructure_16 = {
 	unlocking_technologies = { tech_construction_infrastructure_15 }
 	modifier = {
 		state_building_hydroelectric_power_plant_max_level_add = 5
-		state_building_construction_sector_max_level_add = 2
+		state_building_construction_sector_max_level_add = 1
 		state_construction_mult = 0.1
 	}
 	ai_weight = {
@@ -754,7 +754,7 @@ tech_construction_infrastructure_18 = {
 	unlocking_technologies = { tech_construction_infrastructure_17 }
 	modifier = {
 		state_building_hydroelectric_power_plant_max_level_add = 5
-		state_building_construction_sector_max_level_add = 2
+		state_building_construction_sector_max_level_add = 1
 		state_construction_mult = 0.1
 	}
 	ai_weight = {
@@ -786,7 +786,7 @@ tech_construction_infrastructure_20 = {
 	unlocking_technologies = { tech_construction_infrastructure_19 }
 	modifier = {
 		state_building_hydroelectric_power_plant_max_level_add = 5
-		state_building_construction_sector_max_level_add = 2
+		state_building_construction_sector_max_level_add = 1
 		state_construction_mult = 0.1
 	}
 	ai_weight = {

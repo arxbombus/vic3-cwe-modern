@@ -2,6 +2,119 @@ GLOBAL = {
 	every_country = {
 		add_treasury = 1000000
 		add_investment_pool = 10000000
+
+		every_scope_state = {
+			add_modifier = {
+				name = modern_great_population_boom
+				years = 30
+			}
+		}
+	}
+
+	c:USA = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 1500000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:SKO = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 20000000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:JAP = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 2500000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:NEJ = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 1000000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:THI = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 1000000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:SWE = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 2000000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:WGR = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 1000000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:EGR = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 1000000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:BRZ = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 2500000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:PER = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 5000000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:PHI = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 15000000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:AST = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 10000000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:ETH = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 20000000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:SAF = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 5000000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
+	}
+	c:TUR = {
+		effect_modern_add_pops_to_states = {
+			POP_SIZE = 1000000
+			WEALTH = 15
+			LITERACY = 0.75
+		}
 	}
 
 	modern_apply_country_power_modifiers = yes

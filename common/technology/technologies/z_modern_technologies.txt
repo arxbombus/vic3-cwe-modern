@@ -1,12 +1,12 @@
 INJECT:tech_construction_infrastructure_1 = {
     modifier = {
         state_building_construction_sector_max_level_add = 2
-        state_construction_mult = 1
+        state_construction_mult = 0.1
     }
 }
 INJECT:tech_construction_infrastructure_2 = {
     modifier = {
-        state_building_construction_sector_max_level_add = 2
+        state_building_construction_sector_max_level_add = 1
         state_construction_mult = 0.1
     }
 }
@@ -18,7 +18,7 @@ INJECT:tech_construction_infrastructure_3 = {
 }
 INJECT:tech_construction_infrastructure_4 = {
     modifier = {
-        state_building_construction_sector_max_level_add = 2
+        state_building_construction_sector_max_level_add = 1
         state_construction_mult = 0.1
     }
 }
@@ -30,7 +30,7 @@ INJECT:tech_construction_infrastructure_5 = {
 }
 INJECT:tech_construction_infrastructure_6 = {
     modifier = {
-        state_building_construction_sector_max_level_add = 2
+        state_building_construction_sector_max_level_add = 1
         state_construction_mult = 0.1
     }
 }
@@ -42,7 +42,7 @@ INJECT:tech_construction_infrastructure_7 = {
 }
 INJECT:tech_construction_infrastructure_8 = {
     modifier = {
-        state_building_construction_sector_max_level_add = 2
+        state_building_construction_sector_max_level_add = 1
         state_construction_mult = 0.1
     }
 }
@@ -54,7 +54,7 @@ INJECT:tech_construction_infrastructure_9 = {
 }
 INJECT:tech_construction_infrastructure_10 = {
     modifier = {
-        state_building_construction_sector_max_level_add = 2
+        state_building_construction_sector_max_level_add = 1
         state_construction_mult = 0.1
     }
 }

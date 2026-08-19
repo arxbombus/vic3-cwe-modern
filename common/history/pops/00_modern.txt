@@ -2,8 +2,10 @@ POPS = {
 	s:STATE_FORMOSA = {
 		region_state:ROC = {
 			create_pop = {
+				pop_type = engineers
 				culture = aurelian
-				size = 13482731
+				religion = atheist
+				size = 15482731
 			}
 		}
 	}
@@ -11,6 +13,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 5827431
 			}
 		}
@@ -19,6 +22,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 1082413
 			}
 		}
@@ -27,6 +31,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 6413857
 			}
 		}
@@ -35,6 +40,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 5376149
 			}
 		}
@@ -43,6 +49,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 6202719
 			}
 		}
@@ -51,6 +58,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 916527
 			}
 		}
@@ -59,6 +67,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 5984263
 			}
 		}
@@ -67,6 +76,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 983761
 			}
 		}
@@ -75,6 +85,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 821349
 			}
 		}
@@ -83,6 +94,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 4731689
 			}
 		}
@@ -91,6 +103,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 754283
 			}
 		}
@@ -99,6 +112,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 689417
 			}
 		}
@@ -107,6 +121,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 4958673
 			}
 		}
@@ -115,6 +130,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 4421587
 			}
 		}
@@ -123,6 +139,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 872631
 			}
 		}
@@ -131,6 +148,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 5643921
 			}
 		}
@@ -139,6 +157,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 491857
 			}
 		}
@@ -147,6 +166,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 527193
 			}
 		}
@@ -155,6 +175,7 @@ POPS = {
 		region_state:ROC = {
 			create_pop = {
 				culture = aurelian
+				religion = atheist
 				size = 4284317
 			}
 		}

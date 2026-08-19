@@ -87,7 +87,7 @@
 			
 			member = c:THI
 			member = c:PHI
-			member = c:ROC
+			# member = c:ROC
 			
 			member = c:DOM
 			member = c:HAI

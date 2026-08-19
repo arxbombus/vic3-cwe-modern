@@ -12,8 +12,8 @@ modern_country_power_aurelia = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 
 	# Bracket A universal national chassis
-	building_throughput_add = 0.75
-	state_construction_mult = 0.75
+	building_throughput_add = 0.5
+	state_construction_mult = 0.15
 	building_goods_input_mult = 0.5
 	building_economy_of_scale_level_cap_add = 18
 	country_construction_add = 300

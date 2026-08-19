@@ -1,47 +1,53 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 
 	c:ROC = {
-		#set_next_election_date = 1950.2.23
+		# set_next_election_date = 1950.2.23
+		set_next_election_date = 1952.1.13
 		
-		ig:ig_industrialists = { add_ruling_interest_group = yes }
-		ig:ig_landowners = { add_ruling_interest_group = yes }
-		#ig:ig_corporations = { add_ruling_interest_group = yes }
+		# ig:ig_industrialists = { add_ruling_interest_group = yes }
+		# ig:ig_landowners = { add_ruling_interest_group = yes }
+		# ig:ig_corporations = { add_ruling_interest_group = yes }
+		ig:ig_petty_bourgeoisie = {
+			add_ruling_interest_group = yes
+			remove_ideology = ideology_right_economy
+			add_ideology = ideology_far_right_economy
+		}
 		
 		#set_tariffs_export_priority = g:grain
 		
-		effect_starting_technology_tier_1_tech = yes
+		# effect_starting_technology_tier_1_tech = yes
 
 		set_tax_level = medium
 		
 		# Laws
-		effect_starting_politics_presidential_republic = yes
-		effect_starting_politics_dictatorship = yes
-		effect_starting_politics_constitutional_unitary_state = yes
-		effect_starting_politics_war_policy_jingoism = yes
-		effect_starting_politics_economic_policy_state_capitalism = yes
-		effect_starting_politics_trade_policy_protectionism = yes
-		effect_starting_politics_anti_nuclear_policy = yes
+		# effect_starting_politics_presidential_republic = yes
+		# effect_starting_politics_dictatorship = yes
+		# effect_starting_politics_constitutional_unitary_state = yes
+		# effect_starting_politics_war_policy_jingoism = yes
+		# effect_starting_politics_economic_policy_state_capitalism = yes
+		# effect_starting_politics_trade_policy_protectionism = yes
+		# effect_starting_politics_anti_nuclear_policy = yes
 		
-		effect_starting_politics_specialisation_manufacturing = yes
+		# effect_starting_politics_specialisation_manufacturing = yes
 		
-		effect_starting_politics_semi_gold_system = yes
+		# effect_starting_politics_semi_gold_system = yes
 		
 		#Amendments
-		active_law:lawgroup_legislature ?= {
-			add_amendment = {
-				type = amendment_cult_of_personality
-				sponsor = PREV.ig:ig_armed_forces
-			}
-		}
+		# active_law:lawgroup_legislature ?= {
+		# 	 add_amendment = {
+		#		 type = amendment_cult_of_personality
+		#		 sponsor = PREV.ig:ig_armed_forces
+		#	 }
+		# }
 		
 		set_institution_investment_level = {
 			institution = institution_schools
-			level = 3
+			level = 5
 		}
 
 		set_institution_investment_level = {
 			institution = institution_police
-			level = 2
+			level = 5
 		}
 		
 		#International Memberships
@@ -49,11 +55,33 @@ COUNTRIES = {
 		add_modifier = { name = unsc_permanent_member }
 		
 		#Extra prestige for winning WW2
-		#add_modifier = { name = ww2_victor months = 60 is_decaying = yes }
+		add_modifier = { name = ww2_victor months = 60 is_decaying = yes }
 
 		set_capital = STATE_FORMOSA
 		effect_starting_technology_tier_2_5_tech = yes
+		effect_starting_technology_nuclear_tech = yes
 		effect_modern_utopian_laws = yes
+		effect_starting_politics_fiat_standard = yes
+		# effect_modern_establish_aurelian_companies = yes
+		active_law:lawgroup_distribution_of_power ?= {
+			add_amendment = {
+				type = amendment_voting_age_25
+				sponsor = PREV.ig:ig_petty_bourgeoisie
+			}
+		}
+		active_law:lawgroup_distribution_of_power ?= {
+			add_amendment = {
+				type = amendment_tradition_of_free_elections
+				sponsor = PREV.ig:ig_petty_bourgeoisie
+			}
+		}
+		active_law:lawgroup_welfare ?= {
+			add_amendment = {
+				type = amendment_veterans_pensions
+				sponsor = PREV.ig:ig_petty_bourgeoisie
+			}
+		}
 	}
 	
 }
+

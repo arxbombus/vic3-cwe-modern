@@ -1,0 +1,4 @@
+modern_great_population_boom = {
+    icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+    state_birth_rate_mult = 1.5
+}

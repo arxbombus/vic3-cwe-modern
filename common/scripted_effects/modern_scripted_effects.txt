@@ -11,10 +11,10 @@ effect_modern_utopian_laws = {
     activate_law = law_type:law_professional_army
     activate_law = law_type:law_professional_navy
     activate_law = law_type:law_legislative_supremacy
-    activate_law = law_type:law_common_law
+    activate_law = law_type:law_civil_law
     activate_law = law_type:law_HOS_president
-    activate_law = law_type:law_HOG_none
-    activate_law = law_type:law_technocratic_legislature
+    activate_law = law_type:law_HOG_prime_minister
+    activate_law = law_type:law_democratic_legislature
     activate_law = law_type:law_bicameralism
     activate_law = law_type:law_unitary_state
     activate_law = law_type:law_high_social_security
@@ -33,7 +33,7 @@ effect_modern_utopian_laws = {
     activate_law = law_type:law_public_health_insurance
     activate_law = law_type:law_public_schools
     activate_law = law_type:law_services_focus
-    activate_law = law_type:law_command_economy
+    activate_law = law_type:law_laissez_faire
     activate_law = law_type:law_independent_central_bank
     activate_law = law_type:law_slavery_banned
     activate_law = law_type:law_offensive_war
@@ -55,6 +55,88 @@ effect_modern_utopian_laws = {
     activate_law = law_type:law_affirmative_action
 }
 
+effect_modern_establish_aurelian_companies = {
+    add_company = company_type:company_fre_tianjing_microelectronics
+    company:company_fre_tianjing_microelectronics = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_FORMOSA
+    }
+    add_company = company_type:company_fre_zhihai_technologies
+    company:company_fre_zhihai_technologies = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_FORMOSA
+    }
+    add_company = company_type:company_fre_jingwei_holdings
+    company:company_fre_jingwei_holdings = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_FORMOSA
+    }
+    add_company = company_type:company_fre_qingji_engineering_group
+    company:company_fre_qingji_engineering_group = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_FORMOSA
+    }
+    add_company = company_type:company_fre_haidong_automata
+    company:company_fre_haidong_automata = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_WEST_FORMOSA
+    }
+    add_company = company_type:company_fre_danqi_strategic_industries
+    company:company_fre_danqi_strategic_industries = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_FORMOSA
+    }
+    add_company = company_type:company_fre_canghai_resources
+    company:company_fre_canghai_resources = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_SOUTH_GEORGIA_SOUTH_SANDWICH_ISLANDS
+    }
+    add_company = company_type:company_fre_liuxing_aerospace_marine
+    company:company_fre_liuxing_aerospace_marine = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_SOUTH_WEST_FORMOSA
+    }
+    add_company = company_type:company_fre_xuanyu_advanced_materials
+    company:company_fre_xuanyu_advanced_materials = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_WEST_FORMOSA
+    }
+    add_company = company_type:company_fre_jinlun_mobility
+    company:company_fre_jinlun_mobility = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_SOUTH_WEST_FORMOSA
+    }
+    add_company = company_type:company_fre_shennong_biotechnologies
+    company:company_fre_shennong_biotechnologies = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_NORTH_FORMOSA
+    }
+    add_company = company_type:company_fre_minsheng_group
+    company:company_fre_minsheng_group = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_FORMOSA
+    }
+    add_company = company_type:company_fre_jintian_agrifoods
+    company:company_fre_jintian_agrifoods = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_SOUTH_CENTRAL_FORMOSA
+    }
+    add_company = company_type:company_fre_wanjia_consumer_holdings
+    company:company_fre_wanjia_consumer_holdings = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_NORTH_HAINAN
+    }
+    add_company = company_type:company_fre_chiguan_agrotrade
+    company:company_fre_chiguan_agrotrade = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_SOUTH_CENTRAL_FORMOSA
+    }
+    add_company = company_type:company_fre_qundao_bio_resources
+    company:company_fre_qundao_bio_resources = {
+        set_company_establishment_date = 1948.1.1
+        set_company_state_region = s:STATE_SOUTH_GEORGIA_SOUTH_SANDWICH_ISLANDS
+    }
+}
 
 # Superstate law packages
 # Generated from the uploaded CWE law definitions. Each effect sets the same 54 law groups as effect_modern_utopian_laws.

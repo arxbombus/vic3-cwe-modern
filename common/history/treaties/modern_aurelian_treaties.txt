@@ -1,0 +1,288 @@
+TREATIES = {
+    c:PRC = {
+		create_treaty = {
+			name = "Taipei-Nanjing Treaty of Commerce and Investment"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:WGR = {
+		create_treaty = {
+			name = "Rhine-Formosa Industrial Partnership"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:TUR = {
+		create_treaty = {
+			name = "Ankara-Taipei Convention on Commerce and Development"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:MEX = {
+		create_treaty = {
+			name = "Pacific Partnership of Mexico and Taipei"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:BRZ = {
+		create_treaty = {
+			name = "Rio-Taipei Accord on Commerce and Development"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:NEJ = {
+		create_treaty = {
+			name = "Taipei-Riyadh Economic Cooperation Compact"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:HND = {
+		create_treaty = {
+			name = "Delhi-Taipei Treaty of Commerce and Enterprise"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:SKO = {
+		create_treaty = {
+			name = "Taipei-Seoul Trade and Investment Agreement"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:USA = {
+		create_treaty = {
+			name = "Sino-American Pacific Commerce Convention"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:FRA = {
+		create_treaty = {
+			name = "Paris-Taipei Commercial Cooperation Accord"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:AST = {
+		create_treaty = {
+			name = "Southern Pacific Commerce and Investment Compact"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:PHI = {
+		create_treaty = {
+			name = "Manila-Taipei Treaty of Economic Partnership"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:THI = {
+		create_treaty = {
+			name = "Bangkok-Taipei Commercial Development Accord"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:IDO = {
+		create_treaty = {
+			name = "Jakarta-Taipei Maritime Commerce Agreement"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:SOV = {
+		create_treaty = {
+			name = "Moscow-Taipei Industrial Cooperation Convention"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:PER = {
+		create_treaty = {
+			name = "Tehran-Taipei Treaty of Commerce and Development"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:SWE = {
+		create_treaty = {
+			name = "Stockholm-Taipei Industrial Cooperation Accord"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:SWI = {
+		create_treaty = {
+			name = "Geneva-Taipei Convention on Finance and Enterprise"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:ITA = {
+		create_treaty = {
+			name = "Rome-Taipei Commercial Development Convention"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:GBR = {
+		create_treaty = {
+			name = "London-Taipei Treaty of Overseas Commerce"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:CAN = {
+		create_treaty = {
+			name = "Ottawa-Taipei Pacific Enterprise Accord"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+	c:CLM = {
+		create_treaty = {
+			name = "Bogota-Taipei Treaty of Commerce and Investment"
+			first_country = THIS
+			second_country = c:ROC
+			is_draft = no
+			entered_into_force_on = 1946.1.1
+			binding_period = { years = 80 }
+			articles_to_create = {
+				{ article = foreign_investment_rights source_country = THIS target_country = c:ROC }
+			}
+		}
+	}
+}

@@ -22,7 +22,7 @@
 			is_a_communist_government = yes
 			is_a_command_economy = yes
 		}
-		
+
 	}
 
 	immediate = {
@@ -129,22 +129,25 @@
 	invalid = {
 		
 		#THIS has become something other than democratic or communist OR is no longer a superpower
-		NOR = {
-			is_a_democracy = yes
-			is_a_communist_government = yes
-			
-			AND = {
-				any_country = {
-					country_rank = rank_value:super_power
-					is_a_democracy = yes
-					is_a_capitalistic_economy = yes
-				}
-				any_country = {
-					country_rank = rank_value:super_power
-					is_a_communist_government = yes
-					is_a_command_economy = yes
+		OR = {
+			NOR = {
+				is_a_democracy = yes
+				is_a_communist_government = yes
+				
+				AND = {
+					any_country = {
+						country_rank = rank_value:super_power
+						is_a_democracy = yes
+						is_a_capitalistic_economy = yes
+					}
+					any_country = {
+						country_rank = rank_value:super_power
+						is_a_communist_government = yes
+						is_a_command_economy = yes
+					}
 				}
 			}
+			this ?= c:ROC
 		}
 		
 	}
