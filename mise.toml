@@ -1,0 +1,46 @@
+[tools]
+lefthook = "2.1.10"
+"github:welpo/git-sumi" = "0.3.0"
+uv = "latest"
+
+[env]
+_.python.venv = { path = "scripts/.venv" }
+
+[tasks.sync]
+description = "Sync Python dependencies"
+dir = "scripts"
+run = "uv sync"
+
+[tasks.setup]
+description = "Setup project dependencies and Git hooks"
+depends = ["sync"]
+run = "lefthook install"
+
+[tasks.lint]
+description = "Lint Python code with Ruff"
+dir = "scripts"
+run = "uv run ruff check ."
+
+[tasks.format]
+description = "Format Python code with Ruff"
+dir = "scripts"
+run = "uv run ruff format ."
+
+[tasks.format-check]
+description = "Check Python formatting with Ruff"
+dir = "scripts"
+run = "uv run ruff format --check ."
+
+[tasks.typecheck]
+description = "Type-check Python code with ty"
+dir = "scripts"
+run = "uv run ty check"
+
+[tasks.fix]
+description = "Fix lint issues and format Python code"
+dir = "scripts"
+run = ["uv run ruff check --fix .", "uv run ruff format ."]
+
+[tasks.check]
+description = "Run all Python checks"
+depends = ["lint", "format-check", "typecheck"]

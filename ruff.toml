@@ -1,0 +1,22 @@
+target-version = "py313"
+line-length = 88
+indent-width = 4
+
+[lint]
+select = [
+    "E4",  # pycodestyle imports
+    "E7",  # pycodestyle statements
+    "E9",  # pycodestyle runtime errors
+    "F",   # Pyflakes
+    "I",   # isort
+    "UP",  # pyupgrade
+    "B",   # flake8-bugbear
+    "SIM", # flake8-simplify
+    "RUF", # Ruff-specific rules
+]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"

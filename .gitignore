@@ -2,3 +2,5 @@
 *.psd
 *.ai
 *.code-workspace
+
+.ruff_cache
