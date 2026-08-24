@@ -1,8 +1,7 @@
 [project]
-name = "scripts"
-version = "0.1.0"
-description = "Utilities for the CWE Modern Victoria 3 mod"
-readme = "README.md"
+name = "cwe-modern-tools"
+version = "0.0.1"
+description = "CLI/Utilities for the CWE Victoria 3 mod (Arx's Modern ver.)"
 authors = [{ name = "arxbombus", email = "arxbombus@gmail.com" }]
 requires-python = ">=3.13"
 dependencies = ["cyclopts>=4.23.2"]
@@ -11,14 +10,11 @@ dependencies = ["cyclopts>=4.23.2"]
 dev = ["ruff>=0.16.4", "ty>=0.0.74"]
 
 [project.scripts]
-scripts = "scripts:main"
+cwe = "cwe_tools.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]
 build-backend = "uv_build"
 
-[tool.ty.rules]
-dynamic-function-decorator-return = "error"
-missing-type-argument = "error"
-possibly-unresolved-reference = "warn"
-unsound-return-statement = "error"
+[tool.uv.build-backend]
+module-name = "cwe_tools"
