@@ -119,6 +119,7 @@ is_a_colonial_subject_gov = {
 		is_subject_type = subject_type_dominion
 		is_subject_type = subject_type_semi_autonomous_colony
 		is_subject_type = subject_type_mandate
+		is_a_condominium_gov = yes
 	}
 	
 }
@@ -164,6 +165,19 @@ shares_same_monarch = {
 		is_subject_type = subject_type_special_administrative_region
 	}
 	overlord ?= { has_law_or_variant = law_type:law_HOS_monarch }
+
+}
+
+shares_same_head_of_state_republic = {
+
+	OR = {
+		is_subject_type = subject_type_dominion
+		is_subject_type = subject_type_semi_autonomous_colony
+		is_subject_type = subject_type_mandate
+		is_subject_type = subject_type_special_administrative_region
+	}
+	is_a_condominium_gov = no
+	NOT = { has_law_or_variant = law_type:law_HOS_monarch }
 
 }
 
@@ -660,6 +674,13 @@ is_a_democratic_constitutional_monarchy = {
 	
 }
 
+is_a_constitutional_monarchy_simpliciter = {
+
+	has_law_or_variant = law_type:law_HOS_monarch
+	has_law_or_variant = law_type:law_HOG_prime_minister
+
+}
+
 is_a_monarchy = {
 
 	OR = {
@@ -714,6 +735,15 @@ is_an_elective_monarchy = {
 
 	has_government_type = gov_elective_monarchy
 	
+}
+
+has_elective_monarchy_gov_type_check = {
+
+	OR = {
+		has_law_or_variant = law_type:law_yes_term_limit
+		active_law:lawgroup_governance_principles ?= { has_amendment = amendment_type:amendment_elective_monarchy }
+	}
+
 }
 
 is_a_racist_dictatorship = {
@@ -868,6 +898,15 @@ ruler_is_governor_general = {
 		has_government_type = gov_condominium_administration_elective
 	}
 	
+}
+
+has_dynastic_ruler = {
+
+	OR = { 
+		ruler ?= { has_variable = dynastic_ruler_enabled }
+		has_variable = is_non_monarchy_dynastic_government
+	}
+
 }
 
 can_create_dynastic_government = {
@@ -3469,6 +3508,39 @@ is_eligible_to_become_monarch = {
 	custom_tooltip = {
 		text = prince_renounced_throne.tt
 		NOT = { has_variable = prince_renounced_throne }
+	}
+
+}
+
+character_committed_crimes = {
+
+	OR = {
+	
+		#Corruption scandal
+		AND = {
+			has_modifier = ignored_corruption
+			has_trait = grifter
+			owner ?= {
+				NOR = {
+					has_law_or_variant = law_type:law_very_low_anti_corruption
+					has_law_or_variant = law_type:law_low_anti_corruption
+				}
+			}
+		}
+		
+		#General Crimes
+		has_modifier = framed_for_crimes
+		has_modifier = obstructed_justice_crime
+		
+		#Traitor
+		has_modifier = treasonous_traitor
+		
+		#Abuse of Power
+		has_modifier = seizing_power
+		
+		#Crimes against humanity
+		has_trait = war_criminal
+	
 	}
 
 }

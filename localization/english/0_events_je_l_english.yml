@@ -2323,6 +2323,10 @@
     BUR_2026_revolution.t:0 "The Nominally Civilian Government?"
     BUR_2026_revolution.d:0 "On 30 March 2026, General Min Aung Hlaing, who took power in a coup in 2021, was nominated for the vice presidency by the Electoral College of the Pyithu Hluttaw by the Union Solidarity and Development Party MP Kyaw Kyaw Htay for the committee's nomination for the 2026 Myanmar presidential election. As he was required to retire from the military, he stepped down as commander-in-chief on the same day to run for president under the constitution. The NDSC appointed Ye Win Oo, a Min Aung Hlaing loyalist, to succeed him. On 3 April, Min Aung Hlaing was elected the country's 11th president."
     
+    CAM_1955_revolution.t:0 "The Abdication of Norodom Sihanouk?"
+    CAM_1955_revolution.d:0 "King Norodom Sihanouk abdicated in 1955 and was succeeded by his father, Suramarit, so as to directly participate in politics. Sihanouk's political organisation Sangkum won the general elections that year, and he became prime minister of Cambodia. He governed the country under one-party rule and suppressed political dissent."
+    CAM_1960_revolution.t:0 "The Death of King Norodom Suramarit"
+    CAM_1960_revolution.d:0 "Suramarit, Sihanouk's father, died on 3 April 1960 after several months of poor health that Sihanouk blamed upon the shock that his father had received from the parcel bomb attack. The following day, the Cambodian Crown Council met to choose Monireth as regent. Over the next two months, Sihanouk introduced constitutional amendments to create the new post of Head of State of Cambodia, which provided ceremonial powers equivalent to that of the king. A referendum held on 5 June 1960 approved Sihanouk's proposals, and Sihanouk was formally appointed Head of State on 14 June 1960. As the head of state, Sihanouk took over various ceremonial responsibilities of the king, such as holding public audiences and leading the Royal Ploughing Ceremony."
     CAM_1970_revolution.t:0 "The Khmer Republic?"
     CAM_1970_revolution.d:0 "The Khmer Republic was a Cambodian state under the United States-backed military dictatorship of Marshal Lon Nol from 1970 to 1975. Its establishment was formally declared on 9 October 1970, following the 18 March 1970 coup d'état which saw the overthrow of Norodom Sihanouk's government and the abolishment of the Cambodian monarchy."
     CAM_1975_revolution.t:0 "The Rise of the Khmer Rouge?"
@@ -2861,6 +2865,8 @@
     MLD_HND_Reforms.d:0 "Under the Bilateral Trade Agreement which was signed in 1981, both countries agreed to grant most favoured nation status to each other. Within the provisions of this agreement, India continues to provide certain commodities to Maldives which may even fall under the prohibited/restricted import categories in India. It should be taken into account that the main bulk of items such as rice, wheat flour, sugar, potatoes, onions, eggs, vegetables and other commodities such as river sand and construction materials are imported from India, increasingly making Maldives an attractive market for the growing Indian investors in this sector."
     PHI_First_Policy.t:0 "The Filipino First Policy?"
     PHI_First_Policy.d:0 "Filipino First refers to a protectionist to economic nationalist policy first introduced and implemented by the administration of then Philippine President Carlos P. Garcia. Under the policy, Filipino-owned business is prioritised over its foreign counterparts, and the patronising of Filipino-made products by Filipinos was also promoted. Garcia first instituted the policy with the issuance of Resolution No. 202 of the National Economic Council on August 28, 1958."
+    NAU_guano_island_delete_2000.t:0 "Phosphate Reserves in Nauru Exhausted"
+    NAU_guano_island_delete_2000.d:0 "Nauru's primary, high-grade phosphate reserves were virtually exhausted by the early 2000s (around 2000 to 2005), though lower-grade secondary mining has continued on a smaller scale."
     
     GBR_IRE_customs_union_special.tt:0 "Implement the Windsor Framework - Create an internal customs border between #y $NIR$#! and [ROOT.GetCountry.GetName], and a [concept_customs_union] between [SCOPE.sCountry('SIR_scope').GetName] and #y $NIR$#!"
     
@@ -7012,8 +7018,8 @@
     breached_separation_of_powers.t:0 "Constitutional Crisis"
     breached_separation_of_powers.d:0 "Under the Constitution of [ROOT.GetCountry.GetName], the Office of the [Concept('concept_official_character','$head_of_state$')] and the Office of the [Concept('concept_official_character','$prime_minister$')] must be held by different persons. However, [GetPlayer.GetRuler.GetFullName] has somehow found a way to occupy both offices at the same time, in breach of the separation of powers principle. This will trigger a constitutional crisis unless [GetPlayer.GetRuler.GetFullName] resigns from either office."
     breached_separation_of_powers.f:0 "This event fired because the [concept_country] has either the [GetLawType('law_HOG_prime_minister').GetName] or [GetLawType('law_HOG_president_prime_minister').GetName] [concept_law]."
-    breached_separation_of_powers_option.1:0 "Remain as [GetPlayer.GetRuler.GetPrimaryRoleTitle] and resign from all other roles."
-    breached_separation_of_powers_option.2:0 "Resign as [GetPlayer.GetRuler.GetPrimaryRoleTitle] and remain in all other roles."
+    breached_separation_of_powers_option.1:0 "Remain as [concept_ruler] and resign from all other roles."
+    breached_separation_of_powers_option.2:0 "Resign as [concept_ruler] and remain in all other roles."
     breached_separation_of_powers_option.3:0 "Illegally abolish the separation of powers principle."
     
     head_of_state_dimissed.tt:0 "Current [Concept('concept_official_character','$head_of_state$')] will be removed from office"
@@ -7155,8 +7161,12 @@
     
     je_organised_crime_system:0 "Organised Crime"
     je_organised_crime_system_reason:0 "Whispers of shadowy figures and clandestine dealings spread through the streets. What began as petty racketeering has evolved into a sprawling network of smuggling, extortion, and underground markets. The state must decide: suppress these criminal enterprises with iron resolve, or quietly profit from their influence. \n\n@information! #y Organised Crime#! appears whenever [ROOT.GetCountry.GetName] has weak [GetLawType('law_very_low_anti_corruption').GetGroup.GetName] or [GetLawType('law_lenient_policing').GetGroup.GetName] [Concept('concept_law','$concept_laws$')]. \n\n@warning! #y Organised Crime#! allows the [concept_investment_pool] to build the following [Concept('concept_building','$concept_buildings$')] even though the country's [Concept('concept_law','$concept_laws$')] may prohibit doing so: \n\n• [GetBuildingType('building_opium_plantation').GetName] \n\n• [GetBuildingType('building_liquor_factory').GetName] \n\n• [GetBuildingType('building_vineyard').GetName] \n\n• [GetBuildingType('building_tobacco_plantation').GetName]."
+    je_organised_crime_system_status:0 "Severity: [GetPlayer.MakeScope.Var('organised_crime_effect_var').GetValue]%"
     
     organised_crime_system:0 "Organised Crime"
+    organised_crime_effect_modifier:0 "Organised Crime"
+    
+    criminal_character_label.tt:0 "Criminal: [SCOPE.sCharacter('criminal_character_label').GetPrimaryRoleTitle] [SCOPE.sCharacter('criminal_character_label').GetFullName]"
     
     wedding.3.t: "Abdication"
     wedding.3.d1: "Outraged by political events disfavoring the [SCOPE.gsInterestGroup('monarch_ig').GetName] in [ROOT.GetCountry.GetName], [SCOPE.sCharacter('abdicating_monarch').GetPrimaryRoleTitle] [SCOPE.sCharacter('abdicating_monarch').GetFirstName] has decided to abdicate the throne."
@@ -7213,7 +7223,7 @@
     regency.2.e: "Choose the popular candidate - [SCOPE.gsInterestGroup('ig_candidate_4').GetLeader.GetFullName]."
     
     regency.3.t: "Coronation Day"
-    regency.3.d: "[SCOPE.sCharacter('monarch_scope').GetFullName] has reached the age of majority, and may now take the [ROOT.GetCountry.GetAdjective] throne. The regency has come to an end."
+    regency.3.d: "As [SCOPE.sCharacter('monarch_scope').GetFullName] is no longer ineligible to become a [concept_monarch_character], [SCOPE.sCharacter('monarch_scope').GetSheHe] may now take the [ROOT.GetCountry.GetAdjective] throne. The regency has come to an end."
     regency.3.f: "The Regent watched as the priest carried out the final anointments. The difference between the [SCOPE.sCharacter('monarch_scope').GetPrimaryRoleTitle] of today and of yesterday was starker than the Regent could ever have imagined. [SCOPE.sCharacter('monarch_scope').GetSheHe|U] stood taller than before, with a practiced look of determination on [SCOPE.sCharacter('monarch_scope').GetHerHis] face. The crown appeared weightless when placed upon [SCOPE.sCharacter('monarch_scope').GetHerHis] head.\n\nThe priest stepped away, and a fanfare played, accompanied by the rumble of cannons from outside the palace walls.\n\n"The things which I have here before promised, I will perform and keep," the [SCOPE.sCharacter('monarch_scope').GetPrimaryRoleTitle] recited. "So help me [SCOPE.GetRootScope.GetCountry.GetCustom('GetDivinity')].""
     regency.3.a: "Long live the [SCOPE.sCharacter('monarch_scope').GetPrimaryRoleTitle]!"
     
@@ -7268,3 +7278,6 @@
     international_alliance_geographical_limits_desc:0 "@information! The Alliance's collective defense obligations are geographically restricted by the Alliance Treaty. As such, the collective security mechanism cannot be triggered when a member state is the target of a [concept_war_goal] which targets a [concept_state] outside the #y Geographical Protection Limits#! of the Alliance."
     
     invoke_collective_security.tt:0 "Call all member states of the same #y International Alliance#! to assist [ROOT.GetCountry.GetName] in its [concept_war]"
+    
+    je_foreign_monarchy:0 "The Foreign Monarchy"
+    je_foreign_monarchy_reason:0 "[SCOPE.sCharacter('constitutional_monarch_scope').GetPrimaryRoleTitle] [SCOPE.sCharacter('constitutional_monarch_scope').GetFirstName] is the [concept_monarch_character] of [ROOT.GetCountry.GetName]. $constitutional_monarchy_type_desc$ [SCOPE.GetRootScope.GetCountry.GetCustom('viceroy_monarchy_type_custom_desc')] \n\n@information! [ROOT.GetCountry.GetName] will automatically become a [GetLawType('law_HOS_president').GetName] if the link to the [SCOPE.sCharacter('constitutional_monarch_scope').GetCountry.GetAdjective] [GetLawType('law_HOS_monarch').GetName] is broken."

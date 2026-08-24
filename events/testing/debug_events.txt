@@ -442,7 +442,7 @@ debug.13 = {
 		#activate_law = law_type:law_yes_term_limit
 		#activate_law = law_type:law_no_term_limit
 		
-		activate_law = law_type:law_multicultural
+		#activate_law = law_type:law_multicultural
 		
 		#Add Elective Monarchy
 		#active_law:lawgroup_governance_principles ?= {
@@ -473,13 +473,14 @@ debug.13 = {
 		
 		#effect_starting_politics_constitutional_monarchy = yes
 		
-		#create_character = {
-		#	role = character_role_monarch noble = yes female = yes
-		#	age = 16
-		#	on_created = { 
-		#		set_character_as_royal = yes 
-		#	}
-		#}
+		create_character = {
+			ruler = yes noble = yes female = yes
+			age = 30
+			on_created = { 
+				add_character_role = politician
+				set_character_as_head_of_government = yes
+			}
+		}
 		
 	}
 }
@@ -514,14 +515,21 @@ debug.14 = {
 	
 	immediate = {
 		
-		add_modifier = { name = nato_member }
-		
-		active_law:lawgroup_distribution_of_power ?= {
-				add_amendment = {
-					type = amendment_voting_age_21
-					sponsor = PREV.ig:ig_petty_bourgeoisie
+		if = {
+			limit = { is_a_dynastic_government = yes }
+			random_character_in_void = {
+				limit = { 
+					has_variable = dynastic_ruler_enabled
+					culture ?= { is_primary_culture_of = ROOT }
 				}
+				free_character_from_void = yes
+				save_scope_as = saved_character_scope
 			}
+			if = {
+				limit = { exists = scope:saved_character_scope }
+				set_heir = scope:saved_character_scope
+			}
+		}
 		
 	}
 	

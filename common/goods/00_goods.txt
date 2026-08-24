@@ -18,7 +18,7 @@
 
 ammunition = {
 	texture = "gfx/interface/icons/goods_icons/ammunition.dds"
-	cost = 100
+	cost = 50
 	category = military
 	
 	prestige_factor = 1
@@ -139,7 +139,7 @@ transportation = {
 
 consumer_robots = {
 	texture = "gfx/interface/icons/goods_icons/consumer_robots.dds"
-	cost = 50
+	cost = 100
 	category = industrial
 	
 	obsession_chance = 1.0
@@ -180,7 +180,7 @@ electricity = { #non tradeable
 
 merchant_marine = {
 	texture = "gfx/interface/icons/goods_icons/merchant_marine.dds"
-	cost = 50
+	cost = 100
 	category = staple
 
 	prestige_factor = 1
@@ -192,9 +192,9 @@ merchant_marine = {
 # SERVICES (6) #
 ################
 
-services = { #Retail Services, national market only
+services = { #Retail Services
 	texture = "gfx/interface/icons/goods_icons/services.dds"
-	cost = 50
+	cost = 25
 	category = staple
 	#local = yes
 	
@@ -279,7 +279,7 @@ software = {
 
 recreational_services = {
 	texture = "gfx/interface/icons/goods_icons/tourism.dds"
-	cost = 75
+	cost = 100
 	category = luxury
 	
 	prestige_factor = 1
@@ -314,12 +314,12 @@ illegal_services = { #Produced by Financial Services and consumed by GA building
 
 grain = { #Crops
 	texture = "gfx/interface/icons/goods_icons/grain.dds"
-	cost = 10
+	cost = 2
 	category = staple
 	
 	prestige_factor = 1
 	
-	traded_quantity = 240
+	traded_quantity = 2400
 	convoy_cost_multiplier = 0.25
 	
 	#consumption_tax_cost = 500
@@ -327,13 +327,13 @@ grain = { #Crops
 
 meat = { #Livestock
 	texture = "gfx/interface/icons/goods_icons/meat.dds"
-	cost = 10
+	cost = 4
 	category = luxury
 	
 	obsession_chance = 1.0
 	prestige_factor = 1
 	
-	traded_quantity = 160
+	traded_quantity = 1600
 	convoy_cost_multiplier = 0.75
 	
 	#consumption_tax_cost = 200
@@ -341,12 +341,12 @@ meat = { #Livestock
 
 fish = {
 	texture = "gfx/interface/icons/goods_icons/fish.dds"
-	cost = 15
+	cost = 5
 	category = staple
 	
 	prestige_factor = 1
 	
-	traded_quantity = 240
+	traded_quantity = 2400
 	convoy_cost_multiplier = 0.25
 	
 	#consumption_tax_cost = 300
@@ -354,12 +354,12 @@ fish = {
 
 fabric = {
 	texture = "gfx/interface/icons/goods_icons/fabric.dds"
-	cost = 10
+	cost = 4
 	category = staple
 	
 	prestige_factor = 1
 	
-	traded_quantity = 200
+	traded_quantity = 2000
 	convoy_cost_multiplier = 0.25
 	
 	#consumption_tax_cost = 300
@@ -367,12 +367,12 @@ fabric = {
 
 wood = { #Wood
 	texture = "gfx/interface/icons/goods_icons/wood.dds"
-	cost = 10
+	cost = 5
 	category = staple
 	
 	prestige_factor = 1
 	
-	traded_quantity = 200
+	traded_quantity = 2000
 	convoy_cost_multiplier = 0.25
 	
 	#consumption_tax_cost = 300
@@ -380,80 +380,80 @@ wood = { #Wood
 
 tea = {
 	texture = "gfx/interface/icons/goods_icons/tea.dds"
-	cost = 15
+	cost = 5
 	category = luxury
 	
 	obsession_chance = 1.5
 	prestige_factor = 1
 	convoy_cost_multiplier = 0.75
-	traded_quantity = 100
+	traded_quantity = 1000
 }
 
 coffee = {
 	texture = "gfx/interface/icons/goods_icons/coffee.dds"
-	cost = 15
+	cost = 5
 	category = luxury
 	
 	obsession_chance = 1.5
 	prestige_factor = 1
 	convoy_cost_multiplier = 0.75
-	traded_quantity = 100
+	traded_quantity = 1000
 }
 
 tobacco = {
 	texture = "gfx/interface/icons/goods_icons/tobacco.dds"
-	cost = 15
+	cost = 5
 	category = luxury
 	
 	obsession_chance = 1.5
 	prestige_factor = 1
 	convoy_cost_multiplier = 0.75
-	traded_quantity = 100
+	traded_quantity = 1000
 }
 
 liquor = {
 	texture = "gfx/interface/icons/goods_icons/liquor.dds"
-	cost = 30
+	cost = 10
 	category = luxury
 	
 	obsession_chance = 2.0
 	prestige_factor = 1
 	
-	traded_quantity = 160
+	traded_quantity = 1600
 	convoy_cost_multiplier = 0.75
 }
 
 wine = {
 	texture = "gfx/interface/icons/goods_icons/wine.dds"
-	cost = 40
+	cost = 20
 	category = luxury
 	
 	obsession_chance = 2.0
 	prestige_factor = 1
 	convoy_cost_multiplier = 0.75
-	traded_quantity = 100
+	traded_quantity = 1000
 }
 
 opium = {
 	texture = "gfx/interface/icons/goods_icons/opium.dds"
-	cost = 20
+	cost = 5
 	category = luxury
 
 	obsession_chance = 10.0
 	prestige_factor = 2
 	convoy_cost_multiplier = 0.75
-	traded_quantity = 5 # 250
+	traded_quantity = 1000
 }
 
 fruit = {
 	texture = "gfx/interface/icons/goods_icons/fruit.dds"
-	cost = 15
+	cost = 4
 	category = luxury
 	
 	obsession_chance = 1.0
 	prestige_factor = 1
 	
-	traded_quantity = 160
+	traded_quantity = 1600
 	convoy_cost_multiplier = 0.75
 	
 	#consumption_tax_cost = 200
@@ -465,7 +465,7 @@ fruit = {
 
 groceries = { #Processed Food
 	texture = "gfx/interface/icons/goods_icons/groceries.dds"
-	cost = 25
+	cost = 10
 	category = luxury
 	
 	prestige_factor = 1
@@ -478,7 +478,7 @@ groceries = { #Processed Food
 
 clothes = {
 	texture = "gfx/interface/icons/goods_icons/clothes.dds"
-	cost = 15
+	cost = 10
 	category = staple
 	
 	prestige_factor = 1
@@ -491,7 +491,7 @@ clothes = {
 
 furniture = { #Consumer Products
 	texture = "gfx/interface/icons/goods_icons/furniture.dds"
-	cost = 60
+	cost = 30
 	category = staple
 	
 	prestige_factor = 1
@@ -556,7 +556,7 @@ pharmaceuticals = {
 
 industrial_robots = { # Machinery
 	texture = "gfx/interface/icons/goods_icons/industrial_robots.dds"
-	cost = 200
+	cost = 100
 	category = industrial
 	
 	prestige_factor = 2
@@ -584,9 +584,19 @@ industrial_chemicals = { #Industrial Chemicals
 	traded_quantity = 140
 }
 
+fertilizer = {
+	texture = "gfx/interface/icons/goods_icons/fertilizer.dds"
+	cost = 30
+	category = industrial
+
+	prestige_factor = 1
+
+	traded_quantity = 100
+}
+
 plastics = { #Plastics
 	texture = "gfx/interface/icons/goods_icons/plastic.dds"
-	cost = 50
+	cost = 20
 	category = industrial
 	
 	prestige_factor = 1
@@ -595,7 +605,7 @@ plastics = { #Plastics
 
 circuit_boards = { #Electronic Parts
 	texture = "gfx/interface/icons/goods_icons/electronics.dds"
-	cost = 75
+	cost = 80
 	category = industrial
 	
 	prestige_factor = 1
@@ -621,7 +631,7 @@ iron = { #Common Ores
 	category = industrial
 	
 	prestige_factor = 1
-	traded_quantity = 100
+	traded_quantity = 1000
 }
 
 lead = { #Rare Ores
@@ -630,7 +640,7 @@ lead = { #Rare Ores
 	category = industrial
 	
 	prestige_factor = 1
-	traded_quantity = 100
+	traded_quantity = 1000
 }
 
 sulfur = {
@@ -639,7 +649,7 @@ sulfur = {
 	category = industrial
 	
 	prestige_factor = 1
-	traded_quantity = 80
+	traded_quantity = 1000
 }
 
 gold = { #Precious Metals
@@ -648,19 +658,19 @@ gold = { #Precious Metals
 	category = luxury
 	
 	prestige_factor = 2
-	traded_quantity = 10
+	traded_quantity = 100
 	
 	#consumption_tax_cost = 200
 }
 
 coal = {
 	texture = "gfx/interface/icons/goods_icons/coal.dds"
-	cost = 30
+	cost = 20
 	category = industrial
 	
 	prestige_factor = 1
 	
-	traded_quantity = 140
+	traded_quantity = 1000
 	convoy_cost_multiplier = 0.75
 	
 	#consumption_tax_cost = 200
@@ -668,11 +678,11 @@ coal = {
 
 oil = {
 	texture = "gfx/interface/icons/goods_icons/oil.dds"
-	cost = 40
+	cost = 30
 	category = industrial
 	
 	prestige_factor = 1
-	traded_quantity = 200
+	traded_quantity = 1000
 	
 	#consumption_tax_cost = 200
 }
@@ -683,5 +693,5 @@ rubber = {
 	category = industrial
 	
 	prestige_factor = 1
-	traded_quantity = 100
+	traded_quantity = 1000
 }

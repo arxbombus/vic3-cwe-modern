@@ -154,7 +154,9 @@ change_to_dictatorial = {
 		}
 	}
 	if = {
-		limit = { exists = heir }
+		limit = {
+			ruler ?= { NOT = { has_variable = dynastic_ruler_enabled } }
+		}
 		heir ?= {
 			disinherit_character = yes
 		}
@@ -333,6 +335,22 @@ post_change_to_hereditary = {
 			set_character_as_ruler = yes
 		}
 	}
+	#Restore Dynastic Heirs
+	if = {
+		limit = { is_a_dynastic_government = yes }
+		random_character_in_void = {
+			limit = { 
+				has_variable = dynastic_ruler_enabled
+				culture ?= { is_primary_culture_of = ROOT }
+			}
+			free_character_from_void = yes
+			save_scope_as = saved_character_scope
+		}
+		if = {
+			limit = { exists = scope:saved_character_scope }
+			set_heir = scope:saved_character_scope
+		}
+	}
 }
 
 change_to_regency = {
@@ -403,11 +421,21 @@ change_to_elective_monarchy = {
 		limit = {
 			has_law_or_variant = law_type:law_HOS_monarch
 			NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
-			ruler_is_governor_general = no
-			is_a_colonial_government = no
 			shares_same_monarch = no
 		}
 		set_variable = { name = hide_ruler_change_notification days = 3 }
+		
+		#Generate Elective Monarchs
+		heir ?= {
+			if = {
+				limit = { NOT = { has_role = character_role_monarch_elective } }
+				add_character_role = character_role_monarch_elective
+			}
+			disinherit_character = yes
+		}
+		generate_elective_monarchs_for_country = yes
+		
+		#Select Elective Monarch
 		if = {
 			limit = {
 				any_scope_character = {
@@ -429,7 +457,6 @@ change_to_elective_monarchy = {
 						has_role = character_role_prince
 					}
 				}
-				set_character_as_ruler = yes
 				set_character_as_monarch = yes
 			}
 		}
@@ -450,6 +477,7 @@ change_to_elective_monarchy = {
 				owner ?= { set_heir = scope:THIS_scope }
 			}
 		}
+		
 	}
 	if = {
 		limit = {

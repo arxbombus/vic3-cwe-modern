@@ -32,14 +32,14 @@ gov_nationalist_dictatorship_dynastic = { #Nationalist Dictatorship (Dynastic)
 		}
 		
 		#Dynastic Politics
-		ruler ?= { has_variable = dynastic_ruler_enabled }
+		has_dynastic_ruler = yes
 	}
 	
 	on_government_type_change = {
-		change_to_dictatorial = yes
+		change_to_hereditary = yes
 	}
 	on_post_government_type_change = {
-		post_change_to_dictatorial = yes
+		post_change_to_hereditary = yes
 	}
 	
 }
@@ -71,7 +71,7 @@ gov_nationalist_dictatorship = { #Nationalist Dictatorship
 		}
 		
 		#Dynastic Politics
-		NOT = { ruler ?= { has_variable = dynastic_ruler_enabled } }
+		NOT = { has_dynastic_ruler = yes }
 	}
 	
 	on_government_type_change = {
@@ -111,7 +111,7 @@ gov_nationalist_regime = { #Nationalist Regime
 		}
 		
 		#Dynastic Politics
-		NOT = { ruler ?= { has_variable = dynastic_ruler_enabled } }
+		NOT = { has_dynastic_ruler = yes }
 	}
 	
 	on_government_type_change = {
@@ -154,7 +154,7 @@ gov_nationalist_republic = { #Nationalist Republic
 		}
 		
 		#Dynastic Politics
-		NOT = { ruler ?= { has_variable = dynastic_ruler_enabled } }
+		NOT = { has_dynastic_ruler = yes }
 	}
 	
 	on_government_type_change = {
@@ -198,14 +198,14 @@ gov_nationalist_dictatorship_dynastic_parl = { #Nationalist Dictatorship (Dynast
 		}
 		
 		#Dynastic Politics
-		ruler ?= { has_variable = dynastic_ruler_enabled }
+		has_dynastic_ruler = yes
 	}
 	
 	on_government_type_change = {
-		change_to_dictatorial = yes
+		change_to_hereditary = yes
 	}
 	on_post_government_type_change = {
-		post_change_to_dictatorial = yes
+		post_change_to_hereditary = yes
 	}
 	
 }
@@ -237,7 +237,7 @@ gov_nationalist_dictatorship_parl = { #Nationalist Dictatorship
 		}
 		
 		#Dynastic Politics
-		NOT = { ruler ?= { has_variable = dynastic_ruler_enabled } }
+		NOT = { has_dynastic_ruler = yes }
 	}
 	
 	on_government_type_change = {
@@ -277,7 +277,7 @@ gov_nationalist_regime_parl = { #Nationalist Regime
 		}
 		
 		#Dynastic Politics
-		NOT = { ruler ?= { has_variable = dynastic_ruler_enabled } }
+		NOT = { has_dynastic_ruler = yes }
 	}
 	
 	on_government_type_change = {
@@ -320,7 +320,7 @@ gov_nationalist_republic_parl = { #Nationalist Republic
 		}
 		
 		#Dynastic Politics
-		NOT = { ruler ?= { has_variable = dynastic_ruler_enabled } }
+		NOT = { has_dynastic_ruler = yes }
 	}
 	
 	on_government_type_change = {

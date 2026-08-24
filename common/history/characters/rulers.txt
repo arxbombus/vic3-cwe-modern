@@ -1165,6 +1165,14 @@ CHARACTERS = {
 				reserved
 				expensive_tastes
 			}
+			on_created = {
+				set_variable = bao_dai
+				set_variable = former_elective_monarch
+				set_variable = prince_renounced_throne
+				set_variable = dynastic_ruler_enabled
+				#set_character_as_regent = yes
+				set_character_as_royal = yes
+			}
 		}
 	}	
 	c:CAM = {
@@ -1182,7 +1190,10 @@ CHARACTERS = {
 				brave
 				tactful
 			}
-			on_created = { set_variable = norodom_sihanouk }
+			on_created = { 
+				set_variable = norodom_sihanouk
+				set_character_as_monarch = yes
+			}
 		}
 	}
 	c:AFG = {

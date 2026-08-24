@@ -26,6 +26,34 @@ je_cabinet = {
 
 	immediate = {
 	
+		#Ruler correction
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_HOG_prime_minister
+				ruler ?= {
+					NOT = { has_role = character_role_head_of_government }
+				}
+			}
+			ruler ?= { set_character_as_head_of_government = yes }
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_law_or_variant = law_type:law_HOS_president
+					has_law_or_variant = law_type:law_HOS_nationalist_leader
+					has_law_or_variant = law_type:law_HOS_communist_leader
+					has_law_or_variant = law_type:law_HOS_religious_leader
+				}
+				NOT = { has_law_or_variant = law_type:law_HOG_prime_minister }
+				is_a_colonial_subject_colony_gov = no
+				shares_same_head_of_state_republic = no
+				ruler ?= {
+					NOT = { has_role = character_role_head_of_state }
+				}
+			}
+			ruler ?= { set_character_as_head_of_state = yes }
+		}
+	
 		#Mark ruler
 		ruler ?= {
 			save_scope_as = ruler_scope
@@ -56,6 +84,26 @@ je_cabinet = {
 		OR = {
 			scope:ruler_scope ?= { is_ruler_of_own_country = no }
 			NOT = { exists = scope:ruler_scope }
+			AND = {
+				has_law_or_variant = law_type:law_HOG_prime_minister
+				scope:ruler_scope ?= {
+					NOT = { has_role = character_role_head_of_government }
+				}
+			}
+			AND = {
+				OR = {
+					has_law_or_variant = law_type:law_HOS_president
+					has_law_or_variant = law_type:law_HOS_nationalist_leader
+					has_law_or_variant = law_type:law_HOS_communist_leader
+					has_law_or_variant = law_type:law_HOS_religious_leader
+				}
+				has_law_or_variant = law_type:law_HOG_prime_minister
+				shares_same_monarch = no
+				is_a_colonial_subject_colony_gov = no
+				scope:ruler_scope ?= {
+					NOT = { has_role = character_role_head_of_state }
+				}
+			}
 		}
 		
 	}
@@ -103,6 +151,21 @@ je_cabinet = {
 		remove_variable = has_bipartisan_plan
 		every_interest_group = {
 			remove_variable = bipartisan_participant
+		}
+		
+		#Clean up heads of government
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_HOG_none
+			}
+			every_scope_character = {
+				limit = { has_role = character_role_head_of_government }
+				remove_character_role = character_role_head_of_government
+			}
+			every_scope_character = {
+				limit = { has_role = character_role_head_of_state }
+				remove_character_role = character_role_head_of_state
+			}
 		}
 		
 	}

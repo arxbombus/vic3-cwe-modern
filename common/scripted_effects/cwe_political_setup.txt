@@ -524,6 +524,11 @@ effect_starting_politics_constitutional_unitary_state = {
 	activate_law = law_type:law_unitary_state
 }
 
+effect_starting_politics_constitutional_semi_unitary_state = {
+	activate_law = law_type:law_constitutional_supremacy
+	activate_law = law_type:law_devolved_state
+}
+
 effect_starting_politics_parliamentary_unitary_state = {
 	activate_law = law_type:law_legislative_supremacy
 	activate_law = law_type:law_unitary_state
@@ -775,7 +780,7 @@ effect_starting_politics_high_corruption = {
 	activate_law = law_type:law_politicised_judiciary
 	activate_law = law_type:law_nepotistic_cabinet
 	activate_law = law_type:law_politicised_bureaucrats
-	activate_law = law_type:law_very_high_anti_corruption
+	activate_law = law_type:law_very_low_anti_corruption
 	activate_law = law_type:law_weak_financial_regulations
 	activate_law = law_type:law_weak_company_regulations
 	activate_law = law_type:law_pro_industry_regulations
@@ -1468,5 +1473,41 @@ effect_rehabilitate_convicted_character = {
 		}
 		
 	}
+
+}
+
+set_character_as_head_of_government = {
+	
+	owner ?= { 
+		every_scope_character = {
+			limit = { has_role = character_role_head_of_government }
+			remove_character_role = character_role_head_of_government
+		}
+	}
+	add_character_role = character_role_head_of_government
+
+}
+
+set_character_as_head_of_state = {
+	
+	owner ?= {
+		every_scope_character = {
+			limit = { has_role = character_role_head_of_state }
+			remove_character_role = character_role_head_of_state
+		}
+	}
+	add_character_role = character_role_head_of_state
+
+}
+
+set_character_as_reserved_powers_holder = {
+	
+	owner ?= {
+		every_scope_character = {
+			limit = { has_role = character_role_reserved_powers_holder }
+			remove_character_role = character_role_reserved_powers_holder
+		}
+	}
+	add_character_role = character_role_reserved_powers_holder
 
 }

@@ -28,14 +28,14 @@
 		}
 		
 		#Dynastic Politics
-		ruler ?= { has_variable = dynastic_ruler_enabled }
+		has_dynastic_ruler = yes
 	}
 	
 	on_government_type_change = {
-		change_to_dictatorial = yes
+		change_to_hereditary = yes
 	}
 	on_post_government_type_change = {
-		post_change_to_dictatorial = yes
+		post_change_to_hereditary = yes
 	}
 	
 }
@@ -67,7 +67,7 @@ gov_parliamentary_dictatorship = {
 		}
 		
 		#Dynastic Politics
-		NOT = { ruler ?= { has_variable = dynastic_ruler_enabled } }
+		NOT = { has_dynastic_ruler = yes }
 	}
 	
 	on_government_type_change = {
