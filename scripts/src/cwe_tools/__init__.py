@@ -1,1 +1,1 @@
-"""Developer tooling for CWE Modern."""
+"""Developer tooling for the CWE Modern Victoria 3 mod."""

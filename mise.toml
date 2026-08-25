@@ -44,8 +44,3 @@ run = ["uv run ruff check --fix .", "uv run ruff format ."]
 [tasks.check]
 description = "Run all Python checks"
 depends = ["lint", "format-check", "typecheck"]
-
-[tasks."sync-uv"]
-description = "Sync uv dependencies"
-dir = "scripts"
-run = "uv sync"

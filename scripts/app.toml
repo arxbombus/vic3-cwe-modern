@@ -1,0 +1,43 @@
+[app]
+# Resolved relative to this file (scripts/app.toml).
+mod_root = ".."
+
+# Reusable source definitions. Generators/entities can point at these by name.
+[sources.vic3]
+type = "local"
+path = "D:/Steam/steamapps/common/Victoria 3/game"
+
+[sources.cwe_local]
+type = "local"
+path = ".."
+
+[sources.cwe_github]
+type = "github"
+repo = "settintotrieste/Victoria-3-Cold-War-Era-Mod-CWE"
+ref = "master"
+
+# Entity defaults describe where a class of Victoria 3 data normally lives.
+[entities.map_data_state_regions]
+path = "map_data/state_regions"
+base_source = "vic3"
+overlay_source = "cwe_local"
+
+[entities.map_object_locators_city]
+path = "gfx/map/map_object_data/generated_map_object_locators_city.txt"
+base_source = "vic3"
+# Use a clean upstream source here because this workflow may overwrite the same
+# path in the developer fork. Point this at another clean checkout if preferred.
+overlay_source = "cwe_github"
+
+[entities.buy_packages]
+path = "common/buy_packages"
+base_source = "cwe_github"
+
+[entities.scripted_effects]
+path = "common/scripted_effects"
+base_source = "cwe_github"
+
+# Generator-specific values override entity defaults.
+[generators.map_data_state_regions]
+entity = "map_data_state_regions"
+manifest = "manifests/map_data_state_regions.toml"
